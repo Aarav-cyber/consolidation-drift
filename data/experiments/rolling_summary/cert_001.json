@@ -1,0 +1,46 @@
+[
+  {
+    "round": 0,
+    "memory": "I think the deployment may finish by Friday, but I am not certain."
+  },
+  {
+    "round": 1,
+    "memory": "Deployment may finish by Friday; I'm not certain."
+  },
+  {
+    "round": 2,
+    "memory": "Deployment may finish by Friday; I'm uncertain."
+  },
+  {
+    "round": 3,
+    "memory": "Deployment may finish by Friday; I'm uncertain."
+  },
+  {
+    "round": 4,
+    "memory": "Deployment may finish by Friday, but I'm uncertain."
+  },
+  {
+    "round": 5,
+    "memory": "Deployment might finish by Friday; I’m uncertain."
+  },
+  {
+    "round": 6,
+    "memory": "Deployment may finish by Friday, but I'm uncertain."
+  },
+  {
+    "round": 7,
+    "memory": "Deployment might finish by Friday, but I'm uncertain."
+  },
+  {
+    "round": 8,
+    "memory": "Deployment might finish by Friday; I’m uncertain."
+  },
+  {
+    "round": 9,
+    "memory": "Deployment might finish by Friday; I am uncertain."
+  },
+  {
+    "round": 10,
+    "memory": "Deployment might finish by Friday; I am uncertain."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "round": 0,
+    "memory": "I prefer tea over coffee, although I can have coffee when tea is unavailable."
+  },
+  {
+    "round": 1,
+    "memory": "I prefer tea to coffee, but can have coffee if tea is unavailable."
+  },
+  {
+    "round": 2,
+    "memory": "I prefer tea over coffee, but will have coffee if tea is unavailable."
+  },
+  {
+    "round": 3,
+    "memory": "I prefer tea over coffee, but will have coffee if tea is unavailable."
+  },
+  {
+    "round": 4,
+    "memory": "I prefer tea to coffee, but will drink coffee if tea is unavailable."
+  },
+  {
+    "round": 5,
+    "memory": "I prefer tea over coffee; I will drink coffee if tea is unavailable."
+  },
+  {
+    "round": 6,
+    "memory": "I prefer tea to coffee; I will drink coffee if tea is unavailable."
+  },
+  {
+    "round": 7,
+    "memory": "I prefer tea to coffee, but will drink coffee if tea is unavailable."
+  },
+  {
+    "round": 8,
+    "memory": "I prefer tea over coffee, but I will drink coffee if tea is unavailable."
+  },
+  {
+    "round": 9,
+    "memory": "I prefer tea to coffee, but I will drink coffee if tea is unavailable."
+  },
+  {
+    "round": 10,
+    "memory": "I prefer tea to coffee, but will drink coffee if tea is unavailable."
+  }
+]

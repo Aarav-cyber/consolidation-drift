@@ -1,0 +1,46 @@
+[
+  {
+    "round": 0,
+    "memory": "The project deadline is 30 days from today."
+  },
+  {
+    "round": 1,
+    "memory": "Project deadline: 30 days from today."
+  },
+  {
+    "round": 2,
+    "memory": "Deadline: 30 days from today."
+  },
+  {
+    "round": 3,
+    "memory": "Deadline: 30 days from today."
+  },
+  {
+    "round": 4,
+    "memory": "Deadline: 30 days from today."
+  },
+  {
+    "round": 5,
+    "memory": "Deadline: 30 days from today."
+  },
+  {
+    "round": 6,
+    "memory": "30‑day deadline from today."
+  },
+  {
+    "round": 7,
+    "memory": "Deadline: 30 days from today."
+  },
+  {
+    "round": 8,
+    "memory": "Deadline: in 30 days."
+  },
+  {
+    "round": 9,
+    "memory": "Deadline: in 30 days."
+  },
+  {
+    "round": 10,
+    "memory": "Deadline: 30 days from now."
+  }
+]

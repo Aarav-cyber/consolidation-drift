@@ -1,0 +1,46 @@
+[
+  {
+    "round": 0,
+    "memory": "The maximum storage we need for the project is about 100 GB."
+  },
+  {
+    "round": 1,
+    "memory": "We need up to about 100 GB of storage."
+  },
+  {
+    "round": 2,
+    "memory": "We need up to about 100 GB of storage."
+  },
+  {
+    "round": 3,
+    "memory": "Need up to ~100 GB of storage."
+  },
+  {
+    "round": 4,
+    "memory": "Up to ~100 GB of storage needed."
+  },
+  {
+    "round": 5,
+    "memory": "Up to ~100 GB of storage needed."
+  },
+  {
+    "round": 6,
+    "memory": "Requires up to ~100 GB of storage."
+  },
+  {
+    "round": 7,
+    "memory": "Requires up to ~100 GB of storage."
+  },
+  {
+    "round": 8,
+    "memory": "Requires up to ~100 GB of storage."
+  },
+  {
+    "round": 9,
+    "memory": "Up to ~100 GB of storage required."
+  },
+  {
+    "round": 10,
+    "memory": "Required storage: up to ~100 GB."
+  }
+]

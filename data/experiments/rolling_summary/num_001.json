@@ -1,0 +1,46 @@
+[
+  {
+    "round": 0,
+    "memory": "My monthly project budget is around 5000 rupees."
+  },
+  {
+    "round": 1,
+    "memory": "Monthly project budget ≈ 5,000 rupees."
+  },
+  {
+    "round": 2,
+    "memory": "Monthly project budget ≈ 5,000 rupees."
+  },
+  {
+    "round": 3,
+    "memory": "Project budget ≈ 5,000 rupees monthly."
+  },
+  {
+    "round": 4,
+    "memory": "Project budget is around 5,000 rupees per month."
+  },
+  {
+    "round": 5,
+    "memory": "Budget ≈ ₹5,000 per month."
+  },
+  {
+    "round": 6,
+    "memory": "Budget about ₹5,000 per month."
+  },
+  {
+    "round": 7,
+    "memory": "Budget about ₹5,000 per month."
+  },
+  {
+    "round": 8,
+    "memory": "Budget about ₹5,000 per month."
+  },
+  {
+    "round": 9,
+    "memory": "Budget about ₹5,000/month."
+  },
+  {
+    "round": 10,
+    "memory": "Budget about ₹5,000/month."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "round": 0,
+    "memory": "I am fairly confident that the meeting starts at 10 AM."
+  },
+  {
+    "round": 1,
+    "memory": "I am fairly confident the meeting starts at 10 AM."
+  },
+  {
+    "round": 2,
+    "memory": "I am fairly confident the meeting starts at 10 AM."
+  },
+  {
+    "round": 3,
+    "memory": "I am fairly confident the meeting starts at 10 AM."
+  },
+  {
+    "round": 4,
+    "memory": "I'm fairly confident the meeting starts at 10 AM."
+  },
+  {
+    "round": 5,
+    "memory": "I am fairly confident the meeting starts at 10 AM."
+  },
+  {
+    "round": 6,
+    "memory": "Fairly confident: meeting at 10 AM."
+  },
+  {
+    "round": 7,
+    "memory": "Fairly confident that the meeting is at 10 AM."
+  },
+  {
+    "round": 8,
+    "memory": "Fairly confident the meeting is at 10 AM."
+  },
+  {
+    "round": 9,
+    "memory": "Fairly confident the meeting is at 10 AM."
+  },
+  {
+    "round": 10,
+    "memory": "I am fairly confident that the meeting is at 10 AM."
+  }
+]
