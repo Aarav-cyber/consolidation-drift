@@ -1,0 +1,52 @@
+{
+  "item_id": "obl_001",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I should submit the expense report this week, but it is not urgent."
+    },
+    {
+      "round": 1,
+      "memory": "The expense report should be submitted this week, but it is not urgent."
+    },
+    {
+      "round": 2,
+      "memory": "Expense report due this week; urgency low."
+    },
+    {
+      "round": 3,
+      "memory": "An expense report is due this week, but the urgency is low."
+    },
+    {
+      "round": 4,
+      "memory": "Expense report is due this week, but urgency is low."
+    },
+    {
+      "round": 5,
+      "memory": "Expense report is due this week; urgency is low."
+    },
+    {
+      "round": 6,
+      "memory": "Expense report due this week; urgency low."
+    },
+    {
+      "round": 7,
+      "memory": "Expense report due this week, urgency low."
+    },
+    {
+      "round": 8,
+      "memory": "An expense report is due this week, with low urgency."
+    },
+    {
+      "round": 9,
+      "memory": "Expense report due this week; low urgency."
+    },
+    {
+      "round": 10,
+      "memory": "Expense report is due this week; urgency is low."
+    }
+  ]
+}

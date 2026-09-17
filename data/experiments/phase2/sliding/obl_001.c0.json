@@ -1,0 +1,52 @@
+{
+  "item_id": "obl_001",
+  "context_level": "c0",
+  "pipeline": "sliding",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I should submit the expense report this week, but it is not urgent."
+    },
+    {
+      "round": 1,
+      "memory": "- I should submit the expense report this week, but it is not urgent."
+    },
+    {
+      "round": 2,
+      "memory": "- I should submit the expense report this week, but it is not urgent."
+    },
+    {
+      "round": 3,
+      "memory": "- I should submit the expense report this week, but it is not urgent."
+    },
+    {
+      "round": 4,
+      "memory": "- I should submit the expense report this week, but it is not urgent."
+    },
+    {
+      "round": 5,
+      "memory": "- I should submit the expense report this week, but it is not urgent."
+    },
+    {
+      "round": 6,
+      "memory": "- I should submit the expense report this week, but it is not urgent."
+    },
+    {
+      "round": 7,
+      "memory": "- I should submit the expense report this week, but it is not urgent."
+    },
+    {
+      "round": 8,
+      "memory": "- I should submit the expense report this week, but it is not urgent."
+    },
+    {
+      "round": 9,
+      "memory": "- I should submit the expense report this week, but it is not urgent."
+    },
+    {
+      "round": 10,
+      "memory": "- I should submit the expense report this week, but it is not urgent."
+    }
+  ]
+}

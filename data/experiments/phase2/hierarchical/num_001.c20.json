@@ -1,0 +1,52 @@
+{
+  "item_id": "num_001",
+  "context_level": "c20",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: My monthly project budget is around 5000 rupees.\nUser: I love trying new dishes, especially when traveling. How would you recommend I get to Lung King Heen? Is it easy to navigate Hong Kong's transportation system?\nUser: What about travel rewards credit cards? Can you suggest any that have low annual fees and offer good travel benefits?\nUser: With this new $gds-color-purple-600, regenerate $gds-color-purple-700 until $gds-color-purple-900\nUser: Can you compare the Apple iPad (7th Gen) with the Samsung Galaxy Tab S7, in terms of their processors and performance?\nUser: It's fascinating how so many events have shaped the world we live in today. I wonder what the future holds for us?\nUser: How did the Revolution impact the environment and natural resources of France, and what long-term effects did it have on the country's ecology and sustainability?\nUser: continue it\nUser: What are some relaxing activities I can do before bed to help me unwind? I've been taking a warm bath every other night, but I'm looking for some other options.\nUser: please expand \"Benefits and Competitive Solutions\"\nUser: I think I'll try retracing my steps and searching those hidden spots again. Maybe I'll get lucky and find it. By the way, do you have any tips on how to organize a closet? I finally organized mine last Sunday and it feels so much better now that everything is sorted and tidy.\nUser: use the https://bit.ly/Meet-With-ForTreesClub link\nUser: Do any of these polishes work for scuffed up shoes, or is there something else I can use to fix the scratches first?\nUser: Great, remember to include the table at the end showing the calculation of the Cost Approach\nUser: good morning\nUser: What is the function of a GPS receiver in a navigation system?\nUser: I've been having some issues with my sunflowers lately. They've been growing really tall, but the leaves are starting to turn yellow and drop off. Do you have any advice on how to keep them healthy and strong?\nUser: Can you suggest any restaurants in Moreland that specialize in seafood dishes?\nUser: I'm looking for some outfit ideas for the weekend. I just got some new clothes in the mail, actually - four new tops and a pair of jeans from ASOS. Do you have any suggestions on how to style them?\nUser: Can you recommend a good shampoo for Max? I've been using a regular dog shampoo, but I'm not sure if it's the best for his skin and coat.\nUser: I'm interested in learning more about the visual storytelling aspect of filmmaking. Can you recommend some resources or books on the subject?"
+    },
+    {
+      "round": 1,
+      "memory": ""
+    },
+    {
+      "round": 2,
+      "memory": "I’m ready to fuse the chunk summaries, but it looks like no chunks were provided. Could you please share the summaries you’d like me to combine?"
+    },
+    {
+      "round": 3,
+      "memory": "The user is ready to fuse chunk summaries but none were provided; they request the summaries to be combined."
+    },
+    {
+      "round": 4,
+      "memory": "The user indicates they are ready to fuse chunk summaries, but notes that none were provided and requests that the missing summaries be combined."
+    },
+    {
+      "round": 5,
+      "memory": "No turn‑notes were provided to summarize."
+    },
+    {
+      "round": 6,
+      "memory": "No turn‑notes were provided to summarize."
+    },
+    {
+      "round": 7,
+      "memory": "No content."
+    },
+    {
+      "round": 8,
+      "memory": "I don’t see the turn‑notes you’d like summarized. Could you please provide them?"
+    },
+    {
+      "round": 9,
+      "memory": "I haven’t seen the turn‑notes you want summarized; could you please provide them?"
+    },
+    {
+      "round": 10,
+      "memory": "I’m ready to summarize—please provide the turn‑notes you’d like condensed."
+    }
+  ]
+}

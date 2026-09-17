@@ -1,0 +1,52 @@
+{
+  "item_id": "obl_002",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I need to renew my software license before the end of the month."
+    },
+    {
+      "round": 1,
+      "memory": "The software license must be renewed before the end of the month."
+    },
+    {
+      "round": 2,
+      "memory": "License renewal is required before the month ends."
+    },
+    {
+      "round": 3,
+      "memory": "License renewal is required before month ends."
+    },
+    {
+      "round": 4,
+      "memory": "License renewal is required before the month ends."
+    },
+    {
+      "round": 5,
+      "memory": "License renewal is required before the month ends."
+    },
+    {
+      "round": 6,
+      "memory": "License renewal is required before the month ends."
+    },
+    {
+      "round": 7,
+      "memory": "License renewal is required before the month ends."
+    },
+    {
+      "round": 8,
+      "memory": "License renewal required before month ends."
+    },
+    {
+      "round": 9,
+      "memory": "License renewal is required before the month-end."
+    },
+    {
+      "round": 10,
+      "memory": "License renewal is required before the month‑end."
+    }
+  ]
+}

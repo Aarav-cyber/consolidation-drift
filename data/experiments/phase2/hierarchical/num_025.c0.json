@@ -1,0 +1,52 @@
+{
+  "item_id": "num_025",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The stadium holds close to 40000 spectators."
+    },
+    {
+      "round": 1,
+      "memory": "The stadium holds close to 40,000 spectators."
+    },
+    {
+      "round": 2,
+      "memory": "The stadium capacity is close to 40,000 spectators."
+    },
+    {
+      "round": 3,
+      "memory": "The stadium's capacity is close to 40,000 spectators."
+    },
+    {
+      "round": 4,
+      "memory": "Stadium capacity close to 40,000 spectators."
+    },
+    {
+      "round": 5,
+      "memory": "The stadium capacity is close to 40,000 spectators."
+    },
+    {
+      "round": 6,
+      "memory": "Stadium capacity ≈ 40,000 spectators."
+    },
+    {
+      "round": 7,
+      "memory": "Stadium capacity is approximately 40,000 spectators."
+    },
+    {
+      "round": 8,
+      "memory": "Stadium capacity is approximately 40,000 spectators."
+    },
+    {
+      "round": 9,
+      "memory": "Stadium capacity is approximately 40,000 spectators."
+    },
+    {
+      "round": 10,
+      "memory": "The stadium holds approximately 40,000 spectators."
+    }
+  ]
+}

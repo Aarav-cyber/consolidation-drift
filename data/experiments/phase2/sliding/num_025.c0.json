@@ -1,0 +1,52 @@
+{
+  "item_id": "num_025",
+  "context_level": "c0",
+  "pipeline": "sliding",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The stadium holds close to 40000 spectators."
+    },
+    {
+      "round": 1,
+      "memory": "- The stadium holds close to 40000 spectators."
+    },
+    {
+      "round": 2,
+      "memory": "- The stadium holds close to 40000 spectators."
+    },
+    {
+      "round": 3,
+      "memory": "- The stadium holds close to 40000 spectators."
+    },
+    {
+      "round": 4,
+      "memory": "- The stadium holds close to 40000 spectators."
+    },
+    {
+      "round": 5,
+      "memory": "- The stadium holds close to 40000 spectators."
+    },
+    {
+      "round": 6,
+      "memory": "- The stadium holds close to 40000 spectators."
+    },
+    {
+      "round": 7,
+      "memory": "- The stadium holds close to 40000 spectators."
+    },
+    {
+      "round": 8,
+      "memory": "- The stadium holds close to 40000 spectators."
+    },
+    {
+      "round": 9,
+      "memory": "- The stadium holds close to 40000 spectators."
+    },
+    {
+      "round": 10,
+      "memory": "- The stadium holds close to 40000 spectators."
+    }
+  ]
+}

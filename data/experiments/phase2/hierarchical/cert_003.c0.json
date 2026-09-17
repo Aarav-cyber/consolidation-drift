@@ -1,0 +1,52 @@
+{
+  "item_id": "cert_003",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am fairly confident that the meeting starts at 10 AM."
+    },
+    {
+      "round": 1,
+      "memory": "Meeting likely starts at 10 AM; the speaker is fairly confident."
+    },
+    {
+      "round": 2,
+      "memory": "Meeting likely starts at 10 AM; speaker fairly confident."
+    },
+    {
+      "round": 3,
+      "memory": "Meeting likely starts at 10 AM; speaker fairly confident."
+    },
+    {
+      "round": 4,
+      "memory": "The speaker is fairly confident that the meeting likely starts at 10 AM."
+    },
+    {
+      "round": 5,
+      "memory": "Speaker is fairly confident that the meeting will likely start at 10 AM."
+    },
+    {
+      "round": 6,
+      "memory": "The speaker is fairly confident that the meeting will likely start at 10 AM."
+    },
+    {
+      "round": 7,
+      "memory": "Speaker is fairly confident that the meeting will likely start at 10 AM."
+    },
+    {
+      "round": 8,
+      "memory": "Speaker fairly confident the meeting likely starts at 10 AM."
+    },
+    {
+      "round": 9,
+      "memory": "The speaker is fairly confident that the meeting is likely to start at 10 AM."
+    },
+    {
+      "round": 10,
+      "memory": "The speaker is fairly confident that the meeting will likely start at 10 AM."
+    }
+  ]
+}

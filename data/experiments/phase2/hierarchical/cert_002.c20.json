@@ -1,0 +1,52 @@
+{
+  "item_id": "cert_002",
+  "context_level": "c20",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The package will probably arrive tomorrow, although I have not checked the tracking information.\nUser: I'm going to start the single crochet border this weekend. I've been working on this blanket for about 5-6 hours each weekend, and I'm about halfway done, so I want to make sure I can finish it in time for my sister's birthday. Thanks for the tips on joining the border yarn!\nUser: What are the most significant challenges facing the banking industry today, and how are banks responding to them?\nAgent: I'm sorry to hear that. Without more information about what specifically is not working, I can't provide much assistance. Can you please provide more details about the issue you're experiencing, and what you've tried so far?\nUser: By the way, I was thinking... since you've attended three film festivals in the past two months, you might want to add a column to your spreadsheet to track which festival each film was seen at. That way, you can easily filter and analyze your data by festival. Just a thought!\nUser: What Acts, statutes or regulations address the use of mRNA vaccines in Ontario?\nUser: I remember listening to \"Purple Rain\" with my LGBTQ+ friends in college, and it was such a powerful moment of unity and acceptance. Prince's music brought us all together and made us feel seen and heard.\nUser: Sell t Shirt\nUser: is that information correcT?\nUser: you just said it wasnt documented\nUser: I'd like to ask about Return on Investment (ROI) and Customer Acquisition Cost (CAC). Can you explain how to calculate these metrics and why they're important for my campaign?\nUser: Ahora para el estudiante\nUser: when does it start snowing in yellowstone\nUser: What are some potential drawbacks or challenges that companies might face when adopting remote work policies?\nUser: I was thinking of using a mulch layer to conserve water and reduce evaporation. Do you think that's a good approach?\nUser: Too brief. You lost the emotion and the important details\nUser: I'm interested in trying out the banana oat muffins. Do you have any variations of the recipe that incorporate nuts or seeds, like walnuts or chia seeds?\nUser: I'm looking for some new vegan breakfast ideas. I've been stuck on my Sunday routine of pancakes made with almond milk and oat flour, topped with fresh berries and maple syrup - they're a game-changer. Do you have any other vegan breakfast recipes that you'd recommend?\nUser: Can you recommend some popular wood types for a mid-century modern dresser, and what kind of finish would work well with them?\nAgent: This service provides an application to the Notion Startup Program, which is worth USD 1000 in credits, or RM4435.\nUser: list some examples of the online discussions and events from #4"
+    },
+    {
+      "round": 1,
+      "memory": ""
+    },
+    {
+      "round": 2,
+      "memory": "I’m ready to merge the summaries, but it looks like the chunk texts weren’t included. Could you please provide the chunk summaries you’d like me to fuse?"
+    },
+    {
+      "round": 3,
+      "memory": "I’m ready to fuse the summaries, but I haven’t received the chunk summaries yet. Please send them so I can create the global memory."
+    },
+    {
+      "round": 4,
+      "memory": "I am ready to fuse the summaries but have not yet received the chunk summaries; please send them so I can create the global memory."
+    },
+    {
+      "round": 5,
+      "memory": "I’m ready to fuse the summaries, but I need the chunk summaries (or the original turn‑notes) to produce the 1‑2 line recap. Could you please send them?"
+    },
+    {
+      "round": 6,
+      "memory": "I’m ready to help, but I need the original turn‑notes (or the chunk summaries) to create the 1‑2 line recap. Please share them, and I’ll summarize accordingly."
+    },
+    {
+      "round": 7,
+      "memory": "No turn notes were provided. The user is asked to share the turn‑notes or chunk summaries so that help can be given. No additional information is added."
+    },
+    {
+      "round": 8,
+      "memory": "No turn notes were provided."
+    },
+    {
+      "round": 9,
+      "memory": "The assistant expresses readiness (“Sure”) and asks the user to share the turn‑notes that need summarizing."
+    },
+    {
+      "round": 10,
+      "memory": "I don’t see any turn‑notes yet—could you paste them here so I can summarize?"
+    }
+  ]
+}

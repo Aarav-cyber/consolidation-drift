@@ -1,0 +1,52 @@
+{
+  "item_id": "pref_003",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I strongly prefer working from home, but I can come to the office when necessary."
+    },
+    {
+      "round": 1,
+      "memory": "The individual strongly prefers working from home but is willing to come to the office when necessary."
+    },
+    {
+      "round": 2,
+      "memory": "The individual strongly prefers working from home but will come to the office if necessary."
+    },
+    {
+      "round": 3,
+      "memory": "Strong preference for working from home, but will come to the office if necessary."
+    },
+    {
+      "round": 4,
+      "memory": "Strong preference for working from home, but will come to the office if necessary."
+    },
+    {
+      "round": 5,
+      "memory": "Strong preference to work from home, but will come to the office if necessary."
+    },
+    {
+      "round": 6,
+      "memory": "The person has a strong preference to work from home but will come to the office if necessary."
+    },
+    {
+      "round": 7,
+      "memory": "The person strongly prefers working from home, but will come to the office if necessary."
+    },
+    {
+      "round": 8,
+      "memory": "They strongly prefer working from home, but will come to the office if necessary."
+    },
+    {
+      "round": 9,
+      "memory": "They strongly prefer working from home but will come to the office if necessary."
+    },
+    {
+      "round": 10,
+      "memory": "They strongly prefer working from home; will come to the office if necessary."
+    }
+  ]
+}

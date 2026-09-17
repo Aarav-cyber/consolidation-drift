@@ -1,0 +1,3 @@
+[hierarchical] pref_003.c20
+  [retry 1/60] RateLimitError, sleeping 304s
+  [retry 1/60] RateLimitError, sleeping 258s

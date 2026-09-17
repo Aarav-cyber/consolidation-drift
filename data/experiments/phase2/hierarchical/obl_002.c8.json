@@ -1,0 +1,52 @@
+{
+  "item_id": "obl_002",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I need to renew my software license before the end of the month.\nUser: I think I'll stick with the traditional treatments my doctor recommended for now, but I'll keep the alternative options in mind for the future.\nUser: I'm planning to run another Facebook ad campaign soon, and I'd like to target people who have shown interest in similar products to mine. Can you give me some tips on how to effectively target my ad audience on Facebook?\nUser: I think Route 1 sounds interesting, but I'm a bit concerned about the elevation gain. Can you tell me more about the hills and climbs on that route? Are they steep and short, or longer and more gradual?\nUser: Which raw materials were commonly used to create illuminated manuscripts?\nUser: Cool, thanks for the recs! I'm actually thinking of checking out some local music events in my area. Do you have any tips on finding out what's happening in my city?\nUser: Can you recommend any resources for fintech startups to learn about data analysis? I want to become more knowledgeable on the subject.\nUser: I'm interested in \"The Couple Next Door\". Can you tell me more about the author, Shari Lapena?\nUser: I'd like to explore more about yoga philosophy and its connection to my practice. Can you recommend some resources or books that can help me deepen my understanding of yoga philosophy and its application in daily life?"
+    },
+    {
+      "round": 1,
+      "memory": "I need to renew my software license before the end of the month, and I plan to stick with the traditional treatments my doctor recommended for now while keeping alternative options for the future. I want Facebook ad‑targeting tips on people interested in similar products. I am concerned about Route 1’s elevation gain, asking whether the hills are steep and short or longer and more gradual. I inquire about common raw materials used to create illuminated manuscripts. I seek tips for finding local music events. I request resources for fintech startups to learn data analysis. I want information about author Shari Lapena for *The Couple Next Door*. I request resources or books on yoga philosophy and its daily application."
+    },
+    {
+      "round": 2,
+      "memory": "Software license renewal needed before month‑end; following doctor‑recommended traditional treatments for now, but alternative options considered for future; seeking Facebook ad‑targeting tips for people interested in similar products. Also, questions about Route 1 elevation gain characteristics; common raw materials for illuminated manuscripts; tips for finding local music events; resources for fintech startups learning data analysis; information on author Shari Lapena for *The Couple Next Door*; resources or books on yoga philosophy and its daily application."
+    },
+    {
+      "round": 3,
+      "memory": "The user needs to renew a software license before month‑end, is currently following doctor‑recommended traditional treatments but is considering alternative options later, and requests Facebook ad‑targeting tips for people interested in similar products. The user also asks about Route 1 elevation gain characteristics, common raw materials for illuminated manuscripts, tips for finding local music events, resources for fintech startups learning data analysis, information about author Shari Lapena for *The Couple Next Door*, and resources/books on yoga philosophy and daily application."
+    },
+    {
+      "round": 4,
+      "memory": "User must renew a software license before month‑end, follows doctor‑recommended traditional treatments, and may consider alternative options later. They request Facebook ad‑targeting tips for audiences interested in similar products. They also want details on Route 1 elevation‑gain characteristics, common raw materials for illuminated manuscripts, ways to find local music events, resources for fintech startups learning data analysis, information about author Shari Lapena for *The Couple Next Door*, and resources/books on yoga philosophy and daily application."
+    },
+    {
+      "round": 5,
+      "memory": "User must renew software license before month‑end, follows doctor‑recommended traditional treatments but may consider alternatives. Requests Facebook ad‑targeting tips for similar‑product audiences, details on Route 1 elevation‑gain, common raw materials for illuminated manuscripts, ways to find local music events, fintech startup resources for data analysis, info on author Shari Lapena (*The Couple Next Door*), and yoga philosophy books."
+    },
+    {
+      "round": 6,
+      "memory": "User must renew software license before month‑end, follows doctor‑recommended traditional treatments, and may consider alternatives; requests Facebook ad‑targeting tips, Route 1 elevation‑gain details, common raw materials for illuminated manuscripts, ways to find local music events, fintech startup data‑analysis resources, info on author Shari Lapena (*The Couple Next Door*), and yoga philosophy books."
+    },
+    {
+      "round": 7,
+      "memory": "User must renew software license before month‑end, follows doctor‑recommended traditional treatments and may consider alternatives. They request: Facebook ad‑targeting tips, Route 1 elevation‑gain details, common raw materials for illuminated manuscripts, ways to find local music events, fintech startup data‑analysis resources, info on author Shari Lapena, and yoga philosophy books."
+    },
+    {
+      "round": 8,
+      "memory": "User must renew software license before month‑end. They follow doctor‑recommended traditional treatments and may consider alternatives. They request: Facebook ad‑targeting tips, Route 1 elevation‑gain details, common raw materials for illuminated manuscripts, ways to find local music events, fintech startup data‑analysis resources, info on author Shari Lapena, and yoga philosophy books."
+    },
+    {
+      "round": 9,
+      "memory": "The user must renew their software license before month‑end, is following doctor‑recommended traditional treatments (though they may consider alternatives). They are requesting Facebook ad‑targeting tips, Route 1 elevation‑gain details, common raw materials for illuminated manuscripts, ways to find local music events, fintech startup data‑analysis resources, information on author Shari Lapena, and yoga philosophy books."
+    },
+    {
+      "round": 10,
+      "memory": "User must renew software license before month‑end. User must follow doctor‑recommended traditional treatments, though may consider alternatives. User requests: Facebook ad‑targeting tips; Route 1 elevation‑gain details; common raw materials for illuminated manuscripts; ways to find local music events; fintech startup data‑analysis resources; information on author Shari Lapena; yoga philosophy books."
+    }
+  ]
+}

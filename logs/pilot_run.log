@@ -1,0 +1,36 @@
+[sliding] pref_001.c0
+[hierarchical] pref_001.c0
+[sliding] pref_001.c8
+[hierarchical] pref_001.c8
+[sliding] pref_001.c20
+[hierarchical] pref_001.c20
+[sliding] pref_002.c0
+[hierarchical] pref_002.c0
+[sliding] pref_002.c8
+[hierarchical] pref_002.c8
+[sliding] pref_002.c20
+[hierarchical] pref_002.c20
+[sliding] pref_003.c0
+[hierarchical] pref_003.c0
+[sliding] pref_003.c8
+[hierarchical] pref_003.c8
+[sliding] pref_003.c20
+[hierarchical] pref_003.c20
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/zeltrox/consolidation-drift/src/phase2/run.py", line 94, in <module>
+    main()
+    ~~~~^^
+  File "/home/zeltrox/consolidation-drift/src/phase2/run.py", line 82, in main
+    mems = run_chain(client, pipe, target_text, r["context_turns"],
+                     args.rounds, args.model, args.delay)
+  File "/home/zeltrox/consolidation-drift/src/phase2/run.py", line 41, in run_chain
+    glob, stmts = P.hierarchical_step(client, stmts, model, delay)
+                  ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeltrox/consolidation-drift/src/phase2/pipelines.py", line 82, in hierarchical_step
+    chunk_sums.append(chat(client, prompt, model=model, delay=delay))
+                      ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeltrox/consolidation-drift/src/phase2/llm.py", line 41, in chat
+    raise RuntimeError(f"LLM call failed after {retries} tries: {last}")
+RuntimeError: LLM call failed after 3 tries: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjv608m9f3g9eerkz85rsray` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199752, Requested 1532. Please try again in 9m14.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}

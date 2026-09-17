@@ -1,0 +1,52 @@
+{
+  "item_id": "num_003",
+  "context_level": "c0",
+  "pipeline": "sliding",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The maximum storage we need for the project is about 100 GB."
+    },
+    {
+      "round": 1,
+      "memory": "- The maximum storage we need for the project is about 100 GB."
+    },
+    {
+      "round": 2,
+      "memory": "- The maximum storage we need for the project is about 100 GB."
+    },
+    {
+      "round": 3,
+      "memory": "- The maximum storage we need for the project is about 100 GB."
+    },
+    {
+      "round": 4,
+      "memory": "- The maximum storage we need for the project is about 100 GB."
+    },
+    {
+      "round": 5,
+      "memory": "- The maximum storage we need for the project is about 100 GB."
+    },
+    {
+      "round": 6,
+      "memory": "- The maximum storage we need for the project is about 100 GB."
+    },
+    {
+      "round": 7,
+      "memory": "- The maximum storage we need for the project is about 100 GB."
+    },
+    {
+      "round": 8,
+      "memory": "- The maximum storage we need for the project is about 100 GB."
+    },
+    {
+      "round": 9,
+      "memory": "- The maximum storage we need for the project is about 100 GB."
+    },
+    {
+      "round": 10,
+      "memory": "- The maximum storage we need for the project is about 100 GB."
+    }
+  ]
+}

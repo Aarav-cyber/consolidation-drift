@@ -1,0 +1,52 @@
+{
+  "item_id": "cert_001",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I think the deployment may finish by Friday, but I am not certain."
+    },
+    {
+      "round": 1,
+      "memory": "I think deployment may finish by Friday, but I'm not certain."
+    },
+    {
+      "round": 2,
+      "memory": "I think deployment may finish by Friday, but I'm not certain."
+    },
+    {
+      "round": 3,
+      "memory": "Deployment may finish by Friday, but I am not certain."
+    },
+    {
+      "round": 4,
+      "memory": "Deployment may finish by Friday, but I'm not certain."
+    },
+    {
+      "round": 5,
+      "memory": "Deployment may finish by Friday, but I’m not certain."
+    },
+    {
+      "round": 6,
+      "memory": "The deployment may finish by Friday, but I’m uncertain."
+    },
+    {
+      "round": 7,
+      "memory": "Deployment may finish Friday; I'm uncertain."
+    },
+    {
+      "round": 8,
+      "memory": "Deployment may finish Friday; I'm uncertain."
+    },
+    {
+      "round": 9,
+      "memory": "Deployment may finish Friday; the situation is uncertain."
+    },
+    {
+      "round": 10,
+      "memory": "Deployment may finish on Friday; the overall situation remains uncertain."
+    }
+  ]
+}

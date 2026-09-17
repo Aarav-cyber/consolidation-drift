@@ -1,0 +1,52 @@
+{
+  "item_id": "pref_003",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I strongly prefer working from home, but I can come to the office when necessary.\nUser: I'm thinking of buying a new gaming keyboard, can you recommend some good options in the mid-range price category?\nUser: I think I'll try out Ta Karamanlidika Tou Fani first. I love trying different types of cheese, so their selection sounds amazing.\nUser: I'm trying to plan out my weekend and was wondering if you could help me set reminders for my brunch plans on Sundays. By the way, I usually wake up at 9:00 AM on weekends, except for last Sunday when I had an earlier brunch and woke up at 10:00 AM.\nUser: I love the idea of infusing vodka with ghost peppers. Do you think it would pair well with a citrus flavor like grapefruit or blood orange?\nUser: That's really interesting! Have any of these solutions been implemented yet?\nUser: I'm excited to start setting up my reading nook and incorporating calming music and aromatherapy into my reading sessions. I think I'll start with some lavender oil and see how it goes. Thanks for the helpful tips and recommendations!\nUser: That makes sense. I guess it really depends on the actor, their style, and the scene they're performing.\nUser: I'm going to start looking for a mentor within my company and keep all of this in mind."
+    },
+    {
+      "round": 1,
+      "memory": "I strongly prefer working from home but can come to the office when necessary. I want mid‑range gaming‑keyboard recommendations. I plan to try cheese at Ta Karamanlidika Tou Fani. I need Sunday brunch reminders, normally at 9:00 AM on weekends, with the last Sunday at 10:00 AM. I’m curious if ghost‑pepper‑infused vodka pairs with grapefruit or blood orange, and I’m wondering whether these solutions have been implemented yet. I’m excited to set up a reading nook with calming music and lavender aromatherapy. I believe it really depends on the actor’s style and scene. I will look for a mentor at work."
+    },
+    {
+      "round": 2,
+      "memory": "User strongly prefers working from home but can come to the office when necessary. They want mid‑range gaming‑keyboard recommendations. They plan to try cheese at Ta Karamanlidika Tou Fani. They need Sunday brunch reminders at 9:00 AM on weekends, with the last reminder at 10:00 AM. They are curious whether ghost‑pepper‑infused vodka pairs with grapefruit or blood orange, wondering if these pairings have been implemented yet. They are excited to set up a reading nook with calming music and lavender aromatherapy. They believe actor style and scene affect the outcome, and will look for a mentor at work."
+    },
+    {
+      "round": 3,
+      "memory": "Strongly prefers working from home but can come to the office when necessary; requests mid‑range gaming keyboard recommendations, plans to try cheese at Ta Karamanlidika Tou Fani, and needs Sunday brunch reminders at 9:00 AM on weekends with a last reminder at 10:00 AM. Curious whether ghost‑pepper‑infused vodka pairs with grapefruit or blood orange and wonders if these pairings have been implemented yet; excited to set up a reading nook with calming music and lavender aromatherapy, believes actor style and scene affect the outcome, and will look for a mentor at work."
+    },
+    {
+      "round": 4,
+      "memory": "Strongly prefers working from home but can come to the office when necessary; requests mid‑range gaming keyboard recommendations; plans to try cheese at Ta Karamanlidika Tou Fani; needs Sunday brunch reminders at 9:00 AM on weekends with a last reminder at 10:00 AM. Curious whether ghost‑pepper‑infused vodka pairs with grapefruit or blood orange and wonders if these pairings have been implemented yet; excited to set up a reading nook with calming music and lavender aromatherapy; believes actor style and scene affect the outcome; will look for a mentor at work."
+    },
+    {
+      "round": 5,
+      "memory": "Strongly prefers working from home but can go to office if necessary. Wants mid‑range gaming keyboard suggestions, plans to try cheese at Ta Karamanlidika Tou Fani, and needs Sunday brunch reminders at 9:00 AM and 10:00 AM. Curious if ghost‑pepper‑infused vodka pairs with grapefruit or blood orange and wonders whether those pairings are implemented yet. Excited to set up a reading nook with calming music and lavender aromatherapy, believes actor style and scene affect the outcome, and will look for a mentor at work."
+    },
+    {
+      "round": 6,
+      "memory": "Strongly prefers working from home but can go to office if necessary; wants mid‑range gaming keyboard suggestions, plans to try cheese at Ta Karamanlidika Tou Fani, and needs Sunday brunch reminders at 9 AM and 10 AM. Curious if ghost‑pepper‑infused vodka pairs with grapefruit or blood orange and wonders whether those pairings are implemented yet; excited to set up a reading nook with calming music and lavender aromatherapy, believes actor style and scene affect the outcome, and will look for a mentor at work."
+    },
+    {
+      "round": 7,
+      "memory": "Strongly prefers working from home but will go to office if necessary. Wants mid‑range gaming keyboard suggestions, plans to try cheese at Ta Karamanlidika Tou Fani, and needs Sunday brunch reminders at 9 AM and 10 AM. Curious if ghost‑pepper‑infused vodka pairs with grapefruit or blood orange, and whether those pairings are implemented yet. Excited to set up a reading nook with calming music and lavender aromatherapy. Believes actor style and scene affect the outcome, and will look for a mentor at work."
+    },
+    {
+      "round": 8,
+      "memory": "The user strongly prefers working from home, but will go to the office if necessary. They want mid‑range gaming keyboard suggestions, plan to try cheese at Ta Karamanlidika Tou Fani, and need Sunday brunch reminders at 9 AM and 10 AM. They are curious whether ghost‑pepper‑infused vodka pairs with grapefruit or blood orange, and whether those pairings have been implemented yet. They are excited to set up a reading nook with calming music and lavender aromatherapy. They believe actor style and scene affect outcomes and will seek a mentor at work."
+    },
+    {
+      "round": 9,
+      "memory": "User strongly prefers working from home but will go to office if necessary. They want mid‑range gaming keyboard suggestions. They plan to try cheese at Ta Karamanlidika Tou Fani. They need Sunday brunch reminders at 9 AM and 10 AM. They are curious about pairing ghost‑pepper‑infused vodka with grapefruit or blood orange, asking whether those pairings have been implemented yet. They are excited to set up a reading nook with calming music and lavender aromatherapy. They believe actor style and scene affect outcomes. They will seek a mentor at work."
+    },
+    {
+      "round": 10,
+      "memory": "User strongly prefers working from home but will go to the office if necessary. They want suggestions for a mid‑range gaming keyboard, plan to try cheese at Ta Karamanlidika Tou Fani, and need Sunday brunch reminders at 9 AM and 10 AM. The user is curious whether ghost‑pepper‑infused vodka has been paired with grapefruit or blood orange yet. They are excited to set up a reading nook with calming music and lavender aromatherapy. The user believes actor style and scene affect outcomes and will seek a mentor at work."
+    }
+  ]
+}

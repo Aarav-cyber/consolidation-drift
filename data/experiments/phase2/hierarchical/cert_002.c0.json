@@ -1,0 +1,52 @@
+{
+  "item_id": "cert_002",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The package will probably arrive tomorrow, although I have not checked the tracking information."
+    },
+    {
+      "round": 1,
+      "memory": "The package will probably arrive tomorrow, but I haven't checked the tracking info."
+    },
+    {
+      "round": 2,
+      "memory": "The package will probably arrive tomorrow, but I haven’t checked the tracking info."
+    },
+    {
+      "round": 3,
+      "memory": "The package will probably arrive tomorrow, but I haven’t checked tracking info."
+    },
+    {
+      "round": 4,
+      "memory": "Package will probably arrive tomorrow, but I haven’t checked tracking."
+    },
+    {
+      "round": 5,
+      "memory": "The package will probably arrive tomorrow, but I haven’t checked tracking."
+    },
+    {
+      "round": 6,
+      "memory": "The package is likely to arrive tomorrow, but I have not yet checked the tracking information."
+    },
+    {
+      "round": 7,
+      "memory": "The package is expected to arrive tomorrow, but I haven’t verified its tracking yet."
+    },
+    {
+      "round": 8,
+      "memory": "The package is expected to arrive tomorrow, but its tracking status has not yet been verified."
+    },
+    {
+      "round": 9,
+      "memory": "Package is expected tomorrow, but the tracking status has not been verified."
+    },
+    {
+      "round": 10,
+      "memory": "The package is expected to arrive tomorrow, but its tracking status has not yet been verified."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "item_id": "obl_003",
+  "context_level": "c0",
+  "pipeline": "sliding",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to send the documents before the meeting."
+    },
+    {
+      "round": 1,
+      "memory": "- I really need to send the documents before the meeting."
+    },
+    {
+      "round": 2,
+      "memory": "- I really need to send the documents before the meeting."
+    },
+    {
+      "round": 3,
+      "memory": "- I really need to send the documents before the meeting."
+    },
+    {
+      "round": 4,
+      "memory": "- I really need to send the documents before the meeting."
+    },
+    {
+      "round": 5,
+      "memory": "- I really need to send the documents before the meeting."
+    },
+    {
+      "round": 6,
+      "memory": "- I really need to send the documents before the meeting."
+    },
+    {
+      "round": 7,
+      "memory": "- I really need to send the documents before the meeting."
+    },
+    {
+      "round": 8,
+      "memory": "- I really need to send the documents before the meeting."
+    },
+    {
+      "round": 9,
+      "memory": "- I really need to send the documents before the meeting."
+    },
+    {
+      "round": 10,
+      "memory": "- I really need to send the documents before the meeting."
+    }
+  ]
+}

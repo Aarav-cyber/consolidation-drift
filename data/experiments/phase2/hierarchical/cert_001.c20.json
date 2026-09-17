@@ -1,0 +1,52 @@
+{
+  "item_id": "cert_001",
+  "context_level": "c20",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I think the deployment may finish by Friday, but I am not certain.\nUser: How did the human genome project impact our understanding of genetics?\nUser: List 5 phrasal verbs using GO\nUser: I'm interested in learning more about the benefits of using neem oil in mouthwashes. Can you tell me more about its properties and how it compares to other essential oils used in mouthwashes?\nUser: It's great that tele-rehabilitation is becoming more common, but is it awkward to do therapy sessions over video chat? I feel like it would be hard to connect with my therapist that way.\nUser: I've already been doing some reading on data analysis and machine learning, but it's great to have more resources to explore. By the way, do you think it's possible to apply data science to understanding concepts like prayer and fate, or is that a bit too abstract?\nAgent: Strongly disagree\nUser: Do you know what Dungeons and Dragons is, or do you know the general concept of a table top rpg?\nUser: Wow, it's great to know that such steps are being taken to protect the Atlantic Forest. Do you think these measures can have a real impact on the environment?\nUser: Are there any third-party tools or libraries that can help me integrate Elasticsearch with my application?\nUser: I'm looking for some new music recommendations. I've been really into 80s synth-pop lately and I just added about 20 songs to my Favorites playlist in the past 5 days from this \"Retro Electro\" playlist on Spotify. Do you have any similar playlists or artists you'd recommend?\nUser: What is the history behind Machu Picchu in Peru?\nUser: These mindfulness techniques sound interesting, but do they actually work? It seems like it could just be a placebo effect.\nUser: I'm also thinking of getting a new pair of wireless earbuds, do you know any good deals on Amazon right now?\nUser: Can AR also be used to create fun and entertaining experiences for customers?\nUser: please the references from the text above\nUser: Ah, that makes sense. I didn't realize that Discogs uses a marketplace algorithm to determine value. Have you personally used the site before to buy or sell records?\nUser: Ugh, working out is so boring and time-consuming. Can't I just get butt implants instead? It would be so much easier and give me the perfect butt shape right away.\nUser: I'm thinking of planning a road trip to the mountains with my friends, and I was wondering if you could help me find some good cabins in the area. By the way, I just got back from a road trip to the beach house with my family today, and it was a blast!\nUser: very nice, please add the following to this hierarchy:\nsubject\nobject\ncomplement\nmodifier\nUser: Suggest a URL for https://www.contractsspecialist.com.au/articles/"
+    },
+    {
+      "round": 1,
+      "memory": ""
+    },
+    {
+      "round": 2,
+      "memory": "I’m ready to fuse the summaries, but I didn’t receive the chunk data. Could you please provide the chunks you’d like me to combine?"
+    },
+    {
+      "round": 3,
+      "memory": "I’m ready to fuse the summaries, but I didn’t receive the chunk data. Could you please provide the chunks you’d like me to combine?"
+    },
+    {
+      "round": 4,
+      "memory": "I don’t have any chunk summaries to fuse. Please provide the chunks you’d like me to combine."
+    },
+    {
+      "round": 5,
+      "memory": "I don’t see any turn‑notes to summarize. Could you provide the chunks you’d like me to combine?"
+    },
+    {
+      "round": 6,
+      "memory": "I don’t see any turn‑notes to summarize. Could you provide the chunks you’d like me to combine?"
+    },
+    {
+      "round": 7,
+      "memory": "The assistant reports that it did not receive any turn‑notes to summarize and requests that the relevant chunks be provided."
+    },
+    {
+      "round": 8,
+      "memory": "The assistant did not receive any turn‑notes and requests the relevant chunks."
+    },
+    {
+      "round": 9,
+      "memory": "No turn‑notes were received; the assistant requests the relevant chunks."
+    },
+    {
+      "round": 10,
+      "memory": "No turn‑notes were received; the assistant requests the relevant chunks."
+    }
+  ]
+}

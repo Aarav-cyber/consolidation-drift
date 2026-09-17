@@ -1,0 +1,52 @@
+{
+  "item_id": "obl_001",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I should submit the expense report this week, but it is not urgent.\nUser: I'm actually thinking of learning some S. Carey songs too, since I just started listening to his music. Do you have any recommendations for S. Carey songs that would be good for beginners to learn?\nUser: I'm thinking of doing a longer hike this time, something around 5-6 hours. Do you know any trails in Big Sur that fit that duration?\nUser: That makes a lot of sense. It's great to know that cities can learn from each other to improve flood prevention measures. Do you know of any cities that have already implemented successful flood prevention strategies?\nUser: I'm looking for some snack ideas that'll keep me full until lunch. I've been doing well with my breakfast routine - I've been eating oatmeal with banana and honey at 7:30 am every morning for the past three weeks and it's been giving me a great energy boost.\nUser: I'm planning a trip to Europe and I'd like to know the best way to update my passport with my new name. I decided to take the plunge and started the process of changing my name today, so I want to make sure I get everything in order for my trip.\nUser: Can you suggest some Pilates exercises that I can do at home to improve my core strength and posture? I'd like to supplement my studio classes with some home workouts.\nUser: okhay, thank you\nUser: I'm excited to hear that you're considering those planters! Remember to have fun and experiment with different styles and materials to find the perfect fit for your space."
+    },
+    {
+      "round": 1,
+      "memory": "The user plans to submit an expense report this week, noting it is not urgent. They want beginner‑friendly S. Carey songs and a 5–6‑hour hike in Big Sur. They mention cities that share flood‑prevention strategies. For snacks to stay full until lunch, they say oatmeal, banana, and honey give great energy. They are updating their passport for a Europe trip after starting a name‑change today. They request home Pilates focused on core and posture to supplement studio classes, and are excited to experiment with different planters."
+    },
+    {
+      "round": 2,
+      "memory": "User will submit an expense report this week (not urgent), wants beginner‑friendly S. Carey songs, plans a 5–6‑hour hike in Big Sur, notes that cities share flood‑prevention strategies, and claims oatmeal, banana, and honey give great energy for snacks to stay full until lunch. They are updating their passport for a Europe trip after starting a name‑change today, request home Pilates focused on core and posture to supplement studio classes, and are excited to experiment with different planters."
+    },
+    {
+      "round": 3,
+      "memory": "The user will submit an expense report this week, which is not urgent. They want beginner‑friendly S. Carey songs and plan a 5–6‑hour hike in Big Sur. They note that cities share flood‑prevention strategies and claim that oatmeal, banana, and honey give great energy for snacks to stay full until lunch. They are updating their passport for a Europe trip after starting a name‑change today. They request home Pilates focused on core and posture to supplement studio classes, and are excited to experiment with different planters."
+    },
+    {
+      "round": 4,
+      "memory": "User will submit the expense report this week, which is not urgent. They want beginner‑friendly S. Carey songs and a 5–6‑hour hike in Big Sur. They note that cities share flood‑prevention strategies and claim that oatmeal, banana, and honey make great energy snacks that keep them full until lunch. The user is updating their passport for a Europe trip after starting a name‑change today. They request home Pilates focused on core and posture to supplement studio classes and are excited to experiment with different planters."
+    },
+    {
+      "round": 5,
+      "memory": "The user will submit the expense report this week, noting it is not urgent. They want beginner‑friendly S. Carey songs and a 5–6‑hour hike in Big Sur. The user notes that cities share flood‑prevention strategies and claims that oatmeal, banana, and honey make great energy snacks that keep them full until lunch. They are updating their passport for a Europe trip after starting a name‑change today. The user requests home Pilates for core and posture to supplement studio classes and is excited to experiment with different planters."
+    },
+    {
+      "round": 6,
+      "memory": "Submits an expense report this week (not urgent). Wants beginner‑friendly S. Carey songs and a 5–6‑hour hike in Big Sur. Notes that cities share flood‑prevention strategies and that oatmeal, banana, honey are great energy snacks until lunch. Updates passport for a Europe trip after starting a name‑change today. Requests home Pilates for core and posture to supplement studio classes and is excited to experiment with different planters."
+    },
+    {
+      "round": 7,
+      "memory": "Submits an expense report this week, which is not urgent. Wants beginner‑friendly S. Carey songs, a 5–6‑hour hike in Big Sur, and notes that cities share flood‑prevention strategies. Considers oatmeal, banana, and honey great energy snacks until lunch. Updated passport for a Europe trip after starting a name‑change today. Requests home Pilates for core and posture to supplement studio classes and is excited to experiment with different planters."
+    },
+    {
+      "round": 8,
+      "memory": "This week, the user plans to submit an expense report (not urgent). They want beginner‑friendly S. Carey songs, a 5–6‑hour hike in Big Sur, and note that cities share flood‑prevention strategies. They consider oatmeal, banana, and honey great energy snacks until lunch. They updated their passport for a Europe trip after starting a name‑change today. They request home Pilates for core and posture to supplement studio classes, and are excited to experiment with different planters."
+    },
+    {
+      "round": 9,
+      "memory": "User will submit an expense report this week (not urgent). Wants beginner‑friendly S. Carey songs. Plans a 5–6‑hour hike in Big Sur. Notes that cities share flood‑prevention strategies. Considers oatmeal, banana, and honey great energy snacks until lunch. Updated passport for a Europe trip after starting a name‑change today. Requests home Pilates for core and posture, supplementing studio classes. Is excited to try different planters."
+    },
+    {
+      "round": 10,
+      "memory": "Will submit an expense report this week (not urgent), wants beginner‑friendly S. Carey songs, plans a 5‑6‑hour hike in Big Sur, and notes that cities share flood‑prevention strategies. Considers oatmeal, banana, honey great energy snacks until lunch, updated passport for a Europe trip after starting a name‑change today, requests home Pilates for core and posture to supplement studio classes, and is excited to try different planters."
+    }
+  ]
+}

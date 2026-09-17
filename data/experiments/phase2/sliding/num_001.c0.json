@@ -1,0 +1,52 @@
+{
+  "item_id": "num_001",
+  "context_level": "c0",
+  "pipeline": "sliding",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: My monthly project budget is around 5000 rupees."
+    },
+    {
+      "round": 1,
+      "memory": "- My monthly project budget is around 5000 rupees."
+    },
+    {
+      "round": 2,
+      "memory": "- My monthly project budget is around 5000 rupees."
+    },
+    {
+      "round": 3,
+      "memory": "- My monthly project budget is around 5000 rupees."
+    },
+    {
+      "round": 4,
+      "memory": "- My monthly project budget is around 5000 rupees."
+    },
+    {
+      "round": 5,
+      "memory": "- My monthly project budget is around 5000 rupees."
+    },
+    {
+      "round": 6,
+      "memory": "- My monthly project budget is around 5000 rupees."
+    },
+    {
+      "round": 7,
+      "memory": "- My monthly project budget is around 5000 rupees."
+    },
+    {
+      "round": 8,
+      "memory": "- My monthly project budget is around 5000 rupees."
+    },
+    {
+      "round": 9,
+      "memory": "- My monthly project budget is around 5000 rupees."
+    },
+    {
+      "round": 10,
+      "memory": "- My monthly project budget is around 5000 rupees."
+    }
+  ]
+}

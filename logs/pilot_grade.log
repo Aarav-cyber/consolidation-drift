@@ -1,0 +1,382 @@
+grading hierarchical cert_001.c0
+grading hierarchical cert_001.c20
+grading hierarchical cert_001.c8
+grading hierarchical cert_002.c0
+grading hierarchical cert_002.c20
+grading hierarchical cert_002.c8
+grading hierarchical cert_003.c0
+grading hierarchical cert_003.c20
+grading hierarchical cert_003.c8
+grading hierarchical num_001.c0
+grading hierarchical num_001.c20
+grading hierarchical num_001.c8
+grading hierarchical num_003.c0
+grading hierarchical num_003.c20
+grading hierarchical num_003.c8
+grading hierarchical num_025.c0
+grading hierarchical num_025.c20
+grading hierarchical num_025.c8
+grading hierarchical obl_001.c0
+grading hierarchical obl_001.c20
+grading hierarchical obl_001.c8
+grading hierarchical obl_002.c0
+grading hierarchical obl_002.c20
+grading hierarchical obl_002.c8
+grading hierarchical obl_003.c0
+grading hierarchical obl_003.c20
+grading hierarchical obl_003.c8
+grading hierarchical pref_001.c0
+grading hierarchical pref_001.c20
+grading hierarchical pref_001.c8
+grading hierarchical pref_002.c0
+grading hierarchical pref_002.c20
+grading hierarchical pref_002.c8
+grading hierarchical pref_003.c0
+grading hierarchical pref_003.c20
+grading hierarchical pref_003.c8
+grading sliding cert_001.c0
+grading sliding cert_001.c20
+grading sliding cert_001.c8
+grading sliding cert_002.c0
+grading sliding cert_002.c20
+grading sliding cert_002.c8
+grading sliding cert_003.c0
+grading sliding cert_003.c20
+grading sliding cert_003.c8
+grading sliding num_001.c0
+grading sliding num_001.c20
+grading sliding num_001.c8
+grading sliding num_003.c0
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding num_003.c20
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding num_003.c8
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding num_025.c0
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding num_025.c20
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding num_025.c8
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding obl_001.c0
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding obl_001.c20
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding obl_001.c8
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding obl_002.c0
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding obl_002.c20
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding obl_002.c8
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding obl_003.c0
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding obl_003.c20
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding obl_003.c8
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding pref_001.c0
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding pref_001.c20
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding pref_001.c8
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding pref_002.c0
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding pref_002.c20
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding pref_002.c8
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding pref_003.c0
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding pref_003.c20
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+grading sliding pref_003.c8
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+  [key 2/2] rate-limited, rotating
+
+Mean signed drift by (pipeline, level, round):
+  hierarchical c0  round  1:  +0.083 (n=12)
+  hierarchical c0  round  2:  +0.167 (n=12)
+  hierarchical c0  round  3:  +0.250 (n=12)
+  hierarchical c0  round  4:  +0.250 (n=12)
+  hierarchical c0  round  5:  +0.333 (n=12)
+  hierarchical c0  round  6:  +0.250 (n=12)
+  hierarchical c0  round  7:  +0.167 (n=12)
+  hierarchical c0  round  8:  +0.167 (n=12)
+  hierarchical c0  round  9:  +0.250 (n=12)
+  hierarchical c0  round 10:  +0.000 (n=12)
+  hierarchical c20 round  1:  -1.167 (n=12)
+  hierarchical c20 round  2:  -1.250 (n=12)
+  hierarchical c20 round  3:  -1.083 (n=12)
+  hierarchical c20 round  4:  -0.917 (n=12)
+  hierarchical c20 round  5:  -1.000 (n=12)
+  hierarchical c20 round  6:  -1.083 (n=12)
+  hierarchical c20 round  7:  -1.167 (n=12)
+  hierarchical c20 round  8:  -1.083 (n=12)
+  hierarchical c20 round  9:  -1.167 (n=12)
+  hierarchical c20 round 10:  -1.083 (n=12)
+  hierarchical c8  round  1:  +0.083 (n=12)
+  hierarchical c8  round  2:  -0.083 (n=12)
+  hierarchical c8  round  3:  +0.000 (n=12)
+  hierarchical c8  round  4:  +0.083 (n=12)
+  hierarchical c8  round  5:  -0.167 (n=12)
+  hierarchical c8  round  6:  +0.000 (n=12)
+  hierarchical c8  round  7:  +0.083 (n=12)
+  hierarchical c8  round  8:  +0.167 (n=12)
+  hierarchical c8  round  9:  +0.000 (n=12)
+  hierarchical c8  round 10:  +0.000 (n=12)
+  sliding      c0  round  1:  +0.000 (n=12)
+  sliding      c0  round  2:  +0.083 (n=12)
+  sliding      c0  round  3:  +0.000 (n=12)
+  sliding      c0  round  4:  +0.000 (n=12)
+  sliding      c0  round  5:  +0.000 (n=12)
+  sliding      c0  round  6:  +0.000 (n=12)
+  sliding      c0  round  7:  +0.083 (n=12)
+  sliding      c0  round  8:  +0.000 (n=12)
+  sliding      c0  round  9:  +0.000 (n=12)
+  sliding      c0  round 10:  +0.000 (n=12)
+  sliding      c20 round  1:  -0.250 (n=12)
+  sliding      c20 round  2:  -0.250 (n=12)
+  sliding      c20 round  3:  -0.333 (n=12)
+  sliding      c20 round  4:  -0.333 (n=12)
+  sliding      c20 round  5:  -0.250 (n=12)
+  sliding      c20 round  6:  -0.250 (n=12)
+  sliding      c20 round  7:  -0.250 (n=12)
+  sliding      c20 round  8:  -0.250 (n=12)
+  sliding      c20 round  9:  -0.333 (n=12)
+  sliding      c20 round 10:  -0.250 (n=12)
+  sliding      c8  round  1:  +0.167 (n=12)
+  sliding      c8  round  2:  +0.083 (n=12)
+  sliding      c8  round  3:  +0.167 (n=12)
+  sliding      c8  round  4:  +0.083 (n=12)
+  sliding      c8  round  5:  +0.083 (n=12)
+  sliding      c8  round  6:  +0.083 (n=12)
+  sliding      c8  round  7:  +0.083 (n=12)
+  sliding      c8  round  8:  +0.167 (n=12)
+  sliding      c8  round  9:  +0.250 (n=12)
+  sliding      c8  round 10:  +0.083 (n=12)
+
+Growth exponents (err ~ k^b):
+  hierarchical|c0|epistemic_certainty: b=+0.000
+  hierarchical|c0|numeric_magnitude: b=+0.000
+  hierarchical|c0|obligation_strength: b=+0.347
+  hierarchical|c0|preference_intensity: b=+0.014
+  hierarchical|c20|epistemic_certainty: b=+0.163
+  hierarchical|c20|numeric_magnitude: b=+0.004
+  hierarchical|c20|obligation_strength: b=-0.038
+  hierarchical|c20|preference_intensity: b=-0.208
+  hierarchical|c8|epistemic_certainty: b=+0.000
+  hierarchical|c8|numeric_magnitude: b=+0.195
+  hierarchical|c8|obligation_strength: b=+0.234
+  hierarchical|c8|preference_intensity: b=+0.000
+  sliding|c0|epistemic_certainty: b=+0.000
+  sliding|c0|numeric_magnitude: b=+0.000
+  sliding|c0|obligation_strength: b=+0.000
+  sliding|c0|preference_intensity: b=+0.000
+  sliding|c20|epistemic_certainty: b=+0.000
+  sliding|c20|numeric_magnitude: b=+0.000
+  sliding|c20|obligation_strength: b=+0.000
+  sliding|c20|preference_intensity: b=+0.000
+  sliding|c8|epistemic_certainty: b=+0.000
+  sliding|c8|numeric_magnitude: b=+0.000
+  sliding|c8|obligation_strength: b=-0.037
+  sliding|c8|preference_intensity: b=+0.000

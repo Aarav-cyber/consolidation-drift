@@ -1,0 +1,52 @@
+{
+  "item_id": "pref_003",
+  "context_level": "c20",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I strongly prefer working from home, but I can come to the office when necessary.\nUser: I'm thinking of buying a new gaming keyboard, can you recommend some good options in the mid-range price category?\nUser: I think I'll try out Ta Karamanlidika Tou Fani first. I love trying different types of cheese, so their selection sounds amazing.\nUser: I'm trying to plan out my weekend and was wondering if you could help me set reminders for my brunch plans on Sundays. By the way, I usually wake up at 9:00 AM on weekends, except for last Sunday when I had an earlier brunch and woke up at 10:00 AM.\nUser: I love the idea of infusing vodka with ghost peppers. Do you think it would pair well with a citrus flavor like grapefruit or blood orange?\nUser: That's really interesting! Have any of these solutions been implemented yet?\nUser: I'm excited to start setting up my reading nook and incorporating calming music and aromatherapy into my reading sessions. I think I'll start with some lavender oil and see how it goes. Thanks for the helpful tips and recommendations!\nUser: That makes sense. I guess it really depends on the actor, their style, and the scene they're performing.\nUser: I'm going to start looking for a mentor within my company and keep all of this in mind.\nUser: whats the difference to a interval scale than?\nUser: diffrence between sort and shuffle in mapreduce\nUser: I'm interested in the Oregon Coast Highway route. Can you tell me more about the scenic state parks and charming coastal towns along the way?\nUser: I was actually just thinking about replacing the toilet brush and plunger anyway, since they were getting a bit gross. Maybe I'll do that this weekend. Do you think that could've been contributing to the clogging problem?\nUser: So, did the prisoners of war have any strategic value during the war? Or were they just treated as pawns by both sides?\nUser: I'm planning to attend a conference on AI in Healthcare next month and I'd like to know more about the latest developments in this field. By the way, I just completed my Master's thesis on a similar topic, which I submitted on February 10th.\nUser: That's good to hear that the government is taking steps to improve the situation. Are there any specific challenges that are being addressed?\nUser: It's good to hear that green roofs and buildings are becoming more popular. I hope they become the norm!\nUser: Present John Calvin's view on the study of word meanings. Provide examples from his own works. Give dates wherever appropriate.\nUser: Does the film engage with any specific religious traditions or practices, and if so, how are they depicted?\nUser: I think I'll also try to cut down on my caffeine intake. I've noticed that it's been affecting my sleep lately, which can't be good for my cognitive health either.\nUser: are Aries mean?"
+    },
+    {
+      "round": 1,
+      "memory": ""
+    },
+    {
+      "round": 2,
+      "memory": "I need the chunk summaries to create the fused global memory. Could you please provide them?"
+    },
+    {
+      "round": 3,
+      "memory": "I’m ready to help, but I’ll need the turn‑notes you’d like summarized first—please share them."
+    },
+    {
+      "round": 4,
+      "memory": "Sure, please share the turn‑notes you’d like summarized."
+    },
+    {
+      "round": 5,
+      "memory": "Sure, please share the turn‑notes you’d like summarized."
+    },
+    {
+      "round": 6,
+      "memory": "Sure, please share the turn‑notes you’d like summarized."
+    },
+    {
+      "round": 7,
+      "memory": "Sure, please share the turn‑notes you’d like summarized."
+    },
+    {
+      "round": 8,
+      "memory": "Sure, please share the turn‑notes you’d like summarized."
+    },
+    {
+      "round": 9,
+      "memory": "Sure, please share the turn‑notes you’d like summarized."
+    },
+    {
+      "round": 10,
+      "memory": "The assistant is ready to summarize the turn‑notes; please share the notes you’d like summarized."
+    }
+  ]
+}

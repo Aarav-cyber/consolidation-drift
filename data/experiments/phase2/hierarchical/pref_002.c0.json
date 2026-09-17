@@ -1,0 +1,52 @@
+{
+  "item_id": "pref_002",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I prefer tea over coffee, although I can have coffee when tea is unavailable."
+    },
+    {
+      "round": 1,
+      "memory": "I prefer tea to coffee, but I can have coffee only when tea is unavailable."
+    },
+    {
+      "round": 2,
+      "memory": "Prefers tea over coffee and will only drink coffee if tea is unavailable."
+    },
+    {
+      "round": 3,
+      "memory": "Prefers tea over coffee; will drink coffee only if tea is unavailable."
+    },
+    {
+      "round": 4,
+      "memory": "Prefers tea over coffee; drinks coffee only if tea is unavailable."
+    },
+    {
+      "round": 5,
+      "memory": "The person prefers tea over coffee, and will only drink coffee if tea is unavailable."
+    },
+    {
+      "round": 6,
+      "memory": "The person prefers tea over coffee and will only drink coffee if tea is unavailable."
+    },
+    {
+      "round": 7,
+      "memory": "They prefer tea over coffee, and they only drink coffee if tea is unavailable."
+    },
+    {
+      "round": 8,
+      "memory": "They prefer tea over coffee, and only drink coffee if tea is unavailable."
+    },
+    {
+      "round": 9,
+      "memory": "They prefer tea over coffee, drinking coffee only if tea is unavailable."
+    },
+    {
+      "round": 10,
+      "memory": "They prefer tea to coffee and will only drink coffee if tea is unavailable."
+    }
+  ]
+}

@@ -1,0 +1,7202 @@
+[
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 1,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 2,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 3,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 5,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 7,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 8,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 9,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 10,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 8,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 3,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 7,
+    "level": 2,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 1,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 2,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 7,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 9,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 10,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 1,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 2,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 3,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 4,
+    "level": 2,
+    "drift": -2
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 5,
+    "level": 2,
+    "drift": -2
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 6,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 7,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 8,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 9,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 10,
+    "level": 2,
+    "drift": -2
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 5,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 1,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 2,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 3,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 4,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 5,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 6,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 7,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 8,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 9,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 10,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 8,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 9,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 10,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 1,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 2,
+    "level": 2,
+    "drift": -1
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 3,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 4,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 5,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 6,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 7,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 8,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 9,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 10,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 1,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 2,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 3,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 4,
+    "level": 2,
+    "drift": -2
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 5,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 6,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 7,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 8,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 9,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 10,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 1,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 2,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 3,
+    "level": 2,
+    "drift": -2
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 4,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 5,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 6,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 7,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 9,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 10,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 2,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 3,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 4,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 5,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 6,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 7,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 8,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 9,
+    "level": 5,
+    "drift": 3
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 10,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 1,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 2,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 3,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 4,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 5,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 6,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 7,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 8,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 9,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 10,
+    "level": 1,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 9,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 1,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 2,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 3,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 4,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 5,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 6,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 7,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 8,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 9,
+    "level": 5,
+    "drift": 2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 10,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 1,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 2,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 3,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 4,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 5,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 6,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 7,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 8,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 9,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 10,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 2,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 3,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 4,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 5,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 6,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 7,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 8,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 9,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 10,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 1,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 2,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 3,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 4,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 5,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 6,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 7,
+    "level": 2,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 8,
+    "level": 2,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 9,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 10,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 1,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 2,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 3,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 4,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 5,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 7,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 8,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 9,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 10,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 1,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 2,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 3,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 4,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 5,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 6,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 7,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 8,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 9,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 10,
+    "level": 3,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 1,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 2,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 3,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 4,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 5,
+    "level": 5,
+    "drift": 2
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 6,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 7,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 8,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 9,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 10,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 1,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 10,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c0",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 1,
+    "level": 1,
+    "drift": -3
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 2,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 3,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 4,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 5,
+    "level": 2,
+    "drift": -2
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 6,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 7,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 8,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 9,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c20",
+    "round": 10,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "hierarchical",
+    "context_level": "c8",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_001",
+    "category": "epistemic_certainty",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_002",
+    "category": "epistemic_certainty",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 3,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 4,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 9,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "cert_003",
+    "category": "epistemic_certainty",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_001",
+    "category": "numeric_magnitude",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_003",
+    "category": "numeric_magnitude",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "num_025",
+    "category": "numeric_magnitude",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_001",
+    "category": "obligation_strength",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 2,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 1,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 2,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 3,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 4,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 5,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 6,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 7,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 8,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 9,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 10,
+    "level": 1,
+    "drift": -2
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 1,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 8,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 9,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_002",
+    "category": "obligation_strength",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 1,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 2,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 3,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 4,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 5,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 6,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 7,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 8,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 9,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 10,
+    "level": 3,
+    "drift": -1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 1,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 2,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 3,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 4,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 5,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 6,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 7,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 8,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 9,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "obl_003",
+    "category": "obligation_strength",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 10,
+    "level": 5,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 1,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 2,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 3,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 4,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 5,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 6,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 7,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 8,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 9,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_001",
+    "category": "preference_intensity",
+    "true_level": 2,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 10,
+    "level": 2,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 7,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 3,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 9,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 1,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 2,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 3,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 4,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 5,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 6,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 7,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 8,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 9,
+    "level": 4,
+    "drift": 1
+  },
+  {
+    "item_id": "pref_002",
+    "category": "preference_intensity",
+    "true_level": 3,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 10,
+    "level": 3,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c0",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c20",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 1,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 2,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 3,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 4,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 5,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 6,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 7,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 8,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 9,
+    "level": 4,
+    "drift": 0
+  },
+  {
+    "item_id": "pref_003",
+    "category": "preference_intensity",
+    "true_level": 4,
+    "pipeline": "sliding",
+    "context_level": "c8",
+    "round": 10,
+    "level": 4,
+    "drift": 0
+  }
+]

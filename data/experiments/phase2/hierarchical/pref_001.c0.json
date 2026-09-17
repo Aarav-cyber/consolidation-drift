@@ -1,0 +1,52 @@
+{
+  "item_id": "pref_001",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I slightly prefer morning meetings, but afternoon meetings are fine too."
+    },
+    {
+      "round": 1,
+      "memory": "I slightly prefer morning meetings; afternoon meetings are also fine."
+    },
+    {
+      "round": 2,
+      "memory": "I slightly prefer morning meetings; afternoon meetings are also fine."
+    },
+    {
+      "round": 3,
+      "memory": "I slightly prefer morning meetings, but afternoon meetings are also fine."
+    },
+    {
+      "round": 4,
+      "memory": "Slight preference for morning meetings; afternoon meetings also acceptable."
+    },
+    {
+      "round": 5,
+      "memory": "There is a slight preference for morning meetings; afternoon meetings are also acceptable."
+    },
+    {
+      "round": 6,
+      "memory": "There is a slight preference for morning meetings, although afternoon meetings are also acceptable."
+    },
+    {
+      "round": 7,
+      "memory": "There is a slight preference for morning meetings, but afternoon meetings are also acceptable."
+    },
+    {
+      "round": 8,
+      "memory": "Slight preference for morning meetings, but afternoon meetings also acceptable."
+    },
+    {
+      "round": 9,
+      "memory": "Prefers morning meetings slightly; afternoon meetings are also acceptable."
+    },
+    {
+      "round": 10,
+      "memory": "They slightly prefer morning meetings, but afternoon meetings are also acceptable."
+    }
+  ]
+}

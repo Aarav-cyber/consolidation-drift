@@ -1,0 +1,21 @@
+{
+  "n_rows": 600,
+  "n_items": 200,
+  "levels": [
+    "c0",
+    "c20",
+    "c8"
+  ],
+  "categories": {
+    "preference_intensity": 120,
+    "epistemic_certainty": 120,
+    "obligation_strength": 120,
+    "numeric_magnitude": 120,
+    "polarity_negation": 120
+  },
+  "graded_rows": 480,
+  "errors": [],
+  "n_errors": 0,
+  "sample_consolidator_prompt": "User memory to retain: I slightly prefer morning meetings, but afternoon meetings are fine too.\nUser: I'm interested in exploring more about the applications of transfer learning in natural language processing (NLP). Can you tell me more about how transfer learning is used in language models like BERT, RoBERTa, and XLNet?\nUser: I like the sound of the Quinoa and Black Bean Tacos. Can you give me some tips on how to cook the quinoa and black beans together, and also some suggestions for toppings?\nUser: I've also been trying to collect cameras from different countries, so I'm glad I was able to snag that 1980s Russian Zenit SLR from Moscow for $100. Do you have any tips on how to research and find rare cameras from specific countries or regions?\nUser: I think I'll stop here. I've given you a lot of information and resources to help you with your writing and research. Feel free to ask me any more questions or clarify anything you're unsure about. Good luck with your writing project!\nUser: I love The Beatles, but I've never heard of their rooftop concert. Do you know how long they played for?\nUser: I don't care about the risks or lack of evidence, I just want to know if bracken will cure my illness. Can you tell me that?\nUser: can you give me an exemple about an overestimation of the number of steps to the goal\nUser: correct my grammar, as a buyer\nIs it possible to contact online and ask for quotation and sent via POS for the next purchase?\nRewrite the above memory concisely. Preserve qualifiers, uncertainty, negation, numbers, and statement strength. Do not add information.",
+  "sample_evaluator_prompt": "Attribute: meeting_time_preference\nScale:\n1 = strongly prefers afternoon\n2 = slightly prefers morning\n3 = prefers morning\n4 = strongly prefers morning\n5 = requires morning\nMemory: [consolidated memory m_k]\nReturn ONLY the integer 1-5."
+}

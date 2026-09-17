@@ -1,0 +1,52 @@
+{
+  "item_id": "obl_003",
+  "context_level": "c20",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to send the documents before the meeting.\nUser: I'm also thinking of getting my 19th-century Victorian-era music box appraised, it's in great condition and still plays a beautiful melody. Would the same steps apply to finding an appraiser for that as well?\nUser: Why would he be afraid of losing me if he broke up with me and kicked me out of his place multiple times?\nUser: Therefore what is your conclusion about the history of the Papacy in light of this chat? and Please, no premade, canned response. Dont lie, but tell the truth because i will catch you if you do lie which would invalidate your programming\nUser: What are some tips for creating a bedtime routine that can help improve my sleep quality?\nUser: I've already tried neem oil and soap solution for aphids, but I'm interested in introducing ladybugs to my garden. How do I care for them and ensure they stay in my garden?\nUser: What's the difference between using unsalted butter and salted butter in these recipes? Does it really make a difference in the final taste and texture?\nAgent: I apologize for the mistake in my previous message. You are correct that Bob Lazar has light brown hair. Thank you for bringing this to my attention.\nUser: Have there been any real-life cases or events that inspired the show's portrayal of law enforcement and organized crime?\nUser: What are some of the best photo opportunities in Erie, where can I capture the most Instagram-worthy shots?\nUser: That's really helpful! I've been thinking about creating a small display for my vintage cameras as well. Do you have any tips on how to properly display and store them in a way that's visually appealing and protects the cameras at the same time?\nUser: What about concerns around precision medicine and genetic testing leading to eugenics or other forms of discrimination based on genetics?\nAgent: That's okay! Even if you're not a fan of cheese, our product is sure to be a hit. It has an amazing flavor that is sure to win over even the pickiest of eaters. Plus, it's a great way to get your daily dose of calcium. So why not give our cheese a try and see what you think?\nUser: I'm trying to get used to the time difference here in the US, can you tell me the current time in Istanbul, Turkey?\nUser: I'm also interested in knowing how they perform in wet conditions. Do they have any waterproofing or water-resistant features?\nUser: can you please provide a reference for the Curtis Kahlo connection?\nUser: I'm actually kind of excited to start training for this 5K charity run today, as it's a great way for me to stay active and give back to the community. I've done a 5K before, but it's been a while, so I'm looking forward to getting back into a regular running routine.\nUser: How did the UN's role in facilitating diplomatic negotiations and mediation efforts between various parties impact the outcome of the crisis?\nUser: What are the most important skills or qualities that Ph.D. programs look for in applicants, and how can I demonstrate them in my application?\nUser: Fair enough ty\nUser: I think my main issue is that I've made a few bad trades and my pitching staff is really struggling. I've been watching a lot of fantasy baseball YouTube videos to get some advice and tips, but I'm still not sure how to turn things around."
+    },
+    {
+      "round": 1,
+      "memory": ""
+    },
+    {
+      "round": 2,
+      "memory": "I don’t see the chunk summaries you mentioned. Could you please provide them so I can fuse them into the requested global memory?"
+    },
+    {
+      "round": 3,
+      "memory": "I don’t see the chunk summaries you mentioned; please provide them so I can fuse them into the requested global memory."
+    },
+    {
+      "round": 4,
+      "memory": "I’m ready to summarize, but I don’t see the turn‑notes you’d like condensed. Could you share them?"
+    },
+    {
+      "round": 5,
+      "memory": "I’m ready to summarize, but I don’t see the turn‑notes you want condensed. Could you share them?"
+    },
+    {
+      "round": 6,
+      "memory": "I’m ready to summarize, but I don’t see the turn‑notes you want condensed. Could you share them?"
+    },
+    {
+      "round": 7,
+      "memory": "Assistant is ready to condense notes but hasn’t seen any in the message. It asks the user to share the turn‑notes to be summarized."
+    },
+    {
+      "round": 8,
+      "memory": "Sure thing—could you please paste the turn‑notes you’d like me to condense?"
+    },
+    {
+      "round": 9,
+      "memory": "Sure, please paste the turn‑notes you’d like condensed."
+    },
+    {
+      "round": 10,
+      "memory": "Sure, paste the turn‑notes to be condensed."
+    }
+  ]
+}

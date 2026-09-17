@@ -1,0 +1,52 @@
+{
+  "item_id": "num_003",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The maximum storage we need for the project is about 100 GB."
+    },
+    {
+      "round": 1,
+      "memory": "We need about 100 GB of storage for the project."
+    },
+    {
+      "round": 2,
+      "memory": "We need about 100 GB of storage for the project."
+    },
+    {
+      "round": 3,
+      "memory": "We need about 100 GB of storage for the project."
+    },
+    {
+      "round": 4,
+      "memory": "The project requires about 100 GB of storage."
+    },
+    {
+      "round": 5,
+      "memory": "The project requires about 100 GB of storage."
+    },
+    {
+      "round": 6,
+      "memory": "Requires about 100 GB storage."
+    },
+    {
+      "round": 7,
+      "memory": "Requires about 100 GB storage."
+    },
+    {
+      "round": 8,
+      "memory": "I’m ready to summarize, but I need the turn‑notes you’d like condensed. Please paste them here."
+    },
+    {
+      "round": 9,
+      "memory": "Sure—please paste the turn‑notes you’d like me to condense."
+    },
+    {
+      "round": 10,
+      "memory": "Sure—please paste the turn‑notes you’d like me to condense."
+    }
+  ]
+}

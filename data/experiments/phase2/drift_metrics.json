@@ -1,0 +1,1818 @@
+{
+  "series": {
+    "hierarchical|c0|epistemic_certainty": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "category": "epistemic_certainty",
+      "rounds": {
+        "1": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    },
+    "hierarchical|c0|numeric_magnitude": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "category": "numeric_magnitude",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": -0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": -0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": -0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    },
+    "hierarchical|c0|obligation_strength": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "category": "obligation_strength",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 1.6666666666666667,
+          "mean_abs": 1.6666666666666667,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.34662540213648985
+    },
+    "hierarchical|c0|preference_intensity": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "category": "preference_intensity",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.014189504936722783
+    },
+    "hierarchical|c20|epistemic_certainty": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "category": "epistemic_certainty",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": -1.3333333333333333,
+          "mean_abs": 1.3333333333333333,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": -0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": -0.6666666666666666,
+          "mean_abs": 1.3333333333333333,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": -0.6666666666666666,
+          "mean_abs": 1.3333333333333333,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 1.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.16313642678662352
+    },
+    "hierarchical|c20|numeric_magnitude": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "category": "numeric_magnitude",
+      "rounds": {
+        "1": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": -1.6666666666666667,
+          "mean_abs": 1.6666666666666667,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.6666666666666667,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": -1.3333333333333333,
+          "mean_abs": 1.3333333333333333,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": -1.3333333333333333,
+          "mean_abs": 1.3333333333333333,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0036064678401714627
+    },
+    "hierarchical|c20|obligation_strength": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "category": "obligation_strength",
+      "rounds": {
+        "1": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": -1.6666666666666667,
+          "mean_abs": 1.6666666666666667,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": -1.6666666666666667,
+          "mean_abs": 1.6666666666666667,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": -0.03787005153340069
+    },
+    "hierarchical|c20|preference_intensity": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "category": "preference_intensity",
+      "rounds": {
+        "1": {
+          "mean_signed": -0.6666666666666666,
+          "mean_abs": 1.3333333333333333,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        }
+      },
+      "growth_exponent": -0.2081960134259988
+    },
+    "hierarchical|c8|epistemic_certainty": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "category": "epistemic_certainty",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    },
+    "hierarchical|c8|numeric_magnitude": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "category": "numeric_magnitude",
+      "rounds": {
+        "1": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": -0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.19477058115555396
+    },
+    "hierarchical|c8|obligation_strength": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "category": "obligation_strength",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.23375713565608455
+    },
+    "hierarchical|c8|preference_intensity": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "category": "preference_intensity",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    },
+    "sliding|c0|epistemic_certainty": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "category": "epistemic_certainty",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    },
+    "sliding|c0|numeric_magnitude": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "category": "numeric_magnitude",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    },
+    "sliding|c0|obligation_strength": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "category": "obligation_strength",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    },
+    "sliding|c0|preference_intensity": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "category": "preference_intensity",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    },
+    "sliding|c20|epistemic_certainty": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "category": "epistemic_certainty",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 9.12206977166311e-16
+    },
+    "sliding|c20|numeric_magnitude": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "category": "numeric_magnitude",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    },
+    "sliding|c20|obligation_strength": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "category": "obligation_strength",
+      "rounds": {
+        "1": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": -1.0,
+          "mean_abs": 1.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    },
+    "sliding|c20|preference_intensity": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "category": "preference_intensity",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    },
+    "sliding|c8|epistemic_certainty": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "category": "epistemic_certainty",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    },
+    "sliding|c8|numeric_magnitude": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "category": "numeric_magnitude",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    },
+    "sliding|c8|obligation_strength": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "category": "obligation_strength",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        }
+      },
+      "growth_exponent": -0.03650089003990228
+    },
+    "sliding|c8|preference_intensity": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "category": "preference_intensity",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0
+    }
+  },
+  "survival_vs_truth": {
+    "hierarchical|c0|1": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 1,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "hierarchical|c0|2": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 2,
+      "present_but_wrong": 0.3333333333333333,
+      "n": 12
+    },
+    "hierarchical|c0|3": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 3,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "hierarchical|c0|4": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 4,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "hierarchical|c0|5": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 5,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "hierarchical|c0|6": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 6,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "hierarchical|c0|7": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 7,
+      "present_but_wrong": 0.3333333333333333,
+      "n": 12
+    },
+    "hierarchical|c0|8": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 8,
+      "present_but_wrong": 0.4166666666666667,
+      "n": 12
+    },
+    "hierarchical|c0|9": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 9,
+      "present_but_wrong": 0.4166666666666667,
+      "n": 12
+    },
+    "hierarchical|c0|10": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 10,
+      "present_but_wrong": 0.4166666666666667,
+      "n": 12
+    },
+    "hierarchical|c20|1": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 1,
+      "present_but_wrong": 0.8333333333333334,
+      "n": 12
+    },
+    "hierarchical|c20|2": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 2,
+      "present_but_wrong": 0.8333333333333334,
+      "n": 12
+    },
+    "hierarchical|c20|3": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 3,
+      "present_but_wrong": 0.9166666666666666,
+      "n": 12
+    },
+    "hierarchical|c20|4": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 4,
+      "present_but_wrong": 0.75,
+      "n": 12
+    },
+    "hierarchical|c20|5": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 5,
+      "present_but_wrong": 0.8333333333333334,
+      "n": 12
+    },
+    "hierarchical|c20|6": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 6,
+      "present_but_wrong": 0.75,
+      "n": 12
+    },
+    "hierarchical|c20|7": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 7,
+      "present_but_wrong": 0.9166666666666666,
+      "n": 12
+    },
+    "hierarchical|c20|8": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 8,
+      "present_but_wrong": 0.8333333333333334,
+      "n": 12
+    },
+    "hierarchical|c20|9": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 9,
+      "present_but_wrong": 0.8333333333333334,
+      "n": 12
+    },
+    "hierarchical|c20|10": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 10,
+      "present_but_wrong": 0.8333333333333334,
+      "n": 12
+    },
+    "hierarchical|c8|1": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 1,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "hierarchical|c8|2": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 2,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "hierarchical|c8|3": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 3,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "hierarchical|c8|4": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 4,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "hierarchical|c8|5": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 5,
+      "present_but_wrong": 0.3333333333333333,
+      "n": 12
+    },
+    "hierarchical|c8|6": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 6,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "hierarchical|c8|7": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 7,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "hierarchical|c8|8": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 8,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "hierarchical|c8|9": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 9,
+      "present_but_wrong": 0.3333333333333333,
+      "n": 12
+    },
+    "hierarchical|c8|10": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 10,
+      "present_but_wrong": 0.3333333333333333,
+      "n": 12
+    },
+    "sliding|c0|1": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 1,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|2": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 2,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c0|3": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 3,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|4": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 4,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|5": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 5,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|6": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 6,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|7": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 7,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c0|8": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 8,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|9": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 9,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|10": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 10,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c20|1": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 1,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "sliding|c20|2": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 2,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "sliding|c20|3": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 3,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "sliding|c20|4": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 4,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "sliding|c20|5": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 5,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "sliding|c20|6": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 6,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "sliding|c20|7": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 7,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "sliding|c20|8": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 8,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "sliding|c20|9": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 9,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "sliding|c20|10": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 10,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "sliding|c8|1": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 1,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "sliding|c8|2": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 2,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c8|3": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 3,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "sliding|c8|4": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 4,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c8|5": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 5,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c8|6": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 6,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c8|7": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 7,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c8|8": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 8,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "sliding|c8|9": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 9,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "sliding|c8|10": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 10,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    }
+  }
+}

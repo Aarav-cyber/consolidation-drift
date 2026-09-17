@@ -1,0 +1,52 @@
+{
+  "item_id": "cert_001",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I think the deployment may finish by Friday, but I am not certain.\nUser: How did the human genome project impact our understanding of genetics?\nUser: List 5 phrasal verbs using GO\nUser: I'm interested in learning more about the benefits of using neem oil in mouthwashes. Can you tell me more about its properties and how it compares to other essential oils used in mouthwashes?\nUser: It's great that tele-rehabilitation is becoming more common, but is it awkward to do therapy sessions over video chat? I feel like it would be hard to connect with my therapist that way.\nUser: I've already been doing some reading on data analysis and machine learning, but it's great to have more resources to explore. By the way, do you think it's possible to apply data science to understanding concepts like prayer and fate, or is that a bit too abstract?\nAgent: Strongly disagree\nUser: Do you know what Dungeons and Dragons is, or do you know the general concept of a table top rpg?\nUser: Wow, it's great to know that such steps are being taken to protect the Atlantic Forest. Do you think these measures can have a real impact on the environment?"
+    },
+    {
+      "round": 1,
+      "memory": "User is uncertain whether deployment ends by Friday. They want information on the Human Genome Project, five phrasal verbs with GO, the benefits of neem oil compared to other essential oils, and whether tele‑rehab video‑chat feels awkward or hard to connect. They also ask if data science can be applied to abstract concepts like prayer and fate, strongly disagree with an implied statement, inquire about Dungeons & Dragons, and wonder if Atlantic Forest protection measures will truly impact the environment."
+    },
+    {
+      "round": 2,
+      "memory": "The user is uncertain whether the deployment ends by Friday. They request details on the Human Genome Project, five GO phrasal verbs, neem oil benefits versus other essential oils, and whether tele‑rehab video‑chat feels awkward or hard to connect. They also ask if data science can apply to abstract concepts like prayer and fate, strongly disagree with an implied statement, inquire about Dungeons & Dragons, and wonder whether Atlantic Forest protection measures will truly impact the environment."
+    },
+    {
+      "round": 3,
+      "memory": "The user is uncertain if the deployment ends by Friday and requests details on the Human Genome Project, five GO phrasal verbs, neem oil benefits versus other essential oils, and whether tele‑rehab video‑chat feels awkward or hard to connect. They also ask if data science can apply to abstract concepts like prayer and fate, strongly disagree with an implied statement, inquire about Dungeons & Dragons, and question whether Atlantic Forest protection measures will truly impact the environment."
+    },
+    {
+      "round": 4,
+      "memory": "The user is uncertain whether the deployment ends by Friday and requests details on the Human Genome Project, five GO phrasal verbs, neem oil benefits versus other essential oils, and whether tele‑rehab video‑chat feels awkward or hard to connect. They also ask if data science can apply to abstract concepts like prayer and fate, strongly disagree with an implied statement, inquire about Dungeons & Dragons, and question whether Atlantic Forest protection measures will truly impact the environment."
+    },
+    {
+      "round": 5,
+      "memory": "The user is uncertain whether the deployment will end by Friday and requests details on the Human Genome Project. They also want five GO phrasal verbs, neem oil benefits versus other essential oils, and whether tele‑rehab video‑chat feels awkward or hard to connect. The user asks if data science can apply to abstract concepts such as prayer and fate, strongly disagrees with an implied statement, inquires about Dungeons & Dragons, and questions whether Atlantic Forest protection measures will truly impact the environment."
+    },
+    {
+      "round": 6,
+      "memory": "The user expresses uncertainty about whether the deployment will finish by Friday. They request details on the Human Genome Project, five GO phrasal verbs, and a comparison of neem oil benefits versus other essential oils. They ask whether tele‑rehab video‑chat feels awkward or hard to connect. They wonder if data science can apply to abstract concepts such as prayer and fate. They strongly disagree with an implied statement. They inquire about Dungeons & Dragons, and question whether Atlantic Forest protection measures will truly impact the environment."
+    },
+    {
+      "round": 7,
+      "memory": "Uncertain whether the deployment will finish by Friday. Requests HGP details, five GO phrasal verbs, comparison of neem oil to other essential oils, whether tele‑rehab video‑chat feels awkward or hard to connect, and whether data science can apply to abstract concepts like prayer and fate. They strongly disagree with an implied statement, inquire about Dungeons & Dragons, and question whether Atlantic Forest protection measures will truly impact the environment."
+    },
+    {
+      "round": 8,
+      "memory": "The user is uncertain whether the deployment will finish by Friday. They request HGP details, five GO phrasal verbs, and a comparison of neem oil to other essential oils. They also ask whether tele‑rehab video‑chat feels awkward or hard to connect, and whether data science can apply to abstract concepts like prayer and fate. They strongly disagree with an implied statement, inquire about Dungeons & Dragons, and question whether Atlantic Forest protection measures will truly impact the environment."
+    },
+    {
+      "round": 9,
+      "memory": "The user is uncertain whether the deployment will finish by Friday and requests details on HGP, five GO phrasal verbs, and a comparison of neem oil to other essential oils. She asks if tele‑rehab video‑chat feels awkward or hard to connect, and whether data science can apply to abstract concepts like prayer and fate. She strongly disagrees with an implied statement. She inquires about Dungeons & Dragons, and questions whether Atlantic Forest protection measures will truly impact the environment."
+    },
+    {
+      "round": 10,
+      "memory": "User expresses uncertainty whether deployment will finish by Friday. Requests details on HGP; five GO phrasal verbs; a comparison of neem oil to other essential oils. Asks if tele‑rehab video‑chat feels awkward or hard to connect. Questions whether data science can apply to abstract concepts like prayer and fate. Strongly disagrees with an implied statement. Inquires about Dungeons & Dragons. Questions whether Atlantic Forest protection measures will truly impact the environment."
+    }
+  ]
+}
