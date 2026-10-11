@@ -42,23 +42,29 @@ def main():
             if entry["round"] == 0:
                 continue
             if t["category"] == "polarity_negation":
+                verd = polarity(client, t, entry["memory"],
+                                model=args.model, delay=args.delay)
                 records.append({
                     "item_id": t["id"], "category": t["category"],
                     "pipeline": chain["pipeline"],
                     "context_level": chain["context_level"],
                     "round": entry["round"],
-                    "verdict": polarity(client, t, entry["memory"],
-                                        model=args.model, delay=args.delay),
+                    "present": verd != "LOST",
+                    "verdict": verd,
                 })
             else:
                 lv = grade(client, t, entry["memory"], model=args.model, delay=args.delay)
-                records.append({
+                rec = {
                     "item_id": t["id"], "category": t["category"],
                     "true_level": t["true_level"], "pipeline": chain["pipeline"],
                     "context_level": chain["context_level"],
-                    "round": entry["round"], "level": lv,
-                    "drift": lv - t["true_level"],
-                })
+                    "round": entry["round"],
+                    "present": lv is not None,
+                    "level": lv,
+                }
+                if lv is not None:
+                    rec["drift"] = lv - t["true_level"]
+                records.append(rec)
     (d / "evaluations.json").write_text(json.dumps(records, indent=2), encoding="utf-8")
     metrics = compute_metrics(records)
     (d / "drift_metrics.json").write_text(json.dumps(metrics, indent=2), encoding="utf-8")
@@ -66,11 +72,17 @@ def main():
     print("\nMean signed drift by (pipeline, level, round):")
     agg = defaultdict(list)
     for r in records:
-        if "drift" in r:
+        if "drift" in r and r.get("drift") is not None:
             agg[(r["pipeline"], r["context_level"], r["round"])].append(r["drift"])
     for key in sorted(agg):
         ds = agg[key]
         print(f"  {key[0]:12s} {key[1]:3s} round {key[2]:2d}: {sum(ds)/len(ds):+7.3f} (n={len(ds)})")
+    
+    print("\nAttractor Regression Coefficient (ARC) pooled by (pipeline, level):")
+    for name, arc in sorted(metrics.get("arc_pooled", {}).items()):
+        p_str = f"p={arc['p_value']:.4f}" if arc['p_value'] is not None else "p=N/A"
+        print(f"  {name:20s}: slope={arc['slope']:+7.4f}  (R²={arc['r2']:.3f}, {p_str}, n={arc['n']})")
+
     print("\nGrowth exponents (err ~ k^b):")
     for name, s in sorted(metrics["series"].items()):
         print(f"  {name}: b={s['growth_exponent']:+.3f}")
