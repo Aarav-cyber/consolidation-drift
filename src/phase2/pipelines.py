@@ -14,6 +14,8 @@ prompt — is the experimental variable.
 
 States are plain dicts/lists so chains serialize to JSON directly.
 """
+import re
+
 from .llm import PRESERVE, chat
 
 WINDOW = 4
@@ -83,11 +85,20 @@ def hierarchical_step(client, statements, model, delay, budget_words=120,
     joined = "\n".join(f"- {c}" for c in chunk_sums)
     prompt = (
         f"Fuse the following chunk summaries into one global memory of at "
-        f"most {budget_words} words.\n\n"
+        f"most {budget_words} words, structured as concise bullet points or clean statements.\n\n"
         f"{PRESERVE}\n\nChunks:\n{joined}"
     )
     glob = chat(client, prompt, model=model, delay=delay)
-    next_statements = [s.strip() for s in glob.replace("\n", " ").split(". ") if s.strip()]
+    # Extract clean statements: strip markdown bullets/numbering and filter out empty or short fragments (<10 chars)
+    lines = []
+    for raw in glob.splitlines():
+        cleaned = re.sub(r"^[-*•\d.)]+\s*", "", raw.strip()).strip()
+        if len(cleaned) >= 10:
+            lines.append(cleaned)
+    if not lines:
+        sentences = re.split(r"(?<=[.!?])\s+", glob.replace("\n", " "))
+        lines = [s.strip() for s in sentences if len(s.strip()) >= 10]
+    next_statements = lines if lines else [glob.strip()]
     return glob, next_statements
 
 
