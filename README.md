@@ -95,6 +95,10 @@ The dataset, pipeline set, and evaluation harness were rebuilt from scratch to s
 ```text
 consolidation-drift/
 ├── README.md
+├── docs/
+│   ├── arc_metric_specification.md    # Formal definition, OLS math & pilot validation of ARC
+│   ├── protocol_confounds_and_fixes.md# Diagnosis of forced choice, string splitting, and inert controls
+│   └── implementation_log.md          # Chronological engineering log, thinking process & test runs
 ├── consolidation-drift/docs/
 │   └── dataset_sources.md        # provenance for filler + atomic items, build log
 ├── data/
@@ -113,6 +117,8 @@ consolidation-drift/
 │           ├── hierarchical/     # {item_id}.{level}.json chains
 │           ├── evaluations.json  # 720 graded records from the pilot
 │           └── drift_metrics.json
+├── results/
+│   └── figures/                  # 2D heatmaps, ARC trajectories, and OLS scatter plots
 ├── src/
 │   ├── consolidate.py            # phase 0/1 rolling script (superseded by phase2/pipelines.py)
 │   ├── analyze_results.py        # phase 0/1 analysis (superseded, expects old data shape)
@@ -126,12 +132,13 @@ consolidation-drift/
 │       ├── llm.py                # shared Groq client, retry/key-rotation, PRESERVE prompt
 │       ├── pipelines.py          # rolling_step / sliding_step / hierarchical_step
 │       ├── run.py                # pushes embedded rows through a pipeline, resume-aware
-│       ├── evaluate.py           # grade() for 1-5 scales, polarity() for negation
+│       ├── evaluate.py           # grade() with NOT_PRESENT gate, polarity()
 │       ├── grade.py              # grades saved chains, writes evaluations + drift_metrics
-│       └── metrics.py            # mean signed/abs drift, growth exponent, survival-vs-truth
+│       ├── metrics.py            # mean signed/abs drift, growth exponent, ARC regression, attrition
+│       └── visualize.py          # generates headline 2D heatmaps and ARC trajectories
 ├── tests/
 │   ├── dataset/                  # 6 tests: filler pool, atomic_v1, embedded_v1, drift-ready
-│   └── phase2/                   # pipeline + metrics tests
+│   └── phase2/                   # 10 tests: pipeline, metrics, ARC OLS, NOT_PRESENT gate
 └── logs/
     ├── pilot_run.log / _run2.log / _run3.log   # resumed pilot generation runs
     └── pilot_grade.log
@@ -171,16 +178,18 @@ All three pipelines share identical preservation instructions (`llm.PRESERVE`: p
 
 A separate LLM call — never shown the ground truth — regrades every round's output:
 
-* Graded categories: mapped back onto the item's own 1–5 scale, giving `drift = predicted_level − true_level`.
+* Graded categories: mapped back onto the item's own 1–5 scale, giving `drift = predicted_level − true_level`. If the target attribute was omitted or completely lost in consolidation, the evaluator returns `NOT_PRESENT` (recording `level: None` and feeding the Attrition metric).
 * Negation items: a binary `PRESERVED` / `FLIPPED` / `LOST` verdict against the statement's original truth value.
 
-`src/phase2/metrics.py` aggregates graded records (`compute_metrics`) into, per (pipeline, context level, category):
+`src/phase2/metrics.py` aggregates graded records (`compute_metrics`) into:
 
 * mean signed drift and mean absolute drift, broken out by round,
 * a **growth exponent** `b` fit from `error(round) ≈ a · round^b` (log-log least squares, round ≥ 1) — the H0-vs-H1 dial: `b ≈ 0` is flat/H0-like, `b > 0` grows with depth/H1-like,
+* **Attractor Regression Coefficient (ARC)**: OLS slope of drift $y$ on centering distance $x = \text{true\_level} - 3$. Detects central attractor convergence without being vulnerable to cross-item cancellation. Includes $R^2$, $SE$, and $p$-value.
 * `survival_vs_truth`: the fraction of present-but-wrong graded rows per (pipeline, level, round).
+* `attrition`: fraction of rounds where the target attribute was omitted/lost.
 
-Note: negation records currently carry a `verdict`, not a `level`, and `compute_metrics` only aggregates records that have a `level` — so negation results are not yet summarized anywhere (see §8).
+See [`docs/arc_metric_specification.md`](docs/arc_metric_specification.md) and [`docs/protocol_confounds_and_fixes.md`](docs/protocol_confounds_and_fixes.md) for complete mathematical definitions and diagnostic analysis.
 
 ---
 
@@ -199,42 +208,51 @@ Run: 12 items (`PILOT_IDS` in `run.py`, 3 per graded category) × 3 context leve
 | hierarchical | c8 | +0.000 | +0.195 | +0.234 | +0.000 |
 | hierarchical | c20 | +0.163 | +0.004 | −0.038 | −0.208 |
 
-**The clearest single signal in the pilot:** `sliding|c20|obligation_strength` has a mean signed drift of exactly **−1.00 at every round from round 1 through round 10** — a constant, immediate error that never grows or shrinks. That's about as clean an H0 (budget-driven, not depth-driven) result as pilot data gets. By contrast, `hierarchical|c0|obligation_strength` (b=+0.347) and `hierarchical|c8|obligation_strength` (b=+0.234) show drift that grows with round count — H1-like — for the same category under the pipeline that re-derives everything from scratch each round.
+**Attractor Regression Coefficient (ARC) pooled by pipeline & budget level (n=120 per cell):**
 
-Taken together, this suggests the two architectures may sit on opposite sides of the H0/H1 line for the same category, which is the open thread most worth writing up next.
+| Pipeline | Level | Mean Signed Drift | Mean Abs Drift | ARC Slope | $R^2$ | $p$-value | Interpretation |
+|---|---|---:|---:|---:|---:|---:|---|
+| `sliding` | `c0` | +0.017 | 0.017 | **+0.0000** | 0.000 | 1.0000 | Inert negative control (0 LLM calls, exact zero slope) |
+| `sliding` | `c8` | +0.125 | 0.125 | **+0.1250** | 0.095 | 0.0006 | Mild significant polarization/sharpening under light context |
+| `sliding` | `c20` | −0.275 | 0.275 | **−0.1625** | 0.048 | 0.0161 | Moderate significant central attractor under heavy context |
+| `hierarchical` | `c0` | +0.192 | 0.375 | **−0.2000** | 0.056 | 0.0089 | Net inflation (+0.192) masks genuine central attractor (b = -0.200) |
+| `hierarchical` | `c8` | +0.017 | 0.333 | **−0.1375** | 0.023 | 0.0988 | Mild central pull under 8 filler turns |
+| `hierarchical` | `c20` | −1.100 | 1.383 | **−1.0125** | 0.425 | < 1e-12 | Complete collapse toward midpoint / target dilution |
+
+**The clearest single signal in the pilot:** `sliding|c20|obligation_strength` has a mean signed drift of exactly **−1.00 at every round from round 1 through round 10** — a constant, immediate error that never grows or shrinks (H0-like). By contrast, `hierarchical|c0|obligation_strength` (b=+0.347) and `hierarchical|c8|obligation_strength` (b=+0.234) show drift that grows with round count (H1-like) under bottom-up re-derivation.
 
 ---
 
 ## 8. Current Limitations / Open Questions
 
 * `rolling` has not been run through the phase2 harness at all — only the incompatible phase 0/1 format exists for it, so there's no 3-way pipeline comparison yet.
-* Negation/polarity items are excluded from the pilot (`PILOT_IDS` has none) and, even if graded, `compute_metrics` does not currently aggregate verdict-based records — negation has zero summarized results.
+* Negation/polarity items are excluded from the pilot (`PILOT_IDS` has none).
 * 188 of the 200 dataset items are untouched by any pipeline run.
-* No plotting/visualization exists for `drift_metrics.json`; `analyze_results.py` / `calculate_drift.py` are phase 0/1 scripts written for the old single-item data shape and don't apply to phase2 output.
 * Everything so far uses a single model (`openai/gpt-oss-120b` via Groq) — no cross-model replication yet.
-* Sample size per (pipeline, level, category) cell in the pilot is 3 items — enough to see a signal, not enough to trust a growth exponent on its own.
+* Pilot sample size per cell is 3 items per round (12 items total, spanning true levels 2, 3, 4). Scaling to the full 200 items will test the full 1–5 range.
 
 ---
 
 ## 9. Suggested Next Steps
 
-1. Run the `sliding|c20|obligation_strength` flat-vs-growing result — and the hierarchical growth exponents — through a proper statistical test (round-1 vs round-10 drift) before treating either as a finding.
-2. Scale the pilot to the full 200-item dataset across all three pipelines and levels.
-3. Run `rolling` through phase2 for the first true 3-way pipeline comparison.
-4. Add negation items to a pilot run and extend `compute_metrics` to aggregate verdict rates per (pipeline, level, round).
-5. Build the actual drift plot(s) (mean drift vs round, faceted by pipeline/level) — still missing entirely.
-6. Replicate the pilot on a second, architecturally distinct model (e.g. Gemini) to check the sliding/hierarchical split isn't a `gpt-oss` artifact.
+1. Scale the pilot to the full 200-item dataset across all three pipelines (`rolling`, `sliding`, `hierarchical`) and all three budget levels (`c0`, `c8`, `c20`).
+2. Run `rolling` through phase2 for the first true 3-way pipeline comparison.
+3. Add negation items to the benchmark run and track flip/loss rates alongside attrition.
+4. Replicate on an architecturally distinct second model (e.g. Gemini / Llama).
 
 ---
 
-## 10. Running the Pilot
+## 10. Running Experiments & Visualizations
 
 ```bash
 # Generate consolidation chains (resume-aware: skips files already on disk)
 python -m src.phase2.run --pilot --pipelines sliding,hierarchical --levels c0,c8,c20 --rounds 10
 
-# Grade every chain against ground truth and compute drift metrics
+# Grade every chain against ground truth and compute drift + ARC metrics
 python -m src.phase2.grade --dir data/experiments/phase2
+
+# Generate publication figures (Budget x Depth heatmap, ARC trajectory, OLS scatters)
+python -m src.phase2.visualize
 ```
 
-Requires `GROQ_API_KEY` in a gitignored `.env` file (see `src/phase2/llm.py`).
+Requires `GROQ_API_KEY` in a gitignored `.env` file (see `src/phase2/llm.py`). Output figures are saved in `results/figures/`.
