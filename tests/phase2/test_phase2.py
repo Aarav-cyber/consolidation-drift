@@ -98,3 +98,56 @@ def test_metrics_signed_and_exponent():
     assert s["growth_exponent"] > 0.9  # linear growth -> b ~= 1
     svt = out["survival_vs_truth"]["sliding|c8|5"]
     assert svt["present_but_wrong"] == 1.0
+
+
+def test_grade_not_present():
+    c = FakeClient(["NOT_PRESENT"])
+    target = {"attribute": "x", "scale": {"1": "a", "2": "b", "3": "c", "4": "d", "5": "e"}}
+    assert E.grade(c, target, "mem with no relevant attribute", "m", delay=0) is None
+
+
+def test_compute_arc_attractor():
+    # Perfect attractor towards center (3): all levels collapse to 3
+    # true_level 1 (x=-2) -> level 3 (drift y=+2)
+    # true_level 2 (x=-1) -> level 3 (drift y=+1)
+    # true_level 3 (x=0)  -> level 3 (drift y=0)
+    # true_level 4 (x=+1) -> level 3 (drift y=-1)
+    # true_level 5 (x=+2) -> level 3 (drift y=-2)
+    # Slope of y on x must be exactly -1.0
+    rows = [
+        {"true_level": lvl, "level": 3}
+        for lvl in [1, 2, 3, 4, 5]
+    ]
+    arc = M.compute_arc(rows)
+    assert arc["slope"] == -1.0
+    assert arc["r2"] == 1.0
+    assert arc["n"] == 5
+
+
+def test_compute_arc_zero_drift():
+    # No drift: level == true_level for all
+    rows = [
+        {"true_level": lvl, "level": lvl}
+        for lvl in [1, 2, 3, 4, 5]
+    ]
+    arc = M.compute_arc(rows)
+    assert arc["slope"] == 0.0
+    assert arc["n"] == 5
+
+
+def test_metrics_handles_attrition():
+    recs = [
+        {"item_id": "i1", "category": "c", "true_level": 2, "pipeline": "hierarchical",
+         "context_level": "c20", "round": 1, "level": None, "present": False},
+        {"item_id": "i2", "category": "c", "true_level": 4, "pipeline": "hierarchical",
+         "context_level": "c20", "round": 1, "level": 3, "present": True},
+    ]
+    out = M.compute_metrics(recs)
+    att = out["attrition"]["hierarchical|c20|1"]
+    assert att["total"] == 2
+    assert att["lost"] == 1
+    assert att["attrition_rate"] == 0.5
+    # The graded series must only calculate drift on present records (i2: drift 3 - 4 = -1)
+    s = out["series"]["hierarchical|c20|c"]
+    assert s["rounds"][1]["n"] == 1
+    assert s["rounds"][1]["mean_signed"] == -1.0
