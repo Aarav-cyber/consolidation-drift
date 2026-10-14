@@ -31,9 +31,14 @@ def run_chain(client, pipeline, target_text, turns, rounds, model, delay):
             mem = P.rolling_step(client, mem, model, delay)
             mems.append({"round": k, "memory": mem})
     elif pipeline == "sliding":
-        state = P.sliding_init(target_text, turns)
+        # Target starts in window. Context turns arrive progressively across rounds.
+        state = P.sliding_init(target_text)
+        total_turns = len(turns)
         for k in range(1, rounds + 1):
-            state, rendered = P.sliding_step(client, state, model, delay)
+            start_idx = (k - 1) * total_turns // rounds
+            end_idx = k * total_turns // rounds
+            step_turns = turns[start_idx:end_idx]
+            state, rendered = P.sliding_step(client, state, model, delay, new_turns=step_turns)
             mems.append({"round": k, "memory": rendered})
     elif pipeline == "hierarchical":
         stmts = P.hierarchical_init(target_text, turns)
@@ -66,6 +71,9 @@ def main():
     out = Path(args.out)
     client = get_client()
 
+    import datetime
+    timestamp = datetime.datetime.now(datetime.timezone.utc).isoformat()
+
     done, skipped = 0, 0
     for r in rows:
         if want_items and r["item_id"] not in want_items:
@@ -84,7 +92,14 @@ def main():
             dest.parent.mkdir(parents=True, exist_ok=True)
             dest.write_text(json.dumps({
                 "item_id": r["item_id"], "context_level": r["context_level"],
-                "pipeline": pipe, "model": args.model, "rounds": mems,
+                "pipeline": pipe, "model": args.model,
+                "metadata": {
+                    "timestamp": timestamp,
+                    "prompt_version": "v1_preserve",
+                    "total_rounds": args.rounds,
+                    "turns_total": len(r["context_turns"]),
+                },
+                "rounds": mems,
             }, indent=2, ensure_ascii=False), encoding="utf-8")
             done += 1
     print(f"done={done} skipped={skipped}")

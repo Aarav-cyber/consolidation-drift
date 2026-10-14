@@ -32,8 +32,12 @@ def rolling_step(client, memory, model, delay):
     return chat(client, prompt, model=model, delay=delay)
 
 
-def sliding_init(target_text, turns):
-    return {"summary": "", "window": [target_text] + [t["content"] for t in turns]}
+def sliding_init(target_text, turns=None):
+    """Initialize sliding window with target text (and optional initial turns)."""
+    initial_window = [target_text]
+    if turns:
+        initial_window.extend([t["content"] if isinstance(t, dict) else str(t) for t in turns])
+    return {"summary": "", "window": initial_window}
 
 
 def sliding_render(state):
@@ -42,12 +46,24 @@ def sliding_render(state):
     return "\n".join(parts)
 
 
-def sliding_step(client, state, model, delay, window_size=WINDOW):
+def sliding_step(client, state, model, delay, window_size=WINDOW, new_turns=None, recompact=True):
+    """One sliding-window consolidation step.
+    
+    1. Ingests optional new incoming dialogue turns into the active window.
+    2. Evicts older turns exceeding window_size and merges them into the running summary.
+    3. If no turns were evicted but a running summary exists and recompact=True,
+       performs an autonomous re-compaction pass on the summary.
+    """
     window = list(state["window"])
     summary = state["summary"]
+    
+    if new_turns:
+        window.extend([t["content"] if isinstance(t, dict) else str(t) for t in new_turns])
+
     tail_add = ""
     while len(window) > window_size and window:
         tail_add += (" " + window.pop(0)).strip()
+
     if tail_add:
         prompt = (
             "You are a memory consolidation system.\n\n"
@@ -57,6 +73,15 @@ def sliding_step(client, state, model, delay, window_size=WINDOW):
             f"Older memory to fold in:\n{tail_add}"
         )
         summary = chat(client, prompt, model=model, delay=delay)
+    elif summary and recompact:
+        # Periodic compaction pass on the existing summary to enforce brevity
+        prompt = (
+            "You are a memory consolidation system.\n\n"
+            "Rewrite the following running summary to keep it concise, clear, and faithful.\n\n"
+            f"{PRESERVE}\n\nRunning summary:\n{summary}"
+        )
+        summary = chat(client, prompt, model=model, delay=delay)
+
     new_state = {"summary": summary, "window": window}
     return new_state, sliding_render(new_state)
 
