@@ -59,12 +59,16 @@
       "growth_exponent": -2.5981971123964014e-16,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": -0.25,
         "intercept": -0.1333,
         "r2": 0.2287,
         "se": 0.0868,
         "t_stat": -2.881,
-        "p_value": 0.007523
+        "p_value": 0.007523,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "hierarchical|c0|numeric_magnitude": {
@@ -126,12 +130,16 @@
       "growth_exponent": 0.0,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": -0.0,
         "intercept": -0.2,
         "r2": 0.0,
         "se": 0.1389,
         "t_stat": -0.0,
-        "p_value": 1.0
+        "p_value": 1.0,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "hierarchical|c0|obligation_strength": {
@@ -193,12 +201,16 @@
       "growth_exponent": 0.3466254021364907,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": -0.55,
         "intercept": 0.7333,
         "r2": 0.4363,
         "se": 0.1181,
         "t_stat": -4.6553,
-        "p_value": 7.1e-05
+        "p_value": 7.1e-05,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "hierarchical|c0|preference_intensity": {
@@ -260,12 +272,16 @@
       "growth_exponent": 0.0141895049367228,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": -0.0,
         "intercept": 0.3667,
         "r2": 0.0,
         "se": 0.1265,
         "t_stat": -0.0,
-        "p_value": 1.0
+        "p_value": 1.0,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "hierarchical|c20|epistemic_certainty": {
@@ -327,12 +343,16 @@
       "growth_exponent": 0.16313642678662368,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": -1.15,
         "intercept": -0.6333,
         "r2": 0.5402,
         "se": 0.2005,
         "t_stat": -5.7351,
-        "p_value": 4e-06
+        "p_value": 4e-06,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "hierarchical|c20|numeric_magnitude": {
@@ -394,12 +414,16 @@
       "growth_exponent": 0.003606467840170879,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": -0.85,
         "intercept": -1.7333,
         "r2": 0.5586,
         "se": 0.1428,
         "t_stat": -5.9531,
-        "p_value": 2e-06
+        "p_value": 2e-06,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "hierarchical|c20|obligation_strength": {
@@ -461,12 +485,16 @@
       "growth_exponent": -0.037870051533400735,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": -0.9,
         "intercept": -1.9333,
         "r2": 0.9067,
         "se": 0.0546,
         "t_stat": -16.4973,
-        "p_value": 0.0
+        "p_value": 0.0,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "hierarchical|c20|preference_intensity": {
@@ -528,12 +556,16 @@
       "growth_exponent": -0.20819601342599905,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": -1.15,
         "intercept": -0.1,
         "r2": 0.8616,
         "se": 0.0871,
         "t_stat": -13.2007,
-        "p_value": 0.0
+        "p_value": 0.0,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "hierarchical|c8|epistemic_certainty": {
@@ -595,12 +627,16 @@
       "growth_exponent": 0.0,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": -0.05,
         "intercept": -0.0333,
         "r2": 0.0517,
         "se": 0.0405,
         "t_stat": -1.2358,
-        "p_value": 0.22679
+        "p_value": 0.22679,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "hierarchical|c8|numeric_magnitude": {
@@ -662,12 +698,16 @@
       "growth_exponent": 0.19477058115555396,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": -0.9,
         "intercept": -0.6,
         "r2": 0.488,
         "se": 0.1742,
         "t_stat": -5.1655,
-        "p_value": 1.8e-05
+        "p_value": 1.8e-05,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "hierarchical|c8|obligation_strength": {
@@ -729,12 +769,16 @@
       "growth_exponent": 0.2337571356560854,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": 0.4,
         "intercept": 0.6333,
         "r2": 0.4593,
         "se": 0.082,
         "t_stat": 4.8773,
-        "p_value": 3.9e-05
+        "p_value": 3.9e-05,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "hierarchical|c8|preference_intensity": {
@@ -796,12 +840,16 @@
       "growth_exponent": 0.0,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": 0.0,
         "intercept": 0.0667,
         "r2": 0.0,
         "se": 0.0577,
         "t_stat": 0.0,
-        "p_value": 1.0
+        "p_value": 1.0,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "sliding|c0|epistemic_certainty": {
@@ -863,12 +911,16 @@
       "growth_exponent": 0.0,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": 0.0,
         "intercept": 0.0,
         "r2": 0.0,
         "se": 0.0,
         "t_stat": 0.0,
-        "p_value": null
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "sliding|c0|numeric_magnitude": {
@@ -930,12 +982,16 @@
       "growth_exponent": 0.0,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": 0.0,
         "intercept": 0.0,
         "r2": 0.0,
         "se": 0.0,
         "t_stat": 0.0,
-        "p_value": null
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "sliding|c0|obligation_strength": {
@@ -997,12 +1053,16 @@
       "growth_exponent": 0.0,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": 0.0,
         "intercept": 0.0333,
         "r2": 0.0,
         "se": 0.0415,
         "t_stat": 0.0,
-        "p_value": 1.0
+        "p_value": 1.0,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "sliding|c0|preference_intensity": {
@@ -1064,12 +1124,16 @@
       "growth_exponent": 0.0,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": 0.0,
         "intercept": 0.0333,
         "r2": 0.0,
         "se": 0.0415,
         "t_stat": 0.0,
-        "p_value": 1.0
+        "p_value": 1.0,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "sliding|c20|epistemic_certainty": {
@@ -1131,12 +1195,16 @@
       "growth_exponent": 9.12206977166311e-16,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": -0.15,
         "intercept": -0.1,
         "r2": 0.1667,
         "se": 0.0634,
         "t_stat": -2.3664,
-        "p_value": 0.025113
+        "p_value": 0.025113,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "sliding|c20|numeric_magnitude": {
@@ -1198,12 +1266,16 @@
       "growth_exponent": 0.0,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": 0.0,
         "intercept": 0.0,
         "r2": 0.0,
         "se": 0.0,
         "t_stat": 0.0,
-        "p_value": null
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "sliding|c20|obligation_strength": {
@@ -1265,12 +1337,16 @@
       "growth_exponent": 0.0,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": -0.5,
         "intercept": -1.0,
         "r2": 0.25,
         "se": 0.1637,
         "t_stat": -3.0551,
-        "p_value": 0.0049
+        "p_value": 0.0049,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "sliding|c20|preference_intensity": {
@@ -1332,12 +1408,16 @@
       "growth_exponent": 0.0,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": 0.0,
         "intercept": 0.0,
         "r2": 0.0,
         "se": 0.0,
         "t_stat": 0.0,
-        "p_value": null
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "sliding|c8|epistemic_certainty": {
@@ -1399,12 +1479,16 @@
       "growth_exponent": 0.0,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": 0.0,
         "intercept": 0.0,
         "r2": 0.0,
         "se": 0.0,
         "t_stat": 0.0,
-        "p_value": null
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "sliding|c8|numeric_magnitude": {
@@ -1466,12 +1550,16 @@
       "growth_exponent": 0.0,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": 0.0,
         "intercept": 0.0,
         "r2": 0.0,
         "se": 0.0,
         "t_stat": 0.0,
-        "p_value": null
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "sliding|c8|obligation_strength": {
@@ -1533,12 +1621,16 @@
       "growth_exponent": -0.036500890039901736,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": 0.5,
         "intercept": 0.4333,
         "r2": 0.6787,
         "se": 0.065,
         "t_stat": 7.6912,
-        "p_value": 0.0
+        "p_value": 0.0,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     },
     "sliding|c8|preference_intensity": {
@@ -1600,611 +1692,897 @@
       "growth_exponent": 0.0,
       "arc": {
         "n": 30,
+        "n_items": 3,
         "slope": 0.0,
         "intercept": 0.0667,
         "r2": 0.0,
         "se": 0.0577,
         "t_stat": 0.0,
-        "p_value": 1.0
+        "p_value": 1.0,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
       }
     }
   },
   "arc_pooled": {
     "hierarchical|c0": {
       "n": 120,
+      "n_items": 12,
       "slope": -0.2,
       "intercept": 0.1917,
       "r2": 0.0565,
       "se": 0.0752,
       "t_stat": -2.6594,
-      "p_value": 0.008916
+      "p_value": 0.008916,
+      "ci_95": [
+        -0.5429,
+        0.0941
+      ],
+      "se_clustered": 0.1688,
+      "p_value_clustered": 0.18
     },
     "hierarchical|c20": {
       "n": 120,
+      "n_items": 12,
       "slope": -1.0125,
       "intercept": -1.1,
       "r2": 0.4254,
       "se": 0.1083,
       "t_stat": -9.3462,
-      "p_value": 0.0
+      "p_value": 0.0,
+      "ci_95": [
+        -1.524,
+        -0.5059
+      ],
+      "se_clustered": 0.2728,
+      "p_value_clustered": 0.004
     },
     "hierarchical|c8": {
       "n": 120,
+      "n_items": 12,
       "slope": -0.1375,
       "intercept": 0.0167,
       "r2": 0.0229,
       "se": 0.0826,
       "t_stat": -1.664,
-      "p_value": 0.098758
+      "p_value": 0.098758,
+      "ci_95": [
+        -0.7364,
+        0.3214
+      ],
+      "se_clustered": 0.2721,
+      "p_value_clustered": 0.676
     },
     "sliding|c0": {
       "n": 120,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0167,
       "r2": 0.0,
       "se": 0.0144,
       "t_stat": 0.0,
-      "p_value": 1.0
+      "p_value": 1.0,
+      "ci_95": [
+        -0.0227,
+        0.0254
+      ],
+      "se_clustered": 0.0117,
+      "p_value_clustered": 1.0
     },
     "sliding|c20": {
       "n": 120,
+      "n_items": 12,
       "slope": -0.1625,
       "intercept": -0.275,
       "r2": 0.0481,
       "se": 0.0666,
       "t_stat": -2.4417,
-      "p_value": 0.016104
+      "p_value": 0.016104,
+      "ci_95": [
+        -0.4746,
+        0.0706
+      ],
+      "se_clustered": 0.1368,
+      "p_value_clustered": 0.212
     },
     "sliding|c8": {
       "n": 120,
+      "n_items": 12,
       "slope": 0.125,
       "intercept": 0.125,
       "r2": 0.0952,
       "se": 0.0355,
       "t_stat": 3.5244,
-      "p_value": 0.000605
+      "p_value": 0.000605,
+      "ci_95": [
+        -0.0153,
+        0.388
+      ],
+      "se_clustered": 0.1133,
+      "p_value_clustered": 0.252
     }
   },
   "arc_by_round": {
     "hierarchical|c0|1": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": 0.0833,
       "r2": 0.0429,
       "se": 0.1868,
       "t_stat": -0.6691,
-      "p_value": 0.51855
+      "p_value": 0.51855,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c0|2": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.25,
       "intercept": 0.1667,
       "r2": 0.1364,
       "se": 0.199,
       "t_stat": -1.2566,
-      "p_value": 0.237472
+      "p_value": 0.237472,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c0|3": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": 0.25,
       "r2": 0.0556,
       "se": 0.163,
       "t_stat": -0.767,
-      "p_value": 0.460826
+      "p_value": 0.460826,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c0|4": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": 0.25,
       "r2": 0.0556,
       "se": 0.163,
       "t_stat": -0.767,
-      "p_value": 0.460826
+      "p_value": 0.460826,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c0|5": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": 0.3333,
       "r2": 0.0268,
       "se": 0.2383,
       "t_stat": -0.5246,
-      "p_value": 0.611277
+      "p_value": 0.611277,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c0|6": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": 0.25,
       "r2": 0.0556,
       "se": 0.163,
       "t_stat": -0.767,
-      "p_value": 0.460826
+      "p_value": 0.460826,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c0|7": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.25,
       "intercept": 0.1667,
       "r2": 0.1364,
       "se": 0.199,
       "t_stat": -1.2566,
-      "p_value": 0.237472
+      "p_value": 0.237472,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c0|8": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": 0.1667,
       "r2": 0.0163,
       "se": 0.307,
       "t_stat": -0.4071,
-      "p_value": 0.692498
+      "p_value": 0.692498,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c0|9": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.5,
       "intercept": 0.25,
       "r2": 0.1096,
       "se": 0.4507,
       "t_stat": -1.1094,
-      "p_value": 0.293223
+      "p_value": 0.293223,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c0|10": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.25,
       "intercept": 0.0,
       "r2": 0.0625,
       "se": 0.3062,
       "t_stat": -0.8165,
-      "p_value": 0.433236
+      "p_value": 0.433236,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c20|1": {
       "n": 12,
+      "n_items": 12,
       "slope": -1.25,
       "intercept": -1.1667,
       "r2": 0.5282,
       "se": 0.3736,
       "t_stat": -3.3457,
-      "p_value": 0.007418
+      "p_value": 0.007418,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c20|2": {
       "n": 12,
+      "n_items": 12,
       "slope": -1.0,
       "intercept": -1.25,
       "r2": 0.4384,
       "se": 0.3579,
       "t_stat": -2.7937,
-      "p_value": 0.018998
+      "p_value": 0.018998,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c20|3": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.75,
       "intercept": -1.0833,
       "r2": 0.2379,
       "se": 0.4245,
       "t_stat": -1.7667,
-      "p_value": 0.10772
+      "p_value": 0.10772,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c20|4": {
       "n": 12,
+      "n_items": 12,
       "slope": -1.125,
       "intercept": -0.9167,
       "r2": 0.5352,
       "se": 0.3315,
       "t_stat": -3.3936,
-      "p_value": 0.006844
+      "p_value": 0.006844,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c20|5": {
       "n": 12,
+      "n_items": 12,
       "slope": -1.0,
       "intercept": -1.0,
       "r2": 0.4444,
       "se": 0.3536,
       "t_stat": -2.8284,
-      "p_value": 0.0179
+      "p_value": 0.0179,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c20|6": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.875,
       "intercept": -1.0833,
       "r2": 0.3621,
       "se": 0.3673,
       "t_stat": -2.3824,
-      "p_value": 0.038457
+      "p_value": 0.038457,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c20|7": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.625,
       "intercept": -1.1667,
       "r2": 0.2679,
       "se": 0.3268,
       "t_stat": -1.9127,
-      "p_value": 0.084822
+      "p_value": 0.084822,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c20|8": {
       "n": 12,
+      "n_items": 12,
       "slope": -1.125,
       "intercept": -1.0833,
       "r2": 0.4841,
       "se": 0.3673,
       "t_stat": -3.063,
-      "p_value": 0.011982
+      "p_value": 0.011982,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c20|9": {
       "n": 12,
+      "n_items": 12,
       "slope": -1.25,
       "intercept": -1.1667,
       "r2": 0.5282,
       "se": 0.3736,
       "t_stat": -3.3457,
-      "p_value": 0.007418
+      "p_value": 0.007418,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c20|10": {
       "n": 12,
+      "n_items": 12,
       "slope": -1.125,
       "intercept": -1.0833,
       "r2": 0.4841,
       "se": 0.3673,
       "t_stat": -3.063,
-      "p_value": 0.011982
+      "p_value": 0.011982,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c8|1": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0833,
       "r2": 0.0,
       "se": 0.1909,
       "t_stat": 0.0,
-      "p_value": 1.0
+      "p_value": 1.0,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c8|2": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.25,
       "intercept": -0.0833,
       "r2": 0.0458,
       "se": 0.3608,
       "t_stat": -0.6928,
-      "p_value": 0.504194
+      "p_value": 0.504194,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c8|3": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": 0.0,
       "r2": 0.0208,
       "se": 0.271,
       "t_stat": -0.4613,
-      "p_value": 0.654478
+      "p_value": 0.654478,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c8|4": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0833,
       "r2": 0.0,
       "se": 0.1909,
       "t_stat": 0.0,
-      "p_value": 1.0
+      "p_value": 1.0,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c8|5": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.375,
       "intercept": -0.1667,
       "r2": 0.0964,
       "se": 0.363,
       "t_stat": -1.0331,
-      "p_value": 0.325917
+      "p_value": 0.325917,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c8|6": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": 0.0,
       "r2": 0.0625,
       "se": 0.1531,
       "t_stat": -0.8165,
-      "p_value": 0.433236
+      "p_value": 0.433236,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c8|7": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0833,
       "r2": 0.0,
       "se": 0.1909,
       "t_stat": 0.0,
-      "p_value": 1.0
+      "p_value": 1.0,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c8|8": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.125,
       "intercept": 0.1667,
       "r2": 0.075,
       "se": 0.1388,
       "t_stat": 0.9005,
-      "p_value": 0.389051
+      "p_value": 0.389051,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c8|9": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.375,
       "intercept": 0.0,
       "r2": 0.0938,
       "se": 0.3687,
       "t_stat": -1.0171,
-      "p_value": 0.333084
+      "p_value": 0.333084,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "hierarchical|c8|10": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.25,
       "intercept": 0.0,
       "r2": 0.0417,
       "se": 0.3791,
       "t_stat": -0.6594,
-      "p_value": 0.524545
+      "p_value": 0.524545,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c0|1": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0,
       "r2": 0.0,
       "se": 0.0,
       "t_stat": 0.0,
-      "p_value": null
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c0|2": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0833,
       "r2": 0.0,
       "se": 0.107,
       "t_stat": 0.0,
-      "p_value": 1.0
+      "p_value": 1.0,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c0|3": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0,
       "r2": 0.0,
       "se": 0.0,
       "t_stat": 0.0,
-      "p_value": null
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c0|4": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0,
       "r2": 0.0,
       "se": 0.0,
       "t_stat": 0.0,
-      "p_value": null
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c0|5": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0,
       "r2": 0.0,
       "se": 0.0,
       "t_stat": 0.0,
-      "p_value": null
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c0|6": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0,
       "r2": 0.0,
       "se": 0.0,
       "t_stat": 0.0,
-      "p_value": null
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c0|7": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0833,
       "r2": 0.0,
       "se": 0.107,
       "t_stat": 0.0,
-      "p_value": 1.0
+      "p_value": 1.0,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c0|8": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0,
       "r2": 0.0,
       "se": 0.0,
       "t_stat": 0.0,
-      "p_value": null
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c0|9": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0,
       "r2": 0.0,
       "se": 0.0,
       "t_stat": 0.0,
-      "p_value": null
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c0|10": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.0,
       "intercept": 0.0,
       "r2": 0.0,
       "se": 0.0,
       "t_stat": 0.0,
-      "p_value": null
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c20|1": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": -0.25,
       "r2": 0.0294,
       "se": 0.2271,
       "t_stat": -0.5505,
-      "p_value": 0.594072
+      "p_value": 0.594072,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c20|2": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": -0.25,
       "r2": 0.0294,
       "se": 0.2271,
       "t_stat": -0.5505,
-      "p_value": 0.594072
+      "p_value": 0.594072,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c20|3": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.25,
       "intercept": -0.3333,
       "r2": 0.1071,
       "se": 0.2282,
       "t_stat": -1.0954,
-      "p_value": 0.299003
+      "p_value": 0.299003,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c20|4": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.25,
       "intercept": -0.3333,
       "r2": 0.1071,
       "se": 0.2282,
       "t_stat": -1.0954,
-      "p_value": 0.299003
+      "p_value": 0.299003,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c20|5": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": -0.25,
       "r2": 0.0294,
       "se": 0.2271,
       "t_stat": -0.5505,
-      "p_value": 0.594072
+      "p_value": 0.594072,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c20|6": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": -0.25,
       "r2": 0.0294,
       "se": 0.2271,
       "t_stat": -0.5505,
-      "p_value": 0.594072
+      "p_value": 0.594072,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c20|7": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": -0.25,
       "r2": 0.0294,
       "se": 0.2271,
       "t_stat": -0.5505,
-      "p_value": 0.594072
+      "p_value": 0.594072,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c20|8": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": -0.25,
       "r2": 0.0294,
       "se": 0.2271,
       "t_stat": -0.5505,
-      "p_value": 0.594072
+      "p_value": 0.594072,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c20|9": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.25,
       "intercept": -0.3333,
       "r2": 0.1071,
       "se": 0.2282,
       "t_stat": -1.0954,
-      "p_value": 0.299003
+      "p_value": 0.299003,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c20|10": {
       "n": 12,
+      "n_items": 12,
       "slope": -0.125,
       "intercept": -0.25,
       "r2": 0.0294,
       "se": 0.2271,
       "t_stat": -0.5505,
-      "p_value": 0.594072
+      "p_value": 0.594072,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c8|1": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.125,
       "intercept": 0.1667,
       "r2": 0.075,
       "se": 0.1388,
       "t_stat": 0.9005,
-      "p_value": 0.389051
+      "p_value": 0.389051,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c8|2": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.125,
       "intercept": 0.0833,
       "r2": 0.1364,
       "se": 0.0995,
       "t_stat": 1.2566,
-      "p_value": 0.237472
+      "p_value": 0.237472,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c8|3": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.125,
       "intercept": 0.1667,
       "r2": 0.075,
       "se": 0.1388,
       "t_stat": 0.9005,
-      "p_value": 0.389051
+      "p_value": 0.389051,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c8|4": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.125,
       "intercept": 0.0833,
       "r2": 0.1364,
       "se": 0.0995,
       "t_stat": 1.2566,
-      "p_value": 0.237472
+      "p_value": 0.237472,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c8|5": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.125,
       "intercept": 0.0833,
       "r2": 0.1364,
       "se": 0.0995,
       "t_stat": 1.2566,
-      "p_value": 0.237472
+      "p_value": 0.237472,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c8|6": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.125,
       "intercept": 0.0833,
       "r2": 0.1364,
       "se": 0.0995,
       "t_stat": 1.2566,
-      "p_value": 0.237472
+      "p_value": 0.237472,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c8|7": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.125,
       "intercept": 0.0833,
       "r2": 0.1364,
       "se": 0.0995,
       "t_stat": 1.2566,
-      "p_value": 0.237472
+      "p_value": 0.237472,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c8|8": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.125,
       "intercept": 0.1667,
       "r2": 0.075,
       "se": 0.1388,
       "t_stat": 0.9005,
-      "p_value": 0.389051
+      "p_value": 0.389051,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c8|9": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.125,
       "intercept": 0.25,
       "r2": 0.0556,
       "se": 0.163,
       "t_stat": 0.767,
-      "p_value": 0.460826
+      "p_value": 0.460826,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     },
     "sliding|c8|10": {
       "n": 12,
+      "n_items": 12,
       "slope": 0.125,
       "intercept": 0.0833,
       "r2": 0.1364,
       "se": 0.0995,
       "t_stat": 1.2566,
-      "p_value": 0.237472
+      "p_value": 0.237472,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
     }
   },
   "survival_vs_truth": {
@@ -3110,5 +3488,6 @@
       "lost": 0,
       "attrition_rate": 0.0
     }
-  }
+  },
+  "polarity_summary": {}
 }

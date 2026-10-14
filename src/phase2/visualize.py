@@ -15,11 +15,13 @@ def plot_heatmaps(drift_metrics, out_dir):
     series = drift_metrics.get("series", {})
     arc_by_round = drift_metrics.get("arc_by_round", {})
     
-    pipelines = ["sliding", "hierarchical"]
+    available_pipes = [p for p in ["rolling", "sliding", "hierarchical"] if any(k.startswith(f"{p}|") for k in series.keys())]
+    pipelines = available_pipes if available_pipes else ["sliding", "hierarchical"]
     levels = ["c0", "c8", "c20"]
     rounds = list(range(1, 11))
     
-    fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+    n_pipes = len(pipelines)
+    fig, axes = plt.subplots(2, n_pipes, figsize=(max(12, 6 * n_pipes), 10), squeeze=False)
     fig.suptitle("Consolidation Drift: Budget × Depth Grid (Headline Comparison)", fontsize=16, fontweight="bold")
     
     # 1. Mean signed drift heatmaps
@@ -27,9 +29,7 @@ def plot_heatmaps(drift_metrics, out_dir):
         ax = axes[0, idx]
         grid = np.zeros((len(levels), len(rounds)))
         for r_idx, lvl in enumerate(levels):
-            # aggregate across categories for this pipe and lvl
             for c_idx, k in enumerate(rounds):
-                # gather mean_signed for all categories
                 drifts = []
                 for key, val in series.items():
                     if val["pipeline"] == pipe and val["context_level"] == lvl:
@@ -47,7 +47,6 @@ def plot_heatmaps(drift_metrics, out_dir):
         ax.set_xlabel("Consolidation Depth (Round k)")
         ax.set_ylabel("Memory Budget / Context Level")
         
-        # Annotate numbers
         for i in range(len(levels)):
             for j in range(len(rounds)):
                 val = grid[i, j]
@@ -92,8 +91,11 @@ def plot_arc_trajectories(drift_metrics, out_dir):
     arc_by_round = drift_metrics.get("arc_by_round", {})
     rounds = list(range(1, 11))
     
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(11, 7))
     styles = {
+        ("rolling", "c0"): ("#e377c2", "--", "P", "rolling | c0"),
+        ("rolling", "c8"): ("#bcbd22", "-.", "p", "rolling | c8"),
+        ("rolling", "c20"): ("#8c564b", "-", "h", "rolling | c20"),
         ("sliding", "c0"): ("#2ca02c", "--", "s", "sliding | c0 (no-op control)"),
         ("sliding", "c8"): ("#1f77b4", "-.", "o", "sliding | c8"),
         ("sliding", "c20"): ("#17becf", "-", "^", "sliding | c20"),
@@ -102,9 +104,13 @@ def plot_arc_trajectories(drift_metrics, out_dir):
         ("hierarchical", "c20"): ("#9467bd", "-", "X", "hierarchical | c20 (fusion artifact)"),
     }
     
+    plotted = 0
     for (pipe, lvl), (col, ls, marker, label) in styles.items():
-        slopes = [arc_by_round.get(f"{pipe}|{lvl}|{k}", {}).get("slope", 0.0) for k in rounds]
-        plt.plot(rounds, slopes, color=col, linestyle=ls, marker=marker, linewidth=2, label=label)
+        slopes = [arc_by_round.get(f"{pipe}|{lvl}|{k}", {}).get("slope", None) for k in rounds]
+        if any(s is not None for s in slopes):
+            clean_slopes = [s if s is not None else 0.0 for s in slopes]
+            plt.plot(rounds, clean_slopes, color=col, linestyle=ls, marker=marker, linewidth=2, label=label)
+            plotted += 1
         
     plt.axhline(0.0, color="gray", linestyle=":", linewidth=1.5, label="Unbiased Null (ARC = 0)")
     plt.axhline(-1.0, color="darkred", linestyle=":", linewidth=1.5, label="Complete Collapse (ARC = -1)")
@@ -114,7 +120,8 @@ def plot_arc_trajectories(drift_metrics, out_dir):
     plt.ylabel("ARC Slope (b in drift ~ b · (true_level - 3))", fontsize=12)
     plt.xticks(rounds)
     plt.grid(True, linestyle="--", alpha=0.6)
-    plt.legend(loc="lower left", fontsize=10, framealpha=0.9)
+    if plotted > 0:
+        plt.legend(loc="lower left", fontsize=9, framealpha=0.9, ncol=2)
     plt.tight_layout()
     
     out_path = out_dir / "arc_trajectory.png"
@@ -124,29 +131,31 @@ def plot_arc_trajectories(drift_metrics, out_dir):
 
 
 def plot_scatter_ols(evaluations, out_dir):
-    # Scatter of x = true_level - 3 vs y = drift
-    configs = [
+    # Dynamic scatter grid for all detected pipelines and levels
+    discovered_configs = sorted(list({(r["pipeline"], r["context_level"]) for r in evaluations if "pipeline" in r and "context_level" in r}))
+    configs = discovered_configs if discovered_configs else [
         ("sliding", "c0"), ("sliding", "c8"), ("sliding", "c20"),
         ("hierarchical", "c0"), ("hierarchical", "c8"), ("hierarchical", "c20")
     ]
-    fig, axes = plt.subplots(2, 3, figsize=(15, 9), sharex=True, sharey=True)
-    axes = axes.flatten()
+    
+    n_cols = 3
+    n_rows = (len(configs) + n_cols - 1) // n_cols
+    fig, axes = plt.subplots(n_rows, n_cols, figsize=(5 * n_cols, 4.5 * n_rows), sharex=True, sharey=True, squeeze=False)
+    axes_flat = axes.flatten()
     
     for idx, (pipe, lvl) in enumerate(configs):
-        ax = axes[idx]
+        ax = axes_flat[idx]
         rows = [r for r in evaluations if r.get("pipeline") == pipe and r.get("context_level") == lvl
                 and r.get("level") is not None and r.get("true_level") is not None]
         
         xs = np.array([r["true_level"] - 3 for r in rows])
         ys = np.array([r["level"] - r["true_level"] for r in rows])
         
-        # Add jitter for visualization
-        jitter_x = xs + np.random.normal(0, 0.05, size=len(xs))
-        jitter_y = ys + np.random.normal(0, 0.05, size=len(ys))
+        if len(xs) > 0:
+            jitter_x = xs + np.random.normal(0, 0.05, size=len(xs))
+            jitter_y = ys + np.random.normal(0, 0.05, size=len(ys))
+            ax.scatter(jitter_x, jitter_y, alpha=0.35, color="#1f77b4", edgecolor="none", s=30)
         
-        ax.scatter(jitter_x, jitter_y, alpha=0.35, color="#1f77b4", edgecolor="none", s=30)
-        
-        # Fit OLS
         if len(xs) > 1 and np.var(xs) > 0:
             slope, intercept = np.polyfit(xs, ys, 1)
             line_x = np.linspace(-2, 2, 100)
@@ -165,6 +174,9 @@ def plot_scatter_ols(evaluations, out_dir):
         ax.grid(True, linestyle="--", alpha=0.4)
         ax.set_xlim(-2.5, 2.5)
         ax.set_ylim(-3.5, 3.5)
+        
+    for idx in range(len(configs), len(axes_flat)):
+        axes_flat[idx].set_visible(False)
         
     plt.suptitle("ARC OLS Regression Fit per Pipeline & Context Level (Pooled)", fontsize=15, fontweight="bold")
     plt.tight_layout()
