@@ -80,8 +80,24 @@ def main():
     
     print("\nAttractor Regression Coefficient (ARC) pooled by (pipeline, level):")
     for name, arc in sorted(metrics.get("arc_pooled", {}).items()):
-        p_str = f"p={arc['p_value']:.4f}" if arc['p_value'] is not None else "p=N/A"
-        print(f"  {name:20s}: slope={arc['slope']:+7.4f}  (R²={arc['r2']:.3f}, {p_str}, n={arc['n']})")
+        ci_str = f"95% CI=[{arc['ci_95'][0]:+.3f}, {arc['ci_95'][1]:+.3f}]" if arc.get("ci_95") else ""
+        p_clust = f"p_boot={arc['p_value_clustered']:.4f}" if arc.get("p_value_clustered") is not None else ""
+        stats_str = ", ".join(filter(None, [f"R²={arc['r2']:.3f}", ci_str, p_clust, f"n={arc['n']}"]))
+        print(f"  {name:20s}: slope={arc['slope']:+7.4f}  ({stats_str})")
+
+    if metrics.get("polarity_summary"):
+        print("\nPolarity / Negation rates by (pipeline, level):")
+        by_pl_pol = defaultdict(lambda: {"total": 0, "preserved": 0, "flipped": 0, "lost": 0})
+        for k, v in metrics["polarity_summary"].items():
+            pl = (v["pipeline"], v["context_level"])
+            for field in ("total", "preserved", "flipped", "lost"):
+                by_pl_pol[pl][field] += v[field]
+        for (pipe, lvl), counts in sorted(by_pl_pol.items()):
+            tot = counts["total"]
+            pres_r = counts["preserved"] / tot if tot else 0.0
+            flip_r = counts["flipped"] / tot if tot else 0.0
+            lost_r = counts["lost"] / tot if tot else 0.0
+            print(f"  {pipe:12s} {lvl:3s}: preserved={pres_r:.1%}, flipped={flip_r:.1%}, lost={lost_r:.1%} (n={tot})")
 
     print("\nGrowth exponents (err ~ k^b):")
     for name, s in sorted(metrics["series"].items()):
