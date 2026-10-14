@@ -151,3 +151,86 @@ def test_metrics_handles_attrition():
     s = out["series"]["hierarchical|c20|c"]
     assert s["rounds"][1]["n"] == 1
     assert s["rounds"][1]["mean_signed"] == -1.0
+
+
+def test_sliding_progressive_turn_feeding_calls_model_across_rounds():
+    """Verify that feeding turns incrementally across rounds calls the model repeatedly."""
+    c = FakeClient(["Summary 1", "Summary 2", "Summary 3", "Summary 4", "Summary 5"])
+    state = P.sliding_init("Target fact")
+    # Feed 2 turns per round for 3 rounds with window size 2
+    for r in range(1, 4):
+        new_turns = [{"content": f"filler turn {r}.1"}, {"content": f"filler turn {r}.2"}]
+        state, rendered = P.sliding_step(c, state, "model", delay=0, window_size=2, new_turns=new_turns)
+        assert len(state["window"]) == 2
+        assert state["summary"] != ""
+    assert len(c.chat.completions.calls) == 3
+
+
+def test_polarity_parser_strict_matching():
+    target = {"original_text": "I like cats.", "true_value": True}
+    
+    # 1. Standard PRESERVED
+    c1 = FakeClient(["PRESERVED"])
+    assert E.polarity(c1, target, "User likes cats", "m", delay=0) == "PRESERVED"
+    
+    # 2. Standard FLIPPED
+    c2 = FakeClient(["FLIPPED"])
+    assert E.polarity(c2, target, "User hates cats", "m", delay=0) == "FLIPPED"
+    
+    # 3. Explicit "NOT PRESERVED" must NOT return PRESERVED
+    c3 = FakeClient(["The fact was NOT PRESERVED."])
+    assert E.polarity(c3, target, "Irrelevant text", "m", delay=0) == "LOST"
+
+
+def test_polarity_parser_rejects_ambiguous():
+    import pytest
+    target = {"original_text": "I like cats.", "true_value": True}
+    # Ambiguous output with both PRESERVED and FLIPPED
+    c = FakeClient(["It was PRESERVED and also FLIPPED.", "Still ambiguous PRESERVED or LOST."])
+    with pytest.raises(RuntimeError):
+        E.polarity(c, target, "mem", "m", delay=0)
+
+
+def test_compute_arc_clustered_bootstrap():
+    # 3 items observed across 4 rounds (12 observations)
+    rows = []
+    for item_idx in [1, 2, 3]:
+        true_lvl = item_idx + 1 # 2, 3, 4
+        for r in range(1, 5):
+            # item 1 (true=2) drifts +1 -> level 3
+            # item 2 (true=3) drifts 0  -> level 3
+            # item 3 (true=4) drifts -1 -> level 3
+            rows.append({
+                "item_id": f"item_{item_idx}",
+                "true_level": true_lvl,
+                "round": r,
+                "level": 3
+            })
+    arc = M.compute_arc(rows, cluster_bootstrap=True, n_boot=100)
+    assert arc["slope"] == -1.0
+    assert arc["n"] == 12
+    assert arc["n_items"] == 3
+    assert arc["ci_95"] is not None
+    # All bootstrap samples will yield -1.0 because all items collapsed to 3
+    assert arc["ci_95"][0] == -1.0
+    assert arc["ci_95"][1] == -1.0
+
+
+def test_metrics_polarity_summary():
+    recs = [
+        {"item_id": "p1", "category": "polarity_negation", "pipeline": "sliding",
+         "context_level": "c8", "round": 1, "verdict": "PRESERVED"},
+        {"item_id": "p2", "category": "polarity_negation", "pipeline": "sliding",
+         "context_level": "c8", "round": 1, "verdict": "FLIPPED"},
+        {"item_id": "p3", "category": "polarity_negation", "pipeline": "sliding",
+         "context_level": "c8", "round": 1, "verdict": "LOST"},
+    ]
+    out = M.compute_metrics(recs)
+    pol = out["polarity_summary"]["sliding|c8|1"]
+    assert pol["total"] == 3
+    assert pol["preserved"] == 1
+    assert pol["flipped"] == 1
+    assert pol["lost"] == 1
+    assert pol["flip_rate"] == round(1/3, 4)
+    assert pol["preservation_rate"] == round(1/3, 4)
+    assert pol["loss_rate"] == round(1/3, 4)
