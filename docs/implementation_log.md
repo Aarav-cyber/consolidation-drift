@@ -122,3 +122,43 @@ The goal of this session was to address the findings in the *Consolidation Drift
 | `docs/protocol_confounds_and_fixes.md` | Created | Analysis of the 3 pilot confounds and their protocol solutions. |
 | `docs/implementation_log.md` | Created | This engineering log documenting the thinking process and execution history. |
 | `results/figures/*.png` | Generated | 3 headline figures generated and saved. |
+
+---
+
+## 4. Phase A Remediation: Pipeline Mechanics, Polarity Hardening & Clustered Statistics (2026-10-15)
+
+### Objectives
+Address the four critical issues raised in peer code review:
+1. `sliding` pipeline stalling after round 1 due to empty `tail_add`.
+2. Pooled ARC pseudo-replication inflating statistical significance across repeated rounds.
+3. Polarity evaluator parsing vulnerability (`"NOT PRESERVED"` matching `"PRESERVED"`).
+4. Missing dedicated negation error rates in `compute_metrics()`.
+
+### Thinking Process & Implementations
+* **Sliding Pipeline Redesign:**
+  * Context turns are partitioned across $K$ rounds (`src/phase2/run.py`).
+  * `sliding_step` ingests `new_turns` progressively. When the window overflows $W=4$, older turns evict and merge into the summary.
+  * When turns are exhausted, an autonomous re-compaction pass maintains summary conciseness.
+  * For $c0$ (0 turns), the window retains the target verbatim as an inert control.
+* **Item-Clustered Block Bootstrap for ARC:**
+  * Evaluated the pseudo-replication confound: 120 observations across 12 items are autocorrelated.
+  * Implemented an item-level block bootstrap ($B=500$ iterations) resampling whole item trajectories with replacement.
+  * Generates cluster-robust standard errors, empirical 95% CIs, and cluster-adjusted $p$-values.
+* **Strict Polarity Regex Parser:**
+  * Replaced substring containment with isolated word boundaries: `\b(PRESERVED|FLIPPED|LOST)\b`.
+  * Explicitly detects negation phrases (`NOT PRESERVED`, `UNPRESERVED`) and prevents false positive assignment to `PRESERVED`.
+  * Enforces a strict single-verdict rule, raising an error on conflicting labels.
+* **Dedicated Polarity Summary:**
+  * Added `polarity_summary` in `compute_metrics()`, tracking `preservation_rate`, `flip_rate`, and `loss_rate` broken down by pipeline, budget, and round.
+* **Dynamic Pipeline Visualization:**
+  * Generalized `src/phase2/visualize.py` to automatically detect and render available pipelines (`rolling`, `sliding`, `hierarchical`).
+
+### Verification & Testing
+* Added 5 new unit tests in `tests/phase2/test_phase2.py`:
+  * `test_sliding_progressive_turn_feeding_calls_model_across_rounds`
+  * `test_polarity_parser_strict_matching`
+  * `test_polarity_parser_rejects_ambiguous`
+  * `test_compute_arc_clustered_bootstrap`
+  * `test_metrics_polarity_summary`
+* Ran full test suite via `pytest`: **all 21 unit tests passed** in 2.50s.
+* Regenerated visualization figures via `python -m src.phase2.visualize`.
