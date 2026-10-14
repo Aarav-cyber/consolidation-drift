@@ -35,18 +35,35 @@ def grade(client, target, memory, model, delay):
 
 
 def polarity(client, target, memory, model, delay):
-    """Binary verdict for polarity/negation targets."""
+    """Verdict for polarity/negation targets: PRESERVED, FLIPPED, or LOST.
+    
+    Strictly parses single-label responses using word boundaries and handles negation phrases
+    like 'NOT PRESERVED' or 'UNPRESERVED' to prevent false positive matches.
+    """
     expected = "TRUE" if target["true_value"] else "FALSE"
     prompt = (
         "You are checking whether a consolidated memory preserves a fact.\n\n"
         f"Original statement:\n{target['original_text']}\n\n"
         f"Consolidated memory:\n{memory}\n\n"
         f"The original statement is {expected}.\n"
-        "Does the consolidated memory keep the same truth? "
+        "Does the consolidated memory keep the same truth?\n"
+        "- If it keeps the exact same truth/polarity, return ONLY 'PRESERVED'.\n"
+        "- If it inverts or negates the truth (e.g. true became false or false became true), return ONLY 'FLIPPED'.\n"
+        "- If the fact was omitted, deleted, or cannot be determined, return ONLY 'LOST'.\n\n"
         "Return ONLY one word: PRESERVED, FLIPPED, or LOST."
     )
-    text = chat(client, prompt, model=model, delay=delay).upper()
-    for verdict in ("PRESERVED", "FLIPPED", "LOST"):
-        if verdict in text:
-            return verdict
-    return "LOST"
+    for _ in range(2):
+        text = chat(client, prompt, model=model, delay=delay).strip()
+        upper = text.upper()
+        
+        # Check for explicit negation of preserved (e.g. "NOT PRESERVED", "NOT PRESERVE")
+        if re.search(r"\bNOT\s+PRESERVE[D]?\b", upper) or re.search(r"\bUNPRESERVED\b", upper):
+            if re.search(r"\bFLIPPED\b", upper):
+                return "FLIPPED"
+            return "LOST"
+            
+        matches = set(re.findall(r"\b(PRESERVED|FLIPPED|LOST)\b", upper))
+        if len(matches) == 1:
+            return matches.pop()
+            
+    raise RuntimeError(f"Polarity evaluator returned ambiguous or unparseable response: {text!r}")
