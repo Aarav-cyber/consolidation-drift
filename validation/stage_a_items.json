@@ -1,0 +1,58 @@
+{
+ "preference_intensity": [
+  "pref_010",
+  "pref_011",
+  "pref_017",
+  "pref_018",
+  "pref_021",
+  "pref_023",
+  "pref_024",
+  "pref_029",
+  "pref_032",
+  "pref_033",
+  "pref_036",
+  "pref_038"
+ ],
+ "epistemic_certainty": [
+  "cert_004",
+  "cert_006",
+  "cert_007",
+  "cert_013",
+  "cert_019",
+  "cert_023",
+  "cert_030",
+  "cert_032",
+  "cert_035",
+  "cert_037",
+  "cert_039",
+  "cert_040"
+ ],
+ "obligation_strength": [
+  "obl_004",
+  "obl_012",
+  "obl_015",
+  "obl_016",
+  "obl_017",
+  "obl_024",
+  "obl_027",
+  "obl_029",
+  "obl_032",
+  "obl_033",
+  "obl_035",
+  "obl_038"
+ ],
+ "numeric_magnitude": [
+  "num_007",
+  "num_008",
+  "num_017",
+  "num_021",
+  "num_023",
+  "num_024",
+  "num_026",
+  "num_030",
+  "num_032",
+  "num_036",
+  "num_039",
+  "num_040"
+ ]
+}
