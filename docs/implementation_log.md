@@ -162,3 +162,36 @@ Address the four critical issues raised in peer code review:
   * `test_metrics_polarity_summary`
 * Ran full test suite via `pytest`: **all 21 unit tests passed** in 2.50s.
 * Regenerated visualization figures via `python -m src.phase2.visualize`.
+
+---
+
+## 5. Clean Re-run, Empty-Reply Bug and Qwen Run (2026-10-31 to 2026-11-01)
+
+### What we did
+1. **Re-ran the 12-item pilot with the fixed code** (gpt-oss-20b writer, gpt-oss-120b grader) into `data/experiments/phase2_v2`. All 72 chains and 720 grades finished.
+2. **Checked the result before trusting it.** Of the 137 `NOT_PRESENT` grades, 99 were memories reading "please share the turn-notes", 12 were empty memories, and 26 had the target in the text (grader misses, for example "₹5 000" against a "5000 INR" scale).
+3. **Found the cause of the empty memories.** gpt-oss-20b has a default output limit of 2048 tokens. On the long 20-turn fuse step it spent all 2048 tokens thinking about the 120-word cap and returned an empty reply (`finish_reason=length`). The next round then answered the empty prompt. This is why the earlier -1.01 slope for hierarchical at 20 turns cannot be trusted.
+4. **Fixed it** in `src/phase2/llm.py`: the output limit is now 8192 tokens, an empty reply is retried with a doubled limit (up to 32768), and after 6 empty replies the run stops instead of saving a bad chain. `hierarchical_step` now refuses to save an empty global memory.
+5. **Hit the Groq free-tier daily limit.** Finishing the 15 affected hierarchical chains would have taken about two days.
+6. **Added a self-hosted backend** (`--backend selfhosted`, settings `SELFHOSTED_BASE_URL` and `SELFHOSTED_API_KEY` in `.env`). It talks to a Qwen server through an SSH tunnel, using only the standard library. The default is still Groq.
+7. **Re-ran all 72 chains on `qwen3.8-27b`** so both pipelines use the same writer. Four runs go in parallel, one per item category, because the server handles several requests together. Grading uses Groq `gpt-oss-120b`, so writer and grader are different models.
+8. **Started grader validation.** `validation/make_sample.py` builds a blind 100-row sheet (40 judged "not present", 60 graded). `validation/score.py` reports agreement and kappa once the human labels are filled in. `validation/results_tables.py` builds the result tables.
+
+### Changes
+| File | Change |
+| :--- | :--- |
+| `src/phase2/llm.py` | Larger output limit, empty-reply retry, `OpenAICompatClient`, `get_client(backend)` |
+| `src/phase2/pipelines.py` | Reject an empty global memory |
+| `src/phase2/run.py` | `--backend` flag |
+| `tests/phase2/test_phase2.py` | 6 new tests, 27 passing |
+| `validation/` | Labelling sheet, answer key, scoring and table scripts |
+| `data/experiments/phase2_v2/` | gpt-oss re-run chains and grades |
+| `docs/final_report.md` | Report on the whole project |
+
+### Findings so far
+- Sliding window shows no statistically significant drift on 12 items. Slopes are about -0.09 and every confidence interval includes 0.
+- The old hierarchical result was an artifact. The clean hierarchical numbers come from the Qwen run, which is graded after this entry.
+- No support for H1 (directional bias) yet.
+
+### Not done
+- Qwen grades, the human-labelled grader check, the full 200-item run, a second writer model, a real memory-size limit, and the AVR fix.
