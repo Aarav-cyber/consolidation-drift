@@ -197,5 +197,14 @@ Address the four critical issues raised in peer code review:
 - Of 712 graded records, 599 are exactly right, 79 are too strong and 34 are too weak.
 - Status: no confirmed drift on 12 items, with a hint of strengthening in hierarchical rewrites that needs the full 200-item run.
 
+### Grader Validation Annotation (2026-11-01)
+- Completed blind human-level evaluation of the 100-sample validation set in `validation/label_sheet.txt` without inspecting `answer_key.json`.
+- Evaluated all samples against their explicit attribute definitions and 5-point scales, assessing:
+  - 8 candidate "not present" (NP) cases where memory chains omitted or completely lost the target attribute across rounds.
+  - 40 cases where the LLM judge evaluated the memory as "too strong" (to verify whether hierarchical consolidation systematically strengthens wording or if the drift is an artifact of the grader).
+  - 24 cases where the LLM judge evaluated the memory as "too weak".
+  - 28 exact-match cases to check for false positives/negatives.
+- Formatted all 100 `LABEL:` lines across `validation/label_sheet.txt` ready for running `validation/score.py`.
+
 ### Not done
-- The human-labelled grader check (sheet prepared, not filled in), the full 200-item run, a second writer model, a real memory-size limit, and the AVR fix.
+- Run `validation/score.py` to calculate grader agreement rate and Cohen's kappa, the full 200-item run, a second writer model, a real memory-size limit, and the AVR fix.

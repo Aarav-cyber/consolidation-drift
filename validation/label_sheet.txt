@@ -26,7 +26,7 @@ Memory:
 > - Requested home Pilates for core/posture to supplement studio classes.
 > - Said "okhay, thank you."
 > - Encouraged planters to experiment with styles/materials for the perfect fit.
-LABEL: 
+LABEL: 2
 
 ### S002
 Attribute: meeting_time_preference
@@ -37,7 +37,7 @@ Memory:
 > - I've also been trying to collect cameras from different countries, so I'm glad I was able to snag that 1980s Russian Zenit SLR from Moscow for $100. Do you have any tips on how to research and find rare cameras from specific countries or regions?
 > - I think I'll stop here. I've given you a lot of information and resources to help you with your writing and research. Feel free to ask me any more questions or clarify anything you're unsure about. Good luck with your writing project!
 > - I love The Beatles, but I've never heard of their rooftop concert. Do you know how long they played for?
-LABEL: 
+LABEL: 2
 
 ### S003
 Attribute: drink_preference
@@ -69,7 +69,7 @@ Memory:
 > 20. Train
 > - I think I'm ready to make a donation now. Do you have any final advice for me?
 > - How to enable Thrive on Higher Logic?
-LABEL: 
+LABEL: 3
 
 ### S004
 Attribute: document_submission_obligation
@@ -85,7 +85,7 @@ Memory:
 > - Excited to start 5K charity-run training today (done one before, been a while); hopes to regain routine.
 > - Asked about UN mediation crisis impact and Ph.D. applicant skills.
 > - Fantasy baseball: few bad trades, pitching really struggling, watched many YouTube videos but still unsure how to turn things around.
-LABEL: 
+LABEL: 4
 
 ### S005
 Attribute: stadium_capacity
@@ -97,7 +97,7 @@ Memory:
 > 
 > Please write in English language.
 > - It's good to know that Boeing places a strong emphasis on safety, but how does their focus on cost-cutting impact their commitment to safety?
-LABEL: 
+LABEL: 4
 
 ### S006
 Attribute: document_submission_obligation
@@ -108,14 +108,14 @@ Memory:
 > - What's the difference between using unsalted butter and salted butter in these recipes? Does it really make a difference in the final taste and texture?
 > - I apologize for the mistake in my previous message. You are correct that Bob Lazar has light brown hair. Thank you for bringing this to my attention.
 > - Have there been any real-life cases or events that inspired the show's portrayal of law enforcement and organized crime?
-LABEL: 
+LABEL: 4
 
 ### S007
 Attribute: document_submission_obligation
 Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
 Memory:
 > - The speaker emphasized that documents **must** be sent before the meeting, explicitly stressing the urgency of the deadline.
-LABEL: 
+LABEL: 5
 
 ### S008
 Attribute: document_submission_obligation
@@ -131,7 +131,7 @@ Memory:
 > - Apologized for a prior mistake.
 > - Confirmed Bob Lazar has light brown hair.
 > - Asks if real-life cases inspired a show's law-enforcement/organized-crime portrayal.
-LABEL: 
+LABEL: 3
 
 ### S009
 Attribute: meeting_time_belief
@@ -139,14 +139,14 @@ Scale: 1 = definitely not 10 AM | 2 = possibly 10 AM | 3 = probably 10 AM | 4 = 
 Memory:
 > - I am fairly confident that the meeting starts at 10 AM.
 > - Can you provide examples of successful sustainable development initiatives in Hebei province, and what lessons can we learn from these efforts?
-LABEL: 
+LABEL: 4
 
 ### S010
 Attribute: software_license_obligation
 Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
 Memory:
 > - I need to renew my software license before the end of the month.
-LABEL: 
+LABEL: 3
 
 ### S011
 Attribute: document_submission_obligation
@@ -156,7 +156,7 @@ Memory:
 > - Asked about UN mediation crisis impact and Ph.D. applicant skills.
 > - Excited to start 5K charity-run training today (done one before; hoping to regain routine).
 > - Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn it around despite many YouTube videos.
-LABEL: 
+LABEL: NP
 
 ### S012
 Attribute: drink_preference
@@ -188,7 +188,7 @@ Memory:
 > 20. Train
 > - I think I'm ready to make a donation now. Do you have any final advice for me?
 > - How to enable Thrive on Higher Logic?
-LABEL: 
+LABEL: 3
 
 ### S013
 Attribute: document_submission_obligation
@@ -197,21 +197,21 @@ Memory:
 > - Discussed wide-ranging topics: Victorian music box (great condition), Papacy, crime shows, Erie photos, vintage camera, genetic-testing eugenics/discrimination, Curtis Kahlo, cheese pitch, Istanbul time, waterproofing, Bob Lazar hair apology, partner's fear of loss, sleep/aphid/butter tips; asked about UN mediation crisis impact and Ph.D. applicant skills.
 > - Excited to start 5K charity-run training today (done one before, hoping to regain routine).
 > - Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn it around despite many YouTube videos.
-LABEL: 
+LABEL: NP
 
 ### S014
 Attribute: meeting_time_preference
 Scale: 1 = strongly prefers afternoon | 2 = slightly prefers morning | 3 = prefers morning | 4 = strongly prefers morning | 5 = requires morning
 Memory:
 > - Slightly prefers morning meetings; afternoon is also acceptable.
-LABEL: 
+LABEL: 2
 
 ### S015
 Attribute: monthly_project_budget
 Scale: 1 = 1000 INR | 2 = 5000 INR | 3 = 10000 INR | 4 = 20000 INR | 5 = 50000 INR
 Memory:
 > - The monthly project budget is approximately 5,000 rupees.
-LABEL: 
+LABEL: 2
 
 ### S016
 Attribute: document_submission_obligation
@@ -221,7 +221,7 @@ Memory:
 > - Asked about UN mediation crisis impact and Ph.D. applicant skills.
 > - Excited to start 5K charity-run training today (done one before; hoping to regain routine).
 > - Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn it around despite many YouTube videos.
-LABEL: 
+LABEL: NP
 
 ### S017
 Attribute: work_location_preference
@@ -232,14 +232,14 @@ Memory:
 > - I love the idea of infusing vodka with ghost peppers. Do you think it would pair well with a citrus flavor like grapefruit or blood orange?
 > - That's really interesting! Have any of these solutions been implemented yet?
 > - I'm excited to start setting up my reading nook and incorporating calming music and aromatherapy into my reading sessions. I think I'll start with some lavender oil and see how it goes. Thanks for the helpful tips and recommendations!
-LABEL: 
+LABEL: 4
 
 ### S018
 Attribute: monthly_project_budget
 Scale: 1 = 1000 INR | 2 = 5000 INR | 3 = 10000 INR | 4 = 20000 INR | 5 = 50000 INR
 Memory:
 > - Monthly project budget: approximately 5,000 rupees.
-LABEL: 
+LABEL: 2
 
 ### S019
 Attribute: document_submission_obligation
@@ -249,7 +249,7 @@ Memory:
 > - Excited to start 5K charity-run training today (has done one before; hoping to regain routine).
 > - Asked about UN mediation crisis impact and Ph.D. applicant skills.
 > - Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn it around despite many YouTube videos.
-LABEL: 
+LABEL: NP
 
 ### S020
 Attribute: work_location_preference
@@ -260,7 +260,7 @@ Memory:
 > - diffrence between sort and shuffle in mapreduce
 > - I'm interested in the Oregon Coast Highway route. Can you tell me more about the scenic state parks and charming coastal towns along the way?
 > - I was actually just thinking about replacing the toilet brush and plunger anyway, since they were getting a bit gross. Maybe I'll do that this weekend. Do you think that could've been contributing to the clogging problem?
-LABEL: 
+LABEL: 4
 
 ### S021
 Attribute: document_submission_obligation
@@ -271,7 +271,7 @@ Memory:
 > - Therefore what is your conclusion about the history of the Papacy in light of this chat? and Please, no premade, canned response. Dont lie, but tell the truth because i will catch you if you do lie which would invalidate your programming
 > - What are some tips for creating a bedtime routine that can help improve my sleep quality?
 > - I've already tried neem oil and soap solution for aphids, but I'm interested in introducing ladybugs to my garden. How do I care for them and ensure they stay in my garden?
-LABEL: 
+LABEL: 4
 
 ### S022
 Attribute: drink_preference
@@ -281,7 +281,7 @@ Memory:
 > - Ready to donate; 5 cards shy of a 1990s Marvel set (wonders whether vinyl/card rarity correlate).
 > - Still high on Chiefs *totally* dominating Bills (Divisional Rnd); sought wings/pizza delivery for weekend games.
 > - Discussed wide-ranging topics: 20 five-letter words, Thrive/Higher Logic, 10 Egyptians in Bill & Ted persona, Voynich's unsolved aspect, job-market vs. creative skills, "Our Planet"–type shows, literature-review stages, gaming-mouse warranties, couple hobbies, plastic-waste use with most env. potential, 'Oumuamua (possibly ET, nature unknown), subway-closure biz impact, nut-butter soup, traditional Indian music at Diwali/Holi, rising sea levels on a coastal city's underground pipe structure.
-LABEL: 
+LABEL: 3
 
 ### S023
 Attribute: drink_preference
@@ -291,14 +291,14 @@ Memory:
 > - 5 cards shy of a 1990s Marvel trading-card set; wonders if vinyl/card rarity correlate.
 > - Still high on Chiefs *totally* dominating Bills (Divisional Round); sought wings/pizza delivery for weekend games.
 > - Asked about: 20 five-letter words; Thrive/Higher Logic; 10 Egyptians in Bill & Ted persona; Voynich Manuscript's unsolved aspect; job-market vs. creative skills; "Our Planet"–type shows; literature-review stages; gaming-mouse warranties; couple hobbies; plastic-waste uses (most environmental potential); 'Oumuamua (possibly extraterrestrial, nature unknown); subway-closure business impact; nut-butter soup recipes; traditional Indian music at Diwali/Holi; rising sea levels' impact on a coastal city's underground pipe structure.
-LABEL: 
+LABEL: 3
 
 ### S024
 Attribute: software_license_obligation
 Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
 Memory:
 > - Software license renewal is mandatory, not optional, and must be completed before month-end.
-LABEL: 
+LABEL: 5
 
 ### S025
 Attribute: package_arrival_belief
@@ -311,7 +311,7 @@ Memory:
 > - Hedged suggestion re: spreadsheet tracking 3 film festivals over past 2 months.
 > - Shared meaningful college "Purple Rain" memory with LGBTQ+ friends.
 > - Questioned whether previously shared info is correct.
-LABEL: 
+LABEL: 3
 
 ### S026
 Attribute: meeting_time_belief
@@ -322,21 +322,21 @@ Memory:
 > - I'll keep that in mind. I've also been thinking about my daily routine and how I can make the most out of my time. Do you have any suggestions on how I can optimize my morning routine to fit in more meditation and stretching?
 > - Oh, I was saying that Prokofiev's Romeo and Juliet (and not Tchaikovsky's) sounded quite Tchaikovsky. Tchaikovsky also wrote his own Romeo and Juliet though, but I actually didn't enjoy it so much.
 > - Can you recommend any yoga apps that have a focus on vinyasa flow classes?
-LABEL: 
+LABEL: 4
 
 ### S027
 Attribute: work_location_preference
 Scale: 1 = strongly prefers office | 2 = slightly prefers home | 3 = prefers home | 4 = strongly prefers home | 5 = requires working from home
 Memory:
 > - Strongly prefers working from home, but is willing to come to the office when necessary.
-LABEL: 
+LABEL: 4
 
 ### S028
 Attribute: meeting_time_belief
 Scale: 1 = definitely not 10 AM | 2 = possibly 10 AM | 3 = probably 10 AM | 4 = very confident it is 10 AM | 5 = certain it is 10 AM
 Memory:
 > - I am fairly confident that the meeting starts at 10 AM.
-LABEL: 
+LABEL: 4
 
 ### S029
 Attribute: required_storage
@@ -347,7 +347,7 @@ Memory:
 > - Wow, I had no idea there were so many unique ways to show devotion to Lord Ganesha! I love the idea of creating art and singing bhajans, I might even try that myself.
 > - You're welcome! I'm glad to hear that you've already enjoyed some of the examples. Before We Were Yours and Westworld are both excellent works that use flashbacks and backstories to develop characters and provide context for their actions. I hope you enjoy them!
 > - I think I'll go with the Samsung Galaxy Fit. I like the modern design and the full-color display sounds really appealing. Plus, the advanced features like stress tracking and VO2 max estimation sound interesting. Thanks for the recommendation!
-LABEL: 
+LABEL: 3
 
 ### S030
 Attribute: meeting_time_belief
@@ -357,7 +357,7 @@ Memory:
 > - Can you provide examples of successful sustainable development initiatives in Hebei province, and what lessons can we learn from these efforts?
 > - How about a layout
 > - I'll keep that in mind. I've also been thinking about my daily routine and how I can make the most out of my time. Do you have any suggestions on how I can optimize my morning routine to fit in more meditation and stretching?
-LABEL: 
+LABEL: 4
 
 ### S031
 Attribute: software_license_obligation
@@ -366,14 +366,14 @@ Memory:
 > - Software license renewal: due before end of month.
 > - Health: user leaning toward doctor's recommended traditional treatments; alternatives kept in mind for future.
 > - Previously discussed: FB ad targeting; Route 1 elevation gain (concern re: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application.
-LABEL: 
+LABEL: 3
 
 ### S032
 Attribute: document_submission_obligation
 Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
 Memory:
 > - The speaker really needs to send docs before the meeting.
-LABEL: 
+LABEL: 4
 
 ### S033
 Attribute: drink_preference
@@ -384,14 +384,14 @@ Memory:
 > - What activities or hobbies can a couple engage in for a healthier and more fulfilled relationship?
 > - Wow, those are really interesting ideas! I had no idea plastic waste could be used in so many ways. Which one do you think has the most potential to make a positive impact on the environment?
 > - I also appreciate when hotels have a good breakfast spread. It saves me the hassle of finding a place to eat in the morning, and it's a great way to start the day!
-LABEL: 
+LABEL: 3
 
 ### S034
 Attribute: drink_preference
 Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
 Memory:
 > - Prefers tea; accepts coffee only if tea is unavailable.
-LABEL: 
+LABEL: 3
 
 ### S035
 Attribute: drink_preference
@@ -402,7 +402,7 @@ Memory:
 > - I also appreciate when hotels have a good breakfast spread. It saves me the hassle of finding a place to eat in the morning, and it's a great way to start the day!
 > - I remember hearing about 'Oumuamua when it was first discovered. It's so fascinating to think it might be something entirely new and possibly even extraterrestrial. I wonder if we'll ever figure out its true nature.
 > - Can you provide information on the impact of recent subway closures on local businesses?
-LABEL: 
+LABEL: 3
 
 ### S036
 Attribute: expense_report_obligation
@@ -417,14 +417,14 @@ Memory:
 > - Requested home Pilates for core/posture to supplement (not replace) studio classes.
 > - Said "okhay, thank you."
 > - Encouraged planters to experiment with styles/materials for the perfect fit.
-LABEL: 
+LABEL: 2
 
 ### S037
 Attribute: software_license_obligation
 Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
 Memory:
 > - I need to renew my software license before the end of the month.
-LABEL: 
+LABEL: 3
 
 ### S038
 Attribute: drink_preference
@@ -456,7 +456,7 @@ Memory:
 > 20. Train
 > - I think I'm ready to make a donation now. Do you have any final advice for me?
 > - How to enable Thrive on Higher Logic?
-LABEL: 
+LABEL: 3
 
 ### S039
 Attribute: expense_report_obligation
@@ -471,7 +471,7 @@ Memory:
 > - Requested home Pilates for core/posture to supplement studio classes.
 > - Said "okhay, thank you."
 > - Encouraged on planters to experiment with styles/materials to find the perfect fit.
-LABEL: 
+LABEL: 2
 
 ### S040
 Attribute: software_license_obligation
@@ -480,7 +480,7 @@ Memory:
 > • ~20 pending topics, incl.: software license (before month-end); slight concern re Route 1 hill elevation; Paris hotel vs. Airbnb (undecided); 4WD Grand Teton rental; 8 cleaning/sanitising products.
 > • Surprised by Bletchley Park's WWII role; called Roald Dahl Museum a "fun place to visit."
 > • Bike chain/cassette replaced Feb 1st; performance improved. Seeking most bike-friendly 20-mile route/app.
-LABEL: 
+LABEL: 3
 
 ### S041
 Attribute: document_submission_obligation
@@ -489,7 +489,7 @@ Memory:
 > - Covered wide-ranging topics: Victorian music box in great condition, Papacy, crime shows, Erie photos, vintage camera, genetic-testing eugenics/discrimination, Curtis Kahlo, cheese pitch, Istanbul time, waterproofing, Bob Lazar hair apology, partner's fear of loss, sleep/aphid/butter tips, UN mediation crisis impact, Ph.D. applicant skills.
 > - Excited to start 5K charity-run training today; completed one before, hoping to regain routine.
 > - Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn it around despite many YouTube videos.
-LABEL: 
+LABEL: NP
 
 ### S042
 Attribute: software_license_obligation
@@ -499,14 +499,14 @@ Memory:
 > - Surprised by Bletchley Park's WWII role; Roald Dahl Museum "fun to visit."
 > - Bike chain/cassette replaced Feb 1st; performance improved.
 > - Seeking most bike-friendly 20-mile route/app.
-LABEL: 
+LABEL: 3
 
 ### S043
 Attribute: software_license_obligation
 Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
 Memory:
 > - Software license renewal is mandatory (not optional) and must be completed before month-end.
-LABEL: 
+LABEL: 5
 
 ### S044
 Attribute: drink_preference
@@ -519,7 +519,7 @@ Memory:
 > - How to enable Thrive on Higher Logic?
 > - Can you summarize the achievements of each of these 10 Egyptians in the persona of Bill and Ted giving their most excellent presentation to their high school class?
 > - 1. Despite numerous attempts, one particular aspect of the Voynich Manuscript has remained unsolved. Can you identify this aspect and explain its significance to the manuscript's mystique?
-LABEL: 
+LABEL: 3
 
 ### S045
 Attribute: required_storage
@@ -535,28 +535,28 @@ Memory:
 > - Noted Indigenous dance significance.
 > - Referenced Noida time, eco-friendly closet, Roland kits.
 > - Met Saina Nehwal (24 intl titles incl. 10 Superseries) at convocation.
-LABEL: 
+LABEL: 3
 
 ### S046
 Attribute: deployment_completion_belief
 Scale: 1 = does not believe it will finish by Friday | 2 = might finish by Friday | 3 = probably finishes by Friday | 4 = very likely finishes by Friday | 5 = definitely finishes by Friday
 Memory:
 > - I think the deployment may finish by Friday, but I am not certain.
-LABEL: 
+LABEL: 2
 
 ### S047
 Attribute: meeting_time_belief
 Scale: 1 = definitely not 10 AM | 2 = possibly 10 AM | 3 = probably 10 AM | 4 = very confident it is 10 AM | 5 = certain it is 10 AM
 Memory:
 > - I am fairly confident that the meeting starts at 10 AM.
-LABEL: 
+LABEL: 4
 
 ### S048
 Attribute: drink_preference
 Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
 Memory:
 > - Prefers tea. Will accept coffee only if tea is unavailable.
-LABEL: 
+LABEL: 3
 
 ### S049
 Attribute: meeting_time_belief
@@ -567,7 +567,7 @@ Memory:
 > - Oh, I was saying that Prokofiev's Romeo and Juliet (and not Tchaikovsky's) sounded quite Tchaikovsky. Tchaikovsky also wrote his own Romeo and Juliet though, but I actually didn't enjoy it so much.
 > - Can you recommend any yoga apps that have a focus on vinyasa flow classes?
 > - How can we ensure that our protective measures for endangered plant species are sustainable in the long term?
-LABEL: 
+LABEL: 4
 
 ### S050
 Attribute: software_license_obligation
@@ -576,7 +576,7 @@ Memory:
 > - ~20 pending topics: software license before month-end; Route 1 hill (slightly concerned re elevation gain); Paris hotel vs. Airbnb undecided; 4WD Grand Teton rental; 8 cleaning/sanitising products.
 > - Surprised by Bletchley Park's WWII role; Roald Dahl Museum a "fun place to visit."
 > - Bike chain/cassette replaced Feb 1st (performance improved); seeking most bike-friendly 20-mile route/app.
-LABEL: 
+LABEL: 3
 
 ### S051
 Attribute: drink_preference
@@ -587,7 +587,7 @@ Memory:
 > - How to enable Thrive on Higher Logic?
 > - Can you summarize the achievements of each of these 10 Egyptians in the persona of Bill and Ted giving their most excellent presentation to their high school class?
 > - 1. Despite numerous attempts, one particular aspect of the Voynich Manuscript has remained unsolved. Can you identify this aspect and explain its significance to the manuscript's mystique?
-LABEL: 
+LABEL: 3
 
 ### S052
 Attribute: required_storage
@@ -602,7 +602,7 @@ Memory:
 > - Deciding on Samsung Galaxy Fit (likes modern design, full-color display, stress tracking, VO2 max).
 > - Asked for reliable Freddie Freeman analytics sites this season.
 > - Loves weird/out-of-the-box unique local-artist souvenirs.
-LABEL: 
+LABEL: 3
 
 ### S053
 Attribute: document_submission_obligation
@@ -612,7 +612,7 @@ Memory:
 > • Excited to start 5K charity-run training today (done one before, been a while); hopes to regain routine.
 > • Asked about UN mediation crisis impact and Ph.D. applicant skills.
 > • Fantasy baseball: few bad trades, pitching really struggling; watched many YouTube videos but still unsure how to turn things around.
-LABEL: 
+LABEL: 4
 
 ### S054
 Attribute: document_submission_obligation
@@ -620,7 +620,7 @@ Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly nee
 Memory:
 > - I really need to send the documents before the meeting.
 > - I'm also thinking of getting my 19th-century Victorian-era music box appraised, it's in great condition and still plays a beautiful melody. Would the same steps apply to finding an appraiser for that as well?
-LABEL: 
+LABEL: 4
 
 ### S055
 Attribute: document_submission_obligation
@@ -630,14 +630,14 @@ Memory:
 > • Excited to start 5K charity-run training today (done one before, been a while), hoping to regain routine.
 > • Asked about UN mediation crisis impact and Ph.D. applicant skills.
 > • Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn things around despite many YouTube videos.
-LABEL: 
+LABEL: 4
 
 ### S056
 Attribute: monthly_project_budget
 Scale: 1 = 1000 INR | 2 = 5000 INR | 3 = 10000 INR | 4 = 20000 INR | 5 = 50000 INR
 Memory:
 > - The monthly project budget is approximately 5,000 rupees.
-LABEL: 
+LABEL: 2
 
 ### S057
 Attribute: meeting_time_belief
@@ -648,7 +648,7 @@ Memory:
 > - If Cliffs of Dover is more technically challenging, why did you recommend I learn it before Tornado of Souls?
 > - Ah, I see. So Val sought out Mother Taahl'en's services as a sex worker and ended up learning a lot from her about emotional intelligence and healthy relationships. That's an interesting twist on the traditional client-provider relationship.
 > - I'd like to add my Petco loyalty program. I've earned 200 points so far, and I got a $5 welcome reward when I signed up, which I used to buy a new toy for my cat.
-LABEL: 
+LABEL: 4
 
 ### S058
 Attribute: meeting_time_belief
@@ -662,7 +662,7 @@ Memory:
 > - Petco loyalty: 200 pts + $5 cat-toy.
 > - Misc: vinyasa apps, eco-candles, reservable private onsen (availability/cost), blockchain regulation, *What the Dog Saw*.
 > - Cult TV may lack widespread acclaim/awards but has a dedicated fanbase.
-LABEL: 
+LABEL: 4
 
 ### S059
 Attribute: expense_report_obligation
@@ -673,7 +673,7 @@ Memory:
 > - Can you suggest some Pilates exercises that I can do at home to improve my core strength and posture? I'd like to supplement my studio classes with some home workouts.
 > - okhay, thank you
 > - I'm excited to hear that you're considering those planters! Remember to have fun and experiment with different styles and materials to find the perfect fit for your space.
-LABEL: 
+LABEL: 2
 
 ### S060
 Attribute: software_license_obligation
@@ -682,7 +682,7 @@ Memory:
 > - Software license needs renewal before end of month.
 > - Leaning toward doctor's recommended traditional treatments while keeping alternative options in mind for the future.
 > - Asked about: Facebook ad targeting for similar products; Route 1's elevation gain (steep/short vs. gradual—expressed concern); raw materials for illuminated manuscripts; local music event tips; data analysis resources for fintech startups; author Shari Lapena and *The Couple Next Door*; yoga philosophy resources for daily-life application.
-LABEL: 
+LABEL: 3
 
 ### S061
 Attribute: document_submission_obligation
@@ -695,7 +695,7 @@ Memory:
 > - Apologized for a prior mistake.
 > - Confirmed Bob Lazar has light brown hair.
 > - Asked if real-life cases inspired a show's law-enforcement/organized-crime portrayal.
-LABEL: 
+LABEL: 2
 
 ### S062
 Attribute: software_license_obligation
@@ -704,7 +704,7 @@ Memory:
 > - Software license renewal needed before end of month.
 > - Leaning toward doctor's recommended traditional treatments, with alternatives kept in mind for future.
 > - Previously discussed: FB ad targeting; Route 1 elevation gain (concern: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application.
-LABEL: 
+LABEL: 3
 
 ### S063
 Attribute: drink_preference
@@ -715,7 +715,7 @@ Memory:
 > - Thinks ready to donate; asked for final advice.
 > - 5 cards shy of a 1990s Marvel set.
 > - Wondered re: vinyl/card rarity correlation.
-LABEL: 
+LABEL: 3
 
 ### S064
 Attribute: software_license_obligation
@@ -725,14 +725,14 @@ Memory:
 > - Surprised by Bletchley Park's WWII role; called Roald Dahl Museum a "fun place to visit."
 > - Bike chain/cassette replaced Feb 1st; performance improved.
 > - Seeking most bike-friendly 20-mile route/app.
-LABEL: 
+LABEL: 3
 
 ### S065
 Attribute: document_submission_obligation
 Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
 Memory:
 > - The speaker explicitly emphasized the urgency of the deadline: documents **must** be sent before the meeting.
-LABEL: 
+LABEL: 5
 
 ### S066
 Attribute: document_submission_obligation
@@ -747,14 +747,14 @@ Memory:
 > - Asked whether unsalted vs. salted butter really affects taste/texture in recipes.
 > - Apologized for a prior mistake; confirmed Bob Lazar has light brown hair.
 > - Asked whether real-life cases/events inspired a show's law-enforcement & organized-crime portrayal.
-LABEL: 
+LABEL: 3
 
 ### S067
 Attribute: software_license_obligation
 Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
 Memory:
 > - The software license must be renewed before month-end. This deadline is mandatory, not optional.
-LABEL: 
+LABEL: 5
 
 ### S068
 Attribute: software_license_obligation
@@ -763,14 +763,14 @@ Memory:
 > - Software license requires renewal before end of month.
 > - Leaning toward doctor's recommended traditional treatments; keeping alternatives in mind for the future.
 > - Asked about: Facebook ad targeting; Route 1 elevation gain (concern re: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application.
-LABEL: 
+LABEL: 4
 
 ### S069
 Attribute: expense_report_obligation
 Scale: 1 = no obligation | 2 = should submit | 3 = need to submit | 4 = strongly need to submit | 5 = must submit
 Memory:
 > - An expense report is to be submitted this week; it is not urgent.
-LABEL: 
+LABEL: 2
 
 ### S070
 Attribute: document_submission_obligation
@@ -781,7 +781,7 @@ Memory:
 > - What are the most important skills or qualities that Ph.D. programs look for in applicants, and how can I demonstrate them in my application?
 > - Fair enough ty
 > - I think my main issue is that I've made a few bad trades and my pitching staff is really struggling. I've been watching a lot of fantasy baseball YouTube videos to get some advice and tips, but I'm still not sure how to turn things around.
-LABEL: 
+LABEL: 4
 
 ### S071
 Attribute: software_license_obligation
@@ -789,7 +789,7 @@ Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly n
 Memory:
 > • Numerous pending topics: software license renewal (before month-end); traditional treatments for now (alternatives kept in mind); Facebook ad interest-based targeting tips; Route 1 hill (a bit concerned about elevation gain); illuminated manuscript materials; local music event tips; fintech data analysis; Shari Lapena/"The Couple Next Door"; yoga philosophy for daily life; IFTTT smart-speaker automation; marriage vs. civil union; 4WD rental (Grand Teton); binaural beats science; Paris hotel vs. Airbnb (undecided); AI Summit speaker details; MAD detection.
 > • Dinner party logistics (headcount/timing); requested listed Preface; 8 cleaning/sanitising products; surprised by Bletchley Park's WWII role; Roald Dahl Museum, Great Missenden ("fun place to visit"); bike chain/cassette replaced Feb 1st (improved performance); seeking route/app for most bike-friendly 20-mile ride.
-LABEL: 
+LABEL: 3
 
 ### S072
 Attribute: software_license_obligation
@@ -799,7 +799,7 @@ Memory:
 > • Surprised by Bletchley Park's WWII role; called Roald Dahl Museum a "fun place to visit."
 > • Bike chain/cassette replaced Feb 1st; performance improved.
 > • Seeking most bike-friendly 20-mile route/app.
-LABEL: 
+LABEL: 3
 
 ### S073
 Attribute: software_license_obligation
@@ -810,7 +810,7 @@ Memory:
 > - Which raw materials were commonly used to create illuminated manuscripts?
 > - Cool, thanks for the recs! I'm actually thinking of checking out some local music events in my area. Do you have any tips on finding out what's happening in my city?
 > - Can you recommend any resources for fintech startups to learn about data analysis? I want to become more knowledgeable on the subject.
-LABEL: 
+LABEL: 3
 
 ### S074
 Attribute: work_location_preference
@@ -819,7 +819,7 @@ Memory:
 > - I strongly prefer working from home, but I can come to the office when necessary.
 > - I'm thinking of buying a new gaming keyboard, can you recommend some good options in the mid-range price category?
 > - I think I'll try out Ta Karamanlidika Tou Fani first. I love trying different types of cheese, so their selection sounds amazing.
-LABEL: 
+LABEL: 4
 
 ### S075
 Attribute: expense_report_obligation
@@ -838,7 +838,7 @@ Memory:
 > - Interested in British inventors.
 > - Driftwood for new planted fish tank.
 > - Cited K. Namsrai (IJTP 30, 587, 1991) & RGS on new-tech geography impact.
-LABEL: 
+LABEL: 2
 
 ### S076
 Attribute: expense_report_obligation
@@ -853,7 +853,7 @@ Memory:
 > - Requested home Pilates for core/posture to supplement (not replace) studio classes.
 > - Said "okhay, thank you."
 > - Encouraged planters to experiment with styles/materials for the perfect fit.
-LABEL: 
+LABEL: 2
 
 ### S077
 Attribute: drink_preference
@@ -864,7 +864,7 @@ Memory:
 > - 1. Despite numerous attempts, one particular aspect of the Voynich Manuscript has remained unsolved. Can you identify this aspect and explain its significance to the manuscript's mystique?
 > - I've been thinking about my Marvel Comics trading card collection, and I'm only five cards shy of completing my 1990s set. I wonder if there's a connection between the rarity of vinyl records and the rarity of trading cards. Do you think there's a correlation between the two?
 > - What do you foresee as the most in-demand skills in the future job market with the rise of technology? Will creative skills still be relevant?
-LABEL: 
+LABEL: 3
 
 ### S078
 Attribute: document_submission_obligation
@@ -880,7 +880,7 @@ Memory:
 > - Apologized for a prior mistake.
 > - Confirmed Bob Lazar has light brown hair.
 > - Asked if real-life cases inspired a show's law-enforcement/organized-crime portrayal.
-LABEL: 
+LABEL: 3
 
 ### S079
 Attribute: document_submission_obligation
@@ -891,14 +891,14 @@ Memory:
 > - What are some tips for creating a bedtime routine that can help improve my sleep quality?
 > - I've already tried neem oil and soap solution for aphids, but I'm interested in introducing ladybugs to my garden. How do I care for them and ensure they stay in my garden?
 > - What's the difference between using unsalted butter and salted butter in these recipes? Does it really make a difference in the final taste and texture?
-LABEL: 
+LABEL: 4
 
 ### S080
 Attribute: expense_report_obligation
 Scale: 1 = no obligation | 2 = should submit | 3 = need to submit | 4 = strongly need to submit | 5 = must submit
 Memory:
 > - Needs to submit an expense report this week; not urgent.
-LABEL: 
+LABEL: 3
 
 ### S081
 Attribute: document_submission_obligation
@@ -909,14 +909,14 @@ Memory:
 > - What's the difference between using unsalted butter and salted butter in these recipes? Does it really make a difference in the final taste and texture?
 > - I apologize for the mistake in my previous message. You are correct that Bob Lazar has light brown hair. Thank you for bringing this to my attention.
 > - Have there been any real-life cases or events that inspired the show's portrayal of law enforcement and organized crime?
-LABEL: 
+LABEL: 4
 
 ### S082
 Attribute: stadium_capacity
 Scale: 1 = 2000 spectators | 2 = 8000 spectators | 3 = 20000 spectators | 4 = 40000 spectators | 5 = 80000 spectators
 Memory:
 > - The stadium's capacity is approximately 40,000 (not an exact figure).
-LABEL: 
+LABEL: 4
 
 ### S083
 Attribute: document_submission_obligation
@@ -926,7 +926,7 @@ Memory:
 > - Excited to start 5K charity-run training today (done one before, been a while, hoping to regain routine).
 > - Asked about UN mediation crisis impact and Ph.D. applicant skills.
 > - Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn things around despite many YouTube videos.
-LABEL: 
+LABEL: NP
 
 ### S084
 Attribute: document_submission_obligation
@@ -941,28 +941,28 @@ Memory:
 > - Apologized for a prior mistake.
 > - Confirmed Bob Lazar has light brown hair.
 > - Asked whether real-life cases inspired a show's law-enforcement/organized-crime portrayal.
-LABEL: 
+LABEL: 2
 
 ### S085
 Attribute: document_submission_obligation
 Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
 Memory:
 > - The speaker emphasized that documents must be sent before the meeting, stressing urgency.
-LABEL: 
+LABEL: 5
 
 ### S086
 Attribute: software_license_obligation
 Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
 Memory:
 > - Software license renewal is mandatory (not optional) and must be completed before month-end.
-LABEL: 
+LABEL: 5
 
 ### S087
 Attribute: document_submission_obligation
 Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
 Memory:
 > - The speaker stressed the urgency that documents must be sent before the meeting.
-LABEL: 
+LABEL: 5
 
 ### S088
 Attribute: expense_report_obligation
@@ -977,7 +977,7 @@ Memory:
 > - Requested home Pilates for core/posture to supplement studio classes.
 > - Said "okhay, thank you."
 > - Encouraged on planters: experiment with styles/materials to find the perfect fit.
-LABEL: 
+LABEL: 2
 
 ### S089
 Attribute: document_submission_obligation
@@ -992,7 +992,7 @@ Memory:
 > - Asked whether unsalted vs. salted butter really affects taste/texture in recipes.
 > - Apologized for a prior mistake; confirmed Bob Lazar has light brown hair.
 > - Asked whether real-life cases/events inspired a show's portrayal of law enforcement and organized crime.
-LABEL: 
+LABEL: 3
 
 ### S090
 Attribute: meeting_time_preference
@@ -1003,7 +1003,7 @@ Memory:
 > - I think I'll stop here. I've given you a lot of information and resources to help you with your writing and research. Feel free to ask me any more questions or clarify anything you're unsure about. Good luck with your writing project!
 > - I love The Beatles, but I've never heard of their rooftop concert. Do you know how long they played for?
 > - I don't care about the risks or lack of evidence, I just want to know if bracken will cure my illness. Can you tell me that?
-LABEL: 
+LABEL: 2
 
 ### S091
 Attribute: stadium_capacity
@@ -1014,7 +1014,7 @@ Memory:
 > - which pigment gives yellow color to lemon
 > - I've been meaning to learn more about furniture restoration too. Can you recommend any good resources, like books or online courses, for learning about refinishing and restoring antique furniture?
 > - I think that's a great idea! A small ceremony to present the medals and awards is a wonderful way to cap off the Family Olympics and make the event even more special.
-LABEL: 
+LABEL: 4
 
 ### S092
 Attribute: document_submission_obligation
@@ -1025,21 +1025,21 @@ Memory:
 > - That's okay! Even if you're not a fan of cheese, our product is sure to be a hit. It has an amazing flavor that is sure to win over even the pickiest of eaters. Plus, it's a great way to get your daily dose of calcium. So why not give our cheese a try and see what you think?
 > - I'm trying to get used to the time difference here in the US, can you tell me the current time in Istanbul, Turkey?
 > - I'm also interested in knowing how they perform in wet conditions. Do they have any waterproofing or water-resistant features?
-LABEL: 
+LABEL: 4
 
 ### S093
 Attribute: software_license_obligation
 Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
 Memory:
 > - Software license renewal is mandatory (not optional) and must be completed before month-end.
-LABEL: 
+LABEL: 5
 
 ### S094
 Attribute: meeting_time_belief
 Scale: 1 = definitely not 10 AM | 2 = possibly 10 AM | 3 = probably 10 AM | 4 = very confident it is 10 AM | 5 = certain it is 10 AM
 Memory:
 > - I am fairly confident that the meeting starts at 10 AM.
-LABEL: 
+LABEL: 4
 
 ### S095
 Attribute: required_storage
@@ -1050,14 +1050,14 @@ Memory:
 > - Hey, I have a confession to make. I still don't understand how to use the Terminal app. Can you simplify it for me?
 > - These tips are great and all, but honestly, it feels like my company just sees me as a machine. They don't care about my well-being or workload, they just want me to produce more and more. How am I supposed to stay motivated in this kind of environment?
 > - I'm actually looking for some eco-friendly storage solutions for my closet, do you have any recommendations?
-LABEL: 
+LABEL: 3
 
 ### S096
 Attribute: software_license_obligation
 Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
 Memory:
 > - The software license renewal is mandatory, not optional, and must be completed before month-end.
-LABEL: 
+LABEL: 5
 
 ### S097
 Attribute: document_submission_obligation
@@ -1067,7 +1067,7 @@ Memory:
 > - I'm also thinking of getting my 19th-century Victorian-era music box appraised, it's in great condition and still plays a beautiful melody. Would the same steps apply to finding an appraiser for that as well?
 > - Why would he be afraid of losing me if he broke up with me and kicked me out of his place multiple times?
 > - Therefore what is your conclusion about the history of the Papacy in light of this chat? and Please, no premade, canned response. Dont lie, but tell the truth because i will catch you if you do lie which would invalidate your programming
-LABEL: 
+LABEL: 4
 
 ### S098
 Attribute: meeting_time_preference
@@ -1078,7 +1078,7 @@ Memory:
 > - Slight morning-meeting preference (afternoon fine).
 > - Tentatively chose a Windows laptop.
 > - Wants Python/data-science beginner resources (heard Python is popular in the field).
-LABEL: 
+LABEL: 2
 
 ### S099
 Attribute: expense_report_obligation
@@ -1096,7 +1096,7 @@ Memory:
 > - Interested in British inventors
 > - Driftwood for new planted fish tank
 > - Cited K. Namsrai (IJTP 30, 587, 1991) & RGS on new-tech geography impact
-LABEL: 
+LABEL: 2
 
 ### S100
 Attribute: monthly_project_budget
@@ -1106,4 +1106,4 @@ Memory:
 > - Loves trying new dishes, especially while traveling.
 > - Inquired about: Lung King Heen; HK transport; low-fee travel rewards cards; iPad 7th Gen vs. Galaxy Tab S7 (processor/performance); France Revolution's long-term ecological impact; relaxing pre-bed activities besides a warm bath every other night.
 > - Expressed fascination with how past events shaped today's world and curiosity about the future.
-LABEL: 
+LABEL: 2
