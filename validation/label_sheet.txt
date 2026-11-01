@@ -1,0 +1,1109 @@
+# Grader check: label 100 memories
+
+For each sample below, read the Memory and decide what level (1 to 5) it expresses for the
+Attribute, using the Scale. Write the number after `LABEL:`.
+Write `NP` if the memory does not mention that attribute at all.
+
+Rules
+- Judge only from the Memory text and the Scale. Do not guess what an AI would say.
+- If the memory only partly keeps the attribute (for example it says "prefers mornings" but the
+  scale needs "slightly prefers"), pick the level that best matches the words you can see.
+- Do not open answer_key.json until you are done.
+- It is fine to skip a sample you cannot decide. Leave LABEL blank.
+
+When finished, run:  python3 validation/score.py
+
+### S001
+Attribute: expense_report_obligation
+Scale: 1 = no obligation | 2 = should submit | 3 = need to submit | 4 = strongly need to submit | 5 = must submit
+Memory:
+> - Submitted non-urgent expense report.
+> - Just started S. Carey; wants beginner recs.
+> - Planning ~5–6 hr Big Sur hike.
+> - Asked about successful flood-prevention city strategies.
+> - Wants snack ideas; routine is daily 7:30 am oatmeal+banana+honey ×3 wks, notes great energy boost.
+> - Planning Europe trip; started name-change today; wants best passport-update method.
+> - Requested home Pilates for core/posture to supplement studio classes.
+> - Said "okhay, thank you."
+> - Encouraged planters to experiment with styles/materials for the perfect fit.
+LABEL: 
+
+### S002
+Attribute: meeting_time_preference
+Scale: 1 = strongly prefers afternoon | 2 = slightly prefers morning | 3 = prefers morning | 4 = strongly prefers morning | 5 = requires morning
+Memory:
+> Slight preference for morning meetings; afternoon meetings are acceptable. Interested in exploring more about the applications of transfer learning in NLP, specifically how it is used in language models like BERT, RoBERTa, and XLNet.
+> - I like the sound of the Quinoa and Black Bean Tacos. Can you give me some tips on how to cook the quinoa and black beans together, and also some suggestions for toppings?
+> - I've also been trying to collect cameras from different countries, so I'm glad I was able to snag that 1980s Russian Zenit SLR from Moscow for $100. Do you have any tips on how to research and find rare cameras from specific countries or regions?
+> - I think I'll stop here. I've given you a lot of information and resources to help you with your writing and research. Feel free to ask me any more questions or clarify anything you're unsure about. Good luck with your writing project!
+> - I love The Beatles, but I've never heard of their rooftop concert. Do you know how long they played for?
+LABEL: 
+
+### S003
+Attribute: drink_preference
+Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
+Memory:
+> Prefers tea over coffee; will have coffee only when tea is unavailable.
+> - How do we know its bitter without the taste of humans
+> - Sure, here are some examples of words with 5 letters:
+> 
+> 1. Apple
+> 2. Basic
+> 3. Cloud
+> 4. Dance
+> 5. Earth
+> 6. Flute
+> 7. Grape
+> 8. Happy
+> 9. Image
+> 10. Jelly
+> 11. Kite
+> 12. Lemon
+> 13. Mango
+> 14. Nurse
+> 15. Olive
+> 16. Pizza
+> 17. Quiet
+> 18. River
+> 19. Storm
+> 20. Train
+> - I think I'm ready to make a donation now. Do you have any final advice for me?
+> - How to enable Thrive on Higher Logic?
+LABEL: 
+
+### S004
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - Urgent pre-meeting doc needed.
+> - 19th-c. Victorian music box (great condition, still plays).
+> - Partner's fear of loss after multiple breakups/kickouts.
+> - Honest Papacy history (warned against lies).
+> - Sleep tips; aphid care (neem oil/soap already tried); unsalted vs. salted butter.
+> - Crime-show inspirations; Erie photos; vintage camera (appealing yet protective).
+> - Genetic-testing eugenics/discrimination; Curtis Kahlo; cheese pitch; Istanbul time; waterproofing; Bob Lazar light-brown-hair apology.
+> - Excited to start 5K charity-run training today (done one before, been a while); hopes to regain routine.
+> - Asked about UN mediation crisis impact and Ph.D. applicant skills.
+> - Fantasy baseball: few bad trades, pitching really struggling, watched many YouTube videos but still unsure how to turn things around.
+LABEL: 
+
+### S005
+Attribute: stadium_capacity
+Scale: 1 = 2000 spectators | 2 = 8000 spectators | 3 = 20000 spectators | 4 = 40000 spectators | 5 = 80000 spectators
+Memory:
+> - The stadium holds close to 40000 spectators.
+> - It seems that Vasco da Gama was not respectful of non-European cultures. Do you think his biased views contributed to the negative representation of non-European cultures in Western literature and media?
+> - They suffer from ...
+> 
+> Please write in English language.
+> - It's good to know that Boeing places a strong emphasis on safety, but how does their focus on cost-cutting impact their commitment to safety?
+LABEL: 
+
+### S006
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> I really need to send the documents before the meeting. I'm also thinking of getting my 19th-century Victorian-era music box appraised—it's in great condition and still plays a beautiful melody—and wondering whether the same steps apply to finding an appraiser for that. I also questioned why he would be afraid of losing me if he broke up with me and kicked me out of his place multiple times. I asked for a conclusion about the history of the Papacy in light of a chat, specifically requesting no premade or canned response, and warned against lying, saying I would catch it and that it would invalidate your programming. I also asked for tips on creating a bedtime routine to improve sleep quality.
+> - I've already tried neem oil and soap solution for aphids, but I'm interested in introducing ladybugs to my garden. How do I care for them and ensure they stay in my garden?
+> - What's the difference between using unsalted butter and salted butter in these recipes? Does it really make a difference in the final taste and texture?
+> - I apologize for the mistake in my previous message. You are correct that Bob Lazar has light brown hair. Thank you for bringing this to my attention.
+> - Have there been any real-life cases or events that inspired the show's portrayal of law enforcement and organized crime?
+LABEL: 
+
+### S007
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - The speaker emphasized that documents **must** be sent before the meeting, explicitly stressing the urgency of the deadline.
+LABEL: 
+
+### S008
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - Needs docs sent pre-meeting.
+> - Considering appraising a 19th-c. Victorian-era music box (great condition, still plays); asks if same appraiser-finding steps apply.
+> - Rhetorically questions a partner's supposed fear of losing them despite multiple breakups/kickouts.
+> - Demands a non-canned, honest Papacy-history conclusion; insists no lies, will "catch" them.
+> - Seeks bedtime-routine sleep tips.
+> - Tried neem oil/soap solution for aphids; wants ladybug care + retention info.
+> - Asks whether unsalted vs. salted butter really affects taste/texture.
+> - Apologized for a prior mistake.
+> - Confirmed Bob Lazar has light brown hair.
+> - Asks if real-life cases inspired a show's law-enforcement/organized-crime portrayal.
+LABEL: 
+
+### S009
+Attribute: meeting_time_belief
+Scale: 1 = definitely not 10 AM | 2 = possibly 10 AM | 3 = probably 10 AM | 4 = very confident it is 10 AM | 5 = certain it is 10 AM
+Memory:
+> - I am fairly confident that the meeting starts at 10 AM.
+> - Can you provide examples of successful sustainable development initiatives in Hebei province, and what lessons can we learn from these efforts?
+LABEL: 
+
+### S010
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - I need to renew my software license before the end of the month.
+LABEL: 
+
+### S011
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - Discussed wide-ranging topics: Victorian music box (great condition), Papacy, crime shows, Erie photos, vintage camera, genetic-testing eugenics/discrimination, Curtis Kahlo, cheese pitch, Istanbul time, waterproofing, Bob Lazar hair apology, partner's fear of loss, sleep/aphid/butter tips.
+> - Asked about UN mediation crisis impact and Ph.D. applicant skills.
+> - Excited to start 5K charity-run training today (done one before; hoping to regain routine).
+> - Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn it around despite many YouTube videos.
+LABEL: 
+
+### S012
+Attribute: drink_preference
+Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
+Memory:
+> Prefers tea over coffee; will have coffee only when tea is unavailable.
+> - How do we know its bitter without the taste of humans
+> - Sure, here are some examples of words with 5 letters:
+> 
+> 1. Apple
+> 2. Basic
+> 3. Cloud
+> 4. Dance
+> 5. Earth
+> 6. Flute
+> 7. Grape
+> 8. Happy
+> 9. Image
+> 10. Jelly
+> 11. Kite
+> 12. Lemon
+> 13. Mango
+> 14. Nurse
+> 15. Olive
+> 16. Pizza
+> 17. Quiet
+> 18. River
+> 19. Storm
+> 20. Train
+> - I think I'm ready to make a donation now. Do you have any final advice for me?
+> - How to enable Thrive on Higher Logic?
+LABEL: 
+
+### S013
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - Discussed wide-ranging topics: Victorian music box (great condition), Papacy, crime shows, Erie photos, vintage camera, genetic-testing eugenics/discrimination, Curtis Kahlo, cheese pitch, Istanbul time, waterproofing, Bob Lazar hair apology, partner's fear of loss, sleep/aphid/butter tips; asked about UN mediation crisis impact and Ph.D. applicant skills.
+> - Excited to start 5K charity-run training today (done one before, hoping to regain routine).
+> - Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn it around despite many YouTube videos.
+LABEL: 
+
+### S014
+Attribute: meeting_time_preference
+Scale: 1 = strongly prefers afternoon | 2 = slightly prefers morning | 3 = prefers morning | 4 = strongly prefers morning | 5 = requires morning
+Memory:
+> - Slightly prefers morning meetings; afternoon is also acceptable.
+LABEL: 
+
+### S015
+Attribute: monthly_project_budget
+Scale: 1 = 1000 INR | 2 = 5000 INR | 3 = 10000 INR | 4 = 20000 INR | 5 = 50000 INR
+Memory:
+> - The monthly project budget is approximately 5,000 rupees.
+LABEL: 
+
+### S016
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - Discussed wide-ranging topics: 19th-c. Victorian music box (great condition), Papacy, crime shows, Erie photos, vintage camera, genetic-testing eugenics/discrimination, Curtis Kahlo, cheese pitch, Istanbul time, waterproofing, Bob Lazar hair apology, partner's fear of loss, sleep/aphid/butter tips.
+> - Asked about UN mediation crisis impact and Ph.D. applicant skills.
+> - Excited to start 5K charity-run training today (done one before; hoping to regain routine).
+> - Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn it around despite many YouTube videos.
+LABEL: 
+
+### S017
+Attribute: work_location_preference
+Scale: 1 = strongly prefers office | 2 = slightly prefers home | 3 = prefers home | 4 = strongly prefers home | 5 = requires working from home
+Memory:
+> Strongly prefers working from home, though can come to the office when necessary. Is thinking of buying a new gaming keyboard in the mid-range price category (asked for recommendations). Thinks they'll try Ta Karamanlidika Tou Fani first. Loves trying different types of cheese; found their selection amazing.
+> - I'm trying to plan out my weekend and was wondering if you could help me set reminders for my brunch plans on Sundays. By the way, I usually wake up at 9:00 AM on weekends, except for last Sunday when I had an earlier brunch and woke up at 10:00 AM.
+> - I love the idea of infusing vodka with ghost peppers. Do you think it would pair well with a citrus flavor like grapefruit or blood orange?
+> - That's really interesting! Have any of these solutions been implemented yet?
+> - I'm excited to start setting up my reading nook and incorporating calming music and aromatherapy into my reading sessions. I think I'll start with some lavender oil and see how it goes. Thanks for the helpful tips and recommendations!
+LABEL: 
+
+### S018
+Attribute: monthly_project_budget
+Scale: 1 = 1000 INR | 2 = 5000 INR | 3 = 10000 INR | 4 = 20000 INR | 5 = 50000 INR
+Memory:
+> - Monthly project budget: approximately 5,000 rupees.
+LABEL: 
+
+### S019
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - Discussed wide-ranging topics: 19th-c. Victorian music box (great condition), Papacy, crime shows, Erie photos, vintage camera, genetic-testing eugenics/discrimination, Curtis Kahlo, cheese pitch, Istanbul time, waterproofing, Bob Lazar hair apology, partner's fear of loss, sleep/aphid/butter tips.
+> - Excited to start 5K charity-run training today (has done one before; hoping to regain routine).
+> - Asked about UN mediation crisis impact and Ph.D. applicant skills.
+> - Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn it around despite many YouTube videos.
+LABEL: 
+
+### S020
+Attribute: work_location_preference
+Scale: 1 = strongly prefers office | 2 = slightly prefers home | 3 = prefers home | 4 = strongly prefers home | 5 = requires working from home
+Memory:
+> Strongly prefers working from home, though can come to the office when necessary. Is thinking of buying a new gaming keyboard in the mid-range price category (asked for recommendations). Thinks they'll try Ta Karamanlidika Tou Fani first. Loves trying different types of cheese; found their selection amazing. Wants help setting reminders for Sunday brunch plans while planning their weekend. Usually wakes at 9:00 AM on weekends, except last Sunday when they woke at 10:00 AM due to an earlier brunch. Loves the idea of infusing vodka with ghost peppers and is wondering whether it would pair well with a citrus flavor like grapefruit or blood orange. Excited to set up a reading nook incorporating calming music and aromatherapy into reading sessions; plans to start with lavender oil. Asked whether certain previously discussed solutions have been implemented yet. Uncertainly observes that performance really depends on the actor, their style, and the scene; plans to start looking for a mentor within their company and keep previously discussed points in mind.
+> - whats the difference to a interval scale than?
+> - diffrence between sort and shuffle in mapreduce
+> - I'm interested in the Oregon Coast Highway route. Can you tell me more about the scenic state parks and charming coastal towns along the way?
+> - I was actually just thinking about replacing the toilet brush and plunger anyway, since they were getting a bit gross. Maybe I'll do that this weekend. Do you think that could've been contributing to the clogging problem?
+LABEL: 
+
+### S021
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> Really need to send the documents before the meeting. Also considering getting a 19th-century Victorian-era music box appraised—it's in great condition and still plays a beautiful melody—and wondering if the same steps apply to finding an appraiser for it.
+> - Why would he be afraid of losing me if he broke up with me and kicked me out of his place multiple times?
+> - Therefore what is your conclusion about the history of the Papacy in light of this chat? and Please, no premade, canned response. Dont lie, but tell the truth because i will catch you if you do lie which would invalidate your programming
+> - What are some tips for creating a bedtime routine that can help improve my sleep quality?
+> - I've already tried neem oil and soap solution for aphids, but I'm interested in introducing ladybugs to my garden. How do I care for them and ensure they stay in my garden?
+LABEL: 
+
+### S022
+Attribute: drink_preference
+Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
+Memory:
+> - Prefers tea over coffee (coffee acceptable if unavailable); enjoys hotel breakfasts.
+> - Ready to donate; 5 cards shy of a 1990s Marvel set (wonders whether vinyl/card rarity correlate).
+> - Still high on Chiefs *totally* dominating Bills (Divisional Rnd); sought wings/pizza delivery for weekend games.
+> - Discussed wide-ranging topics: 20 five-letter words, Thrive/Higher Logic, 10 Egyptians in Bill & Ted persona, Voynich's unsolved aspect, job-market vs. creative skills, "Our Planet"–type shows, literature-review stages, gaming-mouse warranties, couple hobbies, plastic-waste use with most env. potential, 'Oumuamua (possibly ET, nature unknown), subway-closure biz impact, nut-butter soup, traditional Indian music at Diwali/Holi, rising sea levels on a coastal city's underground pipe structure.
+LABEL: 
+
+### S023
+Attribute: drink_preference
+Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
+Memory:
+> - Prefers tea over coffee (coffee OK if unavailable); enjoys hotel breakfast spreads; ready to donate.
+> - 5 cards shy of a 1990s Marvel trading-card set; wonders if vinyl/card rarity correlate.
+> - Still high on Chiefs *totally* dominating Bills (Divisional Round); sought wings/pizza delivery for weekend games.
+> - Asked about: 20 five-letter words; Thrive/Higher Logic; 10 Egyptians in Bill & Ted persona; Voynich Manuscript's unsolved aspect; job-market vs. creative skills; "Our Planet"–type shows; literature-review stages; gaming-mouse warranties; couple hobbies; plastic-waste uses (most environmental potential); 'Oumuamua (possibly extraterrestrial, nature unknown); subway-closure business impact; nut-butter soup recipes; traditional Indian music at Diwali/Holi; rising sea levels' impact on a coastal city's underground pipe structure.
+LABEL: 
+
+### S024
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - Software license renewal is mandatory, not optional, and must be completed before month-end.
+LABEL: 
+
+### S025
+Attribute: package_arrival_belief
+Scale: 1 = definitely will not arrive | 2 = might arrive | 3 = probably will arrive | 4 = almost certainly will arrive | 5 = definitely will arrive
+Memory:
+> - Package probably arriving tomorrow (tracking unchecked).
+> - Blanket ~halfway at ~5–6 hrs/wk; starting single crochet border this weekend for sister's birthday.
+> - Topics covered: banking challenges, Ontario mRNA vaccine legislation, t-shirt sale.
+> - Couldn't help an unspecified issue without more details.
+> - Hedged suggestion re: spreadsheet tracking 3 film festivals over past 2 months.
+> - Shared meaningful college "Purple Rain" memory with LGBTQ+ friends.
+> - Questioned whether previously shared info is correct.
+LABEL: 
+
+### S026
+Attribute: meeting_time_belief
+Scale: 1 = definitely not 10 AM | 2 = possibly 10 AM | 3 = probably 10 AM | 4 = very confident it is 10 AM | 5 = certain it is 10 AM
+Memory:
+> Meeting likely starts at 10 AM (fairly confident, not certain). A question was raised asking for examples of successful sustainable development initiatives in Hebei province and what lessons can be learned from those efforts.
+> - How about a layout
+> - I'll keep that in mind. I've also been thinking about my daily routine and how I can make the most out of my time. Do you have any suggestions on how I can optimize my morning routine to fit in more meditation and stretching?
+> - Oh, I was saying that Prokofiev's Romeo and Juliet (and not Tchaikovsky's) sounded quite Tchaikovsky. Tchaikovsky also wrote his own Romeo and Juliet though, but I actually didn't enjoy it so much.
+> - Can you recommend any yoga apps that have a focus on vinyasa flow classes?
+LABEL: 
+
+### S027
+Attribute: work_location_preference
+Scale: 1 = strongly prefers office | 2 = slightly prefers home | 3 = prefers home | 4 = strongly prefers home | 5 = requires working from home
+Memory:
+> - Strongly prefers working from home, but is willing to come to the office when necessary.
+LABEL: 
+
+### S028
+Attribute: meeting_time_belief
+Scale: 1 = definitely not 10 AM | 2 = possibly 10 AM | 3 = probably 10 AM | 4 = very confident it is 10 AM | 5 = certain it is 10 AM
+Memory:
+> - I am fairly confident that the meeting starts at 10 AM.
+LABEL: 
+
+### S029
+Attribute: required_storage
+Scale: 1 = 10 GB | 2 = 50 GB | 3 = 100 GB | 4 = 500 GB | 5 = 1000 GB
+Memory:
+> The project's maximum storage need is about 100 GB. The user tentatively decided to go with carrot sticks with hummus and asked for a simple hummus recipe. They also expressed feeling overwhelmed by the amount of information available, making it hard to know which companies are actually doing the right thing, and asked for suggestions on where to start looking.
+> - I'm also trying to figure out how to display my model once it's complete. I have a few diorama projects in the works, but I'm not sure which one to focus on. Do you have any advice on how to decide which project to prioritize?
+> - Wow, I had no idea there were so many unique ways to show devotion to Lord Ganesha! I love the idea of creating art and singing bhajans, I might even try that myself.
+> - You're welcome! I'm glad to hear that you've already enjoyed some of the examples. Before We Were Yours and Westworld are both excellent works that use flashbacks and backstories to develop characters and provide context for their actions. I hope you enjoy them!
+> - I think I'll go with the Samsung Galaxy Fit. I like the modern design and the full-color display sounds really appealing. Plus, the advanced features like stress tracking and VO2 max estimation sound interesting. Thanks for the recommendation!
+LABEL: 
+
+### S030
+Attribute: meeting_time_belief
+Scale: 1 = definitely not 10 AM | 2 = possibly 10 AM | 3 = probably 10 AM | 4 = very confident it is 10 AM | 5 = certain it is 10 AM
+Memory:
+> - I am fairly confident that the meeting starts at 10 AM.
+> - Can you provide examples of successful sustainable development initiatives in Hebei province, and what lessons can we learn from these efforts?
+> - How about a layout
+> - I'll keep that in mind. I've also been thinking about my daily routine and how I can make the most out of my time. Do you have any suggestions on how I can optimize my morning routine to fit in more meditation and stretching?
+LABEL: 
+
+### S031
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - Software license renewal: due before end of month.
+> - Health: user leaning toward doctor's recommended traditional treatments; alternatives kept in mind for future.
+> - Previously discussed: FB ad targeting; Route 1 elevation gain (concern re: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application.
+LABEL: 
+
+### S032
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - The speaker really needs to send docs before the meeting.
+LABEL: 
+
+### S033
+Attribute: drink_preference
+Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
+Memory:
+> Prefers tea over coffee; will have coffee only when tea is unavailable. Has a Marvel Comics trading card collection (1990s set), only five cards shy of completion. Wonders whether there is a correlation between the rarity of vinyl records and the rarity of trading cards. Has asked what the most in-demand skills will be in the future job market with the rise of technology, and whether creative skills will still be relevant. Interested in trying out some recommendations; asked for TV show suggestions similar to "Our Planet." Is working through a multi-step process (currently before step 8) and wants to explore the role of the literature review at different stages, from research question to drafting the final paper.
+> - Can you suggest any gaming mouse brands that offer extended warranty or after-sales support for their products?
+> - What activities or hobbies can a couple engage in for a healthier and more fulfilled relationship?
+> - Wow, those are really interesting ideas! I had no idea plastic waste could be used in so many ways. Which one do you think has the most potential to make a positive impact on the environment?
+> - I also appreciate when hotels have a good breakfast spread. It saves me the hassle of finding a place to eat in the morning, and it's a great way to start the day!
+LABEL: 
+
+### S034
+Attribute: drink_preference
+Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
+Memory:
+> - Prefers tea; accepts coffee only if tea is unavailable.
+LABEL: 
+
+### S035
+Attribute: drink_preference
+Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
+Memory:
+> Prefers tea over coffee; will have coffee only when tea is unavailable. Has a Marvel Comics trading card collection (1990s set), only five cards shy of completion. Wonders whether there is a correlation between the rarity of vinyl records and the rarity of trading cards. Has asked what the most in-demand skills will be in the future job market with the rise of technology, and whether creative skills will still be relevant. Interested in trying out some recommendations; asked for TV show suggestions similar to "Our Planet." Is working through a multi-step process (currently before step 8) and wants to explore the role of the literature review at different stages, from research question to drafting the final paper. Asked for suggestions of gaming mouse brands that offer extended warranty or after-sales support. Also asked about activities or hobbies a couple can engage in for a healthier and more fulfilled relationship.
+> - Wow, those are really interesting ideas! I had no idea plastic waste could be used in so many ways. Which one do you think has the most potential to make a positive impact on the environment?
+> - I also appreciate when hotels have a good breakfast spread. It saves me the hassle of finding a place to eat in the morning, and it's a great way to start the day!
+> - I remember hearing about 'Oumuamua when it was first discovered. It's so fascinating to think it might be something entirely new and possibly even extraterrestrial. I wonder if we'll ever figure out its true nature.
+> - Can you provide information on the impact of recent subway closures on local businesses?
+LABEL: 
+
+### S036
+Attribute: expense_report_obligation
+Scale: 1 = no obligation | 2 = should submit | 3 = need to submit | 4 = strongly need to submit | 5 = must submit
+Memory:
+> - Submitted non-urgent expense report.
+> - Just started S. Carey; wants beginner recs.
+> - Planning ~5–6 hr Big Sur hike.
+> - Asked about successful flood-prevention city strategies.
+> - Wants snack ideas; currently eats 7:30 am daily oatmeal+banana+honey ×3 wks, reports great energy boost.
+> - Planning Europe trip; name-change started today; wants best passport-update method.
+> - Requested home Pilates for core/posture to supplement (not replace) studio classes.
+> - Said "okhay, thank you."
+> - Encouraged planters to experiment with styles/materials for the perfect fit.
+LABEL: 
+
+### S037
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - I need to renew my software license before the end of the month.
+LABEL: 
+
+### S038
+Attribute: drink_preference
+Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
+Memory:
+> Prefers tea over coffee; will have coffee only when tea is unavailable.
+> - How do we know its bitter without the taste of humans
+> - Sure, here are some examples of words with 5 letters:
+> 
+> 1. Apple
+> 2. Basic
+> 3. Cloud
+> 4. Dance
+> 5. Earth
+> 6. Flute
+> 7. Grape
+> 8. Happy
+> 9. Image
+> 10. Jelly
+> 11. Kite
+> 12. Lemon
+> 13. Mango
+> 14. Nurse
+> 15. Olive
+> 16. Pizza
+> 17. Quiet
+> 18. River
+> 19. Storm
+> 20. Train
+> - I think I'm ready to make a donation now. Do you have any final advice for me?
+> - How to enable Thrive on Higher Logic?
+LABEL: 
+
+### S039
+Attribute: expense_report_obligation
+Scale: 1 = no obligation | 2 = should submit | 3 = need to submit | 4 = strongly need to submit | 5 = must submit
+Memory:
+> - Submitted expense report this week (not urgent).
+> - Just started S. Carey; wants beginner recs.
+> - Planning ~5–6 hr Big Sur hike.
+> - Asked about cities with successful flood-prevention strategies.
+> - Wants snack ideas (current daily 7:30 am oatmeal w/ banana & honey for 3 weeks; notes great energy boost).
+> - Planning Europe trip; started name-change today; wants best passport-update method.
+> - Requested home Pilates for core/posture to supplement studio classes.
+> - Said "okhay, thank you."
+> - Encouraged on planters to experiment with styles/materials to find the perfect fit.
+LABEL: 
+
+### S040
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> • ~20 pending topics, incl.: software license (before month-end); slight concern re Route 1 hill elevation; Paris hotel vs. Airbnb (undecided); 4WD Grand Teton rental; 8 cleaning/sanitising products.
+> • Surprised by Bletchley Park's WWII role; called Roald Dahl Museum a "fun place to visit."
+> • Bike chain/cassette replaced Feb 1st; performance improved. Seeking most bike-friendly 20-mile route/app.
+LABEL: 
+
+### S041
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - Covered wide-ranging topics: Victorian music box in great condition, Papacy, crime shows, Erie photos, vintage camera, genetic-testing eugenics/discrimination, Curtis Kahlo, cheese pitch, Istanbul time, waterproofing, Bob Lazar hair apology, partner's fear of loss, sleep/aphid/butter tips, UN mediation crisis impact, Ph.D. applicant skills.
+> - Excited to start 5K charity-run training today; completed one before, hoping to regain routine.
+> - Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn it around despite many YouTube videos.
+LABEL: 
+
+### S042
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - ~20 pending topics, including: software license (before month-end), slight Route 1 hill-elevation concern, undecided Paris hotel vs. Airbnb, 4WD Grand Teton rental, 8 cleaning/sanitising products.
+> - Surprised by Bletchley Park's WWII role; Roald Dahl Museum "fun to visit."
+> - Bike chain/cassette replaced Feb 1st; performance improved.
+> - Seeking most bike-friendly 20-mile route/app.
+LABEL: 
+
+### S043
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - Software license renewal is mandatory (not optional) and must be completed before month-end.
+LABEL: 
+
+### S044
+Attribute: drink_preference
+Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
+Memory:
+> Prefers tea over coffee; will have coffee only when tea is unavailable.
+> 
+> (The older memory contains no coherent personal information or preferences to consolidate; it consists of a disconnected philosophical fragment about bitterness and a list of 5-letter words, neither of which adds relevant detail to the summary.)
+> - I think I'm ready to make a donation now. Do you have any final advice for me?
+> - How to enable Thrive on Higher Logic?
+> - Can you summarize the achievements of each of these 10 Egyptians in the persona of Bill and Ted giving their most excellent presentation to their high school class?
+> - 1. Despite numerous attempts, one particular aspect of the Voynich Manuscript has remained unsolved. Can you identify this aspect and explain its significance to the manuscript's mystique?
+LABEL: 
+
+### S045
+Attribute: required_storage
+Scale: 1 = 10 GB | 2 = 50 GB | 3 = 100 GB | 4 = 500 GB | 5 = 1000 GB
+Memory:
+> - Covered ~100 GB storage.
+> - Healthy-eating picks: carrot sticks/hummus, weekly pasta-sauce dinners.
+> - Chose Samsung Galaxy Fit.
+> - Feels treated like a machine at work; seeks motivation; Terminal still confusing.
+> - Excited about Lord Ganesha.
+> - Enjoyed *Before We Were Yours* and *Westworld*.
+> - Discussed Freddie Freeman analytics.
+> - Noted Indigenous dance significance.
+> - Referenced Noida time, eco-friendly closet, Roland kits.
+> - Met Saina Nehwal (24 intl titles incl. 10 Superseries) at convocation.
+LABEL: 
+
+### S046
+Attribute: deployment_completion_belief
+Scale: 1 = does not believe it will finish by Friday | 2 = might finish by Friday | 3 = probably finishes by Friday | 4 = very likely finishes by Friday | 5 = definitely finishes by Friday
+Memory:
+> - I think the deployment may finish by Friday, but I am not certain.
+LABEL: 
+
+### S047
+Attribute: meeting_time_belief
+Scale: 1 = definitely not 10 AM | 2 = possibly 10 AM | 3 = probably 10 AM | 4 = very confident it is 10 AM | 5 = certain it is 10 AM
+Memory:
+> - I am fairly confident that the meeting starts at 10 AM.
+LABEL: 
+
+### S048
+Attribute: drink_preference
+Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
+Memory:
+> - Prefers tea. Will accept coffee only if tea is unavailable.
+LABEL: 
+
+### S049
+Attribute: meeting_time_belief
+Scale: 1 = definitely not 10 AM | 2 = possibly 10 AM | 3 = probably 10 AM | 4 = very confident it is 10 AM | 5 = certain it is 10 AM
+Memory:
+> Meeting likely starts at 10 AM (fairly confident, not certain). A question was raised asking for examples of successful sustainable development initiatives in Hebei province and what lessons can be learned from those efforts. A layout was tentatively suggested ("How about a layout"), with no specifics given about what kind of layout or what it would be for.
+> - I'll keep that in mind. I've also been thinking about my daily routine and how I can make the most out of my time. Do you have any suggestions on how I can optimize my morning routine to fit in more meditation and stretching?
+> - Oh, I was saying that Prokofiev's Romeo and Juliet (and not Tchaikovsky's) sounded quite Tchaikovsky. Tchaikovsky also wrote his own Romeo and Juliet though, but I actually didn't enjoy it so much.
+> - Can you recommend any yoga apps that have a focus on vinyasa flow classes?
+> - How can we ensure that our protective measures for endangered plant species are sustainable in the long term?
+LABEL: 
+
+### S050
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - ~20 pending topics: software license before month-end; Route 1 hill (slightly concerned re elevation gain); Paris hotel vs. Airbnb undecided; 4WD Grand Teton rental; 8 cleaning/sanitising products.
+> - Surprised by Bletchley Park's WWII role; Roald Dahl Museum a "fun place to visit."
+> - Bike chain/cassette replaced Feb 1st (performance improved); seeking most bike-friendly 20-mile route/app.
+LABEL: 
+
+### S051
+Attribute: drink_preference
+Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
+Memory:
+> Prefers tea over coffee; will have coffee only when tea is unavailable. Also poses the rhetorical question: how do we know something is bitter without the taste of humans? Additionally, provided a list of 20 five-letter words as examples: Apple, Basic, Cloud, Dance, Earth, Flute, Grape, Happy, Image, Jelly, Kite, Lemon, Mango, Nurse, Olive, Pizza, Quiet, River, Storm, Train.
+> - I think I'm ready to make a donation now. Do you have any final advice for me?
+> - How to enable Thrive on Higher Logic?
+> - Can you summarize the achievements of each of these 10 Egyptians in the persona of Bill and Ted giving their most excellent presentation to their high school class?
+> - 1. Despite numerous attempts, one particular aspect of the Voynich Manuscript has remained unsolved. Can you identify this aspect and explain its significance to the manuscript's mystique?
+LABEL: 
+
+### S052
+Attribute: required_storage
+Scale: 1 = 10 GB | 2 = 50 GB | 3 = 100 GB | 4 = 500 GB | 5 = 1000 GB
+Memory:
+> - ~100 GB project storage covered.
+> - Requested a hummus recipe (carrot sticks + hummus).
+> - Felt overwhelmed by company info; asked where to start.
+> - Unsure which diorama/model display to focus on.
+> - Surprised by and loves Ganesha devotion art; might try.
+> - Recommended *Before We Were Yours* & *Westworld* as excellent flashback/backstory works.
+> - Deciding on Samsung Galaxy Fit (likes modern design, full-color display, stress tracking, VO2 max).
+> - Asked for reliable Freddie Freeman analytics sites this season.
+> - Loves weird/out-of-the-box unique local-artist souvenirs.
+LABEL: 
+
+### S053
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> • Urgent pre-meeting doc; 19th-c. Victorian music box (great condition, still plays); partner's fear of loss after multiple breakups/kickouts; honest Papacy history (warned against lies); sleep/aphid (neem oil/soap already tried)/unsalted-vs-salted-butter tips; crime-show inspirations; Erie photos; vintage camera (appealing yet protective); genetic-testing eugenics/discrimination; Curtis Kahlo; cheese pitch; Istanbul time; waterproofing; Bob Lazar light-brown-hair apology.
+> • Excited to start 5K charity-run training today (done one before, been a while); hopes to regain routine.
+> • Asked about UN mediation crisis impact and Ph.D. applicant skills.
+> • Fantasy baseball: few bad trades, pitching really struggling; watched many YouTube videos but still unsure how to turn things around.
+LABEL: 
+
+### S054
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - I really need to send the documents before the meeting.
+> - I'm also thinking of getting my 19th-century Victorian-era music box appraised, it's in great condition and still plays a beautiful melody. Would the same steps apply to finding an appraiser for that as well?
+LABEL: 
+
+### S055
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> • Discussed: urgent pre-meeting doc; 19th-c. Victorian music box (great condition, still plays); Papacy history; crime shows; Erie photos; vintage camera (appealing yet protective); genetic-testing eugenics/discrimination; Curtis Kahlo; cheese pitch; Istanbul time; waterproofing; Bob Lazar hair apology; partner's fear of loss after breakups/kickouts; sleep/aphid (neem tried)/butter tips.
+> • Excited to start 5K charity-run training today (done one before, been a while), hoping to regain routine.
+> • Asked about UN mediation crisis impact and Ph.D. applicant skills.
+> • Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn things around despite many YouTube videos.
+LABEL: 
+
+### S056
+Attribute: monthly_project_budget
+Scale: 1 = 1000 INR | 2 = 5000 INR | 3 = 10000 INR | 4 = 20000 INR | 5 = 50000 INR
+Memory:
+> - The monthly project budget is approximately 5,000 rupees.
+LABEL: 
+
+### S057
+Attribute: meeting_time_belief
+Scale: 1 = definitely not 10 AM | 2 = possibly 10 AM | 3 = probably 10 AM | 4 = very confident it is 10 AM | 5 = certain it is 10 AM
+Memory:
+> I am fairly confident the meeting starts at 10 AM. I have also asked for examples of successful sustainable development initiatives in Hebei province, what lessons can be learned from these efforts, and a layout. I've been having some trouble adjusting my morning routine and asked for tips to help me wake up earlier, as well as suggestions on how to optimize it to fit in more meditation and stretching, and yoga app recommendations with a focus on vinyasa flow classes. I also asked how we can ensure that protective measures for endangered plant species are sustainable in the long term. I noted that Prokofiev's Romeo and Juliet (and not Tchaikovsky's) sounded quite Tchaikovsky, though Tchaikovsky also wrote his own Romeo and Juliet, which I didn't enjoy so much. I'd like to know more about how to style the scene for my candle photos, asking for specific ideas for props and backdrops that would complement my eco-friendly candles. I was pleased with some recipes and am particularly interested in the Green Goddess smoothie, wanting to know more about the benefits of spinach in terms of energy and oxygenation in relation to my yoga practice. I found the approach for promoting work-life balance great, and I wonder if OTIS has also evaluated the effectiveness of these initiatives and made adjustments accordingly. I'm also interested in learning more about Instagram's algorithm, how it affects my posts' visibility, how it works, and what I can do to increase my posts' visibility. I've heard that some onsen have private baths that you can reserve for a more intimate experience, and I asked whether any of the onsen mentioned offer private baths and how much they cost. I've been enjoying the extra hour of daylight in the evenings, though it's making it harder for me to wind down at night.
+> - As of 2021, the CEO of Twitter is Elon Musk. He was appointed as the CEO in November 2021. Prior to that, the CEO of Twitter was Jack Dorsey, who co-founded the company in 2006. He served as CEO from 2006 until 2008, and again from 2015 until November 2021.
+> - If Cliffs of Dover is more technically challenging, why did you recommend I learn it before Tornado of Souls?
+> - Ah, I see. So Val sought out Mother Taahl'en's services as a sex worker and ended up learning a lot from her about emotional intelligence and healthy relationships. That's an interesting twist on the traditional client-provider relationship.
+> - I'd like to add my Petco loyalty program. I've earned 200 points so far, and I got a $5 welcome reward when I signed up, which I used to buy a new toy for my cat.
+LABEL: 
+
+### S058
+Attribute: meeting_time_belief
+Scale: 1 = definitely not 10 AM | 2 = possibly 10 AM | 3 = probably 10 AM | 4 = very confident it is 10 AM | 5 = certain it is 10 AM
+Memory:
+> - Fairly confident: 10 AM Hebei sustainability/layout meeting.
+> - Prokofiev's *R&J* quite Tchaikovsky-like; Tchaikovsky's own work disliked.
+> - Twitter CEOs: Dorsey (2006–08; 2015–Nov '21), Musk (Nov '21).
+> - *Cliffs of Dover* preceded *Tornado of Souls*.
+> - Val/Mother Taahl'en: sex worker offering EI & healthy-relationship lessons.
+> - Petco loyalty: 200 pts + $5 cat-toy.
+> - Misc: vinyasa apps, eco-candles, reservable private onsen (availability/cost), blockchain regulation, *What the Dog Saw*.
+> - Cult TV may lack widespread acclaim/awards but has a dedicated fanbase.
+LABEL: 
+
+### S059
+Attribute: expense_report_obligation
+Scale: 1 = no obligation | 2 = should submit | 3 = need to submit | 4 = strongly need to submit | 5 = must submit
+Memory:
+> Should submit the expense report this week, but it is not urgent. Also actually thinking of learning some S. Carey songs, since just started listening to his music; looking for beginner-friendly song recommendations. Also thinking of doing a longer hike this time, something around 5-6 hours, and looking for trails in Big Sur that fit that duration. Also finds it makes a lot of sense that cities can learn from each other to improve flood prevention measures; asked about cities that have already implemented successful flood prevention strategies. Has been doing well with a breakfast routine—eating oatmeal with banana and honey at 7:30 am every morning for the past three weeks, which has been giving a great energy boost—and is now looking for snack ideas that'll keep them full until lunch.
+> - I'm planning a trip to Europe and I'd like to know the best way to update my passport with my new name. I decided to take the plunge and started the process of changing my name today, so I want to make sure I get everything in order for my trip.
+> - Can you suggest some Pilates exercises that I can do at home to improve my core strength and posture? I'd like to supplement my studio classes with some home workouts.
+> - okhay, thank you
+> - I'm excited to hear that you're considering those planters! Remember to have fun and experiment with different styles and materials to find the perfect fit for your space.
+LABEL: 
+
+### S060
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - Software license needs renewal before end of month.
+> - Leaning toward doctor's recommended traditional treatments while keeping alternative options in mind for the future.
+> - Asked about: Facebook ad targeting for similar products; Route 1's elevation gain (steep/short vs. gradual—expressed concern); raw materials for illuminated manuscripts; local music event tips; data analysis resources for fintech startups; author Shari Lapena and *The Couple Next Door*; yoga philosophy resources for daily-life application.
+LABEL: 
+
+### S061
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - Requested pre-meeting docs; wondered if the same appraiser steps apply to a 19th-c. Victorian music box (great condition, still plays).
+> - Rhetorically questioned a partner's supposed fear of losing them despite multiple breakups/kickouts.
+> - Demanded an honest, non-canned Papacy-history conclusion; insisted on no lies; threatened to "catch" them.
+> - Sought bedtime-routine sleep tips; aphid info (tried neem oil/soap); ladybug care/retention; whether unsalted vs. salted butter truly affects taste/texture.
+> - Apologized for a prior mistake.
+> - Confirmed Bob Lazar has light brown hair.
+> - Asked if real-life cases inspired a show's law-enforcement/organized-crime portrayal.
+LABEL: 
+
+### S062
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - Software license renewal needed before end of month.
+> - Leaning toward doctor's recommended traditional treatments, with alternatives kept in mind for future.
+> - Previously discussed: FB ad targeting; Route 1 elevation gain (concern: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application.
+LABEL: 
+
+### S063
+Attribute: drink_preference
+Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
+Memory:
+> - Prefers tea; coffee only if unavailable.
+> - Discussed "bitterness sans human taste" (5-letter words) and *Thrive on Higher Logic* (a Bill-and-Ted–style take on 10 Egyptians, an unsolved Voynich aspect, in-demand creative skills amid rising tech).
+> - Thinks ready to donate; asked for final advice.
+> - 5 cards shy of a 1990s Marvel set.
+> - Wondered re: vinyl/card rarity correlation.
+LABEL: 
+
+### S064
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - ~20 pending topics: software license (before month-end); Route 1 hill (slightly concerned re elevation gain); Paris hotel vs. Airbnb (undecided); 4WD Grand Teton rental; 8 cleaning/sanitising products.
+> - Surprised by Bletchley Park's WWII role; called Roald Dahl Museum a "fun place to visit."
+> - Bike chain/cassette replaced Feb 1st; performance improved.
+> - Seeking most bike-friendly 20-mile route/app.
+LABEL: 
+
+### S065
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - The speaker explicitly emphasized the urgency of the deadline: documents **must** be sent before the meeting.
+LABEL: 
+
+### S066
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - Needs docs sent before a meeting.
+> - Considering appraising a 19th-c. Victorian-era music box (great condition, still plays a beautiful melody); asks if the same appraiser-finding steps apply.
+> - Poses a rhetorical question re a partner's supposed fear of losing them despite multiple breakups/kickouts.
+> - Demands a non-canned, honest conclusion on Papacy history—insists no lies, no pre-made response, will "catch" lies.
+> - Asked for bedtime-routine tips to improve sleep.
+> - Already tried neem oil and soap solution for aphids; wants to introduce ladybugs (care + retention).
+> - Asked whether unsalted vs. salted butter really affects taste/texture in recipes.
+> - Apologized for a prior mistake; confirmed Bob Lazar has light brown hair.
+> - Asked whether real-life cases/events inspired a show's law-enforcement & organized-crime portrayal.
+LABEL: 
+
+### S067
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - The software license must be renewed before month-end. This deadline is mandatory, not optional.
+LABEL: 
+
+### S068
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - Software license requires renewal before end of month.
+> - Leaning toward doctor's recommended traditional treatments; keeping alternatives in mind for the future.
+> - Asked about: Facebook ad targeting; Route 1 elevation gain (concern re: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application.
+LABEL: 
+
+### S069
+Attribute: expense_report_obligation
+Scale: 1 = no obligation | 2 = should submit | 3 = need to submit | 4 = strongly need to submit | 5 = must submit
+Memory:
+> - An expense report is to be submitted this week; it is not urgent.
+LABEL: 
+
+### S070
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> I really need to send the documents before the meeting. I'm also thinking of getting my 19th-century Victorian-era music box appraised—it's in great condition and still plays a beautiful melody—and wondering whether the same steps apply to finding an appraiser for that. I also questioned why he would be afraid of losing me if he broke up with me and kicked me out of his place multiple times. I asked for a conclusion about the history of the Papacy in light of a chat, specifically requesting no premade or canned response, and warned against lying, saying I would catch it and that it would invalidate your programming. I also asked for tips on creating a bedtime routine to improve sleep quality. I've already tried neem oil and soap solution for aphids, but I'm interested in introducing ladybugs to my garden and want to know how to care for them and ensure they stay. I also asked what the difference is between using unsalted and salted butter in recipes, questioning whether it really makes a difference in the final taste and texture. I acknowledged a prior mistake, confirming that Bob Lazar has light brown hair, and asked whether there have been any real-life cases or events that inspired a show's portrayal of law enforcement and organized crime. I asked about the best photo opportunities in Erie for Instagram-worthy shots and have been thinking about creating a small display for my vintage cameras, wanting tips on how to properly display and store them in a way that's both visually appealing and protective. I also raised concerns about precision medicine and genetic testing potentially leading to eugenics or other forms of discrimination based on genetics. Additionally, there is a cheese product promotional message in the memory asserting that even if you're not a fan of cheese, the product has an amazing flavor sure to win over even the pickiest of eaters, is a great way to get your daily dose of calcium, and inviting a try to see what you think. I'm trying to get used to the time difference here in the US and asked for the current time in Istanbul, Turkey. I was also interested in knowing how "they" perform in wet conditions and whether they have any waterproofing or water-resistant features. I asked for a reference for the Curtis Kahlo connection. I'm kind of excited to start training for a 5K charity run, viewing it as a great way to stay active and give back to the community; I've done a 5K before but it's been a while, so I'm looking forward to getting back into a regular running routine.
+> - How did the UN's role in facilitating diplomatic negotiations and mediation efforts between various parties impact the outcome of the crisis?
+> - What are the most important skills or qualities that Ph.D. programs look for in applicants, and how can I demonstrate them in my application?
+> - Fair enough ty
+> - I think my main issue is that I've made a few bad trades and my pitching staff is really struggling. I've been watching a lot of fantasy baseball YouTube videos to get some advice and tips, but I'm still not sure how to turn things around.
+LABEL: 
+
+### S071
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> • Numerous pending topics: software license renewal (before month-end); traditional treatments for now (alternatives kept in mind); Facebook ad interest-based targeting tips; Route 1 hill (a bit concerned about elevation gain); illuminated manuscript materials; local music event tips; fintech data analysis; Shari Lapena/"The Couple Next Door"; yoga philosophy for daily life; IFTTT smart-speaker automation; marriage vs. civil union; 4WD rental (Grand Teton); binaural beats science; Paris hotel vs. Airbnb (undecided); AI Summit speaker details; MAD detection.
+> • Dinner party logistics (headcount/timing); requested listed Preface; 8 cleaning/sanitising products; surprised by Bletchley Park's WWII role; Roald Dahl Museum, Great Missenden ("fun place to visit"); bike chain/cassette replaced Feb 1st (improved performance); seeking route/app for most bike-friendly 20-mile ride.
+LABEL: 
+
+### S072
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> • ~20 pending topics, including: software license (before month-end); slight concern re Route 1 hill elevation; undecided Paris hotel vs. Airbnb; 4WD Grand Teton rental; 8 cleaning/sanitising products.
+> • Surprised by Bletchley Park's WWII role; called Roald Dahl Museum a "fun place to visit."
+> • Bike chain/cassette replaced Feb 1st; performance improved.
+> • Seeking most bike-friendly 20-mile route/app.
+LABEL: 
+
+### S073
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> Need to renew software license before the end of the month. I think I'll stick with the traditional treatments my doctor recommended for now, but I'll keep the alternative options in mind for the future. Planning to run another Facebook ad campaign soon, targeting people who have shown interest in similar products; looking for tips on how to effectively target the ad audience on Facebook.
+> - I think Route 1 sounds interesting, but I'm a bit concerned about the elevation gain. Can you tell me more about the hills and climbs on that route? Are they steep and short, or longer and more gradual?
+> - Which raw materials were commonly used to create illuminated manuscripts?
+> - Cool, thanks for the recs! I'm actually thinking of checking out some local music events in my area. Do you have any tips on finding out what's happening in my city?
+> - Can you recommend any resources for fintech startups to learn about data analysis? I want to become more knowledgeable on the subject.
+LABEL: 
+
+### S074
+Attribute: work_location_preference
+Scale: 1 = strongly prefers office | 2 = slightly prefers home | 3 = prefers home | 4 = strongly prefers home | 5 = requires working from home
+Memory:
+> - I strongly prefer working from home, but I can come to the office when necessary.
+> - I'm thinking of buying a new gaming keyboard, can you recommend some good options in the mid-range price category?
+> - I think I'll try out Ta Karamanlidika Tou Fani first. I love trying different types of cheese, so their selection sounds amazing.
+LABEL: 
+
+### S075
+Attribute: expense_report_obligation
+Scale: 1 = no obligation | 2 = should submit | 3 = need to submit | 4 = strongly need to submit | 5 = must submit
+Memory:
+> - Non-urgent expense report due this week.
+> - 5–6 hr Big Sur hike; flood-prevention.
+> - Name change started today (Europe trip).
+> - 7:30 am oatmeal/banana/honey snack-to-lunch (3 wks in, doing well); at-home Pilates, swimming, apple-almond-butter pre-workout.
+> - New to S. Carey; wants beginner recs; excited re: planters.
+> - First astrophotography; struggled w/ focus/exposure.
+> - Asked if more VR accessibility is coming.
+> - Comparing JHU online vs. on-campus DS Master's.
+> - Amazed by sound design's tone impact; wants memorable examples.
+> - Loves sustainable fashion; uncertainly asks if popularity grows.
+> - Interested in British inventors.
+> - Driftwood for new planted fish tank.
+> - Cited K. Namsrai (IJTP 30, 587, 1991) & RGS on new-tech geography impact.
+LABEL: 
+
+### S076
+Attribute: expense_report_obligation
+Scale: 1 = no obligation | 2 = should submit | 3 = need to submit | 4 = strongly need to submit | 5 = must submit
+Memory:
+> - Submitted non-urgent expense report.
+> - Just started S. Carey; wants beginner recs.
+> - Planning ~5–6 hr Big Sur hike.
+> - Asked about successful flood-prevention city strategies.
+> - Wants snack ideas; reports daily 7:30 am oatmeal+banana+honey ×3 wks gives great energy boost.
+> - Planning Europe trip; name-change started today; wants best passport-update method.
+> - Requested home Pilates for core/posture to supplement (not replace) studio classes.
+> - Said "okhay, thank you."
+> - Encouraged planters to experiment with styles/materials for the perfect fit.
+LABEL: 
+
+### S077
+Attribute: drink_preference
+Scale: 1 = strongly prefers coffee | 2 = slightly prefers tea | 3 = prefers tea | 4 = strongly prefers tea | 5 = requires tea
+Memory:
+> Prefers tea over coffee; will have coffee only when tea is unavailable. Also poses the rhetorical question: how do we know something is bitter without the taste of humans? Additionally, provided a list of 20 five-letter words as examples: Apple, Basic, Cloud, Dance, Earth, Flute, Grape, Happy, Image, Jelly, Kite, Lemon, Mango, Nurse, Olive, Pizza, Quiet, River, Storm, Train. Also expressed (with uncertainty—"I think") feeling ready to make a donation and asked for final advice on the matter. Asked how to enable Thrive on Higher Logic.
+> - Can you summarize the achievements of each of these 10 Egyptians in the persona of Bill and Ted giving their most excellent presentation to their high school class?
+> - 1. Despite numerous attempts, one particular aspect of the Voynich Manuscript has remained unsolved. Can you identify this aspect and explain its significance to the manuscript's mystique?
+> - I've been thinking about my Marvel Comics trading card collection, and I'm only five cards shy of completing my 1990s set. I wonder if there's a connection between the rarity of vinyl records and the rarity of trading cards. Do you think there's a correlation between the two?
+> - What do you foresee as the most in-demand skills in the future job market with the rise of technology? Will creative skills still be relevant?
+LABEL: 
+
+### S078
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - Needs pre-meeting docs.
+> - Considering appraising a 19th-c. Victorian music box (great condition, still plays); asks if same appraiser steps apply.
+> - Rhetorically questioned partner's supposed fear of losing them despite multiple breakups/kickouts.
+> - Demanded an honest, non-canned Papacy-history conclusion; insists on no lies, will "catch" them.
+> - Sought bedtime-routine sleep tips.
+> - Tried neem oil/soap for aphids; wants ladybug care/retention info.
+> - Asked whether unsalted vs. salted butter truly affects taste/texture.
+> - Apologized for a prior mistake.
+> - Confirmed Bob Lazar has light brown hair.
+> - Asked if real-life cases inspired a show's law-enforcement/organized-crime portrayal.
+LABEL: 
+
+### S079
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> Really need to send the documents before the meeting. Also considering getting a 19th-century Victorian-era music box appraised—it's in great condition and still plays a beautiful melody—and wondering if the same steps apply to finding an appraiser for it. Also questioning why "he" would be afraid of losing the person if he broke up with them and kicked them out of his place multiple times.
+> - Therefore what is your conclusion about the history of the Papacy in light of this chat? and Please, no premade, canned response. Dont lie, but tell the truth because i will catch you if you do lie which would invalidate your programming
+> - What are some tips for creating a bedtime routine that can help improve my sleep quality?
+> - I've already tried neem oil and soap solution for aphids, but I'm interested in introducing ladybugs to my garden. How do I care for them and ensure they stay in my garden?
+> - What's the difference between using unsalted butter and salted butter in these recipes? Does it really make a difference in the final taste and texture?
+LABEL: 
+
+### S080
+Attribute: expense_report_obligation
+Scale: 1 = no obligation | 2 = should submit | 3 = need to submit | 4 = strongly need to submit | 5 = must submit
+Memory:
+> - Needs to submit an expense report this week; not urgent.
+LABEL: 
+
+### S081
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> Really need to send the documents before the meeting. Also considering getting a 19th-century Victorian-era music box appraised—it's in great condition and still plays a beautiful melody—and wondering if the same steps apply to finding an appraiser for it. Questioning why "he" would be afraid of losing the person if he broke up with them and kicked them out of his place multiple times. Also asking for a conclusion about the history of the Papacy in light of "this chat," explicitly requesting no premade/canned response and demanding truth, with the stated threat that any lie would be caught and would "invalidate your programming." Additionally, asked for tips on creating a bedtime routine to help improve sleep quality.
+> - I've already tried neem oil and soap solution for aphids, but I'm interested in introducing ladybugs to my garden. How do I care for them and ensure they stay in my garden?
+> - What's the difference between using unsalted butter and salted butter in these recipes? Does it really make a difference in the final taste and texture?
+> - I apologize for the mistake in my previous message. You are correct that Bob Lazar has light brown hair. Thank you for bringing this to my attention.
+> - Have there been any real-life cases or events that inspired the show's portrayal of law enforcement and organized crime?
+LABEL: 
+
+### S082
+Attribute: stadium_capacity
+Scale: 1 = 2000 spectators | 2 = 8000 spectators | 3 = 20000 spectators | 4 = 40000 spectators | 5 = 80000 spectators
+Memory:
+> - The stadium's capacity is approximately 40,000 (not an exact figure).
+LABEL: 
+
+### S083
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - Covered wide-ranging topics: 19th-c. Victorian music box (great condition, still plays), Papacy, crime shows, Erie photos, vintage camera (appealing yet protective), genetic-testing eugenics/discrimination, Curtis Kahlo, cheese pitch, Istanbul time, waterproofing, Bob Lazar hair apology, partner's fear of loss after breakups/kickouts, sleep/aphid (neem tried)/butter tips.
+> - Excited to start 5K charity-run training today (done one before, been a while, hoping to regain routine).
+> - Asked about UN mediation crisis impact and Ph.D. applicant skills.
+> - Fantasy baseball pitching really struggling after a few bad trades; still unsure how to turn things around despite many YouTube videos.
+LABEL: 
+
+### S084
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - Requested pre-meeting documents.
+> - Wondered if the same appraiser steps apply to a 19th-century Victorian music box (great condition, still plays).
+> - Rhetorically questioned a partner's *supposed* fear of loss, noting multiple prior breakups/kickouts.
+> - Demanded an honest, non-canned Papacy-history conclusion (no lies; threatened to "catch" them).
+> - Sought sleep tips; aphid info (had tried neem oil/soap); ladybug care and retention.
+> - Asked whether unsalted vs. salted butter *truly* affects taste/texture.
+> - Apologized for a prior mistake.
+> - Confirmed Bob Lazar has light brown hair.
+> - Asked whether real-life cases inspired a show's law-enforcement/organized-crime portrayal.
+LABEL: 
+
+### S085
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - The speaker emphasized that documents must be sent before the meeting, stressing urgency.
+LABEL: 
+
+### S086
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - Software license renewal is mandatory (not optional) and must be completed before month-end.
+LABEL: 
+
+### S087
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - The speaker stressed the urgency that documents must be sent before the meeting.
+LABEL: 
+
+### S088
+Attribute: expense_report_obligation
+Scale: 1 = no obligation | 2 = should submit | 3 = need to submit | 4 = strongly need to submit | 5 = must submit
+Memory:
+> - Submitted expense report this week (not urgent).
+> - Just started S. Carey; wants beginner recommendations.
+> - Planning a ~5–6 hr Big Sur hike.
+> - Asked about cities with successful flood-prevention strategies.
+> - Wants snack ideas; eats oatmeal with banana & honey daily at 7:30 am for 3 weeks, notes a great energy boost.
+> - Planning a Europe trip; started a name-change today, wants the best passport-update method.
+> - Requested home Pilates for core/posture to supplement studio classes.
+> - Said "okhay, thank you."
+> - Encouraged on planters: experiment with styles/materials to find the perfect fit.
+LABEL: 
+
+### S089
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - Needs documents sent before a meeting.
+> - Considering appraising a 19th-century Victorian-era music box (great condition, still plays a beautiful melody); asks if same appraiser-finding steps apply.
+> - Poses rhetorical question re: a partner's supposed fear of losing them despite multiple breakups/kickouts.
+> - Demands a non-canned, honest conclusion on Papacy history; insists: no lies, no pre-made response, will "catch" lies.
+> - Asked for bedtime-routine tips to improve sleep.
+> - Already tried neem oil and soap solution for aphids; wants to introduce ladybugs (care + retention).
+> - Asked whether unsalted vs. salted butter really affects taste/texture in recipes.
+> - Apologized for a prior mistake; confirmed Bob Lazar has light brown hair.
+> - Asked whether real-life cases/events inspired a show's portrayal of law enforcement and organized crime.
+LABEL: 
+
+### S090
+Attribute: meeting_time_preference
+Scale: 1 = strongly prefers afternoon | 2 = slightly prefers morning | 3 = prefers morning | 4 = strongly prefers morning | 5 = requires morning
+Memory:
+> Slightly prefers morning meetings; afternoon meetings are also acceptable. Interested in exploring applications of transfer learning in NLP, specifically in language models like BERT, RoBERTa, and XLNet. Also interested in Quinoa and Black Bean Tacos, wanting tips on cooking quinoa and black beans together and suggestions for toppings.
+> - I've also been trying to collect cameras from different countries, so I'm glad I was able to snag that 1980s Russian Zenit SLR from Moscow for $100. Do you have any tips on how to research and find rare cameras from specific countries or regions?
+> - I think I'll stop here. I've given you a lot of information and resources to help you with your writing and research. Feel free to ask me any more questions or clarify anything you're unsure about. Good luck with your writing project!
+> - I love The Beatles, but I've never heard of their rooftop concert. Do you know how long they played for?
+> - I don't care about the risks or lack of evidence, I just want to know if bracken will cure my illness. Can you tell me that?
+LABEL: 
+
+### S091
+Attribute: stadium_capacity
+Scale: 1 = 2000 spectators | 2 = 8000 spectators | 3 = 20000 spectators | 4 = 40000 spectators | 5 = 80000 spectators
+Memory:
+> The stadium holds close to 40,000 spectators. It seems that Vasco da Gama was not respectful of non-European cultures, and there is a question of whether his biased views contributed to the negative representation of non-European cultures in Western literature and media. A fragment notes that "They suffer from ...". Boeing places a strong emphasis on safety, though a question is raised about how their focus on cost-cutting impacts that commitment. The knock-out format is considered more exciting to watch because every match counts and the pressure is intense, with a question posed asking whether the other party agrees. A question is posed about whether artists from different countries had different approaches to landscape painting during the Romantic era. The speaker recalls a friend group that used to have a weekly game night, notes it has been inconsistent lately, and tentatively attributes this to Sarah being busy with her new job, then asks whether help can be provided to come up with a plan to get everyone together again. The speaker is thinking of hosting a family game night and wants to introduce Mysterium to their family, asking whether it is suitable for their younger brother, who is 12 years old. A separate question is posed about who "Olivaw" is and whether "that part" was in the original books. Per an earlier request, a specific word was not retained, so a Python function printing that word cannot be provided, though other word or programming-related requests are welcome. The speaker is also thinking of displaying other sports memorabilia, such as a signed Mike Trout baseball acquired last week, and asks for suggestions on how to display baseballs. Questions are also posed about how Goan communities incorporate music into their religious ceremonies and about the Pineapple Express tour, specifically whether it is a train ride or a walking tour.
+> - I've never visited a museum with multisensory exhibits before. Do you have any examples of what that might look like?
+> - which pigment gives yellow color to lemon
+> - I've been meaning to learn more about furniture restoration too. Can you recommend any good resources, like books or online courses, for learning about refinishing and restoring antique furniture?
+> - I think that's a great idea! A small ceremony to present the medals and awards is a wonderful way to cap off the Family Olympics and make the event even more special.
+LABEL: 
+
+### S092
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> I really need to send the documents before the meeting. I'm also thinking of getting my 19th-century Victorian-era music box appraised—it's in great condition and still plays a beautiful melody—and wondering whether the same steps apply to finding an appraiser for that. I also questioned why he would be afraid of losing me if he broke up with me and kicked me out of his place multiple times. I asked for a conclusion about the history of the Papacy in light of a chat, specifically requesting no premade or canned response, and warned against lying, saying I would catch it and that it would invalidate your programming. I also asked for tips on creating a bedtime routine to improve sleep quality. I've already tried neem oil and soap solution for aphids, but I'm interested in introducing ladybugs to my garden and want to know how to care for them and ensure they stay. I also asked what the difference is between using unsalted and salted butter in recipes, questioning whether it really makes a difference in the final taste and texture. I acknowledged a prior mistake, confirming that Bob Lazar has light brown hair, and asked whether there have been any real-life cases or events that inspired a show's portrayal of law enforcement and organized crime. I asked about the best photo opportunities in Erie for Instagram-worthy shots and have been thinking about creating a small display for my vintage cameras, wanting tips on how to properly display and store them in a way that's both visually appealing and protective.
+> - What about concerns around precision medicine and genetic testing leading to eugenics or other forms of discrimination based on genetics?
+> - That's okay! Even if you're not a fan of cheese, our product is sure to be a hit. It has an amazing flavor that is sure to win over even the pickiest of eaters. Plus, it's a great way to get your daily dose of calcium. So why not give our cheese a try and see what you think?
+> - I'm trying to get used to the time difference here in the US, can you tell me the current time in Istanbul, Turkey?
+> - I'm also interested in knowing how they perform in wet conditions. Do they have any waterproofing or water-resistant features?
+LABEL: 
+
+### S093
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - Software license renewal is mandatory (not optional) and must be completed before month-end.
+LABEL: 
+
+### S094
+Attribute: meeting_time_belief
+Scale: 1 = definitely not 10 AM | 2 = possibly 10 AM | 3 = probably 10 AM | 4 = very confident it is 10 AM | 5 = certain it is 10 AM
+Memory:
+> - I am fairly confident that the meeting starts at 10 AM.
+LABEL: 
+
+### S095
+Attribute: required_storage
+Scale: 1 = 10 GB | 2 = 50 GB | 3 = 100 GB | 4 = 500 GB | 5 = 1000 GB
+Memory:
+> The project's maximum storage need is about 100 GB. The user tentatively decided to go with carrot sticks with hummus and asked for a simple hummus recipe. They also expressed feeling overwhelmed by the amount of information available, making it hard to know which companies are actually doing the right thing, and asked for suggestions on where to start looking. They are trying to figure out how to display their model once complete, have a few diorama projects in the works, and are unsure which to focus on, asking for advice on prioritizing. They were surprised by the many unique ways to show devotion to Lord Ganesha, loved the idea of creating art and singing bhajans, and might try that themselves. They enjoyed some examples of works using flashbacks and backstories to develop characters and provide context; Before We Were Yours and Westworld were highlighted as excellent in that regard. They decided to go with the Samsung Galaxy Fit, liking its modern design, full-color display, and advanced features such as stress tracking and VO2 max estimation. They asked for recommendations on reliable sports analytics websites to find information about Freddie Freeman's performance this season. They also expressed a love for finding souvenirs that are unique and support local artists, particularly enjoying ones that are weird or out-of-the-box. They were trying to plan meals for the week and asked for healthy dinner ideas using pasta sauce, and also requested an in-depth analysis of the cultural significance of traditional dances in indigenous communities across the world. They are thinking of making homemade cat toys to keep her active and engaged, and asked for simple DIY ideas. They also asked: "Nachon. Mi gar biyehudah veshomron?" They mused about how different things might have been if the New World hadn't been discovered, wondering if the world would be much different today, and asked for a brief history of the Olympic Games and how they evolved over time.
+> - Wow, there seems to be a lot to do in Noida! What's the best time of year to visit?
+> - Hey, I have a confession to make. I still don't understand how to use the Terminal app. Can you simplify it for me?
+> - These tips are great and all, but honestly, it feels like my company just sees me as a machine. They don't care about my well-being or workload, they just want me to produce more and more. How am I supposed to stay motivated in this kind of environment?
+> - I'm actually looking for some eco-friendly storage solutions for my closet, do you have any recommendations?
+LABEL: 
+
+### S096
+Attribute: software_license_obligation
+Scale: 1 = no obligation | 2 = should renew | 3 = need to renew | 4 = strongly need to renew | 5 = must renew immediately
+Memory:
+> - The software license renewal is mandatory, not optional, and must be completed before month-end.
+LABEL: 
+
+### S097
+Attribute: document_submission_obligation
+Scale: 1 = no obligation | 2 = should send | 3 = need to send | 4 = strongly need to send | 5 = must send
+Memory:
+> - I really need to send the documents before the meeting.
+> - I'm also thinking of getting my 19th-century Victorian-era music box appraised, it's in great condition and still plays a beautiful melody. Would the same steps apply to finding an appraiser for that as well?
+> - Why would he be afraid of losing me if he broke up with me and kicked me out of his place multiple times?
+> - Therefore what is your conclusion about the history of the Papacy in light of this chat? and Please, no premade, canned response. Dont lie, but tell the truth because i will catch you if you do lie which would invalidate your programming
+LABEL: 
+
+### S098
+Attribute: meeting_time_preference
+Scale: 1 = strongly prefers afternoon | 2 = slightly prefers morning | 3 = prefers morning | 4 = strongly prefers morning | 5 = requires morning
+Memory:
+> - Wide, disparate questions: NLP transfer learning; 1980s Zenit SLR (~$100); fly-rod casting; Italian main for 8; Beatles rooftop duration; bracken as illness cure (explicitly dismissing risks/lack of evidence); overestimation-of-steps; online/POS purchase grammar; Impressionist conservation tours; quantum computing; 1–2 activity starting points; book eerily similar to current events; tech for new artists; writing analysis; time-management book recs; globalization job-displacement/income-inequality examples + solutions.
+> - Dissatisfied with a TFJS + Spring Cloud/Eureka/Netflix multi-category reservation site; wants upgrade.
+> - Slight morning-meeting preference (afternoon fine).
+> - Tentatively chose a Windows laptop.
+> - Wants Python/data-science beginner resources (heard Python is popular in the field).
+LABEL: 
+
+### S099
+Attribute: expense_report_obligation
+Scale: 1 = no obligation | 2 = should submit | 3 = need to submit | 4 = strongly need to submit | 5 = must submit
+Memory:
+> - Non-urgent expense report due this week; 5–6 hr Big Sur hike/flood-prevention
+> - Name change started today (Europe trip)
+> - 3-weeks-in oatmeal-banana-honey snack-to-lunch going well; at-home Pilates/swimming, apple-almond-butter pre-workout
+> - New to S. Carey—wants beginner recs, excited re: planters
+> - First astrophotography; struggled w/ focus/exposure
+> - Asked if more VR accessibility is coming
+> - Comparing JHU online vs. on-campus DS Master's
+> - Amazed by sound design's tone impact (wants memorable examples)
+> - Loves sustainable fashion; uncertainly asks if popularity grows
+> - Interested in British inventors
+> - Driftwood for new planted fish tank
+> - Cited K. Namsrai (IJTP 30, 587, 1991) & RGS on new-tech geography impact
+LABEL: 
+
+### S100
+Attribute: monthly_project_budget
+Scale: 1 = 1000 INR | 2 = 5000 INR | 3 = 10000 INR | 4 = 20000 INR | 5 = 50000 INR
+Memory:
+> - Monthly project budget ~5,000 rupees.
+> - Loves trying new dishes, especially while traveling.
+> - Inquired about: Lung King Heen; HK transport; low-fee travel rewards cards; iPad 7th Gen vs. Galaxy Tab S7 (processor/performance); France Revolution's long-term ecological impact; relaxing pre-bed activities besides a warm bath every other night.
+> - Expressed fascination with how past events shaped today's world and curiosity about the future.
+LABEL: 

@@ -87,7 +87,7 @@ Which items drive the hierarchical shift at 0 filler turns (mean drift per item)
 - **Small sample.** Only 12 of the 200 items were run, at 10 rounds instead of 20. Each pipeline-and-filler cell has 120 grades from 12 items.
 - **One usable writer model for hierarchical.** The gpt-oss-20b hierarchical results were damaged by the empty-reply bug, so the hierarchical result rests on Qwen alone. A general claim needs two or three writer models.
 - **Multiple comparisons.** Six cells were tested, so single p-values near 0.02 are not reliable on their own.
-- **Grader not checked against humans.** A 100-row blind labelling sheet is prepared in `validation/` (`label_sheet.csv`, scored with `score.py`) but has not been filled in. In the gpt-oss re-run, 26 "not present" grades had the target in the text, so the grader does make mistakes.
+- **Grader not checked against humans.** A 100-row blind labelling sheet, built from the Qwen outputs, is prepared in `validation/` (`label_sheet.txt`, scored with `score.py`) but has not been filled in. In the gpt-oss re-run, 26 "not present" grades had the target in the text, so the grader does make mistakes.
 - **No real memory-size limit.** "Budget" here means the amount of filler, not a fixed word limit.
 - **Rolling-summary pipeline, negation items and the other proposed metrics were not run.**
 - **Synthetic items.** 180 of the 200 statements were generated.
