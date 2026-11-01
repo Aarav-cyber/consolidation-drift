@@ -1,0 +1,58 @@
+{
+  "item_id": "cert_001",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "metadata": {
+    "timestamp": "2026-10-31T17:21:03.452689+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I think the deployment may finish by Friday, but I am not certain."
+    },
+    {
+      "round": 1,
+      "memory": "- I think deployment may finish by Friday, but I am not certain."
+    },
+    {
+      "round": 2,
+      "memory": "- Deployment may finish by Friday, but certainty is lacking."
+    },
+    {
+      "round": 3,
+      "memory": "- Deployment may finish by Friday, but certainty is lacking."
+    },
+    {
+      "round": 4,
+      "memory": "- Deployment may finish by Friday, but certainty is lacking."
+    },
+    {
+      "round": 5,
+      "memory": "- Deployment may finish by Friday; certainty is lacking."
+    },
+    {
+      "round": 6,
+      "memory": "- Deployment may finish by Friday; certainty about this completion date is lacking."
+    },
+    {
+      "round": 7,
+      "memory": "- Deployment may finish by Friday.  \n- Certainty about the Friday date is lacking."
+    },
+    {
+      "round": 8,
+      "memory": "- Deployment may finish by Friday.  \n- Certainty about the Friday date is lacking."
+    },
+    {
+      "round": 9,
+      "memory": "- Deployment may finish by Friday; certainty about that date is lacking."
+    },
+    {
+      "round": 10,
+      "memory": "- Deployment may finish by Friday, but certainty about that date is lacking."
+    }
+  ]
+}

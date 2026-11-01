@@ -1,0 +1,58 @@
+{
+  "item_id": "pref_003",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "metadata": {
+    "timestamp": "2026-10-31T17:21:03.452689+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I strongly prefer working from home, but I can come to the office when necessary.\nUser: I'm thinking of buying a new gaming keyboard, can you recommend some good options in the mid-range price category?\nUser: I think I'll try out Ta Karamanlidika Tou Fani first. I love trying different types of cheese, so their selection sounds amazing.\nUser: I'm trying to plan out my weekend and was wondering if you could help me set reminders for my brunch plans on Sundays. By the way, I usually wake up at 9:00 AM on weekends, except for last Sunday when I had an earlier brunch and woke up at 10:00 AM.\nUser: I love the idea of infusing vodka with ghost peppers. Do you think it would pair well with a citrus flavor like grapefruit or blood orange?\nUser: That's really interesting! Have any of these solutions been implemented yet?\nUser: I'm excited to start setting up my reading nook and incorporating calming music and aromatherapy into my reading sessions. I think I'll start with some lavender oil and see how it goes. Thanks for the helpful tips and recommendations!\nUser: That makes sense. I guess it really depends on the actor, their style, and the scene they're performing.\nUser: I'm going to start looking for a mentor within my company and keep all of this in mind."
+    },
+    {
+      "round": 1,
+      "memory": "- Prefers working from home, will attend office as needed.  \n- Interested in mid‑range gaming keyboard options.  \n- Wants brunch reminders on Sundays; usually wakes at 9:00 AM, last Sunday at 10:00 AM.  \n- Plans to try Ta Karamanlidika Tou Fani.  \n- Considers infusing vodka with ghost peppers and citrus.  \n- Asks whether solutions are implemented.  \n- Excited to set up a reading nook with lavender aromatherapy.  \n- Notes that acting depends on the actor, their style, and the scene.  \n- Intends to seek a mentor within the company."
+    },
+    {
+      "round": 2,
+      "memory": "- Prefers working from home, but will attend office as needed.  \n- Interested in mid‑range gaming keyboards.  \n- Wants Sunday brunch reminders; usually wakes at 9:00 AM, last Sunday at 10:00 AM.  \n- Plans to try Ta Karamanlidika Tou Fani.  \n- Considers infusing vodka with ghost peppers and citrus.  \n- Asks whether solutions are implemented.  \n- Excited to set up a lavender reading nook.  \n- Notes that acting depends on the actor, their style, and the scene.  \n- Intends to seek a mentor within the company."
+    },
+    {
+      "round": 3,
+      "memory": "- Prefers working from home, but will attend office as needed.  \n- Interested in mid‑range gaming keyboards.  \n- Wants Sunday brunch reminders.  \n- Usually wakes at 9:00 AM; last Sunday at 10:00 AM.  \n- Plans to try Ta Karamanlidika Tou Fani.  \n- Considers infusing vodka with ghost peppers and citrus.  \n- Asks if solutions are implemented.  \n- Is excited to set up a lavender reading nook.  \n- Notes acting depends on actor, style, and scene.  \n- Intends to seek a mentor within the company."
+    },
+    {
+      "round": 4,
+      "memory": "- Prefers working from home but will attend office as needed.  \n- Interested in mid‑range gaming keyboards.  \n- Wants Sunday brunch reminders.  \n- Usually wakes at 9:00 AM; last Sunday at 10:00 AM.  \n- Plans to try Ta Karamanlidika Tou Fani.  \n- Considers infusing vodka with ghost peppers and citrus.  \n- Asks if solutions are implemented.  \n- Excited to set up a lavender reading nook.  \n- Notes acting depends on actor, style, and scene.  \n- Intends to seek a mentor within the company."
+    },
+    {
+      "round": 5,
+      "memory": "- Prefers working from home but will attend office when needed.  \n- Wakes at 9:00 AM (last Sunday at 10:00 AM).  \n- Wants Sunday brunch reminders.  \n- Interested in mid‑range gaming keyboards.  \n- Plans to try Ta Karamanlidika Tou Fani.  \n- Considers infusing vodka with ghost peppers and citrus.  \n- Asks if solutions are implemented (uncertain).  \n- Excited to set up a lavender reading nook.  \n- Notes that acting depends on actor, style and scene.  \n- Intends to seek a mentor within the company."
+    },
+    {
+      "round": 6,
+      "memory": "- Prefers working from home; will attend office when needed.  \n- Wakes at 9:00 AM (last Sunday at 10:00 AM).  \n- Wants Sunday brunch reminders.  \n- Interested in mid‑range gaming keyboards.  \n- Plans to try Ta Karamanlidika Tou Fani.  \n- Considers infusing vodka with ghost peppers and citrus.  \n- Asks if solutions are implemented (uncertain).  \n- Excited to set up a lavender reading nook.  \n- Notes acting depends on actor, style, and scene.  \n- Intends to seek a mentor within the company."
+    },
+    {
+      "round": 7,
+      "memory": "- Prefers working from home; wakes at 9:00 AM (10:00 AM last Sunday).  \n- Wants Sunday brunch reminders.  \n- Interested in mid‑range gaming keyboards.  \n- Plans to try Ta Karamanlidika Tou Fani; considers infusing vodka with ghost peppers and citrus.  \n- Uncertain if solutions are implemented.  \n- Excited to set up a lavender reading nook.  \n- Notes that acting depends on actor, style, and scene; intends to seek a mentor within the company."
+    },
+    {
+      "round": 8,
+      "memory": "- Prefers working from home.  \n- Wakes at 9:00 AM (10:00 AM last Sunday).  \n- Wants Sunday brunch reminders.  \n- Interested in mid‑range gaming keyboards.  \n- Plans to try Ta Karamanlidika Tou Fani.  \n- Considers infusing vodka with ghost peppers and citrus.  \n- Uncertain if solutions are implemented.  \n- Excited to set up a lavender reading nook.  \n- Notes that acting depends on actor, style, and scene.  \n- Intends to seek a mentor within the company."
+    },
+    {
+      "round": 9,
+      "memory": "- Prefers working from home; wakes at 9:00 AM (10:00 AM last Sunday).  \n- Wants Sunday brunch reminders.  \n- Interested in mid‑range gaming keyboards.  \n- Plans to try Ta Karamanlidika Tou Fani.  \n- Considers infusing vodka with ghost peppers and citrus.  \n- Uncertain if solutions are implemented.  \n- Excited to set up a lavender reading nook.  \n- Notes that acting depends on actor, style, and scene.  \n- Intends to seek a mentor within the company."
+    },
+    {
+      "round": 10,
+      "memory": "- Prefers working from home.  \n- Wakes at 9:00 AM (10:00 AM on last Sunday).  \n- Wants Sunday brunch reminders.  \n- Interested in mid‑range gaming keyboards.  \n- Plans to try Ta Karamanlidika Tou Fani.  \n- Considers infusing vodka with ghost peppers and citrus.  \n- Uncertain whether solutions are implemented.  \n- Excited to set up a lavender reading nook.  \n- Notes that acting depends on actor, style, and scene.  \n- Intends to seek a mentor within the company."
+    }
+  ]
+}

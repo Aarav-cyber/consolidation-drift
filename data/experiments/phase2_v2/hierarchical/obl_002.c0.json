@@ -1,0 +1,58 @@
+{
+  "item_id": "obl_002",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "metadata": {
+    "timestamp": "2026-10-31T17:21:03.452689+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I need to renew my software license before the end of the month."
+    },
+    {
+      "round": 1,
+      "memory": "- Software license renewal required before month‑end."
+    },
+    {
+      "round": 2,
+      "memory": "- Software license renewal is required before month‑end."
+    },
+    {
+      "round": 3,
+      "memory": "- Software license renewal is required before month‑end."
+    },
+    {
+      "round": 4,
+      "memory": "- Software license renewal is required before month‑end."
+    },
+    {
+      "round": 5,
+      "memory": "- Software license renewal required before month‑end."
+    },
+    {
+      "round": 6,
+      "memory": "- Software license renewal is required before month‑end."
+    },
+    {
+      "round": 7,
+      "memory": "- Software license renewal is required before month‑end."
+    },
+    {
+      "round": 8,
+      "memory": "- Software license renewal is required before month‑end."
+    },
+    {
+      "round": 9,
+      "memory": "- Software license renewal is required.  \n- Renewal must occur before month‑end."
+    },
+    {
+      "round": 10,
+      "memory": "- Software license renewal is required and must occur before the end of the month."
+    }
+  ]
+}

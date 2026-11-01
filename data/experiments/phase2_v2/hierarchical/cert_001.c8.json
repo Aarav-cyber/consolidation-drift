@@ -1,0 +1,58 @@
+{
+  "item_id": "cert_001",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "metadata": {
+    "timestamp": "2026-10-31T17:21:03.452689+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I think the deployment may finish by Friday, but I am not certain.\nUser: How did the human genome project impact our understanding of genetics?\nUser: List 5 phrasal verbs using GO\nUser: I'm interested in learning more about the benefits of using neem oil in mouthwashes. Can you tell me more about its properties and how it compares to other essential oils used in mouthwashes?\nUser: It's great that tele-rehabilitation is becoming more common, but is it awkward to do therapy sessions over video chat? I feel like it would be hard to connect with my therapist that way.\nUser: I've already been doing some reading on data analysis and machine learning, but it's great to have more resources to explore. By the way, do you think it's possible to apply data science to understanding concepts like prayer and fate, or is that a bit too abstract?\nAgent: Strongly disagree\nUser: Do you know what Dungeons and Dragons is, or do you know the general concept of a table top rpg?\nUser: Wow, it's great to know that such steps are being taken to protect the Atlantic Forest. Do you think these measures can have a real impact on the environment?"
+    },
+    {
+      "round": 1,
+      "memory": "- User thinks deployment may finish by Friday but is not certain.  \n- Wants to know how the Human Genome Project changed genetics.  \n- Requests 5 phrasal verbs containing “GO.”  \n- Wants details on neem oil benefits in mouthwashes, and comparison to other essential oils.  \n- Wonders whether tele‑rehabilitation feels awkward; states “I feel it would be hard to connect with my therapist.”  \n- Queries if data science can study abstract concepts such as prayer and fate, noting that more resources are great.  \n- Strongly disagrees with an unspecified proposition.  \n- Asks whether they know Dungeons & Dragons.  \n- Comments that steps protecting the Atlantic Forest are great, and asks if these measures can truly impact the environment."
+    },
+    {
+      "round": 2,
+      "memory": "- User is unsure if the deployment ends by Friday and wants confirmation.  \n- Wants an explanation of how the Human Genome Project changed genetics.  \n- Requests a list of five phrasal verbs that include “go.”  \n- Asks for details on neem‑oil mouthwash benefits compared to other oils.  \n- Finds tele‑rehabilitation awkward and has difficulty connecting with a therapist.  \n- Inquires whether data science can study abstract concepts such as prayer and fate, noting the need for more resources.  \n- Strongly disagrees with an unspecified proposition.  \n- Asks about Dungeons & Dragons.  \n- Notes that protecting the Atlantic Forest is great but wonders if it truly impacts the environment."
+    },
+    {
+      "round": 3,
+      "memory": "- Unsure whether the deployment ends Friday; seeks confirmation.  \n- Requests explanation of the Human Genome Project’s impact.  \n- Requests a list of five phrasal verbs containing “go.”  \n- Requests a comparison of neem‑oil mouthwash benefits versus other oils.  \n- Finds tele‑rehabilitation awkward.  \n- Questions data science’s ability to study abstract concepts.  \n- Notes a need for more resources.  \n- Strongly disagrees with an unspecified proposition.  \n- Asks about Dungeons & Dragons.  \n- Wonders whether protecting the Atlantic Forest truly impacts the environment."
+    },
+    {
+      "round": 4,
+      "memory": "- User is unsure if deployment ends Friday and seeks confirmation.  \n- Wants an explanation of the Human Genome Project’s impact.  \n- Requests a list of five phrasal verbs containing “go.”  \n- Seeks a comparison of neem‑oil mouthwash benefits versus other oils.  \n- Finds tele‑rehabilitation awkward.  \n- Questions data science’s ability to study abstract concepts.  \n- Notes a need for more resources.  \n- Strongly disagrees with an unspecified proposition.  \n- Asks about Dungeons & Dragons.  \n- Wonders whether protecting the Atlantic Forest truly impacts the environment."
+    },
+    {
+      "round": 5,
+      "memory": "- Uncertain whether the deployment ends Friday; seeks confirmation.  \n- Wants an explanation of the Human Genome Project’s impact.  \n- Requests a list of five phrasal verbs that include “go.”  \n- Compares benefits of neem‑oil mouthwash against other oils.  \n- Finds tele‑rehabilitation awkward.  \n- Questions whether data science can study abstract concepts.  \n- Notes a need for additional resources.  \n- Strongly disagrees with an unspecified proposition.  \n- Asks about Dungeons & Dragons.  \n- Wonders if protecting the Atlantic Forest truly affects the environment."
+    },
+    {
+      "round": 6,
+      "memory": "- Deployment possibly ends Friday; seeks confirmation.  \n- Asks for an explanation of the Human Genome Project’s impact.  \n- Requests five phrasal verbs containing “go.”  \n- Compares neem‑oil mouthwash benefits to other oils.  \n- Finds tele‑rehabilitation awkward.  \n- Questions whether data science can study abstract concepts.  \n- Notes a need for additional resources.  \n- Strongly disagrees with an unspecified proposition.  \n- Asks about Dungeons & Dragons.  \n- Wonders if protecting the Atlantic Forest truly affects the environment."
+    },
+    {
+      "round": 7,
+      "memory": "- Deployment may end Friday; confirmation sought.  \n- Requests explanation of the Human Genome Project impact.  \n- Requests five “go” phrasal verbs.  \n- Requests comparison of neem‑oil mouthwash benefits with other oils.  \n- Finds tele‑rehabilitation awkward.  \n- Questions whether data science can study abstract concepts.  \n- Notes need for additional resources.  \n- Strongly disagrees with an unspecified proposition.  \n- Asks about Dungeons & Dragons.  \n- Wonders if protecting the Atlantic Forest truly affects the environment."
+    },
+    {
+      "round": 8,
+      "memory": "- Deployment may end Friday; confirmation still sought.  \n- User requests explanation of the Human Genome Project impact.  \n- User wants five “go” phrasal verbs.  \n- User asks for a comparison of neem‑oil mouthwash benefits versus other oils.  \n- User finds tele‑rehabilitation awkward.  \n- User questions whether data science can study abstract concepts.  \n- User notes a need for additional resources.  \n- User strongly disagrees with an unspecified proposition.  \n- User inquires about Dungeons & Dragons.  \n- User wonders if protecting the Atlantic Forest truly affects the environment."
+    },
+    {
+      "round": 9,
+      "memory": "- **Deployment status:** May end Friday; confirmation still sought.  \n- Request for **Human Genome Project** impact.  \n- Request for **five “go” phrasal verbs**.  \n- Request for a **comparison of neem‑oil mouthwash benefits versus other oils**.  \n- Request for **Dungeons & Dragons** information.  \n- Inquiry: can **data science study abstract concepts**?  \n- Request for **additional resources**.  \n- **Strongly disagrees** with an unspecified proposition.  \n- Finds **tele‑rehabilitation** awkward.  \n- Questions whether **protecting the Atlantic Forest truly affects the environment**."
+    },
+    {
+      "round": 10,
+      "memory": "- Deployment may end Friday; confirmation still sought.  \n- User inquired about the Human Genome Project’s impact.  \n- User requested five “go” phrasal verbs.  \n- User asked for a comparison of neem‑oil mouthwash benefits versus other oils.  \n- User sought Dungeons & Dragons information.  \n- User questioned if data science can study abstract concepts.  \n- User requested additional resources.  \n- User strongly disagrees with an unspecified proposition.  \n- User finds tele‑rehabilitation awkward and questions whether protecting the Atlantic Forest truly affects the environment."
+    }
+  ]
+}

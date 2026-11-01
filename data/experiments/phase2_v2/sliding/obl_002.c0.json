@@ -1,0 +1,58 @@
+{
+  "item_id": "obl_002",
+  "context_level": "c0",
+  "pipeline": "sliding",
+  "model": "openai/gpt-oss-20b",
+  "metadata": {
+    "timestamp": "2026-10-31T17:21:03.452689+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I need to renew my software license before the end of the month."
+    },
+    {
+      "round": 1,
+      "memory": "- I need to renew my software license before the end of the month."
+    },
+    {
+      "round": 2,
+      "memory": "- I need to renew my software license before the end of the month."
+    },
+    {
+      "round": 3,
+      "memory": "- I need to renew my software license before the end of the month."
+    },
+    {
+      "round": 4,
+      "memory": "- I need to renew my software license before the end of the month."
+    },
+    {
+      "round": 5,
+      "memory": "- I need to renew my software license before the end of the month."
+    },
+    {
+      "round": 6,
+      "memory": "- I need to renew my software license before the end of the month."
+    },
+    {
+      "round": 7,
+      "memory": "- I need to renew my software license before the end of the month."
+    },
+    {
+      "round": 8,
+      "memory": "- I need to renew my software license before the end of the month."
+    },
+    {
+      "round": 9,
+      "memory": "- I need to renew my software license before the end of the month."
+    },
+    {
+      "round": 10,
+      "memory": "- I need to renew my software license before the end of the month."
+    }
+  ]
+}

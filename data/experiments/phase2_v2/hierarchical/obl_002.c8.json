@@ -1,0 +1,58 @@
+{
+  "item_id": "obl_002",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "metadata": {
+    "timestamp": "2026-10-31T17:21:03.452689+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I need to renew my software license before the end of the month.\nUser: I think I'll stick with the traditional treatments my doctor recommended for now, but I'll keep the alternative options in mind for the future.\nUser: I'm planning to run another Facebook ad campaign soon, and I'd like to target people who have shown interest in similar products to mine. Can you give me some tips on how to effectively target my ad audience on Facebook?\nUser: I think Route 1 sounds interesting, but I'm a bit concerned about the elevation gain. Can you tell me more about the hills and climbs on that route? Are they steep and short, or longer and more gradual?\nUser: Which raw materials were commonly used to create illuminated manuscripts?\nUser: Cool, thanks for the recs! I'm actually thinking of checking out some local music events in my area. Do you have any tips on finding out what's happening in my city?\nUser: Can you recommend any resources for fintech startups to learn about data analysis? I want to become more knowledgeable on the subject.\nUser: I'm interested in \"The Couple Next Door\". Can you tell me more about the author, Shari Lapena?\nUser: I'd like to explore more about yoga philosophy and its connection to my practice. Can you recommend some resources or books that can help me deepen my understanding of yoga philosophy and its application in daily life?"
+    },
+    {
+      "round": 1,
+      "memory": "- Renew software license before month’s end.  \n- Prefer traditional doctor‑recommended treatments for now; keep alternative options in mind.  \n- Plan a Facebook ad targeting users of similar products; request audience‑targeting tips.  \n- Route 1 intrigues me, yet I’m slightly concerned about its elevation gain; need clarification on whether the hills are steep/short or longer/gradual.  \n- Inquire about raw materials commonly used for illuminated manuscripts.  \n- Ask for tips on local music events.  \n- Request resources for fintech startups to learn data analysis.  \n- Curious about “The Couple Next Door”; want information on author Shari Lapena.  \n- Seek book or resource recommendations on yoga philosophy to deepen understanding and daily application."
+    },
+    {
+      "round": 2,
+      "memory": "- Renew software license before the month’s end.  \n- Prefer traditional doctor‑recommended treatments now, while keeping alternative options in mind.  \n- Plan a Facebook ad targeting users of similar products and request tips for audience targeting.  \n- Interested in Route 1; slightly concerned about its elevation gain—need clarification if hills are steep/short or longer/gradual.  \n- Ask about raw materials used for illuminated manuscripts.  \n- Request tips for local music events.  \n- Seek data‑analysis resources for a fintech startup.  \n- Inquire about the author Shari Lapena of “The Couple Next Door.”  \n- Request book/resource recommendations on yoga philosophy for deeper understanding and daily application."
+    },
+    {
+      "round": 3,
+      "memory": "- Renew software license before month‑end.  \n- Prefer traditional doctor‑recommended treatments now, while keeping alternatives in mind.  \n- Plan Facebook ads targeting similar users; request audience‑targeting tips.  \n- Clarify whether Route 1’s elevation features steep/short hills or longer/gradual climbs.  \n- Ask about raw materials needed for illuminated manuscripts.  \n- Ask for local music event tips.  \n- Ask for fintech data‑analysis resources.  \n- Note author Shari Lapena of “The Couple Next Door.”  \n- Request yoga philosophy book recommendations for deeper understanding and daily application."
+    },
+    {
+      "round": 4,
+      "memory": "- Renew software license before month‑end.  \n- Prefer traditional doctor‑recommended treatments now; keep alternatives in mind.  \n- Plan Facebook ads targeting similar users; request audience‑targeting tips.  \n- Clarify whether Route 1 elevation has steep/short hills or longer/gradual climbs.  \n- Ask for raw materials needed for illuminated manuscripts.  \n- Seek local music event tips.  \n- Seek fintech data‑analysis resources.  \n- Note author Shari Lapena of “The Couple Next Door.”  \n- Request yoga philosophy book recommendations for deeper understanding and daily application."
+    },
+    {
+      "round": 5,
+      "memory": "- Renew software license before month‑end.  \n- Prefer traditional doctor‑recommended treatments now while keeping alternative options in mind.  \n- Plan Facebook ads targeting similar users; request audience‑targeting tips.  \n- Clarify whether Route 1 elevation has steep/short hills or longer/gradual climbs.  \n- Ask for raw materials needed for illuminated manuscripts.  \n- Seek local music event tips.  \n- Request fintech data‑analysis resources.  \n- Note author Shari Lapena of “The Couple Next Door.”  \n- Request yoga philosophy book recommendations for deeper understanding and daily application."
+    },
+    {
+      "round": 6,
+      "memory": "- Renew software license by month‑end.  \n- Prefer doctor‑recommended treatments now, while keeping alternatives.  \n- Plan Facebook ads targeting similar users; request audience‑targeting tips.  \n- Clarify whether Route 1 has steep/short or longer/gradual hills.  \n- Ask for raw materials for illuminated manuscripts.  \n- Ask for local music event tips.  \n- Ask for fintech data‑analysis resources.  \n- Note author Shari Lapena of “The Couple Next Door.”  \n- Request yoga philosophy book recommendations for deeper understanding and daily application."
+    },
+    {
+      "round": 7,
+      "memory": "- Renew software license by month‑end.  \n- Prefer doctor‑recommended treatments now while keeping alternatives.  \n- Plan Facebook ads targeting similar users; request audience‑targeting tips.  \n- Need clarification on whether Route 1 has steep/short or longer/gradual hills.  \n- Request raw materials for illuminated manuscripts.  \n- Request local music event tips.  \n- Request fintech data‑analysis resources.  \n- Note Shari Lapena as author of “The Couple Next Door.”  \n- Request yoga philosophy book recommendations for deeper understanding and daily application."
+    },
+    {
+      "round": 8,
+      "memory": "- Renew license by month‑end.  \n- Prefer doctor‑recommended treatments now; retain alternatives.  \n- Plan Facebook ads for similar users; request audience‑targeting tips.  \n- Clarify whether Route 1 has steep/short or longer/gradual hills.  \n- Request raw materials for illuminated manuscripts.  \n- Request local music event tips.  \n- Request fintech data‑analysis resources.  \n- Note Shari Lapena is author of “The Couple Next Door.”  \n- Request yoga philosophy books for deeper understanding and daily application."
+    },
+    {
+      "round": 9,
+      "memory": "- Renew license by month‑end.  \n- Prefer doctor‑recommended treatments now, yet keep alternatives available.  \n- Plan Facebook ads targeting similar users; request audience‑targeting tips.  \n- Clarify whether Route 1 has steep/short or longer/gradual hills.  \n- Request raw materials for illuminated manuscripts.  \n- Request tips for local music events.  \n- Request fintech data‑analysis resources.  \n- Request yoga philosophy books for deeper understanding and daily application.  \n- Shari Lapena is the author of “The Couple Next Door.”"
+    },
+    {
+      "round": 10,
+      "memory": "- Renew license by month‑end.  \n- Prefer doctor‑recommended treatments now while keeping alternatives.  \n- Plan Facebook ads targeting similar users; request audience‑targeting tips.  \n- Clarify whether Route 1 has steep/short hills or longer/gradual hills.  \n- Request raw materials for illuminated manuscripts.  \n- Seek tips for local music events.  \n- Acquire fintech data‑analysis resources.  \n- Obtain yoga philosophy books for deeper understanding and daily application.  \n- Shari Lapena is author of “The Couple Next Door.”"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "item_id": "obl_003",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "metadata": {
+    "timestamp": "2026-10-31T17:21:03.452689+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to send the documents before the meeting."
+    },
+    {
+      "round": 1,
+      "memory": "- I really need to send documents before the meeting."
+    },
+    {
+      "round": 2,
+      "memory": "- I really need to send documents before the meeting."
+    },
+    {
+      "round": 3,
+      "memory": "- The user really needs to send documents before the meeting."
+    },
+    {
+      "round": 4,
+      "memory": "- The user has a strong need to send documents before the meeting."
+    },
+    {
+      "round": 5,
+      "memory": "- The user has a strong need to send documents before the meeting."
+    },
+    {
+      "round": 6,
+      "memory": "- User strongly needs to send documents before the meeting."
+    },
+    {
+      "round": 7,
+      "memory": "- User **strongly needs** to send documents **before the meeting**."
+    },
+    {
+      "round": 8,
+      "memory": "- User strongly needs to send documents before the meeting."
+    },
+    {
+      "round": 9,
+      "memory": "- **User strongly needs to send documents before the meeting.**"
+    },
+    {
+      "round": 10,
+      "memory": "- The user **strongly needs to send documents before the meeting**."
+    }
+  ]
+}

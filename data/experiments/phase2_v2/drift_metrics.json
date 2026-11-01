@@ -1,0 +1,3106 @@
+{
+  "series": {
+    "hierarchical|c0|epistemic_certainty": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "category": "epistemic_certainty",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": -0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        }
+      },
+      "growth_exponent": -0.18898101568493914,
+      "arc": {
+        "n": 27,
+        "n_items": 3,
+        "slope": -0.0933,
+        "intercept": -0.1956,
+        "r2": 0.0356,
+        "se": 0.0971,
+        "t_stat": -0.9612,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "hierarchical|c0|numeric_magnitude": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "category": "numeric_magnitude",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": 0.0,
+        "intercept": 0.0,
+        "r2": 0.0,
+        "se": 0.0,
+        "t_stat": 0.0,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "hierarchical|c0|obligation_strength": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "category": "obligation_strength",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.12772999630685228,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": -0.05,
+        "intercept": 0.4,
+        "r2": 0.0054,
+        "se": 0.1278,
+        "t_stat": -0.3912,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "hierarchical|c0|preference_intensity": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "category": "preference_intensity",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        }
+      },
+      "growth_exponent": -0.3312343299371076,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": 0.0,
+        "intercept": 0.3667,
+        "r2": 0.0,
+        "se": 0.1399,
+        "t_stat": 0.0,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "hierarchical|c20|epistemic_certainty": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "category": "epistemic_certainty",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 1
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 1,
+        "slope": 0.0,
+        "intercept": 0.0,
+        "r2": 0.0,
+        "se": 0.0,
+        "t_stat": 0.0,
+        "p_value": 1.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ],
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "hierarchical|c20|obligation_strength": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "category": "obligation_strength",
+      "rounds": {
+        "4": {
+          "mean_signed": -2.0,
+          "mean_abs": 2.0,
+          "n": 1
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 1,
+        "slope": 0.0,
+        "intercept": 0.0,
+        "r2": 0.0,
+        "se": 0.0,
+        "t_stat": 0.0,
+        "p_value": 1.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ],
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "hierarchical|c8|epistemic_certainty": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "category": "epistemic_certainty",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        },
+        "3": {
+          "mean_signed": -0.5,
+          "mean_abs": 0.5,
+          "n": 2
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        },
+        "6": {
+          "mean_signed": -0.5,
+          "mean_abs": 0.5,
+          "n": 2
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        },
+        "8": {
+          "mean_signed": -0.5,
+          "mean_abs": 0.5,
+          "n": 2
+        },
+        "9": {
+          "mean_signed": -0.5,
+          "mean_abs": 0.5,
+          "n": 2
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 20,
+        "n_items": 2,
+        "slope": -0.2,
+        "intercept": -0.2,
+        "r2": 0.25,
+        "se": 0.0816,
+        "t_stat": -2.4495,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "hierarchical|c8|numeric_magnitude": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "category": "numeric_magnitude",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 2
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 24,
+        "n_items": 3,
+        "slope": 0.0,
+        "intercept": 0.0,
+        "r2": 0.0,
+        "se": 0.0,
+        "t_stat": 0.0,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "hierarchical|c8|obligation_strength": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "category": "obligation_strength",
+      "rounds": {
+        "1": {
+          "mean_signed": -0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": -0.6666666666666666,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 1.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 1.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.04758093106834579,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": -0.85,
+        "intercept": -0.3,
+        "r2": 0.3981,
+        "se": 0.1975,
+        "t_stat": -4.3032,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "hierarchical|c8|preference_intensity": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "category": "preference_intensity",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.6666666666666666,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.19396847794650915,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": -0.5,
+        "intercept": -0.1,
+        "r2": 0.2994,
+        "se": 0.1445,
+        "t_stat": -3.4592,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "sliding|c0|epistemic_certainty": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "category": "epistemic_certainty",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": 0.0,
+        "intercept": 0.0,
+        "r2": 0.0,
+        "se": 0.0,
+        "t_stat": 0.0,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "sliding|c0|numeric_magnitude": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "category": "numeric_magnitude",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": 0.0,
+        "intercept": 0.0,
+        "r2": 0.0,
+        "se": 0.0,
+        "t_stat": 0.0,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "sliding|c0|obligation_strength": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "category": "obligation_strength",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": 0.0,
+        "intercept": 0.0,
+        "r2": 0.0,
+        "se": 0.0,
+        "t_stat": 0.0,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "sliding|c0|preference_intensity": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "category": "preference_intensity",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": 0.0,
+        "intercept": -0.0333,
+        "r2": 0.0,
+        "se": 0.0415,
+        "t_stat": 0.0,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "sliding|c20|epistemic_certainty": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "category": "epistemic_certainty",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": 0.0,
+        "intercept": 0.0,
+        "r2": 0.0,
+        "se": 0.0,
+        "t_stat": 0.0,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "sliding|c20|numeric_magnitude": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "category": "numeric_magnitude",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": 0.0,
+        "intercept": 0.0,
+        "r2": 0.0,
+        "se": 0.0,
+        "t_stat": 0.0,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "sliding|c20|obligation_strength": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "category": "obligation_strength",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": -0.35,
+        "intercept": -0.2333,
+        "r2": 0.4565,
+        "se": 0.0722,
+        "t_stat": -4.8497,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "sliding|c20|preference_intensity": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "category": "preference_intensity",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": 0.0,
+        "intercept": 0.0,
+        "r2": 0.0,
+        "se": 0.0,
+        "t_stat": 0.0,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "sliding|c8|epistemic_certainty": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "category": "epistemic_certainty",
+      "rounds": {
+        "1": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": -0.1,
+        "intercept": -0.0667,
+        "r2": 0.1071,
+        "se": 0.0546,
+        "t_stat": -1.833,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "sliding|c8|numeric_magnitude": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "category": "numeric_magnitude",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": 0.0,
+        "intercept": 0.0,
+        "r2": 0.0,
+        "se": 0.0,
+        "t_stat": 0.0,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "sliding|c8|obligation_strength": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "category": "obligation_strength",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": -0.3333333333333333,
+          "mean_abs": 0.3333333333333333,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": -0.25,
+        "intercept": -0.1667,
+        "r2": 0.3,
+        "se": 0.0722,
+        "t_stat": -3.4641,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    },
+    "sliding|c8|preference_intensity": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "category": "preference_intensity",
+      "rounds": {
+        "1": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "2": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "3": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "4": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "5": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "6": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "7": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "8": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "9": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        },
+        "10": {
+          "mean_signed": 0.0,
+          "mean_abs": 0.0,
+          "n": 3
+        }
+      },
+      "growth_exponent": 0.0,
+      "arc": {
+        "n": 30,
+        "n_items": 3,
+        "slope": 0.0,
+        "intercept": 0.0,
+        "r2": 0.0,
+        "se": 0.0,
+        "t_stat": 0.0,
+        "p_value": null,
+        "ci_95": null,
+        "se_clustered": null,
+        "p_value_clustered": null
+      }
+    }
+  },
+  "arc_pooled": {
+    "hierarchical|c0": {
+      "n": 117,
+      "n_items": 12,
+      "slope": -0.02,
+      "intercept": 0.1533,
+      "r2": 0.001,
+      "se": 0.0594,
+      "t_stat": -0.3368,
+      "p_value": null,
+      "ci_95": [
+        -0.2742,
+        0.2356
+      ],
+      "se_clustered": 0.1207,
+      "p_value_clustered": 0.64
+    },
+    "hierarchical|c20": {
+      "n": 2,
+      "n_items": 2,
+      "slope": -2.0,
+      "intercept": 0.0,
+      "r2": 1.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c8": {
+      "n": 104,
+      "n_items": 11,
+      "slope": -0.4084,
+      "intercept": -0.1303,
+      "r2": 0.2135,
+      "se": 0.0776,
+      "t_stat": -5.2613,
+      "p_value": null,
+      "ci_95": [
+        -0.9183,
+        0.0364
+      ],
+      "se_clustered": 0.2477,
+      "p_value_clustered": 0.072
+    },
+    "sliding|c0": {
+      "n": 120,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": -0.0083,
+      "r2": 0.0,
+      "se": 0.0102,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": [
+        -0.0143,
+        0.01
+      ],
+      "se_clustered": 0.0076,
+      "p_value_clustered": 1.0
+    },
+    "sliding|c20": {
+      "n": 120,
+      "n_items": 12,
+      "slope": -0.0875,
+      "intercept": -0.0583,
+      "r2": 0.0929,
+      "se": 0.0252,
+      "t_stat": -3.4768,
+      "p_value": null,
+      "ci_95": [
+        -0.2783,
+        0.0
+      ],
+      "se_clustered": 0.0817,
+      "p_value_clustered": 0.64
+    },
+    "sliding|c8": {
+      "n": 120,
+      "n_items": 12,
+      "slope": -0.0875,
+      "intercept": -0.0583,
+      "r2": 0.0929,
+      "se": 0.0252,
+      "t_stat": -3.4768,
+      "p_value": null,
+      "ci_95": [
+        -0.2182,
+        0.0
+      ],
+      "se_clustered": 0.0589,
+      "p_value_clustered": 0.22
+    }
+  },
+  "arc_by_round": {
+    "hierarchical|c0|1": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.25,
+      "r2": 0.0,
+      "se": 0.2305,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c0|2": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.1667,
+      "r2": 0.0,
+      "se": 0.2661,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c0|3": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.125,
+      "intercept": 0.0,
+      "r2": 0.0312,
+      "se": 0.2201,
+      "t_stat": -0.568,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c0|4": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.1667,
+      "r2": 0.0,
+      "se": 0.1443,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c0|5": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.1667,
+      "r2": 0.0,
+      "se": 0.2141,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c0|6": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0833,
+      "r2": 0.0,
+      "se": 0.1909,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c0|7": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0833,
+      "r2": 0.0,
+      "se": 0.1909,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c0|8": {
+      "n": 11,
+      "n_items": 11,
+      "slope": 0.0263,
+      "intercept": 0.1842,
+      "r2": 0.0029,
+      "se": 0.162,
+      "t_stat": 0.1625,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c0|9": {
+      "n": 11,
+      "n_items": 11,
+      "slope": 0.0263,
+      "intercept": 0.1842,
+      "r2": 0.0029,
+      "se": 0.162,
+      "t_stat": 0.1625,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c0|10": {
+      "n": 11,
+      "n_items": 11,
+      "slope": -0.1053,
+      "intercept": 0.2632,
+      "r2": 0.0351,
+      "se": 0.184,
+      "t_stat": -0.5721,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c20|1": {
+      "n": 1,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": 1.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c20|4": {
+      "n": 1,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": 1.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ],
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c8|1": {
+      "n": 11,
+      "n_items": 11,
+      "slope": -0.375,
+      "intercept": -0.1818,
+      "r2": 0.1996,
+      "se": 0.2503,
+      "t_stat": -1.4981,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c8|2": {
+      "n": 11,
+      "n_items": 11,
+      "slope": -0.375,
+      "intercept": -0.1818,
+      "r2": 0.1996,
+      "se": 0.2503,
+      "t_stat": -1.4981,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c8|3": {
+      "n": 10,
+      "n_items": 10,
+      "slope": -0.5362,
+      "intercept": -0.2464,
+      "r2": 0.3253,
+      "se": 0.2731,
+      "t_stat": -1.9638,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c8|4": {
+      "n": 10,
+      "n_items": 10,
+      "slope": -0.2754,
+      "intercept": -0.0725,
+      "r2": 0.1804,
+      "se": 0.2075,
+      "t_stat": -1.327,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c8|5": {
+      "n": 11,
+      "n_items": 11,
+      "slope": -0.375,
+      "intercept": -0.1818,
+      "r2": 0.1996,
+      "se": 0.2503,
+      "t_stat": -1.4981,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c8|6": {
+      "n": 10,
+      "n_items": 10,
+      "slope": -0.4203,
+      "intercept": -0.058,
+      "r2": 0.2487,
+      "se": 0.2582,
+      "t_stat": -1.6275,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c8|7": {
+      "n": 10,
+      "n_items": 10,
+      "slope": -0.4203,
+      "intercept": -0.058,
+      "r2": 0.1766,
+      "se": 0.3208,
+      "t_stat": -1.3101,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c8|8": {
+      "n": 10,
+      "n_items": 10,
+      "slope": -0.5507,
+      "intercept": -0.1449,
+      "r2": 0.2754,
+      "se": 0.3159,
+      "t_stat": -1.7436,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c8|9": {
+      "n": 10,
+      "n_items": 10,
+      "slope": -0.4203,
+      "intercept": -0.058,
+      "r2": 0.2487,
+      "se": 0.2582,
+      "t_stat": -1.6275,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "hierarchical|c8|10": {
+      "n": 11,
+      "n_items": 11,
+      "slope": -0.375,
+      "intercept": -0.0909,
+      "r2": 0.1628,
+      "se": 0.2834,
+      "t_stat": -1.3231,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c0|1": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c0|2": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c0|3": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c0|4": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c0|5": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": -0.0833,
+      "r2": 0.0,
+      "se": 0.107,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c0|6": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c0|7": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c0|8": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c0|9": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c0|10": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c20|1": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c20|2": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.125,
+      "intercept": -0.0833,
+      "r2": 0.1364,
+      "se": 0.0995,
+      "t_stat": -1.2566,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c20|3": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.125,
+      "intercept": -0.0833,
+      "r2": 0.1364,
+      "se": 0.0995,
+      "t_stat": -1.2566,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c20|4": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.125,
+      "intercept": -0.0833,
+      "r2": 0.1364,
+      "se": 0.0995,
+      "t_stat": -1.2566,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c20|5": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c20|6": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c20|7": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.125,
+      "intercept": -0.0833,
+      "r2": 0.1364,
+      "se": 0.0995,
+      "t_stat": -1.2566,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c20|8": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.125,
+      "intercept": -0.0833,
+      "r2": 0.1364,
+      "se": 0.0995,
+      "t_stat": -1.2566,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c20|9": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.125,
+      "intercept": -0.0833,
+      "r2": 0.1364,
+      "se": 0.0995,
+      "t_stat": -1.2566,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c20|10": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.125,
+      "intercept": -0.0833,
+      "r2": 0.1364,
+      "se": 0.0995,
+      "t_stat": -1.2566,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c8|1": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.125,
+      "intercept": -0.0833,
+      "r2": 0.1364,
+      "se": 0.0995,
+      "t_stat": -1.2566,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c8|2": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.125,
+      "intercept": -0.0833,
+      "r2": 0.1364,
+      "se": 0.0995,
+      "t_stat": -1.2566,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c8|3": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c8|4": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c8|5": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c8|6": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.125,
+      "intercept": -0.0833,
+      "r2": 0.1364,
+      "se": 0.0995,
+      "t_stat": -1.2566,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c8|7": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.125,
+      "intercept": -0.0833,
+      "r2": 0.1364,
+      "se": 0.0995,
+      "t_stat": -1.2566,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c8|8": {
+      "n": 12,
+      "n_items": 12,
+      "slope": 0.0,
+      "intercept": 0.0,
+      "r2": 0.0,
+      "se": 0.0,
+      "t_stat": 0.0,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c8|9": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.125,
+      "intercept": -0.0833,
+      "r2": 0.1364,
+      "se": 0.0995,
+      "t_stat": -1.2566,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    },
+    "sliding|c8|10": {
+      "n": 12,
+      "n_items": 12,
+      "slope": -0.25,
+      "intercept": -0.1667,
+      "r2": 0.3,
+      "se": 0.1208,
+      "t_stat": -2.0702,
+      "p_value": null,
+      "ci_95": null,
+      "se_clustered": null,
+      "p_value_clustered": null
+    }
+  },
+  "survival_vs_truth": {
+    "hierarchical|c0|1": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 1,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "hierarchical|c0|2": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 2,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "hierarchical|c0|3": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 3,
+      "present_but_wrong": 0.3333333333333333,
+      "n": 12
+    },
+    "hierarchical|c0|4": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 4,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    },
+    "hierarchical|c0|5": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 5,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "hierarchical|c0|6": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 6,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "hierarchical|c0|7": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 7,
+      "present_but_wrong": 0.25,
+      "n": 12
+    },
+    "hierarchical|c0|8": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 8,
+      "present_but_wrong": 0.18181818181818182,
+      "n": 11
+    },
+    "hierarchical|c0|9": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 9,
+      "present_but_wrong": 0.18181818181818182,
+      "n": 11
+    },
+    "hierarchical|c0|10": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 10,
+      "present_but_wrong": 0.2727272727272727,
+      "n": 11
+    },
+    "hierarchical|c20|1": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 1,
+      "present_but_wrong": 0.0,
+      "n": 1
+    },
+    "hierarchical|c20|4": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 4,
+      "present_but_wrong": 1.0,
+      "n": 1
+    },
+    "hierarchical|c8|1": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 1,
+      "present_but_wrong": 0.2727272727272727,
+      "n": 11
+    },
+    "hierarchical|c8|2": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 2,
+      "present_but_wrong": 0.2727272727272727,
+      "n": 11
+    },
+    "hierarchical|c8|3": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 3,
+      "present_but_wrong": 0.4,
+      "n": 10
+    },
+    "hierarchical|c8|4": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 4,
+      "present_but_wrong": 0.3,
+      "n": 10
+    },
+    "hierarchical|c8|5": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 5,
+      "present_but_wrong": 0.2727272727272727,
+      "n": 11
+    },
+    "hierarchical|c8|6": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 6,
+      "present_but_wrong": 0.5,
+      "n": 10
+    },
+    "hierarchical|c8|7": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 7,
+      "present_but_wrong": 0.4,
+      "n": 10
+    },
+    "hierarchical|c8|8": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 8,
+      "present_but_wrong": 0.5,
+      "n": 10
+    },
+    "hierarchical|c8|9": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 9,
+      "present_but_wrong": 0.5,
+      "n": 10
+    },
+    "hierarchical|c8|10": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 10,
+      "present_but_wrong": 0.36363636363636365,
+      "n": 11
+    },
+    "sliding|c0|1": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 1,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|2": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 2,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|3": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 3,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|4": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 4,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|5": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 5,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c0|6": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 6,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|7": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 7,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|8": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 8,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|9": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 9,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c0|10": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 10,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c20|1": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 1,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c20|2": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 2,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c20|3": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 3,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c20|4": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 4,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c20|5": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 5,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c20|6": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 6,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c20|7": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 7,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c20|8": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 8,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c20|9": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 9,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c20|10": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 10,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c8|1": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 1,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c8|2": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 2,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c8|3": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 3,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c8|4": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 4,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c8|5": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 5,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c8|6": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 6,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c8|7": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 7,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c8|8": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 8,
+      "present_but_wrong": 0.0,
+      "n": 12
+    },
+    "sliding|c8|9": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 9,
+      "present_but_wrong": 0.08333333333333333,
+      "n": 12
+    },
+    "sliding|c8|10": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 10,
+      "present_but_wrong": 0.16666666666666666,
+      "n": 12
+    }
+  },
+  "attrition": {
+    "hierarchical|c0|1": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 1,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "hierarchical|c0|2": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 2,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "hierarchical|c0|3": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 3,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "hierarchical|c0|4": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 4,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "hierarchical|c0|5": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 5,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "hierarchical|c0|6": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 6,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "hierarchical|c0|7": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 7,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "hierarchical|c0|8": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 8,
+      "total": 12,
+      "lost": 1,
+      "attrition_rate": 0.08333333333333333
+    },
+    "hierarchical|c0|9": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 9,
+      "total": 12,
+      "lost": 1,
+      "attrition_rate": 0.08333333333333333
+    },
+    "hierarchical|c0|10": {
+      "pipeline": "hierarchical",
+      "context_level": "c0",
+      "round": 10,
+      "total": 12,
+      "lost": 1,
+      "attrition_rate": 0.08333333333333333
+    },
+    "hierarchical|c20|1": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 1,
+      "total": 12,
+      "lost": 11,
+      "attrition_rate": 0.9166666666666666
+    },
+    "hierarchical|c20|2": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 2,
+      "total": 12,
+      "lost": 12,
+      "attrition_rate": 1.0
+    },
+    "hierarchical|c20|3": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 3,
+      "total": 12,
+      "lost": 12,
+      "attrition_rate": 1.0
+    },
+    "hierarchical|c20|4": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 4,
+      "total": 12,
+      "lost": 11,
+      "attrition_rate": 0.9166666666666666
+    },
+    "hierarchical|c20|5": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 5,
+      "total": 12,
+      "lost": 12,
+      "attrition_rate": 1.0
+    },
+    "hierarchical|c20|6": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 6,
+      "total": 12,
+      "lost": 12,
+      "attrition_rate": 1.0
+    },
+    "hierarchical|c20|7": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 7,
+      "total": 12,
+      "lost": 12,
+      "attrition_rate": 1.0
+    },
+    "hierarchical|c20|8": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 8,
+      "total": 12,
+      "lost": 12,
+      "attrition_rate": 1.0
+    },
+    "hierarchical|c20|9": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 9,
+      "total": 12,
+      "lost": 12,
+      "attrition_rate": 1.0
+    },
+    "hierarchical|c20|10": {
+      "pipeline": "hierarchical",
+      "context_level": "c20",
+      "round": 10,
+      "total": 12,
+      "lost": 12,
+      "attrition_rate": 1.0
+    },
+    "hierarchical|c8|1": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 1,
+      "total": 12,
+      "lost": 1,
+      "attrition_rate": 0.08333333333333333
+    },
+    "hierarchical|c8|2": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 2,
+      "total": 12,
+      "lost": 1,
+      "attrition_rate": 0.08333333333333333
+    },
+    "hierarchical|c8|3": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 3,
+      "total": 12,
+      "lost": 2,
+      "attrition_rate": 0.16666666666666666
+    },
+    "hierarchical|c8|4": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 4,
+      "total": 12,
+      "lost": 2,
+      "attrition_rate": 0.16666666666666666
+    },
+    "hierarchical|c8|5": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 5,
+      "total": 12,
+      "lost": 1,
+      "attrition_rate": 0.08333333333333333
+    },
+    "hierarchical|c8|6": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 6,
+      "total": 12,
+      "lost": 2,
+      "attrition_rate": 0.16666666666666666
+    },
+    "hierarchical|c8|7": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 7,
+      "total": 12,
+      "lost": 2,
+      "attrition_rate": 0.16666666666666666
+    },
+    "hierarchical|c8|8": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 8,
+      "total": 12,
+      "lost": 2,
+      "attrition_rate": 0.16666666666666666
+    },
+    "hierarchical|c8|9": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 9,
+      "total": 12,
+      "lost": 2,
+      "attrition_rate": 0.16666666666666666
+    },
+    "hierarchical|c8|10": {
+      "pipeline": "hierarchical",
+      "context_level": "c8",
+      "round": 10,
+      "total": 12,
+      "lost": 1,
+      "attrition_rate": 0.08333333333333333
+    },
+    "sliding|c0|1": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 1,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c0|2": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 2,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c0|3": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 3,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c0|4": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 4,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c0|5": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 5,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c0|6": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 6,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c0|7": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 7,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c0|8": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 8,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c0|9": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 9,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c0|10": {
+      "pipeline": "sliding",
+      "context_level": "c0",
+      "round": 10,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c20|1": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 1,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c20|2": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 2,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c20|3": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 3,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c20|4": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 4,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c20|5": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 5,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c20|6": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 6,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c20|7": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 7,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c20|8": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 8,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c20|9": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 9,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c20|10": {
+      "pipeline": "sliding",
+      "context_level": "c20",
+      "round": 10,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c8|1": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 1,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c8|2": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 2,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c8|3": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 3,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c8|4": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 4,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c8|5": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 5,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c8|6": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 6,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c8|7": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 7,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c8|8": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 8,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c8|9": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 9,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    },
+    "sliding|c8|10": {
+      "pipeline": "sliding",
+      "context_level": "c8",
+      "round": 10,
+      "total": 12,
+      "lost": 0,
+      "attrition_rate": 0.0
+    }
+  },
+  "polarity_summary": {}
+}

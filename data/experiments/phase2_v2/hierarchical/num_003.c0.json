@@ -1,0 +1,58 @@
+{
+  "item_id": "num_003",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "openai/gpt-oss-20b",
+  "metadata": {
+    "timestamp": "2026-11-01T04:54:57.557735+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The maximum storage we need for the project is about 100 GB."
+    },
+    {
+      "round": 1,
+      "memory": "- The project requires **about 100 GB of storage**."
+    },
+    {
+      "round": 2,
+      "memory": "- The project requires about 100 GB of storage."
+    },
+    {
+      "round": 3,
+      "memory": "- The project requires about 100 GB of storage."
+    },
+    {
+      "round": 4,
+      "memory": "- Requires about 100 GB of storage."
+    },
+    {
+      "round": 5,
+      "memory": "- Requires roughly 100 GB of storage."
+    },
+    {
+      "round": 6,
+      "memory": "- Requires roughly 100 GB of storage."
+    },
+    {
+      "round": 7,
+      "memory": "- Requires roughly 100 GB of storage."
+    },
+    {
+      "round": 8,
+      "memory": "- Requires approximately 100 GB of storage."
+    },
+    {
+      "round": 9,
+      "memory": "- Requires approximately 100 GB of storage."
+    },
+    {
+      "round": 10,
+      "memory": "- Requires approximately 100 GB of storage."
+    }
+  ]
+}
