@@ -1,0 +1,58 @@
+{
+  "item_id": "pref_001",
+  "context_level": "c0",
+  "pipeline": "sliding",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T10:58:11.745495+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I slightly prefer morning meetings, but afternoon meetings are fine too."
+    },
+    {
+      "round": 1,
+      "memory": "- I slightly prefer morning meetings, but afternoon meetings are fine too."
+    },
+    {
+      "round": 2,
+      "memory": "- I slightly prefer morning meetings, but afternoon meetings are fine too."
+    },
+    {
+      "round": 3,
+      "memory": "- I slightly prefer morning meetings, but afternoon meetings are fine too."
+    },
+    {
+      "round": 4,
+      "memory": "- I slightly prefer morning meetings, but afternoon meetings are fine too."
+    },
+    {
+      "round": 5,
+      "memory": "- I slightly prefer morning meetings, but afternoon meetings are fine too."
+    },
+    {
+      "round": 6,
+      "memory": "- I slightly prefer morning meetings, but afternoon meetings are fine too."
+    },
+    {
+      "round": 7,
+      "memory": "- I slightly prefer morning meetings, but afternoon meetings are fine too."
+    },
+    {
+      "round": 8,
+      "memory": "- I slightly prefer morning meetings, but afternoon meetings are fine too."
+    },
+    {
+      "round": 9,
+      "memory": "- I slightly prefer morning meetings, but afternoon meetings are fine too."
+    },
+    {
+      "round": 10,
+      "memory": "- I slightly prefer morning meetings, but afternoon meetings are fine too."
+    }
+  ]
+}

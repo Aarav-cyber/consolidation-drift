@@ -1,0 +1,58 @@
+{
+  "item_id": "obl_002",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T11:03:39.368909+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I need to renew my software license before the end of the month.\nUser: I think I'll stick with the traditional treatments my doctor recommended for now, but I'll keep the alternative options in mind for the future.\nUser: I'm planning to run another Facebook ad campaign soon, and I'd like to target people who have shown interest in similar products to mine. Can you give me some tips on how to effectively target my ad audience on Facebook?\nUser: I think Route 1 sounds interesting, but I'm a bit concerned about the elevation gain. Can you tell me more about the hills and climbs on that route? Are they steep and short, or longer and more gradual?\nUser: Which raw materials were commonly used to create illuminated manuscripts?\nUser: Cool, thanks for the recs! I'm actually thinking of checking out some local music events in my area. Do you have any tips on finding out what's happening in my city?\nUser: Can you recommend any resources for fintech startups to learn about data analysis? I want to become more knowledgeable on the subject.\nUser: I'm interested in \"The Couple Next Door\". Can you tell me more about the author, Shari Lapena?\nUser: I'd like to explore more about yoga philosophy and its connection to my practice. Can you recommend some resources or books that can help me deepen my understanding of yoga philosophy and its application in daily life?"
+    },
+    {
+      "round": 1,
+      "memory": "- Software license needs renewal before end of month.\n- Leaning toward doctor's recommended traditional treatments while keeping alternative options in mind for the future.\n- Asked about: Facebook ad targeting for similar products; Route 1's elevation gain (steep/short vs. gradual—expressed concern); raw materials for illuminated manuscripts; local music event tips; data analysis resources for fintech startups; author Shari Lapena and *The Couple Next Door*; yoga philosophy resources for daily-life application."
+    },
+    {
+      "round": 2,
+      "memory": "- Software license requires renewal before end of month.\n- Leaning toward doctor's recommended traditional treatments; keeping alternatives in mind for the future.\n- Asked about: Facebook ad targeting; Route 1 elevation gain (concern re: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application."
+    },
+    {
+      "round": 3,
+      "memory": "- Software license needs renewal before end of month.\n- Leaning toward doctor's recommended traditional treatments while keeping alternatives in mind for future.\n- Asked about: Facebook ad targeting; Route 1 elevation gain (concern: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application."
+    },
+    {
+      "round": 4,
+      "memory": "- Software license: renewal needed before end of month.\n- Health: leaning toward doctor's recommended traditional treatments; keeping alternatives in mind for future.\n- Topics previously asked about: Facebook ad targeting; Route 1 elevation gain (concern: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application."
+    },
+    {
+      "round": 5,
+      "memory": "- Software license renewal needed before end of month.\n- Leaning toward doctor's recommended traditional treatments; keeping alternatives in mind for future.\n- Previously discussed topics: FB ad targeting; Route 1 elevation gain (concern: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application."
+    },
+    {
+      "round": 6,
+      "memory": "- Software license renewal needed before end of month.\n- Leaning toward doctor's recommended traditional treatments; alternatives kept in mind for future.\n- Previously discussed: FB ad targeting; Route 1 elevation gain (concern: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application."
+    },
+    {
+      "round": 7,
+      "memory": "- Software license renewal needed before end of month.\n- Leaning toward doctor's recommended traditional treatments, with alternatives kept in mind for future.\n- Previously discussed: FB ad targeting; Route 1 elevation gain (concern: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application."
+    },
+    {
+      "round": 8,
+      "memory": "- Software license renewal needed before end of month.\n- User is leaning toward doctor's recommended traditional treatments while keeping alternatives in mind for future.\n- Previously discussed: FB ad targeting; Route 1 elevation gain (concern re: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application."
+    },
+    {
+      "round": 9,
+      "memory": "- Software license renewal: due before end of month.\n- Health: user leaning toward doctor's recommended traditional treatments; alternatives kept in mind for future.\n- Previously discussed: FB ad targeting; Route 1 elevation gain (concern re: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application."
+    },
+    {
+      "round": 10,
+      "memory": "- Software license renewal due before end of month.\n- Health: user leaning toward doctor's recommended traditional treatments; alternatives kept in mind for future.\n- Previously discussed: FB ad targeting; Route 1 elevation gain (concern re: steep/short vs. gradual); illuminated-manuscript raw materials; local music events; fintech data-analysis resources; Shari Lapena / *The Couple Next Door*; yoga-philosophy resources for daily-life application."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "item_id": "obl_003",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T11:03:39.368909+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to send the documents before the meeting."
+    },
+    {
+      "round": 1,
+      "memory": "- The speaker really needs to send docs before the meeting."
+    },
+    {
+      "round": 2,
+      "memory": "- The speaker really needs to send the docs before the meeting."
+    },
+    {
+      "round": 3,
+      "memory": "- The speaker really needs the docs to be sent before the meeting, emphasizing urgency."
+    },
+    {
+      "round": 4,
+      "memory": "- The speaker really needs documents sent before the meeting, emphasizing the urgency of the request."
+    },
+    {
+      "round": 5,
+      "memory": "- The speaker really needs documents sent before the meeting and emphasized the urgency."
+    },
+    {
+      "round": 6,
+      "memory": "- Speaker emphasized that documents must be sent before the meeting, stressing the urgency."
+    },
+    {
+      "round": 7,
+      "memory": "- The speaker emphasized that documents must be sent before the meeting, stressing urgency."
+    },
+    {
+      "round": 8,
+      "memory": "- The speaker emphasized that documents **must** be sent before the meeting, explicitly stressing the urgency of the deadline."
+    },
+    {
+      "round": 9,
+      "memory": "- The speaker explicitly emphasized the urgency of the deadline: documents **must** be sent before the meeting."
+    },
+    {
+      "round": 10,
+      "memory": "- The speaker stressed the urgency that documents must be sent before the meeting."
+    }
+  ]
+}

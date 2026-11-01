@@ -1,0 +1,58 @@
+{
+  "item_id": "pref_003",
+  "context_level": "c0",
+  "pipeline": "sliding",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T11:03:39.369429+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I strongly prefer working from home, but I can come to the office when necessary."
+    },
+    {
+      "round": 1,
+      "memory": "- I strongly prefer working from home, but I can come to the office when necessary."
+    },
+    {
+      "round": 2,
+      "memory": "- I strongly prefer working from home, but I can come to the office when necessary."
+    },
+    {
+      "round": 3,
+      "memory": "- I strongly prefer working from home, but I can come to the office when necessary."
+    },
+    {
+      "round": 4,
+      "memory": "- I strongly prefer working from home, but I can come to the office when necessary."
+    },
+    {
+      "round": 5,
+      "memory": "- I strongly prefer working from home, but I can come to the office when necessary."
+    },
+    {
+      "round": 6,
+      "memory": "- I strongly prefer working from home, but I can come to the office when necessary."
+    },
+    {
+      "round": 7,
+      "memory": "- I strongly prefer working from home, but I can come to the office when necessary."
+    },
+    {
+      "round": 8,
+      "memory": "- I strongly prefer working from home, but I can come to the office when necessary."
+    },
+    {
+      "round": 9,
+      "memory": "- I strongly prefer working from home, but I can come to the office when necessary."
+    },
+    {
+      "round": 10,
+      "memory": "- I strongly prefer working from home, but I can come to the office when necessary."
+    }
+  ]
+}

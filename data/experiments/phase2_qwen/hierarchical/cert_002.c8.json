@@ -1,0 +1,58 @@
+{
+  "item_id": "cert_002",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T11:03:39.369676+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The package will probably arrive tomorrow, although I have not checked the tracking information.\nUser: I'm going to start the single crochet border this weekend. I've been working on this blanket for about 5-6 hours each weekend, and I'm about halfway done, so I want to make sure I can finish it in time for my sister's birthday. Thanks for the tips on joining the border yarn!\nUser: What are the most significant challenges facing the banking industry today, and how are banks responding to them?\nAgent: I'm sorry to hear that. Without more information about what specifically is not working, I can't provide much assistance. Can you please provide more details about the issue you're experiencing, and what you've tried so far?\nUser: By the way, I was thinking... since you've attended three film festivals in the past two months, you might want to add a column to your spreadsheet to track which festival each film was seen at. That way, you can easily filter and analyze your data by festival. Just a thought!\nUser: What Acts, statutes or regulations address the use of mRNA vaccines in Ontario?\nUser: I remember listening to \"Purple Rain\" with my LGBTQ+ friends in college, and it was such a powerful moment of unity and acceptance. Prince's music brought us all together and made us feel seen and heard.\nUser: Sell t Shirt\nUser: is that information correcT?"
+    },
+    {
+      "round": 1,
+      "memory": "- Package probably arriving tomorrow (tracking unchecked).\n- Starting single crochet border this weekend (~5–6 hrs/wk; blanket ~halfway; targeting sister's birthday).\n- Asked about banking-industry challenges, Ontario legislation re mRNA vaccines, and to sell a t-shirt.\n- Couldn't help an unspecified issue without more details.\n- Offered a hedged suggestion (\"just a thought,\" \"might want to\") for a spreadsheet column tracking three film festivals over the past two months.\n- Shared a meaningful college memory of \"Purple Rain\" with LGBTQ+ friends.\n- Questioned whether previously shared information is correct."
+    },
+    {
+      "round": 2,
+      "memory": "- Package probably arriving tomorrow (tracking unchecked).\n- Starting single crochet border this weekend; ~5–6 hrs/wk on blanket; blanket ~halfway; targeting sister's birthday.\n- Asked about banking-industry challenges, Ontario mRNA vaccine legislation, and selling a t-shirt.\n- Couldn't help an unspecified issue without more details.\n- Gave a hedged suggestion (\"just a thought,\" \"might want to\") for a spreadsheet column tracking three film festivals over the past two months.\n- Shared a meaningful college memory of \"Purple Rain\" with LGBTQ+ friends.\n- Questioned whether previously shared info is correct."
+    },
+    {
+      "round": 3,
+      "memory": "- Package probably arriving tomorrow (tracking unchecked).\n- Starting single crochet border this weekend; ~5–6 hrs/wk on blanket, ~halfway, targeting sister's birthday.\n- Asked about banking challenges, Ontario mRNA vaccine legislation, and selling a t-shirt.\n- Couldn't help an unspecified issue without more details.\n- Gave a hedged suggestion (\"just a thought,\" \"might want to\") for a spreadsheet column tracking three film festivals over the past two months.\n- Shared a meaningful college \"Purple Rain\" memory with LGBTQ+ friends.\n- Questioned whether previously shared info is correct."
+    },
+    {
+      "round": 4,
+      "memory": "- Package probably arriving tomorrow (tracking unchecked).\n- Blanket ~halfway at ~5–6 hrs/wk; starting single crochet border this weekend, targeting sister's birthday.\n- Discussed banking challenges, Ontario mRNA vaccine legislation, and a t-shirt sale.\n- Couldn't help an unspecified issue without more details.\n- Gave a hedged suggestion re: a spreadsheet tracking three film festivals over the past two months.\n- Shared a meaningful college \"Purple Rain\" memory with LGBTQ+ friends.\n- Questioned whether previously shared info is correct."
+    },
+    {
+      "round": 5,
+      "memory": "- Package probably arriving tomorrow (tracking unchecked).\n- Blanket ~halfway at ~5–6 hrs/wk; starting single crochet border this weekend, targeting sister's birthday.\n- Covered banking challenges, Ontario mRNA vaccine legislation, t-shirt sale.\n- Couldn't help an unspecified issue without more details.\n- Gave a hedged suggestion re: a spreadsheet tracking three film festivals over the past two months.\n- Shared a meaningful college \"Purple Rain\" memory with LGBTQ+ friends.\n- Questioned whether previously shared info is correct."
+    },
+    {
+      "round": 6,
+      "memory": "• Package probably arriving tomorrow (tracking unchecked).\n• Blanket ~halfway at ~5–6 hrs/wk; starting single crochet border this weekend, targeting sister's birthday.\n• Topics covered: banking challenges, Ontario mRNA vaccine legislation, t-shirt sale.\n• Couldn't help an unspecified issue without more details.\n• Hedged suggestion re: spreadsheet tracking three film festivals over past two months.\n• Shared a meaningful college \"Purple Rain\" memory with LGBTQ+ friends.\n• Questioned whether previously shared info is correct."
+    },
+    {
+      "round": 7,
+      "memory": "- Package probably arriving tomorrow (tracking unchecked).\n- Blanket ~halfway at ~5–6 hrs/wk; starting single crochet border this weekend, targeting sister's birthday.\n- Topics covered: banking challenges, Ontario mRNA vaccine legislation, t-shirt sale.\n- Couldn't help an unspecified issue without more details.\n- Hedged suggestion re: spreadsheet tracking 3 film festivals over past 2 months.\n- Shared meaningful college \"Purple Rain\" memory with LGBTQ+ friends.\n- Questioned whether previously shared info is correct."
+    },
+    {
+      "round": 8,
+      "memory": "- Package probably arriving tomorrow (tracking unchecked).\n- Blanket ~halfway at ~5–6 hrs/wk; starting single crochet border this weekend for sister's birthday.\n- Discussed banking challenges, Ontario mRNA vaccine legislation, and a t-shirt sale.\n- Couldn't help an unspecified issue without more details.\n- Hedged suggestion: spreadsheet tracking 3 film festivals over the past 2 months.\n- Shared a meaningful college \"Purple Rain\" memory with LGBTQ+ friends.\n- Questioned whether previously shared info is correct."
+    },
+    {
+      "round": 9,
+      "memory": "- Package probably arriving tomorrow (tracking unchecked).\n- Blanket ~halfway at ~5–6 hrs/wk; starting single crochet border this weekend for sister's birthday.\n- Discussed: banking challenges, Ontario mRNA vaccine legislation, t-shirt sale.\n- Couldn't help an unspecified issue without more details.\n- Offered hedged suggestion of a spreadsheet tracking 3 film festivals over past 2 months.\n- Shared a meaningful college \"Purple Rain\" memory with LGBTQ+ friends.\n- Questioned whether previously shared info is correct."
+    },
+    {
+      "round": 10,
+      "memory": "- Package probably arriving tomorrow (tracking unchecked).\n- Blanket ~halfway at ~5–6 hrs/wk; starting single crochet border this weekend for sister's birthday.\n- Topics covered: banking challenges, Ontario mRNA vaccine legislation, t-shirt sale.\n- Couldn't help an unspecified issue without more details.\n- Hedged suggestion re: spreadsheet tracking 3 film festivals over past 2 months.\n- Shared meaningful college \"Purple Rain\" memory with LGBTQ+ friends.\n- Questioned whether previously shared info is correct."
+    }
+  ]
+}

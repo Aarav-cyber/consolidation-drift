@@ -188,10 +188,14 @@ Address the four critical issues raised in peer code review:
 | `data/experiments/phase2_v2/` | gpt-oss re-run chains and grades |
 | `docs/final_report.md` | Report on the whole project |
 
-### Findings so far
-- Sliding window shows no statistically significant drift on 12 items. Slopes are about -0.09 and every confidence interval includes 0.
-- The old hierarchical result was an artifact. The clean hierarchical numbers come from the Qwen run, which is graded after this entry.
-- No support for H1 (directional bias) yet.
+### Qwen run result (2026-11-01)
+- All 72 chains and 720 grades finished on `qwen3.8-27b` (grader `gpt-oss-120b`). No empty memories and no non-answers, so the bug fix worked. Grading was split into 4 parallel shards (one Groq key each) and merged with `validation/merge_shards.py`, which cut it from about an hour to about 12 minutes.
+- Sliding window: no drift. Mean signed drift is within 0.04 of 0 in every cell.
+- ARC (pull toward the middle level): null everywhere. Every 95% interval includes 0.
+- Hierarchical: a small upward shift in strength. +0.31 at 0 filler turns (item-level bootstrap p = 0.017) and +0.23 at 20 turns (p = 0.029). It comes from 4 of 12 items (obl_001, obl_002, obl_003, pref_002).
+- It is not established: six cells were tested, so the cut-off is about p < 0.008, and pooled over all cells the shift is +0.07 (p = 0.24).
+- Of 712 graded records, 599 are exactly right, 79 are too strong and 34 are too weak.
+- Status: no confirmed drift on 12 items, with a hint of strengthening in hierarchical rewrites that needs the full 200-item run.
 
 ### Not done
-- Qwen grades, the human-labelled grader check, the full 200-item run, a second writer model, a real memory-size limit, and the AVR fix.
+- The human-labelled grader check (sheet prepared, not filled in), the full 200-item run, a second writer model, a real memory-size limit, and the AVR fix.

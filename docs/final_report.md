@@ -2,7 +2,7 @@
 
 **Question.** When an LLM agent repeatedly rewrites its memory into a shorter form, does it only lose information (H0), or does each rewrite also push the content in a consistent direction, for example from "slightly prefers mornings" toward "requires mornings" (H1)?
 
-**Short answer.** Not established yet. After the fixes, the sliding pipeline shows no statistically significant drift on the 12-item pilot. The hierarchical results from the gpt-oss re-run are unusable because of a pipeline bug (fixed since). The clean Qwen run is finished but its grading is still in progress, so this report will be updated with those numbers.
+**Short answer.** A weak hint, not a finding. On the clean Qwen run, no pipeline pulls memories toward the middle level (ARC slopes are small and every confidence interval includes 0). The hierarchical pipeline does show a small upward shift in strength, for example "should" becoming "must": +0.31 at 0 filler turns (p = 0.017) and +0.23 at 20 turns (p = 0.029). It comes from 4 of the 12 items (three obligation items and one preference item), it does not survive correction for testing six cells, and pooled over all cells it is +0.07 (p = 0.24). The sliding pipeline shows none. Twelve items is too few to settle it.
 
 ---
 
@@ -46,19 +46,47 @@
 
 How to read it: "not present" is the number of grades where the statement was missing from the memory. ARC slope below 0 means pulled toward the middle level. The clustered p-value accounts for the 12 items being re-used across rounds.
 
-**Qwen run (`data/experiments/phase2_qwen`).** All 72 chains finished with the fixed pipeline. Grading is still running, so no numbers yet. Generate the table with `python3 validation/results_tables.py data/experiments/phase2_qwen` once `evaluations.json` exists.
+**Qwen run (`data/experiments/phase2_qwen`), the main result.** `qwen3.8-27b` writes, `gpt-oss-120b` grades. 12 items, 10 rounds, 72 chains, 720 grades. This run has no empty memories and no "please share your notes" non-answers. Only 8 grades were "not present", all in hierarchical chains with 20 filler turns, and the memory text had content in each.
+
+| pipeline | filler turns | records | not present | mean signed drift (all rounds) | mean signed drift (round 10) | present but wrong (round 10) | ARC slope [95% CI] | ARC p (clustered) |
+|---|---|---|---|---|---|---|---|---|
+| hierarchical | 0 | 120 | 0 | +0.31 (n=120) | +0.33 (n=12) | 3/12 | -0.03 [-0.31, +0.29] | 0.91 |
+| hierarchical | 20 | 120 | 8 | +0.17 (n=112) | +0.18 (n=11) | 2/11 | -0.07 [-0.26, +0.23] | 0.55 |
+| hierarchical | 8 | 120 | 0 | -0.02 (n=120) | +0.00 (n=12) | 4/12 | +0.06 [-0.18, +0.34] | 0.61 |
+| sliding | 0 | 120 | 0 | -0.03 (n=120) | +0.00 (n=12) | 0/12 | -0.04 [-0.12, +0.00] | 0.74 |
+| sliding | 20 | 120 | 0 | +0.03 (n=120) | -0.08 (n=12) | 1/12 | -0.05 [-0.20, +0.09] | 0.53 |
+| sliding | 8 | 120 | 0 | -0.04 (n=120) | -0.08 (n=12) | 3/12 | -0.12 [-0.28, +0.05] | 0.21 |
+
+Because rounds of one item are not independent, mean signed drift was also tested by averaging each item first and resampling items (`validation/mean_drift_bootstrap.py`):
+
+| pipeline | filler turns | mean signed drift (item level) | 95% CI | p | items drifting up / flat / down |
+|---|---|---|---|---|---|
+| sliding | 0 | -0.02 | [-0.07, +0.00] | 0.712 | 0 / 11 / 1 |
+| sliding | 8 | -0.04 | [-0.17, +0.08] | 0.772 | 1 / 9 / 2 |
+| sliding | 20 | +0.03 | [-0.10, +0.20] | 0.902 | 1 / 10 / 1 |
+| hierarchical | 0 | +0.31 | [+0.06, +0.61] | 0.017 | 4 / 8 / 0 |
+| hierarchical | 8 | -0.02 | [-0.23, +0.18] | 0.906 | 2 / 7 / 3 |
+| hierarchical | 20 | +0.23 | [+0.03, +0.47] | 0.029 | 4 / 7 / 1 |
+| all cells pooled | | +0.068 | [-0.030, +0.196] | 0.238 | |
+
+Descriptive counts: 712 records were graded and 8 more were "not present". Of the 712, 599 (84%) match the true level exactly and 113 miss. Of the misses, 79 are too strong (73 by one step, 6 by two) and 34 are too weak (33 by one step, 1 by two). Rounds of the same item repeat, so treat this as a description, not a test.
+
+Which items drive the hierarchical shift at 0 filler turns (mean drift per item): obl_001 +0.7, obl_002 +1.4, obl_003 +0.5, pref_002 +1.1. The other eight items are exactly 0.
 
 ## 4. Interpretation
 
-- Sliding window: slopes are small (about -0.09) and every confidence interval touches 0. No significant drift was found. Sliding with 0 filler turns is an inert control and reads exactly 0, as it should.
-- The large effect in the first pilot (-1.01 for hierarchical at 20 turns) did not survive the fixes. It was an artifact of forcing the grader to pick a level.
-- No result in the clean data supports H1 (directional bias) yet. The honest status is "no drift found on 12 items", not "no drift exists".
-- Final interpretation waits for the Qwen grades.
+- **No pull toward the middle.** ARC, the main metric in the proposal, is null on both pipelines and all filler levels. Memories are not collapsing toward level 3.
+- **A small push toward stronger wording, in the hierarchical pipeline only.** Items that start at "should" or "slightly prefers" end up as "must" or "prefers". This is the direction the H1 example describes, but it is a different shape from the one ARC tests, so ARC cannot see it.
+- **It is not established.** Two of six cells have p below 0.05 (0.017 and 0.029). Correcting for six comparisons needs about p < 0.008, and neither passes. Pooled over all cells the shift is +0.07 with a 95% interval of -0.03 to +0.20.
+- **Sliding window is clean.** Its mean drift is within 0.04 of 0 in every cell, and the 0-filler case reads 0 as an inert control should.
+- **The first pilot's big result was an artifact.** The -1.01 slope for hierarchical at 20 turns came from forcing the grader to guess a level, plus the text-splitting and empty-reply bugs.
+- **Status: "no confirmed drift on 12 items; a hint of strengthening in hierarchical rewrites worth testing on all 200 items", not "drift exists" and not "drift does not exist".**
 
 ## 5. Limitations
 
 - **Small sample.** Only 12 of the 200 items were run, at 10 rounds instead of 20. Each pipeline-and-filler cell has 120 grades from 12 items.
-- **One writer model in the final run.** The gpt-oss-20b run is partial and the Qwen run is complete. A general claim needs two or three writer models.
+- **One usable writer model for hierarchical.** The gpt-oss-20b hierarchical results were damaged by the empty-reply bug, so the hierarchical result rests on Qwen alone. A general claim needs two or three writer models.
+- **Multiple comparisons.** Six cells were tested, so single p-values near 0.02 are not reliable on their own.
 - **Grader not checked against humans.** A 100-row blind labelling sheet is prepared in `validation/` (`label_sheet.csv`, scored with `score.py`) but has not been filled in. In the gpt-oss re-run, 26 "not present" grades had the target in the text, so the grader does make mistakes.
 - **No real memory-size limit.** "Budget" here means the amount of filler, not a fixed word limit.
 - **Rolling-summary pipeline, negation items and the other proposed metrics were not run.**

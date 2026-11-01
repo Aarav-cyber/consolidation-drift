@@ -1,0 +1,58 @@
+{
+  "item_id": "cert_003",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T11:03:39.369676+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 10,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am fairly confident that the meeting starts at 10 AM."
+    },
+    {
+      "round": 1,
+      "memory": "- Fairly confident the meeting starts at 10 AM."
+    },
+    {
+      "round": 2,
+      "memory": "- Fairly confident the meeting starts at 10 AM."
+    },
+    {
+      "round": 3,
+      "memory": "- Fairly confident the meeting starts at 10 AM."
+    },
+    {
+      "round": 4,
+      "memory": "- The meeting likely starts at 10 AM (fairly confident, but not certain)."
+    },
+    {
+      "round": 5,
+      "memory": "- The meeting likely starts at 10 AM (fairly confident, but not certain)."
+    },
+    {
+      "round": 6,
+      "memory": "- Meeting likely starts at 10 AM; confidence is fairly high but not certain."
+    },
+    {
+      "round": 7,
+      "memory": "- The meeting is likely at 10 AM, with fairly high confidence but not certain."
+    },
+    {
+      "round": 8,
+      "memory": "- The meeting is likely at 10 AM (fairly high confidence, but not certain)."
+    },
+    {
+      "round": 9,
+      "memory": "- The meeting is likely at 10 AM (fairly high confidence, but not certain)."
+    },
+    {
+      "round": 10,
+      "memory": "- The meeting is likely at 10 AM (fairly high confidence, but not certain)."
+    }
+  ]
+}
