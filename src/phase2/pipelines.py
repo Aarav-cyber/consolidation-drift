@@ -131,3 +131,60 @@ def hierarchical_step(client, statements, model, delay, budget_words=120,
 
 def hierarchical_init(target_text, turns):
     return [target_text] + [t["content"] for t in turns]
+
+
+# ---------------------------------------------------------------------------
+# AVR (Anchor, Verify, Restore) wrapper around the hierarchical pipeline.
+# Anchor: once, before any rewrite, the writer model flags statements whose
+#         exact strength matters. The real target is not given to it.
+# Verify: after every round, each anchor is checked against the new memory
+#         by the writer model (not the evaluation grader, to avoid circularity).
+# Restore: if an anchor is CHANGED or MISSING, its original sentence is put
+#          back verbatim into the memory and into the next round's input.
+# ---------------------------------------------------------------------------
+
+def avr_detect(client, statements, model, delay):
+    anchors = []
+    for s in statements:
+        prompt = (
+            "Does this statement express a preference, a level of certainty, an "
+            "obligation, a specific number or amount, or a negation, where the exact "
+            "strength or value matters?\nAnswer ONLY YES or NO.\n\n"
+            f"Statement: {s}"
+        )
+        ans = chat(client, prompt, model=model, delay=delay).upper()
+        if re.search(r"\bYES\b", ans) and not re.search(r"\bNO\b", ans):
+            anchors.append(s)
+    return anchors
+
+
+def avr_verify(client, anchor, memory, model, delay):
+    prompt = (
+        f"Original statement:\n{anchor}\n\nCurrent memory:\n{memory}\n\n"
+        "Does the memory still state this with the SAME strength (same qualifiers, "
+        "certainty, obligation level, numbers and negation)?\n"
+        "Answer ONLY one word:\n"
+        "SAME if it is kept with the same strength,\n"
+        "CHANGED if it is there but stronger, weaker or different,\n"
+        "MISSING if it is not in the memory."
+    )
+    ans = chat(client, prompt, model=model, delay=delay).upper()
+    found = set(re.findall(r"\b(SAME|CHANGED|MISSING)\b", ans))
+    # Anything unclear counts as CHANGED: restoring is the safe side.
+    return found.pop() if len(found) == 1 else "CHANGED"
+
+
+def hierarchical_avr_step(client, statements, anchors, model, delay):
+    """One hierarchical round, then verify each anchor and restore failures.
+    Returns (memory, next_statements, report)."""
+    glob, nxt = hierarchical_step(client, statements, model, delay)
+    verdicts, restored = {}, []
+    for a in anchors:
+        v = avr_verify(client, a, glob, model, delay)
+        verdicts[a] = v
+        if v != "SAME":
+            restored.append(a)
+    if restored:
+        glob = glob.rstrip() + "\n" + "\n".join(f"- {a}" for a in restored)
+        nxt = list(nxt) + restored
+    return glob, nxt, {"verdicts": verdicts, "restored": restored}

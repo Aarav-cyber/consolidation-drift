@@ -19,7 +19,7 @@ def boot(rs, B=5000):
     return m, out[int(.025 * B)], out[int(.975 * B)], p, im
 print("| pipeline | filler turns | mean signed drift (item level) | 95% CI | p | items drifting up / flat / down |")
 print("|---|---|---|---|---|---|")
-for p in ("sliding", "hierarchical"):
+for p in sorted({x["pipeline"] for x in rec}):
     for c in ("c0", "c8", "c20"):
         rs = [x for x in rec if x["pipeline"] == p and x["context_level"] == c]
         if not rs: continue

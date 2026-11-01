@@ -45,6 +45,13 @@ def run_chain(client, pipeline, target_text, turns, rounds, model, delay):
         for k in range(1, rounds + 1):
             glob, stmts = P.hierarchical_step(client, stmts, model, delay)
             mems.append({"round": k, "memory": glob})
+    elif pipeline == "hierarchical_avr":
+        stmts = P.hierarchical_init(target_text, turns)
+        anchors = P.avr_detect(client, stmts, model, delay)
+        mems[0]["anchors"] = anchors
+        for k in range(1, rounds + 1):
+            glob, stmts, rep = P.hierarchical_avr_step(client, stmts, anchors, model, delay)
+            mems.append({"round": k, "memory": glob, "avr": rep})
     else:
         raise ValueError(f"unknown pipeline {pipeline}")
     return mems

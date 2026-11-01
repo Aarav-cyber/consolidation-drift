@@ -299,3 +299,53 @@ def test_get_client_defaults_to_groq_and_selfhosted_is_opt_in(monkeypatch):
     assert not isinstance(llm.get_client(), llm.OpenAICompatClient)
     with pytest.raises(ValueError):
         llm.get_client("nope")
+
+
+def _scripted_chat(replies):
+    it = iter(replies)
+    return lambda *a, **k: next(it)
+
+
+def test_avr_detect_keeps_only_yes_statements():
+    orig = P.chat
+    P.chat = _scripted_chat(["YES", "NO", "Yes."])
+    try:
+        assert P.avr_detect(None, ["a", "b", "c"], "m", 0) == ["a", "c"]
+    finally:
+        P.chat = orig
+
+
+def test_avr_verify_parses_and_defaults_to_changed():
+    orig = P.chat
+    try:
+        for reply, want in [("SAME", "SAME"), ("missing", "MISSING"), ("CHANGED.", "CHANGED"),
+                            ("SAME or CHANGED", "CHANGED"), ("hmm", "CHANGED")]:
+            P.chat = lambda *a, **k: reply
+            assert P.avr_verify(None, "anchor", "mem", "m", 0) == want
+    finally:
+        P.chat = orig
+
+
+def test_hierarchical_avr_restores_changed_anchor_verbatim():
+    orig_step, orig_chat = P.hierarchical_step, P.chat
+    P.hierarchical_step = lambda c, s, m, d: ("- User must submit the report.", ["User must submit the report."])
+    P.chat = _scripted_chat(["CHANGED", "SAME"])
+    try:
+        anchor = "I should submit the report."
+        glob, nxt, rep = P.hierarchical_avr_step(None, ["x"], [anchor, "other anchor"], "m", 0)
+        assert anchor in glob and anchor in nxt
+        assert rep["restored"] == [anchor]
+        assert rep["verdicts"]["other anchor"] == "SAME"
+    finally:
+        P.hierarchical_step, P.chat = orig_step, orig_chat
+
+
+def test_hierarchical_avr_leaves_memory_alone_when_all_same():
+    orig_step, orig_chat = P.hierarchical_step, P.chat
+    P.hierarchical_step = lambda c, s, m, d: ("- kept.", ["kept."])
+    P.chat = lambda *a, **k: "SAME"
+    try:
+        glob, nxt, rep = P.hierarchical_avr_step(None, ["x"], ["a1"], "m", 0)
+        assert glob == "- kept." and nxt == ["kept."] and rep["restored"] == []
+    finally:
+        P.hierarchical_step, P.chat = orig_step, orig_chat
