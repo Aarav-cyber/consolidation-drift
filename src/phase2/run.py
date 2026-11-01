@@ -59,6 +59,7 @@ def main():
     ap.add_argument("--rounds", type=int, default=10)
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--delay", type=float, default=2.0)
+    ap.add_argument("--backend", default="groq", choices=["groq", "selfhosted"])
     ap.add_argument("--out", default="data/experiments/phase2")
     args = ap.parse_args()
 
@@ -69,7 +70,7 @@ def main():
     want_levels = set(args.levels.split(","))
     pipes = args.pipelines.split(",")
     out = Path(args.out)
-    client = get_client()
+    client = get_client(args.backend)
 
     import datetime
     timestamp = datetime.datetime.now(datetime.timezone.utc).isoformat()

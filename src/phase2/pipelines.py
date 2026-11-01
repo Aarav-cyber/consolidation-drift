@@ -123,6 +123,8 @@ def hierarchical_step(client, statements, model, delay, budget_words=120,
     if not lines:
         sentences = re.split(r"(?<=[.!?])\s+", glob.replace("\n", " "))
         lines = [s.strip() for s in sentences if len(s.strip()) >= 10]
+    if not glob.strip():
+        raise RuntimeError("hierarchical_step produced an empty global memory")
     next_statements = lines if lines else [glob.strip()]
     return glob, next_statements
 

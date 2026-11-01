@@ -29,7 +29,8 @@ class FakeCompletions:
         self.texts = list(texts)
         self.calls = []
 
-    def create(self, model, messages):
+    def create(self, model, messages, **kwargs):
+        self.kwargs = getattr(self, "kwargs", []) + [kwargs]
         self.calls.append(messages[0]["content"])
         text = self.texts.pop(0) if self.texts else "ok summary."
         return _Resp(text)
@@ -234,3 +235,67 @@ def test_metrics_polarity_summary():
     assert pol["flip_rate"] == round(1/3, 4)
     assert pol["preservation_rate"] == round(1/3, 4)
     assert pol["loss_rate"] == round(1/3, 4)
+
+
+def test_chat_retries_empty_reply_instead_of_returning_it():
+    from src.phase2.llm import chat
+    c = FakeClient(["", "  ", "real summary."])
+    assert chat(c, "p", model="m", delay=0) == "real summary."
+    assert len(c.chat.completions.calls) == 3
+
+
+def test_chat_aborts_when_model_keeps_returning_empty():
+    import pytest
+    from src.phase2.llm import chat, EmptyReplyError
+    c = FakeClient([""] * 10)
+    with pytest.raises(EmptyReplyError):
+        chat(c, "p", model="m", delay=0, max_empty=2)
+    assert len(c.chat.completions.calls) == 3
+
+
+def test_hierarchical_rejects_empty_global_memory():
+    import pytest
+    orig = P.chat
+    P.chat = lambda *a, **k: ""
+    try:
+        with pytest.raises(RuntimeError):
+            P.hierarchical_step(None, ["a statement here."], "m", 0)
+    finally:
+        P.chat = orig
+
+
+def test_chat_raises_output_cap_after_empty_reply():
+    from src.phase2.llm import chat, START_CAP
+    c = FakeClient(["", "answer."])
+    assert chat(c, "p", model="m", delay=0) == "answer."
+    caps = [k["max_completion_tokens"] for k in c.chat.completions.kwargs]
+    assert caps == [START_CAP, START_CAP * 2]
+
+
+def test_openai_compat_client_parses_response_and_chat_uses_it(monkeypatch):
+    import io, json, urllib.request
+    from src.phase2.llm import OpenAICompatClient, chat
+    seen = {}
+
+    def fake_urlopen(req, timeout=0):
+        seen["url"] = req.full_url
+        seen["auth"] = req.get_header("Authorization")
+        seen["body"] = json.loads(req.data)
+        return io.BytesIO(json.dumps({"choices": [{"message": {"content": " hi "}}]}).encode())
+
+    monkeypatch.setattr(urllib.request, "urlopen", fake_urlopen)
+    c = OpenAICompatClient("http://localhost:18000/v1/", "tok")
+    assert chat(c, "p", model="qwen", delay=0) == "hi"
+    assert seen["url"] == "http://localhost:18000/v1/chat/completions"
+    assert seen["auth"] == "Bearer tok" and seen["body"]["model"] == "qwen"
+
+
+def test_get_client_defaults_to_groq_and_selfhosted_is_opt_in(monkeypatch):
+    import pytest
+    from src.phase2 import llm
+    monkeypatch.setenv("SELFHOSTED_BASE_URL", "http://localhost:1/v1")
+    monkeypatch.setenv("SELFHOSTED_API_KEY", "k")
+    assert isinstance(llm.get_client("selfhosted"), llm.OpenAICompatClient)
+    assert not isinstance(llm.get_client(), llm.OpenAICompatClient)
+    with pytest.raises(ValueError):
+        llm.get_client("nope")
