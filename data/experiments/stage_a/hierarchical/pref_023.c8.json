@@ -1,0 +1,98 @@
+{
+  "item_id": "pref_023",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:05:00.195339+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I prefer the upper berth on overnight trains.\nUser: I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?\nUser: Can I get some more?\nUser: I've heard good things about Eheim and Fluval, but I'm not familiar with Hydor. Can you tell me more about their Professional Canister Filter? How does it compare to the other two in terms of noise level and maintenance?\nUser: I'm planning to grab a coffee on my way home from the train station. I've been going to \"The Daily Grind\" on Main St, but I might try \"Brew-tiful Day\" on Elm St instead. Do you have any recommendations for coffee shops in the area?\nUser: Can I also get a quote for cleaning and conditioning my Birkenstocks while I'm at it?\nUser: how can an artist survive using youtube\nUser: I'm interested in purchasing the Thermoball boots from Moosejaw. Can you help me with the checkout process and let me know if they offer any discounts or promotions?\nUser: I've been thinking about expanding my collection to include some older cameras, maybe from the early 20th century. Do you have any information on the market value of cameras from that era, specifically Kodak and Graflex models?"
+    },
+    {
+      "round": 1,
+      "memory": "- Prefers upper berth on overnight trains; loves discovering fashion icons; asks which brand will dominate in the next few years.\n- Asks about Hydor Professional Canister Filter vs. Eheim/Fluval (heard good of those two, not familiar with Hydor—noise/maintenance concerns).\n- Coffee after train: usually \"The Daily Grind\" (Main St); might try \"Brew-tiful Day\" (Elm St).\n- Asks for a Birkenstock cleaning/conditioning quote.\n- Asks how an artist can survive on YouTube.\n- Seeks Moosejaw Thermoball boots checkout help/discounts.\n- Considering early 20th-c. Kodak/Graflex camera market values.\n- Vague \"can I get some more?\""
+    },
+    {
+      "round": 2,
+      "memory": "- Prefers upper berth on overnight trains; loves discovering fashion icons; asks which brand will dominate the next few years.\n- Comparing Hydor Professional Canister Filter vs. Eheim/Fluval: heard good of Eheim/Fluval; not familiar with Hydor (noise/maintenance concerns).\n- Post-train coffee: usually \"The Daily Grind\" (Main St); might try \"Brew-tiful Day\" (Elm St).\n- Asks about: Birkenstock cleaning/conditioning quote; how an artist can survive on YouTube; Moosejaw Thermoball boots checkout help/discounts.\n- Considering early 20th-c. Kodak/Graflex camera market values.\n- Vague \"can I get some more?\""
+    },
+    {
+      "round": 3,
+      "memory": "- Prefers upper berth on overnight trains; loves discovering fashion icons; asks which brand will dominate the next few years.\n- Comparing Hydor Professional Canister Filter vs. Eheim/Fluval: heard good of Eheim/Fluval; not familiar with Hydor—noise/maintenance concerns.\n- Post-train coffee usually \"The Daily Grind\" (Main St); might try \"Brew-tiful Day\" (Elm St).\n- Asks about: Birkenstock cleaning/conditioning quote; how an artist can survive on YouTube; Moosejaw Thermoball boots checkout help/discounts.\n- Considering (ongoing/uncertain) early 20th-c. Kodak/Graflex camera market values.\n- Vague \"can I get some more?\" request."
+    },
+    {
+      "round": 4,
+      "memory": "- Prefers upper berth on overnight trains; loves discovering fashion icons; asks which brand will dominate the next few years.\n- Comparing Hydor Professional Canister Filter vs. Eheim/Fluval: heard good of Eheim/Fluval; not familiar with Hydor (noise/maintenance concerns).\n- Post-train coffee usually \"The Daily Grind\" (Main St); might try \"Brew-tiful Day\" (Elm St).\n- Asks about Birkenstock cleaning/conditioning quote, how an artist can survive on YouTube, and Moosejaw Thermoball boots checkout help/discounts.\n- Ongoing, uncertain consideration of early 20th-c. Kodak/Graflex camera market values.\n- Made a vague \"can I get some more?\" request."
+    },
+    {
+      "round": 5,
+      "memory": "- Prefers upper berth on overnight trains; loves discovering fashion icons and asks which brand will dominate the next few years.\n- Comparing Hydor canister filter vs. Eheim/Fluval (heard good of Eheim/Fluval; unfamiliar with Hydor; noise/maintenance concerns).\n- Post-train coffee usually \"The Daily Grind\" (Main St); might try \"Brew-tiful Day\" (Elm St).\n- Asks about a Birkenstock cleaning/conditioning quote; how an artist can survive on YouTube; Moosejaw Thermoball boots checkout help/discounts.\n- Ongoing uncertain consideration of early 20th-c. Kodak/Graflex camera market values.\n- Made a vague \"can I get some more?\" request."
+    },
+    {
+      "round": 6,
+      "memory": "- Prefers upper berth on overnight trains.\n- Loves discovering fashion icons; asks which brand will dominate the next few years.\n- Comparing Hydor canister filter vs. Eheim/Fluval (heard good of Eheim/Fluval; unfamiliar with Hydor; noise/maintenance concerns).\n- Post-train coffee usually \"The Daily Grind\" (Main St); might try \"Brew-tiful Day\" (Elm St).\n- Asks re: Birkenstock cleaning/conditioning quote.\n- Inquires about YouTube artist survival.\n- Inquires about Moosejaw Thermoball boots checkout/discounts.\n- Ongoing uncertain consideration of early 20th-c. Kodak/Graflex camera market values.\n- Made vague \"can I get some more?\" request."
+    },
+    {
+      "round": 7,
+      "memory": "- Prefers upper berth on overnight trains.\n- Usually post-train coffee at \"The Daily Grind\" (Main St); might try \"Brew-tiful Day\" (Elm St).\n- Loves discovering fashion icons; asks which brand will dominate the next few years.\n- Open inquiry: Hydor vs. Eheim/Fluval canister filter — heard good of Eheim/Fluval, unfamiliar with Hydor, has noise/maintenance concerns.\n- Seeking a Birkenstock cleaning/conditioning quote.\n- Asking about YouTube artist survival.\n- Moosejaw Thermoball boots: checkout/discounts.\n- Ongoing uncertain consideration of early 20th-c. Kodak/Graflex camera market values.\n- Vague \"can I get some more?\" request."
+    },
+    {
+      "round": 8,
+      "memory": "- Prefers upper berth on overnight trains; usually has post-train coffee at \"The Daily Grind\" (Main St), might try \"Brew-tiful Day\" (Elm St).\n- Loves discovering fashion icons (asks which brand will dominate the next few years).\n- Open inquiry re Hydor vs. Eheim/Fluval canister filters: heard good of Eheim/Fluval, unfamiliar with Hydor; noise/maintenance concerns.\n- Also seeking: Birkenstock cleaning/conditioning quote; Moosejaw Thermoball boot checkout/discounts; YouTube artist survival; early 20th-c. Kodak/Graflex camera market values (uncertain, ongoing consideration); a vague \"can I get some more?\""
+    },
+    {
+      "round": 9,
+      "memory": "- Prefers upper berth on overnight trains; usually has post-train coffee at \"The Daily Grind\" (Main St), might try \"Brew-tiful Day\" (Elm St).\n- Loves discovering fashion icons; asks which brand will dominate the next few years.\n- Open inquiry: Hydor vs. Eheim/Fluval canister filters—heard good of Eheim/Fluval, unfamiliar with Hydor; noise/maintenance concerns.\n- Also seeking: Birkenstock cleaning/conditioning quote; Moosejaw Thermoball boot checkout/discounts; YouTube artist survival; early 20th-c. Kodak/Graflex camera market values (uncertain, ongoing); a vague \"can I get some more?\""
+    },
+    {
+      "round": 10,
+      "memory": "- Prefers upper berth on overnight trains; usually post-train coffee at \"The Daily Grind\" (Main St); might try \"Brew-tiful Day\" (Elm St).\n- Loves discovering fashion icons; asks which brand will dominate the next few years.\n- Open inquiry: Hydor vs. Eheim/Fluval canister filters (heard good of Eheim/Fluval; unfamiliar with Hydor; noise/maintenance concerns).\n- Seeking: Birkenstock cleaning/conditioning quote; Moosejaw Thermoball boot checkout/discounts; YouTube artist survival; early 20th-c. Kodak/Graflex camera market values (uncertain, ongoing); vague \"can I get some more?\""
+    },
+    {
+      "round": 11,
+      "memory": "- Prefers upper berth.\n- Usually post-train coffee at The Daily Grind (Main St); might try Brew-tiful Day (Elm St).\n- Loves discovering fashion icons; asks which brand will dominate next few years.\n- Open to Hydor vs. Eheim/Fluval canister filters (heard good of Eheim/Fluval; unfamiliar with Hydor; noise/maintenance concerns).\n- Seeking: Birkenstock cleaning quote; Moosejaw Thermoball boot discounts; YouTube artist survival; early 20th-c. Kodak/Graflex camera values (uncertain, ongoing); vague \"can I get some more?\""
+    },
+    {
+      "round": 12,
+      "memory": "- Prefers upper berth; usually has post-train coffee at The Daily Grind (Main St); might try Brew-tiful Day (Elm St).\n- Loves discovering fashion icons; asks which brand will dominate next few years.\n- Open to Hydor vs. Eheim/Fluval canister filters; heard good of Eheim/Fluval, unfamiliar with Hydor; has noise/maintenance concerns.\n- Seeking: Birkenstock cleaning quote, Moosejaw Thermoball boot discounts, info on YouTube artist survival.\n- Researching early 20th-c. Kodak/Graflex camera values (uncertain, ongoing).\n- Asked vaguely, \"can I get some more?\""
+    },
+    {
+      "round": 13,
+      "memory": "- Prefers upper berth.\n- Usually has post-train coffee at The Daily Grind (Main St); might try Brew-tiful Day (Elm St).\n- Loves discovering fashion icons; asks which brand will dominate next few years.\n- Open to Hydor vs. Eheim/Fluval canister filters; heard good of Eheim/Fluval, unfamiliar with Hydor; noise/maintenance concerns.\n- Seeking Birkenstock cleaning quote.\n- Seeking Moosejaw Thermoball boot discounts.\n- Seeking YouTube artist survival info.\n- Researched early 20th-c. Kodak/Graflex camera values (uncertain, ongoing).\n- Ended with vague \"can I get some more?\""
+    },
+    {
+      "round": 14,
+      "memory": "- Prefers upper berth.\n- Usually post-train coffee at The Daily Grind (Main St); might try Brew-tiful Day (Elm St).\n- Loves discovering fashion icons; asks which brand will dominate next few years.\n- Open to Hydor vs. Eheim/Fluval canister filters; heard good of Eheim/Fluval, unfamiliar with Hydor; noise/maintenance concerns.\n- Seeking: Birkenstock cleaning quote, Moosejaw Thermoball boot discounts, YouTube artist survival info.\n- Researched early 20th-c. Kodak/Graflex camera values (uncertain, ongoing).\n- Ended vaguely: \"can I get some more?\""
+    },
+    {
+      "round": 15,
+      "memory": "- Prefers upper berth. Post-train coffee: usually The Daily Grind (Main St); might try Brew-tiful Day (Elm St).\n- Loves discovering fashion icons; asked which brand will dominate next few years.\n- Open to Hydor vs. Eheim/Fluval canister filters; heard good of Eheim/Fluval, unfamiliar with Hydor; noise/maintenance concerns.\n- Requested: Birkenstock cleaning quote, Moosejaw Thermoball boot discounts, YouTube artist survival info.\n- Researched early 20th-c. Kodak/Graflex camera values (uncertain, ongoing).\n- Ended vaguely: \"can I get some more?\""
+    },
+    {
+      "round": 16,
+      "memory": "- Prefers upper berth; post-train coffee usually The Daily Grind (Main St), might try Brew-tiful Day (Elm St).\n- Loves discovering fashion icons; asked which brand will dominate next few years.\n- Open to Hydor vs. Eheim/Fluval canister filters; heard good of Eheim/Fluval, unfamiliar with Hydor; noise/maintenance concerns.\n- Requested: Birkenstock cleaning quote, Moosejaw Thermoball boot discounts, YouTube artist survival info.\n- Researched early 20th-c. Kodak/Graflex camera values (uncertain, ongoing).\n- Conversation ended vaguely: \"can I get some more?\""
+    },
+    {
+      "round": 17,
+      "memory": "- Prefers upper berth; post-train coffee usually The Daily Grind (Main St), might try Brew-tiful Day (Elm St).\n- Loves discovering fashion icons; asked which brand will dominate next few years.\n- Open to Hydor vs. Eheim/Fluval canister filters; heard good of Eheim/Fluval, unfamiliar with Hydor; noise/maintenance concerns.\n- Requested: Birkenstock cleaning quote, Moosejaw Thermoball boot discounts, YouTube artist survival info.\n- Researching early 20th-c. Kodak/Graflex camera values (uncertain, ongoing).\n- Ended vaguely: \"can I get some more?\""
+    },
+    {
+      "round": 18,
+      "memory": "- Prefers upper berth. Post-train coffee usually The Daily Grind (Main St); might try Brew-tiful Day (Elm St).\n- Loves discovering fashion icons; asked which brand will dominate next few years.\n- Open to Hydor vs. Eheim/Fluval canister filters (heard good of Eheim/Fluval; unfamiliar with Hydor; noise/maintenance concerns).\n- Requested: Birkenstock cleaning quote, Moosejaw Thermoball boot discounts, YouTube artist survival info.\n- Researching early 20th-c. Kodak/Graflex camera values (uncertain, ongoing).\n- Ended vaguely: \"can I get some more?\""
+    },
+    {
+      "round": 19,
+      "memory": "- Prefers upper berth.\n- Post-train coffee usually The Daily Grind (Main St); might try Brew-tiful Day (Elm St).\n- Loves discovering fashion icons; asked which brand will dominate next few years.\n- Open to Hydor vs. Eheim/Fluval canister filters; heard good of Eheim/Fluval, unfamiliar with Hydor; noise/maintenance concerns.\n- Requested: Birkenstock cleaning quote, Moosejaw Thermoball boot discounts, YouTube artist survival info.\n- Researching early 20th-c. Kodak/Graflex camera values (uncertain, ongoing).\n- Ended vaguely: \"can I get some more?\""
+    },
+    {
+      "round": 20,
+      "memory": "- Prefers upper berth; post-train coffee usually The Daily Grind (Main St), might try Brew-tiful Day (Elm St).\n- Loves discovering fashion icons (asked which brand will dominate next few years).\n- Open to Hydor vs. Eheim/Fluval canister filters; heard good of Eheim/Fluval, unfamiliar with Hydor; noise/maintenance concerns.\n- Asked re: Birkenstock cleaning quote, Moosejaw Thermoball boot discounts, YouTube artist survival.\n- Researching early 20th-c. Kodak/Graflex camera values (uncertain, ongoing).\n- Ended vaguely: \"can I get some more?\""
+    }
+  ]
+}

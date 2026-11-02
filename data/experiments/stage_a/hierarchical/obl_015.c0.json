@@ -1,0 +1,98 @@
+{
+  "item_id": "obl_015",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.054093+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I should clean my desk before the audit visit next month."
+    },
+    {
+      "round": 1,
+      "memory": "- I should clean my desk before next month's audit visit."
+    },
+    {
+      "round": 2,
+      "memory": "- I should clean my desk before next month's audit visit."
+    },
+    {
+      "round": 3,
+      "memory": "- Should clean desk before next month's audit visit — stated as a \"should,\" indicating an obligation or recommendation rather than a hard requirement."
+    },
+    {
+      "round": 4,
+      "memory": "- The desk should be cleaned before next month's audit visit. This is a recommendation/obligation, not a hard requirement."
+    },
+    {
+      "round": 5,
+      "memory": "- The desk should be cleaned before next month's audit visit.\n- This is a recommendation/obligation, not a hard requirement."
+    },
+    {
+      "round": 6,
+      "memory": "- Desk should be cleaned before next month's audit visit. This is framed as a recommendation/obligation, not a hard requirement."
+    },
+    {
+      "round": 7,
+      "memory": "- The desk should be cleaned before next month's audit visit. This is a recommendation/obligation, not a hard requirement."
+    },
+    {
+      "round": 8,
+      "memory": "- The desk should be cleaned before next month's audit visit. This is a recommendation/obligation, not a hard requirement."
+    },
+    {
+      "round": 9,
+      "memory": "- The desk should be cleaned before next month's audit visit. This is a recommendation/obligation, not a hard requirement."
+    },
+    {
+      "round": 10,
+      "memory": "- The desk should be cleaned before next month's audit visit; this is a recommendation/obligation, not a hard requirement."
+    },
+    {
+      "round": 11,
+      "memory": "- Desk cleaning before next month's audit is a recommendation/obligation, not a hard requirement."
+    },
+    {
+      "round": 12,
+      "memory": "- Desk cleaning before next month's audit is a recommendation/obligation, not a hard requirement."
+    },
+    {
+      "round": 13,
+      "memory": "- Cleaning the desk before next month's audit is a recommendation/obligation, not a hard requirement."
+    },
+    {
+      "round": 14,
+      "memory": "- Cleaning the desk before next month's audit is a recommendation/obligation, but not a hard requirement."
+    },
+    {
+      "round": 15,
+      "memory": "• Clean the desk before next month's audit; this is a recommendation/obligation, not a hard requirement."
+    },
+    {
+      "round": 16,
+      "memory": "- Recommendation (not a hard requirement) to clean the desk before next month's audit."
+    },
+    {
+      "round": 17,
+      "memory": "- Cleaning the desk before next month's audit was recommended, not a hard requirement."
+    },
+    {
+      "round": 18,
+      "memory": "- Cleaning the desk before next month's audit is recommended, but not a hard requirement."
+    },
+    {
+      "round": 19,
+      "memory": "- Cleaning the desk before next month's audit is recommended but not a hard requirement."
+    },
+    {
+      "round": 20,
+      "memory": "- Desk cleaning before next month's audit is recommended but is **not** a hard requirement."
+    }
+  ]
+}

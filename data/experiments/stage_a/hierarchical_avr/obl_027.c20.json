@@ -1,0 +1,431 @@
+{
+  "item_id": "obl_027",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.126288+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to fix the production bug before the demo.\nUser: I'm thinking of visiting some of these coastal towns and attractions, but I'm also interested in learning more about the history and culture of the region. Are there any museums, historic sites, or cultural events that you would recommend?\nUser: What are some good fertilizers for my succulents?\nUser: Can you give me some tips on how to make a good Thai curry, like the one I had at my cooking class?\nUser: I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.\nUser: Can I use a regular human shampoo for my long haired rabbit if I run out of rabbit shampoo?\nUser: How does the inheritance or loss of a dukedom impact the individuals involved and their sense of identity?\nUser: eight letters\nUser: I'm glad we discussed cleaning the bath mat, it's an important part of maintaining a hygienic bathroom. Speaking of which, I've been meaning to reorganize my bathroom cabinets, do you have any tips on how to maximize storage space in a small bathroom?\nUser: Can you elaborate more on how small businesses can use customer surveys and focus groups to identify market trends and respond to changing demand?\nUser: Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.\nUser: I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?\nUser: I think I'll go with Robertas for a quick and delicious pizza fix. By the way, I walked across the Brooklyn Bridge on a sunny afternoon during my last trip to NYC. The views were amazing! Do you have any recommendations for other scenic walks or hikes in the city?\nUser: I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?\nUser: I'm actually thinking of attending more concerts and festivals soon, so I'd like to know what are some upcoming music events in the Los Angeles area?\nUser: I want to know more about Upwardly Global. Can you tell me more about their services and how they can help me with my job search?\nUser: It's impressive to see how much innovation is happening in the shipping industry. I wonder how quickly these advancements will be adopted by companies relying on the Elbe River for transportation.\nUser: Have any world-renowned circus companies ever put on a show at City Center?\nUser: as a 5 year old child\nUser: That's helpful information. Do you have any tips on how to encourage my kids to talk openly about their feelings? They seem to clam up whenever I try to bring up the topic.\nUser: I'm thinking of a fortnight.",
+      "anchors": [
+        "I really need to fix the production bug before the demo.",
+        "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.",
+        "eight letters",
+        "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.",
+        "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?",
+        "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?",
+        "as a 5 year old child",
+        "I'm thinking of a fortnight."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Urgently fixing production bug before demo.\n- Asked: coastal/museum/historic/cultural recs; succulent fertilizers; Thai curry tips (cooking class); regular human shampoo OK for long-haired rabbit?\n- Nephew's bday: $75 Lego (Toys R Us) + $10 t-shirt.\n- Also: 8-letter word; dukedom inheritance/loss & identity; small-bathroom cabinets; small-biz surveys/focus groups; end-of-interview assessment (not per-question); 20%-off College Savings Pass; Cuisinart DCC-3200 price protection (Bed Bath & Beyond, college student); Robertas pizza.\n- Sunny Brooklyn Bridge walk (amazing views); wants other NYC scenic walks.\n- Digital Marketing: 5 done; next lecture.\n- LA music events; Upwardly Global job search.\n- Roleplay as 5-year-old: shipping innovation impressive; Elbe River company adoption speed?; world-renowned circus at City Center?; found info helpful; tips for kids' feelings (they clam up); thinking of a fortnight.\n- I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.\n- I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?\n- I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "CHANGED",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "CHANGED",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "CHANGED",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "SAME"
+        },
+        "restored": [
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Urgently fixing production bug before demo.\n- Asked about: coastal/museum/cultural recs, succulent fertilizer, Thai curry, rabbit shampoo, 8-letter word, dukedom, small-bathroom cabinets, small-biz surveys/focus groups, end-of-interview assessment, Robertas pizza, LA music events, Upwardly Global job search.\n- Nephew's bday: $75 Lego (Toys R Us) + $10 t-shirt.\n- Enjoyed sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- Digital Marketing course: 5 lectures done; asking next lecture timing.\n- College student inquiring about 20%-off College Savings Pass and Cuisinart DCC-3200 price protection at Bed Bath & Beyond.\n- Roleplayed as 5-year-old: shipping innovation, Elbe River company adoption, City Center circus, tips for kids who \"clam up\" about feelings, thinking of a fortnight.\n- I really need to fix the production bug before the demo.\n- I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.\n- Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.\n- I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "CHANGED",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "CHANGED",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "CHANGED",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "SAME"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo.",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Urgently fixing production bug before demo.\n- Asked wide-ranging Qs: coastal/museum recs, succulent fertilizer, Thai curry, rabbit shampoo, 8-letter word, dukedom, small-bathroom cabinets, small-biz surveys/focus groups, end-of-interview assessment, Robertas pizza, LA music, Upwardly Global.\n- Nephew's bday: $75 Lego (Toys R Us) + $10 t-shirt; enjoyed sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- Digital Marketing course: 5 lectures done.\n- College student seeking 20%-off College Savings Pass & Cuisinart DCC-3200 price protection at Bed Bath & Beyond.\n- Roleplayed as 5-year-old on varied topics.\n- Requested assessment based on all responses at end rather than per question.\n- I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.\n- eight letters\n- I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?\n- I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?\n- I'm thinking of a fortnight.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "CHANGED",
+          "eight letters": "CHANGED",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "CHANGED",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "CHANGED",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "MISSING"
+        },
+        "restored": [
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.",
+          "eight letters",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?",
+          "I'm thinking of a fortnight."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked many varied Qs: coastal/museum recs, succulent fertilizer, Thai curry, rabbit shampoo, 8-letter word (\"fortnight\"), dukedom, small-bathroom cabinets, small-biz surveys/focus groups, end-of-interview assessment, Robertas pizza, LA music, Upwardly Global.\n- Roleplayed as a 5-year-old on varied topics.\n- Nephew's birthday: $75 Lego set (Toys R Us) + $10 Lego t-shirt.\n- Enjoyed a sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- Digital Marketing course: 5 lectures done; asked when next releases.\n- College student believes user will sign up for 20%-off College Savings Pass.\n- Asked whether Bed Bath & Beyond offers price protection on a Cuisinart DCC-3200 if price drops after purchase.\n- Requested a single end-of-conversation assessment of all responses, not per-question feedback.\n- I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.\n- I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?\n- I'm thinking of a fortnight.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "CHANGED",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "CHANGED",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "CHANGED"
+        },
+        "restored": [
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?",
+          "I'm thinking of a fortnight."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked many varied Qs (coastal/museum recs, succulent fertilizer, Thai curry, rabbit shampoo, 8-letter word \"fortnight,\" dukedom, small-bathroom cabinets, small-biz surveys/focus groups, end-of-interview assessment, Robertas pizza, LA music, Upwardly Global).\n- Roleplayed as a 5-year-old; requested one end-of-conversation assessment, not per-question feedback.\n- College student; believes will sign up for 20%-off College Savings Pass.\n- Asked if Bed Bath & Beyond offers price protection on a Cuisinart DCC-3200 if the price drops after purchase.\n- Gave nephew a birthday gift this month ($75 Lego set from Toys R Us + $10 Lego t-shirt).\n- Enjoyed a sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- Digital Marketing course: 5 lectures done; asked when the next one releases.\n- I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.\n- I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?\n- I'm thinking of a fortnight.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "CHANGED",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "CHANGED",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "CHANGED"
+        },
+        "restored": [
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?",
+          "I'm thinking of a fortnight."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Urgently fixing a production bug before a demo; asked many varied Qs; roleplayed as a 5-year-old wanting only one end-of-conversation assessment.\n- College student planning to sign up for 20%-off College Savings Pass; asked whether Bed Bath & Beyond offers price protection on the Cuisinart DCC-3200.\n- Gave nephew a $75 Lego set (Toys R Us) + $10 t-shirt this month; enjoyed a sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- Digital Marketing course: 5 lectures done; asked when the next one releases.\n- I really need to fix the production bug before the demo.\n- I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.\n- eight letters\n- Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.\n- I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?\n- I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?\n- I'm thinking of a fortnight.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "CHANGED",
+          "eight letters": "MISSING",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "CHANGED",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "CHANGED",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "CHANGED",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "MISSING"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo.",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.",
+          "eight letters",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?",
+          "I'm thinking of a fortnight."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Roleplayed as a 5-year-old; requested one end-of-conversation assessment (not per-question).\n- College student planning College Savings Pass sign-up (additional 20% off); asked whether Bed Bath & Beyond offers price protection on a Cuisinart DCC-3200.\n- Digital Marketing course: 5 lectures completed; asked when the next releases.\n- Gave nephew a $75 Lego set (Toys R Us) and a $10 matching Lego t-shirt as a birthday gift this month.\n- Enjoyed a sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- Answered \"eight letters\" and \"a fortnight.\"\n- I really need to fix the production bug before the demo.\n- I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.\n- I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?\n- I'm thinking of a fortnight.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "CHANGED",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "SAME",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "CHANGED",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "CHANGED"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo.",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?",
+          "I'm thinking of a fortnight."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Urgently fixing production bug before demo; roleplayed as 5-year-old (requested one end-of-conversation assessment, not per-question).\n- College student planning College Savings Pass sign-up (additional 20% off); asked whether Bed Bath & Beyond offers price protection on Cuisinart DCC-3200.\n- Digital Marketing course: 5 lectures completed; asked when next releases.\n- Gave nephew $75 Lego set (Toys R Us) + $10 matching Lego t-shirt as birthday gift this month.\n- Enjoyed sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- Answered \"eight letters\" and \"a fortnight.\"\n- I really need to fix the production bug before the demo.\n- I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?\n- I'm thinking of a fortnight.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "CHANGED",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "CHANGED"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo.",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?",
+          "I'm thinking of a fortnight."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Urgently fixing production bug before demo (really needs to).\n- Roleplayed as 5-year-old (one end-of-conversation assessment requested, not per-question); answered \"eight letters\" and \"a fortnight\"; currently thinking of a fortnight.\n- College student thinking of signing up for College Savings Pass (additional 20% off).\n- Asked whether Bed Bath & Beyond offers price protection on Cuisinart DCC-3200 in case price drops post-purchase.\n- Digital Marketing course: 5 lectures completed; asked when next releases.\n- Gave nephew $75 Lego set (Toys R Us) + $10 matching Lego t-shirt as birthday gift this month.\n- Enjoyed sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- as a 5 year old child",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "SAME",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "CHANGED",
+          "I'm thinking of a fortnight.": "SAME"
+        },
+        "restored": [
+          "as a 5 year old child"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Urgently fixing a production bug before a demo (really needs to).\n- Roleplayed as a 5-year-old (one end-of-conversation assessment, not per-question); answered \"eight letters\" & \"a fortnight\"; currently thinking of a fortnight.\n- College student considering College Savings Pass (additional 20% off).\n- Asked if BB&B offers price protection on Cuisinart DCC-3200 post-purchase.\n- Digital Marketing course: 5 lectures done; asked when next releases.\n- Gave nephew a $75 Lego set (Toys R Us) + $10 matching Lego t-shirt as this month's birthday gift.\n- Enjoyed a sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?\n- I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?\n- as a 5 year old child",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "CHANGED",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "CHANGED",
+          "as a 5 year old child": "CHANGED",
+          "I'm thinking of a fortnight.": "SAME"
+        },
+        "restored": [
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?",
+          "as a 5 year old child"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Urgently fixing a production bug before a demo (really needs to).\n- Roleplayed as a 5-year-old (one end-of-conversation assessment, not per-question); answered \"eight letters\" & \"a fortnight,\" currently thinking of a fortnight.\n- College student considering/signing up for College Savings Pass (additional 20% off); asked if BB&B offers price protection on Cuisinart DCC-3200 post-purchase.\n- Digital Marketing course: 5 lectures done; asked (uncertain) when next releases.\n- Gave nephew $75 Lego set (Toys R Us) + $10 matching Lego t-shirt as this month's birthday gift.\n- Enjoyed sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "SAME",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "CHANGED",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "SAME"
+        },
+        "restored": [
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Urgently fixing a production bug before a demo (really needs to).\n- Roleplayed as a 5-year-old (one end-of-conversation assessment, not per-question); answered \"eight letters\" & \"a fortnight\"; still thinking of a fortnight.\n- College student considering/signing up for College Savings Pass (additional 20% off); asked whether BB&B offers price protection on a Cuisinart DCC-3200 post-purchase.\n- Digital Marketing course: 5 lectures done; uncertain when next one releases; looking forward to it.\n- Gave nephew a $75 Toys R Us Lego set + $10 matching Lego t-shirt as this month's birthday gift.\n- Enjoyed a sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- I really need to fix the production bug before the demo.\n- I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "CHANGED",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "SAME",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "SAME"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo.",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Urgently (really needs to) fix production bug before demo.\n- Roleplayed as a 5-year-old (one end-of-conversation assessment, not per-question); answered \"eight letters\" & \"a fortnight\"; still thinking of a fortnight.\n- College student considering College Savings Pass (additional 20% off); asked if BB&B offers price protection on Cuisinart DCC-3200 post-purchase.\n- Digital Marketing course: 5 lectures done; uncertain when next releases; looking forward to it.\n- Gave nephew $75 Toys R Us Lego set + $10 matching t-shirt for this month's birthday.\n- Enjoyed sunny Brooklyn Bridge walk; wants more NYC scenic walks.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "SAME",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Urgently needs to fix production bug before demo.\n- Roleplayed as 5-year-old (one end-of-conversation assessment, not per-question); answered \"eight letters\" & \"a fortnight\"; still thinking of a fortnight.\n- College student considering College Savings Pass (additional 20% off); asked if BB&B offers price protection on Cuisinart DCC-3200 post-purchase.\n- Digital Marketing course: 5 lectures done; uncertain when next lecture releases; looking forward to it.\n- Gave nephew $75 Toys R Us Lego set + $10 matching t-shirt for this month's birthday.\n- Enjoyed sunny Brooklyn Bridge walk; wants more NYC scenic walks.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "SAME",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Urgently needs production bug fix before demo.\n- Roleplayed a 5-year-old (one end-of-conversation assessment, not per-question); answered \"eight letters\" and \"a fortnight\"; still thinking of a fortnight.\n- College student weighing College Savings Pass (additional 20% off); asked if BB&B offers price protection on Cuisinart DCC-3200 post-purchase.\n- Digital Marketing: 5 lectures done; uncertain when next releases; looking forward.\n- Gave nephew $75 Toys R Us Lego set + $10 matching t-shirt for this month's birthday.\n- Enjoyed sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.\n- I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?\n- as a 5 year old child",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "CHANGED",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "CHANGED",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "CHANGED",
+          "I'm thinking of a fortnight.": "SAME"
+        },
+        "restored": [
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?",
+          "as a 5 year old child"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Urgent production bug fix needed before demo.\n- Roleplayed as 5-year-old (one end-of-conversation assessment, not per-question); answered \"eight letters\" & \"a fortnight\"; still thinking of a fortnight.\n- College student thinks will sign up for College Savings Pass (additional 20% off); asked if BB&B offers price protection on Cuisinart DCC-3200 post-purchase.\n- Digital Marketing: 5 lectures done; uncertain when next releases; looking forward.\n- Gave nephew $75 Toys R Us Lego set + $10 matching t-shirt for this month's birthday.\n- Enjoyed sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "CHANGED",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "SAME",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "SAME"
+        },
+        "restored": [
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Urgent production bug fix before demo.\n- Roleplayed a 5-year-old (one end-of-conversation assessment, not per-question); answered \"eight letters\" and \"a fortnight,\" still thinking of a fortnight.\n- College student thinks will sign up for College Savings Pass (additional 20% off); asked if BB&B offers post-purchase price protection on Cuisinart DCC-3200.\n- Digital Marketing: 5 lectures done, uncertain when next releases, looking forward.\n- Gave nephew a $75 Toys R Us Lego set + $10 matching Lego t-shirt this month for birthday.\n- Enjoyed a sunny Brooklyn Bridge walk; wants more NYC scenic walks.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "SAME",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Urgent production bug fix before demo.\n- Roleplayed a 5-year-old; one end-of-conversation assessment (not per-question); answered \"eight letters\" and \"a fortnight,\" still thinking of a fortnight.\n- College student thinks will sign up for College Savings Pass (additional 20% off); asked if BB&B offers post-purchase price protection on Cuisinart DCC-3200.\n- Digital Marketing: 5 lectures done; uncertain when next releases; looking forward.\n- Gave nephew a $75 Toys R Us Lego set + $10 matching Lego t-shirt this month for bday.\n- Enjoyed a sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "SAME",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "SAME"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Urgent production bug must be fixed before demo.\n- Roleplayed a 5-year-old (one end-of-conversation assessment, not per-question); answered \"eight letters\" and \"a fortnight.\"\n- College student thinks will sign up for College Savings Pass (additional 20% off); asked whether BB&B offers post-purchase price protection on Cuisinart DCC-3200.\n- Digital Marketing: 5 lectures done; uncertain when next releases; looking forward.\n- Gave nephew a $75 Toys R Us Lego set + $10 matching t-shirt this month for bday.\n- Enjoyed a sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- I'm thinking of a fortnight.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "SAME",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "CHANGED"
+        },
+        "restored": [
+          "I'm thinking of a fortnight."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Urgent production bug must be fixed before demo.\n- Roleplayed a 5-year-old (one end-of-conversation assessment, not per-question) answering \"eight letters\" and \"a fortnight.\"\n- College student thinks will sign up for College Savings Pass (additional 20% off); asked whether BB&B offers post-purchase price protection on Cuisinart DCC-3200.\n- Digital Marketing: 5 lectures done; uncertain when next releases.\n- Gave nephew $75 Toys R Us Lego set + $10 t-shirt for bday this month.\n- Enjoyed sunny Brooklyn Bridge walk; wants more NYC scenic walks.\n- Thinking of a fortnight.\n- I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "CHANGED",
+          "eight letters": "SAME",
+          "Before proceeding... make your assessment based on all of my responses at the end of the interview, rather then after each individual question.": "SAME",
+          "I'm a college student, so I think I'll sign up for the College Savings Pass to get an additional 20% off. Do you know if Bed Bath & Beyond offers any price protection, in case the price of the Cuisinart DCC-3200 drops after I buy it?": "SAME",
+          "I'd like to ask about the schedule of the online lectures on Digital Marketing that I've been following. I've completed five lectures so far, and I'm looking forward to the next one. Do you know when the next lecture will be released?": "SAME",
+          "as a 5 year old child": "SAME",
+          "I'm thinking of a fortnight.": "SAME"
+        },
+        "restored": [
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10."
+        ]
+      }
+    }
+  ]
+}

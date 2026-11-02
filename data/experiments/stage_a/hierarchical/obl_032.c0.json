@@ -1,0 +1,98 @@
+{
+  "item_id": "obl_032",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.949186+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to submit my leave application before the roster freezes."
+    },
+    {
+      "round": 1,
+      "memory": "- They really need to submit their leave application before the roster freezes."
+    },
+    {
+      "round": 2,
+      "memory": "- They really need to submit their leave application before the roster freezes."
+    },
+    {
+      "round": 3,
+      "memory": "- They really need to submit their leave application before the roster freezes."
+    },
+    {
+      "round": 4,
+      "memory": "- They really need to submit their leave application before the roster freezes."
+    },
+    {
+      "round": 5,
+      "memory": "- They really need to submit leave applications before the roster freezes."
+    },
+    {
+      "round": 6,
+      "memory": "- They really need to submit leave applications before the roster freezes."
+    },
+    {
+      "round": 7,
+      "memory": "- They really need to submit leave applications before roster freezes."
+    },
+    {
+      "round": 8,
+      "memory": "- They really need to submit leave applications before roster freezes."
+    },
+    {
+      "round": 9,
+      "memory": "- They really need to submit leave applications before the roster freezes."
+    },
+    {
+      "round": 10,
+      "memory": "- They really need to submit leave applications before the roster freezes."
+    },
+    {
+      "round": 11,
+      "memory": "- They really need to submit leave applications before the roster freezes."
+    },
+    {
+      "round": 12,
+      "memory": "- They really need to submit leave applications before roster freezes."
+    },
+    {
+      "round": 13,
+      "memory": "- They really need to submit leave applications before roster freezes."
+    },
+    {
+      "round": 14,
+      "memory": "- They strongly need to submit leave applications before roster freezes."
+    },
+    {
+      "round": 15,
+      "memory": "- They strongly need to submit leave applications before roster freezes."
+    },
+    {
+      "round": 16,
+      "memory": "- They strongly need to submit leave apps before roster freezes."
+    },
+    {
+      "round": 17,
+      "memory": "- They **strongly** need to submit leave apps **before** roster freezes."
+    },
+    {
+      "round": 18,
+      "memory": "- They strongly need to submit leave applications before roster freezes."
+    },
+    {
+      "round": 19,
+      "memory": "- They **strongly** need to submit leave applications before roster freezes."
+    },
+    {
+      "round": 20,
+      "memory": "- They strongly need to submit leave applications before roster freezes."
+    }
+  ]
+}

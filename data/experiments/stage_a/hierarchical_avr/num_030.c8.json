@@ -1,0 +1,285 @@
+{
+  "item_id": "num_030",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.042842+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The semester fee is nearly 90000 rupees.\nUser: Can you recommend some good spots for a picnic in Winter Park? My grandparents love picnics, and I think it would be a great way to spend an afternoon together.\nUser: I like the idea of grouping my magazines into piles. But before I start, I was wondering if you could help me find the contact info for Entertainment Weekly's customer service? I've been meaning to cancel it for a while now, and I want to get it done today.\nUser: I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?\nUser: What are some specific examples of successful LGBTQ+ musicians in the industry who have overcome some of these challenges?\nUser: What are some effective strategies for reducing stress and promoting relaxation during a busy workday?\nUser: What are some criticisms of the Congress party's stance on social justice and national security?\nUser: I'm thinking of visiting the Tsukiji Fish Market while I'm in Tokyo. Can you tell me more about it and how to get there from Shinjuku?\nUser: I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+      "anchors": [
+        "The semester fee is nearly 90000 rupees.",
+        "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?",
+        "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Semester fee discussed: nearly 90,000 rupees.\n- Winter Park picnic spots noted; grandparents love picnics.\n- Wants to cancel Entertainment Weekly today; needs customer service contact.\n- Enjoyed Esplanade Reserve Playground (kids love swings and giant slide); seeks more outdoor ideas.\n- Asked for: LGBTQ+ musicians who overcame challenges; workday stress strategies; Congress party criticisms on social justice/national security.\n- Exploring travel: Tsukiji Fish Market from Shinjuku.\n- Planning a 4-day Boston trip: harbor cruise, Fenway Park, North End, local cuisine.\n- I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?\n- I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "CHANGED",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "CHANGED"
+        },
+        "restored": [
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "• Semester fee nearly 90,000 rupees.\n• Winter Park picnic spots noted; grandparents love picnics.\n• Wants to cancel Entertainment Weekly today; needs customer service contact.\n• So glad about Esplanade Reserve Playground (kids love swings & giant slide); seeking more outdoor ideas.\n• Asked about LGBTQ+ musicians who overcame challenges.\n• Sought workday stress strategies.\n• Asked about Congress party criticisms on social justice/national security.\n• Exploring Tsukiji Fish Market from Shinjuku.\n• Planning 4-day Boston trip: harbor cruise, Fenway Park, North End, local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "• Discussed semester fee (nearly 90,000 rupees).\n• Winter Park picnic spots noted (grandparents love picnics).\n• Cancelling Entertainment Weekly today; needs customer service contact.\n• Esplanade Reserve Playground: kids love swings & giant slide; seeking more outdoor ideas.\n• Covered LGBTQ+ musicians who overcame challenges.\n• Discussed workday stress strategies.\n• Congress party criticisms on social justice/national security discussed.\n• Exploring Tsukiji Fish Market from Shinjuku.\n• Planning a 4-day Boston trip (harbor cruise, Fenway Park, North End, local cuisine).\n- I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "CHANGED"
+        },
+        "restored": [
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Semester fee discussed: nearly 90,000 rupees.\n- Winter Park picnic spots discussed; grandparents love picnics.\n- Entertainment Weekly being cancelled today; customer service contact still needed.\n- Esplanade Reserve Playground: kids love swings & giant slide; more outdoor ideas still sought.\n- LGBTQ+ musicians overcoming challenges discussed.\n- Workday stress strategies covered.\n- Congress party criticisms on social justice/national security discussed.\n- Exploring Tsukiji Fish Market from Shinjuku.\n- 4-day Boston trip planned: harbor cruise, Fenway Park, North End, local cuisine.\n- I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "CHANGED"
+        },
+        "restored": [
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Semester fee discussed: nearly 90,000 rupees.\n- Winter Park picnics—grandparents love them.\n- Entertainment Weekly being cancelled today; customer service contact still needed.\n- Esplanade Reserve Playground: kids love swings & giant slide; more outdoor ideas still sought.\n- Topics covered: LGBTQ+ musicians overcoming challenges; workday stress strategies; Congress party criticisms on social justice/national security.\n- Planning: exploring Tsukiji Fish Market from Shinjuku.\n- Planning a 4-day Boston trip (harbor cruise, Fenway Park, North End, local cuisine; a few other items; also thinking of North End & local cuisine).\n- I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "CHANGED"
+        },
+        "restored": [
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "• Semester fee: nearly 90,000 rupees.\n• Grandparents love Winter Park picnics.\n• Entertainment Weekly cancelled today; customer service contact still needed.\n• Kids love Esplanade Reserve Playground swings & giant slide; more outdoor ideas still sought.\n• Topics covered: LGBTQ+ musicians' challenges; workday stress strategies; Congress party criticisms on social justice/national security.\n• Trip planning: Tsukiji Fish Market from Shinjuku; 4-day Boston trip (harbor cruise, Fenway Park, North End, local cuisine, a few other items).\n- I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "CHANGED"
+        },
+        "restored": [
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Semester fee nearly 90,000 rupees.\n- Grandparents love Winter Park picnics.\n- Entertainment Weekly cancelled today; still need customer service contact.\n- Kids love Esplanade Reserve Playground swings & giant slide; still seeking more outdoor ideas.\n- Discussed: LGBTQ+ musicians' challenges, workday stress strategies, Congress party criticisms on social justice/national security.\n- Planning a Tsukiji Fish Market trip from Shinjuku and a 4-day Boston itinerary (harbor cruise, Fenway Park, North End, local cuisine, a few other items).\n- I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?\n- I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "CHANGED",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "CHANGED"
+        },
+        "restored": [
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Semester fee is nearly 90,000 rupees.\n- Grandparents love Winter Park picnics.\n- Entertainment Weekly cancelled today; still need customer service contact.\n- Kids love Esplanade Reserve Playground swings & giant slide; still seeking more outdoor ideas.\n- Discussed LGBTQ+ musicians' challenges, workday stress strategies, and Congress party criticisms on social justice/national security.\n- Planning a Tsukiji Fish Market trip from Shinjuku and a 4-day Boston itinerary (harbor cruise, Fenway Park, North End, local cuisine, a few other items).\n- I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "CHANGED"
+        },
+        "restored": [
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Semester fee is nearly 90,000 rupees.\n- Grandparents love Winter Park picnics.\n- Entertainment Weekly was cancelled today; still need customer service contact.\n- Kids love Esplanade Reserve Playground swings & giant slide; still seeking more outdoor ideas.\n- Topics discussed: LGBTQ+ musicians' challenges, workday stress strategies, Congress party criticisms on social justice/national security.\n- Planning a Tsukiji Fish Market trip from Shinjuku.\n- Planning a 4-day Boston itinerary: harbor cruise, Fenway Park, a few other items, possibly exploring North End / trying local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Semester fee nearly 90,000 rupees.\n- Grandparents love Winter Park picnics.\n- Entertainment Weekly cancelled today; still need customer service contact.\n- Kids love Esplanade Reserve Playground swings & giant slide; still seeking more outdoor ideas.\n- Discussed: LGBTQ+ musicians' challenges, workday stress strategies, Congress party criticisms on social justice/national security.\n- Planning Tsukiji Fish Market trip from Shinjuku.\n- Planning 4-day Boston itinerary: harbor cruise, Fenway Park, a few other items, possibly North End/local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Semester fee: nearly 90,000 rupees.\n- Grandparents love Winter Park picnics.\n- Entertainment Weekly cancelled today; still need a customer service contact.\n- Kids love Esplanade Reserve Playground swings & giant slide; still seeking more outdoor ideas.\n- Topics discussed: LGBTQ+ musicians' challenges, workday stress strategies, Congress party criticisms on social justice/national security.\n- Planning a Tsukiji Fish Market trip from Shinjuku.\n- Planning a 4-day Boston itinerary: harbor cruise, Fenway Park, a few other items, possibly North End/local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Semester fee: nearly 90,000 rupees.\n- Grandparents love Winter Park picnics.\n- Entertainment Weekly cancelled; still need a customer service contact.\n- Kids love Esplanade Reserve Playground swings & giant slide; seeking more outdoor ideas.\n- Discussed: LGBTQ+ musicians' challenges, workday stress strategies, Congress party criticisms on social justice/national security.\n- Planning Tsukiji Fish Market trip from Shinjuku.\n- Planning 4-day Boston itinerary: harbor cruise, Fenway Park, a few other items, possibly North End/local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Semester fee nearly 90,000 rupees.\n- Grandparents love Winter Park picnics.\n- EW cancelled; customer service contact still needed.\n- Kids love Esplanade Reserve Playground swings & giant slide; seeking more outdoor ideas.\n- Topics discussed: LGBTQ+ musicians' challenges, workday stress strategies, Congress party criticisms on social justice/national security.\n- Planning Tsukiji Fish Market trip from Shinjuku.\n- Planning 4-day Boston itinerary: harbor cruise, Fenway Park, a few other items, possibly North End/local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Semester fee: nearly 90,000 rupees.\n- Grandparents love Winter Park picnics.\n- EW is cancelled; customer service contact still needed.\n- Kids love Esplanade Reserve Playground swings & giant slide; seeking more outdoor ideas.\n- Topics discussed: LGBTQ+ musicians' challenges, workday stress strategies, and Congress party criticisms on social justice/national security.\n- Planned: Tsukiji Fish Market trip from Shinjuku; 4-day Boston itinerary (harbor cruise, Fenway Park, a few other items, possibly North End/local cuisine).",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "• Semester fee: nearly 90,000 rupees.\n• Grandparents love Winter Park picnics.\n• EW was cancelled; still need a customer service contact.\n• Kids love Esplanade Reserve Playground swings & giant slide; seeking more outdoor ideas.\n• Discussed: LGBTQ+ musicians' challenges, workday stress strategies, and Congress party criticisms on social justice/national security.\n• Planned a Tsukiji Fish Market trip from Shinjuku.\n• Planned a 4-day Boston itinerary: harbor cruise, Fenway Park, a few other items, possibly North End/local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Semester fee is nearly 90,000 rupees.\n- Grandparents love Winter Park picnics.\n- EW was cancelled; still need a customer service contact.\n- Kids love Esplanade Reserve Playground swings and giant slide; seeking more outdoor ideas.\n- Discussed LGBTQ+ musicians' challenges, workday stress strategies, and Congress party criticisms on social justice/national security.\n- Planned a Tsukiji Fish Market trip from Shinjuku.\n- Planned a 4-day Boston itinerary: harbor cruise, Fenway Park, a few other items, possibly North End/local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Semester fee: nearly 90,000 rupees.\n- Grandparents love Winter Park picnics.\n- EW cancelled; still need a customer service contact.\n- Kids love Esplanade Reserve Playground swings & giant slide; seeking more outdoor ideas.\n- Discussed LGBTQ+ musicians' challenges, workday stress strategies, and Congress party criticisms on social justice / national security.\n- Planned a Tsukiji Fish Market trip from Shinjuku.\n- 4-day Boston itinerary: harbor cruise, Fenway Park, a few other items, possibly North End / local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Semester fee: nearly 90,000 rupees.\n- Grandparents love Winter Park picnics.\n- EW cancelled; still need a customer service contact.\n- Kids love Esplanade Reserve Playground swings & giant slide; seeking more outdoor ideas.\n- Topics discussed: LGBTQ+ musicians' challenges; workday stress strategies; Congress party criticisms on social justice/national security.\n- Planned Tsukiji Fish Market trip from Shinjuku.\n- 4-day Boston itinerary: harbor cruise, Fenway Park, a few other items, possibly North End/local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- No substantive content was provided in the turn-notes to summarize.\n- The semester fee is nearly 90000 rupees.\n- I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?\n- I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "MISSING",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "MISSING",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "MISSING"
+        },
+        "restored": [
+          "The semester fee is nearly 90000 rupees.",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Turn-notes were largely non-substantive.\n- Semester fee: nearly 90,000 rupees.\n- Strong enthusiasm for Esplanade Reserve Playground (kids love swings and giant slide); requested other outdoor suggestions.\n- Planning a 4-day Boston itinerary including a harbor cruise and Fenway Park; also thinking of exploring the North End and trying local cuisine.\n- I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "CHANGED"
+        },
+        "restored": [
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "item_id": "obl_029",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.196383+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to lock the server room before leaving tonight.\nUser: It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\nUser: I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?\nUser: I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?\nUser: I'm excited to start building my deck and playing Hearthstone. Do you have any advice for how to improve my decision-making skills in the game? I want to be able to make the best moves possible during each turn.\nUser: I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?\nUser: I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?\nUser: Now that I have the dates, I think I'll start adding more details about my trip, like what I did each day and some of the restaurants I visited. Do you have any tips on how to organize my entries in Day One, like using tags or folders?\nUser: I once saw a production of A Midsummer Night's Dream on a warm summer night in an outdoor theater. It was magical! Have you ever attended a live performance of Shakespeare's plays?\nUser: Yeah, I remember that race. It was so intense! It just goes to show how much perseverance and mental strength it takes to be a top athlete. Do you have any other favorite Olympic moments?\nUser: Can you explain the process of space colonization and the challenges it presents?\nUser: I'm also thinking of getting some new furniture for my home office. Do you know any good websites for finding high-quality desks with good storage?\nUser: That's really helpful, thanks for the tips! I'm actually thinking of joining a running group that meets every Sunday morning at 7 am. Do you have any advice on what to eat before a morning run?\nUser: These tips are very helpful, thank you! I'm excited to participate in the next in-store tournament. Do you have any advice on how to deal with nerves during the competition?\nUser: I'm actually really interested in technology and innovation. Do you know of any museums that focus on that?\nUser: I've been thinking of doing a live stream on skincare routines for different skin types. Can you give me a list of common skin types and some tips on how to cater to each type in the stream?\nUser: More detail on 1.\nUser: Or condition is taking time and giving many records and data is not correct,instead of or plz provide alternative to check for nulls\nUser: Wow, that's really interesting! Have there been any studies showing the effectiveness of virtual reality therapy?\nUser: What was the biggest challenge the band faced during the creation of the album?\nUser: I've been looking into other areas where I can reduce waste, like in my kitchen. Do you have any suggestions for eco-friendly alternatives to paper towels?",
+      "anchors": [
+        "I really need to lock the server room before leaving tonight.",
+        "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?",
+        "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Discussed many topics: locking server room (\"really need to tonight\"), language shaping worldview & cultural inclusivity, Broadway Up Close Walking Tour, African Violet propagation (heard it's a bit tricky, unsure how), Hearthstone deck decisions, silver spinnerbaits for walleye (really effective; retrieval), Mysterium (3 players), trip organization (tags/folders), outdoor Shakespeare (\"magical\"), Olympic race (intense; perseverance/mental strength), space colonization, high-quality office desks with storage, Sunday 7am running group (pre-run food), in-store tournament nerves, tech/innovation museums, skincare live stream by skin type.\n- Requested more detail on point 1; noted OR condition is slow, returning many incorrect records; asked for null-check alternative.\n- Also asked about: studies on VR therapy effectiveness, a band's biggest album-creation challenge, eco-friendly paper towel alternatives for kitchen waste.\n- I really need to lock the server room before leaving tonight.\n- I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "CHANGED",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "CHANGED",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I really need to lock the server room before leaving tonight.",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "• ~15 topics discussed: server room, inclusivity, Broadway tour, African Violet, Hearthstone, spinnerbaits/walleye, Mysterium for 3, trip org, outdoor Shakespeare, Olympic race, space colonization, office desks, 7 am Sun run, tournament nerves, tech museums, skincare.\n• Urgent: must lock server room tonight.\n• OR condition noted as slow/returning many incorrect records; requested null-check alternative.\n• Asked about VR therapy effectiveness studies, a band's biggest album-creation challenge, and eco-friendly paper towel alternatives.\n• Heard spinnerbaits \"really effective\" for walleye; asked re: retrieval/presentation.\n• Interested in Mysterium for 3 players; asked how played & suitability.\n• African Violet propagation \"a bit tricky\"; unsure how.\n- I really need to lock the server room before leaving tonight.\n- I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "CHANGED",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "CHANGED",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": [
+          "I really need to lock the server room before leaving tonight.",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "• Covered ~15 topics. Urgent: must lock server room tonight.\n• OR condition noted as slow / returns many incorrect records; null-check alternative requested.\n• Also asked about: VR therapy studies, band's album-creation challenge, eco-friendly paper towels.\n• Heard silver spinnerbaits are \"really effective\" for walleye; asked about retrieval/presentation.\n• Interested in Mysterium for 3; asked how it's played and its suitability.\n• African Violet propagation described as \"a bit tricky\"; unsure how to do it.\n- I really need to lock the server room before leaving tonight.\n- I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "CHANGED",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "CHANGED",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I really need to lock the server room before leaving tonight.",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- ~15 topics covered.\n- **Urgent:** Must lock server room before leaving tonight.\n- OR condition: slow; returns many incorrect records; null-check alternative requested.\n- Also covered: VR therapy studies; a band's album-creation challenge; eco-friendly paper towels.\n- Silver spinnerbaits described as \"really effective\" for walleye; retrieval/presentation details asked.\n- Mysterium for 3 players: how played and suitability asked.\n- African Violet propagation noted as \"a bit tricky\"; unsure how to do it.\n- I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "CHANGED",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Covered ~15 topics.\n- Urgent: server-room lock needed tonight.\n- OR condition is slow and returns many incorrect records; null-check alternative requested.\n- VR therapy studies discussed.\n- A band's album-creation challenge.\n- Eco-friendly paper towels.\n- Silver spinnerbaits \"can be\" really effective for walleye; retrieval/presentation asked.\n- Mysterium for 3 players: how played, suitability questioned.\n- African Violet propagation described as \"a bit tricky\"; unsure how.\n- Interested in social deduction/party games.\n- I really need to lock the server room before leaving tonight.\n- I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "CHANGED",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "CHANGED",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": [
+          "I really need to lock the server room before leaving tonight.",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Covered ~15 topics, incl.: urgent server-room lock needed tonight; slow OR condition (returns many incorrect records; null-check alternative requested); VR therapy studies; band's album-creation challenge; eco-friendly paper towels; Mysterium 3-player suitability (questioned); interest in social deduction/party games.\n- Silver spinnerbaits \"can be\" really effective for walleye (specific retrieval/presentation asked).\n- African Violet propagation \"a bit tricky\" (unsure how).\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- ~15 topics covered, incl.:\n- Urgent server-room lock (tonight).\n- Slow OR condition (many incorrect records); null-check alternative requested.\n- VR therapy studies.\n- Band album-creation challenge.\n- Eco paper towels.\n- Social deduction/party games interest (esp. Mysterium—how played & 3-player suitability questioned).\n- Silver spinnerbaits \"can be\" really effective for walleye; specific retrieval/presentation asked.\n- African Violet propagation \"a bit tricky\" (unsure how).",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- ~15 topics covered, incl.:\n- Urgent server-room lock (tonight)\n- Slow OR condition producing many incorrect records; null-check alternative requested\n- VR therapy studies\n- Band album-creation challenge\n- Eco paper towels\n- Social deduction/party games, esp. Mysterium—how played and 3-player suitability questioned\n- Silver spinnerbaits \"can be\" really effective for walleye; retrieval/presentation asked\n- African Violet propagation \"a bit tricky\"; unsure how",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- ~15 topics covered, incl. urgent server-room lock (tonight); slow OR condition producing many incorrect records (null-check alternative requested); VR therapy studies; band album-creation challenge; eco paper towels.\n- Social deduction/party games discussed (esp. Mysterium); how to play and 3-player suitability questioned.\n- Silver spinnerbaits \"can be\" really effective for walleye; retrieval/presentation method asked.\n- African Violet propagation \"a bit tricky\"; how-to unclear.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- ~15 topics covered, including: urgent server-room lock (tonight); slow OR condition → many incorrect records (null-check alternative requested); VR therapy; band album; eco paper towels.\n- Mysterium: 3-player suitability and rules questioned.\n- Silver spinnerbaits \"can be\" really effective for walleye; retrieval/presentation method asked.\n- African Violet propagation described as \"a bit tricky\"; how-to still unclear.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- ~15 topics discussed: urgent server-room lock tonight; slow OR condition → many incorrect records (null-check alternative requested); VR therapy; band album; eco paper towels.\n- Social deduction/party-game interest: Mysterium rules & 3-player suitability asked.\n- Silver spinnerbaits \"can be\" really effective for walleye (retrieval/presentation asked).\n- African Violet propagation \"a bit tricky\"; how-to still unclear.\n- I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "CHANGED",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": [
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- ~15 topics covered: urgent server-room lock tonight; slow OR condition producing many incorrect records (null-check alternative requested); VR therapy; band album; eco paper towels; Mysterium rules & 3-player suitability (social deduction/party game).\n- Silver spinnerbaits \"can be\" really effective for walleye; specific retrieval/presentation techniques were requested.\n- African Violet propagation noted as \"a bit tricky\"; the how-to remains unclear.\n- I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "CHANGED",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": [
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- ~15 topics in scope\n- Urgent: server-room lock tonight\n- Slow OR condition producing many incorrect records; null-check alternative requested\n- VR therapy\n- Band album\n- Eco paper towels\n- Mysterium rules & 3-player suitability (social deduction/party game)\n- Silver spinnerbaits \"can be\" really effective for walleye; specific retrieval/presentation styles requested\n- African Violet propagation \"a bit tricky\"; how-to remains unclear",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- ~15 topics addressed: urgent server-room lock (tonight); slow OR condition yielding many incorrect records (null-check alternative requested); VR therapy; band album; eco paper towels; Mysterium rules & 3-player suitability.\n- Silver spinnerbaits \"can be\" really effective for walleye; specific retrieval/presentation styles requested.\n- African Violet propagation described as \"a bit tricky\"; how-to remains unclear.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Covered ~15 topics.\n- Urgent server-room lock (tonight).\n- Slow OR condition → many incorrect records; null-check alt requested.\n- VR therapy.\n- Band album.\n- Eco paper towels.\n- Silver spinnerbaits \"can be\" really effective for walleye (retrieval/presentation styles).\n- African Violet propagation: \"a bit tricky\"; how-to still unclear.\n- Social deduction/party games, esp. Mysterium (rules + 3-player suitability).",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "• ~15 topics covered, including: urgent server-room lock tonight; a slow OR condition causing many incorrect records (null-check alternative requested); VR therapy; a band album; eco paper towels.\n• Silver spinnerbaits \"can be\" really effective for walleye (retrieval/presentation styles).\n• African Violet propagation described as \"a bit tricky\"; how-to still unclear.\n• Social deduction/party games, esp. Mysterium (rules + 3-player suitability).",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- ~15 topics covered, including: urgent server-room lock tonight; slow OR condition causing many incorrect records (null-check alternative requested); VR therapy; band album; eco paper towels.\n- Silver spinnerbaits \"can be\" really effective for walleye.\n- African Violet propagation is \"a bit tricky\"; how-to still unclear.\n- Social deduction games, esp. Mysterium (rules, 3-player suitability).\n- I really need to lock the server room before leaving tonight.\n- I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "CHANGED",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "CHANGED",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I really need to lock the server room before leaving tonight.",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- ~15 topics: urgent server-room lock (really need to lock before leaving tonight); slow OR condition bug (null-check alt. requested); VR therapy; band album; eco paper towels.\n- Silver spinnerbaits \"can be\" effective for walleye (retrieval/presentation techniques).\n- African Violet propagation is \"a bit tricky\" (how-to still unclear).\n- Social deduction games, esp. Mysterium (rules, 3-player suitability).\n- I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "CHANGED",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "• ~15 topics: urgent server-room lock (really need before leaving tonight); slow OR condition bug (null-check alt. requested); VR therapy; band album; eco paper towels.\n• Silver spinnerbaits for walleye: \"can be\" really effective; retrieval/presentation techniques.\n• African Violet propagation: \"a bit tricky\"; how-to still unclear.\n• Social deduction/party games, esp. Mysterium: rules, 3-player suitability.",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- ~15 topics covered: urgent server-room lock (really needed before leaving tonight); slow OR-condition bug (null-check alt. requested); VR therapy; band album; eco paper towels.\n- Walleye spinnerbait techniques—can be really effective (retrieval/presentation).\n- African Violet propagation: a bit tricky; how-to still unclear.\n- Social deduction/party games, esp. Mysterium (rules, 3-player suitability).\n- I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?": "CHANGED",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": [
+          "I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?"
+        ]
+      }
+    }
+  ]
+}

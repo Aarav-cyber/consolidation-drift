@@ -1,0 +1,223 @@
+{
+  "item_id": "cert_030",
+  "context_level": "c0",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.028664+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am fairly confident my name is on the admission list.",
+      "anchors": [
+        "I am fairly confident my name is on the admission list."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- The user is fairly confident their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- User is fairly confident their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- The user is fairly confident (but not certain) that their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- User is fairly confident, but not certain, that their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- User is fairly confident, but not certain, that their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- The user is fairly confident, though not certain, that their name is on an admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- User is fairly confident, though not certain, that their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- User is fairly confident, but not certain, that their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- User is fairly confident, though not certain, that their name appears on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- The user is fairly confident, but not certain, that their name appears on an admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- User is fairly confident, but not certain, that their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- User is fairly confident, though not certain, that their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- The user is fairly confident, but not certain, that their name is on the admission list.\n- I am fairly confident my name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "CHANGED"
+        },
+        "restored": [
+          "I am fairly confident my name is on the admission list."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- User is fairly confident, but not certain, that their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- User is fairly confident, but not certain, that their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- User is fairly confident, but not certain, that their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- User is fairly confident, but not certain, that their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- User is fairly confident, though not certain, that their name appears on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- The user is fairly confident, though not certain, that their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- User is fairly confident, though not certain, that their name is on the admission list.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

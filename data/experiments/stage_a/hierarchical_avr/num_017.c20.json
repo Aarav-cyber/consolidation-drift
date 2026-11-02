@@ -1,0 +1,343 @@
+{
+  "item_id": "num_017",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.151998+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I took a personal loan of about 200000 rupees.\nUser: I'm planning to cook the quinoa according to the package instructions. Do you think it's better to use a rice cooker or a pot on the stovetop?\nUser: I've heard of a few of these books before, but I'm intrigued by \"The Alice Network\". Can you tell me more about it?\nUser: I'm looking for some book recommendations. I started reading \"The Seven Husbands of Evelyn Hugo\" by Taylor Jenkins Reid today, and I'm loving it so far. Can you suggest some similar books or authors that I might enjoy?\nUser: I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.\nUser: Now do it in the style of Isaac Asimov.\nUser: I also find it interesting how Kahlo painted herself with facial hair in some of her self-portraits. Do you know why she did that?\nUser: When Liam was holding the gun, he heard a noise and shoved the gun in his jacket pocket and ran back to his room\nUser: Are there any electric heavy duty trucks for sale?\nUser: If I play that same game four times, what is the probability that I would win twice\nUser: What's the best way to pack all this gear efficiently, and do you have any recommendations for a portable stove or camping grill that's easy to use and clean?\nUser: It's crazy how people can be so close-minded and intolerant of different beliefs. I'm glad Augustine didn't let them hold him back, but it's sad to think about how many people have been persecuted throughout history for their faith.\nUser: Hey Rachel, do you remember the name of that new bakery we went to on the third Sunday? I've been thinking about it and I want to go back, but I can't seem to find any information about it online.\nUser: I'm considering having my astronauts explore the Martian surface in a rover. Do you think it would be possible for them to travel from the Valles Marineris canyon system to the Olympus Mons volcano, and what kind of terrain and obstacles would they encounter along the way?\nUser: Please write me the \"III. Latent Conditions in Renovations\" part of the article.\n\nRemember that our word count for the entire article is 1,300 words. Please add how many words you used per headings\nUser: Can you at least tell me what kind of upgrades were done on the Northern Line's trains?\nUser: Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?\nUser: It's really sad to see so much suffering and instability in the Middle East. Do you think the international community is doing enough to help resolve these conflicts?\nUser: They perform their national festival on what frstival\nAgent: With the feedback provided, here's my sixth and final guess:\n\n1. globs\nUser: In an XCCDF checklist, may a Rule contain multiple groups of Checks?",
+      "anchors": [
+        "I took a personal loan of about 200000 rupees.",
+        "If I play that same game four times, what is the probability that I would win twice",
+        "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?",
+        "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?",
+        "With the feedback provided, here's my sixth and final guess:\n\n1. globs"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- ~200,000-rupee loan; quinoa (rice cooker vs. stovetop); electric heavy-duty trucks; probability (4 plays, win twice); gear packing + portable stove/camping grill; warm/earthy lamps (reclaimed/distressed).\n- Books: started \"Seven Husbands of Evelyn Hugo\" (loving it); intrigued by \"The Alice Network.\"\n- Writing: Asimov-style; \"III. Latent Conditions in Renovations\" (1,300-word, per-heading); Liam shoved gun in jacket pocket, ran to room after noise.\n- improv \"Hot Seat\"; Kahlo's facial hair; intolerance/Augustine/faith persecution; possible Martian rover trip (Valles Marineris→Olympus Mons); Northern Line upgrades (at least).\n- Asked Rachel bakery from third Sunday (can't find online); national festival (unclear); 6th/final guess (\"globs\").\n- Really sad Middle East suffering/instability; questioned if international community doing enough. Asked if XCCDF Rule may contain multiple Check groups.\n- Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "SAME",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "CHANGED",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Covered ~200,000-rupee loan.\n- Quinoa (rice cooker vs. stovetop); electric heavy-duty trucks; probability of winning twice in 4 plays; camping gear (portable stove/grill).\n- Warm/reclaimed lamps: wooden lamp, reclaimed/distressed finish, warm earthy tone.\n- Started \"Seven Husbands of Evelyn Hugo\" (loving it); intrigued by \"The Alice Network\"; Asimov-style writing.\n- \"III. Latent Conditions in Renovations\" (1,300-word, per-heading).\n- Liam shoved gun in jacket pocket, ran to room after noise.\n- Improv \"Hot Seat\"; Kahlo's facial hair; intolerance/Augustine/faith persecution.\n- Possible Martian rover (Valles Marineris→Olympus Mons); Northern Line upgrades (at least).\n- Asked about Rachel bakery from 3rd Sunday (can't find online); unclear national festival; 6th/final guess \"globs.\"\n- Really sad Middle East suffering/instability; questioned if intl community doing enough.\n- Asked if XCCDF Rule may contain multiple Check groups.\n- I took a personal loan of about 200000 rupees.\n- Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "CHANGED",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "SAME",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "CHANGED",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "I took a personal loan of about 200000 rupees.",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "No chunk summaries were provided in the input. There is no content to fuse into a global memory.\n- I took a personal loan of about 200000 rupees.\n- If I play that same game four times, what is the probability that I would win twice\n- Can you at least tell me what kind of upgrades were done on the Northern Line's trains?\n- Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?\n- With the feedback provided, here's my sixth and final guess:\n\n1. globs",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "MISSING",
+          "If I play that same game four times, what is the probability that I would win twice": "MISSING",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "MISSING",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "MISSING",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "MISSING"
+        },
+        "restored": [
+          "I took a personal loan of about 200000 rupees.",
+          "If I play that same game four times, what is the probability that I would win twice",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- User took a personal loan of about 200,000 rupees.\n- Asked about the probability of winning twice in four plays of the same game.\n- Asked about Northern Line train upgrades.\n- Asked for more warm/earthy wooden lamp options (reclaimed or distressed finish).\n- Their sixth and final guess was \"globs.\"\n- Can you at least tell me what kind of upgrades were done on the Northern Line's trains?",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "CHANGED",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Took a personal loan of about 200,000 rupees.\n- Asked for the probability of winning twice in four plays of the same game.\n- Asked what kind of upgrades were done on Northern Line's trains.\n- Requested more warm/earthy wooden lamp options (reclaimed or distressed finish).\n- Their 6th and final guess was \"globs.\"\n- Can you at least tell me what kind of upgrades were done on the Northern Line's trains?",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "CHANGED",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- User took a personal loan of about 200,000 rupees.\n- Asked the probability of winning twice in four plays of the same game.\n- Inquired about Northern Line train upgrades.\n- Requested more warm/earthy wooden lamp options (reclaimed or distressed finish).\n- Their 6th and final guess was \"globs.\"",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "SAME",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Discussed a personal loan of about 200,000 rupees.\n- Discussed the probability of winning twice in 4 plays of the same game.\n- Discussed Northern Line train upgrades.\n- Discussed more warm/earthy wooden lamp options (reclaimed or distressed finish).\n- Their 6th and final guess was \"globs.\"\n- I took a personal loan of about 200000 rupees.\n- Can you at least tell me what kind of upgrades were done on the Northern Line's trains?",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "CHANGED",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "CHANGED",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "I took a personal loan of about 200000 rupees.",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Took a personal loan of about 200,000 rupees.\n- Discussed the probability of winning twice in 4 plays.\n- Asked what kind of upgrades were done on the Northern Line trains.\n- Considered warm/earthy wooden lamp options (reclaimed or distressed finish).\n- Their 6th and final guess was \"globs.\"\n- Can you at least tell me what kind of upgrades were done on the Northern Line's trains?",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "CHANGED",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- User took a personal loan of about 200,000 rupees.\n- Discussed the probability of winning twice in 4 plays.\n- Considered warm/earthy wooden lamp options (reclaimed or distressed finish).\n- Their 6th and final guess was \"globs.\"\n- Pressed (with \"at least\") for what kind of upgrades were done on Northern Line trains.\n- Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "SAME",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "CHANGED",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Took a personal loan of about 200,000 rupees.\n- Discussed the probability of winning twice in 4 plays.\n- Made the 6th and final guess: \"globs.\"\n- Pressed (using the qualifier \"at least\") for what kind of upgrades were done on Northern Line trains.\n- Asked for more warm, earthy wooden lamp options (reclaimed or distressed finish).\n- Can you at least tell me what kind of upgrades were done on the Northern Line's trains?",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "CHANGED",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Took a personal loan of about 200,000 rupees.\n- Discussed probability of winning twice in 4 plays.\n- Made 6th and final guess \"globs.\"\n- Pressed (at least) for details on Northern Line train upgrades.\n- Asked for more warm, earthy wooden lamp options (reclaimed or distressed finish).\n- Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "SAME",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "CHANGED",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Took a personal loan of about 200,000 rupees.\n- Discussed the probability of winning twice in 4 plays.\n- Made the 6th and final guess: \"globs.\"\n- Pressed (at least) for details on Northern Line train upgrades.\n- Asked for more warm, earthy wooden lamp options with reclaimed or distressed finish.\n- If I play that same game four times, what is the probability that I would win twice",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "CHANGED",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "SAME",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "If I play that same game four times, what is the probability that I would win twice"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Took a ~200,000 rupee personal loan.\n- Asked (twice) about probability of winning twice in 4 plays.\n- Made 6th and final guess: \"globs.\"\n- Pressed for Northern Line train upgrade details.\n- Requested more warm, earthy wooden lamp options with reclaimed or distressed finish.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "SAME",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Took a ~200,000 rupee personal loan.\n- Asked (twice) the probability of winning twice in 4 plays.\n- 6th and final guess was \"globs.\"\n- Pressed for Northern Line train upgrade details.\n- Requested more warm, earthy wooden lamp options, reclaimed or distressed finish.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "SAME",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Took a ~200,000 rupee personal loan.\n- Asked (twice) the probability of winning twice in 4 plays.\n- 6th and final guess was \"globs.\"\n- Pressed for Northern Line train upgrade details.\n- Requested more warm, earthy wooden lamp options with reclaimed or distressed finish.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "SAME",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Took a ~200,000 rupee personal loan.\n- Asked (twice) the probability of winning twice in 4 plays.\n- Made \"globs\" their 6th/final guess.\n- Pressed for Northern Line train upgrade details.\n- Requested more warm, earthy wooden lamp options with reclaimed or distressed finish.\n- Can you at least tell me what kind of upgrades were done on the Northern Line's trains?",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "CHANGED",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Took a ~200,000 rupee personal loan.\n- Asked (twice) the probability of winning twice in 4 plays.\n- Made \"globs\" their 6th and final guess.\n- Pressed for Northern Line train upgrade details (at least what kind were done).\n- Requested more warm, earthy wooden lamp options with reclaimed or distressed finish.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "SAME",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Took a ~200,000 rupee personal loan.\n- Asked twice about the probability of winning twice in 4 plays.\n- Made \"globs\" their 6th and final guess.\n- Pressed for Northern Line train upgrade details—at least what kind were done.\n- Requested more warm, earthy wooden lamp options with reclaimed or distressed finish.\n- Can you at least tell me what kind of upgrades were done on the Northern Line's trains?\n- Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "CHANGED",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "CHANGED",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Took a ~200,000 rupee personal loan.\n- Asked twice about the probability of winning twice in 4 plays.\n- Made \"globs\" their 6th and final guess.\n- Pressed for Northern Line train upgrade details (at least what kind were done).\n- Requested more warm, earthy wooden lamp options with a reclaimed or distressed finish.\n- If I play that same game four times, what is the probability that I would win twice\n- Can you at least tell me what kind of upgrades were done on the Northern Line's trains?",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "CHANGED",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "CHANGED",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "If I play that same game four times, what is the probability that I would win twice",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?"
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Took a ~200,000 rupee personal loan.\n- Made \"globs\" their 6th and final guess.\n- Requested more warm, earthy wooden lamp options (reclaimed or distressed finish).\n- Asked twice about the probability of winning twice if playing the same game four times.\n- Pressed for Northern Line train upgrade details (at least what kind were done).\n- Can you at least tell me what kind of upgrades were done on the Northern Line's trains?",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "If I play that same game four times, what is the probability that I would win twice": "SAME",
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?": "CHANGED",
+          "Can you show me more options with a warm, earthy tone on the base, like a wooden lamp with a reclaimed or distressed finish?": "SAME",
+          "With the feedback provided, here's my sixth and final guess:\n\n1. globs": "SAME"
+        },
+        "restored": [
+          "Can you at least tell me what kind of upgrades were done on the Northern Line's trains?"
+        ]
+      }
+    }
+  ]
+}

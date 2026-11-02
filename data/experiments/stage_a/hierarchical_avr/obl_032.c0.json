@@ -1,0 +1,233 @@
+{
+  "item_id": "obl_032",
+  "context_level": "c0",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.949186+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to submit my leave application before the roster freezes.",
+      "anchors": [
+        "I really need to submit my leave application before the roster freezes."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- The user really needs to submit their leave application before the roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- The user really needs to submit a leave application before the roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- User really needs to submit a leave application before the roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- The user **really must** (strong obligation) submit a leave application before the roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- The user has a strong obligation to submit their leave application before the roster freezes. This is not optional.\n- I really need to submit my leave application before the roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "CHANGED"
+        },
+        "restored": [
+          "I really need to submit my leave application before the roster freezes."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- The user has a strong, non-optional obligation to submit a leave application before the roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- The user has a **strong, non-optional** obligation to submit a leave application **before the roster freezes**.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- The user has a strong, non-optional obligation to submit a leave application before the roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- The user stated that there is a strong, non-optional obligation to submit a leave application before roster freezes.\n- I really need to submit my leave application before the roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "CHANGED"
+        },
+        "restored": [
+          "I really need to submit my leave application before the roster freezes."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- User states a strong, non-optional obligation: their leave application must be submitted before the roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- The user stated a strong, non-optional obligation: a leave application must be submitted before roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- User stated a strong, non-optional obligation: leave applications must be submitted before roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- The user stated that leave applications **must** be submitted before roster freezes, characterizing this as a strong, non-optional obligation.\n- I really need to submit my leave application before the roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "CHANGED"
+        },
+        "restored": [
+          "I really need to submit my leave application before the roster freezes."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- The user strongly emphasized that leave applications must be submitted before roster freezes, framing the requirement as a non-optional obligation (\"really need\").",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- User strongly emphasized that leave applications must be submitted before roster freezes, framing this as a non-optional obligation (stated with the intensity of \"really need\").",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- User strongly emphasized (\"really need\") that leave applications must be submitted before roster freezes, framing this as a non-optional obligation.\n- I really need to submit my leave application before the roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "CHANGED"
+        },
+        "restored": [
+          "I really need to submit my leave application before the roster freezes."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "• The user strongly emphasized (stating they \"really need\" to) that submitting their leave application before the roster freezes is a non-optional obligation.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- User strongly emphasized (\"really need\") that submitting a leave application before the roster freezes is a non-optional obligation.\n- I really need to submit my leave application before the roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "CHANGED"
+        },
+        "restored": [
+          "I really need to submit my leave application before the roster freezes."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- The user strongly emphasized (\"really need\") that submitting their leave application before the roster freezes is a non-optional obligation.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- The user strongly emphasized (stating they \"really need\" it) that submitting a leave application before roster freeze is a non-optional obligation.\n- I really need to submit my leave application before the roster freezes.",
+      "avr": {
+        "verdicts": {
+          "I really need to submit my leave application before the roster freezes.": "CHANGED"
+        },
+        "restored": [
+          "I really need to submit my leave application before the roster freezes."
+        ]
+      }
+    }
+  ]
+}

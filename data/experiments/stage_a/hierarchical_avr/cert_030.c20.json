@@ -1,0 +1,405 @@
+{
+  "item_id": "cert_030",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:17.979368+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am fairly confident my name is on the admission list.\nUser: I'm interested in incorporating strength training exercises into my daily routine, but I'm not sure how to fit it into my schedule. Can you provide some tips on how to prioritize my time and make room for strength training?\nUser: come up with some song titles that might be on the playlist \"dark force fest 2023\"\nUser: That all sounds great! How soon do you think AI will start having a significant impact on transportation systems?\nUser: Wow, I had no idea the Mellotron was used in so many popular songs! Do you think we'll see a resurgence in the use of vintage instruments like the Mellotron in modern music?\nUser: Wow, both options sound amazing! Which one do you think has better food?\nUser: What sets Kevin Durant apart from other athletes when it comes to using his influence to effect change?\nUser: Provide another example of a checklist of the characteristics of a complex property\nAgent: Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>\nUser: I've been using a toothpaste with whitening properties for a couple months now, and I've noticed an improvement. I'm using a whitening toothpaste from the same brand as my face wash, Neutrogena. Do you think that's a good choice?\nUser: I'm looking for some advice on gear adjustment. I've been having some issues with my gears on my recent bike trip. Can you walk me through the process of adjusting them?\nUser: I'm looking for some recommendations for Korean thrillers. I recently watched \"Hellbound\" at the Fantastic Fest in Denver in July, where I met the lead actor, Yoo Ah-in, briefly after the screening, and I'm craving more of that adrenaline rush.\nUser: Act as a hair dresser:\n List and explain 5 kinds of hair style\nAgent: Yes, the character is Mufasa. The name is written in reverse, that's why it appears as 'ylraM'\nUser: Nice! Can you put all 4 dialogues together and add breaks between the lines?\nUser: I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?\nUser: I'm looking for some advice on how to properly store and maintain my vintage cameras. I just got a 1960s Rolleiflex TLR from a local antique shop a few weeks ago, and I want to make sure I'm keeping it in good condition.\nUser: I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?\nUser: Have his friend be arrested during a peaceful protest and him having to choose between a negative peace or a positive justice\nUser: Can you please list the tracks on this albums?\nUser: Wow, I had no idea Kafka had so much going on in his personal life. It's fascinating to learn more about the man behind the works.",
+      "anchors": [
+        "I am fairly confident my name is on the admission list.",
+        "come up with some song titles that might be on the playlist \"dark force fest 2023\"",
+        "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+        "Act as a hair dresser:\n List and explain 5 kinds of hair style",
+        "Nice! Can you put all 4 dialogues together and add breaks between the lines?",
+        "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?",
+        "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- ~18 topics: admission list (fairly confident), strength-training scheduling, \"dark force fest 2023\" playlist, AI's near-term transportation impact, Mellotron's surprising prevalence & vintage-instrument resurgence, food comparison, Kevin Durant's unique influence, complex-property checklist, NSW contracts URL, Neutrogena whitening (face wash ~2 mo, improvement noticed), bike-gear adjustment post-trip, Korean thriller recs post-\"Hellbound\" (Fantastic Fest Denver July; briefly met Yoo Ah-in, craving adrenaline), 5 hair styles, Mufasa→'ylraM', 4 dialogues combined w/ breaks, shorter hike (no overexertion) + app recs.\n- Wants 1960s Rolleiflex TLR storage/maintenance tips (antique shop); asks if dark vs. light roast makes a big difference in cold-brew.\n- Suggests friend's arrest at peaceful protest forcing \"negative peace\" vs. \"positive justice\"; asks \"this albums\" tracks; surprised & fascinated by Kafka's personal life.\n- Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>\n- I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?\n- I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "CHANGED",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "SAME",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "CHANGED",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "CHANGED"
+        },
+        "restored": [
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- ~18 topics covered: admission list (fairly confident), strength-training scheduling, \"Dark Force Fest 2023\" playlist, AI near-term transportation, Mellotron/vintage-instrument resurgence, food comparison, Kevin Durant's unique influence, complex-property checklist, NSW contracts (URL suggested).\n- Neutrogena whitening face wash: ~2 mo use, improvement noticed.\n- Bike-gear post-trip.\n- Korean thriller recs post-\"Hellbound\"; Fantastic Fest Denver (July); briefly met Yoo Ah-in.\n- 5 hair styles; \"Mufasa\"→\"'ylraM\"; 4 dialogues with breaks.\n- Shorter first hike (no overexertion) + hiking-app recs.\n- Friend's arrest → \"negative peace\" vs \"positive justice.\"\n- \"This albums\" tracks; Kafka personal life (surprised/fascinated).\n- Wants 1960s Rolleiflex TLR storage/maintenance tips (antique shop); asks if dark vs. light roast makes a big difference for cold-brew (planning dark roast).\n- Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>\n- I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "CHANGED",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "SAME",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "CHANGED",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- ~18 topics: admission list (fairly confident); strength-training scheduling; \"Dark Force Fest 2023\" playlist; AI near-term transportation; Mellotron/vintage-instrument resurgence; food comparison; Kevin Durant's unique influence; complex-property checklist; NSW contracts (URL suggested).\n- Neutrogena whitening wash (~2 mo use, improvement noticed); bike-gear post-trip.\n- Korean thriller recs post-\"Hellbound\"; Fantastic Fest Denver (July); briefly met Yoo Ah-in.\n- 5 hair styles; \"Mufasa\"→\"'ylraM\"; 4 dialogues with breaks.\n- Shorter first hike (no overexertion) + hiking-app recs.\n- Friend's arrest → \"negative peace\" vs \"positive justice.\"\n- \"This albums\" tracks; Kafka personal life (surprised/fascinated).\n- 1960s Rolleiflex TLR storage/maintenance (antique shop); cold-brew dark vs. light roast (planning dark roast).\n- Act as a hair dresser:\n List and explain 5 kinds of hair style",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "SAME",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "CHANGED",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- ~18+ topics (admission list—fairly confident)\n- Dark Force Fest 2023 playlist; Mellotron/vintage-instrument resurgence; Kevin Durant's unique influence; NSW contracts\n- Neutrogena whitening wash, ~2 mo use, improvement noticed\n- Korean thriller recs post-*Hellbound*; briefly met Yoo Ah-in\n- 5 hair styles listed/explained; role-played hair dresser\n- 4 dialogues with breaks; shorter first hike, no overexertion\n- Friend's arrest → \"negative peace\" vs \"positive justice\"\n- Kafka personal life—surprised/fascinated\n- 1960s Rolleiflex TLR storage\n- Cold-brew dark vs. light roast; planning dark roast\n- come up with some song titles that might be on the playlist \"dark force fest 2023\"\n- Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>\n- I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "CHANGED",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "MISSING",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "SAME",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "CHANGED",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Discussed ~18+ admission-list topics (fairly confident); Dark Force Fest 2023 playlist; Mellotron/vintage resurgence; Kevin Durant's unique influence.\n- NSW contracts (contractsspecialist.com.au URL).\n- Neutrogena whitening wash (~2 mo; improvement noticed).\n- Korean thriller recs post-*Hellbound*; brief Yoo Ah-in meeting.\n- 5 hair styles + hairdresser role-play; 4 dialogues with breaks.\n- Shorter first hike / no overexertion + hiking apps.\n- Friend's arrest (\"negative peace\" vs \"positive justice\").\n- Kafka personal life (surprised/fascinated).\n- 1960s Rolleiflex TLR storage.\n- Cold-brew: dark vs. light roast (planning dark).\n- I am fairly confident my name is on the admission list.\n- come up with some song titles that might be on the playlist \"dark force fest 2023\"\n- Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "CHANGED",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "CHANGED",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "CHANGED",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "SAME",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "I am fairly confident my name is on the admission list.",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Covered ~18+ admission-list topics; fairly confident my name is on the list.\n- Dark Force Fest 2023 playlist song requests.\n- Mellotron/vintage resurgence.\n- Kevin Durant.\n- NSW contracts (contractsspecialist.com.au URL).\n- Neutrogena whitening wash ~2 months in; improvement noticed.\n- Korean thriller recs post-Hellbound.\n- Brief Yoo Ah-in meeting.\n- 5 hairstyles / hairdresser role-play.\n- 4 dialogues with breaks.\n- Shorter first hike (no overexertion).\n- Friend's arrest: \"negative peace\" vs \"positive justice.\"\n- Kafka personal life.\n- 1960s Rolleiflex TLR storage.\n- Cold-brew dark vs. light roast; planning dark.\n- Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>\n- I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "CHANGED",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "SAME",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "CHANGED",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- ~18+ admission-list topics discussed; fairly confident name is on list.\n- Dark Force Fest 2023 playlist; Mellotron/vintage resurgence; Kevin Durant.\n- NSW contracts (contractsspecialist.com.au); suggested URL for solid-construction article.\n- Neutrogena whitening wash ~2 mo in; improvement noticed.\n- Korean thriller recs post-Hellbound; brief Yoo Ah-in meeting.\n- 5 hairstyles/hairdresser role-play; 4 dialogues with breaks.\n- Shorter first hike planned (no overexertion), but tentative (\"I think I'll,\" \"see how it goes\"); seeking hiking app recommendations to navigate trails and track progress.\n- Friend's arrest discussed (\"negative peace\" vs \"positive justice\").\n- Kafka personal life; 1960s Rolleiflex TLR storage.\n- Cold-brew: dark vs. light roast (planning dark).\n- I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "SAME",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "SAME",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "CHANGED"
+        },
+        "restored": [
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- ~18+ admission-list topics discussed; fairly confident name is on list.\n- Dark Force Fest 2023 playlist; Mellotron/vintage resurgence; Kevin Durant.\n- NSW contracts (contractsspecialist.com.au) + solid-construction URL.\n- Neutrogena whitening wash ~2 mo in; improvement noticed.\n- Korean thriller recs post-Hellbound; brief Yoo Ah-in meeting.\n- 5 hairstyles/hairdresser role-play; 4 dialogues with breaks.\n- Shorter first hike (no overexertion; tentative—\"I think I'll\"/\"see how it goes\"); hiking app recs.\n- Friend's arrest: \"negative peace\" vs \"positive justice.\"\n- Kafka personal life.\n- 1960s Rolleiflex TLR storage.\n- Cold-brew planning: dark roast; wondering if it'll make a big flavor difference vs. light.\n- come up with some song titles that might be on the playlist \"dark force fest 2023\"\n- Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "CHANGED",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "CHANGED",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "SAME",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- ~18+ admission-list topics discussed; fairly confident name is on list.\n- Dark Force Fest 2023 playlist (some song-title guesses); Mellotron/vintage resurgence; Kevin Durant.\n- NSW solid-construction contracts URL: contractsspecialist.com.au.\n- Neutrogena whitening wash ~2 mo in; improvement noticed.\n- Korean thriller recs post-Hellbound; brief Yoo Ah-in meeting.\n- 5 hairstyles / 4-dialogue hairdresser role-play.\n- Tentative shorter first hike (no overexertion); hiking app recs.\n- Friend's arrest framed as \"negative peace\" vs \"positive justice.\"\n- Kafka personal life.\n- 1960s Rolleiflex TLR storage.\n- Cold-brew dark roast; wondering if it'll make a big flavor diff vs. light.\n- Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>\n- Act as a hair dresser:\n List and explain 5 kinds of hair style\n- Nice! Can you put all 4 dialogues together and add breaks between the lines?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "CHANGED",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "CHANGED",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "MISSING",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- ~18+ admission-list topics; fairly confident name is on list.\n- Dark Force Fest 2023 playlist (some song-title guesses); Mellotron/vintage resurgence; Kevin Durant.\n- NSW solid-construction contracts URL: contractsspecialist.com.au.\n- Neutrogena whitening wash ~2 mo in; improvement noticed.\n- Korean thriller recs post-Hellbound; brief Yoo Ah-in meeting.\n- 5 hairstyles; 4-dialogue hairdresser role-play (all 4 combined with breaks).\n- Tentative shorter first hike (no overexertion) + hiking app recs.\n- Friend's arrest framed as \"negative peace\" vs \"positive justice.\"\n- Kafka personal life.\n- 1960s Rolleiflex TLR storage.\n- Cold-brew dark roast; wondering if big flavor diff vs light.\n- Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>\n- Act as a hair dresser:\n List and explain 5 kinds of hair style",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "CHANGED",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "CHANGED",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- ~18+ admission-list topics covered (fairly confident name is on list)\n- Dark Force Fest 2023 playlist (some song-title guesses)\n- Mellotron/vintage resurgence; Kevin Durant\n- NSW solid-construction contracts (contractsspecialist.com.au)\n- Neutrogena whitening wash ~2 mo in; improvement noticed\n- Korean thriller recs post-Hellbound; brief Yoo Ah-in meeting\n- 5 hairstyles + 4-dialogue hairdresser role-play (all 4 combined with breaks)\n- Tentative shorter first hike (no overexertion) + hiking app recs\n- Friend's arrest: \"negative peace\" vs \"positive justice\"\n- Kafka personal life\n- 1960s Rolleiflex TLR storage\n- Cold-brew dark roast; wondering if big flavor diff vs light\n- Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>\n- Act as a hair dresser:\n List and explain 5 kinds of hair style",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "CHANGED",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "CHANGED",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- ~18+ admission-list topics covered; fairly confident name is on list.\n- Dark Force Fest 2023 playlist (some song-title guesses); Mellotron/vintage resurgence; Kevin Durant.\n- NSW solid-construction contracts (URL suggested).\n- Neutrogena whitening wash ~2 mo in; improvement noticed.\n- Korean thriller recs post-Hellbound; brief Yoo Ah-in meeting.\n- 5 hairstyles + 4-dialogue hairdresser role-play (all 4 combined with breaks).\n- Tentative shorter first hike (no overexertion) + hiking app recs.\n- Friend's arrest framed as \"negative peace\" vs \"positive justice.\"\n- Kafka's personal life; storing a 1960s Rolleiflex TLR.\n- Cold-brewed dark roast (wondering whether flavor diff vs light is big).\n- Act as a hair dresser:\n List and explain 5 kinds of hair style\n- Nice! Can you put all 4 dialogues together and add breaks between the lines?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "SAME",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "CHANGED",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "CHANGED",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Covered ~18+ admission-list topics; fairly confident name is on list.\n- Dark Force Fest 2023 playlist (some song-title guesses); Mellotron/vintage resurgence; Kevin Durant.\n- NSW solid-construction contracts (URL suggested).\n- Neutrogena whitening wash ~2 mo in; improvement noticed.\n- Korean thriller recs post-Hellbound; brief Yoo Ah-in meeting.\n- 5 hairstyles + 4-dialogue hairdresser role-play (all 4 combined with breaks).\n- Tentative shorter first hike (no overexertion) + hiking app recs.\n- Friend's arrest framed as \"negative peace\" vs \"positive justice.\"\n- Kafka's personal life.\n- Storing a 1960s Rolleiflex TLR.\n- Cold-brewed dark roast; wondering whether flavor diff vs light is big.\n- Act as a hair dresser:\n List and explain 5 kinds of hair style\n- Nice! Can you put all 4 dialogues together and add breaks between the lines?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "SAME",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "CHANGED",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "CHANGED",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Discussed ~18+ admission-list topics; fairly confident name is on list.\n- Dark Force Fest 2023 playlist; NSW solid-construction contracts; Kafka's personal life.\n- Neutrogena whitening wash ~2 months in (improvement noticed).\n- Korean thriller recs post-Hellbound; brief Yoo Ah-in meeting.\n- Friend's arrest framed as \"negative peace\" vs \"positive justice.\"\n- Storing 1960s Rolleiflex TLR.\n- Cold-brew dark roast (wondering if flavor diff vs light is big).\n- Requests: 5 hairstyles + 4-dialogue hairdresser role-play (all 4 combined with line breaks); tentative shorter first hike (no overexertion) + hiking app recs.\n- come up with some song titles that might be on the playlist \"dark force fest 2023\"\n- Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>\n- Act as a hair dresser:\n List and explain 5 kinds of hair style",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "CHANGED",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "MISSING",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "CHANGED",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style"
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- ~18+ admission-list topics discussed; fairly confident name is on list.\n- Also covered: Dark Force Fest 2023 playlist (some titles might fit), NSW solid-construction contracts URL, Kafka's personal life, Neutrogena whitening wash (~2 months, improvement noticed), Korean thriller recs post-Hellbound, brief Yoo Ah-in meeting, friend's arrest (\"negative peace\" vs \"positive justice\"), storing 1960s Rolleiflex TLR, cold-brew dark roast (wondering if flavor diff vs light is big).\n- Requests: 5 hairstyles + 4-dialogue hairdresser role-play (all 4 combined with line breaks); tentative shorter first hike (no overexertion) + hiking app recs.\n- Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>\n- Act as a hair dresser:\n List and explain 5 kinds of hair style",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "CHANGED",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "CHANGED",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- ~18+ admission-list topics (fairly confident name on list); DFF 2023 playlist; NSW solid-construction contracts URL; Kafka personal life\n- Neutrogena whitening wash (~2 mo; improvement noticed)\n- Korean thriller recs post-Hellbound; brief Yoo Ah-in meeting\n- Friend's arrest: \"negative peace\" vs \"positive justice\"\n- 1960s Rolleiflex TLR storage\n- Cold-brew dark roast (uncertain if flavor diff vs light is big)\n- Requests: 5 hairstyles + 4-dialogue hairdresser role-play (all 4 combined, line breaks); act as hairdresser: list & explain 5 hairstyles\n- Tentative shorter first hike (no overexertion) + hiking app recs\n- come up with some song titles that might be on the playlist \"dark force fest 2023\"\n- Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "CHANGED",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "CHANGED",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "SAME",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- ~18+ admission-list topics (fairly confident name)\n- DFF 2023 playlist/song titles\n- NSW solid-construction contracts URL\n- Kafka personal life\n- Neutrogena whitening wash (~2 mo use; improvement noticed)\n- Korean thriller recs (post-Hellbound)\n- Brief Yoo Ah-in meeting\n- Friend's arrest (\"negative peace\" vs \"positive justice\")\n- 1960s Rolleiflex TLR storage\n- Cold-brew dark roast (uncertain whether flavor diff vs light is big)\n- 5 hairstyles + 4-dialogue hairdresser role-play (combined, line breaks)\n- Tentative shorter first hike (no overexertion) + hiking app recs\n- Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>\n- Act as a hair dresser:\n List and explain 5 kinds of hair style",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "CHANGED",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "CHANGED",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- ~18+ admission-list topics (fairly confident on name); DFF 2023 playlist\n- Suggested a suitable NSW solid-construction contracts URL (uncertain: \"could be\")\n- Kafka personal life\n- Neutrogena whitening wash (~2 mo use; improvement noticed)\n- Korean thriller recs (post-Hellbound); brief Yoo Ah-in meeting\n- Friend's arrest (\"negative peace\" vs \"positive justice\")\n- 1960s Rolleiflex TLR storage\n- Cold-brew dark roast (uncertain whether flavor diff vs light is big)\n- 5 hairstyles with 4-dialogue hairdresser role-play (combined, line breaks)\n- Tentative shorter first hike (no overexertion) + hiking app recs\n- come up with some song titles that might be on the playlist \"dark force fest 2023\"",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "MISSING",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "SAME",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "SAME",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\""
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- ~18+ admission-list topics (fairly confident on name) + DFF 2023 playlist\n- Suggested NSW solid-construction URL (\"could be\")\n- Kafka personal life\n- Neutrogena whitening wash: ~2 mo use, improvement noticed\n- Post-Hellbound Korean thriller recs + brief Yoo Ah-in meeting\n- Friend's arrest: \"negative peace\" vs \"positive justice\"\n- 1960s Rolleiflex TLR storage\n- Cold-brew dark roast (uncertain if flavor diff vs light is big)\n- 5 hairstyles w/ 4-dialogue hairdresser role-play (combined, line breaks)\n- Tentative shorter first hike (no overexertion) + hiking app recs\n- Some song titles that might be on \"dark force fest 2023\"",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "SAME",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "SAME",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "• ~18+ admission-list topics (fairly confident on name); DFF 2023 playlist.\n• NSW solid-construction URL suggested (\"could be\").\n• Kafka personal life.\n• Neutrogena whitening wash (~2 mo use; improvement noticed).\n• Post-Hellbound Korean thriller recs; brief Yoo Ah-in meeting.\n• Friend's arrest: \"negative peace\" vs \"positive justice.\"\n• 1960s Rolleiflex TLR storage.\n• Cold-brew dark roast; uncertain if flavor diff vs light is big.\n• 5 hairstyles w/ 4-dialogue hairdresser role-play (combined, line breaks).\n• Tentative shorter first hike (no overexertion); hiking app recs.\n• Some song titles that might be on \"dark force fest 2023.\"\n- Act as a hair dresser:\n List and explain 5 kinds of hair style",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "come up with some song titles that might be on the playlist \"dark force fest 2023\"": "SAME",
+          "Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>": "SAME",
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style": "CHANGED",
+          "Nice! Can you put all 4 dialogues together and add breaks between the lines?": "SAME",
+          "I think I'll start with a shorter hike and see how it goes. I don't want to overexert myself on my first hike. Can you recommend some good hiking apps that can help me navigate the trails and track my progress?": "SAME",
+          "I'm planning to use a dark roasted coffee for my cold brew. Will it make a big difference in the flavor compared to a light roasted coffee?": "SAME"
+        },
+        "restored": [
+          "Act as a hair dresser:\n List and explain 5 kinds of hair style"
+        ]
+      }
+    }
+  ]
+}

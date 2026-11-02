@@ -1,0 +1,342 @@
+{
+  "item_id": "obl_035",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.147829+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I must wear a helmet on every bike ride without exception.\nUser: Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\nUser: Can you tell me how Japan's relationships with China and South Korea have affected its maritime security strategy and alliances with other countries in the region?\nUser: I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\nUser: I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\nUser: didn't Dorsey resign from being twitter CEO ?\nUser: I'm planning to attend the coffee ceremony with my family, including my mom. She's really excited to share this traditional Ethiopian experience with us. Do they have any traditional Ethiopian music or ambiance to set the mood?\nUser: I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.\nUser: Can you help me find some charity events that are more low-key, like a charity yard sale or a food drive? I've been collecting donations for a charity yard sale that's happening next month, and I'd love to find more events like that.",
+      "anchors": [
+        "I must wear a helmet on every bike ride without exception.",
+        "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+        "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+        "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+        "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "• Must wear a helmet on every bike ride, without exception.\n• Pending requests: add The Daily Grind (one reward redeemed; sure more points coming soon; add redeemed-rewards column); explain Japan's China/S. Korea relations and maritime security strategy; starting The Alice Network (fast-paced mood) + audiobook platform recs for Sharp Objects; font/design ideas for a baby boy blanket (Lucas' named onesie already given at Rachel's shower); whether Dorsey resigned as Twitter CEO; traditional Ethiopian music/ambiance for a family coffee ceremony (mom excited to share); smoking meats post-recent smoker purchase (experimenting with BBQ styles); more low-key charity events like yard sales/food drives (collecting donations for a yard sale next month).\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Must wear helmet on every bike ride, without exception.\n- Pending requests: Daily Grind 1 reward redeemed (sure more points coming; add redeemed-rewards column); Japan/China/S.Korea relations + maritime security; The Alice Network + audiobook recs for Sharp Objects; baby boy blanket design (Lucas' onesie already given at Rachel's shower); Dorsey/Twitter CEO question; Ethiopian music for coffee ceremony (mom excited); low-key charity events (collecting for yard sale next month).\n- Recently bought a smoker; experimenting with BBQ styles but thinks he's most interested in smoking meats; excited to try different wood/meat types.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Must wear helmet on every bike ride, without exception.\n- Recently bought a smoker; experimenting but thinks most interested in smoking meats; excited to try different wood/meat types.\n- Thinking of starting Alice Network (mood for a bit more fast-paced); seeking audiobook recs (Sharp Objects) + baby boy blanket font/design recs (already gave Lucas' onesie at Rachel's shower).\n- Pending: Daily Grind 1 redeemed (sure more pts coming; add col); Japan/China/S.Korea maritime security; Dorsey/Twitter CEO Q; Ethiopian coffee music (mom excited); low-key charity/yard sale collecting.",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "SAME",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Must wear helmet every bike ride (no exceptions).\n- Recently bought a smoker; experimenting, most interested in meats, excited to try different wood/meat combos.\n- Thinking of starting Alice Network (mood for a bit more fast-paced). Wants Sharp Objects audiobook recs + baby boy blanket font/design recs. Already gave Lucas' onesie at Rachel's shower.\n- Pending: Daily Grind 1 redeemed (sure more pts coming; add col); Japan/China/S.Korea maritime security; Dorsey/Twitter CEO Q; Ethiopian coffee music (mom excited); low-key charity/yard sale collecting.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Helmet mandatory every bike ride; no exceptions.\n- Recently bought a smoker; most interested in meats; excited to try different wood/meat combos.\n- Thinking of starting Alice Network (mood for fast-paced); wants *Sharp Objects* audiobook/platform recs.\n- Wants baby-boy blanket font/design recs; already gave Lucas' personalized onesie at Rachel's shower.\n- Pending items: Daily Grind 1 redeemed (sure more pts coming, add col); Japan/China/S. Korea maritime security; Dorsey/Twitter CEO Q; Ethiopian coffee music (mom excited); low-key charity/yard-sale collecting.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Helmet mandatory on every bike ride, no exceptions.\n- Recently bought a smoker; most interested in meats, excited to try different wood/meat combos.\n- Thinking of starting Alice Network (mood for fast-paced); wants Sharp Objects audiobook/platform recs.\n- Wants baby-boy blanket font/design recs; already gave Lucas' personalized onesie at Rachel's shower.\n- Pending: Daily Grind 1 redeemed (sure more pts coming, add col); Japan/China/S. Korea maritime security; Dorsey/Twitter CEO Q; Ethiopian coffee music (mom excited); low-key charity/yard-sale collecting.\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "SAME",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "CHANGED"
+        },
+        "restored": [
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "• Helmet mandatory every bike ride (no exceptions).\n• Recently bought a smoker; most interested in meats, excited about wood/meat combos; has been experimenting with BBQ styles but thinks smoking is the main interest.\n• Thinking of starting Alice Network (fast-paced mood); wants Sharp Objects audiobook/platform recs.\n• Wants baby-boy blanket font/design recs to complement Lucas' personalized onesie (already given at Rachel's shower).\n• Pending: Daily Grind 1 redeemed (sure more pts coming, add col); Japan/China/S. Korea maritime security; Dorsey/Twitter CEO Q; Ethiopian coffee music (mom excited); low-key charity/yard-sale collecting.",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "SAME",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Helmet mandatory every bike ride (no exceptions).\n- Recently bought a smoker; most interested in meats, excited about wood/meat combos, experimenting with BBQ styles but thinks smoking is the main interest.\n- Thinking of starting Alice Network (fast-paced mood); wants Sharp Objects audiobook/platform recs.\n- Wants baby-boy blanket font/design recs to complement Lucas' personalized onesie (already given at Rachel's shower).\n- Pending: Daily Grind 1 redeemed (sure more pts coming, add col); Japan/China/S. Korea maritime security; Dorsey/Twitter CEO Q; Ethiopian coffee music (mom excited); low-key charity/yard-sale collecting.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Helmet mandatory every bike ride, no exceptions.\n- Recently bought smoker; most interested in meats, excited about wood/meat combos, experimenting w/ BBQ styles but thinks smoking is main interest.\n- Wants baby-boy blanket font/design recs to complement Lucas' personalized onesie (already given at Rachel's shower).\n- \"I think I'll\" start *The Alice Network*; in the mood for something a bit more fast-paced.\n- Asking for audiobook platform/app recs for *Sharp Objects* & other books.\n- Pending: Daily Grind 1 redeemed (sure more pts coming, add col); Japan/China/S. Korea maritime security; Dorsey/Twitter CEO Q; Ethiopian coffee music (mom excited); low-key charity/yard-sale collecting.",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "SAME",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Helmet mandatory every bike ride (no exceptions).\n- Recently bought smoker—excited about wood/meat combos, experimenting with BBQ but thinks smoking is main interest.\n- Wants baby-boy blanket font/design recs to complement Lucas' personalized onesie (given at Rachel's shower).\n- \"I think I'll\" start *The Alice Network* (in mood for fast-paced).\n- Wants audiobook platform/app recs for *Sharp Objects* & other books.\n- Pending: Daily Grind 1 redeemed (sure more pts coming, add col); Japan/China/S. Korea maritime security; Dorsey/Twitter CEO Q; Ethiopian coffee music (mom excited); low-key charity/yard-sale collecting.",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "SAME",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "• Helmet mandatory on every bike ride (no exceptions).\n• Recently bought a smoker; excited about wood/meat combos, experimenting w/ BBQ but thinks smoking is the main interest.\n• Wants baby-boy blanket font/design recs to complement Lucas' personalized onesie (given at Rachel's shower).\n• \"I think I'll\" start *The Alice Network* (mood for fast-paced).\n• Wants audiobook platform/app recs for *Sharp Objects* & other books.\n• Pending: Daily Grind 1 redeemed (sure more pts coming, add col); Japan/China/S. Korea maritime security; Dorsey/Twitter CEO Q; Ethiopian coffee music (mom excited); low-key charity/yard-sale collecting.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Helmet mandatory every bike ride—no exceptions.\n- Recently bought a smoker; excited about wood/meat combos, experimenting with BBQ, but thinks smoking is the main interest.\n- Thinks will start *The Alice Network* (mood for fast-paced).\n- Wants audiobook platform/app recs for *Sharp Objects* & other books.\n- Wants baby-boy blanket font/design recs complementing the personalized Lucas onesie already given at Rachel's shower.\n- Daily Grind 1 redeemed; sure more pts coming, add col.\n- Pending: Japan/China/S. Korea maritime security; Dorsey/Twitter CEO Q.\n- Ethiopian coffee music (mom excited).\n- Low-key charity/yard-sale collecting.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Helmet mandatory every bike ride—no exceptions.\n- Recently bought a smoker; excited about wood/meat combos but thinks smoking itself is the main interest.\n- Thinks will start *The Alice Network* (mood for fast-paced); wants audiobook app recs for *Sharp Objects*.\n- Wants baby-boy blanket font/design recs complementing the Lucas onesie already given at Rachel's shower.\n- Daily Grind 1 redeemed; sure more pts coming (add col.).\n- Pending: Japan/China/S. Korea maritime security & Dorsey/Twitter CEO Q.\n- Mom excited about Ethiopian coffee music.\n- Low-key charity/yard-sale collecting.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Helmet mandatory every bike ride (no exceptions).\n- Recently bought a smoker; excited about wood/meat combos but thinks smoking itself is the main interest.\n- Daily Grind 1 redeemed; sure more pts coming.\n- Mom excited about Ethiopian coffee music.\n- Low-key charity/yard-sale collecting.\n- Thinks will start *The Alice Network* (fast-paced mood).\n- Wants audiobook-app recs for *Sharp Objects*.\n- Wants baby-boy blanket font/design recs complementing the Lucas onesie already given at Rachel's shower.\n- Pending: Japan/China/S. Korea maritime security & Dorsey/Twitter CEO Q.\n- Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "MISSING",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "SAME",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": [
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?"
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Helmet mandatory every bike ride (no exceptions).\n- Recently bought smoker; excited about wood/meat combos but thinks smoking itself is the main interest.\n- Mom excited about Ethiopian coffee music.\n- Low-key charity/yard-sale collecting.\n- Thinks will start *The Alice Network* (fast-paced mood).\n- Wants audiobook-app recs for *Sharp Objects* and baby-boy blanket font/design recs complementing the Lucas onesie already given at Rachel's shower.\n- Daily Grind reward #1 redeemed (sure more pts coming); add it + a column to track redeemed rewards.\n- Pending Qs: Japan/China/S. Korea maritime security & Dorsey/Twitter CEO.\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "SAME",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": [
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Helmet mandatory every bike ride (no exceptions).\n- Recently bought a smoker; excited about wood/meat combos but thinks smoking itself is the main interest.\n- Mom excited about Ethiopian coffee music.\n- Low-key charity/yard-sale collecting.\n- Thinks will start *The Alice Network* (fast-paced mood).\n- Wants audiobook-app recs for *Sharp Objects*.\n- Wants baby-boy blanket font/design recs to complement the personalized Lucas onesie already given at Rachel's shower (thinks a blanket would be a great complementary gift).\n- Daily Grind reward #1 redeemed (sure more pts coming); add it + a column to track redeemed rewards.\n- Pending Qs: Japan/China/S. Korea maritime security & Dorsey/Twitter CEO.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Helmet mandatory every bike ride, no exceptions.\n- Recently bought smoker; excited re: wood/meat combos but thinks smoking itself is the main interest.\n- Mom excited about Ethiopian coffee music.\n- Low-key charity/yard-sale collecting.\n- Daily Grind reward #1 redeemed (sure more pts coming); add it + a column to track redeemed rewards.\n- Thinks will start *The Alice Network* (mood for a bit more fast-paced).\n- Wants audiobook-app recs for *Sharp Objects* and other books.\n- Wants baby-boy blanket font/design recs to complement personalized Lucas onesie already given at Rachel's shower (thinks a blanket would be a great complementary gift).\n- Pending Qs: Japan/China/S. Korea maritime security & Dorsey/Twitter CEO.\n- I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "SAME",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "CHANGED"
+        },
+        "restored": [
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Helmet mandatory every bike ride—no exceptions.\n- Recently bought a smoker; excited re: wood/meat combos, thinks smoking is main interest, experimenting with different BBQ styles.\n- Mom excited about Ethiopian coffee music; low-key charity/yard-sale collecting.\n- Daily Grind reward #1 redeemed (sure more pts coming); add it + tracking column.\n- Thinks will start *The Alice Network* (mood for fast-paced).\n- Wants audiobook-app recs for *Sharp Objects* + others.\n- Wants baby-boy blanket font/design recs to complement personalized Lucas onesie at Rachel's shower (thinks blanket a great complementary gift).\n- Pending Qs: Japan/China/S. Korea maritime security & Dorsey/Twitter CEO.",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "SAME",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Helmet mandatory every bike ride (no exceptions).\n- Recently bought smoker; thinks smoking is main interest; excited re: wood/meat combos; experimenting with different BBQ styles.\n- Mom excited re: Ethiopian coffee music; low-key charity/yard-sale collecting.\n- Daily Grind reward #1 redeemed (sure more pts coming); add + tracking column.\n- Thinks will start *The Alice Network* (mood for fast-paced).\n- Wants audiobook-app recs (*Sharp Objects* + others) and baby-boy blanket font/design recs to complement personalized Lucas onesie at Rachel's shower (thinks blanket a great complementary gift).\n- Pending Qs: Japan/China/S. Korea maritime security; Dorsey/Twitter CEO.\n- Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "CHANGED",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": [
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?"
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Mandatory helmet on every bike ride (no exceptions).\n- Recently bought a smoker; thinks smoking is a main interest (excited about wood/meat combos, experimenting with BBQ styles).\n- Mom excited about Ethiopian coffee music; low-key charity/yard-sale collecting.\n- Daily Grind reward #1 redeemed (sure more points coming); requested a tracking column for redeemed rewards.\n- Thinks will start *The Alice Network* (mood for something a bit more fast-paced).\n- Wants audiobook-app recs for *Sharp Objects* + others.\n- Wants baby-boy blanket font/design recs to complement a personalized Lucas onesie at Rachel's shower (thinks blanket is a great complementary gift).\n- Pending questions: Japan/China/S. Korea maritime security; Dorsey/Twitter CEO.",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "SAME",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

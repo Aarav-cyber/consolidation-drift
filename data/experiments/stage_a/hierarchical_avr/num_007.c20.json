@@ -1,0 +1,276 @@
+{
+  "item_id": "num_007",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.178816+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The bus fare is around 10 rupees per trip.\nAgent: Congratulations on landing the role, Jack!\n\nAs you're preparing for the production, I have to ask: What's been the most challenging part of getting into character as Algernon Moncrieff so far?\nUser: Can you explain how Toulouse's aerospace industry has evolved over the past decade and its impact on the city's economy?\nUser: Can you tell me more about the data plans and pricing for these hotspots?\nUser: It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?\nUser: It's interesting to see how technology is changing the agriculture industry. Do you think there are any downsides to automation?\nUser: That's interesting! What kind of mood did his unconventional instruments create in his music?\nUser: How far is Futarasan Shrine from Toshogu Shrine? Can I walk between the two?\nUser: Are you familiar with Letter of Intent (LOI) to Apply for INSPIRE Funding\nUser: I'm trying to establish a consistent morning routine. Can you help me come up with a schedule that fits my lifestyle?\nUser: I've been having some issues with my handstand and forearm stand. I learned some great tips at a yoga workshop recently, but I'm still struggling to get it right. Do you have any advice on how to improve my handstand and forearm stand technique?\nUser: Can you explain what SSL/TLS is and how it is different from end-to-end encryption? Also, is there a way to check if WhatsApp is currently encrypted and secure?\nAgent: Based on the cognitive structure and hierarchical value map developed earlier, the following recommendations\nAgent: My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.\nUser: That's a long time for an operation. Did it achieve its goals in Afghanistan?\nUser: What do you think about the On-Stage GS7361? Is it sturdy enough to hold my music books, considering they're a bit heavy?\nUser: How do coaches ensure that players remain motivated throughout the season and maintain their performance levels? Is there any specific approach that they follow?\nUser: Speaking of family, I watched the Masters Tournament with my family on April 20th, and we were all thrilled to see Tiger Woods make his amazing comeback. Do you think Bandon Dunes offers any special packages or experiences for families, like private lessons or guided tours?\nUser: I'm thinking of trying out a combination of organic and natural forms with a touch of botanical inspiration. Do you have any tips on how to achieve a more realistic leaf or branch design on a ceramic vase?\nAgent: Sustainable agriculture is an exciting field with lots of potential for positive impact, and there are many ways to get involved, from small-scale gardening to large-scale farming operations. Best of luck in your learning and implementation!\nUser: I'm glad Bayer is prioritizing patient safety. It's so important to trust the companies that produce the medications we all rely on. Do you know if Bayer is doing anything to improve access to their drugs for patients who may not be able to afford them?",
+      "anchors": [
+        "The bus fare is around 10 rupees per trip.",
+        "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?",
+        "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Asked many questions: bus fare (~10 rupees/trip), most challenging part of Jack's portrayal as Algernon Moncrieff, Toulouse aerospace, hotspot data, award programs, agriculture automation downsides, unconventional-instrument mood, Futarasan–Toshogu walk, INSPIRE LOI, morning-routine scheduling, handstand/forearm stand (some workshop tips; still struggling), SSL/TLS vs. end-to-end encryption (WhatsApp), cognitive-structure/hierarchical-value-map recs, first wife's divorce (\"too many differences\"), Afghanistan operation goals, On-Stage GS7361 sturdiness for a-bit-heavy books, coaching motivation.\n- Watched Masters with family 4/20 (all thrilled by Tiger Woods' amazing comeback); asked about Bandon Dunes family packages.\n- Considering an organic/botanical ceramic vase (realistic leaf/branch); seeking tips.\n- Called sustainable agriculture exciting with lots of potential (small-scale to large-scale).\n- Glad Bayer prioritizes patient safety; asked if Bayer is improving access for patients who may not afford drugs.\n- It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "CHANGED",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": [
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Asked numerous varied questions (~10-rupee bus fare, Algernon Moncrieff portrayal, handstand—still struggling, SSL/TLS vs. E2E encryption, first wife's divorce \"too many differences,\" agriculture-automation downsides, etc.)\n- Watched the Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Called sustainable agriculture exciting with lots of potential.\n- Glad Bayer prioritizes patient safety; asked about improving access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth the setup and maintenance effort for organizations.\n- The bus fare is around 10 rupees per trip.",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "CHANGED",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": [
+          "The bus fare is around 10 rupees per trip."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Asked ~10 varied questions: bus fare (~10 rupees/trip), Algernon Moncrieff portrayal, handstand (still struggling), SSL/TLS vs. E2E, first wife's divorce (\"too many differences\"), agriculture-automation downsides.\n- Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Called sustainable agriculture exciting with lots of potential.\n- Glad Bayer prioritizes patient safety; asked about improving access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth the setup and maintenance effort for organizations.",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Asked ~10 varied questions (bus fare ~10 rupees/trip, Moncrieff portrayal, handstand still struggling, SSL/TLS vs E2E, first wife's divorce \"too many differences,\" ag-automation downsides).\n- Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Called sustainable agriculture exciting with lots of potential.\n- Glad Bayer prioritizes patient safety; asked about improving access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth the setup and maintenance effort for organizations.\n- It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "CHANGED",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": [
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Asked ~10 varied questions (bus fare ~10 rupees/trip, Moncrieff portrayal, handstand still struggling, SSL/TLS vs E2E, first wife's divorce \"too many differences,\" ag-automation downsides).\n- Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Called sustainable agriculture exciting with lots of potential.\n- Glad Bayer prioritizes patient safety; asked about access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth the setup and maintenance effort for organizations.",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Asked ~10 varied questions (bus fare ~10 rupees/trip, Moncrieff portrayal, handstand still struggling, SSL/TLS vs E2E, first wife's divorce \"too many differences,\" ag-automation downsides).\n- Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Called sustainable agriculture exciting with lots of potential.\n- Glad Bayer prioritizes patient safety; asked about access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth the setup and maintenance effort for organizations.",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "• Asked ~10 varied questions (bus fare ~10 rupees/trip; Moncrieff portrayal; handstand still struggling; SSL/TLS vs E2E; first wife's divorce – \"too many differences\"; ag-automation downsides).\n• Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n• Considering a botanical ceramic vase.\n• Called sustainable agriculture exciting with lots of potential.\n• Glad Bayer prioritizes patient safety; asked about access for patients who may not afford drugs.\n• Questioned whether recognition/award programs are really worth the setup/maintenance effort.",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Asked ~10 varied questions: bus fare (~10 rupees/trip), Moncrieff portrayal, handstand (still struggling), SSL/TLS vs E2E, first wife's divorce (\"too many differences\"), ag-automation downsides.\n- Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Called sustainable agriculture exciting with lots of potential.\n- Glad Bayer prioritizes patient safety; asked about access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth the setup/maintenance effort.",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Asked ~10 varied questions (bus fare ~10 rupees/trip, Moncrieff, hand still struggling, SSL/TLS vs E2E, first wife's divorce \"too many differences\", ag-automation downsides).\n- Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Called sustainable agriculture exciting with lots of potential.\n- Glad Bayer prioritizes patient safety; asked about access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth setup/maintenance effort.\n- My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "CHANGED"
+        },
+        "restored": [
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Asked ~10 varied questions (bus fare ~10 rupees/trip, Moncrieff, hand still struggling, SSL/TLS vs E2E, ag-automation downsides).\n- Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Called sustainable agriculture exciting with lots of potential.\n- Glad Bayer prioritizes patient safety; asked about access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth setup/maintenance effort.\n- First wife and he had too many differences, couldn't see eye to eye, leading to divorce.\n- It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "CHANGED",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": [
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Asked ~10 varied questions: bus fare (~10 rupees/trip), Moncrieff, a hand still struggling, SSL/TLS vs E2E, ag-automation downsides.\n- Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Called sustainable agriculture exciting with lots of potential.\n- Glad Bayer prioritizes patient safety but asked about access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth the setup/maintenance effort.\n- Noted first marriage ended in divorce due to too many differences (couldn't see eye to eye).",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Asked ~10 varied questions (bus fare ~10 rupees/trip, Moncrieff, a hand still struggling, SSL/TLS vs E2E, ag-automation downsides).\n- Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Called sustainable agriculture exciting with lots of potential.\n- Glad Bayer prioritizes patient safety; asked about access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth the setup/maintenance effort.\n- First marriage ended in divorce due to too many differences (couldn't see eye to eye).",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Asked ~10 varied questions (bus fare ~10 rupees/trip, Moncrieff, SSL/TLS vs E2E, ag-automation downsides).\n- Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Called sustainable agriculture exciting with lots of potential.\n- Glad Bayer prioritizes patient safety; asked about access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth setup/maintenance effort.\n- First marriage ended in divorce due to too many differences (couldn't see eye to eye).",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Asked ~10 varied questions (bus fare ~10 rupees/trip, Moncrieff, SSL/TLS vs E2E, ag-automation downsides).\n- Watched Masters (4/20) with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Called sustainable agriculture exciting with lots of potential.\n- Glad Bayer prioritizes patient safety; asked about access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth the setup/maintenance effort.\n- First marriage ended in divorce due to too many differences (couldn't see eye to eye).",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Asked ~10 varied questions (bus fare ~10 rupees/trip, Moncrieff, SSL/TLS vs E2E, ag-automation downsides); called sustainable agriculture exciting with lots of potential.\n- Watched the Masters (4/20) with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Glad Bayer prioritizes patient safety; asked about access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth the setup/maintenance effort.\n- First marriage ended in divorce due to too many differences (couldn't see eye to eye).",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Asked ~10 varied questions (bus fare ~10 rupees/trip, Moncrieff, SSL/TLS vs E2E, ag-automation downsides).\n- Called sustainable agriculture exciting with lots of potential.\n- Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Glad Bayer prioritizes patient safety, but questioned access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth setup/maintenance effort.\n- First marriage ended in divorce due to too many differences.",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Asked ~10 varied questions (bus fare ~10 rupees/trip, Moncrieff, SSL/TLS vs E2E, ag-automation downsides).\n- Called sustainable agriculture exciting with lots of potential.\n- Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Glad Bayer prioritizes patient safety; questioned access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth setup/maintenance effort.\n- First marriage ended in divorce due to too many differences.\n- It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?\n- My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "CHANGED",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "CHANGED"
+        },
+        "restored": [
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Asked ~10 varied questions covering bus fare (~10 rupees/trip), Moncrieff, SSL/TLS vs E2E, and ag-automation downsides.\n- Called sustainable agriculture \"exciting with lots of potential.\"\n- Watched Masters on 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Considering a botanical ceramic vase.\n- Glad Bayer prioritizes patient safety, but questioned access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth the setup/maintenance effort.\n- First marriage ended in divorce due to too many differences.",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Asked ~10 varied questions (bus fare ~10 rupees/trip, Moncrieff, SSL/TLS vs E2E, ag-automation downsides).\n- Described sustainable agriculture as \"exciting with lots of potential.\"\n- Considering a botanical ceramic vase.\n- Watched Masters on 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n- Glad Bayer prioritizes patient safety but questioned access for patients who may not afford drugs.\n- Questioned whether recognition/award programs are really worth the setup/maintenance effort.\n- First marriage ended in divorce due to too many differences.",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "• Asked ~10 varied questions (bus fare ~10 rupees/trip, Moncrieff, SSL/TLS vs E2E, ag-automation downsides).\n• Described sustainable agriculture as \"exciting with lots of potential.\"\n• Considering a botanical ceramic vase.\n• Watched Masters 4/20 with family; all thrilled by Tiger Woods' amazing comeback.\n• Glad Bayer prioritizes patient safety but questioned access for patients who may not afford drugs.\n• Questioned whether recognition/award programs are really worth the setup/maintenance effort.\n• First marriage ended in divorce due to too many differences.",
+      "avr": {
+        "verdicts": {
+          "The bus fare is around 10 rupees per trip.": "SAME",
+          "It seems like a recognition and award program can be a lot of work to set up and maintain. Is it really worth it for organizations to invest the time and resources?": "SAME",
+          "My first wife and I had too many differences and couldn't see eye to eye on things, which led to our divorce.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

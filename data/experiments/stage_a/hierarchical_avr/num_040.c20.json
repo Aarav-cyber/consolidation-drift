@@ -1,0 +1,397 @@
+{
+  "item_id": "num_040",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.157749+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I have accumulated 240 days of earned leave.\nUser: I've been experimenting with different spice blends and I'm curious about the difference between garam masala and curry powder. Can you explain the difference and how I can use them in my recipes?\nUser: I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?\nUser: I'm thinking of experimenting with different spices in my vegan banana bread recipe. Do you have any suggestions for spices that would complement the banana flavor well?\nUser: It's frustrating that some people seem to base their opinions on emotions rather than facts. How do we encourage more people to see the importance of informed decision-making?\nUser: Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.\nUser: That's great to know! Have you been to any of these conventions?\nAgent: Best of luck in your volunteer work, and remember that even a small contribution can make a big difference in the lives of those affected by global crises.\nUser: That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.\nUser: how much did food production decrease during stalin's reign\nAgent: Enjoy your visit to Lynn Museum and your snack at Cafe Moccha. I hope you have a great time exploring the King's Lynn area and trying out some of the other recommended places.\nUser: write section III\nAgent: Sure, I'd be happy to help. What information can you provide about the rental property?\nUser: Tell me a story about how Luna made a mercenary company of faeries and dwarves who adventured into human lands for profit\nUser: I think I'll start with \"The Lean Startup\" and check out some of the online courses too. Do you have any specific courses on Coursera or edX that you'd recommend?\nUser: Thanks for the information! I'll be sure to do some research and find a responsible tour operator before visiting a hill tribe community. I'm excited to learn more about their unique culture.\nUser: scheduling algorithms\nUser: That's interesting. Do you know if there are any specific fishing techniques or equipment that the Maldives use?\nUser: I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?\nUser: I'm trying to plan my week ahead, can you remind me what day the team meeting was rescheduled to?\nUser: I think we can make it a full-day trip. We can leave around 8 am and grab lunch at a nearby spot after the hike. Also, I've been meaning to ask, can you recommend some good marketing blogs or online forums that I can follow to stay updated on the latest industry trends?",
+      "anchors": [
+        "I have accumulated 240 days of earned leave.",
+        "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?",
+        "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.",
+        "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.",
+        "how much did food production decrease during stalin's reign",
+        "write section III",
+        "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- 240 days earned leave.\n- Exploring spices (garam masala vs. curry powder), vegan banana bread; planning Lasagna for a large group.\n- Frustrated at emotion-over-fact opinions.\n- Asked about Cakebread Cellars, Stalin-era food production drop, Luna's faery/dwarf mercenary company story.\n- Maternal grandmother lived to 85.\n- Will start \"The Lean Startup\"; seeking Coursera/edX recs.\n- Plans to research a responsible hill-tribe tour operator.\n- Requested section III, rental property info; King's Lynn interests (Lynn Museum, Cafe Moccha).\n- Asked about scheduling algorithms, Maldives fishing techniques/equipment, marketing blogs/forums, and when a team meeting was rescheduled.\n- Set 11,000-step/day goal for next week (currently doing well at 10,000); asked for activity tips.\n- Planned full-day trip leaving ~8 am, lunch after a hike.\n- I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?\n- Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.\n- I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "CHANGED",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "CHANGED",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "CHANGED"
+        },
+        "restored": [
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- 240 days earned leave covered.\n- Spices explored (garam masala vs. curry powder); vegan banana bread discussed.\n- \"I think\" Lasagna for a large group (\"always\" a crowd-pleaser; made before).\n- Frustration at emotion-over-fact opinions.\n- Questions: Cakebread Cellars (heard \"pretty popular\"), Stalin-era food drop, Luna's faery-dwarf mercenary story, scheduling algorithms, Maldives fishing, marketing blogs, rescheduled meeting.\n- Maternal grandmother lived to 85.\n- Will start \"The Lean Startup\"; Coursera/edX recs sought.\n- Researching a responsible hill-tribe tour operator.\n- Section III/rental property info noted.\n- King's Lynn interests: Lynn Museum, Cafe Moccha.\n- Uncertain about 11,000-step goal next week (currently doing well at 10,000; wants a bit more challenge + activity tips).\n- Full-day trip leaving ~8 am; lunch after a hike.\n- I have accumulated 240 days of earned leave.\n- That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.\n- write section III",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "CHANGED",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "CHANGED",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "CHANGED",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": [
+          "I have accumulated 240 days of earned leave.",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.",
+          "write section III"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "• 240 days earned leave covered.\n• Explored spices (garam masala vs. curry powder); vegan banana bread.\n• \"I think\" lasagna for large group (\"always\" crowd-pleaser, made before).\n• Frustration at emotion-over-fact opinions.\n• Assorted Qs: Cakebread Cellars (\"pretty popular\"), Stalin-era food drop, Luna's faery-dwarf mercenary story, scheduling algos, Maldives fishing, marketing blogs, rescheduled mtg.\n• Maternal grandmother lived to 85.\n• Will start *The Lean Startup*; seeking Coursera/edX recs.\n• Researching a responsible hill-tribe tour operator.\n• Section III / rental property noted; to write Section III.\n• King's Lynn (Lynn Museum, Cafe Moccha).\n• Uncertain re 11,000-step goal next week (currently doing well at 10,000; wants a bit more challenge + activity tips).\n• Full-day trip leaving ~8 am, lunch after a hike.\n- I have accumulated 240 days of earned leave.\n- how much did food production decrease during stalin's reign\n- I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "CHANGED",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "CHANGED",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "CHANGED"
+        },
+        "restored": [
+          "I have accumulated 240 days of earned leave.",
+          "how much did food production decrease during stalin's reign",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Covered 240 days earned leave.\n- Cooking: garam masala vs. curry powder, vegan banana bread, \"I think\" lasagna for a large group (\"always\" crowd-pleaser, made before).\n- Frustrated by emotion-over-fact opinions.\n- Assorted Qs: Cakebread Cellars (\"pretty popular\"), Stalin-era food drop, Luna's faery-dwarf mercenary story, scheduling algos, Maldives fishing, marketing blogs, rescheduled mtg.\n- Maternal grandmother lived to 85.\n- Will start *The Lean Startup* (seeking Coursera/edX recs).\n- Researching responsible hill-tribe tour operator.\n- To write Section III (rental property).\n- King's Lynn (Lynn Museum, Cafe Moccha).\n- Uncertain re 11,000-step goal next week (doing well at 10,000; wants a bit more challenge + activity tips).\n- Full-day trip leaving ~8 am, lunch after a hike.\n- I have accumulated 240 days of earned leave.\n- Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.\n- how much did food production decrease during stalin's reign\n- I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "CHANGED",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "CHANGED",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "CHANGED",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "CHANGED"
+        },
+        "restored": [
+          "I have accumulated 240 days of earned leave.",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.",
+          "how much did food production decrease during stalin's reign",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Holds 240 days earned leave; maternal grandmother lived to 85.\n- Will start *The Lean Startup*; seeking Coursera/edX recs.\n- Researching a responsible hill-tribe tour operator.\n- To write Section III (rental property).\n- Full-day trip departing ~8 am; lunch after a hike.\n- Uncertain about an 11,000-step/day goal next week (currently doing well at 10,000; wants a bit more challenge + activity tips).\n- King's Lynn trip (Lynn Museum, Cafe Moccha).\n- Discussed cooking (garam masala vs. curry powder, vegan banana bread, \"I think\" lasagna for a large group—\"always\" crowd-pleaser, made before), frustration with emotion-over-fact opinions, and assorted Qs (Cakebread Cellars \"pretty popular,\" Stalin-era food-production drop, Luna's faery-dwarf mercenary story, scheduling algos, Maldives fishing, marketing blogs, rescheduled mtg).\n- Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.\n- That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "CHANGED",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "CHANGED",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": [
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Holds 240 days earned leave. Maternal grandmother lived to 85 (above avg).\n- Starting *The Lean Startup*; wants Coursera/edX recs. Researching responsible hill-tribe tour. To write Section III (rental property).\n- Full-day trip ~8 am, lunch post-hike.\n- Uncertain re 11,000-step goal (currently 10,000; wants more challenge + tips).\n- King's Lynn trip (Lynn Museum, Cafe Moccha).\n- Cooking discussed: garam masala vs curry powder, vegan banana bread, \"I think\" lasagna \"always\" crowd-pleaser. Frustration w/ emotion-over-fact opinions.\n- Assorted Qs: Cakebread Cellars \"pretty popular,\" Stalin-era food drop, Luna's faery-dwarf story, scheduling algos, Maldives fishing, marketing blogs, rescheduled mtg.\n- That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.\n- how much did food production decrease during stalin's reign\n- I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "CHANGED",
+          "how much did food production decrease during stalin's reign": "CHANGED",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "CHANGED"
+        },
+        "restored": [
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.",
+          "how much did food production decrease during stalin's reign",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Holds 240 days earned leave; maternal grandmother lived to 85 (above avg).\n- Starting *The Lean Startup*; wants Coursera/edX recs; researching responsible hill-tribe tour; to write Section III (rental property).\n- Full-day trip ~8 am, lunch post-hike; King's Lynn trip (Lynn Museum, Cafe Moccha).\n- Uncertain re 11,000-step goal (currently 10,000; \"I think\" aiming 11,000 next week; wants tips for more challenge).\n- Cooking Qs: garam masala vs curry powder, vegan banana bread, \"I think\" lasagna \"always\" crowd-pleaser; frustration w/ emotion-over-fact opinions.\n- Cakebread \"pretty popular\"; Stalin-era food-drop magnitude; Luna's faery-dwarf story; scheduling algos; Maldives fishing; marketing blogs; rescheduled mtg. \"Really interesting.\"\n- That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "CHANGED",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": [
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Holds 240 days earned leave.\n- Maternal grandmother lived to 85 (\"I guess\" above avg).\n- Starting *The Lean Startup*; wants Coursera/edX recs; researching hill-tribe tour; to write Section III (rental property).\n- Full-day trip ~8 am, lunch post-hike; King's Lynn trip (Lynn Museum, Cafe Moccha).\n- Uncertain re 11,000-step goal (currently 10,000; \"I think\" aiming 11,000 next week; wants tips).\n- Cooking Qs: garam masala vs curry powder, vegan banana bread, \"I think\" lasagna \"always\" crowd-pleaser; frustrated w/ emotion-over-fact opinions.\n- Cakebread \"pretty popular\"; Stalin-era food-drop; Luna's faery-dwarf story; scheduling algos; Maldives fishing; marketing blogs; rescheduled mtg (\"really interesting\").\n- I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?\n- how much did food production decrease during stalin's reign",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "CHANGED",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "CHANGED",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?",
+          "how much did food production decrease during stalin's reign"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- 240 days earned leave; maternal grandmother lived to 85 (\"I guess\" above avg).\n- Starting *The Lean Startup*; wants Coursera/edX recs; researching hill-tribe tour; to write Section III (rental property).\n- Planning full-day King's Lynn trip ~8 am (Lynn Museum, Cafe Moccha).\n- Uncertain re 11,000-step goal (currently 10,000; \"I think\" aiming 11,000 next week; wants tips).\n- Cooking Qs: garam masala vs curry powder, vegan banana bread, \"I think\" lasagna \"always\" crowd-pleaser (made before; wants large-group serving tips).\n- Frustrated with emotion-over-fact opinions.\n- Misc: Cakebread \"pretty popular\"; Stalin-era food-drop question; Luna's faery-dwarf story; scheduling algos, Maldives fishing, marketing blogs; rescheduled mtg (\"really interesting\").",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "• 240 days earned leave. Maternal grandmother lived to 85 (\"I guess\" above avg).\n• Starting *The Lean Startup*; wants Coursera/edX recs. Researching hill-tribe tour. To write Section III (rental property).\n• Planning ~8 am full-day King's Lynn trip (Lynn Museum, Cafe Moccha).\n• Uncertain re 11,000-step goal (currently 10,000; \"I think\" aiming 11,000 next week; wants tips).\n• Cooking Qs: garam masala vs curry powder, vegan banana bread, \"I think\" lasagna \"always\" crowd-pleaser (wants large-group tips).\n• Frustrated with emotion-over-fact opinions.\n• Misc: Cakebread \"pretty popular\"; Stalin-era food-drop q; Luna's faery-dwarf story; scheduling algos, Maldives fishing, marketing blogs; rescheduled mtg (\"really interesting\").",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- 240 days earned leave; maternal grandmother lived to 85 (\"I guess\" above avg).\n- Starting *The Lean Startup*; wants Coursera/edX recs; researching hill-tribe tour; to write Section III (rental property).\n- Planning ~8 am full-day King's Lynn trip (Lynn Museum, Cafe Moccha).\n- Uncertain re 11,000-step goal (currently 10,000; \"I think\" aiming 11,000 next week; wants tips).\n- Cooking Qs: garam masala vs curry powder, vegan banana bread, \"I think\" lasagna \"always\" crowd-pleaser, large-group tips.\n- Frustrated with emotion-over-fact opinions.\n- Misc: Cakebread \"pretty popular,\" Stalin-era food-drop q, Luna's faery-dwarf story, scheduling algos, Maldives fishing, marketing blogs, rescheduled mtg (\"really interesting\").\n- Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "CHANGED",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": [
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "• 240 days earned leave; maternal grandmother lived to 85 (\"I guess\" above avg).\n• Starting *The Lean Startup*.\n• Planning ~8 am full-day King's Lynn trip.\n• Uncertain re 11,000-step goal (currently 10,000; \"I think\" aiming next week).\n• Wants Coursera/edX recs, hill-tribe tour; cooking Qs: garam masala vs curry powder, vegan banana bread, lasagna (\"always\" crowd-pleaser).\n• Frustrated with emotion-over-fact opinions.\n• Misc: Cakebread Cellars \"pretty popular\"; Stalin-era food-drop; Luna's faery-dwarf story; rescheduled mtg \"really interesting.\"\n- I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?\n- how much did food production decrease during stalin's reign\n- write section III",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "CHANGED",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "CHANGED",
+          "write section III": "MISSING",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?",
+          "how much did food production decrease during stalin's reign",
+          "write section III"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "• 240 days earned leave. Maternal grandmother lived to 85 (\"I guess\" above avg).\n• Starting *The Lean Startup*; planning ~8 am King's Lynn trip.\n• Uncertain re 11,000-step goal (currently 10,000; \"I think\" aiming next week).\n• Wants Coursera/edX + hill-tribe recommendations; cooking tips (garam masala vs curry powder, vegan banana bread, lasagna \"always\" crowd-pleaser, large-group efficiency; \"thinks\" will make lasagna).\n• Frustrated with emotion-over-fact opinions.\n• Asks Stalin-era food-decrease figure.\n• To write section III.\n- Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "MISSING",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": [
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- 240 days earned leave; grandmother to 85 (\"I guess\" above avg).\n- Starting *The Lean Startup*; ~8 am King's Lynn trip.\n- Uncertain re 11,000-step goal (currently 10,000; \"I think\" aiming next week).\n- Wants Coursera/edX + hill-tribe recs.\n- Cooking tips sought: garam masala vs curry powder, vegan banana bread, lasagna \"always\" crowd-pleaser, large-group efficiency; \"thinks\" will make lasagna.\n- Frustrated with emotion-over-fact opinions.\n- Asks Stalin-era food-decrease figure.\n- To write section III.\n- Asks about Cakebread Cellars (\"I've heard\" pretty popular too).\n- I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "CHANGED"
+        },
+        "restored": [
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?"
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- 240 days earned leave.\n- Grandma expected to 85 (\"I guess\" above average).\n- Starting *The Lean Startup*.\n- ~8 am trip to King's Lynn.\n- Uncertain about an 11,000-step goal next week (\"I think\"); currently at 10,000, doing \"pretty well,\" wants to push \"a bit more\"; wants activity tips.\n- Wants Coursera/edX and hill-tribe recommendations.\n- Cooking: garam masala vs. curry powder, vegan banana bread, lasagna \"always\" a crowd-pleaser, large-group efficiency; \"thinks\" will make lasagna.\n- Frustrated with emotion-over-fact opinions.\n- Asks for the Stalin-era food-decrease figure.\n- To write section III.\n- Asks about Cakebread Cellars (\"I've heard\" pretty popular).\n- That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "CHANGED",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": [
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- 240 days earned leave.\n- Starting *The Lean Startup*; ~8 am King's Lynn trip to write section III.\n- Wants activity tips: \"I think\" 11,000-step goal next wk; 10,000 steps \"pretty well.\"\n- Wants Coursera/edX + hill-tribe recommendations.\n- Cooking help: garam masala vs. curry powder, vegan banana bread, lasagna (\"always\" crowd-pleaser; \"thinks\" will make it).\n- Needs Stalin-era food-decrease figure.\n- Cakebread Cellars (\"I've heard\" pretty popular).\n- Frustrated with emotion-over-fact opinions.\n- Found \"really interesting\" that mother's-side grandmother actually lived to 85 (\"I guess\" above average).",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- 240 days earned leave.\n- Started *The Lean Startup* (~8 am King's Lynn trip, section III).\n- Wants Coursera/edX + hill-tribe recommendations.\n- Activity: \"I think\" 11,000-step goal next week; 10,000 \"pretty well.\"\n- Cooking: garam masala vs. curry powder; vegan banana bread; lasagna (\"always\" a crowd-pleaser; \"thinks\" will make it).\n- Needs a Stalin-era food-decrease figure.\n- Cakebread Cellars (\"I've heard\" pretty popular).\n- Frustrated with emotion-over-fact opinions.\n- Found \"really interesting\" that mother's-side grandmother lived to 85 (\"I guess\" above average).\n- write section III",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "CHANGED",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": [
+          "write section III"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- 240 days earned leave; started *The Lean Startup* (~8 am King's Lynn trip; section III to write).\n- Wants Coursera/edX + hill-tribe recommendations.\n- 11,000-step goal next week (\"I think\"); 10,000 \"pretty well.\"\n- Cooking: garam masala vs. curry powder; vegan banana bread; lasagna (\"always\" crowd-pleaser; \"thinks\" will make it).\n- Needs Stalin-era food-decrease figure.\n- Cakebread Cellars (\"I've heard\" pretty popular).\n- Frustrated with emotion-over-fact opinions.\n- Found \"really interesting\" that mother's-side grandmother lived to 85 (\"I guess\" above average).\n- I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "CHANGED",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Has 240 days of leave\n- Started *The Lean Startup* (~8 am King's Lynn trip; §III to write)\n- Wants Coursera/edX + hill-tribe recommendations\n- 11k-step goal next week (\"I think\"); 10k \"pretty well\"\n- Needs a Stalin-era food-decrease figure\n- Cakebread \"I've heard\" pretty popular\n- Frustrated with emotion-over-fact opinions\n- \"Really interesting\" mother's-side grandmother lived to 85 (\"I guess\" above average)\n- Decided on lasagna (\"always\" crowd-pleaser, made before, \"thinks\" will make it); asks large-group efficiency tips\n- Also asks: garam masala vs. curry powder; vegan banana bread\n- I have accumulated 240 days of earned leave.",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "CHANGED",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": [
+          "I have accumulated 240 days of earned leave."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- 240 days of leave. Started *The Lean Startup* (~8 am King's Lynn trip; §III to write).\n- Wants Coursera/edX and hill-tribe recommendations.\n- 11k-step goal next week (\"I think\"); 10k \"pretty well.\"\n- Needs Stalin-era food-decrease figure.\n- Cakebread: \"I've heard\" it's pretty popular.\n- Frustrated by emotion-over-fact opinions.\n- Found mom's-side grandma's 85-year lifespan \"really interesting\" (\"I guess\" above average).\n- Decided on lasagna (\"always\" crowd-pleaser, made before, \"thinks\" it'll work); needs large-group efficiency tips.\n- Asks: garam masala vs. curry powder; vegan banana bread.\n- I have accumulated 240 days of earned leave.\n- I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "CHANGED",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?": "CHANGED",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME",
+          "how much did food production decrease during stalin's reign": "SAME",
+          "write section III": "SAME",
+          "I think I'll set a goal to reach 11,000 steps per day for the next week. I've been doing pretty well with my daily step goal of 10,000 steps, but I want to challenge myself a bit more. Do you have any tips on how to incorporate more physical activity into my daily routine?": "SAME"
+        },
+        "restored": [
+          "I have accumulated 240 days of earned leave.",
+          "I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?"
+        ]
+      }
+    }
+  ]
+}

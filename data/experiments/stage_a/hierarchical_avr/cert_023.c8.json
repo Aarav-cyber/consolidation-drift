@@ -1,0 +1,286 @@
+{
+  "item_id": "cert_023",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.061267+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The weekend workshop will probably happen as scheduled.\nUser: That's interesting! Do you know if Embraer has faced any challenges in meeting regulations or standards set by these governmental organizations and regulatory bodies?\nUser: I'm thinking of adding a shelf above my low-profile storage bench to store some folded clothes and accessories.\nUser: can you expand on strategy number 10 and how i can use it with my child?\nUser: I'm looking for some fashion advice. I want to find a nice pair of shoes to match my new outfit, a yellow shirt and white pants. My mom and I actually went shopping for new outfits for the whole family just two weeks ago, and I'm really happy with how they turned out.\nUser: Can the Constituent Assembly guarantee that there will be no fraudulent activities in the election process? How can they ensure the accuracy of the results?\nUser: Chapter 5: Overcoming Obstacles\nUser: Expand on month 3\nUser: I'm planning to take a ride on a bike trail this weekend, and I was wondering if you could give me some tips on how to navigate the trail and avoid any potential hazards.",
+      "anchors": [
+        "The weekend workshop will probably happen as scheduled.",
+        "can you expand on strategy number 10 and how i can use it with my child?",
+        "Expand on month 3"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Workshop will **probably** proceed as scheduled.\n- Planning to bike a trail this weekend; seeking navigation/hazard tips.\n- Asked about Embraer's regulatory challenges.\n- Asked whether the Constituent Assembly can guarantee **no** election fraud.\n- Referenced Chapter 5 (Overcoming Obstacles).\n- Asked to expand on month 3 and strategy #10 for their child.\n- Sought shoe advice for a yellow shirt/white pants outfit; shopped with mom 2 wks ago; **really** happy with family outfits.\n- Wants to add a shelf above a low-profile storage bench for folded clothes/accessories.",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "SAME",
+          "Expand on month 3": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Workshop probably on schedule.\n- Planning weekend bike trail; needs nav/hazard tips.\n- Asked re Embraer regulatory challenges.\n- Asked whether Constituent Assembly can guarantee **no** election fraud.\n- Referenced Ch. 5.\n- Asked to expand on month 3 & strategy #10 for their child.\n- Sought shoe advice for yellow shirt/white pants outfit (shopped w/ mom 2 wks ago; **really** happy w/ family outfits).\n- Wants shelf above low-profile storage bench for folded clothes/accessories.\n- can you expand on strategy number 10 and how i can use it with my child?",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "CHANGED",
+          "Expand on month 3": "SAME"
+        },
+        "restored": [
+          "can you expand on strategy number 10 and how i can use it with my child?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Workshop probably on schedule.\n- Planning weekend bike trail; needs nav/hazard tips.\n- Asked re: Embraer regulatory challenges.\n- Asked whether the Constituent Assembly can guarantee **no** election fraud (ref. Ch. 5).\n- Expanding month 3 & strategy #10 for their child.\n- Wants shoe advice for a yellow shirt/white pants outfit; shopped with mom 2 wks ago, **really** happy with family outfits.\n- Wants a shelf above a low-profile storage bench for folded clothes/accessories.\n- can you expand on strategy number 10 and how i can use it with my child?",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "CHANGED",
+          "Expand on month 3": "SAME"
+        },
+        "restored": [
+          "can you expand on strategy number 10 and how i can use it with my child?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Workshop probably on schedule.\n- Planning weekend bike trail; needs nav/hazard tips.\n- Asked about Embraer regulatory challenges.\n- Asked whether Constituent Assembly can guarantee **no** election fraud (Ch. 5).\n- Expanding month 3 & strategy #10 for child; asked to expand on strategy #10 usage.\n- Wants shoe advice for yellow shirt/white pants; shopped with mom 2 weeks ago, **really** happy with family outfits.\n- Wants a shelf above low-profile storage bench for folded clothes/accessories.",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "SAME",
+          "Expand on month 3": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Workshop probably on schedule.\n- Topics: weekend bike trail (needs nav/hazard tips); Embraer regulatory challenges; whether Constituent Assembly can guarantee no election fraud (Ch. 5); expanding month 3 & strategy #10 for child (asked to expand on #10 usage).\n- Wants shoe advice for yellow shirt/white pants.\n- Shopped with mom 2 weeks ago; really happy with family outfits.\n- Wants a shelf above a low-profile storage bench for folded clothes/accessories.",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "SAME",
+          "Expand on month 3": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Workshop **probably** on schedule. Topics: weekend bike trail (needs nav/hazard tips); Embraer regulatory challenges; whether Constituent Assembly can guarantee no election fraud (Ch. 5); expanding month 3 & strategy #10 for child (asked to expand on #10 usage).\n- Wants shoe advice (pairing with yellow shirt / white pants).\n- Wants a shelf above a low-profile storage bench for folded clothes/accessories.\n- Shopped with mom 2 wks ago; really happy with family outfits.",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "SAME",
+          "Expand on month 3": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Workshop **probably** on schedule. Topics: weekend bike trail nav/hazard tips; Embraer regulatory challenges; Constituent Assembly guarantee re: election fraud Ch. 5; expand month 3 & strategy #10 for child.\n- Wants shoe advice (yellow shirt, white pants).\n- Shelf above low-profile storage bench for folded clothes/accessories.\n- Shopped with mom 2 weeks ago; really happy with family outfits.",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "SAME",
+          "Expand on month 3": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Workshop probably on schedule; topics: weekend bike trail nav/hazard tips, Embraer regulatory challenges, Constituent Assembly guarantee re: election fraud Ch. 5, expand month 3 & strategy #10 for child.\n- Wants shoe advice to match yellow shirt/white pants.\n- Suggests a shelf above a low-profile storage bench for folded clothes/accessories.\n- Shopped with mom 2 weeks ago; really happy with family outfits.",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "SAME",
+          "Expand on month 3": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Workshop **probably** on schedule; topics: weekend bike trail nav/hazard tips, Embraer regulatory challenges, and Constituent Assembly guarantee re: election fraud (Ch. 5).\n- Expanding month 3 & strategy #10 for child.\n- Wants shoe advice to match yellow shirt/white pants.\n- Suggests a shelf above a low-profile storage bench for folded clothes/accessories.\n- Shopped with mom 2 weeks ago; **really** happy with the family outfits.\n- can you expand on strategy number 10 and how i can use it with my child?",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "CHANGED",
+          "Expand on month 3": "SAME"
+        },
+        "restored": [
+          "can you expand on strategy number 10 and how i can use it with my child?"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Workshop probably on schedule; topics: bike trail tips, Embraer regulatory, Constituent Assembly Ch. 5.\n- Expanding month 3 and strategy #10 for a child; asks to expand strategy #10 for child use.\n- Wants shoe advice to go with yellow shirt/white pants.\n- Suggests a shelf above a low-profile storage bench.\n- Shopped with mom 2 wks ago; really happy with family outfits.",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "SAME",
+          "Expand on month 3": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Workshop probably on schedule (bike trail tips, Embraer regulatory, Constituent Assembly Ch. 5).\n- Expanding month 3 & strategy #10 for child use.\n- Wants shoe advice for yellow shirt/white pants.\n- Suggests shelf above low-profile storage bench.\n- Shopped with mom 2 wks ago.\n- Really happy with family outfits.\n- can you expand on strategy number 10 and how i can use it with my child?",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "CHANGED",
+          "Expand on month 3": "SAME"
+        },
+        "restored": [
+          "can you expand on strategy number 10 and how i can use it with my child?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Workshop probably on schedule (bike trail tips, Embraer regulatory, Constituent Assembly Ch. 5); expanding month 3 & strategy #10 for child use.\n- Wants shoe advice for yellow shirt/white pants.\n- Suggests shelf above low-profile storage bench.\n- Shopped with mom 2 weeks ago; really happy with family outfits.",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "SAME",
+          "Expand on month 3": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Workshop probably on schedule (bike trail tips, Embraer regulatory, Constituent Assembly Ch. 5); expanding month 3 & strategy #10 for child use.\n- Wants shoe advice for yellow shirt/white pants.\n- Suggests shelf above low-profile storage bench.\n- Shopped with mom 2 weeks ago; really happy with family outfits.",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "SAME",
+          "Expand on month 3": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Workshop probably on schedule; covers bike trail tips, Embraer regulatory, and Constituent Assembly Ch. 5.\n- Expanding in month 3; strategy #10 for child use.\n- Wants shoe advice for a yellow shirt/white pants outfit.\n- Suggests a shelf above a low-profile storage bench.\n- Shopped with mom 2 weeks ago; is really happy with the family outfits.\n- can you expand on strategy number 10 and how i can use it with my child?",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "CHANGED",
+          "Expand on month 3": "SAME"
+        },
+        "restored": [
+          "can you expand on strategy number 10 and how i can use it with my child?"
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Workshop **probably** on schedule: bike trail tips, Embraer regulatory, Constituent Assembly Ch. 5; expanding in month 3.\n- Specifically asks to expand on strategy #10 for use with their child.\n- Wants shoe advice for a yellow shirt/white pants outfit.\n- Suggests a shelf above a low-profile storage bench.\n- Notes shopping with mom 2 weeks ago—**really** happy with the family outfits.\n- can you expand on strategy number 10 and how i can use it with my child?\n- Expand on month 3",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "CHANGED",
+          "Expand on month 3": "CHANGED"
+        },
+        "restored": [
+          "can you expand on strategy number 10 and how i can use it with my child?",
+          "Expand on month 3"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Workshop **probably** on schedule: bike trail tips, Embraer regulatory, Constituent Assembly Ch. 5.\n- Specifically asks to expand strategy #10 for their child and to expand month 3.\n- Wants shoe advice for yellow shirt/white pants.\n- Suggests shelf above low-profile storage bench.\n- Shopped with mom 2 wks ago—**really** happy with family outfits.\n- can you expand on strategy number 10 and how i can use it with my child?",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "CHANGED",
+          "Expand on month 3": "SAME"
+        },
+        "restored": [
+          "can you expand on strategy number 10 and how i can use it with my child?"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "• Workshop probably on schedule (bike trail tips, Embraer regulatory, Constituent Assembly Ch. 5).\n• Asks to expand strategy #10 for their child and to expand month 3.\n• Wants shoe advice for yellow shirt/white pants.\n• Suggests shelf above low-profile storage bench.\n• Shopped with mom 2 wks ago—really happy with family outfits.",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "SAME",
+          "Expand on month 3": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Workshop probably on schedule (bike trail tips, Embraer regulatory, Constituent Assembly Ch. 5).\n- Asks to expand strategy #10 for their child and month 3.\n- Wants shoe advice for yellow shirt/white pants.\n- Suggests shelf above low-profile storage bench.\n- Shopped with mom 2 wks ago; really happy with family outfits.\n- can you expand on strategy number 10 and how i can use it with my child?\n- Expand on month 3",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "CHANGED",
+          "Expand on month 3": "CHANGED"
+        },
+        "restored": [
+          "can you expand on strategy number 10 and how i can use it with my child?",
+          "Expand on month 3"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Workshop probably on schedule (bike trail tips, Embraer regulatory, Constituent Assembly Ch. 5).\n- Really happy with family outfits from shopping with mom 2 weeks ago.\n- Wants strategy #10 expanded for child at month 3.\n- Shoe advice for yellow shirt/white pants.\n- Shelf above low-profile storage bench.\n- can you expand on strategy number 10 and how i can use it with my child?\n- Expand on month 3",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "CHANGED",
+          "Expand on month 3": "CHANGED"
+        },
+        "restored": [
+          "can you expand on strategy number 10 and how i can use it with my child?",
+          "Expand on month 3"
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "• Workshop probably on schedule: bike trail tips, Embraer regulatory, Constituent Assembly Ch. 5.\n• Really happy with family outfits from shopping with mom 2 weeks ago.\n• Asks for strategy #10 expanded for child at month 3.\n• Asks for shoe advice for yellow shirt/white pants.\n• Asks for a shelf above a low-profile storage bench.\n- Expand on month 3",
+      "avr": {
+        "verdicts": {
+          "The weekend workshop will probably happen as scheduled.": "SAME",
+          "can you expand on strategy number 10 and how i can use it with my child?": "SAME",
+          "Expand on month 3": "CHANGED"
+        },
+        "restored": [
+          "Expand on month 3"
+        ]
+      }
+    }
+  ]
+}

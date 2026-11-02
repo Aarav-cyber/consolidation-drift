@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_007",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:46:57.044818+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain the staging server is still offline."
+    },
+    {
+      "round": 1,
+      "memory": "- The staging server is confirmed to still be offline."
+    },
+    {
+      "round": 2,
+      "memory": "- Staging server is confirmed still offline."
+    },
+    {
+      "round": 3,
+      "memory": "- Staging server confirmed still offline."
+    },
+    {
+      "round": 4,
+      "memory": "- The staging server has been confirmed to still be offline."
+    },
+    {
+      "round": 5,
+      "memory": "- Confirmed: the staging server is still offline."
+    },
+    {
+      "round": 6,
+      "memory": "- Confirmed: staging server is still offline."
+    },
+    {
+      "round": 7,
+      "memory": "- Staging server confirmed to still be offline."
+    },
+    {
+      "round": 8,
+      "memory": "- Staging server: confirmed still offline."
+    },
+    {
+      "round": 9,
+      "memory": "- Staging server confirmed still offline."
+    },
+    {
+      "round": 10,
+      "memory": "- The staging server was confirmed to still be offline."
+    },
+    {
+      "round": 11,
+      "memory": "- Staging server was confirmed to still be offline."
+    },
+    {
+      "round": 12,
+      "memory": "- Staging server confirmed still offline."
+    },
+    {
+      "round": 13,
+      "memory": "- Staging server was confirmed to still be offline."
+    },
+    {
+      "round": 14,
+      "memory": "- Staging server was confirmed to still be offline."
+    },
+    {
+      "round": 15,
+      "memory": "- The staging server was confirmed to still be offline."
+    },
+    {
+      "round": 16,
+      "memory": "- The staging server is confirmed still offline."
+    },
+    {
+      "round": 17,
+      "memory": "- The staging server was confirmed to still be offline."
+    },
+    {
+      "round": 18,
+      "memory": "- Staging server was confirmed still offline."
+    },
+    {
+      "round": 19,
+      "memory": "- Staging server confirmed still offline."
+    },
+    {
+      "round": 20,
+      "memory": "- Staging server confirmed still offline."
+    }
+  ]
+}

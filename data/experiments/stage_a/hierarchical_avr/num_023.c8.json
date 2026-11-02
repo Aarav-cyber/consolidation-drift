@@ -1,0 +1,295 @@
+{
+  "item_id": "num_023",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.003476+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I own about 120 books in total.\nUser: It's amazing to see how much women's involvement in revolutionary movements can create change, especially in terms of advancing gender equality. Have there been any similar movements in recent years with significant female involvement?\nUser: I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\nUser: I've been to The Wharf before, actually. My brother proposed to his girlfriend there on September 20th, and it was a beautiful spot. Do you have any recommendations for activities or attractions in Santa Monica that would be good for a solo traveler or a couple?\nUser: I'm in the market for a new car and I'm interested in the Honda CR-V. Can you help me find a dealership near me and schedule a test-drive?\nUser: I'm also planning to take a domestic flight from Tokyo to Osaka later in my trip, do you think I can use my accumulated miles to upgrade to business class on that flight as well?\nUser: I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?\nAgent: *This chat conversation is shared from [**TypingMind.com**](https://typingmind.com)*\nUser: What is the educational attainment level of Detroit residents, and how does this impact access to higher-paying jobs?",
+      "anchors": [
+        "I own about 120 books in total.",
+        "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+        "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "• Owns ~120 books.\n• Asked about women-led revolutionary movements advancing gender equality and similar recent ones.\n• Seeking coffee makers under $50 to cut commute costs.\n• Previously visited The Wharf (brother proposed there Sept 20th); asked for Santa Monica recs for solo/couple.\n• Shopping for a Honda CR-V (find dealership + test-drive).\n• Uncertain (\"do you think\") if accumulated miles can upgrade a Tokyo→Osaka flight to business.\n• Doesn't believe in therapy or talking out problems; asked for alternatives.\n• Shared TypingMind chat.\n• Asked about Detroit residents' educational attainment and its impact on higher-paying job access.",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Owns ~120 books.\n- Asked about women-led revolutionary movements advancing gender equality.\n- Sought Santa Monica recs (solo/couple) after visiting The Wharf (brother proposed there Sept 20th).\n- Inquired about Detroit's educational attainment and higher-paying job access.\n- Searched for coffee makers under $50 to cut commute costs.\n- Shopping for a Honda CR-V (dealership + test-drive).\n- Uncertain (\"do you think\") whether accumulated miles can upgrade a Tokyo→Osaka flight to business.\n- Doesn't believe in therapy or talking out problems; asked for alternatives.\n- Shared a TypingMind chat.",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Owns ~120 books.\n- Asked about women-led revolutionary movements for gender equality.\n- Asked about Detroit educational attainment & higher-paying job access.\n- Asked for Santa Monica recs (solo/couple) post-The Wharf; brother proposed Sept 20th.\n- Searched coffee makers under $50 to cut commute costs.\n- Shopping for a Honda CR-V (dealership + test-drive).\n- Uncertain whether accumulated miles can upgrade a Tokyo→Osaka flight to business.\n- Doesn't believe in therapy or talking out problems; sought alternatives.\n- Shared a TypingMind chat.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Owns ~120 books.\n- Asked about women-led revolutionary movements for gender equality, Detroit educational attainment / higher-paying job access, and Santa Monica recs (solo/couple) post-The Wharf (brother proposed Sept 20th).\n- Shopping for a Honda CR-V (dealership + test-drive) and coffee makers under $50 to cut daily commute costs.\n- Uncertain whether accumulated miles can upgrade a Tokyo→Osaka flight to business.\n- Doesn't believe in therapy or talking out problems; sought alternatives.\n- Shared a TypingMind chat.",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Owns ~120 books.\n- Asked about women-led revolutionary movements for gender equality, Detroit educational attainment/higher-paying job access, and Santa Monica recs (solo/couple) post-The Wharf (brother proposed Sept 20th).\n- Shopping for a Honda CR-V (dealership + test-drive) and coffee makers under $50 to cut daily commute costs.\n- Uncertain whether accumulated miles can upgrade a Tokyo→Osaka flight to business.\n- Doesn't believe in therapy or talking out problems; sought alternatives.\n- Shared a TypingMind chat.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "• Owns ~120 books.\n• Asked about women-led revolutionary movements for gender equality, Detroit edu attainment/higher-paying job access, and Santa Monica solo/couple recs post-The Wharf (brother proposed Sept 20th).\n• Shopping for a Honda CR-V (dealership + test-drive) and coffee makers <$50 to reduce daily commute costs.\n• Uncertain whether accumulated miles can upgrade a Tokyo→Osaka flight to business.\n• Doesn't believe in therapy or talking out problems; sought alternatives.\n• Shared a TypingMind chat.",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Owns ~120 books.\n- Asked about women-led revolutionary movements for gender equality, Detroit educational attainment/higher-paying job access, and Santa Monica solo/couple recommendations post-The Wharf (brother proposed Sept 20th).\n- Shopping for a Honda CR-V (dealership + test-drive) and coffee makers <$50 to cut daily commute costs.\n- Uncertain whether accumulated miles can upgrade a Tokyo→Osaka flight to business class.\n- Disbelieves in therapy/talking out problems; sought alternatives; shared a TypingMind chat.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Owns ~120 books.\n- Asked about women-led revolutionary movements for gender equality, Detroit educational attainment/higher-paying job access, and Santa Monica solo/couple spots post-The Wharf (brother proposed Sept 20th).\n- Shopping for a Honda CR-V (dealership + test-drive) and \"some good\" coffee makers under $50 to cut daily commute costs.\n- Uncertain whether accumulated miles can upgrade a Tokyo→Osaka flight to business class.\n- Disbelieves in therapy/talking out problems; sought alternatives.\n- Shared a TypingMind chat.",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Owns ~120 books.\n- Asked about women-led revolutionary movements for gender equality; Detroit educational attainment/higher-paying job access; Santa Monica solo/couple spots post-The Wharf (brother proposed Sept 20th).\n- Shopping for a Honda CR-V (dealership + test-drive) and \"some good\" coffee makers under $50 to cut commute costs.\n- Uncertain whether accumulated miles can upgrade a Tokyo→Osaka flight to business class.\n- Disbelieves in therapy/talking out problems; sought alternatives.\n- Shared a TypingMind chat.",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "• Owns ~120 books.\n• Asked about: women-led gender-equality revolutionary movements; Detroit educational attainment / higher-paying job access; Santa Monica solo/couple spots post-The Wharf (brother proposed Sept 20th).\n• Shopping for a Honda CR-V (dealership + test-drive) and \"some good\" coffee makers under $50 to cut commute costs.\n• Uncertain whether accumulated miles can upgrade a Tokyo→Osaka flight to business class.\n• Disbelieves in therapy / talking out problems; sought alternatives.\n• Shared a TypingMind chat.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Owns ~120 books.\n- Asked about women-led gender-equality movements, Detroit education/higher-paying job access, and Santa Monica solo/couple spots post-The Wharf (brother proposed Sept 20th).\n- Shopping for a Honda CR-V (dealership + test-drive) and \"some good\" coffee makers under $50 to cut commute costs.\n- Uncertain whether accumulated miles can upgrade a Tokyo→Osaka flight to business class.\n- Shared a TypingMind chat.\n- Strongly disbelieves in therapy or talking to anyone about problems; sought alternatives to try.\n- I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "CHANGED"
+        },
+        "restored": [
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Owns ~120 books.\n- Asked about women-led gender-equality movements, Detroit education/higher-paying job access, and Santa Monica solo/couple spots post-The Wharf (brother proposed Sept 20th).\n- Shopping for a Honda CR-V (dealership + test-drive) and \"some good\" coffee makers <$50 to cut commute costs.\n- Uncertain whether accumulated miles can upgrade a Tokyo→Osaka flight to business class.\n- Shared a TypingMind chat.\n- Strongly disbelieves in therapy or talking to anyone about problems; asked for alternatives.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Owns ~120 books.\n- Asked about women-led gender-equality movements, Detroit education/higher-paying job access, and Santa Monica solo/couple spots post-The Wharf (brother proposed Sept 20th).\n- Shopping for a Honda CR-V and \"some good\" coffee makers under $50 to cut commute costs.\n- Uncertain whether accumulated miles can upgrade a Tokyo→Osaka flight to business class.\n- Shared a TypingMind chat.\n- Strongly disbelieves in therapy or talking to anyone about problems; asked for alternatives.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Owns ~120 books.\n- Inquired about women-led gender-equality movements, Detroit education/higher-paying job access, and Santa Monica solo/couple spots post-The Wharf (brother proposed Sept 20th).\n- Shopping for a Honda CR-V and \"some good\" coffee makers under $50 to cut daily commute costs.\n- Uncertain whether accumulated miles can upgrade a Tokyo→Osaka flight to business class.\n- Shared a TypingMind chat.\n- Strongly disbelieves in therapy or talking to anyone about problems; asked for alternatives.\n- I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "CHANGED"
+        },
+        "restored": [
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?"
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Owns ~120 books.\n- Asked about women-led gender-equality movements, Detroit education/higher-paying job access, and Santa Monica solo/couple spots post-The Wharf (brother proposed Sept 20th).\n- Shopping for Honda CR-V + \"some good\" coffee makers <$50 to cut commute costs.\n- Uncertain whether accumulated miles can upgrade Tokyo→Osaka to business class.\n- Shared a TypingMind chat.\n- Strongly disbelieves in therapy or talking to anyone about problems; asked for alternatives.\n- I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "CHANGED"
+        },
+        "restored": [
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Owns ~120 books.\n- Asked about women-led gender-equality movements; Detroit education/higher-paying job access; Santa Monica solo/couple spots post-The Wharf (brother's Sept 20th proposal).\n- Shopping: Honda CR-V + \"some good\" coffee makers <$50 to cut commute costs.\n- Uncertain whether accumulated miles upgrade Tokyo→Osaka to business.\n- Shared a TypingMind chat.\n- Strongly disbelieves in therapy or talking to anyone about problems; asked for alternatives.\n- I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "CHANGED"
+        },
+        "restored": [
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Owns ~120 books.\n- Inquired about women-led gender-equality movements, Detroit education and higher-paying job access, and Santa Monica solo/couple spots post-The Wharf (brother's Sept 20th proposal).\n- Shopping: Honda CR-V plus \"some good\" coffee makers under $50 to cut commute costs.\n- Uncertain whether accumulated miles upgrade Tokyo→Osaka to business class.\n- Shared a TypingMind chat.\n- Strongly disbelieves in therapy or talking to anyone about problems; asked for alternatives.\n- I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "CHANGED"
+        },
+        "restored": [
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Owns ~120 books.\n- Asked about women-led gender-equality movements, Detroit education/higher-paying jobs, and Santa Monica solo/couple spots post-The Wharf (brother's Sept 20th proposal).\n- Shopping for a Honda CR-V and \"some good\" coffee makers under $50 to cut commute costs.\n- Uncertain whether accumulated miles will upgrade Tokyo→Osaka to business class.\n- Shared a TypingMind chat.\n- Strongly disbelieves in therapy/talking to anyone about problems; asked for alternatives.\n- I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "CHANGED"
+        },
+        "restored": [
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Owns ~120 books.\n- Asked about: women-led gender-equality movements; Detroit education/higher-paying jobs; Santa Monica solo/couple spots post-The Wharf (brother's Sept 20th proposal).\n- Shopping for a Honda CR-V and \"some good\" coffee makers under $50 to cut commute costs.\n- Uncertain whether accumulated miles will upgrade Tokyo→Osaka to business class.\n- Shared a TypingMind chat.\n- Strongly disbelieves in therapy or talking to anyone about problems; asks for alternatives.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?"
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Owns ~120 books.\n- Asked about women-led gender-equality movements, Detroit education/higher-paying jobs, and Santa Monica solo/couple spots post-The Wharf (brother's Sept 20th proposal).\n- Shopping for a Honda CR-V and \"some good\" coffee makers under $50 to cut daily commute costs.\n- Uncertain whether accumulated miles will upgrade Tokyo→Osaka to business class.\n- Shared a TypingMind chat.\n- Strongly disbelieves in therapy or talking to anyone about problems; asks for alternatives.\n- I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?",
+      "avr": {
+        "verdicts": {
+          "I own about 120 books in total.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?": "CHANGED"
+        },
+        "restored": [
+          "I don't believe in therapy or talking to anyone about my problems. Is there anything else I can try?"
+        ]
+      }
+    }
+  ]
+}

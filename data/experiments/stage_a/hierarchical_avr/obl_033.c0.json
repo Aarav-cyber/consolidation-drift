@@ -1,0 +1,235 @@
+{
+  "item_id": "obl_033",
+  "context_level": "c0",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.946898+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to save the presentation before the system update.",
+      "anchors": [
+        "I really need to save the presentation before the system update."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- The speaker **really** needs to save the presentation before the system update.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- The speaker really needs to save their presentation before a system update.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- The speaker really needs to save their presentation before a system update occurs.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- The speaker strongly needs to save their presentation before a system update occurs.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Strongly needs to save their presentation before the system update happens. This is urgent.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- They strongly need to save their presentation before the system update; the situation is urgent.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- They strongly need to save their presentation before the system update; the situation is urgent.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- They strongly and urgently need to save their presentation before the system update.\n- I really need to save the presentation before the system update.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "CHANGED"
+        },
+        "restored": [
+          "I really need to save the presentation before the system update."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Strong and urgent need to save the presentation before the system update.\n- I really need to save the presentation before the system update.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "CHANGED"
+        },
+        "restored": [
+          "I really need to save the presentation before the system update."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Speaker has a strong, urgent need to save the presentation before the system update.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Speaker has a strong, urgent need to save the presentation before the system update.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Speaker strongly and urgently needs to save their presentation before a system update.\n- I really need to save the presentation before the system update.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "CHANGED"
+        },
+        "restored": [
+          "I really need to save the presentation before the system update."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Strongly and urgently needs to save the presentation before the system update.\n- I really need to save the presentation before the system update.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "CHANGED"
+        },
+        "restored": [
+          "I really need to save the presentation before the system update."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Urgently and strongly needs to save a presentation before a system update.\n- The need is repeated with emphasis (\"really need\").",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Urgently and strongly needs to save a presentation before a system update; emphasized the need by saying they \"really need\" it done.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Urgently and strongly needs to save a presentation before a system update; emphasizes they \"really need\" it done.\n- I really need to save the presentation before the system update.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "CHANGED"
+        },
+        "restored": [
+          "I really need to save the presentation before the system update."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Urgent need to save a presentation before a system update; the urgency was strongly emphasized (\"really need\").",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- The speaker strongly and urgently emphasized (\"really need\") that they must save their presentation before a system update.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Speaker urgently emphasized they really need to save their presentation before a system update.\n- I really need to save the presentation before the system update.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "CHANGED"
+        },
+        "restored": [
+          "I really need to save the presentation before the system update."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- The speaker urgently emphasized that they really need to save their presentation before a system update.\n- I really need to save the presentation before the system update.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "CHANGED"
+        },
+        "restored": [
+          "I really need to save the presentation before the system update."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_019",
+  "context_level": "c20",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.091288+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The company will probably announce the festival bonus next week.\nUser: Let's go back to the last version of the story before changing it to a script.\nUser: please continue, provide 10 additional examples, different from the ones you already mentioned\nUser: May use Interactive Brockers API or IB\\_insync in Tensortrade?\nUser: What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.\nUser: I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\nUser: I'm actually looking for something a bit more casual, like a good coffee shop. I was impressed by the fitness center at the Hilton, by the way. Do you know of any coffee shops near the hotel that I could grab a quick coffee?\nUser: I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.\nUser: So, I was thinking of creating a Twitter poll about the Marvel movie, but I'm not sure what question to ask. Do you have any suggestions for a poll question that could generate a lot of engagement?\nUser: What do you think about adding a small icon or graphic to the onesie design, like a baby block or a tiny footprint, to make it more visually appealing and playful?\nUser: I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\nUser: I'm considering getting the Ring Stick Up Cam. Would it be possible to view the camera's live feed on my Echo Show 8, and can I also use it to talk to whoever is at my front door?\nUser: I've got a few more questions about the track editor. Can you tell me more about the scripting system? How complex can you get with it, and are there any examples of what kind of things you can do with it?\nUser: Do you think the idea of de-growth could lead to a recession or economic depression? It seems like reducing consumption and production could have a negative impact on the economy.\nUser: What are some good digital calendars that you would recommend? I'm currently using a physical planner, but I'm thinking of switching to a digital one for better organization and accessibility.\nUser: Wow, I didn't realize Troy Baker voiced so many characters! Do you have a favorite role of his?\nUser: It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?\nUser: I'm thinking of getting a smart plug to control my floor lamp in my bedroom, so I can turn it on and off remotely. Do you know if there are any good smart plug options out there?\nUser: I'm trying to find some new ideas for exercising my cat, Luna. She loves playing with her laser pointer toy, but I want to mix it up a bit. Do you have any suggestions?\nUser: I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?\nUser: I like the sound of that coleslaw. Do you have a recipe that uses Greek yogurt instead of mayonnaise?"
+    },
+    {
+      "round": 1,
+      "memory": "- Probable festival bonus next week; reverting story to pre-script version + 10 new examples; *possible* IB API/IB_insync in Tensortrade\n- Old hiking boots \"not comfortable at all\" (Feb 11); 4800-tweet \"academic writing anxiety\" modeling; Hilton-area coffee shop (impressed by fitness center)\n- Disbelief: Jane's Rochester departure \"seems like a dramatic move for no reason\"; Marvel poll brainstorming; onesie baby-block/footprint icon feedback\n- Writing-group recs; Ring Stick Up Cam→Echo Show 8 feasibility; track editor scripting; de-growth *could* lead to recession/depression; \"good\" digital calendar suggestions (considering switch from physical planner); Troy Baker \"so many\" roles\n- $120 Amazon kitchen appliance (exceeded monthly allowance); similar-appliance recipes; smart plug for bedroom lamp; cat Luna exercises (loves laser pointer); strength training (unsure re: warm-up); coleslaw with Greek yogurt, not mayonnaise"
+    },
+    {
+      "round": 2,
+      "memory": "- Probable festival bonus next week; reverting story to pre-script +10 new examples. *Possible* IB API/IB_insync in Tensortrade.\n- Old boots \"not comfortable at all\" (Feb 11); 4800-tweet academic-writing-anxiety modeling.\n- Disbelief: Jane's Rochester departure \"seems like a dramatic move for no reason.\"\n- $120 Amazon kitchen appliance (exceeded monthly allowance).\n- De-growth *could* lead to recession/depression.\n- Coleslaw w/ Greek yogurt, not mayonnaise.\n- Strength training (unsure re: warm-up); Troy Baker \"so many\" roles.\n- \"Good\" digital calendar suggestions (considering switch from physical planner).\n- Writing-group recs; Ring Stick Up Cam→Echo Show 8 feasibility; track editor scripting; Marvel poll brainstorming; onesie baby-block/footprint icon feedback.\n- Smart plug for bedroom lamp; cat Luna exercises (loves laser pointer).\n- Similar-appliance recipes; Hilton-area coffee shop (impressed by fitness center)."
+    },
+    {
+      "round": 3,
+      "memory": "- Probable festival bonus next wk; story reverting to pre-script + 10 new examples; *possible* IB API/IB_insync in Tensortrade.\n- Old boots \"not comfortable at all\" (Feb 11); 4,800-tweet academic-writing-anxiety modeling.\n- Disbelief at Jane's Rochester departure (\"seems like a dramatic move for no reason\").\n- $120 Amazon kitchen appliance (exceeded monthly allowance); de-growth *could* lead to recession/depression.\n- Coleslaw: Greek yogurt, not mayo; strength training (unsure re: warm-up).\n- Troy Baker \"so many\" roles; \"good\" digital calendar suggestions (considering switch from physical planner).\n- Writing-group recs, Ring Stick Up Cam→Echo Show 8 feasibility, track editor scripting, Marvel poll brainstorming, onesie baby-block/footprint icon feedback.\n- Smart plug for bedroom lamp; cat Luna exercises (loves laser pointer); similar-appliance recipes.\n- Hilton-area coffee shop (impressed by fitness center)."
+    },
+    {
+      "round": 4,
+      "memory": "- Probable festival bonus next wk; story reverting to pre-script + 10 new examples; *possible* IB API/IB_insync in Tensortrade; track editor scripting\n- Ring→Echo Show 8 feasibility; smart plug for bedroom lamp\n- Boots \"not comfortable at all\" (Feb 11); 4,800-tweet anxiety modeling\n- Disbelief at Jane's Rochester departure (\"dramatic move for no reason\")\n- $120 Amazon appliance (exceeded allowance)\n- De-growth *could* → recession/depression\n- Coleslaw = Greek yogurt not mayo; strength training (unsure re: warm-up)\n- Troy Baker \"so many\" roles; \"good\" digital calendar recs (considering switch)\n- Luna loves laser pointer; Marvel poll; onesie icon feedback; writing-group recs\n- Similar-appliance recipes; Hilton-area coffee shop (impressed by fitness center)"
+    },
+    {
+      "round": 5,
+      "memory": "- Probable festival bonus next wk; story reverting + 10 new examples.\n- Possible IB API/IB_insync in Tensortrade; Ring→Echo Show 8 + smart plug feasibility.\n- Boots \"not comfortable at all\" (Feb 11); 4,800-tweet anxiety.\n- Disbelief at Jane's Rochester departure (\"dramatic for no reason\").\n- $120 Amazon appliance (exceeded allowance); de-growth *could*→recession/depression.\n- Coleslaw = Greek yogurt, not mayo; strength training (unsure re: warm-up).\n- Troy Baker \"so many\" roles; \"good\" calendar recs (considering switch).\n- Luna loves laser pointer; Marvel poll; onesie icon.\n- Writing-group recs; similar-appliance recipes.\n- Hilton-area coffee shop (impressed by fitness center)."
+    },
+    {
+      "round": 6,
+      "memory": "- Probable festival bonus next wk (story reverting + 10 new examples); possible IB API in Tensortrade; Ring→Echo Show 8/smart plug feasibility.\n- Boots \"not comfortable at all\" (Feb 11); 4,800-tweet anxiety; disbelief at Jane's Rochester departure (\"dramatic for no reason\").\n- $120 Amazon appliance (exceeded allowance); de-growth *could*→recession/depression.\n- Coleslaw = Greek yogurt, not mayo; strength training (unsure re: warm-up).\n- Troy Baker \"so many\" roles; \"good\" calendar recs (considering switch); Luna loves laser pointer.\n- Writing-group/appliance recs; Hilton-area coffee shop (impressed by fitness center)."
+    },
+    {
+      "round": 7,
+      "memory": "• Probable festival bonus next wk (story reverting + 10 new examples); possible IB API in Tensortrade.\n• Ring→Echo Show 8/smart plug feasibility.\n• $120 Amazon appliance exceeded allowance.\n• De-growth *could*→recession/depression.\n• Boots \"not comfortable at all\" (Feb 11); 4,800-tweet anxiety.\n• Disbelief at Jane's Rochester departure (\"dramatic for no reason\").\n• Coleslaw = Greek yogurt, not mayo.\n• Strength training (unsure re: warm-up).\n• Troy Baker \"so many\" roles.\n• \"Good\" calendar recs (considering switch).\n• Luna loves laser pointer.\n• Writing-group/appliance recs.\n• Hilton-area coffee shop (impressed by fitness center)."
+    },
+    {
+      "round": 8,
+      "memory": "- Probable festival bonus next week (story reverting + 10 new examples); possible Tensortrade IB API.\n- Ring→Echo Show 8 / smart-plug feasibility; $120 Amazon appliance exceeded allowance.\n- De-growth *could* lead to recession/depression.\n- Boots \"not comfortable at all\" (Feb 11); 4,800-tweet anxiety.\n- Jane's Rochester departure \"dramatic for no reason.\"\n- Coleslaw: Greek yogurt, not mayo.\n- Strength training (uncertain re: warm-up).\n- Troy Baker: \"so many\" roles.\n- \"Good\" calendar recs (considering switch).\n- Luna loves laser pointer.\n- Writing-group / appliance recs.\n- Hilton-area coffee shop (impressed by fitness center)."
+    },
+    {
+      "round": 9,
+      "memory": "- Probable festival bonus next week (story reverting + 10 new examples); possible Tensortrade IB API; Ring→Echo Show 8/smart-plug feasibility.\n- $120 Amazon appliance exceeded allowance.\n- De-growth *could* lead to recession/depression.\n- Boots \"not comfortable at all\" (Feb 11) with 4,800-tweet anxiety.\n- Jane's Rochester departure \"dramatic for no reason.\"\n- Coleslaw: Greek yogurt, not mayo.\n- Strength training (uncertain re: warm-up); Troy Baker \"so many\" roles.\n- \"Good\" calendar recs (considering switch); Luna loves laser pointer.\n- Writing-group/appliance recs; Hilton-area coffee shop (impressed by fitness center)."
+    },
+    {
+      "round": 10,
+      "memory": "- Probable festival bonus next week (story reverting + 10 new examples).\n- Possible Tensortrade IB API; Ring→Echo Show 8/smart-plug feasibility.\n- $120 Amazon appliance exceeded allowance.\n- De-growth *could* lead to recession/depression.\n- Boots \"not comfortable at all\" (Feb 11) w/ 4,800-tweet anxiety.\n- Jane's Rochester departure \"dramatic for no reason.\"\n- Coleslaw uses Greek yogurt, not mayo.\n- Strength training (uncertain re: warm-up).\n- Troy Baker \"so many\" roles.\n- \"Good\" calendar recs (considering switch).\n- Luna loves laser pointer.\n- Writing-group/appliance recs; Hilton-area coffee shop (impressed by fitness center)."
+    },
+    {
+      "round": 11,
+      "memory": "- Probable festival bonus next week (story reverting + 10 new examples); possible Tensortrade IB API; Ring→Echo Show 8/smart-plug feasibility.\n- $120 Amazon appliance exceeded allowance.\n- De-growth *could* lead to recession/depression.\n- Boots \"not comfortable at all\" (Feb 11, 4,800-tweet anxiety); Jane's Rochester departure \"dramatic for no reason.\"\n- Coleslaw uses Greek yogurt, not mayo.\n- Strength training (uncertain re: warm-up).\n- Troy Baker has \"so many\" roles.\n- \"Good\" calendar recs (considering switch); writing-group/appliance recs.\n- Luna loves laser pointer.\n- Hilton-area coffee shop—impressed by fitness center."
+    },
+    {
+      "round": 12,
+      "memory": "- Probable festival bonus next week (story reverting + 10 new examples); possible Tensortrade IB API; Ring→Echo Show 8/smart-plug feasibility.\n- $120 Amazon appliance exceeded allowance.\n- De-growth *could* lead to recession/depression.\n- Boots \"not comfortable at all\" (Feb 11, 4,800-tweet anxiety).\n- Jane's Rochester departure \"dramatic for no reason.\"\n- Coleslaw uses Greek yogurt, not mayo.\n- Strength training (uncertain re: warm-up).\n- Troy Baker has \"so many\" roles.\n- \"Good\" calendar recs (considering switch); writing-group/appliance recs.\n- Luna loves laser pointer.\n- Hilton-area coffee shop—impressed by fitness center."
+    },
+    {
+      "round": 13,
+      "memory": "• Probable festival bonus next week (story reverting + 10 new examples); possible Tensortrade IB API; Ring→Echo Show 8/smart-plug feasibility.\n• $120 Amazon appliance exceeded allowance.\n• De-growth *could* lead to recession/depression.\n• Boots \"not comfortable at all\" (Feb 11, 4,800-tweet anxiety).\n• Jane's Rochester departure \"dramatic for no reason.\"\n• Coleslaw uses Greek yogurt, not mayo.\n• Strength training noted (uncertain re: warm-up).\n• Troy Baker has \"so many\" roles.\n• \"Good\" calendar recs (considering switch); writing-group/appliance recs.\n• Luna loves laser pointer.\n• Hilton-area coffee shop—impressed by fitness center."
+    },
+    {
+      "round": 14,
+      "memory": "- Probable festival bonus next wk (story reverting + 10 new ex); possible Tensortrade IB API; Ring→Echo Show 8/smart-plug feasibility.\n- $120 Amazon appliance exceeded allowance.\n- De-growth *could* lead to recession/depression.\n- Boots \"not comfortable at all\" (Feb 11, 4,800-tweet anxiety); Jane's Rochester departure \"dramatic for no reason.\"\n- Coleslaw uses Greek yogurt, not mayo.\n- Strength training noted, though uncertain re: warm-up.\n- Troy Baker has \"so many\" roles.\n- \"Good\" calendar recs (considering switch); writing-group/appliance recs.\n- Luna loves laser pointer.\n- Hilton-area coffee shop—impressed by fitness center."
+    },
+    {
+      "round": 15,
+      "memory": "• Probable festival bonus next wk (revert story + 10 new ex); possible Tensortrade IB API.\n• Ring→Echo Show 8 / smart-plug feasibility.\n• $120 Amazon appliance exceeded allowance.\n• De-growth *could* lead to recession/depression.\n• Boots \"not comfortable at all\" (Feb 11, 4,800-tweet anxiety).\n• Jane's Rochester departure \"dramatic for no reason.\"\n• Coleslaw: Greek yogurt, not mayo.\n• Strength training (uncertain re: warm-up).\n• Troy Baker \"so many\" roles.\n• \"Good\" calendar recs (considering switch); writing-group / appliance recs.\n• Luna loves laser pointer.\n• Hilton-area coffee shop—impressed by fitness center."
+    },
+    {
+      "round": 16,
+      "memory": "- Probable festival bonus next wk (revert story + 10 new ex); possible Tensortrade IB API; Ring→Echo Show 8 / smart-plug feasibility.\n- $120 Amazon appliance exceeded allowance.\n- De-growth *could* lead to recession/depression.\n- Boots \"not comfortable at all\" (Feb 11; 4,800-tweet anxiety); Jane's Rochester departure \"dramatic for no reason.\"\n- Coleslaw uses Greek yogurt, not mayo.\n- Strength training (uncertain re: warm-up); Troy Baker \"so many\" roles.\n- \"Good\" calendar recs (considering switch); writing-group/appliance recs.\n- Luna loves laser pointer; Hilton-area coffee shop—impressed by fitness center."
+    },
+    {
+      "round": 17,
+      "memory": "- Probable festival bonus next wk (revert story + 10 new ex).\n- Possible Tensortrade IB API.\n- Ring→Echo Show 8/smart-plug feasibility.\n- $120 Amazon appliance exceeded allowance.\n- De-growth could lead to recession/depression.\n- Boots \"not comfortable at all\" (Feb 11; 4,800-tweet anxiety).\n- Jane's Rochester departure \"dramatic for no reason.\"\n- Coleslaw uses Greek yogurt, not mayo.\n- Strength training (uncertain re: warm-up).\n- Troy Baker: \"so many\" roles.\n- \"Good\" calendar recs (considering switch).\n- Writing-group/appliance recs.\n- Luna loves laser pointer.\n- Hilton-area coffee shop—impressed by fitness center."
+    },
+    {
+      "round": 18,
+      "memory": "- Probable festival bonus next wk (revert story + 10 new ex); possible Tensortrade IB API.\n- Ring→Echo Show 8/smart-plug feasibility; $120 Amazon appliance exceeding allowance.\n- De-growth possibly leading to recession/depression.\n- Boots \"not comfortable at all\" (Feb 11; 4,800-tweet anxiety).\n- Jane's Rochester departure \"dramatic for no reason.\"\n- Coleslaw uses Greek yogurt, not mayo.\n- Strength training (uncertain re: warm-up); Troy Baker with \"so many\" roles.\n- \"Good\" calendar recs (considering switch); writing-group/appliance recs.\n- Luna loves laser pointer.\n- Hilton-area coffee shop with impressive fitness center."
+    },
+    {
+      "round": 19,
+      "memory": "No chunk summaries were provided in the request—the \"Chunks:\" section is empty. Please supply the individual summaries you'd like fused, and I'll merge them into a single ≤120-word global memory following all your preservation rules."
+    },
+    {
+      "round": 20,
+      "memory": "- No chunk summaries were provided; the \"Chunks:\" section was empty.\n- There is no turn content available to fuse into a global memory.\n- Individual summaries were requested but not supplied."
+    }
+  ]
+}

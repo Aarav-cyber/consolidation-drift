@@ -1,0 +1,221 @@
+{
+  "item_id": "num_032",
+  "context_level": "c0",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.055478+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The train was delayed by almost 120 minutes yesterday.",
+      "anchors": [
+        "The train was delayed by almost 120 minutes yesterday."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Train was delayed almost 120 min yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Train was delayed almost 120 min yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Train was delayed almost 120 min yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Train was delayed almost 120 minutes yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Train was delayed almost 120 minutes yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Train was delayed almost 120 min yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Train was delayed almost 120 min yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Train was delayed almost 120 minutes yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Train was delayed almost 120 min yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Train delayed almost 120 min yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Train was delayed almost 120 min yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Train was delayed almost 120 min yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- The train was delayed almost 120 minutes yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Train was delayed almost 120 minutes yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Train was delayed almost 120 minutes yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "• The train was delayed almost 120 minutes yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Train was delayed almost 120 min yesterday.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Yesterday, a train was delayed by almost 120 minutes.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Yesterday, a train was delayed almost 120 minutes.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Yesterday, a train was delayed almost 120 minutes.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

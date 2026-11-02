@@ -1,0 +1,325 @@
+{
+  "item_id": "num_030",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.138147+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The semester fee is nearly 90000 rupees.\nUser: Can you recommend some good spots for a picnic in Winter Park? My grandparents love picnics, and I think it would be a great way to spend an afternoon together.\nUser: I like the idea of grouping my magazines into piles. But before I start, I was wondering if you could help me find the contact info for Entertainment Weekly's customer service? I've been meaning to cancel it for a while now, and I want to get it done today.\nUser: I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?\nUser: What are some specific examples of successful LGBTQ+ musicians in the industry who have overcome some of these challenges?\nUser: What are some effective strategies for reducing stress and promoting relaxation during a busy workday?\nUser: What are some criticisms of the Congress party's stance on social justice and national security?\nUser: I'm thinking of visiting the Tsukiji Fish Market while I'm in Tokyo. Can you tell me more about it and how to get there from Shinjuku?\nUser: I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.\nUser: What are the potential complications of untreated high blood pressure?\nUser: It's good to know that regulations are being put in place to ensure the ethical use of AI in financial services. I'm excited to see how AI will continue to improve the industry in the future!\nUser: Can you recommend a bike trail or nature walk to explore in the area?\nUser: I think I'll take your advice to heart and focus on developing a solid strategy. Do you have any recommendations for other games that I might enjoy, given my interest in train-themed games and tile-laying games?\nUser: It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.\nUser: is it possible to maintain two spells requiring concentration concurrently\nUser: That's good to know. I've been struggling with anxiety and depression lately, and I've been thinking of taking up a sport. Do you have any recommendations for sports that can particularly help with these mental health issues?\nUser: Wow, those vegan cheesecakes at Super Natural Kitchen sound amazing. I never thought a cheesecake could be vegan!\nUser: It's interesting to see how AI is transforming different industries. What do you think is the future of AI?\nUser: I'm thinking of trying out some other bread recipes too, like maybe a sourdough or ciabatta. Do you have any tips or recommendations for those types of breads?\nUser: I'm interested in the Oregon Coast Highway route. Can you tell me more about the scenic state parks and charming coastal towns along the way?\nUser: I love those suggestions! I think I'll create a playlist with a mix of Latin pop and reggaeton. Do you have any tips on how to track my progress and stay motivated with my workouts? I've been using a fitness app, but I'm open to other ideas.",
+      "anchors": [
+        "The semester fee is nearly 90000 rupees.",
+        "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+        "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.",
+        "is it possible to maintain two spells requiring concentration concurrently"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Covered ~₹90,000 semester fee.\n- Winter Park picnic for grandparents; kids love Esplanade Reserve Playground (swings, giant slide).\n- Canceling Entertainment Weekly today (likes grouping magazines into piles).\n- Interested in: LGBTQ+ musicians, Congress party criticisms, Tsukiji from Shinjuku, 4-day Boston trip (harbor cruise, Fenway, North End), untreated high blood pressure risks, local bike trail, Oregon Coast Highway parks/coastal towns.\n- Excited about AI/finance regulations' future; curious about AI's future; hopeful about agency collaboration.\n- Prefers train-themed/tile-laying strategy games.\n- Ongoing anxiety/depression (asked for sports, workplace stress tips); asked about two concurrent concentration spells.\n- Surprised/excited that vegan cheesecakes exist (Super Natural Kitchen); considering sourdough/ciabatta recipes.\n- Loved playlist suggestions (chose Latin pop + reggaeton); currently using fitness app but open to other workout motivation ideas.\n- The semester fee is nearly 90000 rupees.\n- I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.\n- It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "CHANGED",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "CHANGED",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "CHANGED",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "The semester fee is nearly 90000 rupees.",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "• Covered ~₹90K semester fee; planning Winter Park picnic for grandparents (kids love Esplanade Reserve Playground); canceling Entertainment Weekly (likes grouping magazines into piles); planning 4-day Boston trip (harbor cruise, Fenway, North End, local cuisine).\n• Curious about: LGBTQ+ musicians, Congress party criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail, Oregon Coast Highway parks/coastal towns.\n• Excited about AI/finance regs' future; hopeful about agency collaboration.\n• Prefers train-themed/tile-laying strategy games.\n• Ongoing anxiety/depression (asked stress/sports tips; two concurrent concentration spells).\n• Surprised/excited vegan cheesecakes exist (Super Natural Kitchen); considering sourdough/ciabatta.\n• Loved Latin pop + reggaeton playlist; using fitness app; open to other workout-motivation ideas.\n- The semester fee is nearly 90000 rupees.\n- I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "CHANGED",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "CHANGED",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "SAME",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "The semester fee is nearly 90000 rupees.",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Covered ~₹90K semester fee; planning Winter Park picnic for grandparents (kids love Esplanade Reserve Playground); canceling Entertainment Weekly.\n- 4-day Boston trip: harbor cruise, Fenway, North End, local cuisine.\n- Curious about: LGBTQ+ musicians, Congress party criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail, Oregon Coast Highway parks/coastal towns.\n- Excited about AI/finance regs' future; hopeful about agency collaboration.\n- Prefers train-themed/tile-laying strategy games.\n- Ongoing anxiety/depression with two concurrent concentration spells; asked stress/sports tips.\n- Surprised/excited vegan cheesecakes exist (Super Natural Kitchen); considering sourdough/ciabatta.\n- Loved Latin pop/reggaeton playlist; using fitness app; open to other workout-motivation ideas.\n- The semester fee is nearly 90000 rupees.\n- I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.\n- It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.\n- is it possible to maintain two spells requiring concentration concurrently",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "CHANGED",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "CHANGED",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "CHANGED",
+          "is it possible to maintain two spells requiring concentration concurrently": "CHANGED"
+        },
+        "restored": [
+          "The semester fee is nearly 90000 rupees.",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.",
+          "is it possible to maintain two spells requiring concentration concurrently"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Covered ~₹90K semester fee; canceling Entertainment Weekly.\n- Planning Winter Park picnic for grandparents (kids love Esplanade Reserve Playground) and 4-day Boston trip (harbor cruise, Fenway, possibly North End & local cuisine).\n- Curious about LGBTQ+ musicians, Congress party criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n- Excited about AI/finance regs' future; hopeful on agency collaboration.\n- Prefers train/tile-laying strategy games.\n- Ongoing anxiety/depression; asked about two concurrent concentration spells + stress/sports tips.\n- Surprised/excited vegan cheesecakes exist (Super Natural Kitchen); considering sourdough/ciabatta.\n- Loved Latin pop/reggaeton playlist; using fitness app; open to other workout-motivation ideas.\n- It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "CHANGED",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Covered ~₹90K semester fee; canceling Entertainment Weekly.\n- Planning Winter Park picnic (kids love Esplanade Reserve Playground) for grandparents + 4-day Boston trip (harbor cruise, Fenway, possibly North End & local cuisine).\n- Curious about: LGBTQ+ musicians, Congress party criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n- Excited about AI/finance regs' future; hopeful agencies continue collaborating, hopefully with even more successful outcomes.\n- Prefers train/tile-laying strategy games.\n- Ongoing anxiety/depression; asked about two concurrent concentration spells + stress/sports tips.\n- Surprised/excited vegan cheesecakes exist (Super Natural Kitchen); considering sourdough/ciabatta.\n- Loved Latin pop/reggaeton playlist; using fitness app; open to other workout-motivation ideas.\n- It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "CHANGED",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "• Covered ~₹90K semester fee; canceling EW.\n• Planning Winter Park picnic (Esplanade Reserve Playground) for grandparents + 4-day Boston trip (harbor cruise, Fenway, possibly North End/local cuisine).\n• Curious about: LGBTQ+ musicians, Congress party criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n• Excited about AI/finance regs' future; hopeful agencies keep collaborating, hopefully for even more successful outcomes.\n• Prefers train/tile-laying strategy games.\n• Ongoing anxiety/depression; asked re: two concurrent concentration spells + stress/sports tips.\n• Surprised/excited vegan cheesecakes exist (Super Natural Kitchen); considering sourdough/ciabatta.\n• Loved Latin pop/reggaeton playlist; using fitness app; open to other workout-motivation ideas.\n- The semester fee is nearly 90000 rupees.\n- It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "CHANGED",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "CHANGED",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "The semester fee is nearly 90000 rupees.",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Covered ~₹90K semester fee; canceled EW.\n- Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, *possibly* North End).\n- Curious about LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n- Prefers train/tile-laying strategy games.\n- Ongoing anxiety/depression (asked about two concurrent concentration spells + stress/sports tips).\n- Surprised/excited re: vegan cheesecakes & Latin pop/reggaeton; using fitness app; open to more workout ideas.\n- Excited about AI/finance regs future; hopeful agencies keep collaborating for even more successful outcomes.\n- I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "CHANGED",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "SAME",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Covered ~₹90K semester fee; canceled EW.\n- Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, *possibly* North End/local cuisine).\n- Curious about LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail; prefers train/tile-laying strategy games.\n- Ongoing anxiety/depression; asked about two concurrent concentration spells + stress/sports tips.\n- Surprised/excited re: vegan cheesecakes & Latin pop/reggaeton; using fitness app, open to more workout ideas.\n- Excited about AI/finance regs future; hopeful agencies keep collaborating for even more successful outcomes.\n- It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "CHANGED",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "• Covered ~₹90K semester fee; canceled EW.\n• Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, *possibly* North End/local cuisine).\n• Curious about LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n• Prefers train/tile-laying strategy games.\n• Ongoing anxiety/depression; asked re: two concurrent concentration spells + stress/sports tips.\n• Surprised/excited re: vegan cheesecakes & Latin pop/reggaeton; using fitness app, open to more workout ideas.\n• Excited about AI/finance regs future; good to hear agencies continuing collaboration, hopefully leads to even more successful outcomes.\n- The semester fee is nearly 90000 rupees.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "CHANGED",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "SAME",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "The semester fee is nearly 90000 rupees."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Covered ~₹90K semester fee; canceled EW.\n- Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, possibly North End/local cuisine).\n- Curious about: LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n- Prefers train/tile-laying strategy games.\n- Ongoing anxiety/depression; asked re: two concurrent concentration spells + stress/sports tips.\n- Surprised/excited re: vegan cheesecakes & Latin pop/reggaeton; using fitness app, open to more workout ideas.\n- Excited about AI/finance regs future; good to hear agencies continuing collaboration, hopefully leads to even more successful outcomes.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "SAME",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Covered ~₹90K semester fee; canceled EW.\n- Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, possibly North End/local cuisine).\n- Curious about: LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n- Prefers train/tile-laying strategy games.\n- Ongoing anxiety/depression; asked re: two concurrent concentration spells + stress/sports tips.\n- Surprised/excited about vegan cheesecakes & Latin pop/reggaeton.\n- Using fitness app; open to more workout ideas.\n- Excited about AI/finance regs future; good to hear agencies continuing collaboration; hopefully leads to even more successful outcomes.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "SAME",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "• Covered ~₹90K semester fee; canceled EW.\n• Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, possibly North End/local cuisine).\n• Ongoing anxiety/depression; asked about two concurrent concentration spells, stress/sports tips.\n• Curious about LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n• Prefers train/tile-laying strategy games.\n• Surprised/excited about vegan cheesecakes & Latin pop/reggaeton.\n• Using fitness app; open to more workout ideas.\n• Excited about AI/finance regs future; good to hear agencies continuing collaboration; hopefully leads to even more successful outcomes.\n- The semester fee is nearly 90000 rupees.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "CHANGED",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "SAME",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "The semester fee is nearly 90000 rupees."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Covered ~₹90K semester fee; canceled EW.\n- Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, possibly North End/local cuisine).\n- Ongoing anxiety/depression; inquired about two concurrent concentration spells, stress/sports tips; curious about LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n- Prefers train/tile-laying strategy games; surprised/excited by vegan cheesecakes & Latin pop/reggaeton.\n- Using fitness app; open to more workout ideas.\n- Excited about AI/finance regs future; good to hear agencies continuing collaboration, hopefully leading to even more successful outcomes.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "SAME",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Covered ~₹90K semester fee; canceled EW.\n- Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, possibly North End/local cuisine).\n- Ongoing anxiety/depression.\n- Inquired about: two concurrent concentration spells, stress/sports tips, LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n- Prefers train/tile-laying strategy games.\n- Surprised/excited by vegan cheesecakes & Latin pop/reggaeton.\n- Using a fitness app; open to more workouts.\n- Excited about AI/finance regulations' future and agencies' continued collaboration, hopefully leading to even more successful outcomes.\n- It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "CHANGED",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "• Covered ~₹90K semester fee; canceled EW.\n• Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, possibly North End/local cuisine).\n• Ongoing anxiety/depression.\n• Asked about: two concurrent concentration spells, stress/sports tips, LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n• Prefers train/tile-laying strategy games.\n• Surprised/excited by vegan cheesecakes & Latin pop/reggaeton.\n• Using a fitness app; open to more workouts.\n• Excited about AI/finance regulations' future and agencies' continued collaboration, hopefully leading to even more successful outcomes.\n- It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "CHANGED",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Covered ~₹90K semester fee; canceled EW.\n- Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, possibly North End/local cuisine).\n- Ongoing anxiety/depression.\n- Prefers train/tile-laying strategy games.\n- Surprised/excited by vegan cheesecakes & Latin pop/reggaeton.\n- Using a fitness app; open to more workouts.\n- Asked about concurrent concentration spells, stress/sports tips, LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n- Excited about AI/finance regulations' future; hopeful continued agency collaboration yields even more successful outcomes.\n- It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.\n- is it possible to maintain two spells requiring concentration concurrently",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "CHANGED",
+          "is it possible to maintain two spells requiring concentration concurrently": "CHANGED"
+        },
+        "restored": [
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.",
+          "is it possible to maintain two spells requiring concentration concurrently"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Covered ~₹90K semester fee; canceled EW.\n- Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, possibly North End/local cuisine).\n- Ongoing anxiety/depression.\n- Prefers train/tile-laying strategy games; surprised/excited by vegan cheesecakes & Latin pop/reggaeton; using a fitness app, open to more workouts.\n- Asked whether two concentration spells can be maintained concurrently.\n- Inquired about stress/sports tips, LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n- Excited about AI/finance regulations' future; hopeful continued agency collaboration yields even more successful outcomes.\n- It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "CHANGED",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "• Covered ~₹90K semester fee; canceled EW.\n• Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, possibly North End/local cuisine).\n• Ongoing anxiety/depression.\n• Prefers train/tile-laying strategy games; surprised/excited by vegan cheesecakes & Latin pop/reggaeton; using fitness app, open to more workouts.\n• Inquired about: two concurrent concentration spells, stress/sports tips, LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n• Excited about AI/finance regulations' future; hopeful continued agency collaboration yields even more successful outcomes.\n- The semester fee is nearly 90000 rupees.\n- It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "CHANGED",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "CHANGED",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "The semester fee is nearly 90000 rupees.",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Covered ~₹90K semester fee; canceled EW.\n- Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, possibly North End/local cuisine).\n- Ongoing anxiety/depression.\n- Prefers train/tile-laying strategy games; surprised/excited by vegan cheesecakes & Latin pop/reggaeton; using fitness app, open to more workouts.\n- Inquired about: concurrent concentration spells, stress/sports tips, LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n- Excited about AI/finance regulations' future; hopeful continued agency collaboration yields even more successful outcomes.\n- The semester fee is nearly 90000 rupees.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "CHANGED",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "SAME",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": [
+          "The semester fee is nearly 90000 rupees."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "• Covered ~₹90K (nearly 90,000) semester fee; canceled EW. Ongoing anxiety/depression.\n• Prefers train/tile-laying strategy games; surprised/excited by vegan cheesecakes & Latin pop/reggaeton; using fitness app, open to more workouts.\n• Planning Winter Park picnic + 4-day Boston trip (harbor cruise, Fenway, possibly North End/local cuisine).\n• Asked about: concurrent concentration spells, stress/sports tips, LGBTQ+ musicians, Congress criticisms, Tsukiji from Shinjuku, untreated high-BP risks, local bike trail.\n• Excited about AI/finance regulations' future; hopeful continued agency collaboration yields even more successful outcomes.",
+      "avr": {
+        "verdicts": {
+          "The semester fee is nearly 90000 rupees.": "SAME",
+          "I'm planning to spend 4 days in Boston. I've got a few other things on my itinerary, including a harbor cruise and a visit to Fenway Park. I'm also thinking of exploring the North End and trying some of the local cuisine.": "SAME",
+          "It's good to hear that the agencies are continuing their collaboration efforts. Hopefully it will lead to even more successful outcomes in the future.": "SAME",
+          "is it possible to maintain two spells requiring concentration concurrently": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

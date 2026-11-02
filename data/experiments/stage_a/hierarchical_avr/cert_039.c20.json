@@ -1,0 +1,365 @@
+{
+  "item_id": "cert_039",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.162632+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain my passport renewal was completed last month.\nUser: Wow, I never realized how much sacrifice EOD technicians make. They truly put themselves in harm's way to protect others.\nUser: I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\nUser: Name a war fought by Britain that was not fought on a pretext but on the stated reason.\nUser: That's really sad. What can we do to minimize these negative impacts?\nUser: I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?\nUser: I've actually listened to \"Kind of Blue\" before and loved it, so I'm excited to check out the other albums and songs you mentioned. Also, do you know of any contemporary artists who have been influenced by Miles' sound?\nUser: That's a good point. It's good to know that schools are trying their best to provide support for students during this difficult time. I hope that these efforts make a difference.\nUser: That's really helpful, thanks! I think I'll consider getting a Fitbit Charge 3 or a Garmin Vivosport. Do you have any tips on how to stay motivated and consistent with my fitness tracking and dance practice?\nUser: Who are some notable classical guitar composers and what were their contributions to the genre?\nUser: When is a farm classified as a ranch?\nUser: I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.\nUser: I like the idea of recording conversations and creating a family archive. I think it would be great to capture the stories and memories that Rachel and I shared about grandma. Do you have any advice on how to organize and categorize the stories and memories that I collect?\nUser: I'm particularly interested in the Roasted Vegetable Pasta Primavera recipe. Can you provide more details on how to prepare the roasted vegetables and how to combine them with the pasta?\nUser: Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?\nUser: This is good! Could you generate more like this with scouting in mind?\nUser: That's really helpful information. I'm glad to know that making lifestyle changes can reduce the risk of cancer. Can you tell me more about the recommended screenings for early detection of cancer, especially for people with a family history of cancer?\nUser: I also think it would be beneficial to incorporate cultural diversity into the school's daily routines, like displaying art from different cultures or playing music from around the world during breaks. What do you think?\nAgent: \"The moon shines bright before my bed, like frost upon the ground. I raise my gaze to the luminous moon, and bow my head in thoughts of home.\"\nUser: How does the character of Boxer fit into the allegory of Animal Farm?\nUser: Has the IAEA faced any challenges in ensuring the safe use of nuclear energy in countries with less developed infrastructure and resources? How do they address these challenges?",
+      "anchors": [
+        "I am certain my passport renewal was completed last month.",
+        "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+        "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?",
+        "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.",
+        "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Passport renewal (certain) done last month; admires EOD technicians' sacrifice; sad, asks minimizing negative impacts; hopeful schools support students during difficult time.\n- Wants: simple Spaghetti w/ Cannellini Bean Sauce; Roasted Vegetable Pasta Primavera; easy animal-themed treats (likes conservation bake sale); scouting-themed content; classical guitar composers; farm-vs-ranch; fitness/dance motivation (considering Fitbit Charge 3/Garmin Vivosport); family-archive recording (grandma stories, Rachel); Britain war's stated reason not pretext; contemporary Miles-influenced artists (actually loved \"Kind of Blue\"); early-detection screenings (esp. family history); Boxer/Animal Farm allegory; IAEA nuclear-energy safety in less-developed countries.\n- Suggested global art/music in school breaks; daily routine (weekends wake 8:30–9:30 am); found cancer-risk lifestyle changes really helpful; quoted moon/home-lyric poem.\n- Asked (negatively) whether chapter does NOT have title \"Newspeak: 'Finished Is Incomplete'.\"\n- I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?\n- I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "CHANGED",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "CHANGED",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Passport renewed last month.\n- Admires EOD technicians; sad; hopes schools support students.\n- Wants: Spaghetti w/ Cannellini Bean Sauce, Roasted Vegetable Pasta Primavera, easy animal-themed treats (conservation bake sale).\n- Interests: scouting, classical guitar, fitness/dance motivation (considering Fitbit Charge 3/Garmin Vivosport), family-archive recording (grandma, Rachel), Miles-influenced artists (actually loved \"Kind of Blue\"), early-detection screenings (esp. family history), Boxer/Animal Farm allegory, IAEA nuclear-energy safety in less-developed countries.\n- Believes Britain war's stated reason was not a pretext.\n- Found cancer-risk lifestyle changes really helpful.\n- Quoted a moon/home poem.\n- Wants help creating work/personal schedule (weekends wake 8:30–9:30 am).\n- Asked (negatively) whether chapter does NOT have title \"Newspeak: 'Finished Is Incomplete'.\"\n- I am certain my passport renewal was completed last month.\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\n- I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?\n- I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "CHANGED",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "CHANGED",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "CHANGED",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I am certain my passport renewal was completed last month.",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Passport renewed last month; believes Britain war's stated reason was **not** a pretext.\n- Found cancer-risk lifestyle changes **really** helpful; admires EOD technicians; is sad; hopes schools support students.\n- Quoted a moon/home poem.\n- **Leaning** toward Spaghetti w/ Cannellini Bean Sauce (wants simple recipe) + easy animal-themed treats for conservation bake sale.\n- Interests: scouting, classical guitar, fitness (**considering** Fitbit Charge 3/Garmin Vivosport), family-archive recording (grandma, Rachel), Miles-influenced artists (**actually** loved *Kind of Blue*), early-detection screenings (family history), *Animal Farm* allegory, IAEA nuclear safety in less-developed countries.\n- Wants work/personal schedule (weekend wake 8:30–9:30 am).\n- Asked whether chapter does **NOT** have title \"Newspeak: 'Finished Is Incomplete'.\"\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\n- I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "CHANGED",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "SAME",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Passport renewed last month; believes Britain war's stated reason was NOT a pretext; is sad; hopes schools support students; quoted a moon/home poem.\n- Interests: scouting, classical guitar, fitness (considering Fitbit Charge 3/Garmin Vivosport), family-archive recording (grandma, Rachel), Miles-influenced artists (actually loved *Kind of Blue*), early-detection screenings (family history), *Animal Farm* allegory, IAEA nuclear safety in less-developed countries.\n- Cancer-risk lifestyle changes really helpful; admires EOD technicians.\n- Chose Spaghetti w/ Cannellini Bean Sauce (loves hearty, comforting Italian-inspired; wants simple recipe) + easy animal-themed treats for conservation bake sale.\n- Wants work/personal schedule (weekend wake 8:30–9:30 am).\n- Asked whether chapter does NOT have title \"Newspeak: 'Finished Is Incomplete.'\"\n- I am certain my passport renewal was completed last month.\n- I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?\n- I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "CHANGED",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "CHANGED",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "CHANGED",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I am certain my passport renewal was completed last month.",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Passport renewed last month (certain); believes Britain war's stated reason was NOT a pretext.\n- Sad; hopes schools support students; quoted a moon/home poem.\n- Interests: scouting, classical guitar, fitness (considering Fitbit Charge 3/Garmin Vivosport), family-archive recording (grandma, Rachel), Miles-influenced artists (actually loved *Kind of Blue*), early-detection screenings (family history), *Animal Farm* allegory, IAEA nuclear safety in less-developed countries.\n- Finds cancer-risk lifestyle changes really helpful; admires EOD technicians.\n- Chose Spaghetti w/ Cannellini Bean Sauce (loves hearty, comforting Italian-inspired; wants simple recipe) + easy animal-themed treats for conservation bake sale (really likes hosting to fundraise for conservation orgs; asks for suggestions).\n- Wants help creating work/personal daily schedule (weekend wake 8:30–9:30 am).\n- Asked whether chapter does NOT have title \"Newspeak: 'Finished Is Incomplete.'\"",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "SAME",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Passport renewed last month (certain); believes Britain war's stated reason was **NOT** a pretext. Sad; hopes schools support students; quoted moon/home poem.\n- Interests: scouting, classical guitar, fitness (considering Fitbit Charge 3/Garmin Vivosport), family-archive recording (grandma, Rachel), Miles-influenced artists (actually loved *Kind of Blue*), early-detection screenings (family history), *Animal Farm* allegory, IAEA nuclear safety in less-developed countries; finds cancer-risk lifestyle changes really helpful; admires EOD technicians.\n- Chose Spaghetti w/ Cannellini Bean Sauce (loves hearty, comforting Italian-inspired; wants simple recipe) + easy animal-themed treats for conservation bake sale (really likes hosting to fundraise for conservation orgs; asks for suggestions).\n- Wants help creating work/personal daily schedule (weekend wake 8:30–9:30 am). Asked whether chapter does **NOT** have title \"Newspeak: 'Finished Is Incomplete.'\"\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "SAME",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Passport renewed last month (certain); believes Britain war's stated reason was NOT a pretext; sad; hopes schools support students; quoted moon/home poem.\n- Interests: scouting, classical guitar, fitness (considering Fitbit Charge 3/Garmin Vivosport), family-archive recording (grandma, Rachel), Miles-influenced artists (actually loved *Kind of Blue*), early-detection screenings (family history), *Animal Farm* allegory, IAEA nuclear safety in less-developed countries.\n- Finds cancer-risk lifestyle changes really helpful; admires EOD technicians.\n- Confirmed Spaghetti w/ Cannellini Bean Sauce (loves hearty, comforting Italian-inspired; wants simple recipe).\n- Wants easy animal-themed treats for conservation bake sale (really likes hosting to fundraise for conservation orgs).\n- Wants help creating work/personal daily schedule (weekend wake 8:30–9:30 am).\n- Asked whether chapter does NOT have title \"Newspeak: 'Finished Is Incomplete.'\"\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "SAME",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Passport renewed last month (certain).\n- Believes Britain war's stated reason was NOT a pretext.\n- Sad; hopes schools support students; quoted moon/home poem.\n- Interests: scouting, classical guitar, fitness (considering Fitbit Charge 3/Garmin Vivosport), family-archive recording (grandma, Rachel), Miles-influenced artists (actually loved *Kind of Blue*), early-detection screenings (family history), *Animal Farm* allegory, IAEA nuclear safety.\n- Finds cancer-risk lifestyle changes really helpful; admires EOD technicians.\n- Confirmed Spaghetti w/ Cannellini Bean Sauce (loves hearty, comforting Italian-inspired; wants simple recipe).\n- Wants easy animal-themed treats for conservation bake sale (really likes hosting to fundraise).\n- Wants help w/ work/personal daily schedule (weekend wake 8:30–9:30 am).\n- Asked whether chapter does NOT have title \"Newspeak: 'Finished Is Incomplete.'\"\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "SAME",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Passport renewed last month; believes Britain war's stated reason was NOT a pretext. Felt sad; hopes schools support students; quoted moon/home poem.\n- Interests: scouting, classical guitar, fitness (Fitbit Charge 3/Garmin Vivosport), family-archive recording (grandma, Rachel), Miles/Kind of Blue, early-detection screenings (family history), *Animal Farm* allegory, IAEA nuclear safety, EOD technicians; finds cancer-risk lifestyle changes really helpful.\n- Confirmed Spaghetti w/ Cannellini Bean Sauce (loves hearty, comforting Italian-inspired; wants simple recipe). Wants easy animal-themed treats for conservation bake sale (really likes hosting to fundraise).\n- Wants work/personal daily-schedule help (weekend wake 8:30–9:30 am). Asked whether chapter does NOT have title \"Newspeak: 'Finished Is Incomplete.'\"\n- I am certain my passport renewal was completed last month.\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\n- I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "CHANGED",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "CHANGED",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I am certain my passport renewal was completed last month.",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Passport renewed last month (certain); believes Britain war's stated reason was NOT a pretext; felt sad; hopes schools support students; quoted a moon/home poem.\n- Interests: scouting, classical guitar, fitness (Fitbit Charge 3, Garmin Vivosport), family-archive recording (grandma, Rachel), Miles/Kind of Blue, early-detection screenings (family history), *Animal Farm* allegory, IAEA nuclear safety, EOD technicians; finds cancer-risk lifestyle changes really helpful.\n- Chose Spaghetti w/ Cannellini Bean Sauce (loves hearty, comforting Italian-inspired; wants simple recipe); wants easy animal-themed treats for conservation bake sale (really likes hosting to fundraise).\n- Wants work/personal daily-schedule help (weekend wake 8:30–9:30 am); asked whether a chapter does NOT have the title \"Newspeak: 'Finished Is Incomplete.'\"\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\n- I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "CHANGED",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "• Passport renewed last month. Believes Britain war's stated reason was NOT a pretext. Felt sad. Hopes schools support students. Quoted a moon/home poem.\n\n• Interests: scouting, classical guitar, fitness (Fitbit Charge 3, Garmin Vivosport), family-archive recording (grandma, Rachel), Miles/Kind of Blue, early-detection screenings (family history), *Animal Farm* allegory, IAEA nuclear safety, EOD technicians. Finds cancer-risk lifestyle changes really helpful.\n\n• Chose Spaghetti w/ Cannellini Bean Sauce (loves hearty, comforting Italian-inspired; wants simple recipe). Wants easy animal-themed treats for conservation bake sale (really likes hosting to fundraise).\n\n• Wants work/personal daily-schedule help (weekend wake 8:30–9:30 am). Asked whether a chapter does NOT have the title \"Newspeak: 'Finished Is Incomplete.'\"\n- I am certain my passport renewal was completed last month.\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\n- I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "CHANGED",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "CHANGED",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I am certain my passport renewal was completed last month.",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Passport renewed last month (certain).\n- Believes Britain war's stated reason was NOT a pretext; felt sad.\n- Hopes schools support students; quoted a moon/home poem.\n- Interests: scouting, classical guitar, fitness (Fitbit Charge 3, Garmin Vivosport), family-archive recording (grandma, Rachel), Miles/Kind of Blue, early-detection screenings (family history), *Animal Farm* allegory, IAEA nuclear safety, EOD technicians.\n- Finds cancer-risk lifestyle changes really helpful.\n- Chose Spaghetti w/ Cannellini Bean Sauce (loves hearty, comforting Italian-inspired; wants simple recipe).\n- Wants easy animal-themed treats for conservation bake sale (really likes hosting to fundraise).\n- Wants work/personal daily-schedule help (weekend wake 8:30–9:30 am).\n- Asked whether a chapter does NOT have the title \"Newspeak: 'Finished Is Incomplete.'\"\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "SAME",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Passport renewed last month; believes Britain war's stated reason was NOT a pretext (felt sad); hopes schools support students.\n- Interests: scouting, classical guitar, fitness (Fitbit Charge 3, Garmin Vivosport), family-archive recording (grandma, Rachel), Miles/Kind of Blue, early-detection screenings (family history), *Animal Farm* allegory, IAEA nuclear safety, EOD technicians; finds cancer-risk lifestyle changes really helpful.\n- Chose Spaghetti w/ Cannellini Bean Sauce (loves hearty, comforting Italian-inspired; wants simple recipe); wants easy animal-themed treats for conservation bake sale (really likes hosting to fundraise); wants work/personal daily-schedule help (weekend wake 8:30–9:30 am); asked whether a chapter does NOT have the title \"Newspeak: 'Finished Is Incomplete.'\"\n- I am certain my passport renewal was completed last month.\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\n- I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.\n- Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "CHANGED",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "CHANGED",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "CHANGED"
+        },
+        "restored": [
+          "I am certain my passport renewal was completed last month.",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Certain passport renewed last month.\n- Believes Britain's war stated reason was NOT a pretext; felt sad.\n- Hopes schools support students.\n- Chose Spaghetti w/ Cannellini Bean Sauce; loves hearty, comforting Italian-inspired food; wants simple recipe.\n- Wants easy animal-themed treats for a conservation bake sale; really likes hosting to fundraise.\n- Wants work/personal daily-schedule help; weekend wake-up 8:30–9:30 am.\n- Asked whether a chapter does NOT have the title \"Newspeak: 'Finished Is Incomplete.'\"\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\n- I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "CHANGED",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Passport renewed last month.\n- Believes Britain's war stated reason was NOT a pretext (felt sad).\n- Hopes schools support students.\n- Asked whether a chapter does NOT have the title \"Newspeak: 'Finished Is Incomplete.'\"\n- Chose Spaghetti w/ Cannellini Bean Sauce; loves hearty, comforting Italian-inspired food; wants a simple recipe.\n- Wants easy animal-themed treats for a conservation bake sale; really likes hosting to fundraise.\n- Seeks work/personal daily-schedule help; weekend wake-up 8:30–9:30 am.\n- I am certain my passport renewal was completed last month.\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\n- I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "CHANGED",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "CHANGED",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I am certain my passport renewal was completed last month.",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Passport certainly renewed last month.\n- Believes Britain's war stated reason was NOT a pretext (felt sad).\n- Hopes schools support students.\n- Asked whether a chapter does NOT have the title \"Newspeak: 'Finished Is Incomplete.'\"\n- Chose Spaghetti with Cannellini Bean Sauce; loves hearty, comforting Italian-inspired food; wants a simple recipe.\n- Wants easy animal-themed treats for a conservation bake sale; really likes hosting to fundraise.\n- Seeks help balancing work/personal daily schedule with weekend wake-up 8:30–9:30 am.\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\n- I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "CHANGED",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Passport certainly renewed last month.\n- Believes Britain's war stated reason was NOT a pretext (felt sad).\n- Hopes schools support students.\n- Asked whether a chapter does NOT have the title \"Newspeak: 'Finished Is Incomplete.'\"\n- Chose Spaghetti with Cannellini Bean Sauce; loves hearty, comforting Italian-inspired food; wants a simple recipe.\n- Wants easy animal-themed treats for a conservation bake sale; really likes hosting to fundraise.\n- Seeks help balancing work/personal daily schedule with weekend wake-up 8:30–9:30 am.\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\n- I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "CHANGED",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Passport certainly renewed last month.\n- Believes Britain's war stated reason was NOT a pretext (felt sad).\n- Hopes schools support students.\n- Asked whether a chapter does NOT have the title \"Newspeak: 'Finished Is Incomplete.'\"\n- Chose Spaghetti with Cannellini Bean Sauce; loves hearty, comforting Italian-inspired food; wants a simple recipe.\n- Wants easy animal-themed treats for a conservation bake sale; really likes hosting to fundraise.\n- Seeks help balancing work/personal daily schedule with weekend wake-up 8:30–9:30 am.\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\n- Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "SAME",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "CHANGED"
+        },
+        "restored": [
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Passport certainly renewed last month.\n- Believes Britain's war stated reason was NOT a pretext (felt sad).\n- Hopes schools support students.\n- Questioned whether a chapter does NOT have the title \"Newspeak: 'Finished Is Incomplete.'\"\n- Chose Spaghetti with Cannellini Bean Sauce; loves hearty, comforting Italian-inspired food; wants simple recipe.\n- Wants easy animal-themed treats for a conservation bake sale; really likes hosting to fundraise.\n- Seeks help balancing work/personal daily schedule; weekend wake-up 8:30–9:30 am.\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\n- I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "CHANGED",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Passport certainly renewed last month.\n- Believes Britain's war stated reason was **NOT** a pretext (felt sad).\n- Hopes schools support students.\n- Questioned whether a chapter does **NOT** have the title \"Newspeak: 'Finished Is Incomplete.'\"\n- Chose / thinks will go with Spaghetti with Cannellini Bean Sauce; loves hearty, comforting Italian-inspired food; wants a simple recipe.\n- Wants easy animal-themed treats for a conservation bake sale; really likes hosting to fundraise.\n- Seeks help organizing daily schedule to balance work and personal activities.\n- Usually wakes up between 8:30–9:30 am on weekends.\n- I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME",
+          "I'm trying to get my daily routine more organized. Can you help me create a schedule that balances my work and personal activities? By the way, on weekends, I usually wake up between 8:30 am and 9:30 am, so that's something to keep in mind.": "SAME",
+          "Does this chapter not have the title \"Newspeak: \"Finished Is Incomplete\"\"?": "SAME"
+        },
+        "restored": [
+          "I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?"
+        ]
+      }
+    }
+  ]
+}

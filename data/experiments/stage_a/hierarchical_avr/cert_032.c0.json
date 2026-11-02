@@ -1,0 +1,245 @@
+{
+  "item_id": "cert_032",
+  "context_level": "c0",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.886064+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am fairly confident the promotion will be announced in April.",
+      "anchors": [
+        "I am fairly confident the promotion will be announced in April."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Speaker is fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Speaker is fairly confident that a promotion was announced in April.\n- I am fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "CHANGED"
+        },
+        "restored": [
+          "I am fairly confident the promotion will be announced in April."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Fairly confident (moderate certainty, not definite) that a promotion was announced in April.\n- Fairly confident (moderate certainty, not definite) that the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Fairly confident (moderate, not definite) that a promotion was announced in April.\n- Fairly confident (moderate, not definite) that the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Fairly confident (moderate, not definite) that a promotion was/will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Moderately (not definitely) confident that a promotion was/will be announced in April.\n- Exact timing (past vs. future) is uncertain.\n- I am fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "CHANGED"
+        },
+        "restored": [
+          "I am fairly confident the promotion will be announced in April."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Moderately/fairly (not definitely) confident that a promotion was or will be announced in April.\n- Exact timing (past vs. future) is uncertain.\n- I am fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "CHANGED"
+        },
+        "restored": [
+          "I am fairly confident the promotion will be announced in April."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Fairly (not definitely) confident a promotion was or will be announced in April; exact timing (past vs. future) is uncertain.\n- I am fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "CHANGED"
+        },
+        "restored": [
+          "I am fairly confident the promotion will be announced in April."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Fairly (not definitely) confident that a promotion was/will be announced in April; uncertainty remains over whether the timing is past or future.\n- I am fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "CHANGED"
+        },
+        "restored": [
+          "I am fairly confident the promotion will be announced in April."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Fairly (not definitely) confident a promotion was/will be announced in April.\n- Uncertain whether the announcement is past or future.\n- I am fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "CHANGED"
+        },
+        "restored": [
+          "I am fairly confident the promotion will be announced in April."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Fairly (not definitely) confident a promotion was or will be announced in April; uncertain whether the announcement is in the past or future.\n- I am fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "CHANGED"
+        },
+        "restored": [
+          "I am fairly confident the promotion will be announced in April."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Fairly (not definitely) confident a promotion was or will be announced in April, though uncertain whether the announcement is in the past or future.\n- Fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Fairly (not definitely) confident that a promotion was or will be announced in April; uncertain whether this refers to a past or future event.\n- I am fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "CHANGED"
+        },
+        "restored": [
+          "I am fairly confident the promotion will be announced in April."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Fairly (not definitely) confident a promotion was or will be announced in April.\n- Uncertain whether the announcement is in the past or the future.\n- I am fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "CHANGED"
+        },
+        "restored": [
+          "I am fairly confident the promotion will be announced in April."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Fairly (not definitely) confident that a promotion was or will be announced in April.\n- Uncertain whether the announcement is past or future.\n- I am fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "CHANGED"
+        },
+        "restored": [
+          "I am fairly confident the promotion will be announced in April."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Fairly confident (not definitely) that a promotion was or will be announced in April.\n- Uncertain whether the announcement is in the past or the future.\n- I am fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "CHANGED"
+        },
+        "restored": [
+          "I am fairly confident the promotion will be announced in April."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Fairly confident (not definitely) that a promotion was or will be announced in April.\n- Uncertain whether the announcement is in the past or future.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Fairly confident (not definite) that a promotion was/will be announced in April.\n- Uncertain whether the announcement is past or future.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Fairly confident (not definite) that a promotion was or will be announced in April.\n- Uncertain whether the announcement is in the past or still upcoming.\n- I am fairly confident the promotion will be announced in April.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "CHANGED"
+        },
+        "restored": [
+          "I am fairly confident the promotion will be announced in April."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Fairly confident (not definite) that a promotion is or will be announced in April.\n- Uncertain whether that announcement is already past or still upcoming.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

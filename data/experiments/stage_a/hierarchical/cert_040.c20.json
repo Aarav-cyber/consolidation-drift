@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_040",
+  "context_level": "c20",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.163873+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain our team scored in the final minute of the match.\nUser: Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\nUser: I'd be happy to answer more questions about the game!\nUser: Wow, that's really interesting to know! I can only imagine how much effort goes into testing and fixing all those components. Do game developers use any specific tools or software to help with integration testing, or is it mostly manual?\nUser: What are some common mistakes or challenges that beginners may face when learning the violin?\nUser: Ah, got it. Well, I really hope our candidate wins. It would mean a lot for our country's foreign relations.\nUser: I learned how to make a classic Daiquiri at a cocktail-making class recently. The recipe was really simple - just rum, lime juice, and simple syrup. I was surprised at how easy it was to make.\nUser: Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral\nUser: How have changes in trade policies affected the economy of South Africa?\nAgent: Yes, you can find Maxwell's website at www.maxwellsnj.com and their phone number is (973) 743-3900.\nUser: I'm looking for some new podcast recommendations, specifically in the self-improvement space. Can you suggest some popular ones?\nUser: I'm thinking of lighting a fireplace as well to make the atmosphere even cozier. Do you think that would complement the scents I choose, or would it overpower them?\nUser: Wow, it's really impressive to see the level of commitment these tech giants have towards sustainability. I hope more companies follow in their footsteps to make a positive impact on the environment.\nUser: Do you know who Sierra Yarn is\nUser: I'm considering getting more smart plugs for my devices, but I'm not sure which ones are compatible with my new TV. Can you help me find some options? By the way, I've been loving my new TV - the picture quality is amazing.\nUser: I'm looking for some new ideas for meal prep on Sundays. I've been making quinoa and roasted vegetables, but I want to mix it up a bit. Do you have any suggestions? By the way, I tried out a recipe for chicken tikka masala that I learned in class today and it turned out amazing!\nAgent: Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\nUser: I didn't realize there were so many options. I think I'll start with online search and see what comes up. By the way, I've been really into music lately, and I just got my acoustic guitar serviced last week. It sounds amazing now.\nUser: Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.\nUser: It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?\nUser: Can any of those lenses also capture my pet lizard running around?"
+    },
+    {
+      "round": 1,
+      "memory": "- Certainty team scored in final minute; right triangle dilation (hyp 13, leg 12, ×2); roman numerals 23–64.\n- Aylen: must scare \"this thing\" (no idea how); sometimes grabs it but hand passes through like smoke, while it can and does touch her however it wants.\n- Game Qs, violin beginner challenges, S. Africa trade-policy, integration testing (software vs. mostly manual?), real hope candidate wins (foreign relations), Maxwell's (maxwellsnj.com, 973-743-3900), podcasts, fireplace vs. scents, Sierra Yarn, tech sustainability (hopes more follow).\n- Daiquiri (rum/lime/syrup) & tikka masala from class—daiquiri: surprised how easy; tikka: amazing.\n- Smart plugs, new TV: loving it, amazing picture, unsure compatibility.\n- Didn't realize so many options; will start online search.\n- Into music; guitar serviced last week, sounds amazing.\n- Asked: Costa Rica sustainable-farm recs; lenses for pet lizard running."
+    },
+    {
+      "round": 2,
+      "memory": "- Certainty team scored in final minute.\n- Triangle dilation (hyp 13, leg 12, ×2); Roman numerals 23–64.\n- Aylen must scare \"this thing\" (no idea how); hand passes through like smoke but it can and does touch her however it wants.\n- Misc: game Qs, violin beginner, S. Africa trade-policy, integration testing (software vs. mostly manual?), real hope candidate wins on foreign relations, Maxwell's (maxwellsnj.com/973-743-3900), podcasts, fireplace vs. scents, Sierra Yarn, tech sustainability (hopes more follow).\n- Daiquiri (rum/lime/syrup) from class—surprised how easy; tikka masala—amazing.\n- Smart plugs & TV (loving it, amazing picture, unsure compatibility); didn't realize so many options—will start online search.\n- Into music; guitar serviced last week, sounds amazing.\n- Asked Costa Rica sustainable-farm recs & lenses for pet lizard running."
+    },
+    {
+      "round": 3,
+      "memory": "- Certainty team scored final minute.\n- Triangle dilation: hyp 13, leg 12, ×2.\n- Roman numerals 23–64.\n- Aylen must scare \"this thing\" (no idea how); hand passes through like smoke but can/did touch her however it wants.\n- Misc: daiquiri from class (surprised how easy); tikka masala (amazing); smart plugs & TV (loving it, amazing picture, unsure compatibility, will start online search); guitar serviced last week (sounds amazing); violin beginner; S. Africa trade policy; integration testing (software vs. mostly manual?); real hope candidate wins on foreign relations; Maxwell's (maxwellsnj.com/973-743-3900); podcasts; fireplace vs. scents; Sierra Yarn; tech sustainability (hopes more follow); Costa Rica sustainable-farm recs & lenses for pet lizard running."
+    },
+    {
+      "round": 4,
+      "memory": "- Certainty team scored final minute.\n- Triangle dilation: hyp 13, leg 12, ×2. Roman numerals 23–64.\n- Aylen must scare \"this thing\" (no idea how; hand passes through like smoke but can/did touch her however it wants).\n- Daiquiri (surprised how easy); tikka masala (amazing).\n- Smart plugs & TV: loving it, amazing picture, unsure compatibility, will start online search.\n- Guitar serviced last week (sounds amazing); violin beginner.\n- S. Africa trade policy; integration testing (software vs. mostly manual?).\n- Real hope candidate wins on foreign relations.\n- Maxwell's: maxwellsnj.com/973-743-3900.\n- Podcasts; fireplace vs. scents; Sierra Yarn.\n- Tech sustainability (hopes more follow); Costa Rica sustainable-farm recs & lenses for pet lizard running."
+    },
+    {
+      "round": 5,
+      "memory": "- Certainty scored in final minute.\n- Triangle dilation discussed (hyp 13, leg 12, ×2); Roman numerals 23–64.\n- Aylen must scare \"this thing\"—no idea how; hand passes through like smoke but can/did touch her.\n- Daiquiri (surprised how easy); tikka masala (amazing).\n- Smart plugs & TV: loving it, amazing picture, unsure compatibility, will start online search.\n- Guitar serviced last week (sounds amazing); violin beginner.\n- S. Africa trade policy.\n- Integration testing: software vs. mostly manual?\n- Real hope candidate wins on foreign relations.\n- Maxwell's: maxwellsnj.com/973-743-3900.\n- Podcasts; fireplace vs. scents; Sierra Yarn.\n- Tech sustainability (hopes more follow); Costa Rica sustainable-farm recs; lenses for pet lizard running."
+    },
+    {
+      "round": 6,
+      "memory": "• Certainty scored in the final minute.\n• Triangle dilation: hyp 13, leg 12, ×2; Roman numerals 23–64.\n• Aylen must scare \"this thing\" (hand passes through like smoke but can/did touch her).\n• Daiquiri (surprised how easy); tikka masala (amazing).\n• Smart plugs & TV: loving it, amazing picture, unsure compatibility, will search online.\n• Guitar serviced last week (amazing); violin beginner.\n• S. Africa trade policy.\n• Integration testing: software vs. mostly manual?\n• Real hope candidate wins on foreign relations.\n• Maxwell's: maxwellsnj.com / 973-743-3900.\n• Podcasts, fireplace vs. scents, Sierra Yarn.\n• Tech sustainability (hopes more follow); Costa Rica sustainable-farm recs.\n• Lenses for pet lizard running."
+    },
+    {
+      "round": 7,
+      "memory": "- Certainty scored in final minute.\n- Triangle dilation: hyp 13, leg 12, ×2; Roman numerals 23–64.\n- Aylen must scare \"this thing\" (hand passes through like smoke but can/did touch her).\n- Daiquiri (surprised how easy); tikka masala (amazing).\n- Smart plugs & TV: loving it, amazing picture; unsure compatibility, will search online.\n- Guitar serviced last week (amazing); violin beginner.\n- S. Africa trade policy.\n- Integration testing: software vs. mostly manual?\n- Real hope candidate wins on foreign relations.\n- Maxwell's (maxwellsnj.com / 973-743-3900).\n- Podcasts; fireplace vs. scents; Sierra Yarn.\n- Tech sustainability (hopes more follow); Costa Rica sustainable-farm recs.\n- Lenses for pet lizard running."
+    },
+    {
+      "round": 8,
+      "memory": "• \"Certainty\" scored in final minute.\n• Triangle dilation: hyp 13, leg 12, ×2; Roman numerals 23–64.\n• Aylen must scare \"this thing\"; its hand passes through like smoke but can/did touch her.\n• Daiquiri (surprised how easy); tikka masala (amazing).\n• Smart plugs/TV: loving it, amazing picture, unsure of compatibility, will search online.\n• Guitar serviced last week (amazing); violin at beginner level.\n• S. Africa trade policy.\n• Integration testing: software vs. mostly manual?\n• Real hope candidate wins on foreign relations.\n• Maxwell's: maxwellsnj.com / 973-743-3900.\n• Podcasts, fireplace vs. scents, Sierra Yarn.\n• Tech sustainability (hopes more follow); Costa Rica sustainable-farm recs.\n• Lenses for pet lizard running."
+    },
+    {
+      "round": 9,
+      "memory": "- \"Certainty\" final-minute score.\n- Triangle dilation: hyp 13, leg 12, ×2; Roman 23–64.\n- Aylen scared a creature whose hand passes through like smoke but can/did touch her.\n- Daiquiri (surprised how easy); tikka masala (amazing).\n- Smart plugs/TV: loving it, amazing picture, unsure compatibility, will search online.\n- Guitar serviced (amazing); violin at beginner level.\n- S. Africa trade policy discussed.\n- Integration testing: software vs. mostly manual?\n- Hopes a real candidate wins on foreign relations.\n- Maxwell's (maxwellsnj.com / 973-743-3900).\n- Podcasts; fireplace vs. scents; Sierra Yarn.\n- Tech sustainability (hopes more follow); Costa Rica sustainable-farm recs.\n- Lenses for pet lizard running."
+    },
+    {
+      "round": 10,
+      "memory": "- Discussed Certainty's final-minute score, triangle dilation (hyp 13, leg 12, ×2; Roman 23–64), S. Africa trade policy, and integration testing (software vs. mostly manual?).\n- Aylen was scared by a creature whose hand passes through like smoke but can/did touch her.\n- Hopes a real candidate wins on foreign relations; hopes more follow on tech sustainability.\n- Loved daiquiri (surprised how easy) and tikka masala (amazing).\n- Smart plugs/TV: amazing picture, unsure of compatibility, will search online.\n- Guitar serviced (amazing); violin at beginner level.\n- Noted Maxwell's (maxwellsnj.com / 973-743-3900), podcasts, fireplace vs. scents, Sierra Yarn, Costa Rica sustainable-farm recs, and lenses for pet lizard running."
+    },
+    {
+      "round": 11,
+      "memory": "- Discussed Certainty's final-minute score; triangle dilation (hyp 13, leg 12, ×2); Roman 23–64.\n- S. Africa trade policy; integration testing (software vs. mostly manual?).\n- Aylen scared by a creature whose hand passes through like smoke but can/did touch her.\n- Hopes a real candidate wins on foreign relations; more follow on tech sustainability.\n- Loved daiquiri (surprised how easy) and tikka masala (amazing).\n- Smart plugs/TV: amazing picture, but unsure of compatibility (will search online).\n- Guitar serviced (amazing); violin at beginner level.\n- Noted Maxwell's (maxwellsnj.com / 973-743-3900), podcasts, fireplace vs. scents, Sierra Yarn.\n- Costa Rica sustainable-farm recs; lenses for pet lizard running."
+    },
+    {
+      "round": 12,
+      "memory": "• Certainty's final-minute score. Triangle dilation (hyp 13, leg 12, ×2). Roman 23–64. S. Africa trade. Integration testing (software vs. mostly manual?).\n• Aylen's fear: a creature whose hand passes through like smoke but can/did touch her.\n• Hope a real candidate wins (foreign relations + tech-sustainability follow-up).\n• Loved daiquiri (surprised how easy) & tikka masala (amazing).\n• Smart plugs/TV: amazing picture; unsure of compatibility—will search online.\n• Guitar serviced (amazing). Violin at beginner level.\n• Costa Rica sustainable-farm recs. Lenses for pet lizard running.\n• Noted: Maxwell's (maxwellsnj.com / 973-743-3900), podcasts, fireplace vs. scents, Sierra Yarn."
+    },
+    {
+      "round": 13,
+      "memory": "- Discussed Certainty's final-minute score; triangle dilation (hyp 13, leg 12, ×2); Roman 23–64; S. Africa trade; integration testing (software vs. mostly manual?).\n- Aylen fears a creature whose hand passes through like smoke but can/did touch her.\n- Hope a real candidate wins (foreign relations + tech-sustainability follow-up).\n- Loved daiquiri (surprised how easy) & tikka masala (amazing).\n- Smart plugs/TV: amazing picture; unsure of compatibility—will search online.\n- Guitar serviced (amazing); violin at beginner level.\n- Costa Rica sustainable-farm recommendations.\n- Lenses for pet lizard running.\n- Noted: Maxwell's (maxwellsnj.com / 973-743-3900), podcasts, fireplace vs. scents, Sierra Yarn."
+    },
+    {
+      "round": 14,
+      "memory": "- Discussed Certainty's final-minute score; Roman 23–64; S. Africa trade.\n- Triangle dilation: hyp 13, leg 12, ×2.\n- Integration testing: software vs. mostly manual? (uncertainty noted)\n- Aylen fears a creature whose hand passes through like smoke but can/did touch her.\n- Hopes a real candidate wins; foreign relations + tech-sustainability follow-up.\n- Loved daiquiri (surprised how easy) & tikka masala (amazing).\n- Smart plugs/TV: amazing picture but unsure of compatibility; will search online.\n- Guitar serviced (amazing); violin at beginner level.\n- Requested Costa Rica sustainable-farm recommendations; lenses for running pet lizard.\n- Noted Maxwell's (maxwellsnj.com / 973-743-3900), podcasts, fireplace vs. scents, Sierra Yarn."
+    },
+    {
+      "round": 15,
+      "memory": "• Discussed: Certainty's final-minute score (Roman 23–64); S. Africa trade; triangle dilation (hyp 13, leg 12, ×2); integration testing (software vs. mostly manual? – uncertain); Aylen fearing a creature whose hand passes through like smoke but can/did touch her; hopes a real candidate wins (foreign relations + tech-sustainability follow-up).\n• Loved daiquiri (surprised how easy) and tikka masala (amazing).\n• Smart plugs/TV: amazing picture, but unsure of compatibility (will search online).\n• Guitar serviced (amazing); violin at beginner level.\n• Requested: Costa Rica sustainable-farm recs; lenses for running pet lizard.\n• Noted: Maxwell's (maxwellsnj.com / 973-743-3900), podcasts, fireplace vs. scents, Sierra Yarn."
+    },
+    {
+      "round": 16,
+      "memory": "- Discussed: Certainty's final-minute score (Roman 23–64); S. Africa trade; triangle dilation (hyp 13, leg 12, ×2); integration testing (software vs. mostly manual–uncertain); Aylen fearing a creature whose hand passes through like smoke but can/did touch her; hoping a real candidate wins (foreign relations + tech-sustainability follow-up).\n- Food/drink: Loved daiquiri (surprised how easy) & tikka masala (amazing).\n- Tech: Smart plugs/TV—amazing picture, compatibility unsure (will search online).\n- Music: Guitar serviced (amazing); violin at beginner level.\n- Requests: Costa Rica sustainable-farm recs; lenses for running pet lizard.\n- Noted: Maxwell's (maxwellsnj.com / 973-743-3900), podcasts, fireplace vs. scents, Sierra Yarn."
+    },
+    {
+      "round": 17,
+      "memory": "• Discussed Certainty's final-minute score (Roman 23–64), S. Africa trade, triangle dilation (hyp 13, leg 12, ×2), integration testing (software vs. mostly manual—uncertain).\n• Aylen fears a smoke-hand creature that can/did touch her. Hoping a real candidate wins (foreign relations + tech-sustainability follow-up).\n• Loved daiquiri (surprised how easy) & tikka masala (amazing). Smart plugs/TV: amazing picture, compatibility unsure—will search online.\n• Guitar serviced (amazing); violin at beginner level.\n• Requests: Costa Rica sustainable-farm recs; lenses for running pet lizard.\n• Noted: Maxwell's (maxwellsnj.com / 973-743-3900), podcasts, fireplace vs. scents, Sierra Yarn."
+    },
+    {
+      "round": 18,
+      "memory": "• Discussed Certainty's final-minute score (Roman 23–64), S. Africa trade, triangle dilation (hyp 13, leg 12, ×2).\n• Integration testing: software vs. mostly manual—uncertain.\n• Aylen fears a smoke-hand creature that can/did touch her; hopes a real candidate wins. Follow-up: foreign relations + tech-sustainability.\n• Loved daiquiri (surprised how easy) and tikka masala (amazing).\n• Smart plugs/TV: amazing picture, compatibility unsure, will search online.\n• Guitar serviced (amazing); violin at beginner level.\n• Requests: Costa Rica sustainable-farm recs; lenses for running pet lizard.\n• Noted: Maxwell's (maxwellsnj.com / 973-743-3900), podcasts, fireplace vs. scents, Sierra Yarn."
+    },
+    {
+      "round": 19,
+      "memory": "- Discussed Certainty's final-minute score (Roman 23–64), S. Africa trade, triangle dilation (hyp 13, leg 12, ×2).\n- Integration testing: software vs. mostly manual—uncertain.\n- Aylen fears a smoke-hand creature that can/did touch her; hopes a real candidate wins. Follow-up: foreign relations + tech-sustainability.\n- Loved daiquiri (surprised how easy) & tikka masala (amazing).\n- Smart plugs/TV—amazing picture, compatibility unsure, will search online.\n- Guitar serviced (amazing); violin at beginner level.\n- Requests: Costa Rica sustainable-farm recs; lenses for running pet lizard.\n- Noted: Maxwell's (maxwellsnj.com / 973-743-3900), podcasts, fireplace vs. scents, Sierra Yarn."
+    },
+    {
+      "round": 20,
+      "memory": "- Certainty's final-minute score: Roman 23–64.\n- Topics: S. Africa trade; triangle dilation (hyp 13, leg 12, ×2); integration testing (software vs. mostly manual—uncertain); follow-up: foreign relations + tech-sustainability.\n- Aylen fears a smoke-hand creature (can/did touch her); hopes a real candidate wins.\n- Loved daiquiri (surprised how easy) & tikka masala (amazing).\n- Smart plugs/TV: amazing picture, compatibility unsure, will search online.\n- Guitar serviced (amazing); violin beginner.\n- Requests: Costa Rica sustainable-farm recs; lenses for running pet lizard.\n- Noted: Maxwell's (maxwellsnj.com / 973-743-3900), podcasts, fireplace vs. scents, Sierra Yarn."
+    }
+  ]
+}

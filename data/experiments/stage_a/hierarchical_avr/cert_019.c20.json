@@ -1,0 +1,425 @@
+{
+  "item_id": "cert_019",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.091288+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The company will probably announce the festival bonus next week.\nUser: Let's go back to the last version of the story before changing it to a script.\nUser: please continue, provide 10 additional examples, different from the ones you already mentioned\nUser: May use Interactive Brockers API or IB\\_insync in Tensortrade?\nUser: What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.\nUser: I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\nUser: I'm actually looking for something a bit more casual, like a good coffee shop. I was impressed by the fitness center at the Hilton, by the way. Do you know of any coffee shops near the hotel that I could grab a quick coffee?\nUser: I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.\nUser: So, I was thinking of creating a Twitter poll about the Marvel movie, but I'm not sure what question to ask. Do you have any suggestions for a poll question that could generate a lot of engagement?\nUser: What do you think about adding a small icon or graphic to the onesie design, like a baby block or a tiny footprint, to make it more visually appealing and playful?\nUser: I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\nUser: I'm considering getting the Ring Stick Up Cam. Would it be possible to view the camera's live feed on my Echo Show 8, and can I also use it to talk to whoever is at my front door?\nUser: I've got a few more questions about the track editor. Can you tell me more about the scripting system? How complex can you get with it, and are there any examples of what kind of things you can do with it?\nUser: Do you think the idea of de-growth could lead to a recession or economic depression? It seems like reducing consumption and production could have a negative impact on the economy.\nUser: What are some good digital calendars that you would recommend? I'm currently using a physical planner, but I'm thinking of switching to a digital one for better organization and accessibility.\nUser: Wow, I didn't realize Troy Baker voiced so many characters! Do you have a favorite role of his?\nUser: It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?\nUser: I'm thinking of getting a smart plug to control my floor lamp in my bedroom, so I can turn it on and off remotely. Do you know if there are any good smart plug options out there?\nUser: I'm trying to find some new ideas for exercising my cat, Luna. She loves playing with her laser pointer toy, but I want to mix it up a bit. Do you have any suggestions?\nUser: I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?\nUser: I like the sound of that coleslaw. Do you have a recipe that uses Greek yogurt instead of mayonnaise?",
+      "anchors": [
+        "The company will probably announce the festival bonus next week.",
+        "please continue, provide 10 additional examples, different from the ones you already mentioned",
+        "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.",
+        "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+        "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+        "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?",
+        "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Probable festival bonus next week; revert story to pre-script version; 10 new examples; possible IB API/IB_insync in Tensortrade; track editor scripting complexity\n- Hiking boots (old, uncomfortable Feb 11); topic modeling 4800 \"academic writing anxiety\" tweets; coffee shop near hotel (impressed by Hilton fitness)\n- Jane leaving Rochester (seems dramatic/unnecessary); Marvel movie Twitter poll; onesie icon (baby block/tiny footprint)\n- Writing workshops/meetups, local group; Ring Stick Up Cam on Echo Show 8; de-growth possibly causing recession/depression\n- Digital calendar recs (switching from physical planner); Troy Baker favorite role\n- $120 kitchen appliance on Amazon (exceeded monthly allowance); wants cookbook/recipe recs, similar appliance; smart plug for bedroom floor lamp?\n- Cat Luna exercise variety (loves laser pointer); loves strength training, unsure warm-up; likes coleslaw, Greek yogurt not mayo\n- What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.\n- I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "CHANGED",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "CHANGED",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "SAME",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "SAME"
+        },
+        "restored": [
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "• Probable festival bonus next week; revert story to pre-script; 10 new examples.\n• Possible IB API/IB_insync in Tensortrade; track editor scripting complexity.\n• Topic modeling 4800 \"academic writing anxiety\" tweets.\n• Jane leaving Rochester (seems dramatic/unnecessary); Marvel movie Twitter poll.\n• Onesie icon (baby block/tiny footprint); Ring Stick Up Cam on Echo Show 8.\n• De-growth possibly causing recession/depression; digital calendar recs; Troy Baker favorite role.\n• $120 Amazon kitchen appliance (exceeded monthly allowance); wants cookbook/recipe/similar-appliance recs + bedroom-lamp smart plug?\n• Hiking boots needed (old ones not comfortable at all; hiked with friends 2/11).\n• Plans writing workshops/meetups for local group; asks recs.\n• Cat Luna loves laser pointer; loves strength training, unsure about warm-up.\n• Likes coleslaw, Greek yogurt not mayo; coffee shop near hotel; impressed by Hilton fitness.\n- please continue, provide 10 additional examples, different from the ones you already mentioned\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\n- It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "CHANGED",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "CHANGED",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "SAME"
+        },
+        "restored": [
+          "please continue, provide 10 additional examples, different from the ones you already mentioned",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Probable festival bonus next wk; revert story; 10 new/different examples requested.\n- Possible IB API/IB_insync in Tensortrade.\n- Topic-modeled 4,800 \"academic writing anxiety\" tweets.\n- Jane leaving Rochester (seems dramatic/unnecessary); Marvel poll.\n- De-growth possibly causing recession/depression.\n- $120 Amazon appliance exceeded monthly allowance; wants cookbook/recipe/similar-appliance recs + bedroom-lamp smart plug.\n- Hiking boots needed (old ones not comfortable at all; hiked friends 2/11).\n- Plans writing workshops/meetups for suitable group; asks local recs.\n- Cat Luna loves laser pointer; loves strength training, unsure about warm-up.\n- Likes coleslaw, Greek yogurt not mayo.\n- Misc: onesie icon (baby block/tiny footprint), Ring Cam on Echo Show 8, digital calendar recs, Troy Baker fav role, coffee shop near hotel, impressed by Hilton fitness.\n- I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "CHANGED",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "SAME",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "SAME"
+        },
+        "restored": [
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "• Probable festival bonus next wk; 10 new/different examples; possible IB API/IB_insync in Tensortrade.\n• Topic-modeled 4,800 \"academic writing anxiety\" tweets.\n• Jane leaving Rochester (seems dramatic/unnecessary); de-growth possibly causing recession.\n• $120 Amazon appliance exceeded monthly allowance; wants cookbook/similar-appliance recs + smart plug.\n• Hiking boots needed (old ones not comfortable at all; hiked friends 2/11).\n• Planning writing workshops to gauge suitable group; wants local recs.\n• Luna loves laser pointer & strength training; unsure about warm-up.\n• Likes coleslaw, Greek yogurt not mayo.\n• Misc: onesie icon, Ring Cam on Echo Show 8, digital calendar, Troy Baker fav role, coffee shop near hotel, impressed by Hilton fitness.\n- I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\n- It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?\n- I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "CHANGED",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "CHANGED",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "CHANGED"
+        },
+        "restored": [
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Topic-modeled 4,800 \"academic writing anxiety\" tweets; planning local writing workshops to gauge group fit.\n- $120 Amazon kitchen appliance exceeded monthly allowance; wants cookbook/smart plug recs.\n- Luna loves laser pointer & strength training but is unsure about warm-up.\n- Old hiking boots not comfortable at all (hiked 2/11).\n- Jane leaving Rochester seems dramatic/unnecessary.\n- De-growth possibly causing recession.\n- Probable festival bonus next wk; 10 new examples; possible IB API in Tensortrade.\n- Likes coleslaw, Greek yogurt not mayo.\n- Misc: Ring Cam on Echo Show 8, Troy Baker fav role, Hilton fitness.\n- please continue, provide 10 additional examples, different from the ones you already mentioned\n- What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\n- It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?\n- I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "CHANGED",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "CHANGED",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "CHANGED",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "CHANGED"
+        },
+        "restored": [
+          "please continue, provide 10 additional examples, different from the ones you already mentioned",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "• Topic-modeled 4,800 \"academic writing anxiety\" tweets; planning local writing workshops to gauge group fit (asks for recs).\n• $120 Amazon kitchen appliance exceeded monthly allowance; wants cookbook/smart plug/recipe recs.\n• Luna loves laser pointer & strength training; unsure about warm-up (asks for tips).\n• Old hiking boots not comfortable at all (hiked w/ friends 2/11); asks for good boots.\n• Thinks Jane leaving Rochester seems dramatic/unnecessary; de-growth possibly causing recession.\n• Probable festival bonus next week; wants 10 new examples (different from prior); possible IB API in Tensortrade.\n• Likes coleslaw, Greek yogurt not mayo.\n• Misc: Ring Cam on Echo Show 8, Troy Baker fav role, Hilton fitness.\n- please continue, provide 10 additional examples, different from the ones you already mentioned\n- I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\n- It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "CHANGED",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "CHANGED",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "CHANGED",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "SAME"
+        },
+        "restored": [
+          "please continue, provide 10 additional examples, different from the ones you already mentioned",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "• Topic-modeled 4,800 \"academic writing anxiety\" tweets (sharing method); planning local writing workshops/meetups to gauge group fit, asks recs.\n• $120 Amazon kitchen appliance exceeded monthly allowance—wants cookbook/smart plug/recipe recs.\n• Luna loves laser pointer & strength training, unsure re: warm-up.\n• Old hiking boots not comfortable at all (2/11 hike w/ friends); asks for good boots.\n• Thinks Jane leaving Rochester dramatic/unnecessary; de-growth possibly causing recession.\n• Probable festival bonus next week; wants 10 new examples (different from prior); possible IB API in Tensortrade.\n• Likes coleslaw, Greek yogurt not mayo.\n• Misc: Ring Cam on Echo Show 8, Troy Baker fav role, Hilton fitness.\n- please continue, provide 10 additional examples, different from the ones you already mentioned\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\n- It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?\n- I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "CHANGED",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "CHANGED",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "CHANGED"
+        },
+        "restored": [
+          "please continue, provide 10 additional examples, different from the ones you already mentioned",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "• Topic-modeled 4,800 \"academic writing anxiety\" tweets; planning a few local writing workshops/meetups to gauge group fit (asks recs).\n• $120 Amazon kitchen appliance exceeded monthly allowance; wants cookbook/smart plug/recipe recs, asks if recipes fit their appliance.\n• Luna loves laser pointer & strength training (unsure re: warm-up).\n• Old hiking boots not comfortable at all (2/11 hike w/ friends); asks for good boots.\n• Thinks Jane leaving Rochester dramatic/unnecessary; de-growth possibly causing recession.\n• Probable festival bonus next week; wants 10 new examples (different from prior); possible IB API in Tensortrade.\n• Likes coleslaw, Greek yogurt not mayo.\n• Misc: Ring Cam on Echo Show 8, Troy Baker fav role, Hilton fitness.\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\n- It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "CHANGED",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "SAME"
+        },
+        "restored": [
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "• Topic-modeled 4,800 \"academic writing anxiety\" tweets; planning a few local writing workshops/meetups to gauge group fit; seeks recs for finding local groups.\n• Bought $120 Amazon kitchen appliance exceeding monthly allowance; wants cookbook/recipe/smart-plug recs; asks if recipes fit their appliance.\n• Luna loves laser pointer & strength training (unsure re: warm-up).\n• Old hiking boots not comfortable at all (2/11 hike w/ friends); seeks good boots.\n• Thinks Jane leaving Rochester dramatic/unnecessary; de-growth possibly causing recession.\n• Probable festival bonus next week; wants 10 new examples (different from prior); possible IB API in Tensortrade.\n• Likes coleslaw, Greek yogurt not mayo.\n• Misc: Ring Cam on Echo Show 8, Troy Baker fav role, Hilton fitness.\n- I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\n- It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "CHANGED",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "CHANGED",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "SAME"
+        },
+        "restored": [
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Topic-modeled 4,800 \"academic writing anxiety\" tweets; planning a few local writing workshops/meetups to gauge group fit; seeks recs.\n- Bought a $120 Amazon kitchen appliance (exceeded monthly allowance); wants cookbook/recipe/smart-plug recs; asks if recipes fit the appliance.\n- Luna loves laser pointer & strength training (unsure re: warm-up).\n- Old hiking boots not comfortable at all (2/11 hike w/ friends); seeks good boots.\n- Thinks Jane leaving Rochester dramatic/unnecessary; de-growth possibly causing recession.\n- Probable festival bonus next week; wants 10 new examples (different from prior); possible IB API in Tensortrade.\n- Likes coleslaw, Greek yogurt not mayo.\n- Misc: Ring Cam on Echo Show 8, Troy Baker fav role, Hilton fitness.\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\n- It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "CHANGED",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "SAME"
+        },
+        "restored": [
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "• Topic-modeled 4,800 \"academic writing anxiety\" tweets; planning local writing workshops/meetups to gauge group fit; seeks recs.\n• Bought $120 Amazon kitchen appliance (exceeded monthly allowance); wants cookbook/recipe/smart-plug recs; asks if recipes fit it.\n• Luna loves laser pointer & strength training (unsure re: warm-up).\n• Old hiking boots not comfortable at all (2/11 hike w/ friends); seeks good boots.\n• Thinks Jane leaving Rochester dramatic/unnecessary; de-growth possibly causing recession.\n• Probable festival bonus next week; wants 10 new examples (different from prior); possible IB API in Tensortrade.\n• Likes coleslaw, Greek yogurt not mayo.\n• Misc: Ring Cam on Echo Show 8, Troy Baker fav role, Hilton fitness.\n- I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\n- It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?\n- I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "CHANGED",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "SAME",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "CHANGED",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "CHANGED"
+        },
+        "restored": [
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Topic-modeled 4,800 \"academic writing anxiety\" tweets; planning local writing workshops/meetups, seeks recs.\n- Bought $120 Amazon kitchen appliance (exceeded monthly allowance); wants cookbook/recipe/smart-plug recs; asks if recipes fit it.\n- Luna loves laser pointer & strength training (unsure re: warm-up; asks tips).\n- Old hiking boots not comfortable at all (2/11 hike w/ friends); seeks good boots.\n- Thinks Jane leaving Rochester dramatic/unnecessary; de-growth possibly causing recession.\n- Probable festival bonus next week; wants 10 new examples (different from prior); possible IB API in Tensortrade.\n- Likes coleslaw, Greek yogurt not mayo.\n- Misc: Ring Cam on Echo Show 8, Troy Baker fav role, Hilton fitness.\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\n- It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "CHANGED",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "SAME"
+        },
+        "restored": [
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Topic-modeled 4,800 \"academic writing anxiety\" tweets; seeks local writing workshop/meetup recs.\n- Bought a $120 Amazon kitchen appliance (exceeded monthly allowance); asks if recommended cookbooks have recipes fitting it.\n- Luna loves laser pointer & strength training (unsure re: warm-up).\n- Old hiking boots not comfortable at all (2/11 hike).\n- Thinks Jane leaving Rochester dramatic/unnecessary; de-growth possibly causing recession.\n- Probable festival bonus next week; wants 10 new examples (different from prior).\n- Possible IB API in Tensortrade.\n- Likes coleslaw, Greek yogurt not mayo.\n- Misc: Ring Cam on Echo Show 8, Troy Baker fav role, Hilton fitness.\n- I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\n- I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "CHANGED",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "SAME",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "CHANGED"
+        },
+        "restored": [
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Topic-modeled 4,800 \"academic writing anxiety\" tweets; wants local writing workshop/meetup recs (plans to try a few first to gauge fit).\n- $120 Amazon appliance exceeded monthly allowance; asks re: fitting cookbook recipes.\n- Luna loves laser pointer & strength training (unsure re: warm-up); user loves daily strength training, unsure how to properly warm up.\n- Old hiking boots not comfortable at all (2/11 hike).\n- Views Jane's Rochester departure as dramatic/unnecessary; de-growth possibly causing recession.\n- Probable festival bonus next week; wants 10 new examples (different from prior).\n- Possible IB API in Tensortrade.\n- Likes coleslaw, Greek yogurt not mayo.\n- Misc: Ring Cam on Echo Show 8, Troy Baker fav role, Hilton fitness.\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "SAME",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "SAME"
+        },
+        "restored": [
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?"
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Topic-modeled 4,800 \"academic writing anxiety\" tweets; plans to try local writing workshops/meetups first to gauge fit, seeking recs.\n- $120 Amazon appliance exceeded monthly allowance (asks re fitting cookbook recipes).\n- Luna loves laser pointer & strength training (unsure re warm-up); user loves daily strength training, unsure how to properly warm up.\n- Old hiking boots not comfortable at all (2/11 hike).\n- Jane's Rochester departure seen as dramatic/unnecessary; de-growth possibly causing recession.\n- Probable festival bonus next week; wants 10 new examples (different from prior).\n- Possible IB API in Tensortrade.\n- Likes coleslaw, Greek yogurt not mayo.\n- Misc: Ring Cam on Echo Show 8, Troy Baker fav role, Hilton fitness.\n- I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "CHANGED",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "SAME",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "SAME",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "SAME"
+        },
+        "restored": [
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "• Topic-modeled 4,800 \"academic writing anxiety\" tweets; plans local workshops first (seeking recs).\n• $120 appliance exceeded monthly allowance.\n• Luna likes laser pointer/strength training; user loves daily strength training but unsure how to warm up.\n• Old hiking boots not comfortable at all (2/11 hike).\n• Jane's Rochester departure seen as dramatic/unnecessary; de-growth possibly causing recession.\n• Probable festival bonus next week; wants 10 new examples (different from prior).\n• Possible IB API in Tensortrade.\n• Likes coleslaw, Greek yogurt—not mayo.\n• Misc: Ring Cam on Echo Show 8, Troy Baker fav role, Hilton fitness.\n- please continue, provide 10 additional examples, different from the ones you already mentioned\n- What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.\n- I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "CHANGED",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "CHANGED",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "CHANGED",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "SAME",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "SAME"
+        },
+        "restored": [
+          "please continue, provide 10 additional examples, different from the ones you already mentioned",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Topic-modeled 4,800 \"academic writing anxiety\" tweets (presenting method); wants 10 new examples different from prior; plans to try local workshops/meetups first, seeking recs for finding local writing groups.\n- Probable festival bonus next week; possible IB API in Tensortrade.\n- $120 appliance exceeded monthly allowance.\n- Luna likes laser pointer/strength training; user loves daily strength training but unsure how to warm up.\n- Old hiking boots not comfortable at all (2/11 hike w/ friends); seeking good boots.\n- Likes coleslaw/Greek yogurt—not mayo.\n- Jane's Rochester departure seen as dramatic/unnecessary; de-growth possibly causing recession.\n- Misc: Ring Cam on Echo Show 8, Troy Baker fav role, Hilton fitness.\n- I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "CHANGED",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "SAME",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "SAME"
+        },
+        "restored": [
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "• Topic-modeling a 4,800-tweet \"academic writing anxiety\" dataset; wants 10 new examples different from prior. Plans to try local writing workshops/meetups first; seeking recs for finding groups.\n• Probable festival bonus next week; possible IB API in Tensortrade.\n• $120 appliance exceeded monthly allowance.\n• Luna likes laser pointer/strength training; user loves daily strength training but unsure how to warm up.\n• Old hiking boots not comfortable at all (2/11 hike w/ friends); seeking good boots.\n• Likes coleslaw/Greek yogurt—not mayo.\n• Jane's Rochester departure seen as dramatic/unnecessary; de-growth possibly causing recession.\n• Misc: Ring Cam on Echo Show 8; Troy Baker fav role; Hilton fitness.\n- I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\n- I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "CHANGED",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "SAME",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "CHANGED"
+        },
+        "restored": [
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "• Topic-modeling a 4,800-tweet \"academic writing anxiety\" dataset; wants 10 new examples different from prior; plans local writing workshops/meetups first, seeking recs.\n• Probable festival bonus next week; possible Tensortrade IB API.\n• $120 appliance exceeded monthly allowance.\n• Luna likes laser pointer/strength training; user loves daily strength training but unsure how to properly warm up (seeking tips).\n• Old hiking boots not comfortable at all (2/11 hike w/ friends); seeking good boots.\n• Likes coleslaw/Greek yogurt, not mayo.\n• Sees Jane's Rochester departure as dramatic/unnecessary; de-growth possibly causing recession.\n• Misc: Ring Cam on Echo Show 8; Troy Baker fav role; Hilton fitness.\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\n- It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?\n- I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "CHANGED",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "CHANGED"
+        },
+        "restored": [
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?"
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Topic-modeled a 4,800-tweet \"academic writing anxiety\" dataset; wants 10 new examples different from prior.\n- Planning local writing workshops/meetups (seeking recs).\n- Probable festival bonus next week; possible Tensortrade IB API.\n- $120 Amazon kitchen appliance exceeded monthly allowance (checking cookbook recs for recipes).\n- Loves daily strength training but unsure how to properly warm up (seeking tips).\n- Old hiking boots not comfortable at all (2/11 hike w/ friends; seeking good boots).\n- Likes coleslaw/Greek yogurt, not mayo.\n- Sees Jane's Rochester departure as dramatic/unnecessary; de-growth possibly causing recession.\n- Ring Cam on Echo Show 8; Troy Baker fav role; Hilton fitness; Luna likes laser pointer/strength training.\n- I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\n- I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?\n- It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?\n- I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "CHANGED",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?": "CHANGED",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?": "CHANGED",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?": "CHANGED"
+        },
+        "restored": [
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+          "I think I'll start by attending a few writing workshops or meetups to get a feel for what kind of group would work best for me. Do you have any recommendations for finding local writing groups or events?",
+          "It's a kitchen appliance I bought on Amazon, and it cost me $120, which exceeded my monthly shopping allowance. Anyway, I think I'll check out those cookbook recommendations. Do you think they'll have any recipes for cooking with a kitchen appliance like mine?",
+          "I love the idea of incorporating strength training into my daily routine, but I'm not sure how to properly warm up before doing these exercises. Do you have any tips for warming up?"
+        ]
+      }
+    }
+  ]
+}

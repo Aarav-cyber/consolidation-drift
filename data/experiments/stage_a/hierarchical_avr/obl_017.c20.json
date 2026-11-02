@@ -1,0 +1,402 @@
+{
+  "item_id": "obl_017",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.022417+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I need to pay the electricity bill before the due date.\nUser: What's the best way to navigate the local shopping scene in Graz, especially for travelers who are short on time?\nUser: I'm trying to plan my outfit for the day, can you tell me what the weather forecast is like today? By the way, I've been making a mistake lately, I started leaving my umbrella at home on sunny days, but I regretted it on Wednesday when it unexpectedly rained in the afternoon.\nUser: Have these sports apparel brands faced any backlash for their commitment to social responsibility, and if so, how have they responded to it?\nUser: How long does it usually take to get from one destination to another using the subway?\nUser: Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?\nUser: explain transformation and cleaning raw data with examples and code using tidyverse and dplyr packages\nUser: nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette\nUser: during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.\nUser: I'm so glad you recommended the Esplanade Reserve Playground, my kids love playing on the swings and the giant slide. Do you have any other outdoor suggestions for us?\nUser: I'm curious, what's the specific color constraint you're working with for your current assignment? Is it a specific color or a specific color scheme?\nUser: can you ask me some questions so we can keep it rolling :)\nUser: So, does that mean I can't just eat my way out of cancer? What's the point of all these \"superfoods\" then?\nUser: I'm thinking of organizing a charity run, and I'm considering different distances, like 5K, 10K, or a full marathon. What are the pros and cons of each distance, and which one would you recommend for a first-time charity run organizer?\nUser: can you group above user stories into different app screens(pages)?\nUser: i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos\nUser: I'm in downtown, so something in the downtown area or nearby would be perfect.\nUser: Can low-impact exercises like cycling make me lose weight just as effectively as running would?\nUser: Can you suggest some self-help books that are similar to \"Atomic Habits\" by James Clear? I really enjoyed that book and would like to read more books on habit formation and personal development.\nUser: I'm excited to try out this marinade recipe, thanks for sharing! You know, speaking of BBQs, I was thinking about that amazing slow-cooked ribs recipe I had at Alex's backyard barbecue party last weekend...\nAgent: 1. Medical Question Answering\n2. Question Answering Datasets\n3. Question Answering with Reading Comprehension\n4. Multi-choice Question Answering\n5",
+      "anchors": [
+        "I need to pay the electricity bill before the due date.",
+        "How long does it usually take to get from one destination to another using the subway?",
+        "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?",
+        "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette",
+        "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.",
+        "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos",
+        "I'm in downtown, so something in the downtown area or nearby would be perfect."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- **Topics:** electricity bill, Graz time-constrained shopping, outfit/weather (forgot umbrella Wed; unexpected rain), sports-apparel social-responsibility backlash, subway times, building aesthetics, tidyverse/dplyr data-cleaning, round 3→Kentucky vs Marquette, reptilian sighting (not expert; heard \"for sure one of the bad ones\"), Esplanade Reserve Playground (kids loved swings/giant slide), color-vs-scheme constraint, rhetorical/skeptical challenge re: eating-out-of-cancer/superfoods.\n- **(Uncertainly)** considering 5K/10K/full-marathon charity run (first-time organizer; wants pros/cons + rec).\n- Group user stories into app screens/pages; Salesforce over Workday; needs policies/KB/Cronos.\n- Downtown (prefers nearby); asked low-impact cycling just as effective as running for weight loss.\n- Wants self-help books like \"Atomic Habits\" (really enjoyed; habit formation/personal dev).\n- Excited re: marinade recipe; recalled amazing slow-cooked ribs, Alex's BBQ, last weekend.\n- 4 QA types: Medical, Datasets, Reading Comprehension, Multi-choice.\n- I need to pay the electricity bill before the due date.\n- How long does it usually take to get from one destination to another using the subway?\n- Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?\n- nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "How long does it usually take to get from one destination to another using the subway?": "CHANGED",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "CHANGED",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "SAME",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date.",
+          "How long does it usually take to get from one destination to another using the subway?",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "• Loves unique building colors/textures making structures stand out. Skeptical re: superfoods/cancer-eating.\n• (Uncertainly) considering first-time 5K/10K/full-marathon charity run; wants pros/cons + rec. Asked if low-impact cycling equals running for weight loss.\n• Prefers downtown (nearby). Really enjoyed \"Atomic Habits\"; wants similar self-help. Excited re: marinade; recalled amazing slow-cooked ribs at Alex's BBQ last weekend.\n• Corrected misremembering: Kentucky vs Marquette, round 3. Reptilian sighting: not expert; heard \"for sure one of the bad ones.\"\n• Esplanade Reserve Playground: kids loved swings/giant slide. 4 QA types: Medical, Datasets, Reading Comprehension, Multi-choice.\n• Prefers Salesforce over Workday; needs policies/KB/Cronos. Grouping user stories into app screens.\n• Electricity bill must be paid before due date. Forgot umbrella Wed/rain. Graz time-constrained shopping. Subway times. Sports-apparel backlash. tidyverse/dplyr. Color-vs-scheme constraint.\n- How long does it usually take to get from one destination to another using the subway?\n- i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "How long does it usually take to get from one destination to another using the subway?": "CHANGED",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "CHANGED",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": [
+          "How long does it usually take to get from one destination to another using the subway?",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Loves unique building colors/textures; prefers downtown; really enjoyed *Atomic Habits*; excited about marinade; amazing ribs at Alex's BBQ last weekend; kids loved Esplanade Reserve Playground swings/giant slide.\n- Skeptical re: superfoods/cancer-eating.\n- Uncertainly considering first-time 5K/10K/full-marathon charity run (wants pros/cons, rec., cycling-vs-running for weight loss).\n- Forgot umbrella Wed; electricity bill must be paid before due date.\n- Corrected misremembering (Kentucky vs Marquette, round 3).\n- Reptilian sighting: not expert, heard \"for sure one of the bad ones.\"\n- Work: uses Salesforce over Workday; needs company policies, KB navigation, Cronos; grouping user stories into app screens; 4 QA types (Medical, Datasets, Reading Comprehension, Multi-choice); tidyverse/dplyr; color-vs-scheme constraint.\n- Graz time-constrained shopping; subway travel-time question; sports-apparel backlash.\n- I'm in downtown, so something in the downtown area or nearby would be perfect.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "SAME",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "CHANGED"
+        },
+        "restored": [
+          "I'm in downtown, so something in the downtown area or nearby would be perfect."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Loves unique building colors/textures; prefers downtown (is there now; wants something downtown/nearby).\n- Really enjoyed *Atomic Habits*; excited about marinade; amazing ribs at Alex's BBQ last weekend; kids loved Esplanade Reserve Playground swings/giant slide.\n- Skeptical re: superfoods/cancer-eating.\n- Uncertainly considering first-time 5K/10K/full-marathon charity run (wants pros/cons, rec, cycling-vs-running for weight loss).\n- Forgot umbrella Wed; electricity bill must be paid before due date.\n- Corrected misremembering (Kentucky vs Marquette, r3).\n- Reptile: not expert; heard \"for sure one of the bad ones.\"\n- Work: Salesforce (not Workday); needs policies/KB/Cronos; grouping user stories into app screens; 4 QA types (Medical, Datasets, Reading Comprehension, Multi-choice); tidyverse/dplyr; color-vs-scheme constraint.\n- Graz: time-constrained shopping, subway travel-time Q, sports-apparel backlash.\n- i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "CHANGED",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": [
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Loves unique building colors/textures; prefers downtown (currently there; wants downtown/nearby).\n- Really enjoyed *Atomic Habits*; excited about marinade; amazing ribs at Alex's BBQ last weekend; kids loved Esplanade Reserve Playground swings/giant slide.\n- Skeptical re: superfoods/cancer-eating.\n- Uncertainly considering first-time 5K/10K/full-marathon charity run (wants pros/cons, rec, cycling-vs-running for weight loss).\n- Forgot umbrella Wed; electricity bill must be paid before due date.\n- Corrected misremembering (Kentucky vs Marquette, r3); reptile: not expert, heard \"for sure one of the bad ones.\"\n- Work: Salesforce (not Workday); needs company policies, KB navigation, Cronos; grouping user stories into app screens; 4 QA types (Medical, Datasets, Reading Comprehension, Multi-choice); tidyverse/dplyr; color-vs-scheme constraint; Graz: time-constrained shopping, subway travel-time Q, sports-apparel backlash.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "SAME",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Prefers downtown (currently there; wants downtown/nearby); likes unique building colors/textures.\n- Really enjoyed *Atomic Habits*; excited about marinade; amazing ribs at Alex's BBQ last weekend; kids loved Esplanade Reserve Playground swings/giant slide.\n- Skeptical re: superfoods/cancer-eating.\n- Uncertainly considering first-time 5K/10K/full-marathon charity run (wants pros/cons, rec, cycling-vs-running for weight loss).\n- Forgot umbrella Wed; electricity bill must be paid before due date.\n- Corrected misremembering (Kentucky vs Marquette, r3); on reptiles: not expert, heard \"for sure one of the bad ones.\"\n- Work: Salesforce (not Workday); needs company policies, KB navigation, Cronos; grouping user stories into app screens; 4 QA types (Medical, Datasets, Reading Comprehension, Multi-choice); tidyverse/dplyr; color-vs-scheme constraint.\n- Graz: time-constrained shopping, subway travel-time Q, sports-apparel backlash.\n- Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "SAME",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": [
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Prefers downtown (currently there); loves unique building colors/textures.\n- Really enjoyed *Atomic Habits*; excited about marinade.\n- Amazing ribs at Alex's BBQ last weekend; kids loved Esplanade Reserve Playground.\n- Skeptical re: superfoods/cancer-eating.\n- Uncertainly considering first-time 5K/10K/full-marathon charity run (wants pros/cons, rec, cycling-vs-running for weight loss).\n- Work: Salesforce (not Workday)—needs policies, KB, Cronos, user-story→screen grouping, 4 QA types (Medical, Datasets, Reading Comp, Multi-choice), tidyverse/dplyr, color-vs-scheme.\n- Misc: forgot umbrella Wed; electricity bill due; corrected KY/Marquette r3; not a reptile expert (\"for sure one of the bad ones\").\n- Graz: time-constrained shopping/subway travel/sports-apparel backlash.\n- I need to pay the electricity bill before the due date.\n- How long does it usually take to get from one destination to another using the subway?\n- during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.\n- I'm in downtown, so something in the downtown area or nearby would be perfect.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "How long does it usually take to get from one destination to another using the subway?": "MISSING",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "CHANGED",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "SAME",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "CHANGED"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date.",
+          "How long does it usually take to get from one destination to another using the subway?",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Currently downtown; loves unique building colors/textures; wants downtown/nearby suggestions.\n- Enjoyed *Atomic Habits*, marinade, amazing ribs at Alex's BBQ last weekend; kids loved Esplanade Reserve Playground.\n- Skeptical of superfoods/cancer-eating.\n- Uncertainly weighing first-time 5K/10K/full-marathon charity run (wants pros/cons, rec, cycling-vs-running for weight loss).\n- Works at Salesforce (explicitly not Workday); needs policies, KB, Cronos, user-story→screen grouping, 4 QA types (Medical, Datasets, Reading Comp, Multi-choice), tidyverse/dplyr, color-vs-scheme.\n- Forgot umbrella Wed; electricity bill due; corrected KY/Marquette r3.\n- Not a reptile/aliens expert (\"for sure one of the bad ones\").\n- Graz: time-constrained (shopping, subway, sports-apparel backlash).\n- I need to pay the electricity bill before the due date.\n- How long does it usually take to get from one destination to another using the subway?\n- i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "How long does it usually take to get from one destination to another using the subway?": "MISSING",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "CHANGED",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date.",
+          "How long does it usually take to get from one destination to another using the subway?",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Downtown user; loves unique building colors/textures; wants local recs.\n- Skeptical of superfoods/cancer-eating claims.\n- Uncertainly weighing a first-time charity run (5K/10K/full-marathon); wants pros/cons, a rec, cycling-vs-running for weight loss.\n- Works at Salesforce (explicitly NOT Workday).\n- Needs: KB/Cronos/policies/user-story→screen grouping/4 QA types (Medical, Datasets, Reading Comp, Multi-choice)/tidyverse-dplyr/color-vs-scheme.\n- Not a reptile/aliens expert (\"for sure one of the bad ones\").\n- Graz-bound, time-constrained (shopping, subway, sports-apparel backlash).\n- Forgot umbrella Wed; electricity bill due (must pay before due date).\n- Corrected KY/Marquette r3; asked typical subway travel times.\n- Last weekend: enjoyed *Atomic Habits*, amazing ribs at Alex's BBQ, kids' Esplanade Reserve Playground.\n- during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.\n- i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "CHANGED",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "CHANGED",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": [
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Downtown user at Salesforce (explicitly NOT Workday); Graz-bound, time-constrained (shopping, subway, sports-apparel backlash).\n- Work needs: KB, Cronos, policies, user-story→screen grouping, 4 QA types (Medical, Datasets, Reading Comp, Multi-choice), tidyverse-dplyr, color-vs-scheme; corrected KY/Marquette r3; asked typical subway travel times.\n- Forgot umbrella Wed; electricity bill due—must pay before due date.\n- Loves unique building colors/textures; wants local recs.\n- Skeptical of superfoods/cancer-eating claims.\n- Uncertainly weighing a first-time charity run (5K/10K/full-marathon); wants pros/cons, a rec, cycling-vs-running for weight loss.\n- Not a reptile/aliens expert; from what they've heard, reptilians are \"for sure one of the bad ones.\"\n- Last weekend: enjoyed *Atomic Habits*, amazing ribs at Alex's BBQ, kids' Esplanade Reserve Playground.\n- Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?\n- i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos\n- I'm in downtown, so something in the downtown area or nearby would be perfect.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "CHANGED",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "CHANGED"
+        },
+        "restored": [
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Works at Salesforce (NOT Workday), downtown, Graz-bound, time-constrained.\n- Work needs: KB, Cronos, policies, user-story→screen grouping, 4 QA types (Medical, Datasets, Reading Comp, Multi-choice), tidyverse-dplyr, color-vs-scheme, corrected KY/Marquette r3, subway travel times.\n- Forgot umbrella Wednesday; electricity bill must be paid before due date.\n- Loves unique building colors/textures; wants downtown/nearby recs.\n- Skeptical of superfood/cancer-eating claims.\n- Uncertainly weighing a first-time charity run (5K/10K/full-marathon); wants pros/cons + cycling-vs-running weight-loss rec.\n- Not a reptile/aliens expert; from what they've heard, reptilians are \"for sure one of the bad ones.\"\n- Last weekend: *Atomic Habits*, ribs at Alex's BBQ, kids' Esplanade Reserve Playground.\n- How long does it usually take to get from one destination to another using the subway?",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "How long does it usually take to get from one destination to another using the subway?": "CHANGED",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "SAME",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": [
+          "How long does it usually take to get from one destination to another using the subway?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Works at Salesforce (not Workday), downtown; Graz-bound; time-constrained.\n- Work spans KB, Cronos, policies, user-story→screen grouping, 4 QA types, tidyverse-dplyr, color-vs-scheme, corrected KY/Marquette r3, subway times.\n- Forgot umbrella Wed; electricity bill due.\n- Loves unique building colors/textures; wants downtown/nearby recs.\n- Skeptical of superfood/cancer claims.\n- Uncertainly weighing first charity run (5K/10K/marathon) and cycling-vs-running weight-loss rec.\n- Not a reptile/aliens expert but heard reptilians are \"for sure one of the bad ones.\"\n- Last weekend: *Atomic Habits*, ribs at Alex's BBQ, kids' Esplanade Reserve Playground.\n- Asks usual subway time between two destinations.\n- Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?\n- i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "CHANGED",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": [
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Works at Salesforce (not Workday); downtown, Graz-bound, time-constrained. Work spans KB, Cronos, policies, user-story→screen grouping, 4 QA types, tidyverse-dplyr, color-vs-scheme, corrected KY/Marquette r3, subway times.\n- Forgot umbrella Wed; electricity bill due.\n- Loves unique building colors/textures (\"so amazing\"); wants downtown/nearby recs.\n- Skeptical of superfood/cancer claims.\n- Uncertainly weighing first charity run (5K/10K/marathon) and cycling-vs-running for weight loss.\n- Not a reptile/aliens expert; heard reptilians are \"for sure one of the bad ones.\"\n- Last weekend: *Atomic Habits*, ribs at Alex's BBQ, kids' Esplanade Reserve Playground.\n- Asks usual subway time between two destinations.\n- I need to pay the electricity bill before the due date.\n- Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?\n- I'm in downtown, so something in the downtown area or nearby would be perfect.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "SAME",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "CHANGED"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date.",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Works at Salesforce (not Workday); downtown/Graz-bound; time-constrained.\n- Work spans: KB, Cronos, policies, user-story→screen grouping, 4 QA types, tidyverse-dplyr, color-vs-scheme, corrected KY/Marquette r3, subway times.\n- Electricity bill due; forgot umbrella Wednesday.\n- Loves unique building colors/textures; wants downtown/nearby recs.\n- Skeptical of superfood/cancer claims.\n- Uncertainly weighing first charity run (5K/10K/marathon) and cycling-vs-running for weight loss.\n- Not a reptile/aliens expert; heard reptilians are \"for sure one of the bad ones.\"\n- Last weekend: *Atomic Habits*, ribs at Alex's BBQ, kids' Esplanade Reserve Playground.\n- Asks usual subway time between two destinations.\n- Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?\n- i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "CHANGED",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": [
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos"
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Uses Salesforce (not Workday); work spans KB, Cronos, policies, user-story→screen grouping, 4 QA types, tidyverse-dplyr, color-vs-scheme, corrected KY/Marquette r3, subway times.\n- Downtown/Graz-bound, time-constrained.\n- Electricity bill due; forgot umbrella Wednesday.\n- Asks usual subway time between two destinations.\n- \"Wow, all so amazing\"—loves unique building colors/textures; wants downtown/nearby recs; asks if seen similar in person.\n- Skeptical of superfood/cancer claims.\n- Uncertainly weighing first charity run (5K/10K/marathon) & cycling-vs-running for weight loss.\n- Not a reptile/aliens expert; heard reptilians are \"for sure one of the bad ones.\"\n- Last weekend: *Atomic Habits*, ribs at Alex's BBQ, kids' Esplanade Reserve Playground.\n- I need to pay the electricity bill before the due date.\n- i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "CHANGED",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date.",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Uses Salesforce (not Workday); work spans KB, Cronos, policies, user-story→screen grouping, 4 QA types, tidyverse-dplyr, color-vs-scheme, corrected KY/Marquette r3, subway times.\n- Downtown/Graz-bound, time-constrained; electricity bill due; forgot umbrella Wednesday; asks usual subway time between two destinations.\n- Loves unique building colors/textures (\"Wow, all so amazing\"); wants downtown/nearby recs; asks if seen similar in person.\n- Skeptical of superfood/cancer claims.\n- Uncertainly weighing first charity run (5K/10K/marathon) & cycling-vs-running for weight loss.\n- Not a reptile/aliens expert; heard reptilians are \"for sure one of the bad ones.\"\n- Last weekend: *Atomic Habits*, ribs at Alex's BBQ, kids' Esplanade Reserve Playground.\n- I need to pay the electricity bill before the due date.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "SAME",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Uses Salesforce (not Workday). Work spans KB, Cronos, policies, user-story→screen grouping, 4 QA types, tidyverse-dplyr, color-vs-scheme, corrected KY/Marquette r3, subway times.\n- Time-constrained; downtown/Graz-bound. Electricity bill due—must pay before due date. Forgot umbrella Wed.\n- Asks usual subway time between two destinations.\n- Loves unique building colors/textures; wants downtown/nearby recs; asks if seen similar in person.\n- Skeptical of superfood/cancer claims.\n- Uncertainly weighing first charity run (5K/10K/marathon) & cycling-vs-running for weight loss.\n- Not a reptile/aliens expert; heard reptilians are \"for sure one of the bad ones.\"\n- Last weekend: *Atomic Habits*, ribs at Alex's BBQ, kids' Esplanade Reserve Playground.\n- nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette\n- i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "CHANGED",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "CHANGED",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": [
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Uses Salesforce (not Workday); work spans KB, Cronos, policies, user-story→screen grouping, 4 QA types, tidyverse-dplyr, color-vs-scheme.\n- Corrected r3 matchup to Kentucky vs Marquette (you misremembered).\n- Time-constrained, downtown/Graz-bound; electricity bill must be paid before due date; forgot umbrella Wed; asks usual subway time.\n- Loves unique building colors/textures; wants downtown/nearby recs; asks if seen in person.\n- Skeptical of superfood/cancer claims.\n- Uncertainly weighing first charity run (5K/10K/marathon) and cycling-vs-running for weight loss.\n- Not a reptile/aliens expert; heard reptilians are \"for sure one of the bad ones.\"\n- Last weekend: *Atomic Habits*, ribs at Alex's BBQ, kids' Esplanade Reserve Playground.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "SAME",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Uses Salesforce (not Workday); work spans KB, Cronos, policies, user-story→screen grouping, 4 QA types, tidyverse-dplyr, color-vs-scheme.\n- Corrected r3 matchup to Kentucky vs Marquette.\n- Time-constrained, downtown/Graz-bound; electricity bill must be paid before due date; forgot umbrella Wed; asks usual subway time; loves unique building colors/textures; wants downtown/nearby recs; asks if seen in person.\n- Skeptical of superfood/cancer claims.\n- Uncertainly weighing first charity run (5K/10K/marathon) and cycling-vs-running for weight loss.\n- Not a reptile/aliens expert but heard reptilians are \"for sure one of the bad ones.\"\n- Last weekend: *Atomic Habits*, ribs at Alex's BBQ, kids' Esplanade Reserve Playground.\n- nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "CHANGED",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "SAME",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "SAME"
+        },
+        "restored": [
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette"
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Uses Salesforce (not Workday) for KB, Cronos, policies, user-story→screen grouping, 4 QA types, tidyverse-dplyr, color-vs-scheme.\n- Time-constrained; downtown/Graz-bound. Electricity bill due. Forgot umbrella Wednesday.\n- Wants downtown/nearby recs; loves unique building colors/textures. Asks usual subway time & whether seen in person.\n- Skeptical of superfood/cancer claims.\n- Uncertainly weighing first charity run (5K/10K/marathon) and cycling vs. running for weight loss.\n- Not a reptile/aliens expert; heard reptilians are \"for sure one of the bad ones.\"\n- Last weekend: *Atomic Habits*, ribs at Alex's BBQ, kids at Esplanade Reserve Playground.\n- Corrected r3 matchup to Kentucky vs. Marquette (was misremembering past selections).\n- I need to pay the electricity bill before the due date.\n- I'm in downtown, so something in the downtown area or nearby would be perfect.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "How long does it usually take to get from one destination to another using the subway?": "SAME",
+          "Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME",
+          "i use salesforce over workday add in knowledge of company policies, naviagting the KB system, and cronos": "SAME",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect.": "CHANGED"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date.",
+          "I'm in downtown, so something in the downtown area or nearby would be perfect."
+        ]
+      }
+    }
+  ]
+}

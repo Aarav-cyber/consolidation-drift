@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_035",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.071671+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain our train tickets are confirmed for Friday."
+    },
+    {
+      "round": 1,
+      "memory": "- Train tickets are confirmed for Friday (stated with certainty)."
+    },
+    {
+      "round": 2,
+      "memory": "- Train tickets are confirmed for Friday. (Stated with certainty.)"
+    },
+    {
+      "round": 3,
+      "memory": "- Train tickets were confirmed for Friday (stated with certainty)."
+    },
+    {
+      "round": 4,
+      "memory": "- Train tickets are confirmed for Friday. (Stated with certainty.)"
+    },
+    {
+      "round": 5,
+      "memory": "- Train tickets for Friday are confirmed (stated with certainty)."
+    },
+    {
+      "round": 6,
+      "memory": "- Friday train tickets are confirmed with certainty."
+    },
+    {
+      "round": 7,
+      "memory": "- Friday train tickets are confirmed with certainty."
+    },
+    {
+      "round": 8,
+      "memory": "- Friday train tickets are confirmed with certainty."
+    },
+    {
+      "round": 9,
+      "memory": "- Friday train tickets are confirmed with certainty."
+    },
+    {
+      "round": 10,
+      "memory": "- Friday train tickets are confirmed with certainty."
+    },
+    {
+      "round": 11,
+      "memory": "- Friday train tickets are confirmed with certainty."
+    },
+    {
+      "round": 12,
+      "memory": "- Friday train tickets have been confirmed with certainty."
+    },
+    {
+      "round": 13,
+      "memory": "- Friday train tickets are confirmed with certainty."
+    },
+    {
+      "round": 14,
+      "memory": "- Friday train tickets are confirmed with certainty."
+    },
+    {
+      "round": 15,
+      "memory": "- Friday train tickets are confirmed with certainty."
+    },
+    {
+      "round": 16,
+      "memory": "- Friday train tickets are confirmed with certainty."
+    },
+    {
+      "round": 17,
+      "memory": "- Friday train tickets are confirmed (stated with certainty)."
+    },
+    {
+      "round": 18,
+      "memory": "- Friday train tickets are confirmed (stated with certainty)."
+    },
+    {
+      "round": 19,
+      "memory": "- Friday train tickets are confirmed, stated with certainty."
+    },
+    {
+      "round": 20,
+      "memory": "- Friday train tickets are confirmed (stated with certainty)."
+    }
+  ]
+}

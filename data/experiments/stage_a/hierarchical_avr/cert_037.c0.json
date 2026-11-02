@@ -1,0 +1,225 @@
+{
+  "item_id": "cert_037",
+  "context_level": "c0",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.935161+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain the OTP was verified on the first attempt.",
+      "anchors": [
+        "I am certain the OTP was verified on the first attempt."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- It is certain that the OTP was verified on the first attempt.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- OTP was verified on the first attempt. This is confirmed/certain.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- OTP was verified on the first attempt; this is confirmed.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- The OTP was verified on the first attempt and confirmed.\n- I am certain the OTP was verified on the first attempt.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "CHANGED"
+        },
+        "restored": [
+          "I am certain the OTP was verified on the first attempt."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- A certain OTP was verified on the first attempt. This is confirmed.\n- I am certain the OTP was verified on the first attempt.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "CHANGED"
+        },
+        "restored": [
+          "I am certain the OTP was verified on the first attempt."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- A certain OTP was verified on the first attempt. The speaker is certain of this.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- A particular OTP was verified on the first attempt; the speaker is certain of this.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- The speaker is certain that a particular OTP was verified on the first attempt.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- The speaker is certain that a particular OTP was verified on the first attempt.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- A particular OTP was verified on the 1st attempt (stated as certain).",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- A particular OTP was verified on the 1st attempt (stated with certainty).",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- A particular OTP was verified on the 1st attempt (stated with certainty).",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- A specific OTP was verified on the 1st attempt (stated with certainty).",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- A specific OTP was verified on the 1st attempt (stated with certainty).",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- A specific OTP was verified on the 1st attempt (stated with certainty).",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- A specific OTP was verified on the 1st attempt (stated with certainty).",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- A specific OTP was verified on the 1st attempt (stated with certainty).",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- A specific OTP was verified on the 1st attempt (stated with certainty).",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- A specific OTP was verified on the 1st attempt (stated with certainty).",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- A specific OTP was verified on the 1st attempt (stated with certainty).",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

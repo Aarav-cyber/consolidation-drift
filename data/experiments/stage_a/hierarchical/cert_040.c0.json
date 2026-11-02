@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_040",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.006545+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain our team scored in the final minute of the match."
+    },
+    {
+      "round": 1,
+      "memory": "- The speaker is certain that their team scored in the final minute of the match."
+    },
+    {
+      "round": 2,
+      "memory": "- Speaker is certain their team scored in the final minute of the match."
+    },
+    {
+      "round": 3,
+      "memory": "- The speaker is certain their team scored in the match's final minute."
+    },
+    {
+      "round": 4,
+      "memory": "- Speaker is certain their team scored in the final minute of the match."
+    },
+    {
+      "round": 5,
+      "memory": "- The speaker is certain their team scored in the final minute of the match."
+    },
+    {
+      "round": 6,
+      "memory": "- The speaker is certain their team scored in the final minute of the match."
+    },
+    {
+      "round": 7,
+      "memory": "- They are certain their team scored in the final minute of the match."
+    },
+    {
+      "round": 8,
+      "memory": "- They are certain their team scored in the final minute of the match."
+    },
+    {
+      "round": 9,
+      "memory": "- They are certain that their team scored in the final minute of the match."
+    },
+    {
+      "round": 10,
+      "memory": "- They are certain their team scored in the final minute of the match."
+    },
+    {
+      "round": 11,
+      "memory": "- They are certain their team scored in the final minute of the match."
+    },
+    {
+      "round": 12,
+      "memory": "- They are certain their team scored in the final minute of the match."
+    },
+    {
+      "round": 13,
+      "memory": "- They are certain their team scored in the final minute of the match."
+    },
+    {
+      "round": 14,
+      "memory": "- They were certain their team scored in the final minute of the match."
+    },
+    {
+      "round": 15,
+      "memory": "- They were certain their team scored in the final minute of the match."
+    },
+    {
+      "round": 16,
+      "memory": "- They are certain their team scored in the match's final minute."
+    },
+    {
+      "round": 17,
+      "memory": "- They are certain their team scored in the match's final minute."
+    },
+    {
+      "round": 18,
+      "memory": "- They are certain their team scored in the match's final minute."
+    },
+    {
+      "round": 19,
+      "memory": "- They are certain their team scored in the match's final minute."
+    },
+    {
+      "round": 20,
+      "memory": "- They are certain their team scored in the match's final minute."
+    }
+  ]
+}

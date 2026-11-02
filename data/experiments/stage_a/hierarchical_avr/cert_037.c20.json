@@ -1,0 +1,256 @@
+{
+  "item_id": "cert_037",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.068527+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain the OTP was verified on the first attempt.\nUser: I'm happy to help you with any questions or concerns you may have! What's on your mind?\nUser: Did you forget my initial request?\nUser: I totally agree with you! It's amazing to see how a song can evolve and take on a new life with different artists. Have you discovered any other classic songs that have been reimagined in a unique way?\nUser: I'm thinking of making some garlic bread to serve on the side as well. Do you have a simple recipe for garlic bread that I can follow?\nUser: Can you give me the list with your top 3 from each of the ten lists?\nUser: How does Osaka approach environmental sustainability and green initiatives?\nUser: Can you describe any new revenue streams that Belo has developed as part of their digital strategy?\nUser: I also love how different cities have their own unique traditions when it comes to baseball. Do you have a favorite city that you associate with baseball?\nUser: I see your point, but sometimes it feels like taking responsibility just leads to people taking advantage of me. How can I avoid being taken advantage of while still taking responsibility for my actions?\nUser: I see that getting into character is a crucial part of the acting process. I'm also curious about how to create a believable character backstory. Can you provide some tips on how to do that?\nUser: what financial KPIs do each of these challenges impact?\nUser: That's interesting. I had no idea that Bowie was influenced by so many different genres and artists. What about his fashion sense? Did he have any specific fashion icons or influences?\nUser: I'm interested in applying the concept of mini-habits to my daily commute. I spend around 30-40 minutes commuting to work every day, and I'd like to make the most of this time. Can you suggest some mini-habit ideas that I can implement during my daily commute?\nUser: I'm also happy with how the reading lamp looks in the den now. I recently moved the reading lamp to the den, and it's been great for reading, but the den could still use some more lighting.\nUser: how would the chords look like?\nUser: That's really interesting! Do sound engineers have a specific software they use for mixing and mastering?\nUser: I'm looking to find some new salsa music to practice to at home. Can you recommend some popular salsa artists or playlists on music streaming services?\nUser: Can you condense that description to focus on nouns and adjectives? Separated by.\nUser: Thank you for the recommendation, but I specifically asked for a book in the Romance genre by a female author. Can you suggest one?\nUser: I'm also considering booking a hotel in San Antonio. Can you recommend any hotels that are close to the airport and offer shuttle service?",
+      "anchors": [
+        "I am certain the OTP was verified on the first attempt.",
+        "Can you give me the list with your top 3 from each of the ten lists?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- OTP verified on first attempt; totally agreed songs evolve with new artists.\n- Requested: garlic bread recipe, top 3 from each of 10 lists, Osaka sustainability, Belo digital revenue, acting backstory tips, financial KPIs per challenge, mixing/mastering software, salsa artists/playlists for home practice, a Romance-genre book by a female author, how chords would look.\n- Surprised (\"no idea\") by Bowie's genre breadth; asked about his fashion icons.\n- Loves city baseball traditions.\n- Asked how to take responsibility without being exploited; ~30–40 min commute mini-habits.\n- Recently moved; happy with den reading lamp but den could still use more lighting.\n- Asked to condense a description to nouns+adjectives separated by period.\n- Considering booking a San Antonio hotel near the airport with shuttle service.\n- Asked if initial request was forgotten.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- OTP verified first attempt; agreed songs evolve with new artists.\n- Requested: garlic bread recipe, top 3 from each of 10 lists, Osaka sustainability, Belo digital revenue, acting backstory tips, financial KPIs per challenge, mixing/mastering software, salsa artists/playlists for home practice, Romance book by female author, chord visuals.\n- Surprised (\"no idea\") by Bowie's genre breadth; asked re his fashion icons.\n- Loves city baseball traditions.\n- Asked re taking responsibility without exploitation and ~30–40 min commute mini-habits.\n- Recently moved; happy with den reading lamp but den could still use more lighting.\n- Asked to condense a description to nouns+adjectives separated by period.\n- Considering San Antonio airport hotel with shuttle.\n- Asked if initial request was forgotten.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- OTP verified on first attempt; agreed songs evolve with new artists.\n- Many requests: garlic bread, top 3 from each of 10 lists, Osaka sustainability, Belo digital revenue, acting backstory, financial KPIs, mixing/mastering software, salsa playlists, Romance book by female author, chord visuals.\n- Surprised (\"no idea\") by Bowie's genre breadth; asked his fashion icons; loves city baseball traditions.\n- Asked re responsibility without exploitation and ~30–40 min commute mini-habits.\n- Recently moved; happy with den reading lamp but den could still use more lighting.\n- Asked to condense a description to nouns+adjectives separated by period.\n- Considering San Antonio airport hotel with shuttle.\n- Asked if initial request was forgotten.\n- I am certain the OTP was verified on the first attempt.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "CHANGED",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": [
+          "I am certain the OTP was verified on the first attempt."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "• OTP verified on 1st attempt (certain); agreed songs evolve with new artists.\n• Many varied requests: garlic bread, top 3 of each of 10 lists, Osaka sustainability, Belo digital revenue, acting backstory, fin. KPIs, mix/master software, salsa playlists, romance book by female author, chord visuals.\n• Surprised (\"no idea\") by Bowie's genre breadth; asked fashion icons; loves city baseball traditions.\n• Asked re responsibility without exploitation & ~30–40 min commute mini-habits.\n• Recently moved; happy with den reading lamp but den could still use more lighting.\n• Asked to condense to nouns+adjectives, period-separated.\n• Considering San Antonio airport hotel with shuttle.\n• Asked if initial request was forgotten.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- OTP verified 1st attempt (certain).\n- Agreed songs evolve with new artists.\n- Many varied requests: garlic bread, top 3 of each of 10 lists, Osaka sustainability, Belo digital revenue, acting backstory, fin. KPIs, mix/master software, salsa playlists, romance book by female author, chord visuals.\n- Surprised (\"no idea\") by Bowie's genre breadth.\n- Asked fashion icons.\n- Loves city baseball traditions.\n- Asked re responsibility without exploitation & ~30–40 min commute mini-habits.\n- Recently moved; happy with den reading lamp but den could still use more lighting.\n- Asked to condense to nouns+adjectives period-separated.\n- Considering San Antonio airport hotel with shuttle.\n- Asked if initial request was forgotten.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- OTP verified on 1st attempt (certain).\n- Agreed: songs evolve with new artists.\n- Many varied requests: garlic bread; top 3 of each of 10 lists; Osaka sustainability; Belo digital revenue; acting backstory; fin. KPIs; mix/master software; salsa playlists; romance book by female author; chord visuals.\n- Surprised (\"no idea\") by Bowie's genre breadth; asked fashion icons.\n- Loves city baseball traditions.\n- Asked re: responsibility without exploitation & ~30–40 min commute mini-habits.\n- Recently moved; happy with den reading lamp, but den could still use more lighting.\n- Asked to condense to nouns+adjectives, period-separated.\n- Considering San Antonio airport hotel with shuttle.\n- Asked if initial request was forgotten.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- OTP verified on 1st attempt (certain).\n- Agreed songs evolve with new artists.\n- Many varied requests: garlic bread, top 3 of each of 10 lists, Osaka sustainability, Belo digital revenue, acting backstory, fin. KPIs, mix/master software, salsa playlists, romance book by female author, chord visuals.\n- Surprised (\"no idea\") by Bowie's genre breadth; asked fashion icons.\n- Loves city baseball traditions.\n- Asked re: responsibility w/o exploitation & ~30–40 min commute mini-habits.\n- Recently moved; happy with den reading lamp but den could still use more lighting.\n- Asked to condense to nouns+adjectives, period-separated.\n- Considering San Antonio airport hotel w/ shuttle.\n- Asked if initial request was forgotten.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- OTP verified on 1st attempt (certain).\n- Agreed songs evolve with new artists.\n- Made many varied requests: garlic bread, top 3 of each of 10 lists, Osaka sustainability, Belo digital revenue, acting backstory, financial KPIs, mix/master software, salsa playlists, romance book by female author, chord visuals.\n- Surprised (\"no idea\") by Bowie's genre breadth; asked about fashion icons.\n- Loves city baseball traditions.\n- Asked about responsibility without exploitation & ~30–40 min commute mini-habits.\n- Recently moved; happy with den lamp but den could still use more lighting.\n- Asked to condense to nouns+adjectives, period-separated.\n- Considering San Antonio airport hotel with shuttle.\n- Asked if initial request was forgotten.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- OTP verified 1st attempt (certain); agreed songs evolve with new artists.\n- Varied requests: garlic bread, top 3 of each of 10 lists, Osaka sustainability, Belo digital revenue, acting backstory, financial KPIs, mix/master software, salsa playlists, romance book by female author, chord visuals.\n- Surprised (\"no idea\") by Bowie's genre breadth; asked about fashion icons.\n- Loves city baseball traditions.\n- Asked about responsibility without exploitation & ~30–40 min commute mini-habits.\n- Recently moved; happy with den lamp but den could still use more lighting.\n- Asked to condense to nouns+adjectives, period-separated.\n- Considering San Antonio airport hotel w/ shuttle.\n- Asked if initial request was forgotten.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- OTP verified on 1st attempt; agreed songs evolve with new artists.\n- Made many varied requests (garlic bread, top 3 of each of 10 lists, Osaka sustainability, Belo digital revenue, acting backstory, financial KPIs, mix/master software, salsa playlists, romance book by female author, chord visuals).\n- Surprised (\"no idea\") by Bowie's genre breadth; asked about fashion icons.\n- Loves city baseball traditions.\n- Asked about responsibility w/o exploitation; ~30–40 min commute mini-habits.\n- Recently moved; happy with den lamp but den could still use more lighting.\n- Asked to condense to nouns+adjectives, period-separated.\n- Considering San Antonio airport hotel w/ shuttle.\n- Asked if initial request was forgotten.\n- I am certain the OTP was verified on the first attempt.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "CHANGED",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": [
+          "I am certain the OTP was verified on the first attempt."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- OTP certain on 1st attempt; agreed songs evolve with new artists.\n- Made ~11 varied requests (top 3 of each of 10 lists, romance book by female author).\n- Surprised (\"no idea\") by Bowie's genre breadth.\n- Loves city baseball traditions.\n- Asked re responsibility without exploitation; ~30–40 min commute mini-habits.\n- Recently moved; happy with den lamp but den could still use more lighting.\n- Asked to condense output to nouns+adjectives, period-separated.\n- Considering San Antonio airport hotel with shuttle.\n- Asked if initial request was forgotten.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "• OTP certain on 1st attempt; agreed songs evolve with new artists.\n• Made ~11 varied requests (top 3 of each of 10 lists; romance book by female author).\n• Surprised (\"no idea\") by Bowie's genre breadth; loves city baseball traditions.\n• Asked re responsibility w/o exploitation; ~30–40 min commute mini-habits.\n• San Antonio airport hotel w/ shuttle; recently moved—happy w/ den lamp but needs more lighting.\n• Asked for condensed noun+adjective output; asked whether initial request was forgotten.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- OTP succeeded on 1st attempt; agreed songs evolve with new artists.\n- Made ~11 varied requests (top 3 of each of 10 lists; romance book by female author).\n- Surprised (\"no idea\") by Bowie's genre breadth; loves city baseball traditions.\n- Asked about responsibility without exploitation.\n- ~30–40 min commute; discussed mini-habits.\n- San Antonio airport hotel with shuttle.\n- Recently moved—happy with den lamp but needs more lighting.\n- Requested condensed noun+adjective output; asked whether initial request was forgotten.\n- I am certain the OTP was verified on the first attempt.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "CHANGED",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": [
+          "I am certain the OTP was verified on the first attempt."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "• OTP succeeded on 1st attempt (certain).\n• Made ~11 varied requests: top 3 of each of 10 lists; romance book by female author.\n• Surprised (\"no idea\") by Bowie's genre breadth; loves city baseball traditions.\n• Asked about responsibility without exploitation.\n• ~30–40 min commute; discussed mini-habits.\n• San Antonio airport hotel w/ shuttle.\n• Recently moved—happy w/ den lamp but needs more lighting.\n• Requested condensed noun+adjective output; asked if initial request was forgotten.\n• Agreed songs evolve with new artists.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- OTP succeeded on 1st attempt; made ~11 varied requests (top 3 of 10 lists, romance book by female author).\n- Surprised by Bowie's genre breadth; loves city baseball traditions.\n- Asked about responsibility without exploitation.\n- ~30–40 min commute (mini-habits).\n- San Antonio airport hotel w/ shuttle.\n- Recently moved (happy w/ den lamp, needs more lighting).\n- Requested condensed noun+adjective output; asked if initial request was forgotten.\n- Agreed songs evolve with new artists.\n- I am certain the OTP was verified on the first attempt.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "CHANGED",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": [
+          "I am certain the OTP was verified on the first attempt."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- OTP verified on 1st attempt.\n- ~11 varied requests: top 3 of 10 lists, female-author romance.\n- Surprised by Bowie's genre breadth; loves city baseball traditions.\n- Agreed songs evolve with new artists.\n- Asked about responsibility without exploitation.\n- ~30–40 min commute (mini-habits).\n- Recently moved to San Antonio airport hotel with shuttle; happy with den lamp, needs more lighting.\n- Requested condensed noun+adjective output; asked if initial request was forgotten.\n- I am certain the OTP was verified on the first attempt.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "CHANGED",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": [
+          "I am certain the OTP was verified on the first attempt."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- OTP verified on 1st attempt (certain).\n- ~11 varied requests (top 3 of 10 lists, female-author romance).\n- Surprised by Bowie's genre breadth; loves city baseball traditions; agreed songs evolve with new artists; asked about responsibility without exploitation.\n- ~30–40 min commute (mini-habits).\n- Recently moved to San Antonio airport hotel with shuttle.\n- Happy with den lamp but needs more lighting.\n- Requested condensed noun+adjective output; asked if initial request was forgotten.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- OTP verified on 1st attempt (certain).\n- ~11 varied requests made; preferences include top 3 of 10, female-author romance.\n- ~30–40 min commute; interested in mini-habits.\n- Recently moved to San Antonio airport hotel (with shuttle).\n- Happy with den lamp but needs more lighting.\n- Requested condensed noun+adjective output; asked if initial request was forgotten.\n- Surprised by Bowie's genre breadth.\n- Loves city baseball traditions.\n- Agreed songs evolve with new artists.\n- Asked about responsibility without exploitation.\n- Can you give me the list with your top 3 from each of the ten lists?",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "CHANGED"
+        },
+        "restored": [
+          "Can you give me the list with your top 3 from each of the ten lists?"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- OTP verified on 1st attempt (certain).\n- ~11 varied requests; stated preferences: top 3 of 10, female-author romance. Also specifically requested top 3 from each of 10 lists.\n- ~30–40 min commute; interested in mini-habits.\n- Recently moved to a San Antonio airport hotel (with shuttle).\n- Happy with den lamp but needs more lighting.\n- Requested condensed noun+adjective output; asked whether the initial request was forgotten.\n- Surprised by Bowie's genre breadth.\n- Loves city baseball traditions.\n- Agreed songs evolve with new artists.\n- Asked about responsibility without exploitation.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "SAME",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- OTP verified, 1st attempt.\n- ~11 varied requests: top 3 of 10 (female-author romance); top 3 from each of 10 lists.\n- ~30–40 min commute; interested in mini-habits.\n- Recently moved to San Antonio airport hotel (with shuttle).\n- Happy with den lamp; needs more lighting.\n- Requested condensed noun+adjective output; asked whether initial request was forgotten.\n- Surprised by Bowie's genre breadth.\n- Loves city baseball traditions.\n- Agreed songs evolve with new artists.\n- Asked about responsibility without exploitation.\n- I am certain the OTP was verified on the first attempt.",
+      "avr": {
+        "verdicts": {
+          "I am certain the OTP was verified on the first attempt.": "CHANGED",
+          "Can you give me the list with your top 3 from each of the ten lists?": "SAME"
+        },
+        "restored": [
+          "I am certain the OTP was verified on the first attempt."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "item_id": "cert_019",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.091288+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The company will probably announce the festival bonus next week.\nUser: Let's go back to the last version of the story before changing it to a script.\nUser: please continue, provide 10 additional examples, different from the ones you already mentioned\nUser: May use Interactive Brockers API or IB\\_insync in Tensortrade?\nUser: What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.\nUser: I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\nUser: I'm actually looking for something a bit more casual, like a good coffee shop. I was impressed by the fitness center at the Hilton, by the way. Do you know of any coffee shops near the hotel that I could grab a quick coffee?\nUser: I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.\nUser: So, I was thinking of creating a Twitter poll about the Marvel movie, but I'm not sure what question to ask. Do you have any suggestions for a poll question that could generate a lot of engagement?",
+      "anchors": [
+        "The company will probably announce the festival bonus next week.",
+        "please continue, provide 10 additional examples, different from the ones you already mentioned",
+        "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+        "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "• Company will probably announce festival bonus next week.\n• Revert to last story version before script change; add 10 new examples (different from prior).\n• May use Interactive Brokers API or IB_insync in Tensortrade?\n• Looking for good hiking boots (old ones not comfortable at all on a Feb 11 hike with friends).\n• Topic modeling on a 4,800-tweet dataset keyed on \"academic writing anxiety.\"\n• Actually wants something more casual: coffee shop near Hilton for quick coffee (impressed by fitness center).\n• Still doesn't understand why Jane would leave Rochester after everything; seems dramatic for no reason—couldn't she have stayed and worked on differences like mature adults?\n• Thinking of a Marvel movie Twitter poll but unsure what question could generate a lot of engagement.\n- please continue, provide 10 additional examples, different from the ones you already mentioned",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "CHANGED",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": [
+          "please continue, provide 10 additional examples, different from the ones you already mentioned"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Festival bonus: probably next week.\n- Story: revert to last pre-script-change version; add 10 new different examples (10 more requested).\n- May use IB API/IB_insync in Tensortrade.\n- Seeking hiking boots (old ones not comfortable at all on Feb 11 hike).\n- Topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n- Wants casual coffee shop near Hilton (impressed by fitness center).\n- Still doesn't understand why Jane left Rochester—seems dramatic; couldn't she work on differences like mature adults?\n- Considering Marvel Twitter poll but unsure what question would generate lots of engagement.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Festival bonus probably next week.\n- Story: revert to last pre-script-change version and add 10 new different examples.\n- May use IB API/IB_insync in Tensortrade.\n- Seeking hiking boots; old ones not comfortable at all on Feb 11 hike.\n- Topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n- Wants casual coffee shop near Hilton (impressed by fitness center).\n- Still doesn't understand why Jane left Rochester (seems dramatic; couldn't she work on differences like mature adults?).\n- Considering Marvel Twitter poll but unsure what question would generate lots of engagement.\n- please continue, provide 10 additional examples, different from the ones you already mentioned\n- I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "CHANGED",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "CHANGED"
+        },
+        "restored": [
+          "please continue, provide 10 additional examples, different from the ones you already mentioned",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Festival bonus probably next week.\n- Story: revert to pre-script-change version; add 10 new different examples.\n- May use IB API/IB_insync in Tensortrade.\n- Topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering Marvel Twitter poll but unsure what question would generate lots of engagement.\n- Seeking hiking boots (old ones not comfortable at all on Feb 11 hike).\n- Wants casual coffee shop near Hilton (impressed by fitness center).\n- Still doesn't understand why Jane left Rochester—seems dramatic; thinks she could have stayed and worked on differences like mature adults.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Festival bonus probably next week.\n- Story to revert to pre-script-change version + 10 new different examples.\n- May use IB API/IB_insync in Tensortrade.\n- Topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering a Marvel Twitter poll; unsure what question would generate lots of engagement.\n- Seeking hiking boots (old ones not comfortable at all on Feb 11 hike).\n- Wants casual coffee shop near Hilton (impressed by fitness center).\n- Still doesn't understand why Jane left Rochester—seems dramatic; thinks she could have stayed and worked on differences like mature adults.\n- please continue, provide 10 additional examples, different from the ones you already mentioned\n- I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "CHANGED",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "CHANGED"
+        },
+        "restored": [
+          "please continue, provide 10 additional examples, different from the ones you already mentioned",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Festival bonus probably next week; story to revert to pre-script-change version + 10 new different examples.\n- May use IB API/IB_insync in Tensortrade; topic modeling on 4,800-tweet \"academic writing anxiety\" dataset; considering Marvel Twitter poll (unsure what question would generate lots of engagement).\n- Seeking hiking boots—old ones not comfortable at all on Feb 11 hike.\n- Wants casual coffee shop near Hilton (impressed by fitness center).\n- Still doesn't understand why Jane left Rochester—seems dramatic; could have stayed and worked on differences like mature adults.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Festival bonus probably next week; story reverts to pre-script-change version + 10 new different examples.\n- May use IB API/IB_insync in Tensortrade; topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering Marvel Twitter poll (unsure what question would generate lots of engagement).\n- Seeking hiking boots—old ones not comfortable at all on Feb 11 hike.\n- Wants casual coffee shop near Hilton (impressed by fitness center).\n- Still doesn't understand why Jane left Rochester—seems dramatic; could have stayed and worked on differences like mature adults.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Festival bonus probably next week.\n- Story reverts to pre-script-change version + 10 new different examples.\n- May use IB API / IB_insync in Tensortrade.\n- Topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering Marvel Twitter poll; unsure what question would generate lots of engagement.\n- Seeking hiking boots (old ones not comfortable at all on Feb 11 hike).\n- Wants casual coffee shop near Hilton (impressed by fitness center).\n- Still doesn't understand why Jane left Rochester—seems dramatic; could have stayed and worked on differences like mature adults.\n- please continue, provide 10 additional examples, different from the ones you already mentioned",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "CHANGED",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": [
+          "please continue, provide 10 additional examples, different from the ones you already mentioned"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Expecting festival bonus probably next week.\n- Story reverts to pre-script-change version; continue with 10 additional examples different from prior ones.\n- May use IB API/IB_insync in Tensortrade.\n- Topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering Marvel Twitter poll; unsure what question would generate lots of engagement.\n- Seeking hiking boots—old ones not comfortable at all on Feb 11 hike.\n- Wants casual coffee shop near Hilton (impressed by fitness center).\n- Still doesn't understand why Jane left Rochester—seems dramatic; could have stayed and worked on differences like mature adults.\n- I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\n- I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "CHANGED",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "CHANGED"
+        },
+        "restored": [
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "• Expecting festival bonus (probably next week).\n• Story reverts to pre-script-change version; continue with 10 additional examples different from prior ones.\n• May use IB API/IB_insync in Tensortrade.\n• Topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n• Considering Marvel Twitter poll but unsure what question would generate lots of engagement.\n• Seeking hiking boots (old ones not comfortable at all on Feb 11 hike).\n• Wants casual coffee shop near Hilton (impressed by fitness center).\n• Still doesn't understand why Jane left Rochester—seems dramatic, could have stayed and worked on differences like mature adults.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Expecting festival bonus (probably next week).\n- Story reverts to pre-script-change version (+10 different examples).\n- May use IB API/IB_insync in Tensortrade.\n- Topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering Marvel Twitter poll (unsure of engaging question).\n- Needs hiking boots (old ones not comfortable at all on Feb 11 hike).\n- Wants casual coffee shop near Hilton (impressed by fitness center).\n- Still doesn't understand why Jane left Rochester—seems dramatic; thinks they could have stayed and worked on differences like mature adults.\n- The company will probably announce the festival bonus next week.\n- I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "CHANGED",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "CHANGED"
+        },
+        "restored": [
+          "The company will probably announce the festival bonus next week.",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Expecting festival bonus, probably next week.\n- Story reverts to pre-script-change version (+10 examples).\n- May use IB API/IB_insync in Tensortrade.\n- Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering a Marvel Twitter poll; unsure of an engaging question.\n- Needs hiking boots—old ones not comfortable at all (Feb 11 hike).\n- Wants a casual coffee shop near Hilton (impressed by fitness center).\n- Still doesn't understand why Jane left Rochester—seems dramatic; thinks they could have stayed & worked on differences like mature adults.\n- please continue, provide 10 additional examples, different from the ones you already mentioned",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "CHANGED",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": [
+          "please continue, provide 10 additional examples, different from the ones you already mentioned"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Expecting festival bonus (probably next week).\n- Story reverts to pre-script-change version (+10 examples); requests 10 additional examples different from those already mentioned.\n- May use IB API/IB_insync in Tensortrade.\n- Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering a Marvel Twitter poll (unsure of an engaging question).\n- Needs hiking boots—old ones not comfortable at all (for Feb 11 hike).\n- Wants casual coffee shop near Hilton (impressed by fitness center).\n- Still doesn't understand why Jane left Rochester (seems dramatic; thinks they could have stayed & worked on differences like mature adults).",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Expecting festival bonus (probably next week).\n- Story reverts to pre-script-change version; +10 examples done, requests 10 new different ones.\n- May use IB API/IB_insync in Tensortrade.\n- Topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering Marvel Twitter poll; unsure of engaging question.\n- Needs hiking boots (old ones not comfortable at all) for Feb 11 hike.\n- Wants casual coffee shop near Hilton (impressed by fitness center).\n- Still doesn't understand why Jane left Rochester; seems dramatic; thinks they could have stayed & worked on differences like mature adults.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "• Expecting festival bonus (probably next week).\n• Story reverts to pre-script-change version; +10 examples done, wants 10 new different ones.\n• May use IB API/IB_insync in Tensortrade.\n• Topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n• Considering Marvel Twitter poll but unsure of engaging question.\n• Needs hiking boots (old ones not comfortable at all) for Feb 11 hike.\n• Wants casual coffee shop near Hilton (impressed by fitness center).\n• Still doesn't understand why Jane left Rochester—seems dramatic; thinks they could have stayed & worked on differences like mature adults.\n- I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "CHANGED"
+        },
+        "restored": [
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Expects festival bonus, probably next week.\n- Story reverts to pre-script-change version; +10 examples done, wants 10 new different ones.\n- May use IB API/IB_insync in Tensortrade.\n- Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering a Marvel Twitter poll but unsure of an engaging question.\n- Needs hiking boots (old ones not comfortable at all) for a Feb 11 hike.\n- Wants a casual coffee shop near Hilton (impressed by its fitness center).\n- Still doesn't understand why Jane left Rochester—seems dramatic; thinks they could have stayed and worked on differences like mature adults.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Expects festival bonus probably next week.\n- Story reverts to pre-script-change version (10 examples done; wants 10 new different ones).\n- May use IB API/IB_insync in Tensortrade.\n- Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering a Marvel Twitter poll but unsure of an engaging question.\n- Needs hiking boots (old ones not comfortable at all) for a Feb 11 hike.\n- Wants a casual coffee shop near Hilton (impressed by its fitness center).\n- Still doesn't understand why Jane left Rochester—seems dramatic; thinks they could have stayed and worked on differences like mature adults.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Expects festival bonus probably next week; story reverts to pre-script-change (10 examples done, wants 10 new different ones).\n- May use IB API/IB_insync in Tensortrade.\n- Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering a Marvel Twitter poll but unsure of an engaging question.\n- Needs hiking boots (old ones not comfortable at all) for a Feb 11 hike.\n- Wants a casual coffee shop near Hilton (impressed by its fitness center).\n- Still doesn't understand why Jane left Rochester—seems dramatic; thinks they could have stayed and worked on differences like mature adults.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Expects festival bonus probably next week.\n- Story reverts pre-script-change: 10 done, 10 new wanted.\n- May use IB API/IB_insync in Tensortrade.\n- Topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering Marvel Twitter poll but unsure of engaging question.\n- Needs hiking boots for Feb 11 hike; old ones not comfortable at all.\n- Wants casual coffee shop near Hilton; impressed by its fitness center.\n- Still doesn't understand why Jane left Rochester—seems dramatic; thinks they could have stayed and worked on differences like mature adults.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Expects festival bonus probably next week.\n- Story reverts pre-script-change: 10 done, 10 new wanted.\n- May use IB API/IB_insync in Tensortrade.\n- Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n- Considering a Marvel Twitter poll but unsure of an engaging question.\n- Needs hiking boots for Feb 11; old ones not comfortable at all.\n- Wants a casual coffee shop near Hilton; impressed by its fitness center.\n- Still doesn't understand why Jane left Rochester—seems dramatic; thinks they could have stayed and worked on differences like mature adults.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME",
+          "please continue, provide 10 additional examples, different from the ones you already mentioned": "SAME",
+          "I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:": "SAME",
+          "I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

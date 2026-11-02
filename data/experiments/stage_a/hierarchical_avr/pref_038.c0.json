@@ -1,0 +1,231 @@
+{
+  "item_id": "pref_038",
+  "context_level": "c0",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.913157+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I require large-font slides in every presentation I attend.",
+      "anchors": [
+        "I require large-font slides in every presentation I attend."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Requires large-font slides in every presentation they attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Requires large-font slides in every presentation they attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Requires large-font slides in every presentation they attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Requires large-font slides in every presentation they attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- They require large-font slides in every presentation they attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- They require large-font slides in every presentation they attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- They require large-font slides in every presentation they attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Large-font slides are a **firm requirement** (explicitly not a preference) for every presentation they attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Large-font slides are a firm requirement—explicitly not a preference—for every presentation they attend.\n- I require large-font slides in every presentation I attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "CHANGED"
+        },
+        "restored": [
+          "I require large-font slides in every presentation I attend."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Firmly requires large-font slides in every presentation attended.\n- This is an explicit requirement, not a preference.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Firmly requires large-font slides in every presentation attended. This is an explicit requirement, not a preference.\n- I require large-font slides in every presentation I attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "CHANGED"
+        },
+        "restored": [
+          "I require large-font slides in every presentation I attend."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Requires large-font slides in every presentation attended. Explicitly stated as a firm requirement, not a preference.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Large-font slides are required in every presentation attended. This is explicitly a firm requirement, not a preference.\n- I require large-font slides in every presentation I attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "CHANGED"
+        },
+        "restored": [
+          "I require large-font slides in every presentation I attend."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Large-font slides are a firm requirement in every presentation attended; this is explicitly not a preference.\n- I require large-font slides in every presentation I attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "CHANGED"
+        },
+        "restored": [
+          "I require large-font slides in every presentation I attend."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Requires large-font slides in every presentation attended; this is a firm requirement, explicitly not a preference.\n- I require large-font slides in every presentation I attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "CHANGED"
+        },
+        "restored": [
+          "I require large-font slides in every presentation I attend."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Large-font slides are required in every presentation attended. This is a firm requirement, explicitly not a preference.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Large-font slides are a firm requirement (not a preference) in every presentation attended.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Large-font slides are a **firm requirement**, not a preference, in **every** presentation attended.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Large-font slides are a firm requirement (not a preference) in every presentation attended.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- User has a **firm requirement** (explicitly not just a preference) for large-font slides in every presentation they attend.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

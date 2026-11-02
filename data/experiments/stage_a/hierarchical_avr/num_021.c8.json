@@ -1,0 +1,266 @@
+{
+  "item_id": "num_021",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.195697+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The flight takes about 180 minutes gate to gate.\nAgent: Without seeing the post in question, I can offer some general tips on\nUser: Can I just rely on taking these supplements to improve my cardiovascular health, instead of changing my diet or exercising?\nUser: why physical store is getting out please write in paragraph and give the reference\nUser: I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.\nUser: Can you recommend some good bike shops in my area? I'd like to stop by and ask about their route recommendations and maybe pick up some supplies for my ride.\nUser: I'm looking for some musical recommendations. I've been listening to the Dear Evan Hansen soundtrack nonstop since I saw the movie adaptation on November 25th, 2021, and I'm wondering if you have any similar musicals you'd suggest.\nUser: I'm looking to learn more about ukulele lessons in my area. I recently tried one out at a music workshop at a local community center, where I also got to try the harmonica and drums, and I had a blast playing it - it's so portable and easy to carry around.\nUser: Does the level of water temperature in different regions affect dolphin behavior, and how do they adapt accordingly?",
+      "anchors": [
+        "The flight takes about 180 minutes gate to gate.",
+        "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- ~180-min gate-to-gate flight; general tips given without seeing the specific post.\n- Whether supplements alone can replace diet/exercise for cardiovascular health.\n- Why a physical store is getting out (paragraph w/ reference).\n- 7-day Europe trip later this year (popular destinations; redeeming frequent flyer miles for a free flight).\n- Local bike shops (route recs, supplies).\n- Musicals similar to Dear Evan Hansen (movie seen Nov 25, 2021; soundtrack played nonstop).\n- Local ukulele lessons (tried at a community-center music workshop, also tried harmonica and drums; loved it—portable and easy to carry).\n- How water temperature in different regions affects dolphin behavior and adaptation.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- ~180-min gate-to-gate flight; general tips given without seeing the specific post.\n- Whether supplements alone can replace diet/exercise for cardiovascular health.\n- Why a physical store is getting out.\n- 7-day Europe trip later this year (popular destinations; redeeming frequent flyer miles for a free flight).\n- Local bike shops (route recs, supplies).\n- Musicals similar to Dear Evan Hansen (movie seen Nov 25, 2021; soundtrack played nonstop).\n- Local ukulele lessons (loved it—portable and easy to carry); also tried harmonica and drums at a community-center workshop.\n- How water temperature in different regions affects dolphin behavior and adaptation.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- ~180-min flight (general tips given without seeing the specific post)\n- Whether supplements alone can replace diet/exercise for CV health\n- Why a physical store is getting out\n- 7-day Europe trip later this year: popular destinations, redeeming frequent flyer miles for a free flight\n- Local bike shops for route recs/supplies\n- Musicals similar to Dear Evan Hansen (movie seen Nov 25, 2021; soundtrack played nonstop)\n- Local ukulele lessons (loved it—portable and easy to carry; also tried harmonica and drums at a community-center workshop)\n- How water temperature in different regions affects dolphin behavior/adaptation\n- I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Asked about ~180-min flight tips (without seeing the specific post); whether supplements alone can replace diet/exercise for CV health; why a physical store is getting out; local bike shops for route recs/supplies; how water temperature in different regions affects dolphin behavior/adaptation.\n- Planning a 7-day Europe trip later this year to popular destinations; redeeming frequent flyer miles for a free flight.\n- Seeking musicals similar to Dear Evan Hansen (movie seen Nov 25, 2021; soundtrack played nonstop).\n- Looking for local ukulele lessons (loved it—portable and easy to carry); also tried harmonica and drums at a community-center workshop.\n- The flight takes about 180 minutes gate to gate.\n- I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "CHANGED",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "CHANGED"
+        },
+        "restored": [
+          "The flight takes about 180 minutes gate to gate.",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Asked for tips on a ~180-min gate-to-gate flight; whether supplements alone can replace diet/exercise for CV health; why a physical store is getting out; local bike shops for route recs/supplies; how water temp in different regions affects dolphin behavior/adaptation.\n- Planning a 7-day Europe trip later this year to popular destinations, redeeming frequent flyer miles for a free flight.\n- Seeking musicals like *Dear Evan Hansen* (movie seen Nov 25, 2021; soundtrack played nonstop).\n- Looking for local ukulele lessons (loved it—portable, easy to carry); also tried harmonica & drums at a community-center workshop.\n- I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Covered tips for a ~180-min gate-to-gate flight.\n- Asked whether supplements alone can replace diet/exercise for CV health.\n- A physical store getting out.\n- Sought local bike shops for route recs/supplies.\n- Explored water temp's effect on dolphin behavior/adaptation.\n- Planning a 7-day Europe trip later this year; seeking popular-destination recs.\n- Racking up frequent flyer miles hoping to redeem for a free flight.\n- Seeking musicals like *Dear Evan Hansen* (movie seen Nov 25, 2021; soundtrack played nonstop).\n- Taking local ukulele lessons—loved it (portable, easy to carry).\n- Tried harmonica & drums at a community-center workshop.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "Discussed:\n- ~180-min gate-to-gate flight tips\n- Whether supplements alone can replace diet/exercise for CV health\n- A physical store getting out\n- Local bike shops for route recs/supplies\n- Water temp's effect on dolphin behavior/adaptation\n- A 7-day Europe trip later this year (popular-destination recs)\n- Racking up frequent flyer miles, hoping to redeem for a free flight\n- Musicals like *Dear Evan Hansen* (movie seen Nov 25, 2021; soundtrack played nonstop)\n- Local ukulele lessons (loved it—portable, easy to carry)\n- Tried harmonica & drums at a community-center workshop",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Discussed tips for a ~180-min flight.\n- Discussed whether supplements alone can replace diet/exercise for CV health.\n- A physical store is getting out.\n- Sought local bike shops for route recs/supplies.\n- Discussed water temp's effect on dolphin behavior/adaptation.\n- Planning a 7-day Europe trip later this year.\n- Racking up frequent flyer miles, hoping to redeem for a free flight.\n- Watched *Dear Evan Hansen* (Nov 25, 2021); played its soundtrack nonstop.\n- Took ukulele lessons—loved it (portable, easy to carry).\n- Tried harmonica & drums at a community-center workshop.\n- The flight takes about 180 minutes gate to gate.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "CHANGED",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "SAME"
+        },
+        "restored": [
+          "The flight takes about 180 minutes gate to gate."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Discussed ~180-min flight tips, whether supplements alone can replace diet/exercise for CV health, water temp's effect on dolphin behavior/adaptation, and a physical store getting out.\n- Sought local bike shops for route recs/supplies.\n- Planning a 7-day Europe trip later this year while racking up miles hoping to redeem a free flight.\n- Watched *Dear Evan Hansen* (Nov 25, 2021) and played its soundtrack nonstop.\n- Loved ukulele lessons (portable, easy to carry); tried harmonica & drums at a community-center workshop.\n- The flight takes about 180 minutes gate to gate.\n- I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "CHANGED",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "CHANGED"
+        },
+        "restored": [
+          "The flight takes about 180 minutes gate to gate.",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Discussed ~180-min gate-to-gate flight tips.\n- Explored whether supplements alone can replace diet/exercise for CV health.\n- Water temperature's effect on dolphin behavior/adaptation discussed.\n- A physical store closing discussed.\n- Sought local bike shops for route recs/supplies.\n- Planning a 7-day Europe trip later this year; wondering for popular destination recs.\n- Racking up frequent flyer miles, hoping to redeem a free flight.\n- Watched *Dear Evan Hansen* (Nov 25, 2021); played its soundtrack nonstop.\n- Loved ukulele lessons (portable, easy to carry).\n- Tried harmonica & drums at a community-center workshop.\n- I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Discussed ~180-min flight tips, whether supplements alone can replace diet/exercise for CV health, water temp's effect on dolphin behavior/adaptation, a store closing, and local bike shops for route recs/supplies.\n- Planning a 7-day Europe trip later this year; seeking popular destination recs; hoping to redeem frequent flyer miles for a free flight.\n- Watched *Dear Evan Hansen* (Nov 25, 2021); played its soundtrack nonstop.\n- Loved ukulele lessons (portable, easy to carry); tried harmonica & drums at a community-center workshop.\n- The flight takes about 180 minutes gate to gate.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "CHANGED",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "SAME"
+        },
+        "restored": [
+          "The flight takes about 180 minutes gate to gate."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Discussed ~180-min gate-to-gate flight tips, whether supplements alone can replace diet/exercise for CV health, water temp's effect on dolphin behavior/adaptation, a store closing, and local bike shops for route recs/supplies.\n- Planning a 7-day Europe trip later this year; seeking popular destination recs and hoping to redeem frequent flyer miles for a free flight.\n- Watched *Dear Evan Hansen* (Nov 25, 2021); played its soundtrack nonstop.\n- Loved ukulele lessons (portable, easy to carry); tried harmonica & drums at a community-center workshop.\n- I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Discussed ~180-min gate-to-gate flight tips.\n- Whether supplements alone can replace diet/exercise for CV health.\n- Water temp's effect on dolphin behavior/adaptation.\n- A store closing; local bike shops for route recs/supplies.\n- Planning a 7-day Europe trip later this year; seeking popular destination recs; hoping to redeem frequent flyer miles for a free flight.\n- Watched *Dear Evan Hansen* (Nov 25, 2021); played its soundtrack nonstop.\n- Loved ukulele lessons (portable, easy to carry); tried harmonica & drums at a community-center workshop.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Discussed ~180-min gate-to-gate flight tips.\n- Questioned whether supplements alone can replace diet/exercise for CV health.\n- Water temp's effect on dolphin behavior/adaptation.\n- A store is closing; seeking local bike shops for route recs and supplies.\n- Planning a 7-day Europe trip later this year; seeking popular destination recs, hoping to redeem frequent flyer miles for a free flight.\n- Watched *Dear Evan Hansen* (Nov 25, 2021); playing its soundtrack nonstop.\n- Loves ukulele lessons (portable, easy to carry).\n- Trying harmonica and drums at a community-center workshop.\n- I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Discussed ~180-min gate-to-gate flight tips.\n- Questioned whether supplements alone can replace diet/exercise for CV health.\n- Water temperature's effect on dolphin behavior/adaptation discussed.\n- A store is closing—seeking local bike shops for route recs and supplies.\n- Planning a 7-day Europe trip later this year; seeking popular destination recs; hoping to redeem frequent flyer miles for a free flight.\n- Watched *Dear Evan Hansen* (Nov 25, 2021); plays its soundtrack nonstop.\n- Loves ukulele lessons (portable, easy to carry).\n- Trying harmonica and drums at a community-center workshop.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "• Discussed ~180-min gate-to-gate flight tips.\n• Questioned whether supplements alone can replace diet/exercise for CV health.\n• Water temperature's effect on dolphin behavior/adaptation.\n• A closing store prompted a search for local bike shops (route recs, supplies).\n• Planning a 7-day Europe trip later this year; seeking popular destination recs; hoping to redeem frequent flyer miles for a free flight.\n• Watched *Dear Evan Hansen* (Nov 25, 2021); plays its soundtrack nonstop.\n• Loves ukulele lessons (portable, easy to carry).\n• Trying harmonica and drums at a community-center workshop.\n- I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Discussed ~180-min gate-to-gate flight tips; questioned whether supplements alone can replace diet/exercise for CV health; asked about water temperature's effect on dolphin behavior/adaptation.\n- Searched for local bike shops (route recs, supplies) after a store closed.\n- Planning a 7-day Europe trip later this year; seeking popular destination recs; hoping to redeem frequent flyer miles for a free flight.\n- Watched *Dear Evan Hansen* (Nov 25, 2021); plays its soundtrack nonstop.\n- Loves ukulele lessons (portable, easy to carry); trying harmonica and drums at a community-center workshop.\n- I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Discussed ~180-min gate-to-gate flight tips.\n- Questioned whether supplements alone can replace diet/exercise for CV health.\n- Asked about water temperature's effect on dolphin behavior/adaptation.\n- Searched local bike shops after a store closed.\n- Planning a 7-day Europe trip later this year; seeking popular destination recs; hoping to redeem frequent flyer miles for a free flight.\n- Plays *Dear Evan Hansen* soundtrack nonstop (watched Nov 25, 2021).\n- Loves ukulele lessons (portable, easy to carry); trying harmonica and drums at a community-center workshop.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Discussed ~180-min gate-to-gate flight tips; questioned whether supplements alone can replace diet/exercise for CV health; asked about water temperature's effect on dolphin behavior/adaptation.\n- Searched local bike shops after a store closed.\n- Planning a 7-day Europe trip later this year; seeking popular destination recs, hoping to redeem frequent flyer miles for a free flight.\n- Plays *Dear Evan Hansen* soundtrack nonstop (watched Nov 25, 2021).\n- Loves ukulele lessons (portable, easy to carry); trying harmonica and drums at a community-center workshop.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Discussed ~180-min gate-to-gate flight tips.\n- Questioned whether supplements alone can replace diet/exercise for CV health.\n- Asked about water temperature's effect on dolphin behavior/adaptation.\n- Searched local bike shops after a store closed.\n- Planning a 7-day Europe trip later this year; seeking popular destination recommendations; hoping to redeem frequent flyer miles.\n- Plays *Dear Evan Hansen* soundtrack nonstop (watched Nov 25, 2021).\n- Loves ukulele lessons (portable, easy to carry).\n- Trying harmonica & drums at a community-center workshop.",
+      "avr": {
+        "verdicts": {
+          "The flight takes about 180 minutes gate to gate.": "SAME",
+          "I'm trying to plan a trip to Europe later this year and I was wondering if you can recommend some popular destinations for a 7-day trip. By the way, I've been racking up my frequent flyer miles and I'm hoping to redeem them for a free flight.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

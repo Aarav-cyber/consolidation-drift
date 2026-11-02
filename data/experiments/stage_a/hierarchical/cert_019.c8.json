@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_019",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.980191+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The company will probably announce the festival bonus next week.\nUser: Let's go back to the last version of the story before changing it to a script.\nUser: please continue, provide 10 additional examples, different from the ones you already mentioned\nUser: May use Interactive Brockers API or IB\\_insync in Tensortrade?\nUser: What are some good hiking boots that I'm looking for? I went on a hike with friends on February 11th and my old boots were not comfortable at all.\nUser: I have a twitter dataset with 4800 tweets, each of which have the keyword \"academic writing anxiety\" in them. Here is how I'm doing topic modeling on them:\nUser: I'm actually looking for something a bit more casual, like a good coffee shop. I was impressed by the fitness center at the Hilton, by the way. Do you know of any coffee shops near the hotel that I could grab a quick coffee?\nUser: I still don't understand why Jane would choose to leave Rochester after everything they've been through. She could have just stayed and worked on their differences like mature adults. It just seems like a dramatic move for no reason.\nUser: So, I was thinking of creating a Twitter poll about the Marvel movie, but I'm not sure what question to ask. Do you have any suggestions for a poll question that could generate a lot of engagement?"
+    },
+    {
+      "round": 1,
+      "memory": "- Company will probably announce festival bonus next week.\n- Revert to last pre-script story version; need 10 new examples.\n- Asked about IB API/IB_insync in Tensortrade.\n- Wants hiking boots (hiked w/ friends Feb 11; old boots not comfortable at all).\n- Doing topic modeling on 4800-tweet \"academic writing anxiety\" dataset.\n- Actually seeking casual coffee shop near Hilton (impressed by its fitness center).\n- Doesn't understand why Jane left Rochester; feels it's a dramatic move for no reason.\n- Wants a Twitter poll question for the Marvel movie to drive engagement."
+    },
+    {
+      "round": 2,
+      "memory": "- Company will probably announce festival bonus next week.\n- Revert to last pre-script story version; need 10 new examples.\n- Asked about IB API / IB_insync in Tensortrade.\n- Wants hiking boots—old ones not comfortable at all after Feb 11 hike with friends.\n- Topic modeling on 4800-tweet \"academic writing anxiety\" dataset.\n- Actually seeking casual coffee shop near Hilton; impressed by fitness center.\n- Doesn't understand why Jane left Rochester; feels it's a dramatic move for no reason.\n- Wants a Twitter poll question for a Marvel movie to drive engagement."
+    },
+    {
+      "round": 3,
+      "memory": "- Company will probably announce festival bonus next week.\n- Revert to last pre-script story version; need 10 new examples.\n- Asked about IB API/IB_insync in Tensortrade.\n- Topic modeling on 4800-tweet \"academic writing anxiety\" dataset.\n- Wants hiking boots; old ones not comfortable at all after Feb 11 hike with friends.\n- Actually seeking casual coffee shop near Hilton (impressed by fitness center).\n- Doesn't understand why Jane left Rochester; feels it's a dramatic move for no reason.\n- Wants a Twitter poll question for a Marvel movie to drive engagement."
+    },
+    {
+      "round": 4,
+      "memory": "- Company will probably announce festival bonus next week.\n- Reverting to last pre-script story version; needs 10 new examples.\n- Asked about IB API/IB_insync in Tensortrade.\n- Topic modeling on 4800-tweet \"academic writing anxiety\" dataset.\n- Wants hiking boots (old ones not comfortable at all after Feb 11 hike with friends).\n- Actually seeking casual coffee shop near Hilton (impressed by fitness center).\n- Doesn't understand why Jane left Rochester; feels it's a dramatic move for no reason.\n- Wants Twitter poll question for a Marvel movie to drive engagement."
+    },
+    {
+      "round": 5,
+      "memory": "- Company will probably announce festival bonus next week.\n- Reverting to last pre-script story version; needs 10 new examples.\n- Asked about IB API/IB_insync in Tensortrade.\n- Topic modeling on a 4800-tweet \"academic writing anxiety\" dataset.\n- Wants hiking boots—old ones not comfortable at all after Feb 11 hike with friends.\n- Actually seeking a casual coffee shop near Hilton (impressed by its fitness center).\n- Doesn't understand why Jane left Rochester; feels dramatic, no reason.\n- Wants a Twitter poll question about a Marvel movie to drive engagement."
+    },
+    {
+      "round": 6,
+      "memory": "- Co. will probably announce festival bonus next week.\n- Reverting to last pre-script story version; needs 10 new examples.\n- Asked about IB API/IB_insync in Tensortrade.\n- Topic modeling on 4800-tweet \"academic writing anxiety\" dataset.\n- Wants hiking boots; old ones not comfortable at all after Feb 11 hike with friends.\n- Actually seeking casual coffee shop near Hilton; impressed by fitness center.\n- Doesn't understand why Jane left Rochester—feels dramatic, no reason.\n- Wants Twitter poll question re: Marvel movie for engagement."
+    },
+    {
+      "round": 7,
+      "memory": "- Co. will probably announce festival bonus next week.\n- Reverting to pre-script story; needs 10 new examples.\n- Asked about IB API/IB_insync in Tensortrade.\n- Topic modeling on 4800-tweet \"academic writing anxiety\" dataset.\n- Wants hiking boots (old ones not comfortable at all after Feb 11 hike).\n- Actually seeking casual coffee shop near Hilton (impressed by fitness center).\n- Doesn't understand why Jane left Rochester (feels dramatic, no reason).\n- Wants Twitter poll re: Marvel movie for engagement."
+    },
+    {
+      "round": 8,
+      "memory": "- Co. will probably announce festival bonus next week.\n- Reverting to pre-script story; needs 10 new examples.\n- Asked about IB API/IB_insync in Tensortrade.\n- Topic modeling on a 4800-tweet \"academic writing anxiety\" dataset.\n- Wants hiking boots; old ones not comfortable at all after Feb 11 hike.\n- Actually seeking a casual coffee shop near Hilton (impressed by fitness center).\n- Doesn't understand why Jane left Rochester (feels dramatic, no reason).\n- Wants a Twitter poll re: Marvel movie for engagement."
+    },
+    {
+      "round": 9,
+      "memory": "- Co. will probably announce festival bonus next week.\n- Reverting to pre-script story; needs 10 new examples.\n- Asked about IB API/IB_insync in Tensortrade.\n- Topic modeling on 4800-tweet \"academic writing anxiety\" dataset.\n- Wants hiking boots; old ones not comfortable at all after Feb 11 hike.\n- Actually seeking casual coffee shop near Hilton (impressed by fitness center).\n- Doesn't understand why Jane left Rochester—feels dramatic, no reason.\n- Wants Twitter poll re: Marvel movie for engagement."
+    },
+    {
+      "round": 10,
+      "memory": "- Co. will probably announce festival bonus next week.\n- Reverting to pre-script story; needs 10 new examples.\n- Asked about IB API/IB_insync in Tensortrade.\n- Topic modeling on 4800-tweet \"academic writing anxiety\" dataset.\n- Wants a Twitter poll re: Marvel movie for engagement.\n- Wants hiking boots; old ones not comfortable at all after Feb 11 hike.\n- Actually seeking a casual coffee shop near Hilton (impressed by fitness center).\n- Doesn't understand why Jane left Rochester—feels dramatic, no reason."
+    },
+    {
+      "round": 11,
+      "memory": "- Co. will probably announce festival bonus next week.\n- Reverting to pre-script story; needs 10 new examples.\n- Asked about IB API / IB_insync in Tensortrade.\n- Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n- Wants a Twitter poll re Marvel movie for engagement.\n- Wants hiking boots; old ones not comfortable at all after Feb 11 hike.\n- Actually seeking a casual coffee shop near Hilton (impressed by fitness center).\n- Doesn't understand why Jane left Rochester; feels dramatic, no reason."
+    },
+    {
+      "round": 12,
+      "memory": "- Co. will probably announce festival bonus next week; reverting to pre-script story needing 10 new examples.\n- Asked about IB API/IB_insync in Tensortrade.\n- Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n- Wants a Twitter poll re Marvel movie for engagement.\n- Wants hiking boots (old ones not comfortable at all after Feb 11 hike); actually seeking a casual coffee shop near Hilton (impressed by fitness center).\n- Doesn't understand why Jane left Rochester; feels dramatic, no reason."
+    },
+    {
+      "round": 13,
+      "memory": "- Co. will probably announce festival bonus next week.\n- Reverting to pre-script story; 10 new examples needed.\n- Discussed IB API/IB_insync in Tensortrade.\n- Topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n- Twitter poll re Marvel movie for engagement.\n- Hiking boots: old ones not comfortable at all after Feb 11 hike.\n- Actually a casual coffee shop near Hilton; impressed by fitness center.\n- Doesn't understand why Jane left Rochester—feels dramatic, no reason."
+    },
+    {
+      "round": 14,
+      "memory": "- Co. will probably announce festival bonus next week.\n- Reverting to pre-script story; 10 new examples needed.\n- Discussed IB API / IB_insync in Tensortrade.\n- Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n- Twitter poll re a Marvel movie for engagement.\n- Old hiking boots not comfortable at all after the Feb 11 hike.\n- It was actually a casual coffee shop near Hilton; impressed by its fitness center.\n- Doesn't understand why Jane left Rochester—finds it dramatic, no reason."
+    },
+    {
+      "round": 15,
+      "memory": "- Co. will probably announce festival bonus next week.\n- Reverting to pre-script story; 10 new examples needed.\n- Discussed IB API / IB_insync in Tensortrade.\n- Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n- Twitter poll on a Marvel movie for engagement.\n- Old hiking boots not comfortable at all after Feb 11 hike.\n- Actually a casual coffee shop near Hilton; impressed by fitness center.\n- Doesn't understand why Jane left Rochester—finds it dramatic, no reason."
+    },
+    {
+      "round": 16,
+      "memory": "- Co. will probably announce festival bonus next week.\n- Reverting to pre-script story; 10 new examples needed.\n- Discussed IB API/IB_insync in Tensortrade.\n- Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n- Twitter poll on a Marvel movie for engagement.\n- Old hiking boots not comfortable at all after Feb 11 hike.\n- A casual coffee shop near Hilton; impressed by the fitness center.\n- Doesn't understand why Jane left Rochester—finds it dramatic, no reason."
+    },
+    {
+      "round": 17,
+      "memory": "• Co. will probably announce festival bonus next week.\n• Reverting to pre-script story (10 new examples needed).\n• Discussed IB API/IB_insync in Tensortrade.\n• Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n• Ran Twitter poll on Marvel movie for engagement.\n• Old hiking boots not comfortable at all after Feb 11 hike.\n• Casual coffee shop near Hilton; impressed by fitness center.\n• Doesn't understand why Jane left Rochester—finds it dramatic, no reason."
+    },
+    {
+      "round": 18,
+      "memory": "- Co. probably announces festival bonus next week.\n- Reverting to pre-script story; 10 new examples needed.\n- Discussed IB API/IB_insync in Tensortrade.\n- Topic modeling on 4,800-tweet \"academic writing anxiety\" dataset.\n- Ran Twitter poll on Marvel movie for engagement.\n- Old hiking boots not comfortable at all after Feb 11 hike.\n- Casual coffee shop near Hilton; impressed by fitness center.\n- Doesn't understand why Jane left Rochester—finds it dramatic, no reason."
+    },
+    {
+      "round": 19,
+      "memory": "- Co. probably announces festival bonus next week.\n- Reverting to pre-script story; 10 new examples needed.\n- Discussed IB API/IB_insync in Tensortrade.\n- Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n- Ran a Twitter poll on a Marvel movie for engagement.\n- Old hiking boots not comfortable at all after Feb 11 hike.\n- Casual coffee shop near Hilton; impressed by fitness center.\n- Doesn't understand why Jane left Rochester—finds it dramatic, no reason."
+    },
+    {
+      "round": 20,
+      "memory": "- Co. probably announces festival bonus next week.\n- Reverting to pre-script story; 10 new examples needed.\n- Discussed IB API/IB_insync in Tensortrade.\n- Topic modeling on a 4,800-tweet \"academic writing anxiety\" dataset.\n- Ran a Twitter poll on a Marvel movie for engagement.\n- Old hiking boots not comfortable at all after Feb 11 hike.\n- Casual coffee shop near Hilton; impressed by its fitness center.\n- Doesn't understand why Jane left Rochester—finds it dramatic, no reason."
+    }
+  ]
+}

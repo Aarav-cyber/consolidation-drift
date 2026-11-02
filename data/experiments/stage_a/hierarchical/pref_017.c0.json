@@ -1,0 +1,98 @@
+{
+  "item_id": "pref_017",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:05:00.195770+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I prefer a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 1,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 2,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 3,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 4,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 5,
+      "memory": "- Prefers dark over light editor theme for daily coding."
+    },
+    {
+      "round": 6,
+      "memory": "- Prefers a dark over light editor theme for daily coding."
+    },
+    {
+      "round": 7,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 8,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 9,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 10,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 11,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 12,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 13,
+      "memory": "- User prefers dark over light editor theme for daily coding."
+    },
+    {
+      "round": 14,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 15,
+      "memory": "- Prefers a dark editor theme over light for daily coding."
+    },
+    {
+      "round": 16,
+      "memory": "- Prefers a dark over light editor theme for daily coding."
+    },
+    {
+      "round": 17,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 18,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 19,
+      "memory": "- Prefers a dark editor theme over a light one for daily coding."
+    },
+    {
+      "round": 20,
+      "memory": "- User prefers a dark editor theme over a light one for daily coding."
+    }
+  ]
+}

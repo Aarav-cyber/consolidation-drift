@@ -1,0 +1,98 @@
+{
+  "item_id": "obl_033",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.946898+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to save the presentation before the system update."
+    },
+    {
+      "round": 1,
+      "memory": "- There is a strong, urgent need to save the presentation before the system update occurs."
+    },
+    {
+      "round": 2,
+      "memory": "- User has a **strong, urgent** need to save their presentation **before** a system update occurs."
+    },
+    {
+      "round": 3,
+      "memory": "- User has a strong, urgent need to save their presentation before a system update occurs."
+    },
+    {
+      "round": 4,
+      "memory": "- The user has a **strong, urgent** need to save their presentation before a system update occurs."
+    },
+    {
+      "round": 5,
+      "memory": "- The user has a strong, urgent need to save their presentation before a system update occurs."
+    },
+    {
+      "round": 6,
+      "memory": "- The user strongly and urgently needs to save their presentation before a system update occurs.\n- The tone conveys high urgency and intensity."
+    },
+    {
+      "round": 7,
+      "memory": "- User has a strong, urgent need to save a presentation before a system update occurs; this is conveyed with high intensity and urgency."
+    },
+    {
+      "round": 8,
+      "memory": "- The user strongly and urgently needs to save a presentation before a system update occurs."
+    },
+    {
+      "round": 9,
+      "memory": "- User has a strong, urgent need to save a presentation before a system update occurs."
+    },
+    {
+      "round": 10,
+      "memory": "- User strongly and urgently needs to save a presentation before a system update occurs."
+    },
+    {
+      "round": 11,
+      "memory": "- The user strongly and urgently needs to save a presentation before a system update occurs."
+    },
+    {
+      "round": 12,
+      "memory": "- User strongly and urgently needs to save a presentation before a system update occurs."
+    },
+    {
+      "round": 13,
+      "memory": "- The user strongly and urgently needs to save a presentation before a system update occurs."
+    },
+    {
+      "round": 14,
+      "memory": "- The user **strongly and urgently** needs to save their presentation before a system update occurs."
+    },
+    {
+      "round": 15,
+      "memory": "- The user urgently needs to save their presentation before a system update occurs."
+    },
+    {
+      "round": 16,
+      "memory": "- User urgently needs to save a presentation before a system update occurs."
+    },
+    {
+      "round": 17,
+      "memory": "- User urgently needs to save their presentation before a system update occurs."
+    },
+    {
+      "round": 18,
+      "memory": "- User urgently needs to save their presentation before a system update occurs."
+    },
+    {
+      "round": 19,
+      "memory": "- User urgently needs to save a presentation before a system update."
+    },
+    {
+      "round": 20,
+      "memory": "- User urgently needs to save a presentation before a system update."
+    }
+  ]
+}

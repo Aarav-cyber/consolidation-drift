@@ -1,0 +1,98 @@
+{
+  "item_id": "num_032",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.055478+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The train was delayed by almost 120 minutes yesterday."
+    },
+    {
+      "round": 1,
+      "memory": "- Train was delayed almost 120 min yesterday."
+    },
+    {
+      "round": 2,
+      "memory": "- A train was delayed by almost 120 minutes yesterday."
+    },
+    {
+      "round": 3,
+      "memory": "- A train was delayed almost 120 minutes yesterday."
+    },
+    {
+      "round": 4,
+      "memory": "- A train was delayed almost 120 minutes yesterday."
+    },
+    {
+      "round": 5,
+      "memory": "- A train was delayed almost 120 minutes yesterday."
+    },
+    {
+      "round": 6,
+      "memory": "- Train was delayed almost 120 minutes yesterday."
+    },
+    {
+      "round": 7,
+      "memory": "- The train was delayed almost 120 minutes yesterday."
+    },
+    {
+      "round": 8,
+      "memory": "- The train was delayed almost 120 minutes yesterday."
+    },
+    {
+      "round": 9,
+      "memory": "- Train was delayed almost 120 min yesterday."
+    },
+    {
+      "round": 10,
+      "memory": "- A train was delayed almost 120 min yesterday."
+    },
+    {
+      "round": 11,
+      "memory": "- A train was delayed almost 120 minutes yesterday."
+    },
+    {
+      "round": 12,
+      "memory": "- A train was delayed almost 120 min yesterday."
+    },
+    {
+      "round": 13,
+      "memory": "- A train was delayed almost 120 min yesterday."
+    },
+    {
+      "round": 14,
+      "memory": "- A train was delayed by approximately 120 minutes yesterday."
+    },
+    {
+      "round": 15,
+      "memory": "- The train was delayed by approximately 120 minutes yesterday."
+    },
+    {
+      "round": 16,
+      "memory": "- The train was delayed by approximately 120 minutes yesterday."
+    },
+    {
+      "round": 17,
+      "memory": "- Train was delayed approximately 120 minutes yesterday."
+    },
+    {
+      "round": 18,
+      "memory": "- Train was delayed by approximately 120 min yesterday."
+    },
+    {
+      "round": 19,
+      "memory": "- Train was delayed approximately 120 minutes yesterday."
+    },
+    {
+      "round": 20,
+      "memory": "- A train was delayed approximately 120 minutes yesterday."
+    }
+  ]
+}

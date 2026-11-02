@@ -1,0 +1,316 @@
+{
+  "item_id": "num_039",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.093973+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The direct flight covers about 13000 km.\nUser: Wow, that's shorter than I expected. Is it a challenging training process?\nUser: It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.\nUser: What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.\nUser: It's amazing to see how grassroots movements can bring about such significant change on a social and political level. Do you think they will continue to play an important role in shaping future peace treaties?\nUser: Can you provide examples of how aldermen can collaborate with other local officials or community organizations to improve transparency and accountability?\nUser: I'm thinking of making some breakfast smoothies in advance to save time in the morning. Can you suggest some healthy smoothie recipes that can be frozen and reheated?\nUser: I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?\nUser: I'd like to get some feedback on my current pitch deck. Can you review it and suggest any areas for improvement, especially in light of the tips you provided?",
+      "anchors": [
+        "The direct flight covers about 13000 km.",
+        "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.",
+        "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.",
+        "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "• ~13,000 km flight (noted as shorter than expected; training).\n• User starting addiction recovery with assistant's tips.\n• Mix-and-match packing discussed (last NYC trip: packed too many, wore only half).\n• Grassroots movements' ongoing role in peace treaties.\n• Aldermen collaborating with locals for transparency.\n• Frozen breakfast smoothie recipes.\n• 80s classic rock (not a fan of synthesizer-heavy sound).\n• Requested pitch-deck feedback per prior tips.\n- It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.\n- What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "CHANGED",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "CHANGED",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": [
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- ~13,000 km flight (shorter than expected; training)\n- User starting addiction recovery using assistant's tips (described as meaningful)\n- Mix-and-match packing discussed (last NYC trip: packed too many, wore only half)\n- Pitch-deck feedback requested per prior tips\n- Grassroots movements in peace treaties; aldermen-local transparency collaboration\n- Frozen breakfast smoothie recipes\n- 80s classic rock (not a fan of synthesizer-heavy sound)\n- It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.\n- What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "CHANGED",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "CHANGED",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": [
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- User flew ~13,000 km (shorter than expected) for training; is starting addiction recovery using assistant's tips, which they described as meaningful (\"means a lot\").\n- Discussed mix-and-match packing (last NYC trip: packed too many, wore only half); requested pitch-deck feedback per prior tips.\n- Also covered: grassroots movements in peace treaties, aldermen–local transparency collaboration, frozen breakfast smoothie recipes, and 80s classic rock (not a fan of synthesizer-heavy sound).\n- What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "SAME",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "CHANGED",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": [
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Flew ~13,000 km for training (shorter than expected).\n- Starting addiction recovery using assistant's tips; described them as meaningful (\"means a lot\").\n- Requested pitch-deck feedback per prior tips.\n- Topics covered: grassroots movements in peace treaties; aldermen–local transparency collaboration; frozen breakfast smoothie recipes.\n- 80s classic rock (not a fan of synthesizer-heavy sound).\n- Mix-and-match clothing; last NYC trip: packed way too many, wore only half.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "SAME",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "SAME",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Flew ~13,000 km for training (shorter than expected).\n- Starting addiction recovery using assistant's tips (described as \"means a lot\").\n- Requested pitch-deck feedback per prior tips.\n- Discussed: grassroots movements in peace treaties; aldermen–local transparency collaboration; frozen breakfast smoothie recipes.\n- Likes 80s classic rock; not a fan of synthesizer-heavy sound.\n- Mix-and-match clothing style.\n- Last NYC trip: packed way too many clothes, wore only half.\n- The direct flight covers about 13000 km.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "CHANGED",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "SAME",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "SAME",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": [
+          "The direct flight covers about 13000 km."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Flew ~13,000 km (direct, shorter than expected) for training.\n- Starting addiction recovery using assistant's tips; described it as \"means a lot.\"\n- Requested pitch-deck feedback.\n- Discussed: grassroots movements in peace treaties, aldermen–local transparency, frozen breakfast smoothies.\n- Likes 80s classic rock; not a fan of synthesizer-heavy sound.\n- Mix-and-match style.\n- Last NYC trip: packed way too many clothes, wore only half.\n- What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "SAME",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "CHANGED",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": [
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Flew ~13,000 km direct (shorter than expected) for training.\n- Starting addiction recovery via assistant's tips; described this as \"means a lot.\"\n- Requested pitch-deck feedback.\n- Discussed grassroots movements in peace treaties, aldermen–local transparency, and frozen breakfast smoothies.\n- Likes 80s classic rock; not a fan of synthesizer-heavy sound.\n- Mix-and-match style; on last NYC trip packed way too many clothes but wore only half.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "SAME",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "SAME",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Flew ~13,000 km direct (shorter than expected) for training; starting addiction recovery via assistant's tips (said it \"means a lot\").\n- Requested pitch-deck feedback.\n- Discussed grassroots movements in peace treaties, aldermen–local transparency, and frozen breakfast smoothies.\n- Likes 80s classic rock but not synthesizer-heavy sound; mix-and-match style—last NYC trip packed way too many clothes, wore only half.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "SAME",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "SAME",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Flew ~13,000 km direct (shorter than expected) for training.\n- Starting addiction recovery via assistant's tips; said it \"means a lot.\"\n- Requested pitch-deck feedback.\n- Discussed grassroots movements in peace treaties, aldermen–local transparency, and frozen breakfast smoothies.\n- Likes 80s classic rock but not synthesizer-heavy sound.\n- Mix-and-match style; last NYC trip packed way too many clothes, wore only half.\n- It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.\n- I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "CHANGED",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "SAME",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "CHANGED"
+        },
+        "restored": [
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Flew ~13,000 km direct for training (shorter than expected).\n- Starting addiction recovery using assistant's tips; described as \"means a lot.\"\n- Requested pitch-deck feedback.\n- Requested 80s classic rock recs: likes the genre but not synthesizer-heavy; wants songs maintaining original sound.\n- Mix-and-match style; last NYC trip packed way too many clothes (wore only half).\n- Also discussed grassroots movements in peace treaties, aldermen–local transparency, and frozen breakfast smoothies.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "SAME",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "SAME",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Flew ~13,000 km direct for training; noted the distance was shorter than expected.\n- Beginning addiction recovery, using assistant's tips; felt it \"means a lot.\"\n- Requested pitch-deck feedback and 80s classic rock recs (likes the genre but not synthesizer-heavy; wants songs keeping original sound).\n- Style: mix-and-match. Last NYC trip, packed way too many clothes—wore only half.\n- Also discussed grassroots movements in peace treaties, aldermen–local transparency, and frozen breakfast smoothies.\n- What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "SAME",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "CHANGED",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": [
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Flew ~13,000 km direct for training; noted shorter than expected.\n- Beginning addiction recovery; found assistant's tips \"means a lot.\"\n- Requested pitch-deck feedback.\n- Wants 80s classic rock recs—likes the genre, not synthesizer-heavy; original sound kept.\n- Mix-and-match style; last NYC trip packed way too many clothes, wore only half.\n- Discussed grassroots movements in peace treaties, aldermen–local transparency, and frozen breakfast smoothies.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "SAME",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "SAME",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Flew ~13,000 km direct for training (noted shorter than expected).\n- Beginning addiction recovery; found assistant's tips \"means a lot.\"\n- Requested pitch-deck feedback.\n- Wants 80s classic rock recs—likes the genre, not synthesizer-heavy, original sound kept.\n- Mix-and-match style; last NYC trip packed way too many clothes, wore only half.\n- Discussed: grassroots movements in peace treaties, aldermen–local transparency, frozen breakfast smoothies.\n- It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.\n- What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "CHANGED",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "CHANGED",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": [
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Flew ~13,000 km direct for training (shorter than expected).\n- Beginning addiction recovery; assistant's tips \"mean a lot\" and will be used to start.\n- Requested pitch-deck feedback.\n- Wants 80s classic rock recs—not synthesizer-heavy, original sound kept.\n- Prefers mix-and-match clothing (last NYC trip: packed way too many, wore only half).\n- Discussed grassroots movements in peace treaties, aldermen–local transparency, and frozen breakfast smoothies.\n- It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.\n- I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "CHANGED",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "SAME",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "CHANGED"
+        },
+        "restored": [
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?"
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Flew ~13,000 km direct for training (shorter than expected).\n- Starting addiction recovery, using assistant's tips which \"mean a lot.\"\n- Requested pitch-deck feedback.\n- Wants 80s classic rock recommendations—not synthesizer-heavy, original sound kept.\n- Prefers mix-and-match clothing; last NYC trip: packed way too many, wore only half.\n- Also discussed: grassroots movements in peace treaties, aldermen–local transparency, frozen breakfast smoothies.\n- It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "CHANGED",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "SAME",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": [
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Flew ~13,000 km direct for training; shorter than expected.\n- Starting addiction recovery; using assistant's tips, which \"mean a lot.\"\n- Requested pitch-deck feedback.\n- Wants 80s classic rock recs—not synthesizer-heavy, original sound kept.\n- Prefers mix-and-match; last NYC trip packed way too many, wore only half.\n- Discussed grassroots movements in peace treaties, aldermen–local transparency, and frozen breakfast smoothies.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "SAME",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "SAME",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Flew ~13,000 km direct for training; shorter than expected.\n- Starting addiction recovery; using assistant's tips, which \"mean a lot.\"\n- Requested pitch-deck feedback.\n- Requested 80s classic rock recs—not synthesizer-heavy, original sound kept.\n- Prefers mix-and-match clothing; last NYC trip packed way too many outfits but wore only half.\n- Also discussed: grassroots movements in peace treaties, aldermen–local transparency, frozen breakfast smoothies.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "SAME",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "SAME",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- No substantive notes were provided for summarization; the \"Notes:\" section was empty.\n- No content is available to condense, fuse, or carry forward into global memory.\n- The direct flight covers about 13000 km.\n- It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.\n- What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.\n- I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "MISSING",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "MISSING",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "MISSING",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "MISSING"
+        },
+        "restored": [
+          "The direct flight covers about 13000 km.",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- A direct flight covers about 13,000 km.\n- User is starting an addiction recovery journey using provided tips.\n- Suggests packing mix-and-match clothing; recalls overpacking on last NYC trip, wearing only half.\n- Not a fan of synthesizer-heavy sound; asks for 80s classic rock songs that maintain their original sound.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "SAME",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "SAME",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Direct flight covers about 13,000 km.\n- User is starting addiction recovery with provided tips.\n- Suggests mix-and-match packing; recalls overpacking on last NYC trip, wore only half.\n- Not a fan of synthesizer-heavy sound.\n- Asks for 80s classic rock songs that maintain their original sound.\n- It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.",
+      "avr": {
+        "verdicts": {
+          "The direct flight covers about 13000 km.": "SAME",
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided.": "CHANGED",
+          "What about packing clothing that can be easily mixed and matched to create multiple outfits? I remember on my last trip to NYC, I packed way too many clothes and ended up wearing only half of them.": "SAME",
+          "I'm not a fan of the synthesizer-heavy sound. Can you recommend any 80s songs by classic rock bands that maintain their original sound?": "SAME"
+        },
+        "restored": [
+          "It means a lot to me. I am going to start my journey towards addiction recovery with the help of the tips you have provided."
+        ]
+      }
+    }
+  ]
+}

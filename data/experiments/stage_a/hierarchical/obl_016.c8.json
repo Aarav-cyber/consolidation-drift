@@ -1,0 +1,98 @@
+{
+  "item_id": "obl_016",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.005548+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I need to submit my timesheet before Friday evening.\nUser: I had no idea that ducks had such a wide range of communication methods. Do you think they could teach us a thing or two about nonverbal communication?\nUser: I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\nAgent: Thank you for letting me know. I'm sorry to hear about David Paulides' loss.\nUser: Can you provide recommendations on accessible apps and programs for individuals with cognitive disabilities?\nUser: I'm looking for some bike shops near my new place. I've been meaning to buy a bike to reduce my reliance on public transport.\nAgent: There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".\nUser: What kind of wildlife can be found in the Southern Ocean, and are they different from what we find in other oceans?\nUser: A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system."
+    },
+    {
+      "round": 1,
+      "memory": "- Timesheet due before Friday evening.\n- Surprised by ducks' wide communication range; uncertain if they could teach nonverbal communication.\n- Interested in all topics; very active in FB \"Book Lovers Unite\" (great recs; uncertain how to track titles).\n- Expressed thanks/sympathy re David Paulides' loss.\n- Seeking accessible app recs for cognitive disabilities.\n- Looking for bike shops near new place to reduce public transport reliance.\n- Two paths sb→td via alias (2-edge, 3-edge).\n- Asked about Southern Ocean wildlife vs other oceans.\n- Noted one-party state advantage of avoiding progress-delaying arguments."
+    },
+    {
+      "round": 2,
+      "memory": "- Timesheet due before Friday evening.\n- Surprised by ducks' wide communication range; uncertain whether they could teach nonverbal communication.\n- Very active in FB \"Book Lovers Unite\" (great recs); uncertain how to track titles.\n- Expressed thanks/sympathy re David Paulides' loss.\n- Seeking accessible app recs for cognitive disabilities.\n- Looking for bike shops near new place to reduce public transport reliance.\n- Two paths sb→td via alias (2-edge, 3-edge).\n- Asked about Southern Ocean wildlife vs other oceans.\n- Noted one-party state advantage: avoiding progress-delaying arguments."
+    },
+    {
+      "round": 3,
+      "memory": "- Timesheet due before Friday evening.\n- Surprised by ducks' wide communication range; uncertain if they could teach nonverbal.\n- Very active in FB \"Book Lovers Unite\" (great recs); uncertain how to track titles.\n- Expressed thanks/sympathy re David Paulides' loss.\n- Seeking accessible app recs for cognitive disabilities.\n- Looking for bike shops near new place to reduce public transport reliance.\n- Two paths sb→td via alias (2-edge, 3-edge).\n- Asked about Southern Ocean wildlife vs other oceans.\n- Noted one-party state advantage: avoiding progress-delaying arguments."
+    },
+    {
+      "round": 4,
+      "memory": "- Timesheet due before Friday evening.\n- Surprised by ducks' wide communication range; uncertain whether they could teach nonverbal.\n- Very active in FB \"Book Lovers Unite\"; uncertain how to track titles.\n- Expressed thanks/sympathy re David Paulides' loss.\n- Seeking accessible app recommendations for cognitive disabilities.\n- Looking for bike shops near new place to reduce public transport reliance.\n- Noted two paths sb→td via alias (2-edge, 3-edge).\n- Asked about Southern Ocean wildlife versus other oceans.\n- Noted one-party state advantage: avoiding progress-delaying arguments."
+    },
+    {
+      "round": 5,
+      "memory": "- Timesheet due before Friday evening.\n- Surprised by ducks' wide communication range; uncertain whether they could teach nonverbal.\n- Very active in FB \"Book Lovers Unite\"; uncertain how to track titles.\n- Expressed thanks/sympathy re David Paulides' loss.\n- Seeking accessible app recs for cognitive disabilities.\n- Looking for bike shops near new place to cut public transport reliance.\n- Noted two paths sb→td via alias (2-edge, 3-edge).\n- Asked re Southern Ocean wildlife vs other oceans.\n- Noted one-party state advantage of avoiding progress-delaying arguments."
+    },
+    {
+      "round": 6,
+      "memory": "- Timesheet due before Friday evening.\n- Surprised by ducks' wide communication range; uncertain whether they could teach nonverbal.\n- Very active in FB \"Book Lovers Unite\"; uncertain how to track titles.\n- Expressed sympathy re David Paulides' loss.\n- Seeking accessible app recs for cognitive disabilities.\n- Looking for bike shops near new place to cut public transport reliance.\n- Noted two paths sb→td via alias (2-edge, 3-edge).\n- Asked re Southern Ocean vs other oceans' wildlife.\n- Noted one-party state advantage of avoiding progress-delaying arguments."
+    },
+    {
+      "round": 7,
+      "memory": "• Timesheet due before Friday evening.\n• Ducks' wide communication range discussed; surprised; uncertain whether they could teach nonverbal.\n• Very active in FB \"Book Lovers Unite\"; uncertain how to track titles.\n• Sympathy re David Paulides' loss.\n• Seeking accessible app recs for cognitive disabilities.\n• Bike shops near new place sought to cut public-transport reliance.\n• Two sb→td alias paths (2-edge, 3-edge).\n• Southern Ocean vs other oceans' wildlife.\n• One-party state advantage: avoiding progress-delaying arguments."
+    },
+    {
+      "round": 8,
+      "memory": "• Timesheet due before Friday evening.\n• Discussed ducks' wide comm range; surprised, uncertain if nonverbal could be taught.\n• Very active in FB \"Book Lovers Unite\"; uncertain re tracking titles.\n• Sympathy for David Paulides' loss.\n• Seeking accessible app recs (cognitive disabilities) and bike shops near new place to cut public-transport reliance.\n• Noted two sb→td alias paths (2-edge, 3-edge).\n• Southern Ocean vs. other oceans' wildlife.\n• One-party state advantage: avoiding progress-delaying arguments."
+    },
+    {
+      "round": 9,
+      "memory": "- Timesheet due before Fri eve.\n- Discussed ducks' wide comm range; surprised; uncertain whether nonverbal communication could be taught.\n- Very active in FB \"Book Lovers Unite\" (uncertain re tracking titles).\n- Sympathy for David Paulides' loss.\n- Seeking accessible app recs (cognitive disabilities) + bike shops near new place to cut public-transport reliance.\n- Noted two sb→td alias paths (2-edge, 3-edge).\n- Compared Southern Ocean vs. other oceans' wildlife.\n- One-party state advantage: avoiding progress-delaying arguments."
+    },
+    {
+      "round": 10,
+      "memory": "- Timesheet due before Fri eve.\n- Discussed ducks' wide communication range; surprised, uncertain whether nonverbal comm could be taught.\n- Very active in FB \"Book Lovers Unite\"; uncertain re tracking titles.\n- Expressed sympathy for David Paulides' loss.\n- Wanted accessible app recs (cognitive disabilities) and bike shops near new place to cut public-transport reliance.\n- Noted two sb→td alias paths (2-edge, 3-edge).\n- Compared Southern Ocean vs. other oceans' wildlife.\n- Cited one-party state advantage as avoiding progress-delaying arguments."
+    },
+    {
+      "round": 11,
+      "memory": "- Timesheet due before Fri eve.\n- Discussed ducks' wide communication range; surprised, uncertain whether nonverbal comm could be taught.\n- Very active in FB \"Book Lovers Unite\"; uncertain re tracking titles.\n- Expressed sympathy for David Paulides' loss.\n- Wanted accessible app recs (cognitive disabilities) + bike shops near new place to cut public-transport reliance.\n- Noted two sb→td alias paths (2-edge, 3-edge).\n- Compared Southern Ocean vs. other oceans' wildlife.\n- Cited one-party state advantage as avoiding progress-delaying arguments."
+    },
+    {
+      "round": 12,
+      "memory": "- Timesheet due before Fri eve.\n- Discussed ducks' wide comm range; surprised, uncertain if nonverbal comm is teachable.\n- Very active in FB \"Book Lovers Unite,\" but uncertain re tracking titles.\n- Expressed sympathy for David Paulides' loss.\n- Wanted accessible app recs (cognitive disabilities) + bike shops near new place to cut public-transport reliance.\n- Noted two sb→td alias paths (2-edge, 3-edge).\n- Compared Southern Ocean vs. other oceans' wildlife.\n- Cited one-party state advantage as avoiding progress-delaying arguments."
+    },
+    {
+      "round": 13,
+      "memory": "- Timesheet due before Friday evening.\n- Discussed ducks' wide communication range; surprised; uncertain whether nonverbal communication is teachable.\n- Very active in FB \"Book Lovers Unite\"; uncertain re tracking titles.\n- Expressed sympathy for David Paulides' loss.\n- Wanted accessible app recs (cognitive disabilities) and bike shops near new place to cut public-transport reliance.\n- Noted two sb→td alias paths (2-edge, 3-edge).\n- Compared Southern Ocean vs. other oceans' wildlife.\n- Cited one-party state advantage as avoiding progress-delaying arguments."
+    },
+    {
+      "round": 14,
+      "memory": "- Timesheet due before Friday evening.\n- Discussed ducks' wide communication range; surprised, uncertain if nonverbal communication is teachable.\n- Very active in FB \"Book Lovers Unite\" (uncertain re tracking titles).\n- Expressed sympathy for David Paulides' loss.\n- Wanted accessible app recs (cognitive disabilities) and bike shops near new place to cut public-transport reliance.\n- Noted two sb→td alias paths (2-edge, 3-edge).\n- Compared Southern Ocean vs. other oceans' wildlife.\n- Cited one-party state advantage as avoiding progress-delaying arguments."
+    },
+    {
+      "round": 15,
+      "memory": "- Timesheet due before Friday evening.\n- Discussed ducks' wide communication range; surprised, uncertain whether nonverbal communication is teachable.\n- Very active in FB group \"Book Lovers Unite\"; uncertain about tracking titles.\n- Expressed sympathy for David Paulides' loss.\n- Requested accessible app recs (cognitive disabilities) and bike shops near new place to cut public-transport reliance.\n- Noted two sb→td alias paths (2-edge, 3-edge).\n- Compared Southern Ocean wildlife with other oceans'.\n- Cited one-party state advantage: avoiding progress-delaying arguments."
+    },
+    {
+      "round": 16,
+      "memory": "- Timesheet due before Friday evening.\n- Discussed ducks' wide communication range; surprised; uncertain whether nonverbal communication is teachable.\n- Very active in FB \"Book Lovers Unite\"; uncertain about tracking titles.\n- Expressed sympathy for David Paulides' loss.\n- Asked for accessible app recommendations (cognitive disabilities) and bike shops near new place to cut public-transport reliance.\n- Noted two sb→td alias paths (2-edge, 3-edge).\n- Compared Southern Ocean wildlife to other oceans'.\n- Cited one-party state advantage: avoiding progress-delaying arguments."
+    },
+    {
+      "round": 17,
+      "memory": "- Timesheet due before Friday evening.\n- Surprised by ducks' wide communication range; uncertain whether nonverbal communication is teachable.\n- Very active in FB \"Book Lovers Unite\" (uncertain about tracking titles); expressed sympathy for David Paulides' loss.\n- Asked for accessible app recs (cognitive disabilities) and bike shops near new place to cut public-transport reliance.\n- Noted two sb→td alias paths (2-edge, 3-edge).\n- Compared Southern Ocean wildlife to other oceans'.\n- Cited one-party state advantage: avoiding progress-delaying arguments."
+    },
+    {
+      "round": 18,
+      "memory": "- Timesheet due before Friday evening.\n- Surprised by ducks' wide communication range; uncertain whether nonverbal communication is teachable.\n- Very active in FB \"Book Lovers Unite\" (uncertain about tracking titles); sympathized with Paulides' loss.\n- Requested accessible app recommendations (cognitive disabilities) and bike shops near new place to cut public-transport reliance.\n- Noted two sb→td alias paths (2-edge, 3-edge); compared Southern Ocean wildlife to other oceans'; cited one-party state advantage: avoiding progress-delaying arguments."
+    },
+    {
+      "round": 19,
+      "memory": "- Timesheet due before Friday evening.\n- Surprised by ducks' wide communication range; uncertain whether nonverbal communication is teachable.\n- Very active in FB \"Book Lovers Unite\"; uncertain about tracking titles.\n- Sympathized with Paulides' loss.\n- Requested accessible app recommendations for cognitive disabilities.\n- Requested bike shops near new place to cut public-transport reliance.\n- Noted two sb→td alias paths (2-edge, 3-edge).\n- Compared Southern Ocean wildlife to other oceans'.\n- Cited a one-party state advantage as avoiding progress-delaying arguments."
+    },
+    {
+      "round": 20,
+      "memory": "- Timesheet due before Friday evening.\n- Surprised by ducks' wide comms range; uncertain whether nonverbal comms is teachable.\n- Very active in FB \"Book Lovers Unite\"; uncertain about tracking titles.\n- Sympathized with Paulides' loss.\n- Requested accessible app recommendations (cognitive disabilities) and bike shops near new place to cut public-transport reliance.\n- Noted two sb→td alias paths (2-edge, 3-edge).\n- Compared Southern Ocean wildlife to others'.\n- Cited one-party state advantage as avoiding progress-delaying arguments."
+    }
+  ]
+}

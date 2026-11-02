@@ -1,0 +1,320 @@
+{
+  "item_id": "num_008",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.224092+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: My office is about 1 km from the station.\nUser: I'm thinking of clearing out my old DVD collection, do you have any tips on how to declutter and organize my movie collection?\nUser: Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.\nUser: I'm trying to find some new music to listen to. I've been listening to Billie Eilish nonstop since I saw her concert at the Los Angeles Forum with my best friend, Rachel - her energy on stage was insane! Do you have any recommendations for similar artists or songs?\nAgent: The word \"enmity\" means mutual hatred or hostility between individuals or groups. Therefore, the correct answer is (C) hatred.\nUser: I'm interested in the QSC K10.2, but I'm not sure if it's suitable for my guitar as well. Would it be able to handle both my digital piano and guitar sound?\nUser: Can the police use drones to follow me around and spy on me even if I haven't done anything wrong?\nUser: now translate it to german\nUser: I'm still a bit confused about the CPI settings. Can you explain what CPI means and how it affects my gameplay, especially in FPS games like Overwatch and Apex?\nUser: What are some of the key tenets of Taoism?\nUser: i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).\nUser: I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?\nUser: I'm curious, do film scores ever incorporate themes or motifs from classical music pieces?\nUser: I want to know more about Refugee Career Hub. Can you tell me how to register and what kind of job opportunities they have?\nUser: Wow, all of these delicacies sound amazing! Can you recommend a good place to try them all?\nUser: I'm also interested in psychological thrillers. Can you recommend some authors or books similar to Alex Michaelides?\nUser: I'm looking for some recommendations on musicals to check out. I just finished reading a book about the history of Broadway today and it got me really interested in exploring more shows.\nUser: I'm in the downtown area.\nUser: What about adding Julian Cole to this list?\nUser: Why can't senators just debate and vote like normal people? This seems like an archaic and ineffective way of doing things.\nUser: give me a recipe for the greek nachos",
+      "anchors": [
+        "My office is about 1 km from the station.",
+        "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.",
+        "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).",
+        "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Office ~1 km from station; downtown area.\n- Seeking: DVD decluttering tips, vegan cooking (vegan sushi—\"dying to try\"), step-by-step recs (5–10 steps, some detail to start, open-ended/flexible).\n- Music: Billie Eilish-similar (nonstop since LA Forum show w/ best friend Rachel, \"insane\" stage energy), film scores/classical motifs, musicals (just finished a Broadway history book today, really interested; suggests Julian Cole), QSC K10.2 for guitar+digital piano (unsure if suitable).\n- Psych thrillers like Alex Michaelides.\n- Topics: Refugee Career Hub, police drone privacy, CPI in FPS (still \"a bit confused\"), Taoism tenets, \"enmity\"=(C) hatred, German translation, place for \"all of these delicacies.\"\n- Emaad's boxing win over CrustiChezz/Romania (tied→punch test; \"never did hang\" gloves).\n- Why senators can't debate/vote like normal people (archaic, ineffective).\n- Recipe: greek nachos.",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "SAME",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Office ~1 km from downtown station.\n- Seeking: DVD decluttering tips, vegan sushi, open-ended 5–10-step recs.\n- Music: Billie Eilish-like (nonstop since LA Forum show w/ Rachel; \"insane\" energy), film scores, musicals (just finished a Broadway history book; suggests Julian Cole). Unsure if QSC K10.2 suits guitar+digital piano.\n- Psych thrillers à la Alex Michaelides.\n- Topics: Refugee Career Hub, police drone privacy, CPI in FPS (still \"a bit confused\"), Taoism, \"enmity\"=(C) hatred, German translation, \"all of these delicacies\" phrasing.\n- Emaad's boxing win over CrustiChezz/Romania (tied→punch test; \"never did hang\" gloves).\n- Critical of senators' archaic inability to debate/vote like normal people.\n- Recipe: greek nachos.\n- i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).\n- I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "CHANGED",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "CHANGED"
+        },
+        "restored": [
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Office ~1 km from downtown.\n- Seeking: DVD decluttering tips; vegan sushi/cooking recs; open-ended 5–10-step detailed-but-flexible recommendations (to be sent later).\n- Music: Billie Eilish-like (nonstop since LA Forum w/ Rachel, \"insane\" energy); film scores; musicals (suggests Julian Cole). Unsure if QSC K10.2 suits guitar + digital piano.\n- Psych thrillers à la Alex Michaelides.\n- Discussed: CPI in FPS (still \"a bit confused\"); Refugee Career Hub; police drone privacy; Taoism; Emaad's boxing win over CrustiChezz/Romania (tied → punch test); criticized senators' archaic debate/voting; Greek nachos recipe.\n- My office is about 1 km from the station.\n- Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.\n- i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).\n- I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "CHANGED",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "CHANGED",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "CHANGED",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "CHANGED"
+        },
+        "restored": [
+          "My office is about 1 km from the station.",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Office ~1 km from downtown/station.\n- Seeking DVD decluttering tips; vegan sushi/cooking recs (found a vegan sushi recipe, \"dying to try it\"); 5–10-step detailed-but-flexible recs to send later.\n- Into Billie Eilish (nonstop since LA Forum w/ Rachel, \"insane\" energy), film scores, musicals (Julian Cole), psych thrillers à la Alex Michaelides.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed CPI in FPS (\"a bit confused\"), Refugee Career Hub, police drone privacy, Taoism.\n- Emaad's boxing win over CrustiChezz/Romania (never hung gloves; tied → punch test → won).\n- Noted senators' archaic debate/voting; Greek nachos.\n- Wants new recipes, esp. vegan.\n- i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "CHANGED",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "SAME"
+        },
+        "restored": [
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility)."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Office ~1 km from downtown/station.\n- Wants vegan cooking & DVD decluttering recs; found a vegan sushi recipe, \"dying to try it\"; recs sent as 5–10-step detailed-but-flexible process. Wants new recipes, esp. vegan.\n- Interests: Billie Eilish (nonstop since LA Forum w/ Rachel, \"insane\" energy), film scores, musicals (Julian Cole), psych thrillers à la Alex Michaelides.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed CPI in FPS (\"a bit confused\"), Refugee Career Hub, police drone privacy, Taoism.\n- Emaad's boxing win over CrustiChezz/Romania (never hung gloves; tied → punch test → won).\n- Noted senators' archaic debate/voting.\n- Greek nachos.\n- My office is about 1 km from the station.\n- I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "CHANGED",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "SAME",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "CHANGED"
+        },
+        "restored": [
+          "My office is about 1 km from the station.",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Office ~1 km from downtown/station.\n- Wants vegan cooking recs (dying to try vegan sushi; sent 5–10-step detailed-but-flexible process) and DVD decluttering tips.\n- Interests: Billie Eilish (nonstop since LA Forum w/ Rachel, \"insane\" energy), film scores, musicals (Julian Cole), psych thrillers à la Alex Michaelides.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS (\"a bit confused\"), Refugee Career Hub, police drone privacy, Taoism, Emaad's boxing win over CrustiChezz/Romania (tied → punch test), senators' archaic debate/voting, Greek nachos.\n- Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "CHANGED",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "SAME",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "SAME"
+        },
+        "restored": [
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Office ~1 km from downtown/station.\n- Wants vegan cooking recs (dying to try vegan sushi; 5–10-step, detailed-but-flexible process) and DVD decluttering tips.\n- Into Billie Eilish (nonstop since LA Forum w/ Rachel, \"insane\" energy), film scores, musicals (Julian Cole), psych thrillers à la Alex Michaelides.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS (\"a bit confused\"), Refugee Career Hub, police drone privacy, Taoism, senators' archaic debate/voting, Greek nachos.\n- Emaad's boxing win: never hung his gloves; faced new competitor CrustiChezz/Romania—tied → stronger-punch test → Emaad won.\n- My office is about 1 km from the station.\n- i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).\n- I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "CHANGED",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "CHANGED",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "CHANGED"
+        },
+        "restored": [
+          "My office is about 1 km from the station.",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Office ~1 km from station.\n- Wants vegan cooking/sushi recs (dying to try; 5–10-step, detailed-but-flexible/open-ended) + DVD decluttering tips. Will send recs.\n- Into Billie Eilish (nonstop since LA Forum w/ Rachel, \"insane\" energy), film scores, Julian Cole; Alex Michaelides psych thrillers.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS, Refugee Career Hub, police drone privacy, Taoism, senators' archaic debate/voting, Greek nachos.\n- Emaad's boxing win: never hung gloves; tied w/ CrustiChezz/Romania → stronger-punch test → won.\n- I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "SAME",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "CHANGED"
+        },
+        "restored": [
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Office ~1 km from station.\n- Wants vegan cooking/sushi recs (dying to try; 5–10-step, detailed-but-flexible/open-ended) + DVD decluttering tips.\n- Into Billie Eilish (nonstop since LA Forum w/ Rachel, \"insane\" energy), film scores, Julian Cole, Alex Michaelides psych thrillers.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS, Refugee Career Hub, police drone privacy, Taoism, senators' archaic debate/voting, Greek nachos.\n- Emaad's boxing win: never hung gloves; tied w/ CrustiChezz/Romania → stronger-punch test → won.",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "SAME",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Office ~1 km from station.\n- Wants vegan cooking/sushi recs (dying to try; 5–10-step, detailed-but-flexible/open-ended) + DVD decluttering tips.\n- Into Billie Eilish (nonstop since LA Forum w/ Rachel; \"insane\" energy), film scores, Julian Cole, Alex Michaelides psych thrillers.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS, Refugee Career Hub, police drone privacy, Taoism, senators' archaic debate/voting, Greek nachos.\n- Emaad's boxing win: never hung gloves; tied w/ CrustiChezz/Romania → stronger-punch test → won.\n- i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).\n- I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "CHANGED",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "CHANGED"
+        },
+        "restored": [
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Office ~1 km from station.\n- Wants vegan cooking/sushi recs (dying to try; 5–10 steps, detailed-but-open-ended) + DVD decluttering tips.\n- Into Billie Eilish (nonstop since LA Forum w/ Rachel, \"insane\" energy), film scores, Julian Cole, Alex Michaelides psych thrillers.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS, Refugee Career Hub, police drone privacy, Taoism, senators' archaic debate/voting, Greek nachos.\n- Emaad's boxing win: never hung gloves; tied w/ CrustiChezz/Romania → stronger-punch test → won.\n- Will send recs & receive 5–10-step completion process (a bit of detail to start, still open-ended).\n- I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "SAME",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "CHANGED"
+        },
+        "restored": [
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Office ~1 km from station.\n- Into Billie Eilish (nonstop since LA Forum w/ Rachel, \"insane\" energy), film scores, Julian Cole, Alex Michaelides psych thrillers.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS, Refugee Career Hub, police drone privacy, Taoism, senators' archaic debate/voting, Greek nachos.\n- Emaad's boxing win: never hung gloves; tied w/ CrustiChezz/Romania → stronger-punch test → won.\n- Wants vegan cooking/sushi recs (dying to try; 5–10 steps, detailed-but-open-ended) + DVD decluttering tips + new recipes esp. vegan.\n- Will send recs & receive 5–10-step completion process (a bit of detail to start, still open-ended).\n- I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "SAME",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "CHANGED"
+        },
+        "restored": [
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Office ~1 km from station.\n- Into Billie Eilish (nonstop since LA Forum w/ Rachel, \"insane\" energy), film scores, Julian Cole, Alex Michaelides psych thrillers.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS, Refugee Career Hub, police drone privacy, Taoism, senators' archaic debate/voting, Greek nachos.\n- Emaad's boxing win (never hung gloves; tied w/ CrustiChezz/Romania → stronger-punch test → won).\n- Wants vegan cooking/sushi recs (dying to try a recently found vegan sushi recipe; 5–10 steps, detailed-but-open-ended), DVD decluttering tips, new recipes esp. vegan.\n- Will send recs & receive a 5–10-step completion process (a bit of detail to start, still open-ended).",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "SAME",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Office ~1 km from station.\n- Listens to Billie Eilish (nonstop since LA Forum w/ Rachel; \"insane\" energy), film scores, Julian Cole; reads Alex Michaelides psych thrillers.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS, Refugee Career Hub, police drone privacy, Taoism, senators' archaic debate/voting, Greek nachos.\n- Emaad's boxing win (never hung gloves); tie w/ CrustiCheez/Romania → stronger-punch test → won.\n- Wants vegan cooking/sushi recs (dying to try recently found vegan sushi recipe; 5–10 steps, detailed-but-open-ended), DVD decluttering tips, new recipes esp. vegan.\n- Will send recs; will receive 5–10-step completion process (a bit of detail to start, still open-ended).",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "SAME",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Office ~1 km from station.\n- Listens to Billie Eilish (nonstop since LA Forum w/ Rachel, \"insane\" energy), film scores, Julian Cole.\n- Reads Alex Michaelides psych thrillers.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS, Refugee Career Hub, police drone privacy, Taoism, senators' archaic debate/voting, Greek nachos.\n- Emaad's boxing win (never hung gloves; tie w/ CrustiCheez/Romania → stronger-punch test → won).\n- Wants vegan cooking/sushi recs (dying to try recently found vegan sushi recipe); 5–10 steps, detailed-but-open-ended.\n- Wants DVD decluttering tips, new esp. vegan recipes.\n- Will send recs; receive 5–10-step completion process (a bit of detail to start, still open-ended).",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "SAME",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Office ~1 km from station.\n- Music: Billie Eilish (nonstop since LA Forum w/ Rachel; \"insane\" energy), film scores, Julian Cole.\n- Reads Alex Michaelides psych thrillers.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS, Refugee Career Hub, police drone privacy, Taoism, senators' archaic debate/voting, Greek nachos.\n- Emaad's boxing win: never hung gloves; tie w/ CrustiCheez/Romania → stronger-punch test → won.\n- Wants vegan cooking/sushi recs (dying to try recently found vegan sushi recipe), DVD decluttering tips, new esp. vegan recipes—all in 5–10 steps, detailed-but-open-ended.",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "SAME",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Office ~1 km from station.\n- Listens nonstop to Billie Eilish (since LA Forum w/ Rachel; \"insane\" energy), film scores, Julian Cole; reads Alex Michaelides psych thrillers.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS, Refugee Career Hub, police drone privacy, Taoism, senators' archaic debate/voting, Greek nachos.\n- Emaad's boxing win: never hung gloves; tie w/ CrustiCheez/Romania resolved by stronger-punch test → won.\n- Wants vegan cooking/sushi recs (dying to try recently found vegan sushi recipe), DVD decluttering tips, new esp. vegan recipes—all in 5–10 steps, detailed-but-open-ended.\n- Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.\n- i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).\n- I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "CHANGED",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "CHANGED",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "CHANGED"
+        },
+        "restored": [
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Office ~1 km from station.\n- Music: nonstop Billie Eilish (since LA Forum w/ Rachel, \"insane\" energy), film scores, Julian Cole. Reads Alex Michaelides.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS, Refugee Career Hub, police drone privacy, Taoism, senators' archaic voting, Greek nachos.\n- Emaad's boxing: never hung gloves; tied w/ CrustiChezz (Romania) → stronger-punch test → won.\n- Wants vegan cooking/sushi (dying to try a vegan sushi recipe), DVD decluttering, new esp. vegan recipes—5–10 steps, detailed but open-ended.\n- i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "CHANGED",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "SAME"
+        },
+        "restored": [
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility)."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Office ~1 km from station.\n- Listens nonstop to Billie Eilish (since LA Forum with Rachel, \"insane\" energy), film scores, Julian Cole; reads Alex Michaelides.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Topics discussed: CPI in FPS, Refugee Career Hub, police drone privacy, Taoism, senators' archaic voting, Greek nachos.\n- Emaad's boxing: never hung gloves; tied with CrustiChezz (Romania) → stronger-punch test → won.\n- Wants vegan cooking/sushi (\"dying to try\" a vegan sushi recipe); DVD decluttering.\n- New, esp. vegan recipes in 5–10 steps (detailed but open-ended; expects step-by-step with some detail to start, still flexible).",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "SAME",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Office ~1 km from station.\n- Listens nonstop to Billie Eilish (since LA Forum w/ Rachel, \"insane\" energy), film scores, Julian Cole; reads Alex Michaelides.\n- Unsure if QSC K10.2 suits guitar + digital piano.\n- Discussed: CPI in FPS, Refugee Career Hub, police drone privacy, Taoism, senators' archaic voting, Greek nachos.\n- Emaad's boxing: never hung gloves; tied w/ CrustiChezz (Romania) → stronger-punch test → won.\n- Wants vegan cooking/sushi (\"dying to try\" a vegan sushi recipe); DVD decluttering.\n- New to recipes: wants 5–10 step vegan recipes, detailed but open-ended, step-by-step with some detail to start, still flexible.\n- i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).",
+      "avr": {
+        "verdicts": {
+          "My office is about 1 km from the station.": "SAME",
+          "Emaad never did hang his boxing gloves and ended up facing a new competitor by the name of CrustiChezz from Romania. They tied so it ended up going to who could hit the stronger punch and Emaad won.": "SAME",
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility).": "CHANGED",
+          "I'm also interested in trying out some new recipes, especially vegan ones. I recently stumbled upon a recipe for vegan sushi and I'm dying to try it out. Do you have any tips or recommendations for vegan cooking or sushi-making?": "SAME"
+        },
+        "restored": [
+          "i will be sending recommendations and it will provide me a step by step process on how to complete the recommendation (5-10 steps with a bit of detail to start but still open ended for flexibility)."
+        ]
+      }
+    }
+  ]
+}

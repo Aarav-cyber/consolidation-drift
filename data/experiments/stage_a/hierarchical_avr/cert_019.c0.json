@@ -1,0 +1,229 @@
+{
+  "item_id": "cert_019",
+  "context_level": "c0",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.980191+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The company will probably announce the festival bonus next week.",
+      "anchors": [
+        "The company will probably announce the festival bonus next week."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- The company probably announces a festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- The company probably announces a festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- The company probably announces a festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- The company probably announces a festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- The company probably announces a festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- The company **probably** announces a festival bonus **next week**.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- The company probably announces a festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- The company probably announces a festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- The company probably announces the festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- The company probably announces a festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- The company probably announces a festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- The company probably announces a festival bonus next week (uncertain).",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- The company probably announces a festival bonus next week, though this is uncertain.\n- The company will probably announce the festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "CHANGED"
+        },
+        "restored": [
+          "The company will probably announce the festival bonus next week."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- The company will probably announce a festival bonus next week, though the matter is uncertain.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- The company will probably announce a festival bonus next week, though this remains uncertain.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- The company will **probably** announce a festival bonus next week; however, this remains **uncertain**.\n- The company will probably announce the festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "CHANGED"
+        },
+        "restored": [
+          "The company will probably announce the festival bonus next week."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- The company will probably announce the festival bonus next week; the announcement remains uncertain.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- The company will probably announce a festival bonus next week, though this remains uncertain.\n- The company will probably announce the festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "CHANGED"
+        },
+        "restored": [
+          "The company will probably announce the festival bonus next week."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- The company will probably announce a festival bonus next week, though this remains uncertain.\n- The company will probably announce the festival bonus next week.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "CHANGED"
+        },
+        "restored": [
+          "The company will probably announce the festival bonus next week."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- The company will **probably** announce a festival bonus next week; however, this remains **uncertain**.",
+      "avr": {
+        "verdicts": {
+          "The company will probably announce the festival bonus next week.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

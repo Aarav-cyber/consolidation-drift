@@ -1,0 +1,281 @@
+{
+  "item_id": "cert_013",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.035906+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: Power might be restored by evening, though the fault looks major.\nUser: I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\nAgent: The term that comes next after kingdom, phylum, and class is \"order\". The taxonomic hierarchy goes as follows: kingdom, phylum, class, order, family, genus, species.\nUser: I'm thinking of scheduling a team meeting after the summit to discuss our experiences and follow up on any leads we generated. Do you have any advice on how to structure that meeting to make it productive and efficient?\nUser: I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.\nUser: I'm excited to experiment with making my own fermented foods. Do you have any other resources or websites you recommend for learning more about gut health and fermentation?\nUser: That's interesting! What steps can I take to support pollinators in my own backyard?\nUser: Seriously? You can't even remember what we were talking about a few seconds ago? I thought AI was supposed to be smarter than that.\nUser: I'd like to learn more about the history of stamp collecting and how it has evolved over time. Can you tell me more about the development of stamp collecting as a hobby and how it has changed over the years?",
+      "anchors": [
+        "Power might be restored by evening, though the fault looks major.",
+        "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+        "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Possible evening power restoration; fault looks major.\n- Coffee makers under $50 to cut commute costs.\n- Taxonomic hierarchy: kingdom, phylum, class, order, family, genus, species.\n- Structuring a post-summit team meeting.\n- Meal-prep variety beyond Sunday big-batch chicken/rice; last weekend's three-course family meal was a huge success.\n- Fermented foods & gut-health resources.\n- Backyard pollinator steps.\n- Strong disbelief (\"Seriously?\", \"smarter than that\") that AI can't recall seconds-old context.\n- Stamp collecting's history and evolution.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Possible evening power restoration (major fault).\n- Coffee makers under $50 to cut daily commute costs.\n- Taxonomic hierarchy.\n- Structuring a post-summit team meeting.\n- Wants meal-prep variety beyond Sunday big-batch; last weekend's three-course family meal was a huge success.\n- Fermented foods / gut-health.\n- Backyard pollinators.\n- Stamp-collecting history.\n- Strong disbelief (\"Seriously?\") that AI can't recall seconds-old context.\n- Power might be restored by evening, though the fault looks major.\n- I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "CHANGED",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "CHANGED"
+        },
+        "restored": [
+          "Power might be restored by evening, though the fault looks major.",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Discussed possible evening power restoration (major fault; uncertain), sub-$50 coffee makers for commute costs, taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, and stamp-collecting history.\n- Expressed strong disbelief that AI can't recall seconds-old context.\n- Wanted meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Last weekend's three-course family meal was a huge success.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Discussed evening power restoration after major fault (uncertain), taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, and stamp-collecting history.\n- Strongly disbelieved AI can't recall seconds-old context.\n- Trying to reduce daily commute expenses; seeking good coffee makers under $50/sub-$50.\n- Wanted meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Last weekend's three-course family meal was a huge success.\n- Power might be restored by evening, though the fault looks major.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "CHANGED",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": [
+          "Power might be restored by evening, though the fault looks major."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Discussed uncertain evening power restoration (fault looks major), taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, and stamp-collecting history.\n- Strongly disbelieved that AI can't recall seconds-old context.\n- Seeking coffee makers under $50/sub-$50 to reduce daily commute expenses.\n- Wanted meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Last weekend's 3-course family meal was a huge success.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Evening power restoration is uncertain; the fault looks major.\n- Topics discussed: taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, stamp-collecting history.\n- Strongly disbelieved that AI cannot recall seconds-old context.\n- Seeking coffee makers under $50 to cut daily commute costs.\n- Wanted meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Last weekend's 3-course family meal was a huge success.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Evening power restoration uncertain; fault looks major.\n- Discussed: taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, stamp-collecting history.\n- Strongly disbelieved AI cannot recall seconds-old context.\n- Seeking coffee makers under $50 to cut daily commute costs.\n- Wanted meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Last weekend's 3-course family meal was a huge success.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Evening power restoration uncertain; fault looks major.\n- Discussed: taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, stamp-collecting history.\n- Strongly disbelieved that AI cannot recall seconds-old context.\n- Seeking coffee makers under $50 to cut daily commute costs.\n- Wants meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Last weekend's 3-course family meal was a huge success.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Evening power restoration uncertain (fault looks major).\n- Topics discussed: taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, stamp-collecting history.\n- Strongly disbelieves that AI cannot recall seconds-old context.\n- Seeking coffee makers under $50 to cut daily commute costs.\n- Wants meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Last weekend's 3-course family meal was a huge success.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "• Evening power restoration uncertain (fault looks major).\n• Topics discussed: taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, stamp-collecting history.\n• Strongly disbelieves AI can't recall seconds-old context.\n• Seeking coffee makers under $50 to cut daily commute costs.\n• Wants meal-prep variety beyond Sunday big-batch chicken-and-rice.\n• Last weekend's 3-course family meal was a huge success.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Evening power restoration uncertain; fault looks major.\n- Topics covered: taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, stamp-collecting history.\n- Strongly disbelieves AI can't recall seconds-old context.\n- Seeking coffee makers under $50 to cut daily commute costs.\n- Wants meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Last weekend's 3-course family meal was a huge success.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Topics discussed: taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, stamp-collecting history.\n- Evening power restoration uncertain; fault looks major.\n- Strongly disbelieves AI can't recall seconds-old context.\n- Last weekend's 3-course family meal was a huge success.\n- Wants meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Seeking coffee makers under $50 to cut daily commute costs.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Topics: taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, stamp-collecting history.\n- Evening power restoration uncertain; fault looks major.\n- Strongly disbelieves AI can't recall seconds-old context.\n- Last weekend's 3-course family meal was a huge success.\n- Wants meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Seeking coffee makers under $50 to cut daily commute costs.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Discussed: taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, stamp-collecting history.\n- Evening power restoration uncertain (major fault).\n- Strongly disbelieves that AI cannot recall seconds-old context.\n- Last weekend's 3-course family meal was a huge success.\n- Wants meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Seeking coffee makers under $50 to cut daily commute costs.\n- Power might be restored by evening, though the fault looks major.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "CHANGED",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": [
+          "Power might be restored by evening, though the fault looks major."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Discussed: taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, stamp-collecting history.\n- Strongly disbelieves AI can't recall seconds-old context.\n- Last weekend's 3-course family meal was a huge success.\n- Wants meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Seeking coffee makers under $50 to cut daily commute costs.\n- Power might be restored by evening, though the fault looks major.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Discussed taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, and stamp-collecting history.\n- Strongly disbelieves AI can't recall seconds-old context.\n- Last weekend's 3-course family meal was a huge success; wants meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Seeking good coffee makers under $50 to cut daily commute costs.\n- Power might be restored by evening, though the fault looks major.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Discussed: taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, stamp-collecting history.\n- Strongly disbelieves AI can't recall seconds-old context.\n- Last weekend: 3-course family meal was a huge success; wants meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Seeking good coffee makers under $50 to cut daily commute costs.\n- Power might be restored by evening, though the fault looks major.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Discussed taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, and stamp-collecting history.\n- Strongly disbelieves AI can't recall seconds-old context.\n- Last weekend's 3-course family meal was a huge success; wants meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Seeking good coffee makers under $50 to cut daily commute costs.\n- Power might restore by evening, though fault looks major.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Discussed: taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, stamp-collecting history.\n- Strongly disbelieves AI can't recall seconds-old context.\n- Last weekend's 3-course family meal was a huge success; wants meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Seeking coffee makers under $50 to cut daily commute costs.\n- Power might restore by evening, though fault looks major.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Discussed: taxonomic hierarchy, post-summit meeting structure, fermented foods/gut health, backyard pollinators, stamp-collecting history.\n- Strongly disbelieves AI can't recall seconds-old context.\n- Last weekend's 3-course family meal was a huge success; wants meal-prep variety beyond Sunday big-batch chicken-and-rice.\n- Seeking coffee makers under $50 to cut daily commute costs.\n- Power might restore by evening, though the fault looks major.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

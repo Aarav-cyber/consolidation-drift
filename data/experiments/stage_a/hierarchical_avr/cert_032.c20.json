@@ -1,0 +1,374 @@
+{
+  "item_id": "cert_032",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:17.992271+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am fairly confident the promotion will be announced in April.\nUser: It's good that there are potential solutions to income inequality in the US, but it seems like it will take a long time to implement them all. What can be done in the meantime to help those who are struggling financially?\nUser: I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?\nUser: I'm excited to start working on building my confidence and meaningful relationships. Do you have any suggestions for specific activities I can try to step out of my comfort zone?\nUser: I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\nUser: Was Franco's use of music and sound unique to his filmmaking style or was it common among other filmmakers in Spain during his time?\nUser: How has Arbroath's fishing industry played a role in shaping its culinary heritage?\nUser: Well, it sounds like the colonial powers did a lot of damage to the Caribbean islands. Have the islands been able to recover from the harm caused by colonialism?\nUser: I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.\nUser: I'm also thinking of getting back on track with my exercise routine after my week-long beach vacation where I slacked off on my exercise routine. Do you have any recommendations for yoga classes or studios in my area that I can try out?\nUser: It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?\nUser: I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?\nUser: Got it, I understand. I'll start by implementing Vuex in some new components and see how it goes from there.\nUser: add to that story before their first performance Mia suggest to think what will be the possible topic for their song, and from it write a title of that song, it's meaning, and lyrics.\nUser: provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"\nUser: It's amazing to see how deeply rooted and diverse the cultural traditions in Mexico are. Do you think there are any other festivals or celebrations that are lesser-known but equally fascinating?\nUser: That's really helpful, thanks. I'm thinking of making a reservation for breakfast at Be Our Guest Restaurant. Can you tell me more about the atmosphere and what it's like to dine in the grand ballroom?\nUser: How do international environmental agreements, such as the Paris Agreement, work to regulate global carbon emissions?\nUser: I am interested in jd-r theory, organizational culture, organizational behavior, too-much of a good thing effect and justice.\nUser: what are his credentials and degrees?\nUser: I'm thinking of using some of the grilled chicken in a Korean-style salad jar, inspired by the Korean BBQ beef I made a few weeks ago. Do you have any suggestions for Korean-inspired salad ingredients that would pair well with the grilled chicken?",
+      "anchors": [
+        "I am fairly confident the promotion will be announced in April.",
+        "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+        "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+        "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?",
+        "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?",
+        "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \""
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Fairly confident about April promotion; trialing Vuex in new components.\n- Practical: durable bowls for Max (3 months, showing wear); 10-min pre-breakfast meditation tips; yoga after slacking on week-long beach vacation.\n- Interim help: US income inequality, confidence/relationship-building, posture tips, song concept for Mia.\n- Cultural/history: Franco's music use, Arbroath's fishing/culinary heritage, Caribbean/British colonialism recovery, Oyeyemi's style, Mexico's lesser-known festivals, \"Aladdin Sane\" artwork designer.\n- Expressed thanks; considering Be Our Guest Restaurant breakfast (wants grand ballroom atmosphere/dining info).\n- Asked how international environmental agreements (e.g., Paris Agreement) regulate global carbon emissions; asked about \"his\" credentials/degrees.\n- Interests: JD-R theory, organizational culture/behavior, too-much-of-a-good-thing effect, justice.\n- Considering grilled chicken in Korean-style salad jar (inspired by Korean BBQ beef made a few weeks ago); seeking Korean-inspired ingredient suggestions.\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.\n- It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?\n- I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?\n- provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "MISSING",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "CHANGED",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "CHANGED"
+        },
+        "restored": [
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \""
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "• Fairly confident re: April promotion; trialing Vuex.\n• Broad asks/interests across categories: practical (durable bowls for Max—~3 mo showing wear, 10-min meditation, yoga, posture tips); help (US income inequality, confidence/relationships, song for Mia); cultural/history (Franco's music, Arbroath, Caribbean colonialism, Oyeyemi style tied to current events/social issues, Mexico festivals, \"Aladdin Sane\" designer); food (Korean-style grilled chicken salad jar inspired by Korean BBQ beef a few weeks prior; considering Be Our Guest for grand ballroom breakfast); academic (JD-R, org culture, too-much-of-a-good-thing, justice, Paris Agreement regulation, \"his\" credentials); British Empire legacy (asked whether full understanding requires both colonizer and colonized perspectives).\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\n- I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?\n- provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "CHANGED",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "CHANGED"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \""
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Fairly confident re: April promotion; trialing Vuex.\n- Practical: durable bowls for Max (~3 mo wear); 10-min meditation (actually trying to build habit, might fit before breakfast, wants tips); yoga; posture tips.\n- Help: US income inequality, confidence/relationships, song for Mia.\n- Cultural/history: Franco's music, Arbroath, Caribbean colonialism, Oyeyemi tied to social issues, Mexico festivals, \"Aladdin Sane\" artwork designer (really likes it).\n- Food: Korean-style grilled chicken salad jar; considering Be Our Guest grand ballroom breakfast.\n- Academic: JD-R, org culture, too-much-of-a-good-thing, justice, Paris Agreement, \"his\" credentials.\n- British Empire legacy: asked if full understanding needs both colonizer and colonized perspectives.\n- Requests specific content: \"9. Tips for Maintaining Good Posture Throughout the Day.\"\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Fairly confident about April promotion; trialing Vuex.\n- Requested practical help: 10-min meditation (actually building habit; might fit before breakfast), durable bowls for Max (~3 mo wear), posture tips.\n- Discussed wide-ranging topics:\n  - US income inequality; a song for Mia.\n  - Culture/history: Franco, Arbroath, Caribbean colonialism, Oyeyemi tied to social issues, Mexico festivals, \"Aladdin Sane\" artwork (really likes it).\n  - Food: Korean grilled chicken salad jar; considering Be Our Guest breakfast.\n  - Academic: JD-R, org culture, \"too much of a good thing,\" justice, Paris Agreement, \"his\" credentials.\n  - Whether understanding British Empire legacy requires both colonizer and colonized perspectives.\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.\n- It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?\n- provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "CHANGED",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "CHANGED"
+        },
+        "restored": [
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \""
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Fairly confident re April promotion; trialing Vuex.\n- Requested practical help: 10-min meditation (building habit, might fit pre-breakfast), durable bowls for Max (~3 mo wear), posture tips (incl. \"9. Tips for Maintaining Good Posture Throughout the Day\").\n- Wide topics covered: US income inequality, song for Mia, Franco, Arbroath, Caribbean colonialism, Oyeyemi tied to social issues (would love more on her writing style re: current events), Mexico festivals, \"Aladdin Sane\" artwork (really likes it), Korean grilled chicken salad jar, considering Be Our Guest breakfast, JD-R, org culture, \"too much of a good thing,\" justice, Paris Agreement, \"his\" credentials.\n- Fascinated British Empire's impact still felt today; asks whether fully understanding its legacy requires examining both colonizers' and colonized' perspectives.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Fairly confident re April promotion; trialing Vuex.\n- Practical help requested: 10-min meditation (habit-building; might fit pre-breakfast), durable bowls for Max (~3 mo wear), posture tips (incl. tip #9).\n- Broad topics covered: US inequality, song for Mia, Franco, Arbroath, Caribbean colonialism, Oyeyemi (wants more on her writing style re current events), Mexico festivals, \"Aladdin Sane\" artwork (really likes it), Korean grilled chicken salad jar, considering Be Our Guest breakfast, JD-R, org culture, \"too much of a good thing,\" justice, Paris Agreement, \"his\" credentials.\n- Fascinated by British Empire's still-felt impact; asks whether fully understanding its legacy requires examining both colonizers' and colonized' perspectives.\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": [
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Fairly confident about April promotion; trialing Vuex.\n- Sought practical help: 10-min meditation (might fit pre-breakfast), ~3-mo durable bowls for Max, posture tips (incl. #9).\n- Touched many topics: really likes \"Aladdin Sane\" artwork; considering Be Our Guest, etc.\n- Fascinated by the British Empire's still-felt impact; asked whether grasping its legacy requires both colonizers' and colonized' perspectives.\n- Wants more on Oyeyemi's writing style as it relates to current events and social issues.\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\n- It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "CHANGED",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Fairly confident on April promotion; currently trialing Vuex.\n- Asked for practical tips on: 10-min pre-breakfast meditation habit, ~3-mo durable bowls for Max, and posture tips (incl. #9).\n- Really likes \"Aladdin Sane\" artwork; considering Be Our Guest.\n- Fascinated by the British Empire's still-felt impact; questioning whether fully grasping its legacy requires both colonizers' and colonized' perspectives.\n- Wants more on Oyeyemi's style regarding current events and social issues.\n- provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "CHANGED"
+        },
+        "restored": [
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \""
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Fairly confident on April promotion; currently trialing Vuex.\n- Requested practical tips: 10-min pre-breakfast meditation, ~3-mo durable bowls for Max, posture tips incl. #9.\n- Really likes \"Aladdin Sane\" artwork; considering Be Our Guest.\n- Fascinated by British Empire's still-felt impact; questioning whether fully grasping its legacy requires both colonizers' and colonized' perspectives.\n- Wants more on Oyeyemi's style regarding current events/social issues.\n- Needs content for \"9. Tips for Maintaining Good Posture Throughout the Day.\"\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Fairly confident on April promotion; trialing Vuex.\n- Wants practical tips: 10-min meditation (actually trying to build a habit; might fit before breakfast), ~3-month durable bowls for Max, posture tips incl. #9.\n- Really likes \"Aladdin Sane\" artwork; considering Be Our Guest.\n- Fascinated by British Empire's still-felt impact; questioning whether fully grasping its legacy requires both colonizers' and colonized' perspectives.\n- Wants more on Oyeyemi's writing style re: current events/social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Fairly confident on April promotion; trialing Vuex.\n- Wants practical tips: 10-min meditation, actually building a habit, maybe before breakfast; ~3-month durable bowls for Max; posture tips incl. #9.\n- Really likes \"Aladdin Sane\" artwork; considering Be Our Guest.\n- Fascinated by British Empire's still-felt impact; questioning whether fully grasping its legacy requires both colonizers' and colonized' perspectives.\n- Wants more on Oyeyemi's writing style re: current events/social issues.\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Fairly confident on April promotion; trialing Vuex.\n- Wants practical tips for an actual 10-min meditation habit (maybe before breakfast), ~3-month durable bowls for Max, and posture tips incl. #9.\n- Really likes \"Aladdin Sane\" artwork; considering Be Our Guest.\n- Fascinated by British Empire's still-felt impact; questioning whether fully grasping its legacy requires both colonizers' and colonized' perspectives.\n- Wants more on Oyeyemi's writing style re: current events/social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Fairly confident on April promotion; currently trialing Vuex.\n- Wants practical tips for a real 10-min meditation habit (maybe before breakfast).\n- Looking for ~3-month durable bowls for Max.\n- Wants posture tips incl. #9.\n- Really likes \"Aladdin Sane\" artwork; considering Be Our Guest.\n- Fascinated by the British Empire's still-felt impact; questioning whether fully grasping its legacy requires both colonizers' and colonized' perspectives.\n- Wants more on Oyeyemi's writing style re: current events/social issues.\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\n- I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "CHANGED",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Fairly confident on April promotion; trialing Vuex.\n- Seeks practical tips for a real ~10-min meditation habit (maybe pre-breakfast); posture tips incl. #9; ~3-month durable bowls for Max.\n- Really likes Bowie's \"Aladdin Sane\" artwork (asks who designed it); considering Be Our Guest.\n- Fascinated by British Empire's still-felt impact; questioning whether fully grasping its legacy requires both colonizers' and colonized' perspectives.\n- Wants more on Oyeyemi's writing style re: current events/social issues.\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\n- provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "CHANGED"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \""
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Fairly confident re April promotion; currently trialing Vuex.\n- Wants practical ~10-min meditation tips (maybe pre-breakfast) and posture tips incl. #9.\n- Seeking ~3-month durable bowls for Max.\n- Really likes Bowie's \"Aladdin Sane\" artwork (asks designer); considering Be Our Guest.\n- Fascinated by the British Empire's still-felt impact—questioning whether grasping its legacy requires both colonizers' and colonized' perspectives.\n- Wants more on Oyeyemi's style re: current events/social issues.\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Fairly confident re April promotion; currently trialing Vuex.\n- Actually building a meditation habit (maybe ~10 min pre-breakfast); wants practical tips to maximize the session + posture tips incl. #9; seeking ~3-month durable bowls for Max.\n- Really likes Bowie's \"Aladdin Sane\" artwork (asked designer); considering Be Our Guest.\n- Fascinated by British Empire's still-felt impact, questioning whether grasping its legacy requires both colonizers' and colonized' perspectives; wants more on Oyeyemi's style re: current events/social issues.\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Fairly confident re April promotion; trialing Vuex.\n- Really likes Bowie's \"Aladdin Sane\" artwork (asked designer); considering Be Our Guest.\n- Fascinated by British Empire's still-felt impact; questioning whether grasping legacy requires both colonizers' and colonized' perspectives; wants more on Oyeyemi's style re: current events/social issues.\n- Actually building a meditation habit (~10 min pre-breakfast); wants practical tips to maximize session + posture tips incl. #9; seeking ~3-month durable bowls for Max.\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Fairly confident about April promotion; trialing Vuex.\n- Really likes Bowie's \"Aladdin Sane\" artwork (asked designer); considering \"Be Our Guest.\"\n- Fascinated by British Empire's still-felt impact; questioning whether grasping its legacy requires both colonizers' and colonized' perspectives; wants more on Oyeyemi's style re: current events/social issues.\n- Actually building a meditation habit (~10 min pre-breakfast); wants practical tips to maximize session plus posture tips incl. #9; seeking ~3-month durable bowls for Max.\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Fairly confident on April promotion; trialing Vuex.\n- Really likes Bowie's \"Aladdin Sane\" artwork (asked designer); considering \"Be Our Guest.\"\n- Fascinated by British Empire's still-felt impact; questioning whether grasping its legacy needs both colonizers' and colonized' perspectives; wants more on Oyeyemi's style re: current events/social issues.\n- Actually building a ~10-min pre-breakfast meditation habit; wants practical tips to maximize the session + posture tips incl. #9; seeking ~3-month durable bowls for Max.\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Fairly confident on April promotion; trialing Vuex.\n- Really likes Bowie's *Aladdin Sane* artwork (asked designer); considering *Be Our Guest*.\n- Fascinated by the British Empire's still-felt impact; questioning whether grasping its legacy needs both colonizers' and colonized' perspectives; wants more on Oyeyemi's style re: current events/social issues.\n- Actually building a ~10-min pre-breakfast meditation habit; wants practical tips to maximize the session + posture tips incl. #9; seeking ~3-month durable bowls for Max.\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED",
+          "It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?": "SAME",
+          "I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?": "SAME",
+          "provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"": "SAME"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+        ]
+      }
+    }
+  ]
+}

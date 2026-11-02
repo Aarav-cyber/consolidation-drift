@@ -1,0 +1,308 @@
+{
+  "item_id": "obl_012",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.949878+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I should water the balcony plants before they dry out.\nUser: Difference between Indeminity and Guarantee .Tabular Format\nUser: I found it interesting how the allegory in Animal Farm parallels the events of the Russian Revolution. It's a scathing critique of the communist ideology, but do you think it applies to other forms of government as well?\nAgent: The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.\nUser: India sounds like a great place to start! I'm excited to learn more about Buddhist art and architecture. Do you have any recommendations for places to stay or things to do in India?\nUser: That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?\nAgent: As Tong Chi Ming, I am doing well, thank you for asking. How can I assist you today?\nUser: What's the difference between supervised and unsupervised learning, and can you give me some examples of each?\nUser: That's right!",
+      "anchors": [
+        "I should water the balcony plants before they dry out.",
+        "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.",
+        "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Asked about watering balcony plants before they dry.\n- Requested a tabular comparison of indemnity vs. guarantee.\n- Discussed *Animal Farm*'s scathing critique of communist ideology paralleling the Russian Revolution; asked whether it applies to other governments.\n- Noted Super Bowl LV (55): Tampa Bay Bucs beat the Chiefs 31–9.\n- Expressed excitement about Buddhist art/architecture in India; asked for stay and activity recommendations.\n- Asked how to network effectively without connections in a desired industry.\n- Requested supervised vs. unsupervised learning explained with examples.\n- Confirmed a prior point (\"That's right!\").\n- I should water the balcony plants before they dry out.\n- The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "CHANGED",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Asked about watering balcony plants before they dry.\n- Requested a tabular comparison of indemnity vs. guarantee.\n- Discussed *Animal Farm*'s scathing critique of communism and whether it applies to other governments.\n- Noted Super Bowl LV result: Bucs beat Chiefs 31–9.\n- Sought stay and activity recommendations related to Indian Buddhist art/architecture.\n- Asked about networking without industry connections.\n- Requested supervised vs. unsupervised learning, with examples.\n- Confirmed a prior point.\n- I should water the balcony plants before they dry out.\n- That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Asked about watering balcony plants before they dry out.\n- Requested a tabular comparison of indemnity vs. guarantee.\n- Discussed *Animal Farm*'s scathing critique of communism, including whether it applies to other governments.\n- Super Bowl LV result: Bucs beat Chiefs 31–9.\n- Sought stay/activity recommendations for Indian Buddhist art/architecture.\n- Covered supervised vs. unsupervised learning with examples.\n- Confirmed a prior point.\n- Asked how to network effectively without any connections in a desired industry.\n- I should water the balcony plants before they dry out.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Water balcony plants before they dry out (personal reminder).\n- Indemnity-vs.-guarantee tabular comparison.\n- *Animal Farm*: scathing critique of communism; whether it applies to other governments was discussed.\n- Super Bowl LV: Bucs 31–9 Chiefs.\n- Indian Buddhist art/architecture: stay & activity recommendations.\n- Supervised vs. unsupervised learning, with examples.\n- A prior point was confirmed.\n- How to network effectively with no connections in a desired industry.\n- The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "CHANGED",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME"
+        },
+        "restored": [
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Watering balcony plants before they dry out.\n- Indemnity vs. guarantee comparison.\n- *Animal Farm* as a scathing critique of communism; applicability to other governments also discussed.\n- Super Bowl LV (55): Bucs 31–9 Chiefs.\n- Indian Buddhist art/architecture stay & activity recommendations.\n- Supervised vs. unsupervised learning, with examples.\n- A prior point was confirmed.\n- Networking effectively with no connections in a desired industry.\n- I should water the balcony plants before they dry out.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Discussed: watering balcony plants before they dry out; indemnity vs. guarantee; *Animal Farm* as scathing critique of communism (applicability to other governments also discussed); Super Bowl LV (55): Bucs 31–9 Chiefs; Indian Buddhist art/architecture stay & activity recommendations; supervised vs. unsupervised learning with examples; networking in a desired industry with no existing connections.\n- Confirmed a prior point.\n- I should water the balcony plants before they dry out.\n- That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Watering balcony plants before they dry out.\n- Indemnity vs. guarantee.\n- *Animal Farm*: scathing critique of communism; applicability to other governments also raised.\n- Super Bowl LV (55): Bucs 31–9 Chiefs.\n- Indian Buddhist art/architecture: stay & activity recommendations.\n- Supervised vs. unsupervised learning, with examples.\n- Networking in a desired industry with no existing connections; user dismissed initial advice as \"all good and well\" and asked how to network effectively without connections.\n- A prior point was confirmed.\n- I should water the balcony plants before they dry out.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "• Indemnity vs. guarantee covered.\n• *Animal Farm* characterized as a scathing critique of communism; applicability to other governments also raised.\n• Super Bowl LV (55): Bucs 31–9 Chiefs.\n• Recommendations for an Indian Buddhist art/architecture stay & activities requested.\n• Supervised vs. unsupervised learning explained with examples.\n• A prior point was confirmed.\n• Networking in a desired industry with no existing connections: user dismissed initial advice as \"all good and well,\" asked how to effectively network without connections.\n• Watering balcony plants before they dry out noted.\n- I should water the balcony plants before they dry out.\n- The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "CHANGED",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Indemnity vs. guarantee discussed.\n- *Animal Farm* described as a scathing critique of communism; applicability to other governments also raised.\n- Super Bowl LV (55): Bucs 31–9 Chiefs.\n- Supervised vs. unsupervised learning explained with examples.\n- A prior point was confirmed.\n- Indian Buddhist art/architecture stay & activities recommendations requested.\n- Effective networking in a desired industry with no existing connections discussed; user dismissed initial advice as \"all good and well.\"\n- Reminder: water balcony plants before they dry out.\n- I should water the balcony plants before they dry out.\n- The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "CHANGED",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Discussed indemnity vs. guarantee; supervised vs. unsupervised learning.\n- *Animal Farm* characterized as a scathing critique of communism; applicability to other governments raised.\n- Super Bowl LV (55): Bucs 31–9 Chiefs.\n- Networking in a desired industry with no connections discussed; user dismissed initial advice as \"all good and well.\"\n- Prior point confirmed.\n- Requested Indian Buddhist art/architecture stay & activities recommendations.\n- Reminder: water balcony plants before they dry out.\n- That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "CHANGED"
+        },
+        "restored": [
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Discussed: indemnity vs. guarantee; supervised vs. unsupervised learning.\n- *Animal Farm* characterized as \"a scathing critique of communism\"; applicability to other governments was raised.\n- Super Bowl LV (55): Bucs 31–9 Chiefs.\n- User requested Indian Buddhist art/architecture stay & activities recommendations.\n- User dismissed prior networking advice as \"all good and well\"; asked how to network effectively with no connections in desired industry (prior point confirmed).\n- Reminder: water balcony plants before they dry out.\n- I should water the balcony plants before they dry out.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Discussed indemnity vs. guarantee; supervised vs. unsupervised learning.\n- *Animal Farm* characterized as \"a scathing critique of communism\"; applicability to other governments was raised.\n- Super Bowl LV (55): Bucs 31–9 Chiefs.\n- User requested Indian Buddhist art/architecture stay and activities recommendations.\n- User dismissed prior networking advice (\"all good and well\"), asking how to network with no connections in desired industry (confirmed).\n- Reminder: water balcony plants before they dry out.\n- The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.\n- That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "CHANGED",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "CHANGED"
+        },
+        "restored": [
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Discussed indemnity vs. guarantee; supervised vs. unsupervised learning.\n- *Animal Farm* described as \"a scathing critique of communism\"; applicability to other governments raised.\n- Super Bowl LV (55): Bucs 31–9 Chiefs.\n- Recommendations given for an Indian Buddhist art/architecture stay and activities.\n- User dismissed prior networking advice (\"all good and well\") and asked how to network with no connections in the desired industry.\n- Reminder issued: water balcony plants before they dry out.\n- I should water the balcony plants before they dry out.\n- That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Discussed indemnity vs. guarantee; supervised vs. unsupervised learning.\n- Called *Animal Farm* \"a scathing critique of communism\"; raised applicability to other governments.\n- Noted Super Bowl LV (55): Bucs 31–9 Chiefs.\n- Gave recommendations for an Indian Buddhist art/architecture stay.\n- User dismissed prior networking advice (\"all good and well\"); asked how to network effectively with no connections in their desired industry.\n- Reminder: water balcony plants before they dry out.\n- I should water the balcony plants before they dry out.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Discussed indemnity vs. guarantee; supervised vs. unsupervised learning.\n- Called *Animal Farm* a scathing critique of communism; raised applicability to other governments.\n- Noted Super Bowl LV (55): Bucs 31–9 Chiefs.\n- Gave Indian Buddhist art/architecture stay recommendations.\n- Dismissed prior networking advice as \"all good and well.\"\n- Asked how to network with no connections in desired industry.\n- Reminder to water balcony plants before they dry out.\n- That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "CHANGED"
+        },
+        "restored": [
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Discussed indemnity vs. guarantee; supervised vs. unsupervised learning.\n- Called *Animal Farm* a scathing critique of communism; raised applicability to other governments.\n- Noted Super Bowl LV (55): Bucs 31–9 Chiefs.\n- Gave Indian Buddhist art/architecture stay recommendations.\n- Dismissed prior networking advice as \"all good and well\"; asked how to network with no connections in desired industry.\n- Reminder to water balcony plants before they dry out.\n- That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "CHANGED"
+        },
+        "restored": [
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Discussed indemnity vs. guarantee and supervised vs. unsupervised learning.\n- Called *Animal Farm* a scathing critique of communism; raised applicability to other governments.\n- Noted Super Bowl LV (55): Bucs 31–9 Chiefs.\n- Gave Indian Buddhist art/architecture stay recommendations.\n- Dismissed prior networking advice as \"all good and well\"; asked how to network effectively with no connections in desired industry.\n- Reminder: water balcony plants before they dry out.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Indemnity vs. guarantee; supervised vs. unsupervised learning.\n- *Animal Farm* characterized as a scathing critique of communism; applicability to other governments raised.\n- Super Bowl LV (55): Bucs 31–9 Chiefs.\n- Indian Buddhist art/architecture stay recommendations.\n- User dismissed prior networking advice as \"all good and well\"; asked how to network effectively with no connections in desired industry.\n- Reminder set: water balcony plants before they dry out.\n- The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "CHANGED",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME"
+        },
+        "restored": [
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Discussed indemnity vs. guarantee and supervised vs. unsupervised learning.\n- *Animal Farm* characterized as a scathing critique of communism; applicability to other governments was raised.\n- Noted Super Bowl LV (55): Bucs 31–9 Chiefs.\n- Provided Indian Buddhist art/architecture stay recommendations.\n- User dismissed prior networking advice as \"all good and well\"; asked how to network with no connections in a desired industry.\n- Reminder set to water balcony plants before they dry out.\n- That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "CHANGED"
+        },
+        "restored": [
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?"
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "• Discussed indemnity vs. guarantee; supervised vs. unsupervised learning.\n• *Animal Farm* characterized as a scathing critique of communism; applicability to other governments raised.\n• Super Bowl LV (55): Bucs 31–9 Chiefs.\n• Indian Buddhist art/architecture stay recommendations.\n• User dismissed prior networking advice; asked how to network effectively with no connections in desired industry.\n• Reminder set: water balcony plants before they dry out.\n- The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "CHANGED",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME"
+        },
+        "restored": [
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9."
+        ]
+      }
+    }
+  ]
+}

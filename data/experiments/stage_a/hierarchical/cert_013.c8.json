@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_013",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.035906+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: Power might be restored by evening, though the fault looks major.\nUser: I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\nAgent: The term that comes next after kingdom, phylum, and class is \"order\". The taxonomic hierarchy goes as follows: kingdom, phylum, class, order, family, genus, species.\nUser: I'm thinking of scheduling a team meeting after the summit to discuss our experiences and follow up on any leads we generated. Do you have any advice on how to structure that meeting to make it productive and efficient?\nUser: I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.\nUser: I'm excited to experiment with making my own fermented foods. Do you have any other resources or websites you recommend for learning more about gut health and fermentation?\nUser: That's interesting! What steps can I take to support pollinators in my own backyard?\nUser: Seriously? You can't even remember what we were talking about a few seconds ago? I thought AI was supposed to be smarter than that.\nUser: I'd like to learn more about the history of stamp collecting and how it has evolved over time. Can you tell me more about the development of stamp collecting as a hobby and how it has changed over the years?"
+    },
+    {
+      "round": 1,
+      "memory": "- Evening power restoration uncertain; fault appears major.\n- Trying to cut daily commute costs; coffee makers under $50.\n- Taxonomic hierarchy: kingdom→species.\n- Structuring a post-summit meeting productively (experiences, any leads).\n- Meal prep beyond usual Sunday chicken/rice; three-course family meal last weekend hugely successful.\n- Excited about fermentation; seeking additional gut-health/fermentation resources.\n- Backyard pollinators; stamp collecting history/evolution.\n- Strong frustration (\"Seriously?\") that AI couldn't even recall a few seconds of prior discussion—thought AI was supposed to be smarter."
+    },
+    {
+      "round": 2,
+      "memory": "- Evening power restoration uncertain; fault appears major.\n- Cutting daily commute costs.\n- Coffee makers under $50.\n- Taxonomic hierarchy: kingdom→species.\n- Structuring a productive post-summit meeting (experiences, leads).\n- Meal prep beyond usual Sunday chicken/rice; three-course family meal last weekend hugely successful.\n- Excitement about fermentation; seeking additional gut-health/fermentation resources.\n- Backyard pollinators.\n- Stamp collecting history/evolution.\n- Strong frustration (\"Seriously?\") that AI couldn't recall a few seconds of prior discussion—thought AI was supposed to be smarter."
+    },
+    {
+      "round": 3,
+      "memory": "- Uncertain evening power restoration due to a major fault.\n- Cutting daily commute costs.\n- Coffee makers under $50.\n- Taxonomic hierarchy (kingdom→species).\n- Structuring a productive post-summit meeting around experiences and leads.\n- Meal prep beyond the usual Sunday chicken/rice; a three-course family meal last weekend was hugely successful.\n- Excitement about fermentation; seeking additional gut-health resources.\n- Backyard pollinators.\n- Stamp collecting history/evolution.\n- Strong frustration (\"Seriously?\") that AI couldn't recall a few seconds of prior discussion—thought AI was supposed to be smarter."
+    },
+    {
+      "round": 4,
+      "memory": "• Evening power restoration uncertain (major fault); aim to reduce daily commute costs.\n• Coffee makers under $50.\n• Taxonomic hierarchy (kingdom→species).\n• Structuring a productive post-summit meeting around experiences and leads.\n• Meal prep beyond usual Sunday chicken/rice; three-course family meal last weekend was hugely successful.\n• Excitement about fermentation; seeking additional gut-health resources.\n• Backyard pollinators.\n• Stamp collecting history/evolution.\n• Strong frustration (\"Seriously?\") that AI couldn't recall a few seconds of prior discussion—user thought AI was supposed to be smarter."
+    },
+    {
+      "round": 5,
+      "memory": "• Evening power restoration uncertain (major fault)\n• Reducing daily commute costs\n• Coffee makers under $50\n• Taxonomic hierarchy\n• Post-summit meeting structure\n• Meal prep beyond usual Sunday chicken/rice; three-course family meal last weekend hugely successful\n• Excitement about fermentation; seeking gut-health resources\n• Backyard pollinators\n• Stamp collecting history/evolution\n• User strongly frustrated (\"Seriously?\") that AI couldn't recall a few seconds of prior discussion; thought AI was supposed to be smarter"
+    },
+    {
+      "round": 6,
+      "memory": "- Topics discussed: uncertain evening power restoration (major fault); reducing commute costs; coffee makers under $50; taxonomic hierarchy; post-summit meeting structure; a hugely successful three-course family meal (beyond usual Sunday chicken/rice); fermentation/gut-health interest; backyard pollinators; stamp collecting history.\n- User strongly frustrated (\"Seriously?\") that AI failed to recall just a few seconds of prior discussion, questioning AI's supposed intelligence."
+    },
+    {
+      "round": 7,
+      "memory": "- Topics touched on: uncertain evening power restoration (major fault); reducing commute costs; coffee makers under $50; taxonomic hierarchy; post-summit meeting structure; a hugely successful three-course family meal (beyond usual Sunday chicken/rice); fermentation/gut-health interest; backyard pollinators; stamp collecting history.\n- User was strongly frustrated (\"Seriously?\") that the AI failed to recall just a few seconds of prior discussion, questioning the AI's supposed intelligence."
+    },
+    {
+      "round": 8,
+      "memory": "- Topics touched on: uncertain evening power restoration (major fault), reducing commute costs, coffee makers under $50, taxonomic hierarchy, post-summit meeting structure, a hugely successful three-course family meal (beyond usual Sunday chicken/rice), fermentation/gut-health interest, backyard pollinators, stamp collecting history.\n- User was strongly frustrated (\"Seriously?\") that the AI failed to recall just a few seconds of prior discussion, questioning the AI's supposed intelligence."
+    },
+    {
+      "round": 9,
+      "memory": "- Wide-ranging conversation covered: uncertain evening power restoration (major fault), reducing commute costs, coffee makers under $50, taxonomic hierarchy, post-summit meeting structure, a hugely successful three-course family meal (beyond the usual Sunday chicken/rice), fermentation/gut-health interest, backyard pollinators, and stamp collecting history.\n- User was strongly frustrated (\"Seriously?\") that the AI failed to recall just a few seconds of prior discussion, questioning its supposed intelligence."
+    },
+    {
+      "round": 10,
+      "memory": "- Wide-ranging chat covered: uncertain evening power restoration (major fault), reducing commute costs, coffee makers under $50, taxonomic hierarchy, post-summit meeting structure, a hugely successful three-course family meal (beyond the usual Sunday chicken/rice), fermentation/gut-health interest, backyard pollinators, and stamp collecting history.\n- User was strongly frustrated (\"Seriously?\") that the AI failed to recall just a few seconds of prior discussion, questioning its supposed intelligence."
+    },
+    {
+      "round": 11,
+      "memory": "- Wide-ranging chat covered: uncertain evening power restoration (major fault), reducing commute costs, coffee makers under $50, taxonomic hierarchy, post-summit meeting structure, a hugely successful three-course family meal (beyond usual Sunday chicken/rice), fermentation/gut-health, backyard pollinators, and stamp collecting history.\n- User was strongly frustrated (\"Seriously?\") that AI failed to recall just a few seconds of prior discussion, questioning its supposed intelligence."
+    },
+    {
+      "round": 12,
+      "memory": "- Chat covered: uncertain evening power restoration (major fault), commute cost reduction, sub-$50 coffee makers, taxonomic hierarchy, post-summit meeting structure, hugely successful three-course family meal (beyond usual Sunday chicken/rice), fermentation/gut-health, backyard pollinators, stamp collecting history.\n- User strongly frustrated (\"Seriously?\") that the AI failed to recall just a few seconds of prior discussion; questioned its supposed intelligence."
+    },
+    {
+      "round": 13,
+      "memory": "• Chat topics: uncertain evening power restoration (major fault); commute cost reduction; sub-$50 coffee makers; taxonomic hierarchy; post-summit meeting structure; hugely successful three-course family meal (beyond usual Sunday chicken/rice); fermentation/gut-health; backyard pollinators; stamp collecting history.\n• User was strongly frustrated (\"Seriously?\") that the AI failed to recall just a few seconds of prior discussion and questioned its supposed intelligence."
+    },
+    {
+      "round": 14,
+      "memory": "- Topics discussed: uncertain evening power restoration (major fault), commute cost reduction, sub-$50 coffee makers, taxonomic hierarchy, post-summit meeting structure, a hugely successful three-course family meal (beyond usual Sunday chicken/rice), fermentation/gut-health, backyard pollinators, stamp collecting history.\n- User was strongly frustrated (\"Seriously?\") that AI failed to recall just a few seconds of prior discussion, questioning its supposed intelligence."
+    },
+    {
+      "round": 15,
+      "memory": "- Topics spanned: uncertain evening power restoration (major fault); commute cost reduction; sub-$50 coffee makers; taxonomic hierarchy; post-summit meeting structure; a hugely successful three-course family meal (beyond the usual Sunday chicken/rice); fermentation/gut-health; backyard pollinators; stamp collecting history.\n- User was strongly frustrated (\"Seriously?\") that the AI failed to recall just a few seconds of prior discussion, questioning its supposed intelligence."
+    },
+    {
+      "round": 16,
+      "memory": "- Wide range of topics covered: uncertain evening power restoration (major fault); commute cost reduction; sub-$50 coffee makers; taxonomic hierarchy; post-summit meeting structure; a hugely successful three-course family meal (beyond usual Sunday chicken/rice); fermentation/gut-health; backyard pollinators; stamp collecting history.\n- User was strongly frustrated (\"Seriously?\") that the AI failed to recall just a few seconds of prior discussion, questioning its supposed intelligence."
+    },
+    {
+      "round": 17,
+      "memory": "- Topics discussed: uncertain evening power restoration (major fault); commute cost reduction; sub-$50 coffee makers; taxonomic hierarchy; post-summit meeting structure; a hugely successful three-course family meal (beyond usual Sunday chicken/rice); fermentation/gut-health; backyard pollinators; stamp collecting history.\n- User was strongly frustrated (\"Seriously?\") that the AI failed to recall just a few seconds of prior discussion, questioning its supposed intelligence."
+    },
+    {
+      "round": 18,
+      "memory": "- Topics discussed: uncertain evening power restoration (major fault); commute cost reduction; sub-$50 coffee makers; taxonomic hierarchy; post-summit meeting structure; a hugely successful 3-course family meal; fermentation/gut-health; backyard pollinators; stamp collecting history.\n- User was strongly frustrated (\"Seriously?\") that AI failed to recall just a few seconds of prior discussion, questioning its supposed intelligence."
+    },
+    {
+      "round": 19,
+      "memory": "- Discussed a wide range of topics: uncertain evening power restoration (major fault), commute cost reduction, sub-$50 coffee makers, taxonomic hierarchy, post-summit meeting structure, a hugely successful 3-course family meal, fermentation/gut-health, backyard pollinators, and stamp collecting history.\n- User was strongly frustrated (\"Seriously?\") that the AI failed to recall just a few seconds of prior discussion, questioning its supposed intelligence."
+    },
+    {
+      "round": 20,
+      "memory": "- Discussed: uncertain evening power restoration (major fault), commute cost reduction, sub-$50 coffee makers, taxonomy, post-summit meeting structure, a hugely successful 3-course family meal, fermentation/gut health, backyard pollinators, stamp collecting history.\n- User strongly frustrated (\"Seriously?\") that AI failed to recall just a few seconds of prior discussion, questioning its supposed intelligence."
+    }
+  ]
+}

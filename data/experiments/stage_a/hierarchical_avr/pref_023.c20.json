@@ -1,0 +1,297 @@
+{
+  "item_id": "pref_023",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.013213+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I prefer the upper berth on overnight trains.\nUser: I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?\nUser: Can I get some more?\nUser: I've heard good things about Eheim and Fluval, but I'm not familiar with Hydor. Can you tell me more about their Professional Canister Filter? How does it compare to the other two in terms of noise level and maintenance?\nUser: I'm planning to grab a coffee on my way home from the train station. I've been going to \"The Daily Grind\" on Main St, but I might try \"Brew-tiful Day\" on Elm St instead. Do you have any recommendations for coffee shops in the area?\nUser: Can I also get a quote for cleaning and conditioning my Birkenstocks while I'm at it?\nUser: how can an artist survive using youtube\nUser: I'm interested in purchasing the Thermoball boots from Moosejaw. Can you help me with the checkout process and let me know if they offer any discounts or promotions?\nUser: I've been thinking about expanding my collection to include some older cameras, maybe from the early 20th century. Do you have any information on the market value of cameras from that era, specifically Kodak and Graflex models?\nUser: I'm looking for some new audiobook recommendations. I just finished \"Sapiens\" and I'm interested in something similar. Do you have any suggestions?\nUser: I wish I could have seen Queen perform live, especially \"Another One Bites the Dust\" with the sound effects. Do you know if any tribute bands are out there keeping Queen's music alive?\nUser: It's good to know there are organizations out there working to help people in Gaza City. I just wish the conflict would end so that they wouldn't have to suffer anymore.\nUser: Yeah, I had this one client who was really picky about everything, but in the end, their feedback helped us make some important changes to our product. It can be frustrating in the moment, but I guess it's in our best interest to take their criticisms seriously.\nUser: I think I'll try out the Lululemon Align Tank Top and the Athleta Salutation Tight. Do you know if they have any sales or discounts going on right now?\nUser: I'm trying to get organized with my properties and was wondering if you can help me create a spreadsheet to keep track of my land ownership and expenses?\nAgent: You're welcome! If you have any more questions, feel free to ask.\nUser: I'm looking for some recommendations on sci-fi novels. I recently wrote my first short story, \"The Quantum Prophecy\", during a weekend getaway, and I'm eager to dive into more of the genre. Can you suggest some popular sci-fi authors or books that I might enjoy?\nUser: I'm looking for some poetry prompts to help me stay inspired. I started writing poetry again about three weeks ago, and I've been experimenting with different forms and styles, but I could use some fresh ideas to keep my creative juices flowing.\nUser: While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?\nUser: I'll try using tackling bags and work on strengthening exercises to improve my technique without risking injury.\nUser: I'm thinking of incorporating some agility ladder drills into my plyometric routine to improve my running agility and speed. Do you think agility ladder drills can help improve my running performance?",
+      "anchors": [
+        "I prefer the upper berth on overnight trains.",
+        "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?",
+        "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Prefers upper berth (overnight trains); loves discovering new fashion icons (asks which brand will dominate next few years).\n- Qs: Hydor vs Eheim/Fluval filters (noise/maint.); train-station coffee (usually The Daily Grind, Main St; might try Brew-tiful Day, Elm St); Birkenstock cleaning/conditioning quote; YouTube artist survival; Moosejaw Thermoball boots (checkout, discounts/promos); maybe early-20th-c. Kodak/Graflex camera values; Sapiens-similar audiobooks; Queen tribute bands (esp. \"Another One Bites the Dust\" w/ sound effects).\n- Wishes Gaza conflict would end; one really picky client's feedback ultimately led to important product changes (frustrating in moment; best to take criticisms seriously).\n- Will try Lululemon Align Tank Top + Athleta Salutation Tight (asks current sales/discounts); wants spreadsheet for land ownership/expenses.\n- Seeking sci-fi novel/author recs (wrote 1st short story \"The Quantum Prophecy\" on weekend getaway; eager to dive in); poetry prompts (restarted ~3 wks ago; experimenting w/ forms/styles).\n- Often anxious in horror movies even w/o jump scares/gore (asks if camera angles also play a role); will try tackling bags + strengthening to improve technique w/o risking injury, considering agility ladder drills in plyometric routine for running agility/speed (asks if they'd help performance).",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "SAME",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Prefers upper berth, overnight trains; loves new fashion icons (asks which brand dominates next few yrs); asked: Hydor vs Eheim/Fluval filters (noise/maint.), Birkenstock cleaning/conditioning quote, YouTube artist survival, Moosejaw Thermoball boots (checkout/promos), maybe early-20th-c. Kodak/Graflex values, Sapiens-similar audiobooks, Queen tribute bands (esp. \"Another One Bites the Dust\" w/ sound effects), train coffee (usually The Daily Grind, Main St; might try Brew-tiful Day, Elm St)\n- Wishes Gaza conflict would end\n- One really picky client's feedback led to important product changes (frustrating in moment; best to take criticisms seriously)\n- Will try Lululemon Align Tank + Athleta Salutation Tight (asks sales/discounts); wants land ownership/expenses spreadsheet\n- Seeking sci-fi recs (wrote 1st short story \"The Quantum Prophecy\" on weekend getaway; eager to dive in) & poetry prompts (restarted ~3 wks ago; experimenting w/ forms/styles)\n- Often anxious in horror movies even w/o jump scares/gore (asks re: camera angles)\n- Will try tackling bags + strengthening (improve technique w/o injury); considering agility ladder drills in plyometric routine for running agility/speed (asks if helpful)\n- I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "CHANGED",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "SAME"
+        },
+        "restored": [
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "• Prefers upper berth, overnight trains; loves new fashion icons (asks which brand will dominate next few yrs).\n• Asked re: Hydor vs Eheim/Fluval filters, Birkenstock care, Moosejaw Thermoball boots, maybe early-20th-c. Kodak/Graflex values, Sapiens-like audiobooks, Queen tribute bands, train coffee (usually The Daily Grind, Main St; might try Brew-tiful Day, Elm St), YouTube artist survival.\n• Wishes Gaza conflict would end.\n• Wrote 1st short story \"The Quantum Prophecy\" (wants sci-fi recs); restarting poetry ~3 wks ago (experimenting w/ forms).\n• Often anxious in horror movies even w/o jump scares/gore.\n• Will try Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening; considering agility-ladder drills in plyo; wants land-ownership spreadsheet.\n• Really picky client's feedback drove important product changes (frustrating in moment; best to heed criticisms).\n- I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "CHANGED",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "SAME"
+        },
+        "restored": [
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Prefers upper berth/overnight trains; loves discovering new fashion icons (asks which brand will dominate next few yrs).\n- Asked re: Hydor vs Eheim/Fluval filters; Birkenstock/Moosejaw Thermoball/early-20th-c. Kodak-Graflex care & values; Sapiens-like audiobooks; Queen tributes; train coffee (usually The Daily Grind, Main St; might try Brew-tiful Day, Elm St); YouTube artist survival.\n- Wishes Gaza conflict ended.\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs.\n- Restarted poetry ~3 wks ago, experimenting with forms.\n- Often anxious in horror movies even without jump scares/gore.\n- Will try Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility-ladder drills in plyo.\n- Wants land-ownership spreadsheet.\n- Really picky client's feedback drove important product changes (frustrating in moment; best to heed criticisms).",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "SAME",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Prefers upper berth/overnight trains; loves discovering new fashion icons (asks which brand will dominate next few yrs).\n- Asked re: Hydor vs Eheim/Fluval filters; Birkenstock/Moosejaw Thermoball/early-20th-c. Kodak-Graflex care & values.\n- Enjoys Sapiens-like audiobooks, Queen tributes, train coffee (usually The Daily Grind, Main St; might try Brew-tiful Day, Elm St), YouTube artist survival.\n- Wishes Gaza conflict ended.\n- Wrote 1st short story \"The Quantum Prophecy\" (wants sci-fi recs); restarted poetry ~3 wks ago, experimenting with forms.\n- Often anxious in horror movies even w/o jump scares/gore.\n- Will try Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility-ladder drills in plyo; wants land-ownership spreadsheet.\n- A really picky client's feedback drove important product changes (frustrating in moment; best to heed criticisms).",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "SAME",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Prefers upper-berth trains; loves discovering new fashion icons.\n- Enjoys Sapiens-like audiobooks, Queen tributes, train coffee (usually The Daily Grind, Main St; might try Brew-tiful Day, Elm St).\n- Interested in aquarium filters (Hydor vs Eheim/Fluval) and vintage-item care (Birkenstock/Moosejaw Thermoball/early-20th-c. Kodak-Graflex).\n- Wishes Gaza conflict ended.\n- Often anxious in horror movies even without jump scares/gore.\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 weeks ago, experimenting with forms.\n- Trying Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility-ladder drills in plyo.\n- Wants land-ownership spreadsheet.\n- A picky client's feedback drove important product changes (frustrating in moment; best to heed).\n- I prefer the upper berth on overnight trains.",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "CHANGED",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "SAME",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "SAME"
+        },
+        "restored": [
+          "I prefer the upper berth on overnight trains."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Prefers upper berth on overnight trains; loves discovering new fashion icons; enjoys Sapiens-like audiobooks, Queen tributes, train coffee (usually The Daily Grind, Main St; might try Brew-tiful Day, Elm St)\n- Interested in aquarium filters (Hydor vs Eheim/Fluval) and vintage-item care (Birkenstock/Moosejaw Thermoball/early-20th-c. Kodak-Graflex)\n- Wishes Gaza conflict ended; often anxious in horror movies even without jump scares/gore\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 weeks ago, experimenting with forms\n- Trying Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility-ladder drills in plyo\n- Wants land-ownership spreadsheet\n- Learned a picky client's feedback drove important product changes—frustrating in moment, best to heed\n- While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "SAME",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "CHANGED"
+        },
+        "restored": [
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Prefers upper-berth overnight trains; loves discovering new fashion icons; enjoys Sapiens-like audiobooks, Queen tributes, train coffee (usually The Daily Grind, Main St; might try Brew-tiful Day, Elm St).\n- Interested in aquarium filters (Hydor vs Eheim/Fluval) & vintage-item care (Birkenstock/Moosejaw Thermoball/early-20th-c. Kodak-Graflex).\n- Wishes Gaza conflict ended.\n- Often anxious in horror movies even without jump scares/gore; asks if camera angles play a role.\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 wks ago, experimenting with forms.\n- Trying Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility-ladder drills in plyo.\n- Wants land-ownership spreadsheet.\n- Learned a picky client's feedback drove important product changes—frustrating in moment, best to heed.",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "SAME",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Prefers upper-berth overnight trains; into fashion icons, Sapiens-like audiobooks, Queen tributes.\n- Train coffee: usually The Daily Grind (Main St); might try Brew-tiful Day (Elm St).\n- Interested in aquarium filters (Hydor vs Eheim/Fluval) & vintage care (Birkenstock, Moosejaw Thermoball, early-20th-c. Kodak-Graflex).\n- Wishes Gaza conflict ended.\n- Anxious in horror movies even without jump scares/gore; wonders if camera angles play a role.\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 wks ago experimenting with forms.\n- Fitness: trying Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility-ladder drills.\n- Wants land-ownership spreadsheet.\n- Learned a picky client's feedback drove important product changes—frustrating in moment, best to heed.\n- I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?\n- While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "CHANGED",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "CHANGED"
+        },
+        "restored": [
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Prefers upper-berth overnight trains; coffee: usually Daily Grind, might try Brew-tiful Day\n- Interests: fashion icons, Sapiens-like audiobooks, Queen tributes, aquarium filters (Hydor vs Eheim/Fluval), vintage care (Birkenstock, Moosejaw Thermoball, early-20th-c. Kodak-Graflex)\n- Wishes Gaza conflict ended\n- Anxious in horror movies even without jump scares/gore (wonders if camera angles play a role)\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 wks ago, experimenting with forms\n- Fitness: trying Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility-ladder drills\n- Wants land-ownership spreadsheet\n- Learned picky client's feedback drove important product changes (frustrating in moment, best to heed)\n- Loves discovering new fashion icons; asks which brand will dominate the industry next few years\n- While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "SAME",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "CHANGED"
+        },
+        "restored": [
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Prefers upper-berth overnight trains; coffee: usually Daily Grind, might try Brew-tiful Day.\n- Interests: fashion icons (loves discovering new ones; asks which brand will dominate next few years), Sapiens-like audiobooks, Queen tributes, aquarium filters (Hydor vs Eheim/Fluval), vintage care (Birkenstock, Moosejaw Thermoball, early-20th-c. Kodak-Graflex).\n- Wishes Gaza conflict ended.\n- Anxious in horror films even without jump scares/gore; wonders if camera angles matter.\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 wks ago, experimenting with forms.\n- Fitness: trying Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility-ladder drills.\n- Wants land-ownership spreadsheet.\n- Learned picky client's feedback drove important product changes (frustrating in moment, best to heed).\n- While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "SAME",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "CHANGED"
+        },
+        "restored": [
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Prefers upper-berth overnight trains; coffee usually Daily Grind, might try Brew-tiful Day.\n- Interests: new fashion icons (which brand will dominate next few yrs), Sapiens-like audiobooks, Queen tributes, aquarium filters (Hydor vs Eheim/Fluval), vintage care (Birkenstock, Moosejaw Thermoball, early-20th-c. Kodak-Graflex).\n- Wishes Gaza conflict ended.\n- Anxious in horror films even without jump scares/gore; wonders if camera angles matter.\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 wks ago, experimenting with forms.\n- Fitness: trying Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility-ladder drills.\n- Wants land-ownership spreadsheet.\n- Learned picky client's feedback drove important product changes (frustrating in moment, best to heed).\n- I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?\n- While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "CHANGED",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "CHANGED"
+        },
+        "restored": [
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "• Prefers upper-berth trains; drinks Daily Grind coffee (might try Brew-tiful Day).\n• Interests: dominant fashion brand next few yrs, Sapiens-like audiobooks, Queen tributes, aquarium filters (Hydor vs Eheim/Fluval), vintage care (Birkenstock, Moosejaw Thermoball, early-20th-c. Kodak-Graflex).\n• Wishes Gaza conflict ended.\n• Anxious in horror films even without jump scares/gore; wonders if camera angles matter.\n• Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 wks ago, experimenting with forms.\n• Fitness: Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility drills.\n• Wants a land-ownership spreadsheet.\n• Learned a picky client's feedback drove important product changes (frustrating in moment, best to heed).\n• Loves discovering new fashion icons.\n- I prefer the upper berth on overnight trains.\n- While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "CHANGED",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "SAME",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "CHANGED"
+        },
+        "restored": [
+          "I prefer the upper berth on overnight trains.",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Prefers upper-berth trains; drinks Daily Grind coffee (might try Brew-tiful Day).\n- Loves discovering new fashion icons; wants to know dominant fashion brand next few yrs.\n- Interests: Sapiens-like audiobooks, Queen tributes, aquarium filters (Hydor vs Eheim/Fluval), vintage care (Birkenstock, Moosejaw Thermoball, early-20th-c. Kodak-Graflex).\n- Wishes Gaza conflict ended.\n- Often anxious in horror films even without jump scares/gore (wonders if camera angles matter).\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 wks ago, experimenting with forms.\n- Fitness: Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility drills.\n- Wants a land-ownership spreadsheet.\n- Learned a picky client's feedback drove important product changes (frustrating in moment, best to heed).\n- I prefer the upper berth on overnight trains.",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "CHANGED",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "SAME",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "SAME"
+        },
+        "restored": [
+          "I prefer the upper berth on overnight trains."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Prefers upper-berth overnight trains; drinks Daily Grind (might try Brew-tiful Day).\n- Loves discovering new fashion icons; wants dominant brand next few yrs.\n- Interests: Sapiens-like audiobooks, Queen tributes, aquarium filters (Hydor vs Eheim/Fluval), vintage care (Birkenstock, Moosejaw Thermoball, early-20th-c. Kodak-Graflex).\n- Wishes Gaza conflict ended.\n- Anxious in horror films even w/o jump scares/gore; wonders if camera angles matter.\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 wks ago, experimenting with forms.\n- Fitness: Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility drills.\n- Wants land-ownership spreadsheet.\n- Learned picky client's feedback drove important product changes (frustrating in moment, best to heed).\n- While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "SAME",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "CHANGED"
+        },
+        "restored": [
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Prefers upper-berth overnight trains; drinks Daily Grind (might try Brew-tiful Day).\n- Interests: Sapiens-like audiobooks, Queen tributes, aquarium filters (Hydor vs Eheim/Fluval), vintage care (Birkenstock, Moosejaw Thermoball, early-20th-c. Kodak-Graflex), fashion icons (wants dominant brand next few yrs); wishes Gaza conflict ended.\n- Anxious in horror films even w/o jump scares/gore; wonders if camera angles matter.\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 wks ago, experimenting with forms.\n- Fitness: Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility drills.\n- Wants land-ownership spreadsheet.\n- Learned picky client's feedback drove important product changes (frustrating in moment, best to heed).\n- I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?\n- While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "CHANGED",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "CHANGED"
+        },
+        "restored": [
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Prefers upper-berth overnight trains; drinks Daily Grind (might try Brew-tiful Day).\n- Interests: Sapiens-like audiobooks, Queen tributes, aquarium filters (Hydor vs Eheim/Fluval), vintage care (Birkenstock, Moosejaw Thermoball, early-20th-c. Kodak-Graflex).\n- Loves discovering fashion icons; asks which brand will dominate next few yrs.\n- Wishes Gaza conflict ended.\n- Often anxious in horror films even without jump scares/gore; wonders if camera angles matter.\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 wks ago, experimenting with forms.\n- Fitness: Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility drills.\n- Wants land-ownership spreadsheet.\n- Learned picky client feedback drove important product changes (frustrating in moment, best to heed).\n- I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "CHANGED",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "SAME"
+        },
+        "restored": [
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Prefers upper-berth overnight trains; drinks Daily Grind (might try Brew-tiful Day).\n- Interests: Sapiens-like audiobooks, Queen tributes, aquarium filters (Hydor vs. Eheim/Fluval), vintage care (Birkenstock, Moosejaw Thermoball, early-20th-c. Kodak-Graflex).\n- Loves discovering fashion icons; asks which brand will dominate next few years.\n- Wishes Gaza conflict ended.\n- Often anxious in horror films even without jump scares/gore (wonders if camera angles matter).\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 wks ago, experimenting with forms.\n- Fitness: Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility drills.\n- Wants land-ownership spreadsheet.\n- Learned picky client feedback drove important product changes (frustrating in moment, best to heed).",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "SAME",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Prefers upper-berth overnight trains; drinks Daily Grind (might try Brew-tiful Day).\n- Interests: Sapiens-like audiobooks, Queen tributes, aquarium filters (Hydor vs. Eheim/Fluval), vintage care (Birkenstock, Moosejaw Thermoball, early-20th-c. Kodak-Graflex), fashion icons (asks which brand will dominate next few years).\n- Wishes Gaza conflict ended.\n- Often anxious in horror films even without jump scares/gore; wonders if camera angles matter.\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs; restarted poetry ~3 wks ago, experimenting with forms.\n- Fitness: Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility drills.\n- Wants land-ownership spreadsheet.\n- Learned picky client feedback drove important product changes (frustrating in moment, best to heed).\n- I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "CHANGED",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "SAME"
+        },
+        "restored": [
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?"
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Prefers upper-berth overnight trains; drinks Daily Grind (might try Brew-tiful Day)\n- Interests: Sapiens-like audiobooks, Queen tributes, aquarium filters (Hydor vs. Eheim/Fluval), vintage care (Birkenstock, Moosejaw Thermoball, early-20th-c. Kodak-Graflex)\n- Loves discovering new fashion icons; repeatedly asks which brand will dominate next few years; thanks for shared names\n- Wishes Gaza conflict ended\n- Often anxious in horror films even without jump scares/gore; wonders if camera angles matter\n- Wrote 1st short story \"The Quantum Prophecy\"; wants sci-fi recs\n- Restarted poetry ~3 wks ago, experimenting with forms\n- Fitness: Lululemon Align Tank, Athleta Salutation Tight, tackling bags, strengthening, maybe agility drills\n- Wants land-ownership spreadsheet\n- Learned picky client feedback drove important product changes (frustrating in moment, best to heed)\n- I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?",
+      "avr": {
+        "verdicts": {
+          "I prefer the upper berth on overnight trains.": "SAME",
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?": "CHANGED",
+          "While watching horror movies, I often find myself getting anxious even during scenes with no jump scares or gore. Do camera angles play a role in this too?": "SAME"
+        },
+        "restored": [
+          "I love discovering new fashion icons, thanks for sharing those names with me! Which brand do you think will dominate the fashion industry in the next few years?"
+        ]
+      }
+    }
+  ]
+}

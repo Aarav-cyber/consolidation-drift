@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_030",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.028664+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am fairly confident my name is on the admission list."
+    },
+    {
+      "round": 1,
+      "memory": "- Fairly confident (but not certain) that their name is on the admission list."
+    },
+    {
+      "round": 2,
+      "memory": "- Fairly confident, but not certain, that their name is on the admission list."
+    },
+    {
+      "round": 3,
+      "memory": "- They are fairly confident, though not certain, that their name appears on the admission list."
+    },
+    {
+      "round": 4,
+      "memory": "- They are fairly confident, though not certain, that their name is on the admission list."
+    },
+    {
+      "round": 5,
+      "memory": "- Fairly confident, though not certain, that their name is on the admission list."
+    },
+    {
+      "round": 6,
+      "memory": "- The speaker is fairly confident, though not certain, that their name is on the admission list."
+    },
+    {
+      "round": 7,
+      "memory": "- The speaker is fairly confident, though not certain, that their name is on the admission list."
+    },
+    {
+      "round": 8,
+      "memory": "- The speaker is fairly confident, but not certain, that their name is on the admission list."
+    },
+    {
+      "round": 9,
+      "memory": "- Fairly confident, but not certain, that their name is on the admission list."
+    },
+    {
+      "round": 10,
+      "memory": "- Fairly confident, but not certain, that their name is on the admission list."
+    },
+    {
+      "round": 11,
+      "memory": "- They are fairly confident, but not certain, that their name is on the admission list."
+    },
+    {
+      "round": 12,
+      "memory": "- Fairly confident, though not certain, that their name is on the admission list."
+    },
+    {
+      "round": 13,
+      "memory": "- Fairly confident, but not certain, that their name is on the admission list."
+    },
+    {
+      "round": 14,
+      "memory": "- Fairly confident, though not certain, that their name is on the admission list."
+    },
+    {
+      "round": 15,
+      "memory": "- Fairly confident, though not certain, that their name is on the admission list."
+    },
+    {
+      "round": 16,
+      "memory": "- Fairly confident, but not certain, that their name is on the admission list."
+    },
+    {
+      "round": 17,
+      "memory": "- Fairly confident, but not certain, that their name is on the admission list."
+    },
+    {
+      "round": 18,
+      "memory": "- Fairly confident, though not certain, that their name is on the admission list."
+    },
+    {
+      "round": 19,
+      "memory": "- Fairly confident, but not certain, that their name is on the admission list."
+    },
+    {
+      "round": 20,
+      "memory": "- They are fairly confident, but not certain, that their name is on the admission list."
+    }
+  ]
+}

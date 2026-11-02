@@ -1,0 +1,336 @@
+{
+  "item_id": "pref_033",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.029752+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I strongly prefer the local train over the bus for my daily commute.\nUser: I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!\nUser: Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.\nUser: It's scary to think about how much power the Soviet government had under Stalin. Did anyone ever manage to escape from the Gulag system?\nUser: How do government agencies address socio-economic disparities, such as income inequality and access to resources?\nUser: Write the goals, features, use cases, flows and actions for the specific task screen where I mange the task and start the annotation from there\nUser: Can you tell me more about the Frightfully Fun Parade? I've never seen it before, and I'd love to know what to expect.\nUser: Can you provide more information about the accommodation and meal arrangements for these retreats? I'd like to know what to expect in terms of food, lodging, and daily routine.\nUser: make one from \"SHIVERS\"\nUser: I'm going to buy a gift card to her favorite coffee shop to go along with the keychain, so she can treat herself to a celebratory coffee.\nUser: That's really interesting. I had no idea that the musical traditions developed during slavery had such a huge impact on American music. Do you have any recommendations for where I could learn more about this history?\nUser: put each week on a seperate line of text\nUser: That sounds like a great approach! I'm curious, have you thought about including any new songs from artists you've recently discovered, like Tame Impala, or maybe some other psychedelic rock or indie electronic tracks to complement the vibe?\nUser: I'd like to ask about a specific aspect of feature engineering. Can you tell me more about how to create technical indicators from financial data, such as Moving Averages and RSI?\nUser: write a guitar tablature for hotel california guitar solo\nUser: I used to live in San Francisco, so I know how amazing the coffee scene is there. I actually worked as a marketing specialist at a startup before quitting my job and moving back to Chicago. Do you have any recommendations for outdoor activities or walking spots in SF?\nUser: What can other cities and regions learn from Chennai's successful economic transformation, and how can these lessons be applied in different contexts?\nUser: It's interesting to think about how much history can be shaped by economic and political factors. Do you think the same kind of decline could happen to modern empires?\nUser: Is the Kingdom of God real?\nUser: Did The Elected learn any new techniques, styles or strategies during collaborative projects with other musicians or artists?\nUser: So would badgers move to a different location if there's a drought?",
+      "anchors": [
+        "I strongly prefer the local train over the bus for my daily commute.",
+        "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!",
+        "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+        "make one from \"SHIVERS\""
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Strongly prefers local train over bus, Tarte aux Pommes; seeking beauty/fashion social-media ideas (record: 17 IG followers, single-day).\n- Ex-SF startup marketing specialist, now Chicago-based; calls SF coffee scene \"amazing.\"\n- Inquired: Stalin's Gulag escapes; socio-economic disparity solutions; task-annotation screen goals/features/flows; Frightfully Fun Parade; retreat lodging/meals/routine; making one from \"SHIVERS\"; coffee-shop gift-card/keychain gift; slavery-era music's impact on American music; weekly line formatting; adding psychedelic/indie electronic tracks (e.g., Tame Impala) to a \"great\" approach; financial indicators (Moving Averages, RSI); Hotel California guitar-solo tablature; SF outdoor/walking spots.\n- Asked whether other cities/regions could learn from Chennai's economic transformation; whether modern empires could face similar economic/political-driven declines; if Kingdom of God's real; whether The Elected learned new techniques/styles via collaborations; if badgers would relocate in drought.\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "SAME"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Strongly prefers local train over bus. Ex-SF startup marketing specialist, now Chicago-based; calls SF coffee \"amazing.\"\n- Seeking beauty/fashion social-media ideas (17 IG followers, single-day).\n- Pounded with a long list of diverse inquiries (Gulag escapes, socio-economic disparity, task-annotation screens, Frightfully Fun Parade, retreat logistics, \"SHIVERS\" remake, coffee-shop gift, slavery-era music, weekly line formatting, adding Tame Impala/psychedelic-indie tracks, Moving Averages/RSI, Hotel California guitar-solo tablature, SF walking spots, Chennai's transformation, empire declines, Kingdom of God, The Elected's collaborations, badger drought relocation).\n- Settled on Tarte aux Pommes first, citing love of apple desserts.\n- I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.\n- make one from \"SHIVERS\"",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "CHANGED",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+          "make one from \"SHIVERS\""
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Ex-SF startup marketing specialist, now Chicago-based.\n- Strongly prefers local train over bus.\n- Calls SF coffee \"amazing.\"\n- Seeking beauty/fashion social-media ideas; gained 17 IG followers in one day.\n- Sent a long, diverse list of unrelated questions at once.\n- Settled on Tarte aux Pommes first (loves apple desserts); wants to make a cake from \"SHIVERS.\"\n- I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.\n- make one from \"SHIVERS\"",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "CHANGED",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+          "make one from \"SHIVERS\""
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Ex-SF startup marketing specialist, now Chicago-based; strongly prefers local train over bus; calls SF coffee \"amazing.\"\n- Sent a long, diverse list of unrelated questions at once.\n- Seeking beauty/fashion social-media trend ideas; gained 17 IG followers in one record-breaking day last week.\n- Wants to make Tarte aux Pommes first (loves apple desserts) and a cake from \"SHIVERS.\"\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "SAME"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Ex-SF startup marketing specialist, now based in Chicago.\n- Strongly prefers local train over bus.\n- Describes SF coffee as \"amazing.\"\n- Sent a long, diverse list of unrelated questions.\n- Seeking beauty/fashion social-media trend ideas; gained 17 IG followers in one record-breaking day last week.\n- Wants to make Tarte aux Pommes first (loves apple desserts), plus a cake from \"SHIVERS.\"\n- I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.\n- make one from \"SHIVERS\"",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "CHANGED",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+          "make one from \"SHIVERS\""
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Ex-SF startup marketing specialist, now in Chicago; strongly prefers local train over bus; calls SF coffee \"amazing.\"\n- Sent a long list of unrelated questions; seeking beauty/fashion social-media trend ideas.\n- Gained 17 IG followers in a record-breaking day last week.\n- Wants to make Tarte aux Pommes first (loves apple desserts) plus a cake from \"SHIVERS.\"\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.\n- make one from \"SHIVERS\"",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "CHANGED"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+          "make one from \"SHIVERS\""
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "• Ex-SF startup marketing specialist, now in Chicago.\n• Strongly prefers local train over bus.\n• Calls SF coffee \"amazing.\"\n• Sent a long list of unrelated questions seeking beauty/fashion social-media trend ideas.\n• Gained 17 IG followers in a record-breaking day last week.\n• Wants Tarte aux Pommes first (loves apple desserts) plus a cake from \"SHIVERS.\"\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "SAME"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Ex-SF startup marketing specialist, now in Chicago.\n- Strongly prefers local train over bus.\n- Calls SF coffee \"amazing.\"\n- Sent a long list of unrelated beauty/fashion social-media trend questions.\n- Gained 17 IG followers on a record-breaking day last week.\n- Wants Tarte aux Pommes first (loves apple desserts), plus a cake from \"SHIVERS.\"\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "SAME"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Ex-SF startup marketing specialist, now in Chicago.\n- Strongly prefers local train over bus.\n- Calls SF coffee \"amazing.\"\n- Sent a long list of unrelated beauty/fashion social-media trend questions.\n- Gained 17 IG followers on a record-breaking day last week.\n- Wants Tarte aux Pommes first (loves apple desserts), plus a cake from \"SHIVERS.\"\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "SAME"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Ex-SF startup marketing specialist, now in Chicago.\n- Strongly prefers local train over bus.\n- Calls SF coffee \"amazing.\"\n- Sent a long list of unrelated beauty/fashion social-media trend questions.\n- Gained 17 IG followers on a record-breaking day last week.\n- Wants Tarte aux Pommes first (loves apple desserts), plus a cake from \"SHIVERS.\"\n- I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "CHANGED",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "SAME"
+        },
+        "restored": [
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Ex-SF startup marketing specialist, now in Chicago.\n- Strongly prefers local train over bus.\n- Calls SF coffee \"amazing.\"\n- Wants Tarte aux Pommes first (loves apple desserts), plus a cake from \"SHIVERS.\"\n- Seeking popular beauty/fashion social-media trend questions for new content ideas.\n- Notes a record-breaking day last week with 17 new IG followers.\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "SAME"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Ex-SF startup marketing specialist, now in Chicago.\n- Strongly prefers local train over bus; calls SF coffee \"amazing.\"\n- Loves apple desserts—wants Tarte aux Pommes first, plus a cake from \"SHIVERS.\"\n- Seeking popular beauty/fashion social-media trend questions for new content ideas.\n- Had a record-breaking day last week: 17 new IG followers.\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "SAME"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Ex-SF startup marketing specialist, now in Chicago.\n- Strongly prefers local train over bus.\n- Calls SF coffee \"amazing.\"\n- Loves apple desserts; wants Tarte aux Pommes first, plus cake from \"SHIVERS.\"\n- Seeking popular beauty/fashion social-media trend questions for new content.\n- Had a record-breaking 17 new IG followers last week.\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "SAME"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Ex-SF startup marketing specialist, now in Chicago.\n- Strongly prefers local train over bus.\n- Calls SF coffee \"amazing.\"\n- Loves apple desserts; wants Tarte aux Pommes first, plus cake from \"SHIVERS.\"\n- Seeking popular beauty/fashion social-media trend questions for new content.\n- Had a record-breaking 17 new IG followers last week.\n- I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "CHANGED",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "SAME"
+        },
+        "restored": [
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "• Ex-SF startup marketing specialist; now in Chicago.\n• Strongly prefers local train over bus.\n• Calls SF coffee \"amazing.\"\n• Loves apple desserts; wants Tarte aux Pommes first, plus cake from \"SHIVERS.\"\n• Seeking suggestions for popular beauty/fashion social-media trend content.\n• Had a record-breaking 17 new IG followers in one day last week.\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.\n- make one from \"SHIVERS\"",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "CHANGED"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+          "make one from \"SHIVERS\""
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Ex-SF startup marketing specialist, now in Chicago.\n- Strongly prefers local train over bus.\n- Calls SF coffee \"amazing.\"\n- Loves apple desserts; wants Tarte aux Pommes first, plus cake from \"SHIVERS.\"\n- Seeking suggestions for popular beauty/fashion social-media trend content.\n- Noted a record-breaking 17 new IG followers in one day last week.\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.\n- make one from \"SHIVERS\"",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "CHANGED"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+          "make one from \"SHIVERS\""
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Ex-SF startup marketing specialist, now in Chicago.\n- Strongly prefers local train over bus.\n- Calls SF coffee \"amazing.\"\n- Loves apple desserts; wants Tarte aux Pommes first, plus cake from \"SHIVERS.\"\n- Seeking suggestions for popular beauty/fashion social-media trend content.\n- Noted a record-breaking 17 new IG followers in one day last week.\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "SAME"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Ex-SF startup marketing specialist, now in Chicago.\n- Strongly prefers local train over bus.\n- Calls SF coffee \"amazing.\"\n- Loves apple desserts—wants Tarte aux Pommes first, plus cake from \"SHIVERS.\"\n- Seeking suggestions for popular beauty/fashion social-media trend content.\n- Noted a record-breaking 17 new IG followers in one day last week.\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.\n- make one from \"SHIVERS\"",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "CHANGED"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+          "make one from \"SHIVERS\""
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Ex-SF startup marketing specialist; now based in Chicago.\n- Strongly prefers local train over bus.\n- Describes SF coffee as \"amazing.\"\n- Loves apple desserts; wants Tarte aux Pommes first, plus cake from \"SHIVERS.\"\n- Seeking beauty/fashion social-media trend content suggestions.\n- Noted record-breaking 17 new IG followers in one day last week.\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "SAME"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Ex-SF startup marketing specialist, now in Chicago.\n- Strongly prefers local train over bus.\n- Calls SF coffee \"amazing.\"\n- Loves apple desserts; wants Tarte aux Pommes first, plus cake from \"SHIVERS.\"\n- Seeking beauty/fashion social-media trend content suggestions.\n- Noted a record-breaking 17 new IG followers in one day last week.\n- Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer the local train over the bus for my daily commute.": "SAME",
+          "I'm trying to come up with some new content ideas for my social media platforms. Can you suggest some popular beauty and fashion trends that I could create content around? By the way, I just had a record-breaking day on Instagram last week, gaining 17 new followers in one day!": "SAME",
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts.": "CHANGED",
+          "make one from \"SHIVERS\"": "SAME"
+        },
+        "restored": [
+          "Yum, I think I'll go for the Tarte aux Pommes first since I love apple desserts."
+        ]
+      }
+    }
+  ]
+}

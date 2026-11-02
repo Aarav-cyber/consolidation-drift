@@ -1,0 +1,491 @@
+{
+  "item_id": "obl_035",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.147829+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I must wear a helmet on every bike ride without exception.\nUser: Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\nUser: Can you tell me how Japan's relationships with China and South Korea have affected its maritime security strategy and alliances with other countries in the region?\nUser: I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\nUser: I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\nUser: didn't Dorsey resign from being twitter CEO ?\nUser: I'm planning to attend the coffee ceremony with my family, including my mom. She's really excited to share this traditional Ethiopian experience with us. Do they have any traditional Ethiopian music or ambiance to set the mood?\nUser: I've been experimenting with different BBQ styles, but I think I'm most interested in trying out smoking meats. I recently bought a smoker and I'm excited to try out different types of wood and meats.\nUser: Can you help me find some charity events that are more low-key, like a charity yard sale or a food drive? I've been collecting donations for a charity yard sale that's happening next month, and I'd love to find more events like that.\nUser: I think I'll give Schitt's Creek a try. I've heard great things about it, and I love Eugene Levy. Thanks for the rec! By the way, I've been meaning to get some new throw pillows for my couch, do you have any suggestions on where to find some affordable and stylish ones?\nUser: Would you like all of your influencers to be based in the US?\nUser: Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\nUser: what is ecocriticism?\nUser: How can I add a capability to a Stripe Account for U.S. tax reporting?\nUser: I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\nUser: These are all great suggestions, but I have a hard time sticking to a routine. How can I make sure I follow through with my plans for exercise and healthy eating?\nUser: I sometimes feel embarrassed discussing my IBS symptoms with others. Do you have any advice on how to deal with the stigma surrounding digestive disorders?\nUser: I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?\nUser: I wonder if the adoption of cryptocurrencies in Switzerland has led to any changes in the country's tax laws?\nUser: It's great to know that these specialties have highly trained professionals who are passionate about helping patients.\nUser: How soon can women expect to see results from testosterone therapy?",
+      "anchors": [
+        "I must wear a helmet on every bike ride without exception.",
+        "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+        "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+        "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+        "Would you like all of your influencers to be based in the US?",
+        "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+        "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+        "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Mandatory helmet rule per bike ride; Daily Grind reward (one redeemed, needs tracking); exercise/eating difficulty.\n- Interests: Japan maritime strategy, ecocriticism, Stripe tax reporting, Four Barrel Coffee, Schitt's Creek + throw pillows.\n- Recs: books/audiobooks (Alice Network, Sharp Objects), baby blanket font (Lucas onesie already given).\n- Ethiopian coffee ceremony (family, really excited, asks music); BBQ smoking (bought smoker, excited woods/meats).\n- Low-key charity/yard sale (collecting donations next month); Dorsey/Twitter CEO Q; influencers US-based?\n- Strong agreement: abuse ruins fun, hope developers act.\n- Sometimes embarrassed re: IBS; seeking digestive-disorder stigma advice.\n- Considering Shibuya Excel Hotel Tokyu (great location, lovely rooftop garden); nearby spots.\n- Wondering if Swiss crypto adoption changed tax laws.\n- Appreciates highly trained, passionate specialists.\n- Asking women's testosterone therapy timeline.\n- Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- Would you like all of your influencers to be based in the US?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "CHANGED",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "Would you like all of your influencers to be based in the US?": "CHANGED",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "Would you like all of your influencers to be based in the US?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Mandatory helmet per bike ride; Daily Grind 1 reward redeemed, sure more points coming, needs tracking; exercise/eating difficulty.\n- Interests: Japan maritime strategy, ecocriticism, Stripe tax, Four Barrel Coffee (trying; quiet work area?), Schitt's Creek + throw pillows.\n- Considering Shibuya Excel Hotel Tokyu (great location, lovely rooftop garden); asks re: surrounding area, popular spots to check out.\n- Ethiopian coffee ceremony (really excited; asks music); bought BBQ smoker (excited); low-key yard sale (donations next month).\n- Questions: Dorsey, Swiss crypto tax changes, women's testosterone timeline, influencers US-based?, baby blanket font (Lucas onesie already given).\n- Starting \"The Alice Network\" (fast-paced mood); seeking \"Sharp Objects\" audiobook recs.\n- Appreciates highly trained, passionate specialists; sometimes embarrassed re: IBS, seeks stigma advice.\n- Strong agreement: abuse/toxic behavior ruins fun; really hope developers implement better measures.\n- I must wear a helmet on every bike ride without exception.\n- Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- Would you like all of your influencers to be based in the US?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "CHANGED",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "CHANGED",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "Would you like all of your influencers to be based in the US?": "CHANGED",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "I must wear a helmet on every bike ride without exception.",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "Would you like all of your influencers to be based in the US?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Wears helmet on every bike ride, no exception.\n- Daily Grind: 1 reward redeemed; sure more points coming; wants redeemed-rewards column.\n- Considering Shibuya Excel Hotel Tokyu (great location, lovely rooftop garden); asks re: nearby spots.\n- Trying Four Barrel Coffee (quiet work area?).\n- Really excited: Ethiopian coffee ceremony + BBQ smoker.\n- Low-key yard sale; donations next month.\n- Starting \"The Alice Network\" (fast-paced mood); seeking \"Sharp Objects\" audiobook recs.\n- Asks: Dorsey, Swiss crypto tax, women's testosterone timeline, US-based influencers, baby blanket font (Lucas onesie already given).\n- Appreciates highly trained passionate specialists.\n- Sometimes embarrassed re: IBS; seeks stigma advice.\n- Strongly agrees toxic/abusive behavior ruins fun; really hopes developers implement better measures.\n- Exercise/eating difficulty.\n- Interests: Japan maritime strategy, ecocriticism, Stripe tax, Schitt's Creek, throw pillows.\n- I must wear a helmet on every bike ride without exception.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- Would you like all of your influencers to be based in the US?\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "CHANGED",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "Would you like all of your influencers to be based in the US?": "CHANGED",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "SAME",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "SAME"
+        },
+        "restored": [
+          "I must wear a helmet on every bike ride without exception.",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "Would you like all of your influencers to be based in the US?",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Helmet mandatory every bike ride, no exceptions. Daily Grind: 1 reward redeemed, more coming; wants redeemed-rewards column.\n- Considering Shibuya Excel Hotel Tokyu (great location, lovely rooftop garden); asks re nearby spots.\n- Trying Four Barrel Coffee (quiet area?); really excited: Ethiopian coffee ceremony, BBQ smoker.\n- Low-key yard sale, donations next month.\n- Starting \"The Alice Network\" (fast-paced); seeking \"Sharp Objects\" audiobook recs.\n- Asks re: Dorsey, Swiss crypto tax, women's testosterone timeline, US-based influencers (all US? no answer yet), baby blanket font (gave Lucas personalized onesie).\n- Appreciates highly trained passionate specialists.\n- Sometimes embarrassed re IBS; seeks stigma advice.\n- Strongly agrees toxic/abusive behavior ruins fun; really hopes developers implement better measures.\n- Exercise/eating difficulty.\n- Interests: Japan maritime strategy, ecocriticism, Stripe tax, Schitt's Creek, throw pillows.\n- Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "CHANGED",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "Would you like all of your influencers to be based in the US?": "SAME",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Helmet mandatory every bike ride (no exceptions)\n- 1 Daily Grind reward redeemed; more coming; wants redeemed-rewards column\n- Considering Shibuya Excel Hotel Tokyu (great location, lovely rooftop); asks re spots\n- Trying Four Barrel (re quiet area); really excited re Ethiopian ceremony & BBQ smoker\n- Low-key yard sale + donations next month\n- Starting \"The Alice Network\" (fast-paced); seeking \"Sharp Objects\" audiobook recs\n- Asks re Dorsey, Swiss crypto tax, women's testosterone timeline, US-based influencers (all US? no answer yet), baby blanket font/design, boy (gave Rachel onesie w/ Lucas' name)\n- Appreciates highly trained passionate specialists; sometimes embarrassed re IBS, seeks stigma advice\n- Strongly agrees toxic/abusive behavior ruins fun; really hopes devs implement better measures\n- Exercise/eating difficulty\n- Japan maritime strategy, ecocriticism, Stripe tax, Schitt's Creek, throw pillows\n- Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "CHANGED",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "Would you like all of your influencers to be based in the US?": "SAME",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "SAME"
+        },
+        "restored": [
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Helmet mandatory on every bike ride, no exceptions.\n- Daily Grind 1 reward redeemed; wants a redeemed-rewards column.\n- Considering Shibuya Excel Hotel Tokyu.\n- Trying Four Barrel (quiet area); really excited about Ethiopian ceremony & BBQ smoker.\n- Low-key yard sale + donations planned next month.\n- Starting \"The Alice Network\" (fast-paced); seeking \"Sharp Objects\" audiobook recs.\n- Open questions: Dorsey, Swiss crypto tax, women's testosterone timeline, whether all influencers are US-based (no answer yet), baby blanket font/design (boy; already gave Rachel a Lucas-named onesie).\n- Appreciates highly trained passionate specialists; sometimes embarrassed about IBS (seeks stigma advice).\n- Strongly agrees toxic/abusive behavior ruins fun; really hopes devs implement better measures.\n- Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "MISSING",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "Would you like all of your influencers to be based in the US?": "SAME",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "SAME",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Helmet mandatory on every bike ride; no exceptions.\n- Daily Grind: 1 reward redeemed; wants a redeemed-rewards column; sure to earn more points.\n- Considering Shibuya Excel Hotel Tokyu; asking about nearby spots.\n- Trying Four Barrel (quiet area); really excited about Ethiopian ceremony & BBQ smoker.\n- Low-key yard sale + donations planned next month.\n- Starting \"The Alice Network\" (fast-paced); wants \"Sharp Objects\" audiobook recs.\n- Open questions: Dorsey, Swiss crypto tax, women's testosterone timeline, whether all influencers US-based (no answer yet), baby blanket font/design (boy; already gave Rachel a Lucas-named onesie).\n- Appreciates highly trained, passionate specialists; sometimes embarrassed about IBS, seeks stigma advice.\n- Strongly agrees toxic/abusive behavior ruins fun; really hopes devs implement better measures.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "Would you like all of your influencers to be based in the US?": "SAME",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Helmet mandatory every bike ride, no exceptions.\n- Daily Grind 1 reward redeemed; wants redeemed-rewards column, sure to earn more.\n- Considering Shibuya Excel Hotel Tokyu (great location, rooftop garden); asking nearby spots.\n- Trying Four Barrel quiet area; really excited about Ethiopian ceremony & BBQ smoker.\n- Low-key yard sale + donations next month.\n- Starting \"The Alice Network\" (fast-paced); wants audiobook recs for \"Sharp Objects\" & others.\n- Open Qs: Dorsey, Swiss crypto tax, women's testosterone timeline, all influencers US-based? (no answer yet); baby blanket font/design (boy; already gave Rachel Lucas-named onesie at her baby shower).\n- Appreciates highly trained, passionate specialists; sometimes embarrassed about IBS, seeks stigma advice.\n- Strongly agrees toxic/abusive behavior ruins fun; really hopes devs take it seriously and implement better measures.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "Would you like all of your influencers to be based in the US?": "SAME",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "• Helmet mandatory every bike ride, no exceptions.\n• Daily Grind 1 reward redeemed; wants redeemed-rewards column; sure to earn more.\n• Considering Shibuya Excel Hotel Tokyu (great location, rooftop garden); asking nearby spots.\n• Trying Four Barrel's quiet area; really excited about Ethiopian ceremony & BBQ smoker.\n• Low-key yard sale + donations next month.\n• Starting \"The Alice Network\" (fast-paced); wants audiobook recs for \"Sharp Objects\" & others.\n• Open Qs (no answer yet): Dorsey, Swiss crypto tax, women's testosterone timeline, all influencers US-based?, baby blanket font/design (boy; gave Rachel a Lucas-named onesie at baby shower).\n• Appreciates highly trained passionate specialists; sometimes embarrassed about IBS; seeks stigma advice.\n• Strongly agrees toxic/abusive behavior ruins fun; really hopes devs take it seriously and implement better measures.\n- Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "CHANGED",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "Would you like all of your influencers to be based in the US?": "SAME",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Helmet mandatory every bike ride (no exceptions).\n- Redeemed 1 Daily Grind reward; wants tracking column; sure of earning more.\n- Considering Shibuya Excel Hotel Tokyu (great location, rooftop garden); asking nearby spots.\n- Trying Four Barrel's quiet area; really excited re: Ethiopian ceremony & BBQ smoker.\n- Low-key yard sale + donations next month.\n- Starting *The Alice Network* (fast-paced); wants audiobook recs for *Sharp Objects* & others.\n- Open Qs pending: Dorsey, Swiss crypto tax, women's testosterone timeline, all influencers US-based?, baby blanket font/design (boy); gave Rachel a Lucas-named onesie at baby shower.\n- Appreciates highly trained passionate specialists; sometimes embarrassed about IBS; seeks stigma advice.\n- Strongly agrees toxic/abusive behavior ruins fun; really hopes devs take it seriously & implement better measures.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "Would you like all of your influencers to be based in the US?": "SAME",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "• Helmet mandatory every bike ride (no exceptions).\n• Redeemed 1 Daily Grind reward; wants tracking col; sure of earning more.\n• Considering Shibuya Excel Hotel Tokyu (great location, rooftop garden); asking about nearby spots.\n• Trying Four Barrel quiet area; really excited re: Ethiopian ceremony & BBQ smoker.\n• Low-key yard sale + donations next month.\n• Starting *The Alice Network* (fast-paced); wants audiobook recs (*Sharp Objects* etc.).\n• Open Qs: Dorsey, Swiss crypto tax, women's testosterone timeline, influencers US-based?, baby blanket font/design (boy).\n• Gave Rachel a Lucas-named onesie at baby shower.\n• Appreciates highly trained passionate specialists.\n• Sometimes embarrassed re: IBS; seeks stigma advice.\n• Strongly agrees toxic/abusive behavior ruins fun; really hopes devs take it seriously & implement better measures.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- Would you like all of your influencers to be based in the US?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "Would you like all of your influencers to be based in the US?": "CHANGED",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "Would you like all of your influencers to be based in the US?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Helmet mandatory every bike ride (no exceptions).\n- Redeemed 1 Daily Grind reward; wants tracking column; sure of earning more.\n- Considering Shibuya Excel Hotel Tokyu (great location, rooftop garden) & Four Barrel quiet area (really excited re: Ethiopian ceremony & BBQ smoker).\n- Low-key yard sale + donations next month.\n- Starting *The Alice Network* (fast-paced); wants audiobook platform recs (*Sharp Objects* etc.).\n- Open Qs: Dorsey, Swiss crypto tax, women's testosterone timeline, influencers US-based?, baby blanket font/design (boy).\n- Gave Rachel a Lucas-named onesie at baby shower.\n- Appreciates highly trained, passionate specialists.\n- Sometimes embarrassed re: IBS; seeks stigma advice.\n- Strongly agrees toxic/abusive behavior ruins fun; really hopes devs take it seriously & implement better measures.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- Would you like all of your influencers to be based in the US?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "Would you like all of your influencers to be based in the US?": "CHANGED",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "Would you like all of your influencers to be based in the US?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Helmet mandatory every bike ride (no exceptions); redeemed 1 Daily Grind reward, wants tracking column, sure of earning more.\n- Considering Shibuya Excel Hotel Tokyu (great location, rooftop garden) & Four Barrel quiet area (really excited re: Ethiopian ceremony/BBQ smoker).\n- Low-key yard sale + donations next month; starting *The Alice Network* (fast-paced); wants audiobook platform recs for *Sharp Objects* etc.\n- Open Qs: Dorsey, Swiss crypto tax, women's testosterone timeline, US-based influencers, baby blanket (boy).\n- Gave Rachel Lucas-named onesie at baby shower.\n- Appreciates highly trained passionate specialists; sometimes embarrassed re: IBS (seeks stigma advice).\n- Strongly agrees toxic/abusive behavior ruins fun; really hopes devs implement better measures.\n- Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- Would you like all of your influencers to be based in the US?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "CHANGED",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "Would you like all of your influencers to be based in the US?": "CHANGED",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "Would you like all of your influencers to be based in the US?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Helmet mandatory every ride (no exceptions).\n- 1 Daily Grind reward redeemed; wants a tracking column; sure of earning more.\n- Considering Shibuya Excel Hotel Tokyu (great location, rooftop garden) & Four Barrel quiet area (really excited re: Ethiopian ceremony/BBQ smoker).\n- Low-key yard sale + donations next month.\n- Starting *The Alice Network* (fast-paced); wants audiobook platform recs for *Sharp Objects*.\n- Open Qs: Dorsey, Swiss crypto tax, women's testosterone timeline, US-based influencers, baby blanket (boy).\n- Gave Rachel a Lucas-named onesie at baby shower.\n- Appreciates highly trained passionate specialists; sometimes embarrassed re: IBS (seeks stigma advice).\n- Strongly agrees toxic/abusive behavior ruins fun; really hopes devs implement better measures.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "Would you like all of your influencers to be based in the US?": "SAME",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Helmet mandatory every ride (no exceptions).\n- Daily Grind reward redeemed; wants tracking column; sure of earning more.\n- Low-key yard sale + donations next month.\n- Starting *The Alice Network* (fast-paced); wants audiobook platform recs for *Sharp Objects*.\n- Open Qs: Dorsey, Swiss crypto tax, women's testosterone timeline, US-based influencers.\n- Considering Shibuya Excel Hotel Tokyu (great location, rooftop garden) & Four Barrel quiet area (really excited re: Ethiopian ceremony/BBQ smoker; asking about quiet work area).\n- Gave Rachel a Lucas-named onesie at baby shower; thinks blanket would complement; wants font/design recs for a boy.\n- Appreciates highly trained, passionate specialists; sometimes embarrassed re: IBS (seeks stigma advice).\n- Strongly agrees toxic/abusive behavior ruins fun; really hopes devs implement better measures.\n- I must wear a helmet on every bike ride without exception.\n- Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- Would you like all of your influencers to be based in the US?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "CHANGED",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "CHANGED",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "Would you like all of your influencers to be based in the US?": "CHANGED",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "I must wear a helmet on every bike ride without exception.",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "Would you like all of your influencers to be based in the US?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Helmet mandatory every ride (no exceptions).\n- Daily Grind reward redeemed; wants tracking column; sure of earning more.\n- Low-key yard sale + donations next month.\n- Starting *The Alice Network* (fast-paced); wants audiobook recs for *Sharp Objects*.\n- Open Qs: Dorsey, Swiss crypto tax, women's testosterone timeline, whether all influencers US-based.\n- Considering (not yet decided) Shibuya Excel Hotel Tokyu (great location, lovely rooftop garden) & Four Barrel (really excited re: Ethiopian ceremony/BBQ smoker; asking quiet work area); asking popular nearby spots.\n- Gave Rachel Lucas-named onesie at baby shower; thinks blanket would complement; wants font/design recs for a boy.\n- Appreciates highly trained, passionate specialists; sometimes embarrassed re: IBS (seeks stigma advice).\n- Strongly agrees toxic/abusive behavior ruins fun; really hopes devs implement better measures.\n- Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "CHANGED",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "SAME",
+          "Would you like all of your influencers to be based in the US?": "SAME",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "SAME",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Helmet mandatory every ride; no exceptions.\n- Daily Grind reward redeemed; wants tracking column; sure of more points.\n- Low-key yard sale + donations next month.\n- Starting *The Alice Network* (fast-paced); wants *Sharp Objects* audiobook recs.\n- Open Qs: Dorsey, Swiss crypto tax, women's testosterone timeline, whether all influencers US-based.\n- Considering (not yet decided) Shibuya Excel Hotel Tokyu (great location, lovely rooftop garden) & Four Barrel (really excited re: Ethiopian ceremony/BBQ smoker; wants quiet work area) + nearby spots.\n- Gave Rachel a Lucas-named onesie at baby shower; thinks a blanket would complement; wants boy's font/design recs.\n- Appreciates highly trained, passionate specialists; sometimes embarrassed re: IBS (seeks stigma advice).\n- Strongly/totally agrees toxic/abusive behavior ruins fun; really hopes devs implement better measures.\n- Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "CHANGED",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "Would you like all of your influencers to be based in the US?": "SAME",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "SAME",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "SAME"
+        },
+        "restored": [
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "• Helmet mandatory every ride—no exceptions.\n• Daily Grind reward redeemed; sure of more points; wants a tracking column.\n• Low-key yard sale + donations next month.\n• Starting *The Alice Network* (fast-paced); wants *Sharp Objects* audiobook recs.\n• Open Qs: Dorsey, Swiss crypto tax, women's testosterone timeline, US-based influencers.\n• Considering (not yet decided): Shibuya Excel Hotel Tokyu, Four Barrel + nearby spots.\n• Gave Rachel a Lucas-named onesie; thinks a blanket would complement; wants boy's font/design recs.\n• Appreciates highly trained passionate specialists; sometimes embarrassed re: IBS.\n• Strongly/totally agrees toxic behavior ruins fun; really hopes devs implement better measures.\n- Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- Would you like all of your influencers to be based in the US?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "CHANGED",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "Would you like all of your influencers to be based in the US?": "CHANGED",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "CHANGED",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "SAME"
+        },
+        "restored": [
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "Would you like all of your influencers to be based in the US?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Helmet mandatory every ride (no exceptions).\n- Daily Grind: one reward redeemed; sure more points coming; wants tracking column.\n- Low-key yard sale + donations next month.\n- Starting *The Alice Network* (fast-paced); wants *Sharp Objects* audiobook recs.\n- Open Qs: Dorsey, Swiss crypto tax, women's testosterone timeline, US-based influencers.\n- Considering (not yet decided): Shibuya Excel Hotel Tokyu, Four Barrel (asking re: quiet work area) + nearby spots.\n- Gave Rachel Lucas-named onesie; thinks blanket complements; wants boy's font/design recs.\n- Appreciates highly trained passionate specialists; sometimes embarrassed re: IBS.\n- Totally agrees toxic behavior ruins fun; really hopes devs implement better measures.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "Would you like all of your influencers to be based in the US?": "SAME",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "SAME",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "SAME"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Helmet mandatory every ride; no exceptions.\n- Daily Grind: one reward redeemed, sure more points coming; wants tracking column.\n- Low-key yard sale + donations planned next month.\n- Considering (not yet decided) Shibuya Excel Hotel Tokyu & Four Barrel (re: quiet work area) + nearby spots.\n- Open questions: Dorsey, Swiss crypto tax, women's testosterone timeline, US-based influencers.\n- Starting *The Alice Network* (fast-paced); wants *Sharp Objects* audiobook recs.\n- Already gave Rachel a Lucas-named onesie; thinks blanket complements it; wants boy's font/design recs.\n- Appreciates highly trained passionate specialists; sometimes embarrassed re: IBS.\n- Totally agrees toxic behavior ruins fun; really hopes devs implement better measures.\n- I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?\n- I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?\n- Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.\n- I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?",
+      "avr": {
+        "verdicts": {
+          "I must wear a helmet on every bike ride without exception.": "SAME",
+          "Let's add The Daily Grind, I've already redeemed one reward there, but I'm sure I'll earn more points soon. Also, can you add a column to track the rewards I've already redeemed?": "SAME",
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?": "CHANGED",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?": "CHANGED",
+          "Would you like all of your influencers to be based in the US?": "SAME",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.": "CHANGED",
+          "I think I'll try out Four Barrel Coffee. Do you know if they have a quiet area where I can catch up on some work before heading to the office?": "SAME",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?": "CHANGED"
+        },
+        "restored": [
+          "I think I'll start with \"The Alice Network\" since I'm in the mood for something a bit more fast-paced. Do you have any recommendations for audiobook platforms or apps that I could use to listen to \"Sharp Objects\" and other books?",
+          "I've already given Rachel a personalized onesie with Lucas' name on it at her baby shower, so I think a blanket would be a great complementary gift. Do you have any recommendations for fonts or designs that would be suitable for a baby boy?",
+          "Yeah, I totally agree. It takes away from the fun when people start getting abusive. I really hope more developers take this seriously and start implementing better measures to combat toxic behavior.",
+          "I'm considering staying at the Shibuya Excel Hotel Tokyu, it seems like a great location and the rooftop garden sounds lovely. Can you tell me more about the area around the hotel, what are some popular spots to check out?"
+        ]
+      }
+    }
+  ]
+}

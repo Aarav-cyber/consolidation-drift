@@ -1,0 +1,269 @@
+{
+  "item_id": "num_040",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.018095+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I have accumulated 240 days of earned leave.\nUser: I've been experimenting with different spice blends and I'm curious about the difference between garam masala and curry powder. Can you explain the difference and how I can use them in my recipes?\nUser: I think I'll go with the Lasagna option. I've made it before and it's always a crowd-pleaser. Do you have any tips on how to make it more efficient when serving a large group?\nUser: I'm thinking of experimenting with different spices in my vegan banana bread recipe. Do you have any suggestions for spices that would complement the banana flavor well?\nUser: It's frustrating that some people seem to base their opinions on emotions rather than facts. How do we encourage more people to see the importance of informed decision-making?\nUser: Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.\nUser: That's great to know! Have you been to any of these conventions?\nAgent: Best of luck in your volunteer work, and remember that even a small contribution can make a big difference in the lives of those affected by global crises.\nUser: That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.",
+      "anchors": [
+        "I have accumulated 240 days of earned leave.",
+        "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.",
+        "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with spice blends: curious about garam masala vs. curry powder, and spices for vegan banana bread.\n- Considering making Lasagna (described as \"always a crowd-pleaser\") for a large group.\n- Frustrated that some people base opinions on emotions rather than facts; asks how to encourage informed decision-making.\n- Asks about Cakebread Cellars (heard it's \"pretty popular too\") and conventions.\n- Wishes luck in volunteer work; notes even a small contribution can make a big difference re: global crises.\n- Maternal grandmother lived to 85, which user describes as \"above the average lifespan.\"\n- That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "CHANGED"
+        },
+        "restored": [
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with spice blends (garam masala vs. curry powder; spices for vegan banana bread).\n- Considering making Lasagna (\"always a crowd-pleaser\") for a large group.\n- Asks about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions rather than facts; asks how to encourage informed decision-making.\n- Wishes luck in volunteer work (notes a small contribution can make a big difference re: global crises).\n- Maternal grandmother lived to 85 (\"above the average lifespan\").\n- That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "CHANGED"
+        },
+        "restored": [
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Holds 240 days earned leave.\n- Experimenting with spice blends (garam masala vs. curry powder; spices for vegan banana bread).\n- Considering Lasagna (\"always a crowd-pleaser\") for a large group.\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions, not facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work, noting a small contribution can make a big difference re: global crises.\n- Maternal grandmother lived to 85, \"I guess\" above the average lifespan.",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Holds 240 days earned leave.\n- Cooking: experimenting with spice blends (garam masala vs. curry powder; vegan banana bread); considering Lasagna for a large group (\"always a crowd-pleaser\").\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions, not facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work; noted a small contribution can make a big difference re: global crises.\n- Maternal grandmother lived to 85, \"I guess\" above average lifespan.",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); considering Lasagna as \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated people base opinions on emotions not facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work; noted small contributions matter re: global crises.\n- Maternal grandmother lived to 85 — \"I guess\" above average.",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); considers Lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions not facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work; noted small contributions matter re: global crises.\n- Maternal grandmother lived to 85 — \"I guess\" above average.",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); considers Lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated people base opinions on emotions not facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work; noted small contributions matter re: global crises.\n- Maternal grandmother lived to 85 (\"I guess\" above average).",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); describes Lasagna as \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions not facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work; noted small contributions matter re: global crises.\n- Maternal grandmother lived to 85 (characterized as \"I guess\" above average).",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); calls Lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions, not facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work, noting small contributions matter re: global crises.\n- Maternal grandmother lived to 85 (with \"I guess\" qualifier, suggesting uncertainty it counts as above average).",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); calls Lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions, not facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work (small contributions matter re: global crises).\n- Maternal grandmother lived to 85 (\"I guess,\" uncertain if above average).",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); calls Lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions rather than facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work; noted small contributions matter re: global crises.\n- Maternal grandmother lived to 85 (uncertain whether that is above average).",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); calls Lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions rather than facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work; noted small contributions matter re: global crises.\n- Maternal grandmother lived to 85 (uncertain whether above average).",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); calls Lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions rather than facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work; noted small contributions matter re: global crises.\n- Maternal grandmother lived to 85 (uncertain whether above average).",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking: spice blends, vegan banana bread.\n- Calls Lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions rather than facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work; noted small contributions matter re: global crises.\n- Maternal grandmother lived to 85 (uncertain whether above average).",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); calls lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated people base opinions on emotions not facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work; noted small contributions matter re: global crises.\n- Maternal grandmother lived to 85 (uncertain if above average).\n- That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "CHANGED"
+        },
+        "restored": [
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); calls lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions not facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work, noting small contributions matter re: global crises.\n- Maternal grandmother lived to 85 (uncertain, \"I guess\" above average lifespan).",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); calls lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions, not facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work, noting small contributions matter re: global crises.\n- Maternal grandmother lived to 85 (uncertain if above average; said \"I guess\").",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); calls lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions rather than facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work, noting small contributions matter re: global crises.\n- Maternal grandmother lived to 85; uncertain whether that is above average (hedged: \"I guess\").",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions rather than facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work; noted small contributions matter re: global crises.\n- Maternal grandmother lived to 85; uncertain whether that's above average (\"I guess\").",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Has 240 days earned leave.\n- Experimenting with cooking (spice blends, vegan banana bread); says lasagna \"always a crowd-pleaser.\"\n- Asked about Cakebread Cellars (\"pretty popular too\") and conventions.\n- Frustrated that people base opinions on emotions rather than facts; asked how to encourage informed decision-making.\n- Wished luck in volunteer work; noted small contributions matter re: global crises.\n- Maternal grandmother lived to 85; uncertain whether that's above average (\"I guess\").",
+      "avr": {
+        "verdicts": {
+          "I have accumulated 240 days of earned leave.": "SAME",
+          "Have you heard anything about a winery called Cakebread Cellars? I've heard it's pretty popular too.": "SAME",
+          "That's really interesting. My grandmother on my mother's side actually lived to be 85 years old, which I guess is above the average lifespan.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

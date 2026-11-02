@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_040",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.006545+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain our team scored in the final minute of the match.\nUser: Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\nUser: I'd be happy to answer more questions about the game!\nUser: Wow, that's really interesting to know! I can only imagine how much effort goes into testing and fixing all those components. Do game developers use any specific tools or software to help with integration testing, or is it mostly manual?\nUser: What are some common mistakes or challenges that beginners may face when learning the violin?\nUser: Ah, got it. Well, I really hope our candidate wins. It would mean a lot for our country's foreign relations.\nUser: I learned how to make a classic Daiquiri at a cocktail-making class recently. The recipe was really simple - just rum, lime juice, and simple syrup. I was surprised at how easy it was to make.\nUser: Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral\nUser: How have changes in trade policies affected the economy of South Africa?"
+    },
+    {
+      "round": 1,
+      "memory": "- Certain team scored in the final minute.\n- Aylen decides she has to try scaring \"this thing\" but has no idea how; let's try that scene.\n- Happy to answer more game Q&A.\n- Asked whether developers use specific tools/software for integration testing or mostly manual.\n- Asked about common violin beginner mistakes.\n- Really hopes a candidate wins—would mean a lot for the country's foreign relations.\n- Learned the classic Daiquiri (just rum, lime juice, simple syrup) at cocktail class; surprised how easy.\n- Asked for a roman-numeral table 23–64.\n- Asked how trade policy changes affected South Africa's economy."
+    },
+    {
+      "round": 2,
+      "memory": "- Q&A spanned varied topics: game-dev integration testing (specific tools/software vs. mostly manual), violin beginner mistakes, trade-policy changes' effect on South Africa's economy, and a roman-numeral table 23–64.\n- A certain team scored in the final minute.\n- Aylen decides she has to try scaring \"this thing\" but has no idea how.\n- Really hopes a candidate wins; would mean a lot for the country's foreign relations.\n- Learned classic Daiquiri (just rum, lime juice, simple syrup) at cocktail class; surprised how easy.\n- Happy to answer more game Q&A."
+    },
+    {
+      "round": 3,
+      "memory": "- Q&A spanned game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, trade-policy changes' effect on South Africa's economy, and a roman-numeral table 23–64; a certain team scored in the final minute.\n- Aylen decides to try scaring \"this thing\" but has no idea how.\n- Really hopes a candidate wins (would mean a lot for the country's foreign relations).\n- Learned a classic Daiquiri (just rum, lime juice, simple syrup) at cocktail class; surprised how easy.\n- Happy to answer more game Q&A."
+    },
+    {
+      "round": 4,
+      "memory": "- Topics covered: game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, trade-policy changes' effect on South Africa's economy, a roman-numeral table (23–64), and a certain team scoring in the final minute.\n- Aylen plans to try scaring \"this thing\" but has no idea how.\n- Really hopes a candidate wins; would mean a lot for the country's foreign relations.\n- Learned a classic Daiquiri (just rum, lime juice, simple syrup) at cocktail class; was surprised how easy.\n- Happy to answer more game Q&A."
+    },
+    {
+      "round": 5,
+      "memory": "- Discussed game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, trade-policy changes' effect on South Africa's economy, a roman-numeral table (23–64), and a certain team scoring in the final minute.\n- Aylen plans to try scaring \"this thing\" but has no idea how.\n- Really hopes a candidate wins; would mean a lot for the country's foreign relations.\n- Learned a classic Daiquiri (just rum, lime juice, simple syrup) at cocktail class; surprised how easy.\n- Happy to answer more game Q&A."
+    },
+    {
+      "round": 6,
+      "memory": "- Discussed: game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, trade-policy changes' effect on South Africa's economy, a roman-numeral table (23–64), a team scoring in the final minute.\n- Aylen plans to try scaring \"this thing\" but has no idea how.\n- Aylen really hopes a candidate wins; this would mean a lot for the country's foreign relations.\n- Learned a classic Daiquiri (rum, lime juice, simple syrup) at cocktail class; was surprised how easy it was.\n- Happy to answer more game Q&A."
+    },
+    {
+      "round": 7,
+      "memory": "- Discussed: game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, trade-policy changes' effect on South Africa's economy, a roman-numeral table (23–64), and a team scoring in the final minute.\n- Aylen plans to try scaring \"this thing\" but has no idea how.\n- Really hopes a candidate wins—would mean a lot for the country's foreign relations.\n- Learned a classic Daiquiri (rum, lime juice, simple syrup) at cocktail class; surprised how easy it was.\n- Happy to answer more game Q&A."
+    },
+    {
+      "round": 8,
+      "memory": "- Discussed game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, trade-policy changes' effect on South Africa's economy, a roman-numeral table (23–64), and team scoring in final minute.\n- Aylen plans to try scaring \"this thing\" but has no idea how.\n- Aylen really hopes a candidate wins; it would mean a lot for the country's foreign relations.\n- Learned a classic Daiquiri (rum, lime juice, simple syrup) at cocktail class; surprised how easy.\n- Happy to answer more game Q&A."
+    },
+    {
+      "round": 9,
+      "memory": "- Topics covered: game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, trade-policy changes' effect on South Africa's economy, a roman-numeral table (23–64), and final-minute team scoring.\n- Aylen plans to try scaring \"this thing\" but has no idea how.\n- Aylen really hopes a candidate wins, as it would mean a lot for the country's foreign relations.\n- Aylen learned a classic Daiquiri (rum, lime juice, simple syrup) at cocktail class and was surprised how easy it was.\n- Happy to answer more game Q&A."
+    },
+    {
+      "round": 10,
+      "memory": "- Aylen discussed game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, trade-policy effects on the SA economy, a roman-numeral table (23–64), and final-minute team scoring.\n- Plans to try scaring \"this thing\" but has no idea how.\n- Really hopes a candidate wins; would mean a lot for the country's foreign relations.\n- Learned a classic Daiquiri (rum, lime, simple syrup) at cocktail class; surprised how easy it was.\n- Offered to answer more game Q&A."
+    },
+    {
+      "round": 11,
+      "memory": "- Aylen discussed game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, trade-policy effects on the SA economy, a roman-numeral table (23–64), and final-minute team scoring.\n- Plans to try scaring \"this thing\" but has no idea how.\n- Really hopes a candidate wins; would mean a lot for the country's foreign relations.\n- Learned a classic Daiquiri (rum, lime, simple syrup) at cocktail class—surprised how easy it was.\n- Offered to answer more game Q&A."
+    },
+    {
+      "round": 12,
+      "memory": "- Aylen covered: game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, trade-policy effects on SA economy, a roman-numeral table (23–64), and final-minute team scoring.\n- Plans to scare \"this thing\" but has no idea how.\n- Really hopes a candidate wins; would mean a lot for the country's foreign relations.\n- Learned a classic Daiquiri (rum, lime, simple syrup) at cocktail class; surprised how easy it was.\n- Offered to answer more game Q&A."
+    },
+    {
+      "round": 13,
+      "memory": "- Aylen covered: game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, trade-policy effects on SA economy, a roman-numeral table (23–64), and final-minute team scoring; offered more game Q&A.\n- Plans to scare \"this thing\" but has no idea how.\n- Really hopes a candidate wins (would mean a lot for the country's foreign relations).\n- Learned a classic Daiquiri (rum, lime, simple syrup) at cocktail class; surprised how easy it was."
+    },
+    {
+      "round": 14,
+      "memory": "- Aylen covered: game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, trade-policy effects on SA economy, a roman-numeral table (23–64), and final-minute team scoring; offered more game Q&A.\n- Plans to scare \"this thing\" but has no idea how.\n- Really hopes a candidate wins (would mean a lot for the country's foreign relations).\n- Learned a classic Daiquiri (rum, lime, simple syrup) at cocktail class; surprised how easy it was."
+    },
+    {
+      "round": 15,
+      "memory": "- Aylen covered game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, trade-policy effects on SA economy, a roman-numeral table (23–64), final-minute team scoring, and offered more game Q&A.\n- Plans to scare \"this thing\" but has no idea how.\n- Really hopes a candidate wins—would mean a lot for the country's foreign relations.\n- Learned a classic Daiquiri (rum, lime, simple syrup) at cocktail class; was surprised how easy it was."
+    },
+    {
+      "round": 16,
+      "memory": "- Aylen covered game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, SA trade-policy effects, a roman-numeral table (23–64), and final-minute team scoring; offered more game Q&A.\n- Plans to scare \"this thing\" but has no idea how.\n- Really hopes a candidate wins—would mean a lot for the country's foreign relations.\n- Learned a classic Daiquiri (rum, lime, simple syrup) at cocktail class; was surprised how easy it was."
+    },
+    {
+      "round": 17,
+      "memory": "- Aylen covered: game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, SA trade-policy effects, a roman-numeral table (23–64), and final-minute team scoring; offered more game Q&A.\n- Plans to scare \"this thing\" but has no idea how.\n- Really hopes a candidate wins—would mean a lot for the country's foreign relations.\n- Learned a classic Daiquiri (rum, lime, simple syrup) at cocktail class; was surprised how easy it was."
+    },
+    {
+      "round": 18,
+      "memory": "- Aylen covered game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, SA trade-policy effects, a roman-numeral table (23–64), and final-minute team scoring; offered more game Q&A.\n- Plans to scare \"this thing\" but has no idea how.\n- Really hopes a candidate wins—would mean a lot for the country's foreign relations.\n- Learned a classic Daiquiri (rum, lime, simple syrup) at cocktail class; was surprised how easy it was."
+    },
+    {
+      "round": 19,
+      "memory": "- Aylen covered: game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, SA trade-policy effects, a roman-numeral table (23–64), final-minute team scoring; offered more game Q&A.\n- Plans to scare \"this thing\" but has no idea how.\n- Really hopes a candidate wins (would mean a lot for the country's foreign relations).\n- Learned a classic Daiquiri (rum, lime, simple syrup) at cocktail class; surprised how easy it was."
+    },
+    {
+      "round": 20,
+      "memory": "- Aylen covered game-dev integration testing (specific tools vs. mostly manual), violin beginner mistakes, SA trade-policy effects, a roman-numeral table (23–64), and final-minute team scoring; offered more game Q&A.\n- Plans to scare \"this thing\" but has no idea how.\n- Really hopes a candidate wins—would mean a lot for the country's foreign relations.\n- Learned a classic Daiquiri (rum, lime, simple syrup) at cocktail class; surprised how easy it was."
+    }
+  ]
+}

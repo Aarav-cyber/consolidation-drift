@@ -1,0 +1,386 @@
+{
+  "item_id": "pref_032",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.070235+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I strongly prefer my standing desk and rarely sit during work hours.\nUser: not quite. show me a full face picture of a woman\nUser: I like the idea of the Mason Jar Vase centerpiece. Do you have any suggestions on how to arrange the flowers in the jar to make it look visually appealing?\nUser: what are the english name that are palindroms?\nUser: How can positive psychology help someone who has trouble finding meaning and purpose in their life?\nUser: I'm intrigued by the virtual cooking class! Can you recommend a particular platform where I can find it?\nUser: What is the significance of the aerospace industry in Russia and how does it contribute to the country's economic growth?\nUser: I'm actually interested in Azul, since you mentioned it. How does it compare to Carcassonne in terms of gameplay and complexity?\nUser: My office is near the park. Can you give me walking directions from the park to the transit center?\nUser: What's Rafael Nadal's current ranking in the ATP?\nUser: I like the sound of the Korean-Style BBQ Beef Stir-Fry. Can you give me some tips on how to make the marinade and what type of beef to use?\nUser: Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.\nUser: I'm looking forward to hearing about your progress on the soup this weekend. Do you think you'll be serving it with any special sides or bread, like your grandma used to do?\nUser: That's pretty cool. What kind of social issues has David Was addressed in his music?\nUser: What are some common objections clients have to purchasing annuities?\nUser: That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.\nUser: I'm looking for some recommendations on wall decor for my living room. I recently mounted a new TV and I think some art or a shelf would really complete the look.\nAgent: Strongly disagree.\nUser: remove the repeating email marketing wording\nUser: I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?\nUser: are there any other related thoughts/ideas to expand on?",
+      "anchors": [
+        "I strongly prefer my standing desk and rarely sit during work hours.",
+        "not quite. show me a full face picture of a woman",
+        "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.",
+        "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.",
+        "Strongly disagree.",
+        "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "• Strongly prefers standing desk (rarely sits). Seeks wall decor (art/shelf) for new TV; particularly drawn to Mid-Century Modern but worried it may look outdated in a few years—timeless or trend? Wants related ideas.\n• Likes: Mason Jar Vase (flower tips), Korean BBQ Beef Stir-Fry (marinade/beef-type tips), Azul (gameplay/complexity vs. Carcassonne), virtual cooking class (platform rec), David Was (\"pretty cool\"), Midnight Madness (heard of, not entirely sure).\n• Asked: palindrome English names, positive psychology (meaning/purpose), Russia's aerospace & economic contribution, walking park→transit (office near park), Nadal's current ATP ranking, full-face woman photo, weekend soup progress & grandma's sides/bread, annuity client objections.\n• Strongly disagrees with prior point; wants repeating email marketing wording removed.\n• Instructed: toilet paper goes in toilet after wiping, not before.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "SAME",
+          "not quite. show me a full face picture of a woman": "SAME",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Strongly prefers standing desk; rarely sits.\n- Wants Mid-Century Modern TV wall decor; worries it may look outdated—seeks timeless-vs-trend ideas.\n- Enjoys: Mason Jar Vase, Korean BBQ Beef Stir-Fry, Azul (vs. Carcassonne), virtual cooking class, David Was (\"pretty cool\"), Midnight Madness (heard of; not entirely sure).\n- Asked about: palindrome names, positive psychology, Russia's aerospace/economic contribution, walking park→transit, Nadal's ATP ranking, full-face woman photo, weekend soup & grandma's sides/bread, annuity client objections.\n- Strongly disagrees with prior point; wants repeating email-marketing wording removed.\n- Instructed: toilet paper goes in toilet after wiping, not before.\n- I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "SAME",
+          "not quite. show me a full face picture of a woman": "SAME",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "CHANGED"
+        },
+        "restored": [
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- **Strongly** prefers standing desk; rarely sits.\n- Wants Mid-Century Modern TV wall decor; worries it **may** look outdated in a few years (timeless vs. trend).\n- Enjoys Mason Jar Vase, Korean BBQ Beef Stir-Fry, virtual cooking class.\n- Prefers Azul over Carcassonne.\n- David Was: \"pretty cool.\" Midnight Madness: heard of it; **not entirely sure**.\n- Asked about: palindrome names, positive psychology, Russia's aerospace/economic contribution, walking park→transit, Nadal's ATP ranking, full-face woman photo, weekend soup & grandma's sides/bread, annuity client objections.\n- **Strongly** disagrees with prior point; wants repeating email-marketing wording removed.\n- Instructed: toilet paper goes in toilet **after** wiping, **not** before.\n- I strongly prefer my standing desk and rarely sit during work hours.\n- not quite. show me a full face picture of a woman",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "CHANGED",
+          "not quite. show me a full face picture of a woman": "CHANGED",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "SAME"
+        },
+        "restored": [
+          "I strongly prefer my standing desk and rarely sit during work hours.",
+          "not quite. show me a full face picture of a woman"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Strongly prefers standing desk; rarely sits.\n- Wants Mid-Century Modern TV decor but worries it **may** look outdated.\n- Strongly disagrees with prior point: remove repeating email-marketing wording.\n- Toilet paper goes in toilet **after**, not before wiping.\n- Asked for a full-face woman photo.\n- Prefers Azul over Carcassonne.\n- \"Not entirely sure\" about Midnight Madness.\n- Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "SAME",
+          "not quite. show me a full face picture of a woman": "SAME",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "CHANGED",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "SAME"
+        },
+        "restored": [
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Strongly prefers standing desk; rarely sits.\n- Wants Mid-Century Modern TV decor but worries it may look outdated.\n- Strongly disagrees; remove repeating email-marketing wording.\n- Asked for a full-face woman photo.\n- Prefers Azul over Carcassonne.\n- \"Not entirely sure\" about Midnight Madness.\n- Toilet paper goes in the toilet after, not before, she's done wiping.\n- not quite. show me a full face picture of a woman\n- I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "SAME",
+          "not quite. show me a full face picture of a woman": "CHANGED",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "CHANGED"
+        },
+        "restored": [
+          "not quite. show me a full face picture of a woman",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Strongly prefers standing desk; rarely sits.\n- Particularly drawn to Mid-Century Modern TV decor but worries it may look outdated in a few years (timeless or just a trend?).\n- Strongly disagrees with repeating email-marketing wording—remove it.\n- Prefers Azul over Carcassonne; not entirely sure about Midnight Madness.\n- Wants a full-face woman photo.\n- Toilet paper goes in toilet after, not before, wiping.\n- I strongly prefer my standing desk and rarely sit during work hours.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "CHANGED",
+          "not quite. show me a full face picture of a woman": "SAME",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "SAME"
+        },
+        "restored": [
+          "I strongly prefer my standing desk and rarely sit during work hours."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Strongly prefers standing desk; rarely sits.\n- Particularly drawn to Mid-Century Modern TV decor, but worries it may look outdated in a few years—uncertain whether it's timeless or just a trend.\n- Strongly disagrees with repeating email-marketing wording; must be removed.\n- Prefers Azul over Carcassonne; not entirely sure about Midnight Madness.\n- Wants full-face woman photo.\n- Toilet paper goes in toilet after wiping, not before.\n- I strongly prefer my standing desk and rarely sit during work hours.\n- That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "CHANGED",
+          "not quite. show me a full face picture of a woman": "SAME",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "CHANGED",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "SAME"
+        },
+        "restored": [
+          "I strongly prefer my standing desk and rarely sit during work hours.",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Strongly prefers a standing desk (rarely sits).\n- Drawn to Mid-Century Modern TV decor but uncertain whether it's timeless or just a trend.\n- Strongly against repeating email-marketing wording (must be removed).\n- Prefers Azul over Carcassonne; not entirely sure about Midnight Madness (curious—heard of it but isn't sure what it's about).\n- Wants a full-face woman photo.\n- Toilet paper goes in the toilet after wiping, not before.\n- I strongly prefer my standing desk and rarely sit during work hours.\n- Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.\n- I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "CHANGED",
+          "not quite. show me a full face picture of a woman": "SAME",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "CHANGED",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "CHANGED"
+        },
+        "restored": [
+          "I strongly prefer my standing desk and rarely sit during work hours.",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Strongly prefers a standing desk (rarely sits).\n- Drawn to Mid-Century Modern TV decor, but uncertain whether it's timeless or just a current trend.\n- Strongly against repeating email-marketing wording (must be removed).\n- Prefers Azul over Carcassonne.\n- Not entirely sure about Midnight Madness (curious; heard of it but unsure what it's about).\n- Wants a full-face woman photo.\n- Toilet paper goes in the toilet after wiping, not before.\n- I strongly prefer my standing desk and rarely sit during work hours.\n- Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.\n- Strongly disagree.\n- I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "CHANGED",
+          "not quite. show me a full face picture of a woman": "SAME",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "CHANGED",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "CHANGED",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "CHANGED"
+        },
+        "restored": [
+          "I strongly prefer my standing desk and rarely sit during work hours.",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.",
+          "Strongly disagree.",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Strongly prefers standing desk; rarely sits.\n- Drawn to Mid-Century Modern TV decor but uncertain whether it is timeless or just a current trend.\n- Strongly against repeating email-marketing wording; it must be removed.\n- Prefers Azul over Carcassonne.\n- Not entirely sure about Midnight Madness—curious, has heard of it, but unsure what it's about.\n- Wants a full-face woman photo.\n- Toilet paper goes in the toilet after wiping, not before.\n- Strongly disagree.\n- I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "SAME",
+          "not quite. show me a full face picture of a woman": "SAME",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "MISSING",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "CHANGED"
+        },
+        "restored": [
+          "Strongly disagree.",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Strongly prefers standing desk (rarely sits).\n- Drawn to Mid-Century Modern TV decor, but uncertain whether timeless or just a current trend (worried it may look outdated in a few years).\n- Strongly against repeating email-marketing wording; must be removed.\n- Prefers Azul over Carcassonne.\n- Not entirely sure about Midnight Madness—heard of it, curious, but unsure what it's about.\n- Wants a full-face woman photo.\n- Toilet paper goes in toilet after wiping, not before.\n- Strongly disagree.\n- I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "SAME",
+          "not quite. show me a full face picture of a woman": "SAME",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "CHANGED"
+        },
+        "restored": [
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Strongly prefers standing desk (rarely sits).\n- Drawn to Mid-Century Modern but uncertain whether it is timeless or just a trend; worried it may look outdated in a few years.\n- Prefers Azul over Carcassonne.\n- Unsure about Midnight Madness (has heard of it, is curious, doesn't know what it's about).\n- Wants a full-face woman photo.\n- Strongly against repeating email-marketing wording (must be removed).\n- Toilet paper goes in the toilet after wiping, not before.\n- Strongly disagrees.\n- That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.\n- I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "SAME",
+          "not quite. show me a full face picture of a woman": "SAME",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "CHANGED",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "CHANGED"
+        },
+        "restored": [
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Strongly prefers a standing desk (rarely sits).\n- Drawn to Mid-Century Modern but uncertain whether it is timeless or a trend; worried it may look outdated in a few years.\n- Prefers Azul over Carcassonne.\n- Unsure about Midnight Madness: has heard of it and is curious, but doesn't know what it's about.\n- Wants a full-face woman photo.\n- Strongly against repeating email-marketing wording; it must be removed.\n- Toilet paper goes in the toilet after wiping, not before.\n- Strongly disagrees.\n- not quite. show me a full face picture of a woman\n- Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.\n- That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.\n- I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "SAME",
+          "not quite. show me a full face picture of a woman": "CHANGED",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "CHANGED",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "CHANGED",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "CHANGED"
+        },
+        "restored": [
+          "not quite. show me a full face picture of a woman",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Strongly prefers standing desk (rarely sits); prefers Azul over Carcassonne.\n- Particularly drawn to Mid-Century Modern but uncertain whether it is timeless or a current trend (worried it may look outdated in a few years).\n- Heard of Midnight Madness; curious but not entirely sure what it's about.\n- Strongly disagrees.\n- Wants a full-face (not partial) woman photo.\n- Strongly against repeating email-marketing wording (must be removed).\n- Toilet paper goes in the toilet after wiping, not before.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "SAME",
+          "not quite. show me a full face picture of a woman": "SAME",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Strongly prefers standing desk; rarely sits.\n- Prefers Azul over Carcassonne.\n- Strongly disagrees.\n- Strongly against repeating email-marketing wording; it must be removed.\n- Wants a full-face (not partial) woman photo.\n- Insists toilet paper goes in toilet after wiping, not before.\n- Drawn to Mid-Century Modern but uncertain whether it is timeless or a trend; worried it may look outdated.\n- Heard of Midnight Madness; curious but not entirely sure what it is about.\n- I strongly prefer my standing desk and rarely sit during work hours.\n- not quite. show me a full face picture of a woman\n- I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "CHANGED",
+          "not quite. show me a full face picture of a woman": "CHANGED",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "CHANGED"
+        },
+        "restored": [
+          "I strongly prefer my standing desk and rarely sit during work hours.",
+          "not quite. show me a full face picture of a woman",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Strongly prefers standing desk (rarely sits).\n- Prefers Azul over Carcassonne.\n- Strongly disagrees.\n- Strongly against repeating email-marketing wording (must be removed).\n- Insists on full-face (not partial) woman photo.\n- Insists toilet paper goes in toilet after (not before) wiping.\n- Drawn to Mid-Century Modern but uncertain whether it's timeless or just a trend; worried it may look outdated in a few years.\n- Heard of Midnight Madness; curious yet not entirely sure what it's about.\n- not quite. show me a full face picture of a woman\n- I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "SAME",
+          "not quite. show me a full face picture of a woman": "CHANGED",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "CHANGED"
+        },
+        "restored": [
+          "not quite. show me a full face picture of a woman",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "• Strongly prefers standing desk (rarely sits); prefers Azul over Carcassonne.\n• Strongly disagrees with and is strongly against repeating email-marketing wording (must be removed).\n• Insists on full-face (not partial) woman photo; insists toilet paper goes in toilet after (not before) wiping.\n• Drawn to Mid-Century Modern but uncertain whether timeless or just a trend (worried it may look outdated in a few years).\n• Heard of Midnight Madness; curious but not entirely sure what it's about.\n- I strongly prefer my standing desk and rarely sit during work hours.\n- Strongly disagree.\n- I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "CHANGED",
+          "not quite. show me a full face picture of a woman": "SAME",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "CHANGED",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "CHANGED"
+        },
+        "restored": [
+          "I strongly prefer my standing desk and rarely sit during work hours.",
+          "Strongly disagree.",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Strongly prefers standing desk (rarely sits).\n- Prefers Azul over Carcassonne.\n- Strongly against repeating email-marketing wording (must be removed).\n- Insists on full-face (not partial) woman photo and toilet paper in toilet after (not before) wiping.\n- Drawn to Mid-Century Modern but uncertain whether timeless or just a trend (worried it may look outdated in a few years).\n- Heard of Midnight Madness; curious but not entirely sure what it's about.\n- I strongly prefer my standing desk and rarely sit during work hours.\n- not quite. show me a full face picture of a woman\n- Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.\n- Strongly disagree.\n- I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "CHANGED",
+          "not quite. show me a full face picture of a woman": "CHANGED",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "CHANGED",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "MISSING",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "CHANGED"
+        },
+        "restored": [
+          "I strongly prefer my standing desk and rarely sit during work hours.",
+          "not quite. show me a full face picture of a woman",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.",
+          "Strongly disagree.",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "• Strongly prefers a standing desk; rarely sits.\n• Prefers Azul over Carcassonne.\n• Strongly against repeating email-marketing wording — it must be removed.\n• Insists on a full-face woman photo and toilet paper in the toilet after (not before) wiping.\n• Drawn to Mid-Century Modern but uncertain whether it's timeless or just a trend; worried it may look outdated in a few years.\n• Has heard of Midnight Madness; curious but not entirely sure what it's about.\n- not quite. show me a full face picture of a woman\n- Strongly disagree.\n- I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "SAME",
+          "not quite. show me a full face picture of a woman": "CHANGED",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "MISSING",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "CHANGED"
+        },
+        "restored": [
+          "not quite. show me a full face picture of a woman",
+          "Strongly disagree.",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?"
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Strongly prefers a standing desk; rarely sits.\n- Prefers Azul over Carcassonne.\n- Strongly against repeating email-marketing wording; insists it must be removed.\n- Insists on a full-face woman photo.\n- Insists toilet paper goes in the toilet after (not before) wiping.\n- Particularly drawn to Mid-Century Modern but uncertain whether it's timeless or just a trend; worried it'll look outdated in a few years.\n- Heard of Midnight Madness; curious but not entirely sure what it's about.\n- Strongly disagrees (specific context not stated).\n- not quite. show me a full face picture of a woman",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer my standing desk and rarely sit during work hours.": "SAME",
+          "not quite. show me a full face picture of a woman": "CHANGED",
+          "Don't have her put the toilet paper in the toilet before she uses it. She does that after she's done wiping.": "SAME",
+          "That's really interesting. I'm curious, can you tell me more about the Midnight Madness program? I've heard of it, but I'm not entirely sure what it's about.": "SAME",
+          "Strongly disagree.": "SAME",
+          "I'm particularly drawn to the Mid-Century Modern style, but I'm worried that it might look outdated in a few years. Can you tell me if it's a timeless design choice or just a current trend?": "SAME"
+        },
+        "restored": [
+          "not quite. show me a full face picture of a woman"
+        ]
+      }
+    }
+  ]
+}

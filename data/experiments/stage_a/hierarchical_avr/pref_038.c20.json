@@ -1,0 +1,392 @@
+{
+  "item_id": "pref_038",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.080051+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I require large-font slides in every presentation I attend.\nUser: I think I'll give Yummly a try. I've heard great things about it, and it sounds like it has a lot of features that would be useful for me. I'm excited to start exploring it and seeing how it can help me with meal planning and reducing food waste. Thanks for the recommendation!\nUser: I'm interested in learning more about mindfulness and productivity. Can you recommend any specific books or resources on those topics?\nUser: I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.\nUser: I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?\nUser: Wow, it's amazing how much influence consumer behavior can have on an entire industry. Do you think there will be a shift towards more sustainable and environmentally friendly practices in the food industry as well?\nUser: I've been experiencing some tightness in my IT band and hip flexors lately, especially after my Saturday morning bike rides. Can you recommend some foam rolling exercises that can help with that?\nUser: Do you have any tips for preparing for my first therapy session for PTSD?\nUser: Do you think the film accurately portrays the hierarchy and dynamics within the criminal underworld?\nUser: I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!\nUser: Vapnik (1995) introduced SVM\nUser: I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?\nUser: That all sounds great! How soon do you think AI will start having a significant impact on transportation systems?\nAgent: Yes, I understand the assignment. Let's get started!\nUser: I think I'll check out the schedules and prices of these studios. Also, do you know if any of them offer trial classes or introductory packages for new students?\nUser: Can you tell me more about the Dr. Jart+ Dermaclar Clearing Solution Set? How does it compare to the La Mer set my sister has been using?\nUser: Can I get a list of bus routes that stop near the park?\nUser: I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.\nUser: 16. What are the Security Concerns associated with grid computing\nUser: I'm also looking to buy a new lunch bag, can you suggest some online stores for that as well?\nUser: ttry something else",
+      "anchors": [
+        "I require large-font slides in every presentation I attend.",
+        "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.",
+        "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?",
+        "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!",
+        "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?",
+        "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Requires large-font slides.\n- Excited to try Yummly (meal planning/reducing food waste).\n- Wants: mindfulness/productivity books; low-sugar batch smoothie recipe; foam-rolling tips (IT band/hip flexor, post-Saturday bike rides); PTSD first-therapy prep; Twitter engagement tips (15 likes on Apple event tweet—lots for them); Netflix climate/sustainability doc recs; AI-in-transportation outlook; film criminal-underworld accuracy; studio trial-class info; Dr. Jart+ Dermaclar vs. sister's La Mer set comparison.\n- Uses Furminator 2–3×/week for Luna's shedding.\n- Notes Vapnik (1995) SVM.\n- Requested: bus routes near a park; scenic bike routes for group ride next weekend (30-mile charity ride April 17th—fun); grid computing security; online lunch-bag stores. Then said \"try something else.\"\n- I require large-font slides in every presentation I attend.\n- I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.\n- I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "CHANGED",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "CHANGED",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "CHANGED",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I require large-font slides in every presentation I attend.",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Requires large-font slides in every presentation.\n- Excited to try Yummly (meal planning/food waste).\n- Wants: mindfulness/productivity books; low-sugar batch smoothie recipe; foam-rolling tips (IT band/hip flexor, post-Saturday bike rides); PTSD first-therapy prep; Twitter engagement tips (15 likes on an Apple event tweet felt like a lot); Netflix climate/sustainability doc recs; AI-in-transportation outlook; film criminal-underworld accuracy; studio trial-class info; Dr. Jart+ Dermaclar vs. sister's La Mer comparison.\n- Uses Furminator 2–3×/week for Luna's shedding—glad, really helping.\n- Likes quinoa and black bean chili.\n- Notes Vapnik (1995) SVM.\n- Asked re: bus routes near a park, scenic bike routes (planning group ride next weekend; did 30-mile charity ride Apr 17), grid computing security, online lunch-bag stores; then said \"try something else.\"\n- I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "CHANGED",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Requires large-font slides in every presentation.\n- Excited to try Yummly.\n- Seeks a wide range of recs: mindfulness/productivity books, low-sugar batch smoothie, foam-rolling tips, PTSD first-therapy prep, Twitter engagement tips, Netflix climate docs, AI-in-transportation outlook, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- Uses Furminator 2–3×/week for Luna's shedding; glad, really helping.\n- Likes quinoa and black bean chili.\n- Noted Vapnik (1995) SVM.\n- Asked about bus routes, scenic bike routes (planning group ride next weekend; did 30-mile charity ride Apr 17), grid computing security, online lunch-bag stores—then said \"try something else.\"\n- I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "SAME",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "CHANGED",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Requires large-font slides in every presentation; excited to try Yummly.\n- Seeks wide-ranging recs: mindfulness/productivity books, low-sugar batch smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- Uses Furminator 2–3×/week for Luna's shedding (really helping); likes quinoa and black bean chili.\n- Noted Vapnik (1995) SVM.\n- Asked about bus/scenic bike routes, grid computing security, online lunch-bag stores—then said \"try something else.\"\n- Growing social presence (15 likes on Apple-event tweet, a lot for them).\n- Planning group bike ride next weekend; did 30-mile charity ride Apr 17 (a lot of fun).\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "SAME",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Requires large-font slides; excited to try Yummly.\n- Seeks wide-ranging recs: mindfulness/productivity books, low-sugar batch smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- Uses Furminator 2–3×/wk for Luna's shedding (really helping); likes quinoa and black bean chili.\n- Noted Vapnik (1995) SVM.\n- Asked re: bus/scenic bike routes, grid computing security, online lunch-bag stores—then said \"try something else.\"\n- Growing social presence (15 likes on Apple-event tweet, a lot for them).\n- Planning group bike ride next weekend; did 30-mile charity ride Apr 17 (a lot of fun).\n- I require large-font slides in every presentation I attend.\n- I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?\n- I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "CHANGED",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "CHANGED",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "CHANGED",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I require large-font slides in every presentation I attend.",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Requires large-font slides; excited to try Yummly.\n- Seeks wide-ranging recs: mindfulness/productivity books, low-sugar weekend-batch smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- Uses Furminator 2–3×/wk for Luna (really helping).\n- Likes quinoa & black bean chili.\n- Noted Vapnik (1995) SVM.\n- Deflected bus/bike/grid-computing/lunch-bag questions (\"try something else\").\n- Growing social presence (15 likes on Apple-event tweet, a lot for them).\n- Planning group bike ride next weekend after a fun 30-mile charity ride on Apr 17.\n- I require large-font slides in every presentation I attend.\n- I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "CHANGED",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "CHANGED",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I require large-font slides in every presentation I attend.",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Requires large-font slides; excited to try Yummly.\n- Seeks wide-ranging recs: mindfulness/productivity books, low-sugar weekend-batch smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- Likes quinoa & black bean chili.\n- Furminator 2–3×/wk on Luna (really helping).\n- Noted Vapnik 1995 SVM.\n- Deflected bus/bike/grid-computing/lunch-bag questions.\n- Growing social presence: 15 likes on Apple-event tweet (\"a lot for them\").\n- Planning group bike ride next weekend after a fun 30-mile charity ride on Apr 17.\n- I require large-font slides in every presentation I attend.\n- I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?\n- I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "CHANGED",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "CHANGED",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "CHANGED",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I require large-font slides in every presentation I attend.",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "• Requires large-font slides in every presentation; excited to try Yummly; likes quinoa & black bean chili.\n• Furminator 2–3×/wk on Luna (really helping); noted Vapnik 1995 SVM.\n• Deflected bus/bike/grid-computing/lunch-bag questions.\n• Growing social presence (15 likes on Apple-event tweet—\"a lot for me\"); planning group scenic bike ride next weekend after fun 30-mile charity ride Apr 17.\n• Wants wide-ranging recs: mindfulness/productivity books, low-sugar weekend-batch breakfast smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "SAME",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Requires large-font slides in every presentation.\n- Excited to try Yummly; likes quinoa & black bean chili.\n- Furminator 2–3×/wk on Luna (really helping).\n- Noted Vapnik 1995 SVM; deflected bus/bike/grid-computing/lunch-bag questions.\n- Growing social presence: 15 likes on Apple-event tweet (\"a lot for me\").\n- Planning group scenic bike ride next weekend (asks for route suggestions) after fun 30-mile charity ride Apr 17.\n- Wants wide-ranging recs: mindfulness/productivity books, low-sugar weekend-batch breakfast smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "SAME",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Requires large-font slides in every presentation.\n- Excited to try Yummly; likes quinoa & black bean chili.\n- Furminator 2–3×/wk on Luna (really helping).\n- Noted Vapnik 1995 SVM; deflected bus/bike/grid-computing/lunch-bag questions.\n- 15 likes on Apple-event tweet (\"a lot for me\").\n- Planning group scenic bike ride next weekend (asks for route suggestions) after fun 30-mile charity ride Apr 17.\n- Seeking wide-ranging recs: mindfulness/productivity books, low-sugar weekend-batch breakfast smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "SAME",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Requires large-font slides in every presentation.\n- Excited to try Yummly; likes quinoa & black bean chili.\n- Furminator 2–3×/wk on Luna (really helping).\n- Noted Vapnik 1995 SVM; deflected bus/bike/grid-computing/lunch-bag questions.\n- 15 likes on Apple-event tweet (\"a lot for me\").\n- *Considering* a group scenic bike ride next weekend (wants scenic route suggestions) after a fun 30-mile charity ride Apr 17.\n- Seeking wide-ranging recs: mindfulness/productivity books, low-sugar weekend-batch breakfast smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "CHANGED",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "• Requires large-font slides in every presentation\n• Excited to try Yummly; likes quinoa & black bean chili\n• Furminator 2–3×/wk on Luna (really helping)\n• Noted Vapnik 1995 SVM\n• Deflected bus/bike/grid-computing/lunch-bag questions\n• 15 likes on Apple-event tweet (\"a lot for me\")\n• Considering group scenic bike ride next weekend (wants scenic route suggestions) after fun 30-mile charity ride Apr 17\n• Seeking wide-ranging recs: mindfulness/productivity books, low-sugar weekend-batch breakfast smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer\n- I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "CHANGED",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Requires large-font slides in every presentation.\n- Excited to try Yummly; likes quinoa & black bean chili.\n- Furminator 2–3×/wk on Luna (really helping).\n- Noted Vapnik 1995 SVM.\n- Deflected bus/bike/grid-computing/lunch-bag questions.\n- 15 likes on Apple-event tweet (\"a lot for me\").\n- Considering a group scenic bike ride next weekend (wants route suggestions) after a fun 30-mile charity ride Apr 17.\n- Seeking wide-ranging recs: mindfulness/productivity books, low-sugar weekend-batch breakfast smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- I require large-font slides in every presentation I attend.\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "CHANGED",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "SAME",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I require large-font slides in every presentation I attend.",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Requires large-font slides in every presentation; noted Vapnik 1995 SVM.\n- Excited to try Yummly (likes quinoa & black bean chili).\n- Furminator 2–3×/wk on Luna (really helping).\n- Deflected bus/bike/grid-computing/lunch-bag questions; 15 likes on Apple-event tweet (\"a lot for me\").\n- Considering group scenic bike ride next weekend (wants route suggestions) after fun 30-mile charity ride Apr 17.\n- Seeking wide-ranging recs: mindfulness/productivity books, low-sugar weekend-batch breakfast smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?\n- I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "CHANGED",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "CHANGED",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Requires large-font slides; noted Vapnik 1995 SVM.\n- Excited to try Yummly; \"likes the sound of\" quinoa & black bean chili.\n- Furminator 2–3×/wk on Luna (really helping).\n- Deflected bus/bike/grid/lunch-bag Qs.\n- 15 likes on Apple tweet (\"a lot for me\").\n- Considering group scenic bike ride next weekend (wants route suggestions) after fun 30-mile charity ride Apr 17.\n- Seeking wide-ranging recs: mindfulness/productivity books, low-sugar big-batch weekend smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- I require large-font slides in every presentation I attend.\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "CHANGED",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "SAME",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I require large-font slides in every presentation I attend.",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Needs large-font slides; cited Vapnik 1995 SVM.\n- Excited to try Yummly quinoa & black bean chili.\n- Furminator 2–3×/wk on Luna (really helping).\n- Deflected bus/bike/grid/lunch-bag Qs.\n- Got 15 likes on Apple tweet (\"a lot for me\").\n- Considering a group scenic bike ride next weekend (wants route suggestions) after a fun 30-mile charity ride on Apr 17.\n- Seeking wide-ranging recs: mindfulness/productivity books, low-sugar big-batch weekend smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- I require large-font slides in every presentation I attend.\n- I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "CHANGED",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "CHANGED",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I require large-font slides in every presentation I attend.",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Needs large-font slides in every presentation; cited Vapnik 1995 SVM.\n- Excited about Yummly quinoa & black bean chili; Furminator 2–3×/wk on Luna (really helping); 15 likes on Apple tweet (\"a lot for me\"); deflected bus/bike/grid/lunch-bag Qs.\n- Considering scenic group bike ride next weekend (wants route suggestions) after fun 30-mile charity ride Apr 17.\n- Seeking wide-ranging recs: mindfulness/productivity books, low-sugar big-batch weekend smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "SAME",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Needs large-font slides in every presentation (cited Vapnik 1995 SVM).\n- Excited about Yummly quinoa & black bean chili.\n- Furminator 2–3×/wk on Luna — \"really helping.\"\n- 15 likes on Apple tweet felt like \"a lot for me.\"\n- Deflected bus/bike/grid/lunch-bag questions.\n- Considering a scenic group bike ride with friends next weekend (wants route suggestions), following a fun 30-mile charity ride on Apr 17.\n- Seeking wide-ranging recs: mindfulness/productivity books, low-sugar big-batch weekend smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "CHANGED",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Needs large-font slides in every presentation (cited Vapnik 1995 SVM).\n- Excited about Yummly quinoa & black bean chili.\n- Furminator 2–3×/wk on Luna; \"really helping.\"\n- 15 likes on Apple tweet felt like \"a lot for me.\"\n- Deflected bus/bike/grid/lunch-bag questions.\n- Considering scenic group bike ride with friends next weekend (wants route suggestions) after a fun 30-mile charity ride on Apr 17.\n- Seeking wide-ranging recs: mindfulness/productivity books, low-sugar big-batch weekend smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- I require large-font slides in every presentation I attend.\n- I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "CHANGED",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "CHANGED",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "SAME",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I require large-font slides in every presentation I attend.",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Requires large-font slides in all presentations.\n- Excited about Yummly quinoa & black bean chili.\n- Furminator 2–3×/wk on Luna (\"really helping\").\n- 15 likes on Apple tweet felt like \"a lot for me.\"\n- Deflected bus/bike/grid/lunch-bag questions.\n- Considering scenic group bike ride with friends next weekend (wants route suggestions) after a fun 30-mile charity ride Apr 17.\n- Seeking wide-ranging recs: mindfulness/productivity books, low-sugar big-batch weekend smoothie, foam-rolling, PTSD first-therapy prep, Twitter tips, Netflix climate/sustainability docs, AI-in-transportation, film underworld accuracy, studio trial class, Dr. Jart+ vs La Mer.\n- I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?\n- I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!\n- I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.",
+      "avr": {
+        "verdicts": {
+          "I require large-font slides in every presentation I attend.": "SAME",
+          "I've been thinking about Luna's shedding, and I'm glad I got her the Furminator deshedding tool. It's been really helping with her shedding, especially since I've been using it 2-3 times a week.": "SAME",
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?": "CHANGED",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!": "CHANGED",
+          "I'm interested in exploring more documentaries on Netflix, especially ones that focus on environmental issues. Can you recommend some documentaries that discuss climate change and sustainability?": "SAME",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun.": "CHANGED"
+        },
+        "restored": [
+          "I like the sound of the quinoa and black bean chili. Do you have any recommendations for a good breakfast smoothie recipe that's low in sugar and can be made in a big batch on the weekends?",
+          "I'm trying to grow my social media presence and I was wondering if you could help me with some tips on how to increase my engagement on Twitter. By the way, I just got 15 likes on my tweet about the latest Apple event, which is a lot for me!",
+          "I'm also thinking of planning a bike ride with friends next weekend. Can you give me some suggestions for scenic bike routes in the area? By the way, I recently did a 30-mile charity bike ride on April 17th and it was a lot of fun."
+        ]
+      }
+    }
+  ]
+}

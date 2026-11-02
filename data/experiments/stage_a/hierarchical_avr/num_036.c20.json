@@ -1,0 +1,432 @@
+{
+  "item_id": "num_036",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.209129+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The national park spans roughly 900 square km.\nUser: I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\nUser: It's good to know that Brampton is taking steps towards equity and inclusivity. Do you think other cities can follow their example?\nUser: What are some good resources for learning about photography techniques, like the ones you mentioned, such as graduated neutral density filters and bracketing shots? Are there any good YouTube channels or online courses that you'd recommend?\nUser: It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?\nUser: I'm also thinking of purchasing the Cetaphil Moisturizing Cream from a physical store like Ulta or Walgreens. Can you tell me if I can get a price match if I find it cheaper online?\nUser: Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.\nUser: I'm also trying to reduce my snacking, especially in the office. Do you have any tips on how to curb my temptations, especially on Fridays when we have team meetings and I always seem to grab a bag of chips or a candy bar from the vending machine?\nUser: The Feeling is such a great band, I wish I could see them live in concert someday. Have you ever been to one of their shows?\nUser: Can you recommend some movie soundtracks similar to the Harry Potter ones?\nUser: It's fascinating to see how large companies have successfully used these scaling strategies. How can small businesses compete with them?\nUser: I'm excited to try their wood-fired seafood dishes. Can you tell me more about their drinks menu? Do they have a good selection of wine, cocktails, and beer?\nUser: That's great to hear. Do you know if other cities have also taken similar measures to reduce carbon emissions in the shipping industry?\nUser: What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?\nUser: I'm looking for some tips on making a good ciabatta. I've been getting into bread baking lately, actually just baked my first sourdough bread from scratch three weeks ago using a recipe from King Arthur Flour's website, and it turned out amazing. Now I want to try something new.\nUser: I'm a bit worried about the weather, as I know it can be quite cold and rainy this time of year. Can you recommend some good gear for running in the rain?\nUser: That's a great list, thank you! I'm particularly interested in the veggie-packed minestrone soup. Can you give me a simple recipe to make a large batch of it? And do you have any suggestions for sides that would complement it well?\nUser: I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.\nUser: I agree that sustainability in fashion is important, but sometimes sustainable brands can be quite expensive. How can we make sustainable fashion more accessible to a wider audience?\nAgent: That sounds like an excellent idea! Having your cleric struggle with their faith or purpose can make for some engaging and emotional roleplaying moments that make your character feel more real and relatable. Good luck, and have fun with your character!\nUser: I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?",
+      "anchors": [
+        "The national park spans roughly 900 square km.",
+        "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+        "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?",
+        "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.",
+        "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?",
+        "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+        "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "• Plays Catan with family Sundays (6 wks); mom's winning streak, dad still learning rules.\n• Baked first King Arthur sourdough 3 wks ago (amazing); slow-cooked ribs last wk (great), wants to improve.\n• Asked: ~900 sq km park; Brampton equity vs. other cities; ND filters/bracketing; most-effective income-inequality fix; Cetaphil price-match (Ulta/Walgreens); curbing Fri office snacking; The Feeling live; HP-like soundtracks; small-biz scaling; wood-fired seafood drinks; cities cutting shipping emissions; Negroni ratio; ciabatta tips; rain-running gear (worried cold/rainy).\n• Wants large-batch veggie minestrone + sides; plans choco-chip cookies (grandmother's 80th last wk, always a big hit).\n• Asked: sustainable fashion accessibility (brands quite expensive).\n• Called faith-struggling cleric excellent, engaging, emotional (more real/relatable); wished luck.\n• Wants to explore Alex's perfectionism vs. their laid-back nature in writing/creative work.\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?\n- Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.\n- What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "CHANGED",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "CHANGED",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "CHANGED",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "SAME"
+        },
+        "restored": [
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "• Plays Catan with family Sundays (6 wks; mom on a winning streak, dad still learning rules) and at a meetup.\n• Baked first King Arthur sourdough 3 wks ago (amazing); slow-cooked ribs last wk (great, always looking to improve).\n• Wants: large-batch veggie minestrone + sides, choco-chip cookies (grandmother's 80th last wk, always a big hit), Negroni gin:Campari:vermouth ratio, rib tips, ciabatta tips.\n• Asked: ~900 sq km park, Brampton equity, ND filters/bracketing, most-effective income-inequality fix, Cetaphil price-match (Ulta/Walgreens), Fri office snacking, The Feeling live, HP-like soundtracks, small-biz scaling, wood-fired seafood drinks, cities cutting shipping emissions, rain-running gear (worried cold/rainy), sustainable fashion accessibility (brands quite expensive).\n• Found faith-struggling cleric excellent/engaging/emotional/more real; wished luck.\n• Wants to explore Alex's perfectionism vs. own laid-back nature in creative work.\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?\n- Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "CHANGED",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "CHANGED",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "SAME"
+        },
+        "restored": [
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Plays Catan with family every Sunday (6 wks; mom on winning streak, dad still learning rules) + board game meetup (a lot of fun)\n- Baked first King Arthur sourdough 3 wks ago (amazing); slow-cooked ribs last wk (great, always looking to improve)\n- Wants: large-batch veggie minestrone+sides, classic choco-chip cookie recipe (grandma's 80th, always a big hit), Negroni ratio, rib/ciabatta tips\n- Asked: ~900 sq km park, Brampton equity, ND filters/bracketing, most-effective income-inequality fix, Cetaphil price-match (Ulta/Walgreens), Fri office snacking, The Feeling live, HP-like soundtracks, small-biz scaling, wood-fired seafood drinks, cities cutting shipping emissions, rain-running gear (worried cold/rainy), sustainable fashion (brands quite expensive)\n- Found faith-struggling cleric excellent/engaging/more real\n- Wants to explore Alex's perfectionism vs own laid-back nature in creative work\n- It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?\n- Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "SAME",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "CHANGED",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "CHANGED",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "SAME"
+        },
+        "restored": [
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Plays Catan w/ family every Sun (6 wks; mom winning streak, dad still learning) + game meetup (a lot of fun)\n- Baked 1st King Arthur sourdough 3 wks ago (amazing); slow-cooked ribs last wk (great, always improving)\n- Wants: large-batch veggie minestrone+sides, classic choco-chip cookie recipe (grandma's 80th, always a big hit), Negroni ratio, rib/ciabatta tips\n- Asked about: ~900 sq km park, Brampton equity, ND filters/bracketing, best income-inequality fix (solutions encouraging), Cetaphil price-match (Ulta/Walgreens), Fri office snacking, The Feeling live, HP-like soundtracks, small-biz scaling, wood-fired seafood drinks, cities cutting shipping emissions, rain-running gear (worried cold/rainy), sustainable fashion (brands quite expensive)\n- Found faith-struggling cleric excellent/engaging/more real\n- Wants to explore Alex's perfectionism vs own laid-back creativity\n- Agrees (\"yeah, I think so\"); will try\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "SAME",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "SAME",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "SAME"
+        },
+        "restored": [
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Catan: family Sun evenings (6 wks; mom winning streak, dad still learning) + meetup (a lot of fun)\n- Baked 1st King Arthur sourdough 3 wks ago (amazing); slow-cooked ribs last wk (great, always improving)\n- Wants: large-batch veggie minestrone+sides, classic choco-chip cookies (made for grandma's 80th last weekend, always a big hit), Negroni ratio, rib/ciabatta tips\n- Asked: ~900 sq km park, Brampton equity, ND filters/bracketing, best income-inequality fix, Cetaphil price-match (Ulta/Walgreens), Fri office snacking, The Feeling live, HP-like soundtracks, small-biz scaling, wood-fired seafood drinks, cities cutting shipping emissions, rain-running gear (worried cold/rainy), sustainable fashion (brands quite expensive)\n- Found faith-struggling cleric excellent/engaging/more real; wants to explore Alex's perfectionism vs own laid-back creativity\n- Agrees (\"yeah, I think so\"); will try cookies (made before, always a hit)\n- It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?\n- Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.\n- What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.\n- I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "SAME",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "CHANGED",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "CHANGED",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "CHANGED",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "CHANGED"
+        },
+        "restored": [
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Played Catan w/ Sun family 6 wks ago (mom winning streak, dad still learning); fun. Baked 1st King Arthur sourdough 3 wks ago (amazing). Slow-cooked ribs last wk (great, always improving). Choco-chip cookies for grandma's 80th last wkend (always a big hit; will try again).\n- Wants: large-batch veggie minestrone+sides, classic choco-chip cookies, Negroni gin:Campari:vermouth ratio, rib/ciabatta tips.\n- Asked: ~900 sq km park, Brampton equity, ND filters/bracketing, best income-inequality fix (finds solutions encouraging; wants most effective), Cetaphil price-match (Ulta/Walgreens), Fri office snacking, The Feeling live, HP-like soundtracks, small-biz scaling, wood-fired seafood drinks, cities cutting shipping emissions, rain-running gear (worried cold/rainy), sustainable fashion (brands quite expensive).\n- Found faith-struggling cleric excellent/engaging/more real.\n- Wants to explore Alex's perfectionism vs own laid-back creativity re writing/creative projects.\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?\n- Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "CHANGED",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "CHANGED",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "SAME"
+        },
+        "restored": [
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Played Catan (meetup + family Sundays ×6 wks); mom on winning streak, dad still learning rules.\n- 1st King Arthur sourdough 3 wks ago (amazing); slow-cooked ribs last wk (great, always improving); choco-chip cookies for grandma's 80th last wkend (big hit).\n- Wants: large-batch veggie minestrone + sides, classic cookies, Negroni ratio, rib/ciabatta tips.\n- Asked: ~900 sq km park, Brampton equity, ND filters/bracketing, most-effective income-inequality fix (finds solutions encouraging), Cetaphil price-match (Ulta/Walgreens), Fri office snacking, The Feeling live, HP-like soundtracks, small-biz scaling, wood-fired seafood drinks, cities cutting shipping emissions, rain-running gear (worried cold/rainy), sustainable fashion (brands quite expensive).\n- Found faith-struggling cleric excellent, engaging, more real.\n- Wants to explore Alex's perfectionism vs own laid-back creativity re writing.\n- Agrees try ribs, asks tips.\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.\n- I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "SAME",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "SAME",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "CHANGED"
+        },
+        "restored": [
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "• Played Catan (meetup + family Sundays, 6 wks); mom on winning streak, dad still learning.\n• Baked cookies for grandma's 80th (big hit); 1st King Arthur sourdough 3 wks ago (amazing); ribs last wk (great).\n• Wants: minestrone + sides, classic cookies, Negroni ratio, rib/ciabatta tips.\n• Asked about: ~900 sq km park, Brampton equity, ND filters, income-inequality fixes (finds encouraging), Cetaphil price-match, Fri snacking, The Feeling live, HP soundtracks, small-biz scaling, wood-fired seafood drinks, shipping-emission cities, rain-running gear (worried cold/rainy), sustainable fashion (quite expensive).\n• Found faith-struggling cleric excellent/more real.\n• Wants to explore Alex's perfectionism vs own laid-back creativity in writing.\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?\n- Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.\n- I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "CHANGED",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "CHANGED",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "CHANGED"
+        },
+        "restored": [
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "• Played Catan (meetup + family Sundays, 6 wks); mom on winning streak, dad still learning.\n• Baked cookies for grandma's 80th (big hit); 1st King Arthur sourdough 3 wks ago (amazing); 1st ribs last wk (great, looking to improve).\n• Wants: minestrone + sides, classic cookies, Negroni ratio, rib/ciabatta tips.\n• Asked: ~900 sq km park, Brampton equity, ND filters, income-inequality fixes (finds encouraging; asks most effective), Cetaphil price-match, Fri snacking, The Feeling live, HP soundtracks, small-biz scaling, wood-fired seafood drinks, shipping-emission cities, rain-running gear (worried cold/rainy), sustainable fashion (quite expensive).\n• Found faith-struggling cleric excellent / more real.\n• Wants to explore Alex's perfectionism vs own laid-back creative writing style.\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?\n- Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.\n- What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?\n- I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "CHANGED",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "CHANGED",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "CHANGED",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "SAME",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "CHANGED"
+        },
+        "restored": [
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Played Catan 6 wks (meetup + family Sundays; mom on winning streak, dad still learning).\n- 1st sourdough 3 wks ago (amazing); 1st ribs last wk (great, looking to improve); cookies for grandma's 80th (big hit).\n- Wants minestrone, cookies, Negroni ratio, rib/ciabatta tips.\n- Asked ~900 sq km park, Brampton equity, ND filters, income-inequality (finds encouraging; most effective?), Cetaphil, Fri snacking, The Feeling, HP soundtracks, small-biz, wood-fired seafood drinks, shipping-emission cities, rain-running (worried cold/rainy), sustainable fashion (quite expensive).\n- Found faith-struggling cleric excellent/more real; wants to explore Alex's perfectionism vs own laid-back creative writing.\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "SAME",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "CHANGED",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "SAME"
+        },
+        "restored": [
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- ~6 wks Catan (meetup + family Sundays); mom on winning streak, dad still learning rules.\n- 1st sourdough 3 wks ago (amazing); 1st ribs last wk (great, improving); choc-chip cookies for grandma's 80th (big hit).\n- Wants: minestrone, Negroni ratio, rib/ciabatta tips.\n- Asked ~900 sq km park, Brampton equity, ND filters, income-inequality (encouraging; most effective?), Cetaphil, Fri snacking, The Feeling, HP soundtracks, small-biz, wood-fired seafood drinks, shipping-emission cities, rain-running (worried cold/rainy), sustainable fashion (quite expensive).\n- Found faith-struggling cleric excellent/more real.\n- Wants to explore Alex's perfectionism vs own laid-back creative writing.\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.\n- I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "SAME",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "SAME",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "CHANGED"
+        },
+        "restored": [
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- **~6 wks:** Settlers of Catan (meetup + family Sundays; mom on winning streak, dad still figuring out rules). Baked 1st sourdough (3 wks ago, amazing), 1st ribs (last wk, great/improving), choc-chip cookies for grandma's 80th (big hit). Wants minestrone, Negroni ratio, rib/ciabatta tips.\n- **Asked about:** ~900 sq km park, Brampton equity, ND filters, income-inequality (encouraging; most effective?), Cetaphil, Fri snacking, The Feeling, HP soundtracks, small-biz, wood-fired seafood drinks, shipping-emission cities, rain-running (worried cold/rainy), sustainable fashion (quite expensive).\n- Found faith-struggling cleric excellent/more real; wants to explore Alex's perfectionism vs own laid-back creative writing.\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "SAME",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "SAME",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "MISSING",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "SAME"
+        },
+        "restored": [
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "• ~6 wks Sunday Catan w/ family (mom winning streak; dad still figuring rules); board-game meetup, lot of fun\n• 1st sourdough (3 wks ago, amazing); 1st ribs (last wk, great/improving); choc-chip cookies for grandma's 80th (big hit)\n• Wants: minestrone, Negroni ratio, rib/ciabatta tips\n• Plans classic choc-chip recipe (made before, always a hit)\n• Asked: ~900 sq km park, Brampton equity, ND filters, income-inequality (encouraging; most effective?), Cetaphil, Fri snacking, The Feeling, HP soundtracks, small-biz, wood-fired seafood drinks, shipping-emission cities, rain-running (worried cold/rainy), sustainable fashion (quite expensive)\n• Found faith-struggling cleric excellent/more real\n• Wants to explore Alex's perfectionism vs own laid-back creative writing\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "SAME",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "SAME",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "SAME"
+        },
+        "restored": [
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "• ~6 wks Sun Catan w/ family (mom winning streak; dad still figuring rules); board-game meetup before (a lot of fun)\n• 1st sourdough (3 wks, amazing); 1st ribs (last wk, great/improving)\n• Choc-chip cookies for grandma's 80th (big hit); plans classic recipe (made before, always a hit)\n• Wants: minestrone, Negroni ratio, rib/ciabatta tips\n• Asked re: ~900 sq km park, Brampton equity, ND filters, income-inequality (encouraging; most effective?), Cetaphil, Fri snacking, The Feeling, HP soundtracks, small-biz, wood-fired seafood drinks, shipping-emission cities, rain-running (worried cold/rainy), sustainable fashion (quite expensive)\n• Found faith-struggling cleric excellent/more real\n• Wants to explore Alex's perfectionism vs own laid-back creative writing\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "SAME",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "SAME",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "SAME"
+        },
+        "restored": [
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Plays Catan with family every Sunday evening (~6 wks; mom on winning streak, dad still figuring rules); previously played at a board-game meetup (a lot of fun).\n- 1st sourdough (3 wks, amazing); 1st ribs (last wk, great/improving); cookies for grandma's 80th (big hit); plans classic recipe (made before, always a hit).\n- Wants: minestrone, Negroni ratio, rib/ciabatta tips.\n- Asked about: ~900 sq km park, Brampton equity, ND filters, income inequality (encouraging; most effective?), Cetaphil, Fri snacking, The Feeling, HP soundtracks, small-biz, wood-fired seafood drinks, shipping-emission cities, rain-running (worried cold/rainy), sustainable fashion (quite expensive).\n- Found faith-struggling cleric excellent/more real; wants to explore Alex's perfectionism vs own laid-back creative writing.\n- I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "SAME",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "SAME",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "SAME",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "SAME",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "CHANGED"
+        },
+        "restored": [
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Plays Catan with family every Sunday evening (~6 wks; mom on winning streak, dad still figuring rules); previously at a board-game meetup (a lot of fun).\n- 1st sourdough (3 wks, amazing); 1st ribs (last wk, great/improving); cookies for grandma's 80th (big hit); plans classic recipe (made before, always a hit).\n- Wants: minestrone, Negroni ratio, rib/ciabatta tips.\n- Asked about: ~900 sq km park, Brampton equity, ND filters, income inequality (encouraging; most effective?), Cetaphil, Fri snacking, The Feeling, HP soundtracks, small-biz, wood-fired seafood drinks, shipping-emission cities, rain-running (worried cold/rainy), sustainable fashion (quite expensive).\n- Found faith-struggling cleric excellent/more real.\n- Wants to explore Alex's perfectionism vs. own more laid-back creative writing style and how that trait might affect their approach to creative projects.\n- What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "SAME",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "SAME",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "SAME",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "CHANGED",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "SAME"
+        },
+        "restored": [
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Plays Catan with family every Sun eve (~6 wks); mom on winning streak, dad still figuring rules; prev board-game meetup was a lot of fun.\n- Cooking: 1st sourdough (3 wks, amazing), 1st ribs (last wk, great/improving), cookies for grandma's 80th (big hit); plans classic chocolate chip (made before, always a hit). Wants minestrone, Negroni ratio, rib/ciabatta tips.\n- Asked ~13 topics (~900 sq km park, Brampton equity, ND filters, income inequality (encouraging; most effective?), Cetaphil, Fri snacking, The Feeling, HP soundtracks, small-biz, wood-fired seafood drinks, shipping-emission cities, rain-running (worried cold/rainy), sustainable fashion (quite expensive)).\n- Found faith-struggling cleric excellent/more real; wants to explore Alex's perfectionism vs. own more laid-back creative writing style and how that trait might affect creative projects.\n- Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.\n- What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "SAME",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "SAME",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "CHANGED",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "CHANGED",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "SAME",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "SAME"
+        },
+        "restored": [
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Plays Catan with family every Sunday eve (~6 wks); mom on winning streak, dad still figuring rules.\n- Cooked 1st sourdough (amazing), 1st ribs last wk (great, always improving); made grandma's 80th cookies (big hit).\n- Asked ~13 varied topics; found a faith-struggling cleric excellent/more real.\n- Wants to explore Alex's perfectionism vs own more laid-back creative style.\n- Wants minestrone, Negroni ratio, rib/ciabatta/slow-cooking tips (first rib try great).\n- Plans classic choc-chip cookies (made before, always a hit); plans to \"give it a shot\" at something.\n- The national park spans roughly 900 square km.\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?\n- What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "MISSING",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "MISSING",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "SAME",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "CHANGED",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "SAME"
+        },
+        "restored": [
+          "The national park spans roughly 900 square km.",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "• Plays Catan w/ family every Sun eve (~6 wks); mom on winning streak, dad still figuring out rules.\n• Baked 1st sourdough (amazing) & 1st ribs (great, always improving).\n• Made grandma's 80th-bday cookies; plans classic choc-chip cookies (both \"big hits\").\n• Wants: minestrone, Negroni ratio, rib/ciabatta/slow-cooking tips, income-inequality solutions, 900-sq-km national park info (~13 topics total).\n• Found faith-struggling cleric excellent/more real.\n• Wants to explore Alex's perfectionism vs own laid-back creative style.\n• Plans to \"give it a shot\" at something.\n- The national park spans roughly 900 square km.\n- I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.\n- It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "CHANGED",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "CHANGED",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "CHANGED",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "SAME",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "SAME"
+        },
+        "restored": [
+          "The national park spans roughly 900 square km.",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Plays Catan with family every Sun eve (~6 wks in; mom on winning streak, dad still figuring out rules) and at a board-game meetup (a lot of fun).\n- Baked 1st sourdough (amazing) & ribs (great, always improving); made grandma's 80th-bday cookies, plans classic choc-chip (both \"big hits\").\n- Wants: minestrone recipe, Negroni ratio, rib/ciabatta/slow-cooking tips.\n- Interested in income-inequality solutions (encouraging; asks which is most effective).\n- Wants ~900-sq-km national park info (~13 topics).\n- Found faith-struggling cleric excellent/more real.\n- Wants to explore Alex's perfectionism vs own laid-back creative style; plans to \"give it a shot.\"\n- It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?\n- I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.\n- I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?",
+      "avr": {
+        "verdicts": {
+          "The national park spans roughly 900 square km.": "SAME",
+          "I've actually played Settlers of Catan before, at a board game meetup I attended. It was a lot of fun, and I've been playing it with my family every Sunday evening for the past six weeks. My mom has been on a winning streak, and my dad is still trying to figure out the rules.": "SAME",
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?": "CHANGED",
+          "Yeah, I think so. I'll give it a shot. One more thing, do you have any tips on how to slow cook ribs? I tried it for the first time last week and it turned out great, but I'm always looking for ways to improve.": "SAME",
+          "What's the ideal ratio of gin to Campari to sweet vermouth for a classic Negroni?": "SAME",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.": "CHANGED",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?": "CHANGED"
+        },
+        "restored": [
+          "It's encouraging to see that there are potential solutions to address income inequality. Which of these solutions do you think is the most effective?",
+          "I think I'll try the classic chocolate chip cookie recipe. I've made them before, and they're always a hit. By the way, I made a batch of chocolate chip cookies for my grandmother's 80th birthday party last weekend, and they were a big hit.",
+          "I'd like to explore the idea of Alex's character being more of a perfectionist, whereas I'm more laid-back. How might this trait affect their writing style and overall approach to creative projects?"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "item_id": "cert_013",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.123462+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: Power might be restored by evening, though the fault looks major.\nUser: I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\nAgent: The term that comes next after kingdom, phylum, and class is \"order\". The taxonomic hierarchy goes as follows: kingdom, phylum, class, order, family, genus, species.\nUser: I'm thinking of scheduling a team meeting after the summit to discuss our experiences and follow up on any leads we generated. Do you have any advice on how to structure that meeting to make it productive and efficient?\nUser: I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.\nUser: I'm excited to experiment with making my own fermented foods. Do you have any other resources or websites you recommend for learning more about gut health and fermentation?\nUser: That's interesting! What steps can I take to support pollinators in my own backyard?\nUser: Seriously? You can't even remember what we were talking about a few seconds ago? I thought AI was supposed to be smarter than that.\nUser: I'd like to learn more about the history of stamp collecting and how it has evolved over time. Can you tell me more about the development of stamp collecting as a hobby and how it has changed over the years?\nUser: After briefly collecting myself, I head back downstairs and, in a rather gregarious mood, saddle up at the bar, order a whiskey, and strike up a conversation with the fellow patrons.\nUser: I'm looking for some tips on fly fishing, specifically on how to cast with a fly rod. I've been watching some YouTube videos, but I want to learn more about the proper technique.\nUser: I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.\nAgent: I hope you find what you're looking for and have a great time exploring the area on a bike. Don't forget to wear a helmet and stay safe!\nUser: I'm also interested in mobile streaming. Do you have any tips on how to optimize my content for mobile viewing?\nUser: Can you recommend any specific tour operators for travelers with disabilities in Budapest?\nUser: I'm looking for some advice on how to organize my skincare routine. I recently bought a set of facial cleansers and moisturizers at Sephora during their 20% off sale on all skincare products, and I want to make sure I'm using them correctly.\nUser: can you add another 5 mods to that script\nUser: Oh, I see. So what do you think is the most important factor for a team to win the MLS Cup? Is it having a strong offense or a solid defense?\nUser: These sound like such amazing cultural symbols and traditions in Cuba! I would love to experience them firsthand.\nUser: how to market yourself and get clients as a new brand identiy designer\nUser: I'd like to know more about the summer programs you mentioned. What kind of activities and services are typically provided, and how do they help support children during the summer months?",
+      "anchors": [
+        "Power might be restored by evening, though the fault looks major.",
+        "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+        "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.",
+        "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+        "can you add another 5 mods to that script"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Possible evening power restore (fault looks major); $50 coffee makers; taxonomic hierarchy (order follows class); post-summit team-meeting structure; meal-prep (chicken & rice Sundays; successful 3-course family meal); fermentation/gut-health resources; backyard pollinators; stamp-collecting history; first-person bar/whiskey scene; fly-fishing casting; airline award upgrade (7 trips/3 months, business class); mobile streaming tips; Budapest disabled-traveler tours; Sephora 20%-off skincare.\n- User was curious/excited on most topics but explicitly accused AI of forgetting what was discussed seconds earlier.\n- Requested 5 more mods to script; asked whether strong offense or solid defense matters most for winning MLS Cup.\n- Found Cuban cultural symbols/traditions amazing; would love to experience them firsthand.\n- Asked how to market/get clients as new brand-identity designer; requested more on prior summer programs (activities/services, child support).\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "CHANGED",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "SAME",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Covered diverse topics: major-fault power outage, $50 coffee makers, taxonomy, team-meeting structure, gut-health, pollinators, stamps, bar/whiskey, fly-fishing, 7 business-class airline-award trips in 3 months, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare.\n- Was curious/excited but explicitly accused AI of forgetting things seconds earlier.\n- Requested 5 script mods; asked offense-vs-defense for MLS Cup.\n- Found Cuban culture amazing; wants to experience it firsthand.\n- New brand-identity designer; asked about marketing and prior summer-program details.\n- Trying to cut daily commute costs.\n- Meal-preps big-batch chicken & rice on Sundays; wants new ideas.\n- Just cooked a successful 3-course family meal last weekend.\n- Power might be restored by evening, though the fault looks major.\n- I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.\n- can you add another 5 mods to that script",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "CHANGED",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "CHANGED",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "CHANGED"
+        },
+        "restored": [
+          "Power might be restored by evening, though the fault looks major.",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+          "can you add another 5 mods to that script"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Broad topics covered: major-fault power outage (might be restored by evening though fault looks major), $50 coffee makers, taxonomy, team-meeting structure, gut health, pollinators, stamps, bar/whiskey, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare.\n- Was curious/excited but explicitly accused AI of forgetting things seconds earlier.\n- Requested 5 script mods, then another 5.\n- Asked about MLS Cup offense-vs-defense.\n- Found Cuban culture amazing; wants firsthand experience.\n- New brand-identity designer; asked about marketing and prior summer-program details.\n- Cutting daily commute costs.\n- Meal-preps big-batch chicken & rice Sundays; wants new ideas; just cooked a successful 3-course family meal last weekend.\n- 7 business-class airline trips in last 3 months; checking loyalty program to redeem miles for upgrade on desired flight.\n- I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "CHANGED",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Major-fault outage \"might restore by evening though fault looks major\"; $50 coffee makers; topics: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- Curious/excited; explicitly accused AI of forgetting things seconds earlier.\n- Requested 5, then another 5, script mods.\n- Found Cuban culture amazing; wants firsthand experience.\n- New brand-identity designer; asking about marketing and prior summer-program details.\n- Cutting daily commute costs.\n- Meal-preps big-batch chicken & rice Sundays; wants new ideas; cooked successful 3-course family meal last weekend.\n- 7 business-class trips in last 3 months; checking loyalty program to redeem miles for upgrade on desired flight.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "CHANGED",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- User (curious/excited) explicitly accused AI of forgetting things seconds earlier.\n- Major-fault outage; might restore by evening, though fault looks major.\n- $50 coffee makers to cut daily commute costs.\n- 5 then 5 more script mods.\n- Cuban culture found amazing; wants firsthand experience.\n- New brand-identity designer role (asking re marketing & prior summer-program).\n- Meal-prep: big-batch chicken & rice Sundays; wants new ideas; cooked successful 3-course family meal last weekend.\n- 7 business-class trips in last 3 months; checking loyalty program to redeem miles for upgrade on desired flight.\n- Topics also spanned: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "CHANGED",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- User (curious/excited) accused AI of forgetting things seconds earlier.\n- Major-fault outage: might restore by evening, though fault looks major.\n- $50 coffee makers to cut daily commute costs.\n- 5 then 5 more script mods.\n- Cuban culture called amazing; user wants firsthand experience.\n- New brand-identity designer role; user asked about marketing & prior summer-program.\n- Meal-prep: big-batch chicken & rice Sundays (wants to mix it up); successful 3-course family meal last weekend.\n- 7 business-class trips in last 3 months; checking loyalty program to redeem miles for upgrade.\n- Also covered: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.\n- can you add another 5 mods to that script",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "CHANGED",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "CHANGED"
+        },
+        "restored": [
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+          "can you add another 5 mods to that script"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- User (curious/excited) accused AI of forgetting things.\n- Major-fault outage; might restore by evening, though fault looks major.\n- $50 coffee makers for commute savings.\n- Script mods: 5 done, 5 more done, another 5 requested.\n- Cuban culture: called amazing; wants firsthand experience.\n- New brand-identity designer role (marketing context; prior summer-program questions).\n- Meal-prep: big-batch chicken & rice Sundays (wants to mix it up); 3-course family meal last weekend was a huge success.\n- 7 business-class trips in last 3 months; checking loyalty program to redeem miles for upgrade.\n- Other topics: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- User (curious/excited) accused AI of forgetting.\n- Major-fault outage: might restore by evening, though fault looks major.\n- $50 coffee makers to cut daily commute costs.\n- Script mods: 5+5 done, 5 more requested.\n- Cuban culture: called amazing; wants firsthand experience.\n- New brand-identity designer marketing role.\n- Meal-prep: big-batch chicken & rice Sundays; wants to mix it up. 3-course family meal last weekend: huge success.\n- 7 business-class trips in last 3 months; checking loyalty program to redeem miles for an upgrade.\n- Assorted topics: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- Power might be restored by evening, though the fault looks major.\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "CHANGED",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "Power might be restored by evening, though the fault looks major.",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "• User (curious/excited) accused AI of forgetting.\n• Major-fault power outage; might restore by evening, though fault looks major.\n• $50 coffee makers to cut daily commute costs.\n• Script mods: 5+5 done, 5 more requested.\n• Cuban culture called amazing; wants firsthand experience.\n• New brand-identity designer marketing role.\n• Meal-prep: big-batch chicken & rice Sundays, wants to mix it up; 3-course family meal last weekend = huge success.\n• 7 business-class trips in last 3 months; checking loyalty program to redeem miles for upgrade.\n• Assorted topics touched: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- User (excitedly) accused AI of forgetting.\n- Major-fault power outage; might restore by evening, though fault looks major.\n- $50 coffee makers to cut commute costs.\n- Script mods: 5+5 done; 5 more requested.\n- Cuban culture called amazing; wants firsthand experience.\n- New brand-identity-designer marketing role.\n- Meal-prep: big-batch chicken & rice Sundays, wants variety; 3-course family meal last weekend was a huge success.\n- 7 business-class trips in the last 3 months; plans to check loyalty program for miles-for-upgrade.\n- Assorted topics: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- User excitedly accused AI of forgetting.\n- Major-fault power outage; might restore by evening, though fault looks major.\n- $50 coffee makers to cut commute costs.\n- 5+5 script mods completed; 5 more requested.\n- Cuban culture called amazing; wants firsthand experience.\n- New brand-identity-designer marketing role discussed.\n- Sunday big-batch chicken & rice meal-prep; wants variety; last 3-course family meal was a huge success.\n- 7 business-class trips in last 3 months; planning to check loyalty program/award availability for miles-for-upgrade.\n- Also touched: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- Power might be restored by evening, though the fault looks major.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "CHANGED",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "Power might be restored by evening, though the fault looks major.",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- User excitedly accused AI of forgetting.\n- Major-fault power outage; might restore by evening; fault looks major.\n- $50 coffee makers to cut commute costs.\n- 5+5 script mods completed; 5 more requested.\n- Cuban culture called amazing; wants firsthand experience.\n- New brand-identity-designer marketing role.\n- Sunday big-batch chicken & rice meal-prep; wants variety; last 3-course family meal was a huge success.\n- 7 business-class trips in last 3 months; will check loyalty-program award availability for a miles-for-upgrade.\n- Briefly touched on: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- User excitedly accused AI of forgetting.\n- Major-fault power outage; might restore by evening.\n- $50 coffee makers to cut commute costs.\n- 5+5 script mods completed; 5 more requested.\n- Cuban culture called amazing; wants firsthand experience.\n- New brand-identity-designer marketing role.\n- Sunday big-batch chicken & rice meal-prep; wants variety; last 3-course family meal was a huge success.\n- 7 business-class trips in last 3 months; will check loyalty-program award availability for miles-for-upgrade.\n- Briefly touched on: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- Power might be restored by evening, though the fault looks major.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "CHANGED",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "Power might be restored by evening, though the fault looks major.",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- User excitedly accused AI of forgetting.\n- Major-fault power outage; might restore by evening.\n- Seeking coffee makers under $50 to cut commute costs.\n- 5+5 script mods completed; 5 more requested.\n- Cuban culture called \"amazing\"; wants firsthand experience.\n- New brand-identity-designer marketing role.\n- Sunday big-batch chicken & rice meal-prep; wants variety; last 3-course family meal a huge success.\n- 7 business-class trips in last 3 months; checking loyalty-program award availability for miles-for-upgrade.\n- Briefly touched: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- Power might be restored by evening, though the fault looks major.\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "CHANGED",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "Power might be restored by evening, though the fault looks major.",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- User excitedly accused AI of forgetting.\n- Major-fault power outage might restore by evening.\n- Seeking coffee makers <$50 to cut commute costs.\n- 5+5 script mods done; 5 more requested.\n- Cuban culture \"amazing\"; wants firsthand experience.\n- New brand-identity-designer marketing role.\n- Sunday big-batch chicken & rice meal-prep, wants variety; last 3-course family meal huge success.\n- 7 business-class trips last 3 months; checking loyalty-program miles-for-upgrade.\n- Briefly: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- Power might be restored by evening, though the fault looks major.\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "CHANGED",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "Power might be restored by evening, though the fault looks major.",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- User excitedly accused AI of forgetting.\n- Major-fault power outage might restore by evening.\n- Coffee makers under $50 to cut commute costs.\n- 5+5 script mods done; 5 more requested.\n- Cuban culture called \"amazing\"; wants firsthand experience.\n- New brand-identity-designer marketing role discussed.\n- Sunday big-batch chicken & rice meal-prep; wants variety. Last 3-course family meal was a huge success.\n- 7 business-class trips in last 3 months; checking/hoping to redeem loyalty-program miles for an upgrade.\n- Briefly touched: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- Power might be restored by evening, though the fault looks major.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "CHANGED",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "Power might be restored by evening, though the fault looks major.",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "• User excitedly accused AI of forgetting.\n• Major-fault power outage; might restore by evening.\n• Coffee makers under $50 to cut daily commute costs.\n• 5+5 script mods completed; 5 more requested.\n• Cuban culture called \"amazing\"; wants firsthand experience.\n• New brand-identity-designer marketing role.\n• Sunday big-batch chicken & rice meal-prep; wants variety; last 3-course family meal a huge success.\n• 7 business-class trips in last 3 months; checking/hoping to redeem loyalty-program miles for a business-class upgrade.\n• Briefly touched: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Excitedly accused AI of forgetting.\n- Major-fault outage might restore by evening.\n- Needs coffee makers under $50 to cut commute costs.\n- 5+5 script mods done; 5 more requested.\n- Cuban culture \"amazing\"; wants firsthand experience.\n- New brand-identity-designer marketing role.\n- Sunday big-batch chicken & rice meal-prep; wants variety; last 3-course family meal a huge success.\n- 7 business-class trips in last 3 months; checking/hoping to redeem loyalty miles for upgrade; will check airline loyalty program for business-class award availability on desired flight.\n- Briefly touched: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "SAME",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Excitedly accused AI of forgetting; major-fault outage might restore by evening.\n- Needs coffee makers under $50 to cut commute costs.\n- 5+5 script mods done, 5 more requested.\n- Calls Cuban culture \"amazing\"; wants firsthand experience.\n- New brand-identity-designer marketing role.\n- Planning Sunday big-batch chicken & rice meal-prep (wants variety; last 3-course family meal a huge success).\n- 7 business-class trips in last 3 months; hoping to redeem loyalty miles for an upgrade (will check airline program for award availability).\n- Briefly touched: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- Power might be restored by evening, though the fault looks major.\n- I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "CHANGED",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "CHANGED",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "Power might be restored by evening, though the fault looks major.",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Excitedly accused AI of forgetting; major-fault outage might restore by evening.\n- Needs coffee makers under $50 to cut commute costs.\n- 5+5 script mods completed; 5 more requested.\n- Calls Cuban culture \"amazing\"; wants firsthand experience.\n- New brand-identity-designer marketing role.\n- Planning Sunday big-batch chicken & rice meal-prep (wants variety; last 3-course family meal was a huge success).\n- 7 business-class trips in last 3 months; hoping to redeem loyalty miles for an upgrade, will check airline program.\n- Briefly touched: taxonomy, gut health, pollinators, stamps, fly-fishing, streaming, Budapest disabled-traveler tours, Sephora 20%-off skincare, MLS Cup offense-vs-defense.\n- Power might be restored by evening, though the fault looks major.\n- I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.",
+      "avr": {
+        "verdicts": {
+          "Power might be restored by evening, though the fault looks major.": "CHANGED",
+          "I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?": "SAME",
+          "I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.": "SAME",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.": "CHANGED",
+          "can you add another 5 mods to that script": "SAME"
+        },
+        "restored": [
+          "Power might be restored by evening, though the fault looks major.",
+          "I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade."
+        ]
+      }
+    }
+  ]
+}

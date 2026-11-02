@@ -1,0 +1,241 @@
+{
+  "item_id": "obl_016",
+  "context_level": "c0",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.005548+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I need to submit my timesheet before Friday evening.",
+      "anchors": [
+        "I need to submit my timesheet before Friday evening."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- User needs to submit their timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- The user needs to submit their timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- User needs to submit their timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- User is required to submit a timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- User is required to submit a timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- User is required to submit a timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- User is required to submit a timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- The user is required to submit a timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- User is required to submit a timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Must submit timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Must submit the timesheet before Friday evening. This is a hard deadline, not optional.\n- I need to submit my timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "CHANGED"
+        },
+        "restored": [
+          "I need to submit my timesheet before Friday evening."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Timesheet must be submitted before Friday evening — a hard, non-optional deadline.\n- I need to submit my timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "CHANGED"
+        },
+        "restored": [
+          "I need to submit my timesheet before Friday evening."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Must submit timesheet before Friday evening — hard, non-optional deadline.\n- I need to submit my timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "CHANGED"
+        },
+        "restored": [
+          "I need to submit my timesheet before Friday evening."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Must submit timesheet before Friday evening. This is a hard, non-optional deadline.\n- I need to submit my timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "CHANGED"
+        },
+        "restored": [
+          "I need to submit my timesheet before Friday evening."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Timesheet must be submitted before Friday evening; this is a hard, non-optional deadline.\n- I need to submit my timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "CHANGED"
+        },
+        "restored": [
+          "I need to submit my timesheet before Friday evening."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- The user must submit their timesheet before Friday evening. This is a hard, non-optional deadline.\n- I need to submit my timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "CHANGED"
+        },
+        "restored": [
+          "I need to submit my timesheet before Friday evening."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- User must submit their timesheet before Friday evening; this is a hard, non-optional deadline.\n- I need to submit my timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "CHANGED"
+        },
+        "restored": [
+          "I need to submit my timesheet before Friday evening."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- The user must submit their timesheet before Friday evening. This is a hard, non-optional deadline.\n- I need to submit my timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "CHANGED"
+        },
+        "restored": [
+          "I need to submit my timesheet before Friday evening."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- The user must submit their timesheet before Friday evening.\n- This is a hard, non-optional deadline.\n- I need to submit my timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "CHANGED"
+        },
+        "restored": [
+          "I need to submit my timesheet before Friday evening."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Timesheet submission is mandatory (hard, non-optional): must be submitted before Friday evening.\n- I need to submit my timesheet before Friday evening.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "CHANGED"
+        },
+        "restored": [
+          "I need to submit my timesheet before Friday evening."
+        ]
+      }
+    }
+  ]
+}

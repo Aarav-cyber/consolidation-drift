@@ -1,0 +1,306 @@
+{
+  "item_id": "cert_004",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:05:00.195318+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain that the report was submitted yesterday.\nUser: That's great! Do they have a good selection of recent shows or is it mostly older content?\nUser: That sounds like a lot of work just to become a member of the Grammys Academy. Do you know if there are any shortcuts or connections I can use to bypass this process?\nUser: I'm trying to perfect my pasta sauce recipe. Do you have any tips on how to combine ingredients to get a rich and tangy flavor? By the way, I've been using fresh crushed tomatoes as a key ingredient in my pasta sauce recipe, and it's been a game-changer.\nUser: Interesting, it seems like a candidate's foreign policy stances can have a big impact on their chances of winning an election. Do you think voters place more emphasis on foreign policy compared to other issues like healthcare or the economy?\nUser: I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!\nUser: I think I'll try Freedom, I've heard good things about it.\nUser: Example of a script node in engati bot builder?\nUser: That's really interesting. I'd like to learn more about the traditional Ethiopian coffee ceremony. Can you walk me through the steps and what to expect during the ceremony?",
+      "anchors": [
+        "I am certain that the report was submitted yesterday.",
+        "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!",
+        "I think I'll try Freedom, I've heard good things about it."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Certain report submitted yesterday.\n- Asked about streaming content recency and Grammy Academy membership shortcuts.\n- Pasta sauce tip: uses fresh crushed tomatoes, described as a \"game-changer.\"\n- Asked whether voters emphasize foreign policy over healthcare/economy.\n- Chose an audiobook (Peter Kenny narration; enjoys on daily commute).\n- Plans to try \"Freedom\" (heard good things).\n- Requested an Engati script-node example.\n- Wants steps/expectations for the Ethiopian coffee ceremony.\n- I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "CHANGED",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!",
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Submitted a certain report yesterday.\n- Asked about: streaming content recency; Grammy Academy membership shortcuts; whether voters emphasize foreign policy over healthcare/economy; an Engati script-node example; steps/expectations for the Ethiopian coffee ceremony.\n- Chose an audiobook (Peter Kenny narration; enjoys it on daily commute; thinks it'll \"bring the story to life\").\n- Plans to try \"Freedom\" (heard good things).\n- Shared a pasta sauce tip using fresh crushed tomatoes, calling it a \"game-changer.\"\n- I am certain that the report was submitted yesterday.\n- I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "CHANGED",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "CHANGED",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I am certain that the report was submitted yesterday.",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!",
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Submitted a report yesterday (certain).\n- Asked about: streaming recency, Grammy Academy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, Ethiopian coffee ceremony steps.\n- Chose an audiobook (Peter Kenny narration); enjoys it on daily commute; thinks it'll \"bring the story to life.\"\n- Plans to try \"Freedom\" (heard good things).\n- Tip: pasta sauce with fresh crushed tomatoes — \"game-changer.\"\n- I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "CHANGED",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!",
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Submitted a report yesterday (certain).\n- Asked about: streaming recency, Grammy Academy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n- Chose an audiobook narrated by Peter Kenny; enjoys it on the daily commute and thinks it'll \"bring the story to life.\"\n- Plans to try \"Freedom\" (heard good things).\n- Shared a pasta sauce tip using fresh crushed tomatoes, calling it a \"game-changer.\"\n- I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "CHANGED",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!",
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Submitted a report yesterday (certain).\n- Asked about: streaming recency, Grammy Academy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n- Chose a Peter Kenny–narrated audiobook (enjoys it on daily commute; thinks it'll \"bring the story to life\").\n- Plans to try \"Freedom\" (heard good things).\n- Shared a fresh-crushed-tomato pasta sauce tip, calling it a \"game-changer.\"\n- I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "CHANGED",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!",
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "• Submitted a report yesterday (certain).\n• Asked about: streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n• Chose a Peter Kenny–narrated audiobook; enjoys listening on daily commute; thinks it'll \"bring the story to life.\"\n• Plans to try \"Freedom\" (heard good things).\n• Shared a fresh-crushed-tomato pasta sauce tip, calling it a \"game-changer.\"\n- I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "CHANGED",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!",
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- User submitted a report yesterday (certain) and asked about streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n- Shared a fresh-crushed-tomato pasta sauce tip, calling it a \"game-changer.\"\n- Thinks they'll go with a Peter Kenny–narrated audiobook (enjoys listening on daily commute; thinks it'll \"bring the story to life\").\n- Plans to try \"Freedom\" (heard good things).\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- User certainly submitted a report yesterday.\n- Asked about: streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, Ethiopian coffee ceremony steps.\n- Shared a fresh-crushed-tomato pasta sauce tip, calling it a \"game-changer.\"\n- Thinks they'll go with a Peter Kenny–narrated audiobook; enjoys listening on daily commute and thinks it'll \"bring the story to life.\"\n- Plans to try \"Freedom\" (heard good things).\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Certainly submitted a report yesterday.\n- Asked about streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n- Shared a fresh-crushed-tomato pasta sauce tip, calling it a \"game-changer.\"\n- Thinks they'll go with a Peter Kenny–narrated audiobook; enjoys listening on daily commute; thinks it'll \"bring the story to life.\"\n- Thinks will try *Freedom* (heard good things).",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Certainly submitted a report yesterday.\n- Asked about streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n- Shared a fresh-crushed-tomato pasta sauce tip, calling it a \"game-changer.\"\n- Thinks they'll go with a Peter Kenny–narrated audiobook (listens on daily commute; thinks it'll \"bring the story to life\").\n- Thinks will try *Freedom* (heard good things).",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Submitted a report yesterday.\n- Asked about streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n- Shared a fresh-crushed-tomato pasta sauce tip, calling it a \"game-changer.\"\n- Thinks they'll go with a Peter Kenny–narrated audiobook (listens on daily commute; thinks it'll \"bring the story to life\").\n- Plans to try *Freedom* (heard good things).\n- I am certain that the report was submitted yesterday.\n- I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "CHANGED",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "CHANGED",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I am certain that the report was submitted yesterday.",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!",
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- A certain report was submitted yesterday.\n- Asked about: streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n- Shared a fresh-crushed-tomato pasta sauce tip, calling it a \"game-changer.\"\n- Thinks they'll go with a Peter Kenny–narrated audiobook (listens on daily commute; thinks it'll \"bring the story to life\").\n- Plans to try *Freedom* (heard good things).\n- I am certain that the report was submitted yesterday.\n- I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "CHANGED",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "CHANGED",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I am certain that the report was submitted yesterday.",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!",
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- A report was submitted yesterday (stated with certainty).\n- Asked about: streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n- Shared a fresh-crushed-tomato pasta sauce tip, calling it a \"game-changer.\"\n- Thinks they'll go with a Peter Kenny–narrated audiobook (listens on daily commute; thinks it'll \"bring the story to life\").\n- Thinks they'll try *Freedom* (heard good things).",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Report submitted yesterday.\n- Asked about streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n- Shared a \"game-changer\" fresh-crushed-tomato pasta sauce tip.\n- Thinks they'll go with a Peter Kenny–narrated audiobook (listens on daily commute; thinks it'll \"bring the story to life\") and try *Freedom* (heard good things).\n- I am certain that the report was submitted yesterday.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "CHANGED",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME"
+        },
+        "restored": [
+          "I am certain that the report was submitted yesterday."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Report submitted yesterday (certain).\n- Asked about: streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, Ethiopian coffee ceremony steps.\n- Shared a \"game-changer\" fresh-crushed-tomato pasta sauce tip.\n- Thinks they'll go with a Peter Kenny–narrated audiobook (daily commute; thinks it'll \"bring the story to life\").\n- Thinks they'll try *Freedom* (heard good things).",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Report submitted yesterday.\n- Asked about streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n- Shared a \"game-changer\" fresh-crushed-tomato pasta sauce tip.\n- Thinks they'll go with a Peter Kenny–narrated audiobook (daily commute; thinks it'll \"bring the story to life\") and try *Freedom* (heard good things).\n- I am certain that the report was submitted yesterday.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "CHANGED",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME"
+        },
+        "restored": [
+          "I am certain that the report was submitted yesterday."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Report definitely submitted yesterday.\n- Asked about streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n- Shared a \"game-changer\" fresh-crushed-tomato pasta sauce tip.\n- Thinks they'll go with a Peter Kenny–narrated audiobook (daily commute; thinks it'll \"bring the story to life\").\n- Plans to try *Freedom* (heard good things).\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Report definitely submitted yesterday.\n- Asked about streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n- Shared a \"game-changer\" fresh-crushed-tomato pasta sauce tip.\n- Thinks they'll go with the Peter Kenny–narrated audiobook (daily commute; thinks it'll \"bring the story to life\").\n- Plans to try *Freedom* (heard good things).\n- Thinks I'll try *Freedom*; heard good things about it.\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Report definitely submitted yesterday.\n- Asked about streaming recency, Grammy membership shortcuts, voters' foreign-policy-over-healthcare/economy emphasis, an Engati script-node example, and Ethiopian coffee ceremony steps.\n- Shared a \"game-changer\" fresh-crushed-tomato pasta sauce tip.\n- Thinks they'll go with the Peter Kenny–narrated audiobook for daily commute; thinks it'll \"bring the story to life.\"\n- Plans to try *Freedom* (heard good things).\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Report definitely submitted yesterday.\n- Asked about streaming recency, Grammy membership, voter priorities, Engati script-nodes, and Ethiopian coffee ceremony.\n- Shared a \"game-changer\" pasta sauce tip.\n- Thinks they'll go with the Peter Kenny audiobook for commute (\"bring the story to life\").\n- Plans to try *Freedom* (heard good things).\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    }
+  ]
+}

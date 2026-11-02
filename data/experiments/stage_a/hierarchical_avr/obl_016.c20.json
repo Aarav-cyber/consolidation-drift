@@ -1,0 +1,441 @@
+{
+  "item_id": "obl_016",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.148439+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I need to submit my timesheet before Friday evening.\nUser: I had no idea that ducks had such a wide range of communication methods. Do you think they could teach us a thing or two about nonverbal communication?\nUser: I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\nAgent: Thank you for letting me know. I'm sorry to hear about David Paulides' loss.\nUser: Can you provide recommendations on accessible apps and programs for individuals with cognitive disabilities?\nUser: I'm looking for some bike shops near my new place. I've been meaning to buy a bike to reduce my reliance on public transport.\nAgent: There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".\nUser: What kind of wildlife can be found in the Southern Ocean, and are they different from what we find in other oceans?\nUser: A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\nUser: What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself\nAgent: I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!\nUser: I'm actually thinking about the Imagine Dragons concert I went to last month at the Xfinity Center, it was amazing! Do you think I would enjoy the vibe at Levitate?\nUser: I think I'll reach out to my friend Rachel, who also lost her mom recently. We can talk about our shared experiences and support each other through this tough time.\nUser: I like the idea of scheduling physical activity into my daily routine. Can you give me some tips on how to establish a consistent sleep schedule, so I can make sure I have enough energy to stick to my new activity plan?\nUser: What is awscli a python library do?\nUser: I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.\nUser: I'll start filling out the template. Under \"How We Met\", I'll include the location where I met them. For Sophia, it was a coffee shop in the city.\nUser: I've been struggling with my mattress lately, and I'm considering buying a new one from Casper or Purple. Has anyone had any experience with these brands?\nUser: I'm thinking of taking my photography class on a field trip to one of these parks. Do you think that's a good idea? And can you suggest some specific photography projects or assignments that would be suitable for a class trip?\nUser: I've been thinking about taking my kayak to Lake Tahoe, where I went on a fishing trip with my friends a few weeks ago, and trying out some of the techniques I've learned in my fishing class. Do you have any info on fishing regulations in Lake Tahoe?\nUser: examine the cultists bodies for any valualbe loot.",
+      "anchors": [
+        "I need to submit my timesheet before Friday evening.",
+        "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+        "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".",
+        "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+        "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself",
+        "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!",
+        "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "• Timesheet due before Friday evening.\n• Duck communication (wide range); book tracking (active, \"Book Lovers Unite\" FB group); accessible apps/programs for cognitive disabilities; bike shops near new place (cut public-transport reliance); 2 paths sb→td via alias (2-edge, 3-edge); Southern vs. other-ocean wildlife; one-party state avoiding democratic delays.\n• Pitching Ralf Reichert (helped with games, no self-benefit); Sushi Go! night; Imagine Dragons, Xfinity Center (last month, \"amazing\") vs. Levitate; contacting Rachel (also lost her mom) for support.\n• Physical activity + consistent sleep; awscli; 5-min/3×-wk Headspace (challenge: consistency, esp. weekends).\n• \"How We Met\" template (Sophia: city coffee shop); mattress (Casper/Purple); photography field trip to park; Lake Tahoe kayaking (fished there a few weeks ago) for fishing-class practice; seeking mattress/field-trip/Tahoe-fishing input; examining cultist bodies for loot.\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself\n- I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "CHANGED",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "CHANGED",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Interested in: duck comms; book tracking via \"Book Lovers Unite\" FB (active, great recs; uncertainly \"or something\" re: list); cognitive-disability accessible apps; bike shops near new place; 2 alias paths (2-edge/3-edge); Southern vs other-ocean wildlife; one-party state advantage (avoids democratic delays).\n- Pitching Ralf Reichert (old friend; helped w/ games, no self-benefit) as singular investor.\n- Sushi Go! night (hopes strategies beat family; most important: have fun); Imagine Dragons/Xfinity Ctr (last month, \"amazing\") vs Levitate; contacting Rachel (also lost her mom) re: support; \"How We Met\" template (Sophia: city coffee shop); mattress (Casper/Purple); Tahoe kayaking/fishing (fished few weeks ago); cultist bodies/loot.\n- Timesheet due before Friday; planning 5-min/3×/wk Headspace meditation (biggest challenge: consistency, esp. weekends); awscli; physical activity + consistent sleep; seeking input: mattress/field-trip/Tahoe-fishing.\n- I need to submit my timesheet before Friday evening.\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself\n- I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "CHANGED",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "CHANGED",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "CHANGED",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "CHANGED",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "SAME"
+        },
+        "restored": [
+          "I need to submit my timesheet before Friday evening.",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "• Interested in: duck comms; \"Book Lovers Unite\" FB (active, great recs; \"or something\" re: list); cognitive-disability accessible apps; bike shops near new place; 2 alias paths (2-edge/3-edge) sb→td; Southern vs other-ocean wildlife; one-party state advantage (avoids democratic delays)\n• Pitching Ralf Reichert (old friend, helped w/ games, no self-benefit) as singular investor\n• Sushi Go! night: hopes strategies beat family; most important: have fun\n• Imagine Dragons/Xfinity Ctr (last month, \"amazing\") vs Levitate\n• Contacting Rachel (also lost her mom)\n• \"How We Met\" template (Sophia: city coffee shop)\n• Mattress (Casper/Purple); Tahoe kayaking/fishing (fished few weeks ago); cultist bodies/loot\n• Timesheet due before Friday; awscli; physical activity + consistent sleep\n• 5-min/3×/wk Headspace (biggest challenge: consistency esp. weekends)\n• Seeking input: mattress/field-trip/Tahoe-fishing\n- I need to submit my timesheet before Friday evening.\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "CHANGED",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "SAME",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "SAME",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I need to submit my timesheet before Friday evening.",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "• **Interests:** duck comms; Book Lovers Unite FB (active, great recs; needs list \"or something\" to track titles); cognitive-disability accessible apps; bike shops near new place; 2 alias paths (2-edge/3-edge) sb→td; Southern vs other-ocean wildlife; one-party state advantage (avoids all democratic delays).\n• Pitching Ralf Reichert (old friend, helped w/ games, no self-benefit) as singular investor.\n• Sushi Go! night (hopes strategies beat family; most important: have fun).\n• Imagine Dragons/Xfinity Ctr (last month, \"amazing\") vs Levitate.\n• Contacting Rachel (also lost her mom).\n• \"How We Met\" template (Sophia: city coffee shop).\n• Mattress (Casper/Purple); Tahoe kayaking/fishing (fished few weeks ago); cultist bodies/loot.\n• Timesheet due before Friday evening (awscli).\n• Physical activity + consistent sleep; 5-min Headspace 3×/wk (biggest challenge: consistency esp. weekends).\n• Seeking input: mattress/field-trip/Tahoe-fishing.\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "CHANGED",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "SAME",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "SAME"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "• Interests: duck comms; Book Lovers Unite FB (active, great recs; needs a way to track titles); cognitive-disability accessible apps; bike shops near new place; 2 alias paths (2-edge/3-edge) sb→td; Southern vs other-ocean wildlife; one-party state advantage (avoids all democratic delays).\n• Pitching old friend Ralf Reichert (helped w/ games, no self-benefit) as singular investor—asking about successful chances.\n• Sushi Go! night: hopes strategies beat family; most important—have fun.\n• Imagine Dragons/Xfinity Ctr last month (\"amazing\") vs Levitate.\n• Contacted Rachel (also lost her mom).\n• \"How We Met\" template (Sophia, city coffee shop).\n• Mattress (Casper/Purple); Tahoe kayaking/fishing (fished few wks ago); seeking input re: mattress/field-trip/Tahoe-fishing.\n• Cultist bodies/loot.\n• Timesheet due before Friday evening (awscli).\n• 5-min Headspace 3×/wk; biggest challenge: consistency esp. weekends.\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "SAME",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "CHANGED",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "• Interests: duck comms; Book Lovers Unite FB (active, great recs, unsure re: tracking titles); cognitive-disability accessible apps; bike shops near new place; 2 alias paths (2-edge/3-edge) sb→td; Southern vs other-ocean wildlife; one-party state advantage (avoids all democratic delays)\n• Pitching old friend Ralf Reichert (helped w/ games, no self-benefit) as sole investor; asking about chances\n• Contacted Rachel (also lost her mom)\n• \"How We Met\" template (Sophia, city coffee shop)\n• Sushi Go! night: hopes strategies beat family; most important is having fun\n• Imagine Dragons/Xfinity Ctr last month (\"amazing\") vs Levitate\n• Seeking input: mattress (Casper/Purple), field-trip, Tahoe kayaking/fishing (fished few wks ago)\n• Cultist bodies/loot\n• Timesheet due before Friday evening (awscli)\n• 5-min Headspace 3×/wk; biggest challenge: consistency, esp. weekends\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "CHANGED",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "SAME",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Broad interests: duck comms, Book Lovers Unite FB (really active, great recs; unsure re: tracking titles), cognitive-disability accessible apps, bike shops, 2 alias paths 2/3-edge, Southern vs other-ocean wildlife, one-party state advantage avoiding all democratic delays.\n- Pitching old friend Ralf Reichert as sole investor (helped w/ games, no self-benefit); asking about chances.\n- Contacted Rachel (also lost her mom).\n- \"How We Met\" template: Sophia, city coffee shop.\n- Sushi Go! night—hopes strategies beat family; fun most important.\n- Imagine Dragons/Xfinity Ctr last month (\"amazing\") vs Levitate.\n- Seeking input: mattress (Casper/Purple), field-trip, Tahoe kayaking/fishing (fished few wks ago).\n- Cultist bodies/loot.\n- Timesheet due before Friday evening (awscli).\n- Starting 5-min Headspace 3×/wk; biggest challenge: consistency, esp. weekends.\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "CHANGED",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "SAME",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Broad interests: duck comms, Book Lovers Unite FB (really active, great recs; unsure re: tracking titles), cognitive-disability accessible apps, bike shops, 2 alias paths 2/3-edge, Southern vs other-ocean wildlife, one-party state advantage (avoids all democratic delays).\n- Seeking input: mattress (Casper/Purple), field-trip, Tahoe kayaking/fishing (fished few wks ago).\n- Sushi Go! night: hopes strategies beat family; fun most important.\n- Imagine Dragons/Xfinity Ctr last month (\"amazing\") vs Levitate.\n- Contacted Rachel (also lost her mom); \"How We Met\" template (Sophia, city coffee shop); Cultist bodies/loot.\n- Timesheet due before Friday evening (awscli).\n- Pitching old friend Ralf Reichert as sole investor (helped w/ games at no self-benefit); asking about chances.\n- Starting 5-min Headspace meditation 3×/wk; biggest challenge consistency esp. weekends (tends to sleep in later).\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "SAME",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "SAME",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "CHANGED",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Interests: duck comms; Book Lovers Unite FB (really active, great recs; unsure re: tracking titles); cog-disability accessible apps; bike shops; 2 alias paths 2/3-edge; Southern vs other-ocean wildlife; one-party state (avoids all democratic delays).\n- Wants input: mattress (Casper/Purple); field-trip; Tahoe kayaking/fishing (fished few wks ago).\n- Sushi Go!: hopes strategies beat family; fun most important.\n- Imagine Dragons/Xfinity Ctr last month (\"amazing\") vs Levitate.\n- Contacted Rachel (also lost mom); \"How We Met\" template (Sophia, city coffee shop); Cultist bodies/loot.\n- Timesheet due before Friday evening (awscli).\n- Pitching old friend Ralf Reichert (helped w/ games, no self-benefit) as sole investor; asking re: chances.\n- Starting 5-min Headspace 3×/wk; biggest challenge consistency esp. weekends (tends to sleep in later).\n- I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "SAME",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "SAME",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "SAME",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "CHANGED",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "• Interests: duck comms; Book Lovers Unite FB (really active, great recs, unsure re: tracking); cog-disability accessible apps; bike shops; 2 alias paths 2/3-edge; Southern vs other-ocean wildlife; one-party state (avoids all democratic delays)\n• Wants input: Casper/Purple mattress; field trip; Tahoe kayaking/fishing (fished a few wks ago)\n• Sushi Go! strategies (hopes beat family; fun most important)\n• Imagine Dragons Xfinity Ctr last month (\"amazing\") vs Levitate\n• Contacted Rachel (also lost mom); \"How We Met\" template (Sophia, city coffee shop); Cultist bodies/loot\n• Timesheet due before Friday evening (awscli)\n• Pitching old friend Ralf Reichert (helped w/ games, no self-benefit) as sole investor, asking re: chances\n• Starting 5-min Headspace 3×/wk; biggest challenge consistency esp. weekends (tends to sleep in later)\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "SAME",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "SAME",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "SAME",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "SAME"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- **Interests:** duck comms, Book Lovers Unite FB (active, great recs; unsure re: tracking titles), cog-disability apps, bike shops, 2 alias paths (2/3-edge), Southern vs other-ocean wildlife, one-party state avoiding all democratic delays\n- **Input sought:** Casper/Purple, field trip, Tahoe kayaking/fishing (fished a few wks ago)\n- **Sushi Go!:** hopes to beat family; fun most important\n- **Music:** Imagine Dragons at Xfinity Ctr last month (\"amazing\") vs Levitate\n- **Personal:** contacted Rachel (also lost mom)\n- **Creative:** \"How We Met\" template (Sophia, city coffee shop); cultist bodies/loot\n- **Task:** timesheet due before Friday evening (awscli)\n- **Business:** pitching old friend Ralf Reichert (helped w/ games, no self-benefit) as sole investor; asking re: chances\n- **Wellness:** starting 5-min Headspace 3×/wk; biggest challenge: consistency esp. weekends (tends to sleep in later)\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "SAME",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "SAME",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- **Interests:** duck comms; Book Lovers Unite FB (active, great recs; unsure re tracking titles); cog-disability apps; bike shops; 2 alias paths (2/3-edge); Southern vs other-ocean wildlife; one-party state (avoids all democratic delays).\n- **Sought input:** Casper/Purple; field trip; Tahoe kayaking/fishing (fished a few wks ago); Sushi Go! (hopes to beat family; fun most important); Imagine Dragons at Xfinity Ctr last month \"amazing\" vs Levitate.\n- **Contacted Rachel** (also lost mom). **Creative:** \"How We Met\" (Sophia, city coffee shop); cultist bodies/loot. **Timesheet** due before Friday evening (awscli). **Pitching** old friend Ralf Reichert (helped w/ games, no self-benefit) as sole investor; asking re chances.\n- **Starting** 5-min Headspace 3×/wk; biggest challenge: consistency esp. weekends (sleeps in later).\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "SAME",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "CHANGED",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "SAME",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "• Interests: duck comms; Book Lovers Unite FB (really active, great recs; unsure re tracking titles); cog-disability apps; bike shops; 2 alias paths (2/3-edge); Southern vs other-ocean wildlife; one-party state.\n• Sought input: Casper/Purple; field trip; Tahoe kayaking/fishing; Sushi Go!; Imagine Dragons at Xfinity Ctr last month (\"amazing\") vs Levitate.\n• Contacted Rachel (also lost mom).\n• Creative: \"How We Met\" (Sophia, city coffee shop); cultist bodies/loot.\n• Timesheet (awscli) due before Friday evening.\n• Re pitching old friend Ralf Reichert (helped w/ games, no self-benefit) as sole investor.\n• Starting 5-min Headspace 3×/wk; biggest challenge: consistency esp. weekends (sleeps in later).\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself\n- I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "CHANGED",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "CHANGED",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "MISSING",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- **Interests/queries:** duck comms; Book Lovers Unite FB (really active, great recs, unsure re tracking titles); cog-disability apps; bike shops; 2 alias paths (2-edge & 3-edge); Southern vs other-ocean wildlife; one-party state (advantage: avoids arguments delaying democratic progress); sought input on Casper/Purple, field trip, Tahoe kayaking/fishing, Sushi Go! (fun most important); Imagine Dragons at Xfinity Ctr last month (\"amazing\") vs Levitate; contacted Rachel (also lost mom); creative: \"How We Met\" (Sophia, city coffee shop) + cultist bodies/loot.\n- **Tasks/plans:** awscli timesheet due before Friday evening; re-pitching old friend Ralf Reichert (helped w/ games, no self-benefit) as sole investor; starting 5-min Headspace 3×/wk (biggest challenge: consistency, esp. weekends when sleeps in later).\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself\n- I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "CHANGED",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "CHANGED",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "SAME"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!"
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "• Very active in Book Lovers Unite FB (great recs; unsure how to track titles).\n• Interests: duck comms, cog-disability apps, bike shops, 2 alias paths (2-edge & 3-edge), Southern vs other-ocean wildlife, one-party state (advantage: avoids arguments delaying democratic progress), Casper/Purple, Tahoe kayaking/fishing, Sushi Go! (fun most important; hopes strategies beat family), Imagine Dragons at Xfinity Ctr last month (\"amazing\") vs Levitate, contacted Rachel (also lost mom), creative \"How We Met\" + cultist bodies/loot.\n• Tasks: awscli timesheet due before Friday evening; re-pitching old friend Ralf Reichert as sole investor (helped w/ games, no self-benefit, asking about success chances); starting 5-min Headspace 3×/wk (biggest challenge: consistency, esp. weekends when sleeps in later).\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "SAME",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "SAME",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Very active in Book Lovers Unite FB (great recs; unsure how to track titles/make list).\n- Broad interests: duck comms, cog-disability apps, bike shops, 2 alias paths (2- & 3-edge), Southern vs other-ocean wildlife, one-party state (significant advantage: avoids arguments delaying democratic progress), Casper/Purple, Tahoe kayaking/fishing, Sushi Go! (fun most important; hopes strategies beat family), Imagine Dragons at Xfinity Ctr last month (\"amazing\") vs Levitate, contacted Rachel (also lost mom), creative \"How We Met\" + cultist bodies/loot.\n- Tasks: awscli timesheet due before Friday evening; re-pitching old friend Ralf Reichert as sole investor (no self-benefit; asking about success chances); starting 5-min Headspace meditation 3×/wk (biggest challenge: consistency, esp. weekends when sleeps in later).\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "CHANGED",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "SAME",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Actually interested in all listed topics; very active in Book Lovers Unite FB (great recs; unsure how to track titles or make list).\n- Broad interests: duck comms, cog-disability apps, bike shops, 2 alias paths (2- & 3-edge), Southern vs other-ocean wildlife, one-party state (significant advantage: avoids arguments delaying democratic progress), Casper/Purple, Tahoe kayaking/fishing, Sushi Go! (fun most important; hopes strategies beat family), Imagine Dragons at Xfinity Ctr last month (\"amazing\") vs Levitate, contacted Rachel (also lost mom), creative \"How We Met\" + cultist bodies/loot.\n- Tasks: awscli timesheet due before Friday evening; re-pitching old friend Ralf Reichert as sole investor (no self-benefit to him; asking about success chances); starting 5-min Headspace meditation 3×/wk (biggest challenge: consistency, esp. weekends when sleeps in later).\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "CHANGED",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "CHANGED",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "SAME",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "• Very active in Book Lovers Unite FB (great recs; unsure how to track titles or make a list).\n• Interests: duck comms, cog-disability apps, bike shops, 2 alias paths (2-edge sb→B→D; 3-edge sb→B→C→D), Southern vs other-ocean wildlife, one-party state (significant advantage: avoids all arguments delaying democratic progress), Casper/Purple, Tahoe kayaking/fishing, Sushi Go! (fun most important; hopes strategies beat family), Imagine Dragons at Xfinity Ctr last month (\"amazing\") vs Levitate, contacted Rachel (also lost mom), creative \"How We Met\" + cultist bodies/loot.\n• awscli timesheet due before Friday evening.\n• Re-pitching old friend Ralf Reichert (helped leverage partnerships/aided game dev at no self-benefit to him) as sole investor (asking about success chances).\n• Starting 5-min Headspace meditation 3×/wk (biggest challenge: consistency, esp. weekends; sleeps in later).\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "SAME",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "CHANGED",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "SAME",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "SAME"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Very active in Book Lovers Unite FB (great recs); unsure how to track titles/make a list.\n- Actually interested in all listed topics: duck comms, cog-disability apps, bike shops, 2 alias paths (2-edge sb→B→D; 3-edge sb→B→C→D), Southern vs other-ocean wildlife, one-party state, Casper/Purple, Tahoe kayaking/fishing, Sushi Go!, Imagine Dragons \"amazing\" vs Levitate, Rachel, How We Met + cultist bodies/loot.\n- awscli timesheet due before Friday evening.\n- Re-pitching old friend Ralf Reichert (aided partnerships/game dev at no self-benefit) as sole investor; asking about success chances.\n- Starting 5-min Headspace meditation 3×/wk; biggest challenge is consistency esp. weekends.\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "CHANGED",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "MISSING",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "SAME",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "CHANGED",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Very active in \"Book Lovers Unite\" FB (great recs); unsure how to track titles/make a list.\n- Interested in all listed topics: duck comms, cog-disability apps, bike shops, 2 alias paths (2-edge sb→B→D; 3-edge sb→B→C→D), Southern vs other-ocean wildlife, one-party state (advantage: avoids democratic arguments delaying progress), Casper/Purple, Tahoe kayaking/fishing, Sushi Go! (hopes strategies help beat family; most important is having fun), Imagine Dragons \"amazing\" vs Levitate, Rachel, How We Met + cultist bodies/loot.\n- awscli timesheet due before Friday evening.\n- Re-pitching old friend Ralf Reichert (aided partnerships/game dev, no self-benefit) as sole investor; asking success chances.\n- Starting 5-min Headspace meditation 3×/wk; biggest challenge is consistency esp. weekends (tends to sleep in later).\n- I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?\n- A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.\n- I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.",
+      "avr": {
+        "verdicts": {
+          "I need to submit my timesheet before Friday evening.": "SAME",
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?": "CHANGED",
+          "There are 2 paths from \"sb\" to \"td\" if you use the alias name:\n\n1. \"sb\" (alias of node B) -> B -> D (alias of \"td\") (2 edges)\n2. \"sb\" (alias of node B) -> B -> C -> D (alias of \"td\") (3 edges)\n\nTherefore, there are 2 possible paths from \"sb\" to \"td\".": "SAME",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.": "CHANGED",
+          "What are the successful chances of pitching this to Ralf Reichert, as a singular investor. He is an old friend who has helped me leverage partnerships/aided in the development of whatever games I have worked on at no benefit to himself": "SAME",
+          "I hope the strategies help you to beat your family members in Sushi Go! Remember, the most important thing is to have fun playing together! Enjoy your game night!": "SAME",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually interested in all of these! I've been really active in this Facebook group, Book Lovers Unite, and I've gotten a lot of great recs from the community. Do you know how I can keep track of all these titles? Is there a way to create a list or something?",
+          "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+          "I'm planning to start with a 5-minute guided meditation session, 3 times a week, using the Headspace app. I think the biggest challenge I'll face is making it a consistent habit, especially on weekends when I tend to sleep in later."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "item_id": "cert_032",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.886064+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am fairly confident the promotion will be announced in April.\nUser: It's good that there are potential solutions to income inequality in the US, but it seems like it will take a long time to implement them all. What can be done in the meantime to help those who are struggling financially?\nUser: I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?\nUser: I'm excited to start working on building my confidence and meaningful relationships. Do you have any suggestions for specific activities I can try to step out of my comfort zone?\nUser: I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\nUser: Was Franco's use of music and sound unique to his filmmaking style or was it common among other filmmakers in Spain during his time?\nUser: How has Arbroath's fishing industry played a role in shaping its culinary heritage?\nUser: Well, it sounds like the colonial powers did a lot of damage to the Caribbean islands. Have the islands been able to recover from the harm caused by colonialism?\nUser: I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+      "anchors": [
+        "I am fairly confident the promotion will be announced in April.",
+        "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?",
+        "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+        "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Fairly confident an April promotion is coming.\n- Asks about: interim aid for US income inequality; durable, easy-clean dog bowls for Max (3 mo old, showing wear); comfort-zone activities; 10-min pre-breakfast meditation tips.\n- Also asks: Franco's music vs. peers; Arbroath's fishing/culinary ties; Caribbean post-colonial recovery; Oyeyemi's style re: social issues.\n- I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "CHANGED",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED"
+        },
+        "restored": [
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Fairly confident an April promotion is coming.\n- Inquires about: interim US income-inequality aid; durable/easy-clean bowls for Max (3-month-old, showing wear); comfort-zone activities; 10-min pre-breakfast meditation tips (building a habit); Franco's music vs. peers; Arbroath's fishing/culinary ties; Caribbean post-colonial recovery; Oyeyemi's style and its relation to current events/social issues.\n- I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "CHANGED",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME"
+        },
+        "restored": [
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Fairly confident an April promotion is coming.\n- Asked about: US income-inequality aid; durable easy-clean bowls for Max (3-month-old; same bowls showing wear/tear); comfort-zone activities; 10-min pre-breakfast meditation tips (building a habit); Franco's music vs. peers; Arbroath's fishing/culinary ties; Caribbean post-colonial recovery; Oyeyemi's style and relation to current events/social issues.\n- I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "CHANGED",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME"
+        },
+        "restored": [
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Fairly confident an April promotion is coming.\n- Asked about: US income-inequality aid; durable easy-clean bowls for Max (same bowls ~3 months, showing wear/tear); comfort-zone activities; 10-min pre-breakfast meditation tips (building a habit); Franco's music vs. peers; Arbroath's fishing/culinary ties; Caribbean post-colonial recovery; and Oyeyemi's style relative to current events/social issues.\n- I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "CHANGED",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED"
+        },
+        "restored": [
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Fairly confident an April promotion is coming.\n- Asked about: US income-inequality aid; durable easy-clean bowls for Max (same bowls ~3 months, showing wear/tear—thinks it's time to replace); comfort-zone activities; 10-min pre-breakfast meditation tips; Franco's music vs. peers; Arbroath's fishing/culinary ties; Caribbean post-colonial recovery; Oyeyemi's style re: current events/social issues (specifically wants to hear more on that last one).\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Fairly confident an April promotion is coming.\n- Asked about: US income-inequality aid; durable easy-clean bowls for Max (~3-month wear/tear; thinks time to replace); comfort-zone activities; Franco's music vs. peers; Arbroath's fishing/culinary ties; Caribbean post-colonial recovery; Oyeyemi's style re: current events/social issues (specifically wants more on that last one).\n- Actually trying to build a meditation habit; might fit it in before breakfast; wants tips to make the most of a 10-min session.\n- I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "CHANGED",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME"
+        },
+        "restored": [
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Fairly confident an April promotion is coming.\n- Asked about: US income-inequality aid; durable easy-clean bowls for Max (3 mo use, wear/tear, thinks time to replace); comfort-zone activities; Franco's music vs. peers; Arbroath's fishing/culinary ties; Caribbean post-colonial recovery; Oyeyemi's style re: current events/social issues (specifically wants more on the last).\n- Actually trying to build a meditation habit (might fit before breakfast); wants tips to maximize a 10-min session.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Fairly confident an April promotion is coming.\n- Asked about: US income-inequality aid; durable easy-clean bowls for Max (3-mo use, wear/tear, thinks time to replace); comfort-zone activities; Franco's music vs. peers; Arbroath's fishing/culinary ties; Caribbean post-colonial recovery; Oyeyemi's style re: current events/social issues (specifically wants more on this last topic).\n- Actually trying to build a meditation habit (might fit before breakfast); wants tips to maximize a 10-min session.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "• Fairly confident an April promotion is coming.\n• Asked about: US income-inequality aid; durable easy-clean bowls for Max (3-mo use, wear/tear, thinks time to replace); comfort-zone activities; Franco's music vs. peers; Arbroath's fishing/culinary ties; Caribbean post-colonial recovery; Oyeyemi's style re: current events/social issues (specifically wants more on that last one).\n• Actually trying to build a meditation habit (might fit before breakfast); wants tips to maximize a 10-min session.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Fairly confident an April promotion is coming.\n- Actually trying to build a meditation habit (might fit before breakfast); wants tips to maximize a 10-min session.\n- Asked about US income-inequality aid.\n- Durable easy-clean bowls for Max (3-mo use, wear/tear; thinks time to replace).\n- Comfort-zone activities.\n- Franco's music vs. peers.\n- Arbroath's fishing/culinary ties.\n- Caribbean post-colonial recovery.\n- Oyeyemi's style re: current events/social issues—specifically wants more on that last one.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Fairly confident an April promotion is coming.\n- Actually building a meditation habit; might fit pre-breakfast; wants tips to maximize a 10-min session.\n- Asked about US income-inequality aid.\n- Seeking durable, easy-clean bowls for Max (3 months of use, wear/tear; thinks time to replace).\n- Asked about comfort-zone activities.\n- Asked about Franco's music vs. peers.\n- Asked about Arbroath's fishing/culinary ties.\n- Asked about Caribbean post-colonial recovery.\n- Asked about Oyeyemi's style re: current events/social issues—specifically wants more on the latter.\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Fairly confident in an April promotion.\n- Actually building a meditation habit; might do it pre-breakfast; wants tips to maximize a 10-min session.\n- Asked about: US income-inequality aid, comfort-zone activities, Franco's music vs. peers, Arbroath's fishing/culinary ties, Caribbean post-colonial recovery, and Oyeyemi's style re: current events/social issues (specifically more on the latter).\n- Seeking durable, easy-clean bowls for Max (~3 months of use, wear/tear; thinks time to replace).\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED"
+        },
+        "restored": [
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Fairly confident in an April promotion.\n- Actually building a meditation habit (might do pre-breakfast); wants tips to maximize a 10-min session.\n- Asked about: US income-inequality aid; comfort-zone activities; Franco's music vs. peers; Arbroath's fishing/culinary ties; Caribbean post-colonial recovery.\n- Wants to hear more on Oyeyemi's writing style, specifically re: current events/social issues.\n- Seeking durable, easy-clean bowls for Max (~3 months use, wear/tear; thinks time to replace).\n- I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "CHANGED",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME"
+        },
+        "restored": [
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Fairly confident in an April promotion.\n- Actually building a meditation habit (might do pre-breakfast); wants tips to maximize a 10-min session.\n- Asked about: US income-inequality aid, comfort-zone activities, Franco's music vs. peers, Arbroath's fishing/culinary ties, Caribbean post-colonial recovery.\n- Wants more on Oyeyemi's style re: current events/social issues.\n- Seeking durable, easy-clean bowls for Max (~3 months of use; worn/tearing; thinks it's time to replace).\n- I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "CHANGED",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME"
+        },
+        "restored": [
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?"
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Fairly confident in an April promotion.\n- Building a meditation habit (possibly pre-breakfast); wants tips to maximize 10-min sessions.\n- Asked about US income-inequality aid, comfort-zone activities, Franco's music vs. peers, Arbroath's fishing/culinary ties, Caribbean post-colonial recovery, and Oyeyemi's style re: current events/social issues.\n- Seeking durable, easy-clean dog food/water bowls to replace Max's current set (~3 months in, worn/tearing; thinks it's time).\n- I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "CHANGED",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED"
+        },
+        "restored": [
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Fairly confident in an April promotion.\n- Building a meditation habit (possibly pre-breakfast); wants tips to maximize 10-min sessions.\n- Asked about: US income-inequality aid; comfort-zone activities; Franco's music vs. peers; Arbroath's fishing/culinary ties; Caribbean post-colonial recovery; Oyeyemi's style re: current events/social issues.\n- Thinks it's time to replace Max's dog food/water bowls (~3 months in, worn/tearing); wants durable, easy-clean options.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Fairly confident in an April promotion.\n- Building a meditation habit (possibly pre-breakfast); wants tips to maximize 10-min sessions.\n- Asked about: US income-inequality aid, comfort-zone activities, Franco's music vs. peers, Arbroath's fishing/culinary ties, Caribbean post-colonial recovery, Oyeyemi's style re: current events/social issues.\n- Thinks it's time to replace Max's dog bowls (~3 months in; worn/tearing); wants durable, easy-clean options.\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED"
+        },
+        "restored": [
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Fairly confident in an April promotion.\n- Building a meditation habit (possibly pre-breakfast); wants tips to maximize 10-min sessions.\n- Asked about: US income-inequality aid, comfort-zone activities, Franco's music vs. peers, Arbroath's fishing/culinary ties, Caribbean post-colonial recovery, Oyeyemi's style.\n- Wants more on how Oyeyemi's writing relates to their interests in current events/social issues.\n- Thinks it's time to replace Max's dog bowls (~3 months in; worn/tearing); wants durable, easy-clean options.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "SAME",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Fairly confident in April promotion.\n- Building a (possibly pre-breakfast) meditation habit; wants tips to maximize 10-min sessions.\n- Asked about: US income-inequality aid; comfort-zone activities; Franco's music vs. peers; Arbroath's fishing/culinary ties; Caribbean post-colonial recovery; Oyeyemi's style (wants more on how it ties to current events/social issues).\n- Seeking a durable, easy-clean replacement for Max's dog bowls (~3 months old; worn/tearing).\n- I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "CHANGED",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "SAME"
+        },
+        "restored": [
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?"
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Fairly confident in an April promotion.\n- Building a possibly pre-breakfast 10-min meditation habit; wants tips to maximize it.\n- Asked a range of topics: US income-inequality aid, comfort-zone activities, Franco's music vs. peers, Arbroath's fishing/culinary ties, Caribbean post-colonial recovery, and Oyeyemi's style (wants more on current-events/social-issues ties).\n- Needs a durable, easy-clean replacement for Max's dog bowls (~3 months old, worn/tearing).\n- I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?\n- I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident the promotion will be announced in April.": "SAME",
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?": "CHANGED",
+          "I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?": "SAME",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.": "CHANGED"
+        },
+        "restored": [
+          "I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?",
+          "I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+        ]
+      }
+    }
+  ]
+}

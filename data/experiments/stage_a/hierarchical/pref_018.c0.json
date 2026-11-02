@@ -1,0 +1,98 @@
+{
+  "item_id": "pref_018",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:05:00.196885+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I prefer hiking on weekends rather than visiting malls."
+    },
+    {
+      "round": 1,
+      "memory": "- Prefers spending weekends hiking over going to malls."
+    },
+    {
+      "round": 2,
+      "memory": "- Prefers weekend hiking over malls."
+    },
+    {
+      "round": 3,
+      "memory": "- Prefers weekend hiking over malls."
+    },
+    {
+      "round": 4,
+      "memory": "- Prefers weekend hiking over malls."
+    },
+    {
+      "round": 5,
+      "memory": "- Prefers weekend hiking over malls."
+    },
+    {
+      "round": 6,
+      "memory": "- Prefers weekend hiking over malls."
+    },
+    {
+      "round": 7,
+      "memory": "- Prefers weekend hiking over going to malls."
+    },
+    {
+      "round": 8,
+      "memory": "- Prefers weekend hiking over malls."
+    },
+    {
+      "round": 9,
+      "memory": "- Prefers weekend hiking over malls."
+    },
+    {
+      "round": 10,
+      "memory": "- Prefers weekend hiking over malls."
+    },
+    {
+      "round": 11,
+      "memory": "- Prefers hiking on weekends over going to malls."
+    },
+    {
+      "round": 12,
+      "memory": "- Prefers hiking on weekends over going to malls."
+    },
+    {
+      "round": 13,
+      "memory": "- Prefers weekend hiking over malls."
+    },
+    {
+      "round": 14,
+      "memory": "- Prefers weekend hiking over malls."
+    },
+    {
+      "round": 15,
+      "memory": "- Prefers weekend hiking over malls."
+    },
+    {
+      "round": 16,
+      "memory": "- The user prefers weekend hiking over going to malls."
+    },
+    {
+      "round": 17,
+      "memory": "- User prefers weekend hiking over malls."
+    },
+    {
+      "round": 18,
+      "memory": "- User prefers weekend hiking over malls."
+    },
+    {
+      "round": 19,
+      "memory": "- Prefers weekend hiking over going to malls."
+    },
+    {
+      "round": 20,
+      "memory": "- Prefers weekend hiking over malls."
+    }
+  ]
+}

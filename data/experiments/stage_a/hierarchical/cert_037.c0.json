@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_037",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.935161+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain the OTP was verified on the first attempt."
+    },
+    {
+      "round": 1,
+      "memory": "- I'm certain the OTP was verified on first attempt."
+    },
+    {
+      "round": 2,
+      "memory": "- A certain (unspecified) OTP was verified successfully on the first attempt."
+    },
+    {
+      "round": 3,
+      "memory": "- A specific but unnamed OTP verified successfully on the first attempt."
+    },
+    {
+      "round": 4,
+      "memory": "- A specific (unnamed) OTP was verified successfully on the first attempt."
+    },
+    {
+      "round": 5,
+      "memory": "- A specific (unnamed) OTP was verified successfully on the first attempt."
+    },
+    {
+      "round": 6,
+      "memory": "- A specific (unnamed) OTP was successfully verified on the first attempt."
+    },
+    {
+      "round": 7,
+      "memory": "- A specific but unnamed OTP was successfully verified on the first attempt."
+    },
+    {
+      "round": 8,
+      "memory": "- A specific but unnamed OTP was successfully verified on the first attempt."
+    },
+    {
+      "round": 9,
+      "memory": "- A specific but unnamed OTP verified successfully on the first attempt."
+    },
+    {
+      "round": 10,
+      "memory": "- A specific, unnamed OTP was verified successfully on the first attempt."
+    },
+    {
+      "round": 11,
+      "memory": "- A specific, unnamed OTP verified successfully on the first attempt."
+    },
+    {
+      "round": 12,
+      "memory": "- A specific, unnamed OTP verified successfully on the first attempt."
+    },
+    {
+      "round": 13,
+      "memory": "- A specific, unnamed OTP was verified successfully on the first attempt."
+    },
+    {
+      "round": 14,
+      "memory": "- A specific, unnamed OTP verified successfully on the first attempt."
+    },
+    {
+      "round": 15,
+      "memory": "- A specific (but unnamed) OTP was verified successfully on the first attempt."
+    },
+    {
+      "round": 16,
+      "memory": "- A specific (unnamed) OTP was verified successfully on the first attempt."
+    },
+    {
+      "round": 17,
+      "memory": "- A specific, unnamed OTP was verified successfully on the first attempt."
+    },
+    {
+      "round": 18,
+      "memory": "- A specific, unnamed OTP was verified successfully on the first attempt."
+    },
+    {
+      "round": 19,
+      "memory": "- A specific, unnamed OTP was verified successfully on the first attempt."
+    },
+    {
+      "round": 20,
+      "memory": "- A specific, unnamed OTP was verified successfully on the first attempt."
+    }
+  ]
+}

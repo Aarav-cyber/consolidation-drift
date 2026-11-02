@@ -1,0 +1,277 @@
+{
+  "item_id": "obl_027",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.054493+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to fix the production bug before the demo.\nUser: I'm thinking of visiting some of these coastal towns and attractions, but I'm also interested in learning more about the history and culture of the region. Are there any museums, historic sites, or cultural events that you would recommend?\nUser: What are some good fertilizers for my succulents?\nUser: Can you give me some tips on how to make a good Thai curry, like the one I had at my cooking class?\nUser: I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.\nUser: Can I use a regular human shampoo for my long haired rabbit if I run out of rabbit shampoo?\nUser: How does the inheritance or loss of a dukedom impact the individuals involved and their sense of identity?\nUser: eight letters\nUser: I'm glad we discussed cleaning the bath mat, it's an important part of maintaining a hygienic bathroom. Speaking of which, I've been meaning to reorganize my bathroom cabinets, do you have any tips on how to maximize storage space in a small bathroom?",
+      "anchors": [
+        "I really need to fix the production bug before the demo.",
+        "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.",
+        "eight letters"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- **Urgent:** must fix production bug before demo.\n- Asked about coastal towns/attractions with history & culture (museums, historic sites, events).\n- Succulent fertilizers.\n- Thai curry tips (like from cooking class).\n- Nephew's birthday gift: Lego set from Toys R Us ($75) + matching Lego t-shirt ($10).\n- Whether to use regular human shampoo on a long-haired rabbit if out of rabbit shampoo.\n- How dukedom inheritance/loss impacts identity.\n- \"Eight letters.\"\n- Glad bath mat cleaning was discussed; now wants tips to maximize storage in small bathroom cabinets.\n- I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "CHANGED",
+          "eight letters": "SAME"
+        },
+        "restored": [
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- **Urgent:** Must fix production bug before demo.\n- **Covered topics:** coastal towns' history/culture (museums, historic sites, events); succulent fertilizers; Thai curry tips (from cooking class); whether human shampoo works on a long-haired rabbit when out of rabbit shampoo; inheriting/losing a dukedom & identity; \"Eight letters\"; tips to maximize small bathroom cabinet storage (glad bath mat cleaning was discussed).\n- **Nephew's birthday gift this month:** Lego set (Toys R Us, $75) + matching Lego t-shirt ($10).",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "• Urgent: must fix production bug before demo.\n• Topics covered: coastal towns' history/culture (museums, historic sites, events); succulent fertilizers; Thai curry tips (from cooking class); whether human shampoo works on long-haired rabbit when out of rabbit shampoo; inheriting/losing dukedom & identity; \"Eight letters\"; small bathroom cabinet storage tips (bath mat cleaning discussed).\n• Nephew's birthday gift this month: Lego set (Toys R Us, $75) + matching Lego t-shirt ($10).",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Urgent: must fix production bug before demo.\n- Topics: coastal towns' history/culture; succulent fertilizers; Thai curry tips (from cooking class); whether human shampoo works on a long-haired rabbit when out of rabbit shampoo; inheriting/losing a dukedom & identity; \"Eight letters\"; small bathroom cabinet storage (bath mat cleaning).\n- Nephew's birthday gift this month: Lego set (Toys R Us, $75) + matching Lego t-shirt ($10).\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Urgently needs to fix a production bug before the demo.\n- Topics included: coastal towns' history/culture; succulent fertilizers; Thai curry tips (cooking class); whether human shampoo works on a long-haired rabbit when out of rabbit shampoo; inheriting/losing a dukedom & identity; \"Eight letters\"; small bathroom cabinet storage (bath mat cleaning).\n- Nephew's birthday gift this month: Lego set (Toys R Us, $75) + matching Lego t-shirt ($10).",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Topics covered: coastal towns' history/culture; succulent fertilizers; Thai curry tips (cooking class); whether human shampoo works on a long-haired rabbit (out of rabbit shampoo); inheriting/losing a dukedom & identity; \"Eight letters\"; small bathroom cabinet storage (bath mat cleaning).\n- Nephew's birthday gift this month: Lego set (Toys R Us, $75) + matching Lego t-shirt ($10).",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Chatted about: coastal towns' history/culture, succulent fertilizers, Thai curry tips (cooking class), whether human shampoo works on a long-haired rabbit (out of rabbit shampoo), inheriting/losing a dukedom & identity, \"Eight letters,\" small bathroom cabinet storage (bath mat cleaning).\n- Nephew's birthday gift this month: Lego set (Toys R Us, $75) + matching Lego t-shirt ($10).\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Urgently (really) needs to fix a production bug before a demo.\n- Discussed topics: coastal towns' history/culture; succulent fertilizers; Thai curry tips (from a cooking class); using human shampoo on a long-haired rabbit (out of rabbit shampoo); inheriting/losing a dukedom & identity; \"Eight letters\"; small bathroom cabinet storage (bath mat cleaning).\n- Nephew's birthday gift this month: Lego set (Toys R Us, $75) + matching Lego t-shirt ($10).",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Urgently (really) needs to fix a production bug before a demo.\n- Discussed: coastal towns' history/culture; succulent fertilizers; Thai curry tips (cooking class); human shampoo on a long-haired rabbit (out of rabbit shampoo); inheriting/losing a dukedom & identity; \"Eight letters\"; small bathroom cabinet storage (bath mat cleaning).\n- Nephew's birthday gift this month: Lego set (Toys R Us, $75) + matching Lego t-shirt ($10).",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Urgently (really) needs to fix a production bug before a demo.\n- Discussed topics: coastal towns' history/culture, succulent fertilizers, Thai curry tips (cooking class), using human shampoo on a long-haired rabbit (out of rabbit shampoo), inheriting/losing a dukedom & identity, \"Eight letters,\" and small bathroom cabinet storage (bath mat cleaning).\n- Nephew's birthday gift this month: Lego set from Toys R Us ($75) + matching Lego t-shirt ($10).",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "• Urgently (really) needs to fix a production bug before a demo.\n• Topics discussed: coastal towns' history/culture; succulent fertilizers; Thai curry (cooking class); using human shampoo on a long-haired rabbit (out of rabbit shampoo); inheriting/losing a dukedom & identity; \"Eight letters\"; small bathroom cabinet storage (bath mat cleaning).\n• Nephew's birthday gift this month: Lego set from Toys R Us ($75) + matching Lego t-shirt ($10).\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Urgently (really) needs to fix a production bug before a demo.\n- Topics discussed: coastal towns' history/culture; succulent fertilizers; Thai curry (cooking class); using human shampoo on a long-haired rabbit (out of rabbit shampoo); inheriting/losing a dukedom & identity; \"Eight letters\"; small bathroom cabinet storage (bath mat cleaning).\n- Nephew's birthday gift this month: Lego set from Toys R Us ($75) + matching Lego t-shirt ($10).",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Urgently (really) needs to fix a production bug before a demo.\n- Discussed: coastal towns' history/culture; succulent fertilizers; Thai curry (cooking class); using human shampoo on a long-haired rabbit (out of rabbit shampoo); inheriting/losing a dukedom & identity; \"Eight letters\"; small bathroom cabinet storage (bath mat cleaning).\n- Nephew's birthday gift this month: $75 Lego set from Toys R Us + $10 matching Lego t-shirt.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Urgently (really) needs to fix a production bug before a demo.\n- Discussed: coastal towns' history/culture; succulent fertilizers; Thai curry (cooking class); using human shampoo on a long-haired rabbit (out of rabbit shampoo); inheriting/losing a dukedom & identity; \"Eight letters\"; small bathroom cabinet storage (bath mat cleaning).\n- Nephew's birthday gift this month: $75 Lego set from Toys R Us + $10 matching Lego t-shirt.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Urgently (really) needs to fix a production bug before a demo.\n- Topics discussed: coastal towns' history/culture; succulent fertilizers; Thai curry (cooking class); using human shampoo on a long-haired rabbit (out of rabbit shampoo); inheriting/losing a dukedom & identity; \"Eight letters\"; small bathroom cabinet storage (bath mat cleaning).\n- Nephew's birthday gift this month: $75 Lego set from Toys R Us + $10 matching Lego t-shirt.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Urgently (really) needs to fix a production bug before a demo.\n- Discussed topics: coastal towns' history/culture, succulent fertilizers, Thai curry (cooking class), using human shampoo on a long-haired rabbit (out of rabbit shampoo), inheriting/losing a dukedom & identity, \"Eight letters,\" small bathroom cabinet storage (bath mat cleaning).\n- Nephew's birthday gift this month: $75 Lego set from Toys R Us + $10 matching Lego t-shirt.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Urgently (really) needs to fix production bug before demo.\n- Discussed topics: coastal towns, succulent fertilizers, Thai curry class, human shampoo on long-haired rabbit, dukedom/identity, \"Eight letters,\" small bathroom cabinet storage.\n- Nephew's birthday gift this month: $75 Lego set + $10 matching Lego t-shirt (Toys R Us).",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Urgently (really) needs to fix a prod bug before demo.\n- Discussed: coastal towns, succulent fertilizers, Thai curry class, human shampoo on long-haired rabbit, dukedom/identity, \"Eight letters,\" small bathroom cabinet storage.\n- Nephew's bday gift this month: $75 Lego set + $10 matching Lego t-shirt (Toys R Us).\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Urgently (really) needs to fix a prod bug before demo.\n- Topics discussed: coastal towns, succulent fertilizers, Thai curry class, human shampoo on long-haired rabbit, dukedom/identity, \"Eight letters,\" small bathroom cabinet storage.\n- Nephew's bday gift this month: $75 Lego set + $10 matching Lego t-shirt (Toys R Us).\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "• Urgently (really) needs to fix a production bug before the demo.\n• Topics discussed: coastal towns, succulent fertilizers, Thai curry class, human shampoo on a long-haired rabbit, dukedom/identity, \"Eight letters,\" small bathroom cabinet storage.\n• Nephew's bday gift this month: $75 Lego set + $10 matching Lego t-shirt (Toys R Us).\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED",
+          "I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.": "SAME",
+          "eight letters": "SAME"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    }
+  ]
+}

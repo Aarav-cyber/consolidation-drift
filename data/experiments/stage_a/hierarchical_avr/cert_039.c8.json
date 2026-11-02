@@ -1,0 +1,244 @@
+{
+  "item_id": "cert_039",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.054812+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain my passport renewal was completed last month.\nUser: Wow, I never realized how much sacrifice EOD technicians make. They truly put themselves in harm's way to protect others.\nUser: I think I'll go with the Spaghetti with Cannellini Bean Sauce. I love the sound of a hearty and comforting Italian-inspired dish. Can you give me a simple recipe to follow?\nUser: Name a war fought by Britain that was not fought on a pretext but on the stated reason.\nUser: That's really sad. What can we do to minimize these negative impacts?\nUser: I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?\nUser: I've actually listened to \"Kind of Blue\" before and loved it, so I'm excited to check out the other albums and songs you mentioned. Also, do you know of any contemporary artists who have been influenced by Miles' sound?\nUser: That's a good point. It's good to know that schools are trying their best to provide support for students during this difficult time. I hope that these efforts make a difference.\nUser: That's really helpful, thanks! I think I'll consider getting a Fitbit Charge 3 or a Garmin Vivosport. Do you have any tips on how to stay motivated and consistent with my fitness tracking and dance practice?",
+      "anchors": [
+        "I am certain my passport renewal was completed last month.",
+        "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Certain passport renewal was completed last month.\n- Acknowledged EOD technicians truly put themselves in harm's way.\n- Thinking of Spaghetti with Cannellini Bean Sauce; wants a simple recipe.\n- Asked for a British war fought on the stated reason, not a pretext.\n- Really sad about negative impacts; asked how to minimize them.\n- Really likes a conservation bake sale; wants easy animal-themed treats.\n- Has listened to \"Kind of Blue\" before and loved it; excited for other Miles albums; wants contemporary influenced artists.\n- Acknowledged schools trying their best; hoping efforts make a difference.\n- Really found fitness advice helpful; considering Fitbit Charge 3 or Garmin Vivosport; wants tips to stay motivated/consistent with fitness tracking and dance practice.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Completed a passport renewal last month.\n- Acknowledged EOD technicians' risk; noted schools trying their best, hoping efforts make a difference.\n- Really sad about negative impacts; asked how to minimize them.\n- Wants a simple Spaghetti with Cannellini Bean Sauce recipe.\n- Wants easy animal-themed treats for a conservation bake sale (really likes it).\n- Wants a British war fought on stated reason, not a pretext.\n- Wants other Miles albums and contemporary influenced artists (loved \"Kind of Blue\").\n- Wants motivation tips for fitness tracking/dance (really found advice helpful; considering Fitbit Charge 3 or Garmin Vivosport).\n- I am certain my passport renewal was completed last month.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "CHANGED",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": [
+          "I am certain my passport renewal was completed last month."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Certain passport renewal was completed last month.\n- Acknowledged EOD technicians' risk; hoped schools' best efforts make a difference; really sad about negative impacts; asked how to minimize.\n- Wants a simple Spaghetti with Cannellini Bean Sauce recipe.\n- Wants easy animal-themed conservation-bake-sale treats (really likes it).\n- Wants a British war fought on stated reason, not pretext.\n- Wants other Miles/contemporary-influenced artists (loved \"Kind of Blue\").\n- Wants fitness/dance motivation tips (really found advice helpful; considering Fitbit Charge 3 or Garmin Vivosport).",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "• Passport renewal (certain) completed last month.\n• Acknowledged EOD technicians' risk; hoped schools' best efforts help; really sad about negative impacts; asked how to minimize.\n• Wants: simple Spaghetti w/ Cannellini Bean Sauce recipe; easy animal-themed conservation-bake-sale treats (really likes it).\n• Seeks a British war fought on stated reason, not pretext.\n• Wants other Miles/contemporary-influenced artists (loved \"Kind of Blue\").\n• Fitness/dance motivation tips (really found advice helpful; considering Fitbit Charge 3 or Garmin Vivosport).",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Passport renewal completed last month (certain).\n- Acknowledged EOD technicians' risk; hoped schools' best efforts help; really sad re: negative impacts; asked how to minimize.\n- Wants: simple Spaghetti w/ Cannellini Bean Sauce recipe.\n- Wants: easy animal-themed conservation-bake-sale treats (really likes it).\n- Wants: a British war fought on stated reason, not pretext.\n- Wants: other Miles/contemporary-influenced artists (loved \"Kind of Blue\").\n- Wants: fitness/dance motivation tips (really found helpful; considering Fitbit Charge 3 or Garmin Vivosport).",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Passport renewed last month (certain).\n- Really sad re EOD technicians' risk and negative impacts; hoped schools' best efforts help; asked how to minimize.\n- Wants: simple Spaghetti w/ Cannellini Bean Sauce recipe; easy animal-themed conservation-bake-sale treats (really likes); a British war fought on stated reason, not pretext; other Miles/contemporary artists (loved \"Kind of Blue\"); fitness/dance motivation tips (really found helpful; considering Fitbit Charge 3 or Garmin Vivosport).",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Passport renewed last month (certain).\n- Really sad re EOD technicians' risks; hoped schools' best efforts would help; asked how to minimize.\n- Wants: simple Spaghetti w/ Cannellini Bean Sauce recipe.\n- Wants: easy animal-themed conservation-bake-sale treats (really likes).\n- Wants: a British war fought on stated reason, not pretext.\n- Wants: other Miles/contemporary artists (loved \"Kind of Blue\").\n- Wants: fitness/dance motivation tips (really found helpful); considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Passport renewed last month (certain).\n- Really sad re EOD technicians' risks; had hoped schools' best efforts would help; asked how to minimize.\n- Wants: simple Spaghetti w/ Cannellini Bean Sauce recipe; easy animal-themed conservation-bake-sale treats (really likes); a British war fought on stated reason not pretext; other Miles/contemporary artists (loved \"Kind of Blue\"); fitness/dance motivation tips (really found helpful).\n- Considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "• Passport renewed last month (certain).\n• Really sad re EOD technicians' risks; had hoped schools' best efforts would help; asked how to minimize.\n• Requested: a simple Spaghetti w/ Cannellini Bean Sauce recipe; easy animal-themed conservation-bake-sale treats (really likes); a British war fought on stated reason not pretext; other Miles/contemporary artists (loved \"Kind of Blue\"); fitness/dance motivation tips (really found helpful).\n• Considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Passport renewed last month (certain).\n- Really sad about EOD technicians' risks; had hoped schools' best efforts would help; asked how to minimize risk.\n- Requested: simple Spaghetti w/ Cannellini Bean Sauce recipe.\n- Requested: easy animal-themed conservation-bake-sale treats (really likes).\n- Requested: British war fought on stated reason, not pretext.\n- Requested: other Miles/contemporary artists (loved \"Kind of Blue\").\n- Requested: fitness/dance motivation tips (really found helpful).\n- Considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Passport renewed last month (certain).\n- Really sad re EOD technicians' risks; hoped schools' best efforts would help; asked how to minimize.\n- Requested: simple Spaghetti w/ Cannellini Bean Sauce recipe; easy animal-themed conservation-bake-sale treats (really likes); a British war fought on stated reason not pretext; other Miles/contemporary artists (loved \"Kind of Blue\"); fitness/dance motivation tips (really found helpful).\n- Considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Passport renewed last month (certain).\n- Really sad re EOD technicians' risks; hoped schools' best efforts would help; asked how to minimize.\n- Requested: simple Spaghetti w/ Cannellini Bean Sauce recipe.\n- Requested: easy animal-themed conservation-bake-sale treats (really likes).\n- Requested: a British war fought on stated reason, not pretext.\n- Requested: other Miles/contemporary artists (loved \"Kind of Blue\").\n- Requested: fitness/dance motivation tips (really found helpful).\n- Considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Passport renewed last month (certain).\n- Really sad re EOD technicians' risks; hoped schools' best efforts would help; asked how to minimize.\n- Requested: simple Spaghetti w/ Cannellini Bean Sauce recipe; easy animal-themed conservation-bake-sale treats (really likes); a British war fought on stated reason not pretext; other Miles/contemporary artists (loved \"Kind of Blue\"); fitness/dance motivation tips (really found helpful).\n- Considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Passport renewed last month (certain).\n- Felt really sad re EOD technicians' risks; hoped schools' best efforts would help; asked how to minimize.\n- Requested: spaghetti w/ Cannellini Bean Sauce recipe.\n- Requested: easy animal-themed conservation-bake-sale treats (really likes).\n- Requested: British war fought on stated reason, not pretext.\n- Requested: other Miles/contemporary artists (loved \"Kind of Blue\").\n- Requested: fitness/dance motivation tips (really found helpful).\n- Considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Passport renewed last month (certain).\n- Felt really sad re EOD technicians' risks; hoped schools' best efforts would help; asked how to minimize.\n- Requested: spaghetti w/ Cannellini Bean Sauce recipe; easy animal-themed conservation-bake-sale treats (really likes); a British war fought on stated reason not pretext; other Miles/contemporary artists (loved \"Kind of Blue\"); fitness/dance motivation tips (really found helpful).\n- Considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Passport renewed last month (certain).\n- Felt really sad re EOD technicians' risks; hoped schools' best efforts would help; asked how to minimize.\n- Requested spaghetti w/ Cannellini Bean Sauce recipe; easy animal-themed conservation-bake-sale treats (really likes).\n- Asked about a British war fought on stated reason not pretext.\n- Asked for other Miles/contemporary artists (loved \"Kind of Blue\").\n- Requested fitness/dance motivation tips (really found helpful); considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Passport renewed last month (certain).\n- Really sad re EOD technicians' risks; hoped schools' best efforts would help; asked how to minimize.\n- Requested spaghetti with Cannellini Bean Sauce recipe and easy animal-themed conservation-bake-sale treats (really likes).\n- Asked about a British war fought on stated reason, not pretext.\n- Asked for other Miles/contemporary artists (loved \"Kind of Blue\").\n- Requested fitness/dance motivation tips (really found helpful); considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Passport renewed last month (certain).\n- Felt really sad re EOD technicians' risks; hoped schools' best efforts would help; asked how to minimize.\n- Requested: spaghetti w/ Cannellini Bean Sauce recipe; easy animal-themed conservation-bake-sale treats (really likes); info on a British war fought on stated reason, not pretext; other Miles/contemporary artists (loved \"Kind of Blue\"); fitness/dance motivation tips (really found helpful).\n- Considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Passport renewed last month (certain).\n- Felt really sad about EOD technicians' risks; hoped schools' best efforts would help; asked how to minimize.\n- Requested: spaghetti/Cannellini Bean Sauce recipe; easy animal-themed conservation-bake-sale treats (really likes); British war fought on stated reason not pretext; other Miles/contemporary artists (loved \"Kind of Blue\"); fitness/dance motivation tips (really found helpful).\n- Considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Passport renewed last month (certain).\n- Felt really sad about EOD technicians' risks; hoped schools' best efforts would help; asked how to minimize.\n- Requested: spaghetti/Cannellini Bean Sauce recipe; easy animal-themed conservation-bake-sale treats (really likes); British war fought on stated reason not pretext; other Miles/contemporary artists (loved \"Kind of Blue\"); fitness/dance motivation tips (really found helpful).\n- Considering Fitbit Charge 3 or Garmin Vivosport.",
+      "avr": {
+        "verdicts": {
+          "I am certain my passport renewal was completed last month.": "SAME",
+          "I really like the idea of hosting a bake sale to fundraise for conservation organizations. Do you have any suggestions for easy, animal-themed treats to make for the sale?": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

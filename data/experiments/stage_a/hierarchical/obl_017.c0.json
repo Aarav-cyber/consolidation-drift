@@ -1,0 +1,98 @@
+{
+  "item_id": "obl_017",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.976678+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I need to pay the electricity bill before the due date."
+    },
+    {
+      "round": 1,
+      "memory": "- The user needs to pay the electricity bill before the due date."
+    },
+    {
+      "round": 2,
+      "memory": "- User needs to pay their electricity bill before the due date."
+    },
+    {
+      "round": 3,
+      "memory": "- User must pay their electricity bill before the due date."
+    },
+    {
+      "round": 4,
+      "memory": "- The user must pay their electricity bill by the due date."
+    },
+    {
+      "round": 5,
+      "memory": "- User is required to pay the electricity bill by its due date."
+    },
+    {
+      "round": 6,
+      "memory": "- The user must pay their electricity bill by the due date."
+    },
+    {
+      "round": 7,
+      "memory": "- The user must pay their electricity bill by the due date."
+    },
+    {
+      "round": 8,
+      "memory": "- User must pay electricity bill by the due date (mandatory obligation, no exceptions stated)."
+    },
+    {
+      "round": 9,
+      "memory": "- Electricity bill payment by the due date is mandatory, with no exceptions."
+    },
+    {
+      "round": 10,
+      "memory": "- Electricity bill payment on the due date is mandatory, with no exceptions."
+    },
+    {
+      "round": 11,
+      "memory": "- Electricity bill payment on the due date is mandatory, with no exceptions."
+    },
+    {
+      "round": 12,
+      "memory": "- Electricity bill payment on the due date is mandatory, with no exceptions."
+    },
+    {
+      "round": 13,
+      "memory": "- Electricity bill payment on the due date is mandatory, with no exceptions."
+    },
+    {
+      "round": 14,
+      "memory": "- Electricity bill payment is mandatory on the due date, with no exceptions."
+    },
+    {
+      "round": 15,
+      "memory": "- Electricity bill payment is mandatory on the due date, with no exceptions."
+    },
+    {
+      "round": 16,
+      "memory": "- Electricity bill payment is mandatory on the due date, with no exceptions."
+    },
+    {
+      "round": 17,
+      "memory": "- Electricity bill payment is mandatory on the due date; no exceptions are allowed."
+    },
+    {
+      "round": 18,
+      "memory": "- Electricity bill payment is mandatory on the due date; no exceptions are allowed."
+    },
+    {
+      "round": 19,
+      "memory": "- Electricity bill payment is mandatory on the due date; no exceptions are allowed."
+    },
+    {
+      "round": 20,
+      "memory": "- Electricity bill payment is mandatory on the due date; no exceptions are allowed."
+    }
+  ]
+}

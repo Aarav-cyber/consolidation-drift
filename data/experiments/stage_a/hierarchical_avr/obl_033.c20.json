@@ -1,0 +1,373 @@
+{
+  "item_id": "obl_033",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.202752+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to save the presentation before the system update.\nUser: Perfect. do that going forward. also suggest a new parameter to make the character more unique\nUser: I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\nAgent: ```\nOn the Welcome back page, click on I lost my password. After reading the warning, click on the Reset button.\n```\nUser: What are some tips on keeping the cord organizers or cable management systems dust-free and clean?\nUser: That's interesting. I've always found the painting to be very captivating. Do you think the use of bright stars and vivid colors in the painting has any significance?\nUser: Wow, those athletes all sound amazing! I can't wait to watch some of their performances on the WKF YouTube channel.\nUser: Can you tell me more about the music and DJ or live band at the event? I'm curious to know what kind of music to expect and if there will be any special songs or playlists.\nUser: I'm still trying to review my notes from the workshop, especially the parts about manual settings and lighting techniques. Do you have any tips on how to retain the information better and apply it to my photography practice?\nUser: Actually, I have been playing a lot of board games recently. I introduced my coworker, Rachel, to Codenames last Friday, and she really enjoyed it.\nUser: That's really helpful, thanks! I'm excited to try all these traditional snacks during the coffee ceremony. By the way, I was thinking of bringing some gifts for my hosts, do you have any suggestions on what would be appropriate?\nUser: I think I would love to visit Seoul in autumn! There's nothing quite like the beautiful colors of fall and I'd love to witness them in a new place. Do you have any recommendations for where to stay in Seoul during that time?\nUser: redacta mi ultimo mensaje para que suene mas natural\nUser: It's really interesting to see how AI is being used in healthcare. I wonder if it will change the role of doctors and nurses in the future?\nUser: Fair enough. Let's talk about the English Premier League. Do you have any stats for the top goal and assist scorers so far?\nUser: I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.\nUser: I've been thinking about how to keep my partner motivated to complete their assigned tasks. Do you think offering incentives or rewards would be a good idea?\nUser: Continue with the comic strip you've written so far.\nUser: I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.\nUser: Ugh, you're just trying to make me feel guilty for slouching all the time. I don't have the energy to think about my posture, I just want to relax.\nUser: Generate a Known Fact tweet table for movies 1-5.",
+      "anchors": [
+        "I really need to save the presentation before the system update.",
+        "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+        "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.",
+        "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+        "Generate a Known Fact tweet table for movies 1-5."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Saved presentation before system update; new character parameter.\n- Covered: 1/48-scale Japanese diorama figure picks, password-reset steps, cable-management dust tips, painting significance, WKF YouTube athletes, event music/DJ.\n- Photography workshop: manual settings/lighting.\n- Codenames with coworker Rachel (last Friday).\n- Coffee-ceremony snacks & host gifts; Seoul autumn stay recs.\n- Redacting Spanish message; AI's future impact on doctors'/nurses' roles.\n- EPL top goal/assist scorers.\n- US citizen's ~2-week visits each to Germany, France, UK for relatives/ancestral roots.\n- Considering whether incentives/rewards would help keep partner motivated on assigned tasks.\n- Continue comic strip; paint samples & coaster recs for new IKEA coffee table (still unassembled).\n- Frustrated (\"ugh\") feeling other is guilt-tripping over slouching; no energy for posture; just wants to relax.\n- Requested Known Fact tweet table for movies 1–5.\n- I really need to save the presentation before the system update.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "CHANGED",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "CHANGED",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I really need to save the presentation before the system update.",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "• US citizen planning ~2-wk visits each to Germany/France/UK for relatives/ancestral roots.\n• 1/48-scale Japanese diorama figure recs (adding soldiers/ground crew for \"more life\"); paint samples & coaster recs for new IKEA coffee table (still unassembled).\n• Photography workshop (manual settings/lighting); painting significance.\n• Codenames with coworker Rachel (last Friday).\n• Coffee-ceremony snacks & host gifts.\n• Seoul autumn stay recs.\n• Redacting Spanish message.\n• AI's future impact on doctors'/nurses' roles.\n• EPL top goal/assist scorers.\n• Password-reset; cable-management dust tips.\n• WKF YouTube athletes; event music/DJ.\n• Presentation saved before system update.\n• Considering whether incentives/rewards would help keep partner motivated on assigned tasks.\n• Continuing comic strip.\n• Frustrated (\"ugh\") feeling guilt-tripped over slouching—no energy for posture, just wants to relax.\n• Requested Known Fact tweet table for movies 1–5.\n- I really need to save the presentation before the system update.\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "CHANGED",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "SAME",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "SAME",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I really need to save the presentation before the system update.",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- US citizen planning ~2-wk visits to Germany/France/UK (relatives/ancestral roots)\n- Seeking 1/48-scale Japanese diorama figure recs (soldiers/ground crew, \"more life\"); paint/coaster recs for still-unassembled IKEA coffee table (complementing style); thinks they'll test paint samples\n- Photography workshop (manual settings/lighting, painting significance)\n- Codenames with coworker Rachel last Friday\n- Coffee-ceremony snacks & host gifts; Seoul autumn stay recs; redacting Spanish message\n- AI's future impact on doctors'/nurses' roles; EPL top goal/assist scorers\n- pwd-reset; cable-mgmt dust tips; WKF YouTube athletes/event music/DJ\n- Really needs to save presentation before system update\n- Considering whether incentives/rewards would keep partner motivated on assigned tasks\n- Continuing comic strip; frustrated (\"ugh\"), guilt-tripped over slouching—no energy for posture, just wants to relax\n- Requested Known Fact tweet table for movies 1–5",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "SAME",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "SAME",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "SAME",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- US citizen; planning ~2-wk visits to Germany/France/UK (relatives/ancestral roots).\n- Requested 1/48-scale Japanese diorama figures (soldiers/ground crew, \"more life\"); paint/coaster recs for still-unassembled IKEA coffee table (plans to test samples).\n- Asked re: photography workshop, coffee-ceremony snacks & host gifts, Seoul autumn stay, redacting Spanish message, AI impact on doctors'/nurses', EPL top goal/assist scorers, pwd-reset, cable-mgmt dust tips, WKF YouTube.\n- Really needs to save presentation before system update.\n- Considering whether incentives/rewards would keep partner motivated on assigned tasks.\n- Continuing comic strip; frustrated (\"ugh\"), guilt-tripped over slouching—no energy for posture, just wants to relax.\n- Played Codenames with coworker Rachel last Friday.\n- Requested Known Fact tweet table for movies 1–5.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "SAME",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- US citizen planning ~2-wk visits to Germany/France/UK for relatives/ancestral roots.\n- Requested 1/48-scale Japanese diorama figures (soldiers/ground crew, \"more life\"); paint/coaster recs for still-unassembled IKEA table (will test samples).\n- Various one-off asks (photography workshop, Seoul autumn stay, EPL scorers, etc.).\n- Really needs to save presentation before system update.\n- Considering whether incentives would keep partner motivated on tasks.\n- Frustrated (\"ugh\") over slouching guilt—no energy for posture, just wants to relax—while continuing comic strip.\n- Played Codenames with Rachel last Friday.\n- Requested Known Fact tweet table for movies 1–5.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "SAME",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "• US citizen planning ~2-wk Germany/France/UK trip (relatives/roots)\n• Seeking 1/48-scale Japanese diorama figures (soldiers/ground crew for \"more life\")\n• Paint/coaster recs for still-unassembled IKEA table (will test samples)\n• One-off asks: photography workshop, Seoul autumn stay, EPL scorers\n• Really needs to save presentation before system update\n• Weighing whether incentives would keep partner motivated on tasks\n• Requested Known Fact tweet table for movies 1–5\n• Frustrated (\"ugh\") over slouching guilt—no energy for posture, just wants to relax\n• Continuing comic strip\n• Played Codenames with Rachel last Friday\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "SAME",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- US citizen planning a ~2-wk Germany/France/UK trip (relatives/roots); continuing a comic strip.\n- Played Codenames with Rachel last Friday.\n- Seeking 1/48-scale Japanese diorama figures (soldiers/ground crew, \"more life\").\n- Wants paint/coaster recs for still-unassembled IKEA table (will test samples).\n- One-off asks: photography workshop, Seoul autumn stay, EPL scorers.\n- Really needs to save presentation before system update.\n- Weighing whether incentives would keep partner motivated.\n- Requested Known Fact tweet table for movies 1–5.\n- Frustrated (\"ugh\") over slouching guilt—no energy for posture, just wants to relax.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "CHANGED",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- US citizen; planning ~2-wk Germany/France/UK trip (relatives/roots).\n- Continuing a comic strip; played Codenames with Rachel last Friday.\n- Wants 1/48-scale Japanese diorama figures (soldiers/ground crew for \"more life\"); paint/coaster recs for still-unassembled IKEA table (will test samples).\n- One-off asks: photography workshop, Seoul autumn stay, EPL scorers.\n- Really needs to save presentation before system update.\n- Weighing whether incentives would keep partner motivated.\n- Requested Known Fact tweet table for movies 1–5.\n- Frustrated (\"ugh\") over slouching guilt—no energy for posture, just wants to relax.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "CHANGED",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- US citizen; planning ~2-weeks-each Germany/France/UK trips (ancestral roots/relatives).\n- Continuing a comic strip.\n- Played Codenames with Rachel last Friday.\n- Wants 1/48-scale Japanese diorama figures (soldiers/ground crew, \"more life\").\n- Needs paint/coaster recs for still-unassembled IKEA table (will test samples).\n- One-off asks: photography workshop, Seoul autumn stay, EPL scorers.\n- Really needs to save presentation before system update.\n- Weighing whether incentives would keep partner motivated.\n- Requested Known Fact tweet table for movies 1–5.\n- Frustrated (\"ugh\") over slouching guilt—no energy for posture, just wants to relax.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "SAME",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- US citizen planning ~2-week ancestral trips to Germany/France/UK; continuing a comic strip.\n- Played Codenames with Rachel last Friday.\n- Wants 1/48-scale Japanese diorama figures (soldiers/ground crew, \"more life\"); needs paint/coaster recs for still-unassembled IKEA table (will test paint samples).\n- One-off asks: photography workshop, Seoul autumn stay, EPL scorers.\n- Really needs to save a presentation before a system update.\n- Weighing whether incentives would keep partner motivated.\n- Requested Known Fact tweet table for movies 1–5.\n- Frustrated (\"ugh\") over slouching guilt; no energy for posture, just wants to relax.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "SAME",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- US citizen; planning ~2-week ancestral trips (Germany/France/UK); continuing a comic strip.\n- Played Codenames with Rachel last Friday.\n- One-off asks: photography workshop, Seoul autumn stay, EPL scorers; requested Known Fact tweet table for movies 1–5.\n- Really needs to save a presentation before a system update.\n- Weighing whether incentives would keep partner motivated.\n- Wants 1/48-scale Japanese diorama figures (soldiers/ground crew, \"more life\"); paint/coaster recs for a still-unassembled IKEA table (will test paint samples).\n- Frustrated (\"ugh\") over slouching guilt—no energy for posture, just wants to relax.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "CHANGED",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- US citizen; planning ~2-week ancestral trips to Germany/France/UK.\n- Continuing a comic strip.\n- Played Codenames with Rachel last Friday.\n- One-off asks: photography workshop, Seoul autumn stay, EPL scorers, Known Fact tweet table for movies 1–5.\n- Really needs to save a presentation before a system update.\n- Considering whether incentives would keep partner motivated.\n- Wants 1/48-scale Japanese diorama figures (soldiers/ground crew, \"more life\").\n- Frustrated (\"ugh\") over slouching guilt—no energy for posture, just wants to relax.\n- Needs paint/coaster recs for still-unassembled IKEA table (will test paint samples).\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "CHANGED",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- US citizen; planning ~2-week ancestral trips to Germany/France/UK.\n- Continuing a comic strip; played Codenames with Rachel last Friday.\n- One-off asks: photography workshop, Seoul autumn stay, EPL scorers, Known Fact tweet table for movies 1–5.\n- *Really* needs to save presentation before system update.\n- Considering whether incentives would keep partner motivated.\n- Wants 1/48-scale Japanese soldier/ground-crew diorama figures for \"more life.\"\n- Frustrated (\"ugh\") over slouching guilt—no energy for posture, just wants to relax.\n- Needs paint (will test samples) and coaster recs for still-unassembled IKEA coffee table.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "SAME",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "• US citizen; ~2-wk ancestral trips (DE/FR/UK). Comic strip ongoing; Codenames w/ Rachel last Fri.\n• One-offs: photo workshop, Seoul autumn stay, EPL scorers, Known Fact tweet table (movies 1–5).\n• *Really* needs to save presentation before system update.\n• Musing whether incentives would keep partner motivated.\n• Wants 1/48-scale Japanese soldier/ground-crew diorama figures for \"more life.\"\n• \"Ugh\" over slouching guilt—no energy for posture, just wants to relax.\n• Needs paint (will test samples) + coaster recs for still-unassembled IKEA coffee table.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "SAME",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- US citizen; ~2-wk ancestral trips (DE/FR/UK); ongoing comic strip; played Codenames w/ Rachel last Fri; one-offs: photo workshop, Seoul autumn stay, EPL scorers, Known Fact tweet table (movies 1–5).\n- *Really* needs to save presentation before system update; musing whether incentives would keep partner motivated; \"ugh\" over slouching guilt—no energy for posture, just wants to relax.\n- Wants 1/48-scale Japanese soldier/ground-crew diorama figure recs for \"more life\"; will test paint samples; asks for coaster recs to complement style of still-unassembled IKEA coffee table.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "CHANGED",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- US citizen; ~2-wk ancestral trips (DE/FR/UK) to connect with relatives & explore homeland.\n- Ongoing comic strip; played Codenames w/ Rachel last Fri.\n- One-offs: photo workshop, Seoul autumn stay, EPL scorers, Known Fact tweet table (movies 1–5).\n- *Really* needs to save presentation before system update.\n- Musing whether incentives would keep partner motivated.\n- \"Ugh\" slouching guilt—no energy for posture; just wants to relax.\n- Wants 1/48-scale Japanese soldier/ground-crew diorama figure recs for \"more life\"; will test paint samples.\n- Asks coaster recs to complement still-unassembled IKEA coffee table.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "SAME",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- US citizen; ~2-wk ancestral trips to DE/FR/UK.\n- Ongoing comic strip.\n- Played Codenames with Rachel last Friday.\n- One-off interests: photo workshop, Seoul autumn, EPL scorers, Known Fact tweet table (movies 1–5).\n- *Really* needs to save presentation before system update.\n- Musing whether incentives would keep partner motivated.\n- Slouching guilt; no energy for posture.\n- Wants 1/48-scale Japanese soldier/ground-crew diorama figs for \"more life\"; will test paint samples.\n- Seeking coaster recs to complement still-unassembled IKEA coffee table's style.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.\n- Generate a Known Fact tweet table for movies 1-5.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "CHANGED",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "CHANGED"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+          "Generate a Known Fact tweet table for movies 1-5."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- US citizen; ~2-wk ancestral trips to DE/FR/UK.\n- Ongoing comic strip; played Codenames with Rachel last Fri.\n- One-offs: photo workshop, Seoul autumn, EPL scorers, Known Fact tweet table (movies 1–5).\n- *Really* must save presentation before system update.\n- Musing whether incentives would keep partner motivated.\n- Slouching guilt; no energy for posture.\n- Seeking 1/48-scale Japanese soldier/ground-crew diorama figs for \"more life\" (+ paint-sample testing); coaster recs for still-unassembled IKEA coffee table style.\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.\n- Generate a Known Fact tweet table for movies 1-5.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "SAME",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "SAME",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+          "Generate a Known Fact tweet table for movies 1-5."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- US citizen; ~2-wk ancestral trips to DE/FR/UK.\n- Ongoing comic strip.\n- Played Codenames with Rachel last Fri.\n- One-offs: photo workshop, Seoul autumn, EPL scorers.\n- *Really* must save presentation before system update.\n- Musing whether incentives'd keep partner motivated.\n- Slouching guilt; no energy for posture.\n- Seeking 1/48-scale Japanese soldier/ground-crew diorama figs for \"more life\" + paint-sample testing.\n- Wants coaster recs matching still-unassembled IKEA coffee table set.\n- Generate Known Fact tweet table, movies 1–5.\n- I really need to save the presentation before the system update.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "CHANGED",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "CHANGED",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I really need to save the presentation before the system update.",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- US citizen; ~2-wk ancestral trips to DE/FR/UK.\n- Ongoing comic strip.\n- Played Codenames with Rachel last Fri.\n- One-offs: photo workshop, Seoul autumn, EPL scorers.\n- *Really* must save presentation before system update.\n- Musing whether incentives'd keep partner motivated.\n- Slouching guilt; no energy for posture.\n- Seeking 1/48-scale Japanese soldier/ground-crew diorama figs for \"more life\" + paint-sample testing.\n- Wants coaster recs matching still-unassembled IKEA coffee table set.\n- Generate Known Fact tweet table, movies 1–5.\n- I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?\n- I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.",
+      "avr": {
+        "verdicts": {
+          "I really need to save the presentation before the system update.": "SAME",
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?": "CHANGED",
+          "I'm a US citizen, and I plan to visit Germany, France, and the UK. I'll be staying for around 2 weeks in each country, and the purpose of my visit is to connect with my relatives and explore my ancestral homeland.": "SAME",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style.": "CHANGED",
+          "Generate a Known Fact tweet table for movies 1-5.": "SAME"
+        },
+        "restored": [
+          "I'm also thinking of adding some Japanese soldiers or ground crew to the diorama to add more life to the scene. Do you have any recommendations for 1/48 scale figures that would be suitable for this setting?",
+          "I think I'll test out some of those paint samples. Do you have any recommendations for good coasters that would match my new coffee table from IKEA? I still haven't put together the set I bought with it, but I'd like to find something that complements the table's style."
+        ]
+      }
+    }
+  ]
+}

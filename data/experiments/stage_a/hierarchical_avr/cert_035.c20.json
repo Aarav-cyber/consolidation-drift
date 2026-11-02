@@ -1,0 +1,351 @@
+{
+  "item_id": "cert_035",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.064454+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain our train tickets are confirmed for Friday.\nUser: I'm trying to plan my day, and I have a meeting at our company's downtown office today. Can you help me figure out the best route to get there using public transportation?\nUser: What's the best way to apply a polyurethane topcoat to protect the stained wood surface and give it a glossy finish?\nUser: I'm looking for some inspiration for new recipes to try out. Can you give me some cooking ideas that feature chicken as the main ingredient?\nUser: It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\nUser: I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\nUser: What were the long-term economic consequences of the occupation, particularly for small business owners and farmers?\nUser: I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?\nUser: I'm actually thinking of going back to Hawaii, I loved it so much when I went with my family last month! Do you have any suggestions for things to do on the Big Island?\nUser: I agree that social media has made it easier for me to discover new TV shows. What are some examples of TV shows that have gained popularity through social media?\nUser: I'm interested in \"The Alice Network\". Can you tell me more about the book, like how many hours of listening time it has, and if the narrator is good?\nUser: I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.\nUser: I'm looking for some interior design inspiration for my new apartment. Do you have any suggestions for a living room layout? By the way, my mom was just giving me some advice on decorating my place last weekend, after my brother left around 5 pm and she stayed for a bit longer.\nUser: I'm excited to help you with that! What's the next step you'd like to take? Would you like me to help you brainstorm a list of potential clients and partners to reach out to, or would you like me to assist you in crafting a specific email or phone script for your ask?\nUser: I'd like to know if there's a way to set some kind of reminder or alert when the food supply is running low, so I don't forget to order more.\nUser: How does the immune system respond to infectious diseases, and what strategies do scientists use to develop effective vaccines?\nUser: can you take the Sofia prompt and strip out all the details to the scene, like the bed, and just give me a description of Sofia herself\nUser: I'd like to learn more about the role of AR in enhancing worker training and knowledge transfer in the aerospace industry. Can you provide some specific examples of how companies like Boeing and Lockheed Martin are using AR to improve worker training and knowledge transfer?\nUser: I'm excited to dive into the capstone project and demonstrate my skills in data science. I have a few ideas for a project, but I'd like to get your feedback on them. Can I run some ideas by you and get your thoughts?\nUser: Can you suggest some online resources or apps that can help me digitize my grandmother's belongings, like her jewelry or other small items, so I can include them in the memory book? I'd like to learn more about how to take high-quality photos and edit them for the book.\nUser: I'm thinking of visiting a local succulent shop this weekend to check out their selection. Do you have any tips on how to choose a healthy succulent?",
+      "anchors": [
+        "I am certain our train tickets are confirmed for Friday.",
+        "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+        "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+        "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Confirmed Friday train tickets; asked re: downtown-office transport, polyurethane topcoat tips, chicken recipes, guitar arrangements (\"Island in the Sun\"/\"Riptide\"), occupation's long-term economic impact on small business/farmers, international-student residence amenities, Big Island tips (loved family Hawaii trip last month), social-media TV examples, \"The Alice Network\" audiobook, Saturday farmer's market (strawberries, sourdough/pastries), new-apartment living-room layout (mom advised last weekend, brother left ~5 pm).\n- Offered client-outreach help (brainstorm/email/phone script); asked re: low-food-supply alert, immune-system/vaccine questions; regretted money-manipulation fortunes.\n- Wants Sofia prompt stripped of **all** scene details; seeks **specific** Boeing/Lockheed AR examples for aerospace training; **excited** about data-science capstone (a **few** ideas need feedback); wants **some** online apps to digitize grandmother's small items + **high-quality** photo tips; **thinking** of visiting local succulent shop this weekend.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Confidently confirmed Fri train tickets; offered client-outreach help.\n- Asked about: downtown-office transport, polyurethane topcoat tips, chicken recipes, guitar-specific arrangements for \"Island in the Sun\"/\"Riptide\" (will try), occupation's long-term economic impact on small business/farmers, intl-student residence amenities, Big Island tips (loved family Hawaii trip last month), social-media TV, \"The Alice Network\" audiobook, low-food-supply alert, immune/vaccine questions.\n- Sat farmer's market: always beelines for strawberry stand (sweetest/freshest); loves bakery's amazing sourdough/pastries.\n- New apartment: mom advised last weekend, brother left ~5 pm.\n- Regrets money-manipulation fortunes.\n- Wants Sofia prompt stripped of all scene details; specific Boeing/Lockheed AR aerospace-training examples.\n- Excited about data-science capstone (a few ideas need feedback).\n- Wants some apps digitizing grandmother's small items + high-quality photo tips.\n- Might visit local succulent shop this weekend.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Confirmed Fri train tickets.\n- Asked about: transport, topcoat, recipes, guitar arrangements (\"Island in the Sun\"/\"Riptide\"—will try), long-term economic impact on small business/farmers, intl-student amenities, Big Island tips (loved family Hawaii trip last month), social-media TV, \"The Alice Network\" audiobook, low-food alert, immune/vaccine Qs.\n- Sat farmer's market: always beelines for strawberry stand (sweetest/freshest); loves bakery's amazing sourdough/pastries.\n- New apartment: mom advised last weekend; brother left ~5 pm.\n- Regrets fortunes made via money manipulation.\n- Wants Sofia prompt stripped of all scene details; wants specific Boeing/Lockheed AR aerospace-training examples.\n- Excited about data-science capstone (a few ideas need feedback).\n- Wants apps for digitizing grandmother's small items + high-quality photo tips.\n- Might visit local succulent shop this weekend.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Confirmed Fri train tickets.\n- Asked about: transport, recipes, guitar arrangements for \"Island in the Sun\"/\"Riptide\" (plans to try), long-term economic impact on small biz/farmers, intl-student amenities, Big Island tips (loved family Hawaii trip last month), social-media TV, \"The Alice Network\" audiobook, immune/vaccine Qs.\n- Sat farmer's market routine: always beelines for strawberry stand (sweetest/freshest); bakery's amazing sourdough/pastries.\n- Mom advised on new apt last weekend; brother left ~5 pm.\n- Regrets fortunes made via money manipulation contributing nothing to society.\n- Wants Sofia prompt stripped of scene details + specific Boeing/Lockheed AR aerospace-training examples.\n- Excited about data-science capstone (a few ideas need feedback).\n- Wants apps to digitize grandmother's small items + photo tips.\n- Might visit a succulent shop this weekend.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "• Confirmed Friday train tickets; brother left ~5 pm.\n• Inquiries: transport, recipes, guitar arrangements (\"Island in the Sun\"/\"Riptide\" – plans to try), long-term econ impact on small biz/farmers, intl-student amenities, Big Island tips, social-media TV, \"The Alice Network\" audiobook, immune/vaccine topics.\n• Regular Saturday farmer's market; always beelines for strawberry stand (sweetest/freshest); loves bakery sourdough/pastries.\n• Mom advised on new apt last weekend.\n• Regrets fortunes from money manipulation contributing nothing to society.\n• Wants Sofia prompt stripped of scene details + specific Boeing/Lockheed AR aerospace-training examples.\n• Excited about data-science capstone; a few ideas need feedback.\n• Wants apps to digitize grandmother's small items + photo tips.\n• Might visit a succulent shop this weekend.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Confirmed Friday train tickets; brother left ~5 pm.\n- Asked broad questions: transport, recipes, guitar (\"Island in the Sun\"/\"Riptide\"), long-term econ impact on small biz/farmers, intl-student amenities, Big Island tips, social-media TV, \"The Alice Network\" audiobook, immune/vaccine topics.\n- Regular Saturday farmer's market; always beelines for strawberry stand (sweetest/freshest); loves bakery sourdough/pastries.\n- Mom advised on new apt last weekend.\n- Regrets money-manipulation fortunes contributing nothing to society.\n- Wants Sofia prompt stripped of scene details; wants specific Boeing/Lockheed AR aerospace-training examples.\n- Excited about data-science capstone; a few ideas still need feedback.\n- Wants apps to digitize grandmother's small items + photo tips.\n- Might visit a succulent shop this weekend.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Friday train tickets confirmed (brother left ~5 pm).\n- Regular Saturday farmer's-market goer; always beelines for strawberry stand; loves bakery sourdough/pastries.\n- Mom advised on new apt last weekend.\n- Regrets money-manipulation fortunes contributing nothing to society.\n- Wants: guitar arrangements for \"Island in the Sun\"/\"Riptide\"; Boeing/Lockheed AR aerospace-training examples; data-science capstone feedback (a few ideas pending); apps to digitize grandmother's small items + photo tips; possible succulent-shop visit this weekend.\n- Broad Qs: econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Friday train tickets confirmed (brother left ~5 pm); regular Saturday farmer's-market goer who always beelines for strawberries and loves bakery sourdough/pastries.\n- Mom advised on new apartment last weekend.\n- Regrets money-manipulation fortunes contributing nothing to society.\n- Wants: guitar arrangements for \"Island in the Sun\"/\"Riptide\" (seeking websites); Boeing/Lockheed AR aerospace-training examples; data-science capstone feedback (few ideas pending); apps to digitize grandmother's small items + photo tips; possible succulent-shop visit this weekend.\n- Broad questions: econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "• Friday train tickets confirmed (brother left ~5 pm).\n• Regular Saturday farmer's-market goer; always beelines for strawberries (sweetest/freshest for snacking/baking); loves amazing bakery sourdough/pastries.\n• Mom advised on new apartment last weekend.\n• Regrets that many personal fortunes come from people who simply manipulate money and contribute nothing to society.\n• Wants guitar arrangements for \"Island in the Sun\"/\"Riptide\" (seeking websites); Boeing/Lockheed AR aerospace-training examples; data-science capstone feedback (few ideas pending); apps to digitize grandmother's small items + photo tips.\n• Possible succulent-shop visit this weekend.\n• Broad Qs: econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook.\n- I am certain our train tickets are confirmed for Friday.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "SAME",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Friday train tickets confirmed; brother left ~5 pm.\n- Usually a Saturday farmer's-market goer who always beelines for strawberries (sweetest/freshest for snacking/baking) and loves amazing bakery sourdough/pastries.\n- Seeking guitar-specific arrangements for \"Island in the Sun\"/\"Riptide\" (\"I think I'll try to find\").\n- Wants Boeing/Lockheed AR aerospace-training examples.\n- Data-science capstone feedback needed (few ideas pending).\n- Looking for apps to digitize grandmother's small items + photo tips.\n- Possible succulent-shop visit this weekend.\n- Mom advised on new apartment last weekend.\n- Regrets many personal fortunes come from people who simply manipulate money and contribute nothing to society.\n- Broad questions on econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "SAME",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Brother left ~5 pm; Fri tickets confirmed.\n- Sat: farmer's-market regular beelining for strawberries (sweetest/freshest for snacking/baking) & amazing bakery sourdough/pastries; possible succulent-shop visit this weekend.\n- Mom advised on new apartment last weekend.\n- Seeking: guitar-specific arrangements for \"Island in the Sun\"/\"Riptide\" (\"I think I'll try to find\") + resource recs; Boeing/Lockheed AR aerospace-training examples; data-science capstone feedback (few ideas pending); apps to digitize grandmother's small items + photo tips.\n- Regrets many personal fortunes come from people who simply manipulate money and contribute nothing to society.\n- Broad questions: econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook.\n- I am certain our train tickets are confirmed for Friday.\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "SAME",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "• Brother left ~5 pm; Friday train tickets confirmed.\n• Saturday farmer's-market regular always beelines for strawberries (sweetest/freshest, snacking/baking) & amazing bakery sourdough/pastries; possible succulent-shop visit this weekend.\n• Mom advised on new apartment last weekend.\n• Seeking: guitar-specific arrangements (\"Island in the Sun\"/\"Riptide\" — \"I think I'll try to find\"), resource recs, Boeing/Lockheed AR aerospace-training examples, DS capstone feedback (few ideas pending), apps to digitize grandmother's small items + photo tips.\n• Regrets many personal fortunes come from people who simply manipulate money and contribute nothing to society.\n• Broad Qs: econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook.\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "SAME",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Brother left ~5 pm; Friday train tickets confirmed; mom advised on new apartment last weekend.\n- Regular Saturday farmer's-market goer: beelines for strawberries (sweetest/freshest—snacking/baking) and amazing bakery sourdough/pastries; possible succulent-shop visit.\n- Seeking: guitar arrangements (\"Island in the Sun\"/\"Riptide\"—\"I think I'll try to find\"), resource recs, Boeing/Lockheed AR aerospace-training examples, DS capstone feedback, digitization + photo tips for grandmother's small items.\n- Broad questions: econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook.\n- Regrets many personal fortunes come from people who merely manipulate money and contribute nothing to society.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "SAME",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Brother left ~5 pm; Friday train tickets confirmed; mom advised on new apartment last weekend.\n- Regular Saturday farmer's-market goer—beelines for strawberries (sweetest/freshest; snacking/baking) & bakery sourdough/pastries; possible succulent-shop visit.\n- Seeking: guitar arrangements (\"Island in the Sun\"/\"Riptide\"—\"I think I'll try to find\"), resource recs, Boeing/Lockheed AR aerospace-training examples, DS capstone feedback, digitization/photo tips for grandmother's small items.\n- Broad Qs: econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook.\n- Regrets many personal fortunes come from people who merely manipulate money and contribute nothing to society.\n- I am certain our train tickets are confirmed for Friday.\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "SAME",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Brother left ~5 pm; Friday train tickets confirmed (certain); mom advised on new apartment last weekend.\n- Regular Sat farmer's-market goer: beelines for strawberries (sweetest/freshest; snacking/baking) and bakery sourdough/pastries; possible succulent-shop visit.\n- Regrets that many personal fortunes come from people who merely manipulate money and contribute nothing to society.\n- Seeking: guitar arr. (\"Island in the Sun\"/\"Riptide\" – \"I think I'll try to find\"), resource recs, Boeing/Lockheed AR aerospace-training examples, DS capstone feedback, digitization/photo tips for grandmother's small items.\n- Broad Qs: econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook.\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "SAME",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Brother left ~5 pm; Friday train tickets confirmed.\n- Mom advised on new apartment last weekend.\n- Regular Sat farmer's-market goer: beelines for strawberries (sweetest/freshest; snacking/baking) and bakery sourdough/pastries; possible succulent-shop visit.\n- Regrets many personal fortunes stem from people who merely manipulate money, contribute nothing to society.\n- Seeking: guitar arrangements (\"Island in the Sun\"/\"Riptide\" – \"I think I'll try to find\"), resource recs, Boeing/Lockheed AR aerospace-training examples, DS capstone feedback, digitization/photo tips for grandmother's small items.\n- Broad questions: econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook.\n- I am certain our train tickets are confirmed for Friday.\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "SAME",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Brother left ~5 pm; Friday train tickets confirmed (certain).\n- Mom advised on new apartment last weekend.\n- Regular Saturday farmer's-market goer: beelines for sweetest/freshest strawberries (snacking/baking) + bakery sourdough/pastries; possible succulent-shop visit.\n- Regrets personal fortunes stem from people who merely manipulate money and contribute nothing.\n- Seeking: guitar arrangements (\"Island in the Sun\"/\"Riptide\" – \"I think I'll try to find\"), resource recs, Boeing/Lockheed AR aerospace-training examples, DS capstone feedback, digitization/photo tips for grandmother's small items; broad Qs on econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Brother left ~5 pm; Friday train tickets confirmed.\n- Mom advised on new apartment last weekend.\n- Regular Sat farmer's-market goer: beelines for sweetest/freshest strawberries (snacking/baking) + bakery sourdough/pastries; possible succulent-shop visit.\n- Regrets that many personal fortunes come from people who merely manipulate money and contribute nothing to society.\n- Seeking: guitar arrangements (\"Island in the Sun\"/\"Riptide\" – \"I think I'll try to find\"), resource recs, Boeing/Lockheed AR aerospace-training examples, DS capstone feedback, digitization/photo tips for grandmother's small items, plus broad Qs (econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook).\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "SAME",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Brother left ~5 pm; Friday train tickets confirmed; Mom advised on new apartment last weekend.\n- Regular Sat farmer's-market goer who always beelines for the sweetest/freshest strawberries (snacking/baking) and bakery sourdough/pastries; possible succulent-shop visit.\n- Regrets that many personal fortunes come from people who merely manipulate money and contribute nothing to society.\n- Seeking: guitar arrangements (\"Island in the Sun\"/\"Riptide\" – \"I think I'll try to find\"), resource recs, Boeing/Lockheed AR aerospace-training examples, DS capstone feedback, digitization/photo tips for grandmother's small items.\n- Broad Qs: econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook.\n- I am certain our train tickets are confirmed for Friday.\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "SAME",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "• Brother left ~5 pm; Friday train tickets confirmed; Mom advised on new apartment last weekend.\n• Regular Sat farmer's-market goer; always beelines for sweetest/freshest strawberries (snacking/baking) + bakery sourdough/pastries; possible succulent-shop visit.\n• Regrets that many personal fortunes come from people who merely manipulate money and contribute nothing to society.\n• Seeking: guitar arrangements (\"Island in the Sun\"/\"Riptide\" – \"I think I'll try to find\"), resource recs; Boeing/Lockheed AR aerospace-training examples; DS capstone feedback; digitization/photo tips for grandmother's small items.\n• Broad Qs: econ impact, intl-student amenities, Big Island tips, social-media TV, vaccines, \"The Alice Network\" audiobook.\n- I am certain our train tickets are confirmed for Friday.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "SAME",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries.": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I usually go to the farmer's market on Saturdays and always make a beeline for the strawberry stand. They have the sweetest and freshest strawberries, perfect for snacking and baking. I also like to check out the bakery stand, they have amazing sourdough bread and pastries."
+        ]
+      }
+    }
+  ]
+}

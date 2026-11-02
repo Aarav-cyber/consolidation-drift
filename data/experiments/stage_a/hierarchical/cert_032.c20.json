@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_032",
+  "context_level": "c20",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:17.992271+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am fairly confident the promotion will be announced in April.\nUser: It's good that there are potential solutions to income inequality in the US, but it seems like it will take a long time to implement them all. What can be done in the meantime to help those who are struggling financially?\nUser: I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?\nUser: I'm excited to start working on building my confidence and meaningful relationships. Do you have any suggestions for specific activities I can try to step out of my comfort zone?\nUser: I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\nUser: Was Franco's use of music and sound unique to his filmmaking style or was it common among other filmmakers in Spain during his time?\nUser: How has Arbroath's fishing industry played a role in shaping its culinary heritage?\nUser: Well, it sounds like the colonial powers did a lot of damage to the Caribbean islands. Have the islands been able to recover from the harm caused by colonialism?\nUser: I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues.\nUser: I'm also thinking of getting back on track with my exercise routine after my week-long beach vacation where I slacked off on my exercise routine. Do you have any recommendations for yoga classes or studios in my area that I can try out?\nUser: It's fascinating how the British Empire's impact is still felt today. Do you think it's possible to fully understand its legacy without examining the perspectives of both the colonizers and the colonized?\nUser: I also really like the artwork for David Bowie's \"Aladdin Sane\" album. Do you know who designed that one?\nUser: Got it, I understand. I'll start by implementing Vuex in some new components and see how it goes from there.\nUser: add to that story before their first performance Mia suggest to think what will be the possible topic for their song, and from it write a title of that song, it's meaning, and lyrics.\nUser: provide content for \" 9. Tips for Maintaining Good Posture Throughout the Day \"\nUser: It's amazing to see how deeply rooted and diverse the cultural traditions in Mexico are. Do you think there are any other festivals or celebrations that are lesser-known but equally fascinating?\nUser: That's really helpful, thanks. I'm thinking of making a reservation for breakfast at Be Our Guest Restaurant. Can you tell me more about the atmosphere and what it's like to dine in the grand ballroom?\nUser: How do international environmental agreements, such as the Paris Agreement, work to regulate global carbon emissions?\nUser: I am interested in jd-r theory, organizational culture, organizational behavior, too-much of a good thing effect and justice.\nUser: what are his credentials and degrees?\nUser: I'm thinking of using some of the grilled chicken in a Korean-style salad jar, inspired by the Korean BBQ beef I made a few weeks ago. Do you have any suggestions for Korean-inspired salad ingredients that would pair well with the grilled chicken?"
+    },
+    {
+      "round": 1,
+      "memory": "- Fairly confident April promotion will be announced.\n- Topics: interim US income-inequality help; durable Max's dog-bowl (3 mo, showing wear) replacements; comfort-zone-stepping activities; 10-min pre-breakfast meditation; Franco's music vs. other Spanish filmmakers; Arbroath fishing/culinary heritage; Caribbean post-colonial recovery; Oyeyemi's style/social issues; post-week-long-beach-vacation yoga recs; British Empire legacy needing both colonizers' and colonized' perspectives; \"Aladdin Sane\" artwork designer; Vuex, new components; Mia proposing song topic/title/lyrics pre-first-performance; posture tips; lesser-known Mexican festivals.\n- Thanked assistant; inquired about Be Our Guest's grand ballroom dining (planned breakfast); how environmental agreements (e.g., Paris Agreement) regulate global carbon emissions; jd-r theory, organizational culture/behavior, too-much-of-a-good-thing effect, justice; assistant's credentials/degrees.\n- Sought Korean-inspired salad ingredients to pair with grilled chicken, salad-jar (inspired by Korean BBQ beef made a few weeks ago)."
+    },
+    {
+      "round": 2,
+      "memory": "- Fairly confident April promotion will be announced; thanked assistant.\n- Swept many topics: Max's 3-mo dog-bowl wear, 10-min pre-breakfast meditation, post-week-long-beach-vacation yoga, Franco's music, Arbroath heritage, Caribbean post-colonial recovery, Oyeyemi, British Empire legacy needing both perspectives, \"Aladdin Sane\" artwork, Vuex/new components, Mia's pre-first-performance song, posture tips, lesser-known Mexican festivals, interim US income-inequality help, comfort-zone activities.\n- Inquired about Be Our Guest ballroom breakfast, Paris Agreement carbon-emission regulation, jd-r theory/organizational culture/too-much-of-a-good-thing effect/justice, and assistant's credentials.\n- Sought Korean-inspired salad ingredients for a grilled-chicken salad-jar (inspired by Korean BBQ beef made a few weeks ago)."
+    },
+    {
+      "round": 3,
+      "memory": "- Fairly confident April promotion will be announced; thanked assistant.\n- Swept diverse topics: Max's 3-mo dog-bowl, 10-min meditation, post-beach-vacation yoga, Franco's music, Arbroath, Caribbean post-colonial recovery, Oyeyemi, British Empire legacy needing both perspectives, Aladdin Sane, Vuex/new components, Mia's pre-first-performance song, posture, Mexican festivals, US income inequality, comfort-zone.\n- Inquired about Be Our Guest breakfast, Paris Agreement carbon regulation, JD-R theory, organizational culture, \"too-much-of-a-good-thing,\" justice, and assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 4,
+      "memory": "- Fairly confident April promotion will be announced; thanked assistant.\n- Swept diverse topics: Max's 3-mo dog-bowl, 10-min meditation, post-beach-vacation yoga, Franco's music, Arbroath, Caribbean post-colonial recovery, Oyeyemi, British Empire legacy needing both perspectives, Aladdin Sane, Vuex/new components, Mia's pre-first-performance song, posture, Mexican festivals, US income inequality, comfort-zone.\n- Inquired about Be Our Guest breakfast, Paris Agreement carbon regulation, JD-R theory, organizational culture, \"too-much-of-a-good-thing,\" justice, assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 5,
+      "memory": "- Fairly confident the April promotion will be announced; thanked assistant.\n- Swept diverse topics: Max's 3-mo dog-bowl, 10-min meditation, post-beach-vacation yoga, Franco's music, Arbroath, Caribbean post-colonial recovery, Oyeyemi, British Empire legacy (needing both perspectives), Aladdin Sane, Vuex/new components, Mia's pre-first-performance song, posture, Mexican festivals, US income inequality, comfort-zone; asked about Be Our Guest breakfast, Paris Agreement carbon regulation, JD-R theory, organizational culture, \"too-much-of-a-good-thing,\" justice, assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 6,
+      "memory": "- User was fairly confident the April promotion would be announced; thanked the assistant.\n- Swept across diverse topics: Max's 3-mo dog-bowl, 10-min meditation, post-beach-vacation yoga, Franco's music, Arbroath, Caribbean post-colonial recovery, Oyeyemi, British Empire legacy (needing both perspectives), Aladdin Sane, Vuex/new components, Mia's pre-first-performance song, posture, Mexican festivals, US income inequality, comfort-zone.\n- Asked about: Be Our Guest breakfast, Paris Agreement carbon regulation, JD-R theory, organizational culture, \"too-much-of-a-good-thing,\" justice, assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 7,
+      "memory": "- Felt fairly confident about April promotion being announced; thanked assistant.\n- Swept many diverse topics: Max's 3-mo dog-bowl, 10-min meditation, post-beach-vacation yoga, Franco's music, Arbroath, Caribbean post-colonial recovery, Oyeyemi, British Empire legacy needing both perspectives, Aladdin Sane, Vuex/new components, Mia's pre-first-performance song, posture, Mexican festivals, US income inequality, comfort-zone.\n- Asked about: Be Our Guest breakfast, Paris Agreement carbon regulation, JD-R theory, organizational culture, \"too-much-of-a-good-thing,\" justice, and assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 8,
+      "memory": "- Felt fairly confident an April promotion would be announced; thanked assistant.\n- Swept many diverse topics: Max's 3-mo dog-bowl, 10-min meditation, post-beach-vacation yoga, Franco's music, Arbroath, Caribbean post-colonial recovery, Oyeyemi, British Empire legacy (needing both perspectives), Aladdin Sane, Vuex/new components, Mia's pre-first-performance song, posture, Mexican festivals, US income inequality, comfort-zone.\n- Asked about Be Our Guest breakfast, Paris Agreement carbon regulation, JD-R theory, organizational culture, \"too-much-of-a-good-thing,\" justice, and assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 9,
+      "memory": "- Felt fairly confident an April promotion would be announced; thanked assistant.\n- Swept diverse topics: 3-mo dog-bowl, 10-min meditation, post-beach-vacation yoga, Franco's music, Arbroath, Caribbean post-colonial recovery, Oyeyemi, British Empire legacy needing both perspectives, Aladdin Sane, Vuex/new components, Mia's pre-first-performance song, posture, Mexican festivals, US income inequality, comfort-zone.\n- Asked about: Be Our Guest breakfast, Paris Agreement carbon regulation, JD-R theory, organizational culture, \"too-much-of-a-good-thing,\" justice, assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 10,
+      "memory": "- Felt fairly confident an April promotion would be announced; thanked assistant.\n- Swept many diverse topics: 3-mo dog-bowl, 10-min meditation, post-beach-vacation yoga, Franco's music, Arbroath, Caribbean post-colonial recovery, Oyeyemi, British Empire legacy (needing both perspectives), Aladdin Sane, Vuex/new components, Mia's pre-first-performance song, posture, Mexican festivals, US income inequality, comfort-zone.\n- Asked about Be Our Guest breakfast, Paris Agreement carbon regulation, JD-R theory, organizational culture, \"too-much-of-a-good-thing,\" justice, and assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 11,
+      "memory": "- Felt fairly confident an April promotion would be announced; thanked assistant.\n- Swept many diverse topics: 3-mo dog bowl, 10-min meditation, post-beach-vacation yoga, Franco's music, Arbroath, Caribbean post-colonial recovery, Oyeyemi, British Empire legacy (needing both perspectives), Aladdin Sane, Vuex/new components, Mia's pre-first-performance song, posture, Mexican festivals, US income inequality, comfort zone.\n- Asked about: Be Our Guest breakfast, Paris Agreement carbon regulation, JD-R theory, organizational culture, \"too-much-of-a-good-thing,\" justice, assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 12,
+      "memory": "- Felt fairly confident an April promotion would be announced; thanked assistant.\n- Swept diverse topics: 3-mo dog bowl, 10-min meditation, post-beach-vacation yoga, Franco's music, Arbroath, Caribbean post-colonial recovery, Oyeyemi, British Empire legacy (needing both perspectives), Aladdin Sane, Vuex/new components, Mia's pre-first-performance song, posture, Mexican festivals, US income inequality, comfort zone.\n- Asked about: Be Our Guest breakfast, Paris Agreement carbon regulation, JD-R theory, organizational culture, \"too-much-of-a-good-thing,\" justice, assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 13,
+      "memory": "- Felt fairly confident an April promotion would be announced; thanked assistant.\n- Swept many diverse topics: 3-mo dog bowl, 10-min meditation, post-beach-vacation yoga, Franco's music, Arbroath, Caribbean post-colonial recovery, Oyeyemi, British Empire legacy needing both perspectives, Aladdin Sane, Vuex/new components, Mia's pre-first-performance song, posture, Mexican festivals, US income inequality, comfort zone.\n- Asked about Be Our Guest, Paris Agreement carbon regulation, JD-R theory, organizational culture, \"too-much-of-a-good-thing,\" justice, and assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 14,
+      "memory": "- Felt fairly confident an April promotion would be announced; thanked assistant.\n- Swept many diverse topics: 3-mo dog bowl, 10-min meditation, post-beach-vacation yoga, Franco's music, Arbroath, Caribbean post-colonial recovery, Oyeyemi, British Empire legacy (needing both perspectives), Aladdin Sane, Vuex/new components, Mia's pre-first-performance song, posture, Mexican festivals, US income inequality, comfort zone.\n- Asked about Be Our Guest, Paris Agreement carbon regulation, JD-R theory, organizational culture, \"too-much-of-a-good-thing,\" justice, and assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 15,
+      "memory": "- Felt fairly confident an April promotion would be announced; thanked assistant.\n- Swept many diverse topics: 3-mo dog bowl, 10-min meditation, Franco's music, Caribbean post-colonial recovery, British Empire legacy (needing both perspectives), etc.\n- Asked about: Be Our Guest, Paris Agreement carbon regulation, JD-R theory, organizational culture, \"too-much-of-a-good-thing,\" justice, and assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 16,
+      "memory": "- Felt **fairly confident** an April promotion would be announced; thanked assistant.\n- Swept many diverse topics: 3-mo dog bowl, 10-min meditation, Franco's music, Caribbean post-colonial recovery, British Empire legacy needing both perspectives, Be Our Guest, Paris Agreement carbon regulation, JD-R theory, org culture, \"too-much-of-a-good-thing,\" justice, assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 17,
+      "memory": "- Felt **fairly confident** an April promotion would be announced; thanked assistant.\n- Swept many diverse topics: 3-mo dog bowl, 10-min meditation, Franco's music, Caribbean post-colonial recovery, British Empire legacy (needing both perspectives), Be Our Guest, Paris Agreement carbon regulation, JD-R theory, org culture, \"too-much-of-a-good-thing,\" justice, assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 18,
+      "memory": "- Felt fairly confident an April promotion would be announced; thanked assistant.\n- Swept many diverse topics: 3-mo dog bowl, 10-min meditation, Franco's music, Caribbean post-colonial recovery, British Empire legacy (needing both perspectives), Be Our Guest, Paris Agreement carbon regulation, JD-R theory, org culture, \"too-much-of-a-good-thing,\" justice, assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 19,
+      "memory": "- Felt fairly confident an April promotion would be announced; thanked assistant.\n- Swept many diverse topics: 3-mo dog bowl, 10-min meditation, Franco's music, Caribbean post-colonial recovery, British Empire legacy needing both perspectives, Be Our Guest, Paris Agreement carbon regulation, JD-R theory, org culture, \"too-much-of-a-good-thing,\" justice, assistant's credentials.\n- Sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    },
+    {
+      "round": 20,
+      "memory": "- Felt fairly confident an April promotion would be announced; thanked assistant.\n- Swept many diverse topics: 3-mo dog bowl, 10-min meditation, Franco's music, Caribbean post-colonial recovery, British Empire legacy (needing both perspectives), Be Our Guest, Paris Agreement carbon regulation, JD-R theory, org culture, \"too-much-of-a-good-thing,\" justice, assistant's credentials.\n- Then sought Korean-inspired grilled-chicken salad-jar ingredients, inspired by Korean BBQ beef made a few weeks ago."
+    }
+  ]
+}

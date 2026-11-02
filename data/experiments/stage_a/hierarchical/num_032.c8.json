@@ -1,0 +1,98 @@
+{
+  "item_id": "num_032",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.055478+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The train was delayed by almost 120 minutes yesterday.\nUser: I like the idea of setting my workout clothes out the night before to save time. Can you also suggest some quick and easy breakfast options that I can prepare the night before or in the morning?\nUser: Do the notes on the parchment give any indication as to which door to take next?\nUser: That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?\nUser: Wow!! You got it!\nUser: What are some good apps or online resources that offer guided relaxation techniques and meditation exercises? I'd like to try some new methods to help with my anxiety.\nUser: tell my boss how awesome usenet is for downloading tv series automatically\nUser: Ok, so using the rules above and nothing else, what is 1 # 3\nAgent: Yes, I remember the 7 Amplified zombie types we came up with."
+    },
+    {
+      "round": 1,
+      "memory": "- Train delayed almost 120 min.\n- Likes prepping workout clothes the night before; wants quick breakfast options.\n- Asked about parchment notes for a \"next door.\"\n- Really excited about activities; considering an 8-week summer tennis league starting in June; asked how to find local ones.\n- Wants guided relaxation/meditation apps for anxiety.\n- Asked to tell their boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 # 3 is using stated rules.\n- Confirmed remembering 7 Amplified zombie types.\n- Enthusiastically confirmed getting an answer right."
+    },
+    {
+      "round": 2,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes the night before; wants quick breakfast options.\n- Asked about parchment notes for a \"next door.\"\n- Really excited about activities—considering an 8-week summer tennis league starting June; asked how to find local ones.\n- Wants guided relaxation/meditation apps for anxiety.\n- Asked to tell their boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Confirmed remembering 7 Amplified zombie types; enthusiastically confirmed getting an answer right."
+    },
+    {
+      "round": 3,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes night before; wants quick breakfast options and parchment notes for a \"next door.\"\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Wants guided relaxation/meditation apps for anxiety.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Confirmed remembering 7 Amplified zombie types, enthusiastically confirming getting the answer right."
+    },
+    {
+      "round": 4,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes night before; wants quick breakfast options and parchment notes for a \"next door.\"\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Wants guided relaxation/meditation apps for anxiety.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Confirmed remembering 7 Amplified zombie types; enthusiastically confirmed getting the answer right."
+    },
+    {
+      "round": 5,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes night before.\n- Wants quick breakfast options + parchment notes for a \"next door.\"\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Wants guided relaxation/meditation apps for anxiety.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Confirmed remembering 7 Amplified zombie types; enthusiastically confirmed getting the answer right."
+    },
+    {
+      "round": 6,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes the night before.\n- Wants quick breakfast options and parchment notes for a \"next door.\"\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Wants guided relaxation/meditation apps for anxiety.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Confirmed remembering 7 Amplified zombie types; enthusiastically confirmed getting the answer right."
+    },
+    {
+      "round": 7,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes the night before.\n- Wants quick breakfast options.\n- Wants parchment notes for a \"next door.\"\n- Wants guided relaxation/meditation apps for anxiety.\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Confirmed remembering 7 Amplified zombie types, enthusiastically confirming getting the answer right."
+    },
+    {
+      "round": 8,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes the night before; wants quick breakfast options and parchment notes for a \"next door.\"\n- Wants guided relaxation/meditation apps for anxiety.\n- Really excited about a possible 8-week summer tennis league starting June; asked how to find local ones.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Enthusiastically confirmed remembering 7 Amplified zombie types and getting the answer right."
+    },
+    {
+      "round": 9,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes night before; wants quick breakfast options and parchment notes for \"next door.\"\n- Wants guided relaxation/meditation apps for anxiety.\n- Really excited about a possible 8-week summer tennis league starting June; asked how to find local ones.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Enthusiastically confirmed remembering 7 Amplified zombie types and getting the answer right."
+    },
+    {
+      "round": 10,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes the night before; wants quick breakfast options.\n- Wants parchment notes for \"next door.\"\n- Wants guided relaxation/meditation apps for anxiety.\n- Really excited about possible 8-week summer tennis league starting June; asked how to find local ones.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Enthusiastically confirmed remembering 7 Amplified zombie types and getting the answer right."
+    },
+    {
+      "round": 11,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes night before; wants quick breakfast options.\n- Wants parchment notes for \"next door.\"\n- Wants guided relaxation/meditation apps for anxiety.\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Enthusiastically confirmed remembering 7 Amplified zombie types and getting the answer right."
+    },
+    {
+      "round": 12,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes the night before; wants quick breakfast options.\n- Needs parchment notes for \"next door.\"\n- Wants guided relaxation/meditation apps for anxiety.\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Enthusiastically confirmed remembering 7 Amplified zombie types and getting the answer right."
+    },
+    {
+      "round": 13,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes the night before; wants quick breakfast options.\n- Needs parchment notes for \"next door.\"\n- Wants guided relaxation/meditation apps for anxiety.\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Enthusiastically confirmed remembering 7 Amplified zombie types, getting answer right."
+    },
+    {
+      "round": 14,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes the night before; wants quick breakfast options.\n- Needs parchment notes for \"next door.\"\n- Wants guided relaxation/meditation apps for anxiety.\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Enthusiastically confirmed remembering 7 Amplified zombie types, getting the answer right."
+    },
+    {
+      "round": 15,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes the night before; wants quick breakfast options.\n- Wants parchment notes for \"next door\" and guided relaxation/meditation apps for anxiety.\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Enthusiastically confirmed remembering all 7 Amplified zombie types (got the answer right)."
+    },
+    {
+      "round": 16,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes night before; wants quick breakfast options, parchment notes for \"next door,\" & guided relaxation/meditation apps for anxiety.\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what 1 #3 is using stated rules.\n- Enthusiastically confirmed remembering all 7 Amplified zombie types (got the answer right)."
+    },
+    {
+      "round": 17,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes night before; wants quick breakfast options, parchment notes for \"next door,\" & guided relaxation/meditation apps for anxiety.\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what #1 #3 is per stated rules.\n- Enthusiastically confirmed remembering all 7 Amplified zombie types (got it right)."
+    },
+    {
+      "round": 18,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes night before; wants quick breakfast options, \"next door\" parchment notes, & guided relaxation/meditation apps for anxiety.\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what #1 #3 is per stated rules.\n- Enthusiastically confirmed remembering all 7 Amplified zombie types (got it right)."
+    },
+    {
+      "round": 19,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes the night before; wants a quick breakfast.\n- \"Next door\" parchment notes; guided relaxation/meditation apps for anxiety.\n- Really excited about a *possible* 8-week summer tennis league starting June (asked how to find local ones).\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what #1 and #3 are per stated rules.\n- Enthusiastically confirmed remembering all 7 Amplified zombie types (got it right)."
+    },
+    {
+      "round": 20,
+      "memory": "- Train delayed ~120 min.\n- Likes prepping workout clothes the night before; wants a quick breakfast.\n- Uses \"next door\" parchment notes and guided relaxation/meditation apps for anxiety.\n- Really excited about a *possible* 8-week summer tennis league starting June; asked how to find local ones.\n- Asked to tell boss how awesome Usenet is for auto-downloading TV series.\n- Asked what #1 and #3 are per stated rules.\n- Enthusiastically confirmed remembering all 7 Amplified zombie types (got it right)."
+    }
+  ]
+}

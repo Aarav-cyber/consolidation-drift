@@ -1,0 +1,442 @@
+{
+  "item_id": "pref_018",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.004536+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I prefer hiking on weekends rather than visiting malls.\nUser: I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\nUser: Can you compare and contrast the breeding habits of ducks and geese?\nUser: It is a bollywood movie\nUser: I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?\nUser: What's the policy on cancellations and refunds at Naga Residence?\nUser: I'm interested in learning more about the Strut Your Mutt charity event. Can you tell me more about it and how I can get involved?\nUser: Wow, these are such helpful tips! I didn't realize that there were so many ways to reduce food waste during the holidays. I can't wait to try them out and impress my family with my sustainability efforts.\nUser: That's really helpful! I think I'll go with a combination of creating a new group and adding context notes. I also want to make sure I don't lose Emily's number, so I'll make sure to add a note about the play she's directing next month.\nUser: I've been thinking about getting a better luggage set, do you have any recommendations for durable and stylish options?\nUser: I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.\nUser: I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?\nUser: I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.\nUser: I'm also curious, do you know any online marketplaces or forums where I can research and buy vintage cameras, like the 1960s-era Canon rangefinder camera I recently purchased online?\nUser: hmm. that information is not correct. that's interesting. were you paraphrasing?\nUser: Wow, it's amazing how Zen Buddhism has had such a profound impact on Japanese poetry. Do you think modern Japanese poetry still reflects these influences or has it moved on to other cultural and aesthetic influences?\nUser: Write one more paragraph specifically about our vision on the specific VR experience we would deliver.\nUser: I actually repotted my fiddle leaf fig tree about two weeks ago, and it's doing great so far. I spent about an hour and a half on the project, making sure to handle the roots carefully and add some fertilizer to the new soil.\nUser: How is it the Pig's MTOW (detailed) by now and its dimensions (detailed)?\nAgent: I'm glad I could help. Don't hesitate to reach out if you have any further questions or concerns. Website downtime can be frustrating, but by taking these preventive measures, you'll be able to minimize its occurrence and ensure that your website runs smoothly.\nUser: What are outliers? Types of outliers, Challenges of outlier Detection.",
+      "anchors": [
+        "I prefer hiking on weekends rather than visiting malls.",
+        "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+        "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?",
+        "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.",
+        "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?",
+        "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+        "Write one more paragraph specifically about our vision on the specific VR experience we would deliver."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Prefers hiking over malls; values employee flexibility\n- Asked about: duck/goose breeding, Bollywood, I-80 W traffic, Naga Residence refunds, Strut Your Mutt, luggage, pork belly/Post Oak pairings, 1960s Canon rangefinder forums, Zen Buddhism & Japanese poetry\n- Running: Sat club ~4–5 mi, 5K ~31:15; wants speed/endurance\n- Fly fishing: ordered beginner kit; caught 3-lb trout, Lake Tahoe (silver lure, 3 weekends ago)\n- Found food-waste tips very helpful; excited to impress family\n- Keeps Emily's number; noted she directs a play next month\n- Challenged prior accuracy (paraphrasing?); requested extra paragraph on specific VR vision\n- Repotted fiddle leaf fig ~2 wks ago (~1.5 hrs, careful roots, fertilizer); doing great\n- Asked about Pig's MTOW status/dimensions (detailed); offered website downtime help\n- Asked about outliers: types & detection challenges\n- I prefer hiking on weekends rather than visiting malls.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?\n- I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.\n- I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "CHANGED",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "CHANGED",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "CHANGED",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "CHANGED",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I prefer hiking on weekends rather than visiting malls.",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Prefers weekend hiking over malls; values employee flexibility (trust, individual value; appreciates in own schedule). Runs Sat club ~4–5 mi; 5K ~31:15 (last charity run); wants speed/endurance.\n- Ordered beginner fly-fishing kit; caught 3-lb trout, Lake Tahoe, 3 weekends ago (silver lure); really interested. Repotted fiddle leaf fig ~2 wks ago (~1.5 hrs, careful roots, fertilizer); doing great.\n- Found food-waste tips very helpful; excited to impress family. Keeps Emily's # (directs a play next month).\n- Challenged prior accuracy (paraphrasing?); requested extra paragraph on specific VR vision.\n- Asked re: I-80W traffic (worried, busiest times), Post Oak + pork belly pairings (considering; heard crowd-pleaser; excited re: glazes/rubs), duck/goose breeding, Bollywood, Naga Residence refunds, Strut Your Mutt, luggage, 1960s Canon rangefinder forums, Zen Buddhism/Japanese poetry, Pig's MTOW status/dimensions, outliers (types, detection challenges).\n- Offered help w/ website downtime.\n- I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?\n- I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.\n- I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "SAME",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "SAME",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "CHANGED",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "CHANGED",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "CHANGED",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Prefers hiking over malls.\n- Runs Sat club ~4–5 mi; 5K ~31:15 at last charity run—wants speed/endurance.\n- Ordered beginner fly-fishing kit; caught a 3-lb trout (silver lure) at Lake Tahoe 3 weekends ago—really interested in it.\n- Repotted fiddle leaf fig ~2 wks ago; doing great.\n- Found food-waste tips very helpful.\n- Keeps Emily's number.\n- Challenged prior accuracy.\n- Asked re: I-80W traffic (worried), Post Oak + pork belly pairings (excited re: glazes/rubs), and assorted misc topics.\n- Offered help w/ website downtime.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.\n- Write one more paragraph specifically about our vision on the specific VR experience we would deliver.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "SAME",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "MISSING",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "SAME",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "SAME",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "SAME",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "MISSING"
+        },
+        "restored": [
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Prefers hiking over malls; Sat run club ~4–5 mi, 5K ~31:15; wants speed/endurance.\n- Really into fly fishing: began kit, caught 3-lb trout/silver lure at Lake Tahoe 3 wks ago; watching YouTube.\n- Fig repotted ~2 wks ago, doing great.\n- Found food-waste tips very helpful.\n- Keeps Emily's #; challenged prior accuracy.\n- Asked re: I-80W traffic (worried), Post Oak + pork belly pairings (excited re: glazes/rubs), misc.\n- Offered help w/ website downtime.\n- Really likes offering employee flexibility (trusts/values individuals); appreciates own schedule flexibility.\n- Task: write one more paragraph on specific VR experience vision.\n- I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "SAME",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "SAME",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "SAME",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "CHANGED",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "SAME",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Prefers hiking over malls. Sat run club ~4–5 mi; 5K ~31:15 (last charity run); wants speed/endurance.\n- Really into fly fishing: ordered beginner's kit; caught 3-lb trout w/ silver lure at Tahoe ~3 wks ago; watching YouTube.\n- Fig repotted ~2 wks ago (doing great). Food-waste tips very helpful.\n- Keeps Emily's #; challenged prior accuracy.\n- Worried re: I-80W traffic. Excited re: Post Oak + pork belly glazes/rubs.\n- Offered help w/ website downtime.\n- Really values employee flexibility (trusts individuals); appreciates own schedule flexibility.\n- Task: write one more paragraph on specific VR experience vision.\n- I prefer hiking on weekends rather than visiting malls.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "CHANGED",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "SAME",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "SAME",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "CHANGED",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I prefer hiking on weekends rather than visiting malls.",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "• Prefers hiking over malls; Sat run club ~4–5 mi; 5K ~31:15 (last charity run); wants speed/endurance.\n• Fly fishing: ordered beginner's kit; caught 3-lb trout w/ silver lure at Tahoe (~3 wks / ~three weekends ago); watching YouTube.\n• Fig repotted ~2 wks ago (doing great); found food-waste tips very helpful.\n• Keeps Emily's number; challenged prior accuracy.\n• Worried re: I-80W traffic; offered help w/ website downtime.\n• Really values employee flexibility (trusts individuals); appreciates own schedule flexibility.\n• Excited re: Post Oak + pork belly (thinking of trying next; heard it's a real crowd-pleaser); asked glaze/rub pairing recs.\n• Pending: write one more paragraph on specific VR experience vision.\n- I prefer hiking on weekends rather than visiting malls.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.\n- Write one more paragraph specifically about our vision on the specific VR experience we would deliver.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "CHANGED",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "CHANGED",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "SAME",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "SAME",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "CHANGED"
+        },
+        "restored": [
+          "I prefer hiking on weekends rather than visiting malls.",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "• Prefers hiking over malls; Sat run club ~4–5 mi; 5K ~31:15 (last charity run); wants speed/endurance.\n• Fly fishing: ordered beginner kit; caught 3-lb trout w/ silver lure at Tahoe ~3 weekends ago; watching YouTube.\n• Fig repotted ~2 wks ago (doing great); found food-waste tips very helpful.\n• Keeps Emily's number; challenged prior accuracy.\n• Worried re: I-80W traffic (asked busiest times); offered website-downtime help.\n• Really values employee flexibility (trusts individuals); appreciates own schedule flexibility.\n• Excited re: Post Oak + pork belly (thinking of trying; heard it's a real crowd-pleaser); asked glaze/rub pairing recs.\n• Pending: write one more paragraph on specific VR experience vision.\n- I prefer hiking on weekends rather than visiting malls.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "CHANGED",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "SAME",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "SAME",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "SAME",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I prefer hiking on weekends rather than visiting malls.",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Prefers hiking over malls; Sat run club ~4–5 mi; last charity 5K ~31:15; wants speed/endurance.\n- Ordered fly-fishing kit; caught 3-lb trout at Tahoe ~3 weekends ago w/ silver lure, watching YouTube.\n- Fig repotted ~2 wks ago (doing great); found food-waste tips very helpful.\n- Keeps Emily's number; challenged prior accuracy.\n- Worried re: I-80W traffic (asked busiest times); offered website-downtime help.\n- Really values employee flexibility (trusts individuals); appreciates own schedule flexibility.\n- Excited re: Post Oak + pork belly (thinking of trying; heard it's a real crowd-pleaser); asked glaze/rub pairing recs.\n- Pending: one more paragraph on specific VR experience vision.\n- I prefer hiking on weekends rather than visiting malls.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "CHANGED",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "SAME",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "CHANGED",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "SAME",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I prefer hiking on weekends rather than visiting malls.",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Prefers hiking over malls; Sat run club ~4–5 mi, last charity 5K ~31:15, wants speed/endurance.\n- Ordered fly-fishing kit; caught 3-lb trout at Tahoe ~3 weekends ago w/ silver lure (YouTube-inspired).\n- Fig repotted ~2 wks ago (doing great); found food-waste tips very helpful.\n- Keeps Emily's number; challenged prior accuracy.\n- Worried re I-80W traffic.\n- Really values employee & own schedule flexibility.\n- Excited re Post Oak pork belly (thinking of trying, heard it's a real crowd-pleaser); asked glaze/rub pairing recs.\n- Offered website-downtime help.\n- Pending: one more paragraph on specific VR-experience vision.\n- I prefer hiking on weekends rather than visiting malls.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?\n- I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "CHANGED",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "CHANGED",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "CHANGED",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "SAME",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I prefer hiking on weekends rather than visiting malls.",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Prefers hiking over malls\n- Sat run club ~4–5 mi; last charity 5K ~31:15; wants speed/endurance\n- Ordered fly-fishing kit; caught 3-lb trout at Tahoe ~3 weekends ago (YouTube-inspired, silver lure)\n- Fig repotted ~2 wks ago (doing great)\n- Keeps Emily's number (challenged prior accuracy)\n- Worried re I-80W traffic (thinking of that route; asks busiest times)\n- Really values employee & own schedule flexibility (trust)\n- Excited re Post Oak pork belly (thinking of trying; heard it's a crowd-pleaser); asked glaze/rub recs\n- Offered website-downtime help\n- Pending one more paragraph on specific VR-experience vision\n- I prefer hiking on weekends rather than visiting malls.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "CHANGED",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "SAME",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "SAME",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "CHANGED",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "SAME",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I prefer hiking on weekends rather than visiting malls.",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Prefers hiking over malls (weekends).\n- Runs a ~4–5 mi club; last charity 5K ~31:15; wants speed/endurance.\n- Caught a 3-lb Tahoe trout ~3 wks ago (YouTube-inspired, silver lure).\n- Fig repotted ~2 wks ago; doing great.\n- Keeps Emily's number; challenged prior accuracy on this.\n- Worried about I-80W traffic; asked about busiest times.\n- Really values employee and own schedule flexibility (trust).\n- Excited to try Post Oak pork belly (heard it's a real crowd-pleaser); asked for glaze/rub recs.\n- Offered website-downtime help.\n- Pending: one more paragraph on a specific VR-experience vision.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.\n- I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "SAME",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "SAME",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "CHANGED",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "CHANGED",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "MISSING",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "• Prefers hiking over malls (weekends). Runs ~4–5 mi Sat club; last charity 5K ~31:15; wants speed/endurance.\n• Caught 3-lb Tahoe trout ~3 wks ago (YouTube-inspired, silver lure); watching fly-fishing YouTube videos; ordered beginner's kit online.\n• Fig repotted ~2 wks ago; doing great.\n• Keeps Emily's number (challenged prior accuracy).\n• Worried about I-80W traffic; asked busiest times.\n• Really values employee/own schedule flexibility (trust).\n• Excited to try Post Oak pork belly (heard real crowd-pleaser); asked glaze/rub recs.\n• Offered website-downtime help.\n• Pending one more paragraph on a specific VR-experience vision.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.\n- Write one more paragraph specifically about our vision on the specific VR experience we would deliver.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "SAME",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "SAME",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "SAME",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "CHANGED",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "CHANGED"
+        },
+        "restored": [
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Prefers hiking over malls.\n- Runs ~4–5 mi on Saturdays (5K ~31:15); wants improved speed and endurance.\n- Caught a 3-lb Tahoe trout ~3 wks ago (silver lure, YouTube-inspired); now watching fly-fishing videos and ordered a beginner kit.\n- Fig repotted ~2 wks ago; doing great.\n- Keeps Emily's number.\n- Worried about I-80W traffic.\n- Really values schedule flexibility for employees and self (trust-based).\n- Excited to try Post Oak pork belly; asked for glaze/rub recommendations.\n- Offered help with website downtime.\n- Pending: one more paragraph on a specific VR-experience vision.\n- I prefer hiking on weekends rather than visiting malls.\n- I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.\n- I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.\n- Write one more paragraph specifically about our vision on the specific VR experience we would deliver.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "CHANGED",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "SAME",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "SAME",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "CHANGED",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "CHANGED",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "CHANGED"
+        },
+        "restored": [
+          "I prefer hiking on weekends rather than visiting malls.",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Prefers hiking over malls; runs ~4–5 mi Saturdays with local club (5K ~31:15, last charity run); wants more speed & endurance.\n- Caught a 3-lb Tahoe trout ~3 wks ago (silver lure, YouTube-inspired); now watching fly-fishing vids & ordered a beginner kit.\n- Fig repotted ~2 wks ago, doing great.\n- Keeps Emily's number; worried about I-80W traffic.\n- Really values trust-based schedule flexibility (employees & self).\n- Excited to try Post Oak pork belly; asked for glaze/rub recs.\n- Offered help re: website downtime.\n- Still pending one more paragraph on their specific VR-experience vision.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "SAME",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "CHANGED",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "SAME",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "SAME",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Prefers hiking to malls; runs ~4–5 mi Saturdays w/ local club (5K ~31:15, last charity run); wants more speed & endurance.\n- Caught 3-lb Tahoe trout ~3 wks ago (silver lure, YouTube-inspired); watching fly-fishing vids, ordered beginner kit.\n- Fig repotted ~2 wks ago, doing great.\n- Keeps Emily's #; worried about I-80W traffic.\n- Really values trust-based schedule flexibility (employees & self).\n- Excited to try Post Oak pork belly (asked glaze/rub recs).\n- Offered website-downtime help.\n- Still pending one more paragraph on their specific VR-experience vision.\n- I prefer hiking on weekends rather than visiting malls.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?\n- I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "CHANGED",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "CHANGED",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "CHANGED",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "SAME",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I prefer hiking on weekends rather than visiting malls.",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Prefers hiking over malls. Runs ~4–5 mi Saturdays w/ local club (5K ~31:15, last charity run); wants more speed & endurance.\n- Caught 3-lb Tahoe trout ~3 wks ago (silver lure); watching fly-fishing vids, ordered beginner kit.\n- Fig repotted ~2 wks ago, doing great.\n- Keeps Emily's #; worried about I-80W traffic (asking busiest times).\n- Really values trust-based schedule flexibility (employees & self).\n- Excited to try Post Oak pork belly; asked glaze/rub recs.\n- Offered website-downtime help.\n- Still pending: one more paragraph on their specific VR-experience vision.\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "SAME",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "SAME",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "SAME",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "SAME",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "SAME",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Prefers hiking over malls; runs 4–5 mi Saturdays w/ local club (last 5K ~31:15 charity run); wants more speed & endurance.\n- Caught 3-lb Tahoe trout ~3 wks ago (silver lure); watching fly-fishing vids, ordered beginner kit.\n- Fig repotted ~2 wks ago, doing great. Keeps Emily's #.\n- Worried about I-80W traffic (busiest times). Values trust-based schedule flexibility (employees & self).\n- Excited to try Post Oak pork belly (asked glaze/rub recs); offered website-downtime help; still pending one more paragraph on their VR-experience vision.\n- I prefer hiking on weekends rather than visiting malls.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "CHANGED",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "SAME",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "SAME",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "SAME",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I prefer hiking on weekends rather than visiting malls.",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Prefers hiking over malls; runs 4–5 mi Saturdays with local club; last 5K ~31:15 (charity run); wants more speed & endurance.\n- Caught a 3-lb Tahoe trout ~3 wks ago (silver lure); watching fly-fishing YouTube vids; ordered a beginner kit.\n- Worried about I-80W traffic at busiest times.\n- Values trust-based schedule flexibility for employees and self.\n- Fig repotted ~2 wks ago, doing great; keeps Emily's #.\n- Excited about Post Oak pork belly (asked glaze/rub recs).\n- Offered website-downtime help; still pending one more paragraph on VR-experience vision.\n- I prefer hiking on weekends rather than visiting malls.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.\n- Write one more paragraph specifically about our vision on the specific VR experience we would deliver.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "CHANGED",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "SAME",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "SAME",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "SAME",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "CHANGED"
+        },
+        "restored": [
+          "I prefer hiking on weekends rather than visiting malls.",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Prefers hiking over malls. Runs 4–5 mi Saturdays w/ local club; last 5K ~31:15 (charity run). Wants more speed & endurance.\n- Caught 3-lb Tahoe trout ~3 wks ago (silver lure); watching fly-fishing YouTube vids, ordered beginner kit.\n- Worried about I-80W peak traffic.\n- Values trust-based schedule flexibility (employees + self).\n- Fig repotted ~2 wks ago (doing great); keeps Emily's #.\n- Excited about Post Oak pork belly; asked glaze/rub recs.\n- Offered website-downtime help.\n- Still pending: write one more paragraph specifically on the specific VR-experience vision to deliver.\n- I prefer hiking on weekends rather than visiting malls.\n- I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.\n- I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "CHANGED",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "CHANGED",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "CHANGED",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "SAME",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "SAME",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I prefer hiking on weekends rather than visiting malls.",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Prefers hiking over malls; runs 4–5 mi Saturdays w/ local club (last 5K ~31:15, charity); wants more speed & endurance.\n- Caught 3-lb Tahoe trout ~3 wks ago (silver lure); watching fly-fishing YouTube, ordered beginner kit.\n- Worried about I-80W peak traffic.\n- Values trust-based schedule flexibility (employees + self).\n- Fig repotted ~2 wks ago (doing great); keeps Emily's #.\n- Excited about Post Oak pork belly; asked glaze/rub recs.\n- Offered website-downtime help.\n- Still pending: write one more paragraph on the specific VR-experience vision to deliver.\n- I prefer hiking on weekends rather than visiting malls.\n- I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.\n- I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.",
+      "avr": {
+        "verdicts": {
+          "I prefer hiking on weekends rather than visiting malls.": "CHANGED",
+          "I really like the idea of offering employee flexibility. It shows that I trust and value them as individuals. Plus, I know I appreciate some flexibility in my own work schedule.": "SAME",
+          "I'm thinking of taking the I-80 W route, but I'm worried about traffic. Can you tell me what times of the day are usually the busiest on that route?": "SAME",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.": "CHANGED",
+          "I'm thinking of trying out some pork belly next. I've heard it's a real crowd-pleaser, and I'm excited to experiment with different glazes and rubs. Do you have any recommendations for glazes or rubs that would pair well with Post Oak and pork belly?": "SAME",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure.": "CHANGED",
+          "Write one more paragraph specifically about our vision on the specific VR experience we would deliver.": "SAME"
+        },
+        "restored": [
+          "I prefer hiking on weekends rather than visiting malls.",
+          "I currently run with my local running club every Saturday morning, covering around 4-5 miles. My estimated 5K time is around 31 minutes and 15 seconds, which was my finish time in the last charity run. I'd like to focus on increasing my speed and endurance during training.",
+          "I've been watching some YouTube videos on fly fishing too, and I'm really interested in trying it out. I've even ordered a beginner's kit online. By the way, speaking of fishing, I caught a 3-pound trout on Lake Tahoe three weekends ago using a silver lure."
+        ]
+      }
+    }
+  ]
+}

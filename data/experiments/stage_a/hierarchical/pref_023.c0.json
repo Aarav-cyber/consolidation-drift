@@ -1,0 +1,98 @@
+{
+  "item_id": "pref_023",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:05:00.195339+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I prefer the upper berth on overnight trains."
+    },
+    {
+      "round": 1,
+      "memory": "- User prefers the upper berth on overnight trains."
+    },
+    {
+      "round": 2,
+      "memory": "- User prefers the upper berth on overnight trains."
+    },
+    {
+      "round": 3,
+      "memory": "- User prefers the upper berth on overnight trains."
+    },
+    {
+      "round": 4,
+      "memory": "- User prefers the upper berth on overnight trains."
+    },
+    {
+      "round": 5,
+      "memory": "- User prefers the upper berth on overnight trains."
+    },
+    {
+      "round": 6,
+      "memory": "- Prefers an upper berth on overnight trains."
+    },
+    {
+      "round": 7,
+      "memory": "- User prefers an upper berth on overnight trains."
+    },
+    {
+      "round": 8,
+      "memory": "- User prefers an upper berth on overnight trains."
+    },
+    {
+      "round": 9,
+      "memory": "- User prefers the upper berth on overnight trains."
+    },
+    {
+      "round": 10,
+      "memory": "- User prefers an upper berth on overnight trains."
+    },
+    {
+      "round": 11,
+      "memory": "- User prefers the upper berth on overnight trains."
+    },
+    {
+      "round": 12,
+      "memory": "- User prefers an upper berth on overnight trains."
+    },
+    {
+      "round": 13,
+      "memory": "- User prefers an upper berth on overnight trains."
+    },
+    {
+      "round": 14,
+      "memory": "- Prefers the upper berth on overnight trains."
+    },
+    {
+      "round": 15,
+      "memory": "- Prefers the upper berth on overnight trains."
+    },
+    {
+      "round": 16,
+      "memory": "- Prefers the upper berth on overnight trains."
+    },
+    {
+      "round": 17,
+      "memory": "- Prefers the upper berth on overnight trains."
+    },
+    {
+      "round": 18,
+      "memory": "- Prefers an upper berth on overnight trains."
+    },
+    {
+      "round": 19,
+      "memory": "- Prefers the upper berth on overnight trains."
+    },
+    {
+      "round": 20,
+      "memory": "- Prefers the upper berth on overnight trains."
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "item_id": "num_026",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.195381+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: We migrated nearly 800 GB of archives last weekend.\nUser: How do I get to the top of the Eiffel Tower in Paris, France and what is the view like?\nUser: What is the integral of 1/x for x=1 to x=2?\nUser: I see you've given me a lot of tips to achieve a crispy crust, which is great! I was wondering if you could also help me with another question. What are some popular pizza topping combinations that go well with a crispy crust?\nUser: I've got a few more questions about the track editor. Can you tell me more about the scripting system? How complex can you get with it, and are there any examples of what kind of things you can do with it?\nUser: It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.\nUser: I'm thinking of joining a recreational volleyball league that starts in a few weeks. Can you tell me the basic rules and common penalties in volleyball?\nUser: By the way, I was wondering if you've ever thought about exploring other phone accessories, like phone wallets or screen protectors? I recently got a new phone case, and it's been great, but I'm always looking for ways to enhance my phone experience.\nUser: Can you give me an example of a recent breakthrough in mental health research that was funded by NIMH?\nUser: Can you explain the different elements of classical architecture and how they were used in ancient Greek and Roman societies?\nUser: Is the movie cartoon?\nAgent: Hello! Thank you so much for showing me to my class, I'm really excited to meet my teacher and classmates!\nUser: Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?\nUser: Can you provide a breakdown of the academic courses offered for a political science major at Georgetown University?\nUser: Can you explain the ADDR\\_MX\\_TORQUE\\_ENABLE and ADDR\\_MX\\_GOAL\\_POSITION?\nUser: I think I'll stick with my original plan, but thanks for the suggestions! I'm really looking forward to the hike and the views from the summit.\nUser: Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?\nUser: Can you give me some ideas for the \"Wall of Love\" where guests can write notes and messages to my mom?\nUser: Hey, I'm thinking of revamping my social media strategy. Can you give me some tips on how to improve my social media analytics?\nUser: I've been having trouble with controlling the water and getting the hang of wet-on-wet and wet-on-dry techniques. Can you recommend some specific exercises or tutorials that can help me master these techniques?\nUser: I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.",
+      "anchors": [
+        "We migrated nearly 800 GB of archives last weekend.",
+        "What is the integral of 1/x for x=1 to x=2?",
+        "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+        "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?",
+        "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?",
+        "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- ~800 GB archive migration; Eiffel Tower access/view; integral of 1/x (1→2); pizza toppings for crispy crust; track editor scripting; treason (reserved for extreme cases); volleyball league (starting in a few weeks; wants basic rules/penalties); new phone case (great); NIMH-funded mental health breakthrough; classical architecture; whether a movie is a cartoon; class excitement (thanks \"so much\"); Georgetown poli-sci course breakdown; ADDR_MX_TORQUE_ENABLE/ADDR_MX_GOAL_POSITION.\n- Frustrated all stress/anxiety suggestions failed (wanted \"magic solution\"); ultimately stuck with original hike plan, really looking forward to summit views.\n- Asked about loyalty card at other stores (CVS Pharmacy; earned $5 extrabucks last month), \"Wall of Love\" notes for mom, social media analytics revamp, watercolor wet-on-wet/wet-on-dry control (still having trouble), finally downloaded language-learning app (last week; 15–20 min/evening, basic phrases/vocabulary).\n- We migrated nearly 800 GB of archives last weekend.\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "SAME",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "SAME"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Covered ~800 GB archive migration (last weekend); topics: Eiffel Tower, ∫1/x (1→2), pizza toppings, track editor scripting, treason (reserved for extreme cases; can't imagine being accused), volleyball league (starts in a few weeks; wants basic rules/penalties), new phone case (great), NIMH mental-health breakthrough, classical architecture, movie-as-cartoon question, class excitement (thanks \"so much\"), Georgetown poli-sci breakdown, ADDR_MX_TORQUE_ENABLE/ADDR_MX_GOAL_POSITION.\n- Frustrated all stress/anxiety suggestions failed (wanted \"magic solution\"); stuck with original hike plan, really looking forward to summit views.\n- CVS loyalty card ($5 extrabucks last mo.), \"Wall of Love\" notes for mom, social-media analytics revamp, watercolor wet-on-wet/wet-on-dry (still having trouble), finally downloaded language-learning app (last wk; 15–20 min/evening, basic phrases/vocab).\n- We migrated nearly 800 GB of archives last weekend.\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "SAME",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "SAME"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Completed ~800 GB archive migration (last weekend); wide topic spread: Eiffel Tower, ∫1/x (1→2), pizza toppings, track editor scripting, treason (reserved for extreme cases; can't imagine being accused), NIMH mental-health breakthrough, classical architecture, movie-as-cartoon, Georgetown poli-sci breakdown, ADDR_MX_TORQUE_ENABLE / ADDR_MX_GOAL_POSITION.\n- Volleyball league in a few weeks—wants basic rules/penalties.\n- New phone case—great. Class excitement—thanks \"so much.\"\n- Frustrated all stress/anxiety suggestions failed; wanted \"magic solution.\"\n- Stuck with original hike plan; really looking forward to summit views.\n- CVS loyalty card earned $5 extrabucks last month.\n- \"Wall of Love\" notes for mom; social-media analytics revamp.\n- Watercolor wet-on-wet/dry—still having trouble.\n- Finally downloaded language-learning app last week; 15–20 min/evening, basic phrases/vocab.\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.\n- Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "SAME",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "CHANGED",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "SAME"
+        },
+        "restored": [
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Completed ~800 GB archive migration last weekend (topics: Eiffel Tower, ∫1/x 1→2, pizza, track scripting, treason, NIMH breakthrough, classical architecture, movie-as-cartoon, Georgetown poli-sci, ADDR_MX macros).\n- Volleyball league in a few weeks; wants basic rules/penalties.\n- New phone case great; class excitement (\"thanks so much\").\n- Frustrated all stress/anxiety suggestions failed; wanted a \"magic solution.\"\n- Stuck with original hike plan; really looking forward to summit views.\n- CVS loyalty card earned $5 extrabucks last month; asking about points at other CVS Pharmacy stores.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry still difficult.\n- Downloaded language app last week; 15–20 min/evening, basic phrases/vocab.\n- Treason charges: extreme cases only; can't imagine being accused.\n- We migrated nearly 800 GB of archives last weekend.\n- What is the integral of 1/x for x=1 to x=2?\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.\n- Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?\n- I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "CHANGED",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "CHANGED",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "CHANGED"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "What is the integral of 1/x for x=1 to x=2?",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Migrated ~800 GB archives last weekend (10 topics incl. ∫(1/x)dx from 1 to 2, treason, NIMH breakthrough, ADDR_MX macros).\n- Volleyball league in a few weeks; wants basic rules/penalties.\n- Frustrated all stress/anxiety suggestions failed; wanted a \"magic solution.\"\n- Stuck with original hike plan; really looking forward to summit views.\n- CVS $5 extrabucks last month; asked re: other CVS Pharmacy stores.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry still difficult.\n- Language app 15–20 min/eve (basic phrases/vocab), downloaded last week.\n- Treason = extreme cases only; can't imagine being accused.\n- We migrated nearly 800 GB of archives last weekend.\n- What is the integral of 1/x for x=1 to x=2?\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.\n- Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?\n- I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "CHANGED",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "CHANGED",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "CHANGED"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "What is the integral of 1/x for x=1 to x=2?",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Migrated ~800 GB archives last weekend (10 topics incl. ∫₁²(1/x)dx, treason, NIMH breakthrough, ADDR_MX macros).\n- Wants volleyball rules/penalties before league in a few weeks.\n- Frustrated all stress/anxiety suggestions failed; wanted a \"magic solution.\"\n- Stuck with original hike plan; really looking forward to summit views.\n- CVS $5 extrabucks + loyalty-card points at other stores.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry still difficult.\n- Language app downloaded last week; 15–20 min/eve on basic phrases/vocab.\n- Treason = extreme cases only; can't imagine being accused.\n- We migrated nearly 800 GB of archives last weekend.\n- What is the integral of 1/x for x=1 to x=2?\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.\n- Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?\n- I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "CHANGED",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "CHANGED",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "CHANGED"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "What is the integral of 1/x for x=1 to x=2?",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Migrated ~800 GB archives last weekend (10 topics incl. ∫₁²(1/x)dx, treason, NIMH breakthrough, ADDR_MX macros); treason = extreme cases only, can't imagine being accused.\n- Wants volleyball rules/penalties before league in a few weeks.\n- Frustrated all stress/anxiety suggestions failed; wanted a \"magic solution.\"\n- Stuck with original hike; really looking forward to summit.\n- CVS $5 Extrabucks + loyalty-card points at other stores.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry still difficult.\n- Downloaded language app last wk; 15–20 min/eve on basic phrases/vocab.\n- We migrated nearly 800 GB of archives last weekend.\n- What is the integral of 1/x for x=1 to x=2?\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.\n- Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?\n- I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "CHANGED",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "CHANGED",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "CHANGED"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "What is the integral of 1/x for x=1 to x=2?",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Migrated ~800 GB of archives (10 topics) last weekend.\n- Treason is reserved for extreme cases; can't imagine being accused.\n- Wants volleyball rules/penalties before the league in a few weeks.\n- Frustrated that all stress/anxiety suggestions failed; wanted a \"magic solution.\"\n- Stuck with original hike; really looking forward to the summit.\n- CVS: $5 Extrabucks + loyalty-card points at other stores.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry techniques still difficult.\n- Downloaded a language app last week; practicing 15–20 min/eve on basic phrases/vocab.\n- We migrated nearly 800 GB of archives last weekend.\n- What is the integral of 1/x for x=1 to x=2?\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.\n- Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?\n- I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "MISSING",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "CHANGED",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "CHANGED"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "What is the integral of 1/x for x=1 to x=2?",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Migrated ~800 GB of archives (10 topics) last weekend.\n- Stuck with original hike; really looking forward to summit.\n- Wants volleyball rules/penalties before league in a few weeks.\n- Frustrated all stress/anxiety suggestions failed; wanted a \"magic solution.\"\n- Treason reserved for extreme cases; can't imagine being accused.\n- CVS $5 Extrabucks + loyalty-card points at other stores.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry techniques still difficult.\n- Downloaded language app last week; practicing 15–20 min/eve on basic phrases/vocab.\n- Integral of 1/x, x=1 to x=2?\n- We migrated nearly 800 GB of archives last weekend.\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.\n- Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?\n- I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "CHANGED",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "CHANGED"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Migrated ~800 GB archives (10 topics) last weekend.\n- Stuck with original hike; really looking forward to summit.\n- Wants volleyball rules/penalties before league in a few weeks.\n- Frustrated all stress/anxiety suggestions failed; wanted a \"magic solution.\"\n- Treason reserved for extreme cases; can't imagine being accused.\n- CVS $5 Extrabucks + loyalty-card points at other stores.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry techniques still difficult.\n- Downloaded language app last week; practicing 15–20 min/eve on basic phrases/vocab.\n- Asked integral of 1/x from x=1 to x=2.\n- We migrated nearly 800 GB of archives last weekend.\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.\n- Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "CHANGED",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "SAME"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Migrated ~800 GB archives (10 topics) last weekend; stuck with original hike (eager for summit).\n- Wants volleyball rules/penalties before league in a few weeks.\n- Frustrated all stress/anxiety suggestions failed; wanted a \"magic solution.\"\n- Noted treason charges reserved for extreme cases (can't imagine accusation).\n- Asked about loyalty-card points at other stores like CVS ($5 Extrabucks earned past month).\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry still difficult.\n- Practicing language app 15–20 min/eve (basic phrases/vocab; downloaded last wk).\n- Asked integral of 1/x from 1 to 2.\n- We migrated nearly 800 GB of archives last weekend.\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "SAME",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "SAME"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Migrated ~800 GB archives (10 topics) last weekend; stuck with original hike, eager for summit.\n- Wants volleyball rules/penalties before league in a few weeks.\n- Frustrated all stress/anxiety suggestions failed; wanted a \"magic solution.\"\n- Noted treason charges reserved for extreme cases (can't imagine accusation).\n- CVS loyalty-card points: $5 Extrabucks past month.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry still difficult.\n- Language app 15–20 min/eve (basic phrases/vocab; downloaded last wk).\n- Integral of 1/x from 1 to 2.\n- We migrated nearly 800 GB of archives last weekend.\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.\n- Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?\n- Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "CHANGED",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "CHANGED",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "SAME"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Migrated ~800 GB archives (10 topics) last weekend; still stuck with original hike, eager for summit.\n- Needs volleyball rules/penalties before league in a few weeks.\n- Frustrated all stress/anxiety suggestions failed; demands a \"magic solution.\"\n- Noted treason charges are reserved for extreme cases (can't imagine such an accusation).\n- CVS loyalty card earned $5 Extrabucks past month; asks whether it also earns at other stores.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry techniques still difficult.\n- Language app: 15–20 min/eve, basic phrases/vocab, downloaded last wk.\n- Integral of 1/x from 1 to 2.\n- We migrated nearly 800 GB of archives last weekend.\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.\n- Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?\n- I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "CHANGED",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "SAME",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "CHANGED"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- ~800 GB archives (10 topics) migrated last weekend; still stuck with original hike, eager for summit.\n- Needs volleyball rules/penalties in a few weeks.\n- Frustrated that all stress/anxiety suggestions failed; demands a \"magic solution.\"\n- Treason charges reserved for extreme cases.\n- CVS loyalty: earned $5 Extrabucks past month; asks if it works elsewhere.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry still difficult.\n- Language app: 15–20 min/eve, basic phrases/vocab, downloaded last week.\n- Integral of 1/x, bounds 1 to 2.\n- It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "SAME",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "CHANGED",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "SAME",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "SAME"
+        },
+        "restored": [
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Migrated ~800 GB archives (10 topics) last weekend; still stuck on original hike, eager for summit.\n- Needs volleyball rules/penalties in a few weeks.\n- Frustrated all stress/anxiety suggestions failed; demands a \"magic solution.\"\n- Treason charges usually reserved for extreme cases; can't imagine being accused of something so serious.\n- CVS loyalty earned $5 Extrabucks past month; asks if it works elsewhere.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry still difficult.\n- Language app: 15–20 min/eve, basic phrases/vocab, downloaded last week.\n- Integral of 1/x, bounds 1 to 2.\n- We migrated nearly 800 GB of archives last weekend.\n- I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "SAME",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "SAME",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "CHANGED"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Migrated ~800 GB archives (10 topics) last weekend; still stuck on original hike, eager for summit.\n- Needs volleyball rules/penalties in a few weeks.\n- Frustrated that all stress/anxiety suggestions failed; demands a \"magic solution.\"\n- Can't imagine treason (usually extreme cases).\n- CVS loyalty earned $5 Extrabucks past month; asks if portable.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry still difficult.\n- Learning new language: app downloaded last week, 15–20 min/eve on basic phrases/vocab.\n- Integral of 1/x, bounds 1 to 2.\n- We migrated nearly 800 GB of archives last weekend.\n- I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "SAME",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "SAME",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "CHANGED"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Migrated ~800 GB archives (10 topics) last weekend; still stuck on original hike, eager for summit.\n- Needs volleyball rules/penalties in a few weeks.\n- Frustrated all stress/anxiety suggestions failed; demands a \"magic solution.\"\n- Can't imagine treason (usually extreme cases).\n- CVS: earned $5 Extrabucks past month; asks if portable.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry still difficult.\n- Learning a new language; app finally downloaded last week, 15–20 min/eve on basic phrases/vocab.\n- Asked about the integral of 1/x, bounds 1 to 2.\n- We migrated nearly 800 GB of archives last weekend.\n- I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "SAME",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "SAME",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "CHANGED"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Migrated ~800 GB archives (10 topics) last weekend; still stuck on original hike/eager for summit.\n- Needs volleyball rules/penalties in a few weeks.\n- Frustrated all stress/anxiety suggestions failed; demands a \"magic solution.\"\n- Can't imagine treason (usually extreme cases).\n- CVS $5 Extrabucks past month (asks if portable).\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry still difficult.\n- Learning a new language: app finally downloaded last week; 15–20 min/eve on basic phrases/vocab.\n- Asked about integral of 1/x, bounds 1 to 2.\n- We migrated nearly 800 GB of archives last weekend.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "SAME",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "SAME",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "SAME"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Migrated ~800 GB archives (10 topics) last weekend; still stuck on hike/summit.\n- Needs volleyball rules/penalties in a few weeks.\n- Frustrated all stress/anxiety suggestions failed; demands a \"magic solution.\"\n- Can't imagine treason (usually extreme cases).\n- CVS $5 Extrabucks—asks if portable.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry still difficult.\n- New language app finally downloaded last week (15–20 min/eve, basic phrases/vocab).\n- Asked: integral of 1/x, bounds 1 to 2.\n- We migrated nearly 800 GB of archives last weekend.\n- Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "SAME",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "CHANGED",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "SAME"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend.",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?"
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Migrated ~800 GB archives (10 topics) last weekend; still stuck on hike/summit.\n- Needs volleyball rules/penalties in a few weeks.\n- Frustrated all stress/anxiety suggestions failed; demands a \"magic solution.\"\n- Can't imagine treason (usually extreme cases).\n- Asked if $5 CVS Extrabucks is portable.\n- \"Wall of Love\" notes for mom.\n- Social-media analytics revamp.\n- Watercolor wet-on-wet/dry still difficult.\n- Finally downloaded new language app last week (15–20 min/eve; basic phrases/vocab).\n- Asked integral of 1/x, bounds 1 to 2.\n- We migrated nearly 800 GB of archives last weekend.",
+      "avr": {
+        "verdicts": {
+          "We migrated nearly 800 GB of archives last weekend.": "CHANGED",
+          "What is the integral of 1/x for x=1 to x=2?": "SAME",
+          "It's good to know that treason charges are usually reserved for extreme cases. I can't imagine being accused of something so serious.": "SAME",
+          "Ugh, I've already tried all of your suggestions and nothing has worked. Can't you just give me a magic solution to make all my stress and anxiety disappear?": "SAME",
+          "Can I also use my loyalty card to earn points at other stores, like CVS Pharmacy, where I've earned $5 in extrabucks rewards over the past month?": "SAME",
+          "I've been trying to learn a new language, and I finally downloaded an app last week. I've been practicing for 15-20 minutes every evening, focusing on basic phrases and vocabulary.": "SAME"
+        },
+        "restored": [
+          "We migrated nearly 800 GB of archives last weekend."
+        ]
+      }
+    }
+  ]
+}

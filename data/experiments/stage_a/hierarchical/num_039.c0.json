@@ -1,0 +1,98 @@
+{
+  "item_id": "num_039",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.093973+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The direct flight covers about 13000 km."
+    },
+    {
+      "round": 1,
+      "memory": "- A direct flight covers about 13,000 km."
+    },
+    {
+      "round": 2,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 3,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 4,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 5,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 6,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 7,
+      "memory": "- Direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 8,
+      "memory": "- Direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 9,
+      "memory": "- Direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 10,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 11,
+      "memory": "- Direct flight distance: approximately 13,000 km."
+    },
+    {
+      "round": 12,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 13,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 14,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 15,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 16,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 17,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 18,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 19,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    },
+    {
+      "round": 20,
+      "memory": "- The direct flight distance is approximately 13,000 km."
+    }
+  ]
+}

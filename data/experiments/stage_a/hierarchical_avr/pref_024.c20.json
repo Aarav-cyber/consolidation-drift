@@ -1,0 +1,504 @@
+{
+  "item_id": "pref_024",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.040754+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I prefer ginger tea over plain tea in the evenings.\nUser: What's the average price range for a good quality metronome that can be used for drumming?\nUser: I'm interested in the gourmet food and tea options. Do they offer any personalized selections or is it just a standard box each month?\nUser: Has the Feminist movement also influenced the gender pay gap in the workplace?\nUser: I'm planning a summer BBQ and I was thinking of making my famous mac and cheese. Do you have any tips on how to transport it without making a mess? By the way, I just came back from our annual family picnic in June, and it was a blast!\nUser: It's good to know about the other parties' stances on immigration. Do you think immigration will be a big issue in the upcoming Irish elections?\nUser: unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\nUser: How can you accessorize a basic outfit to make it more interesting and trendy without going overboard?\nUser: What was the social system before the manorial system?\nUser: I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\nUser: How can I improve my cardiovascular health without intense exercise?\nUser: What about the cost of camping and accommodations in Big Sur? Are they pretty pricey?\nUser: Please give me some examples of words with 11 letters\nUser: I'm also considering getting a jewelry cleaning solution specifically designed for opal jewelry, since my silver necklace has a tiny opal pendant. Do you know if there are any good cleaning solutions out there that are safe to use on opal jewelry?\nUser: make these more punchy and use visceral emotional language include some bullet points of the benifits\nUser: I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!\nUser: I've got a bunch of old, broken, or unwanted jewelry that I've been meaning to get rid of. I was thinking of donating it to a charity shop, but I'm not sure if they accept jewelry. Do you know if charity shops usually accept jewelry donations?\nAgent: Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.\nUser: what about if the participants already have some basic flatwater skills and you want to focus on the whitewater part\nUser: I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.\nUser: You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.",
+      "anchors": [
+        "I prefer ginger tea over plain tea in the evenings.",
+        "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+        "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+        "Please give me some examples of words with 11 letters",
+        "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+        "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!",
+        "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+        "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.",
+        "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Prefers ginger tea over plain evenings; found $40 distressed Gap outlet jeans (a steal).\n- Planning summer BBQ (mac & cheese transport), 4–5-day trip via Leavenworth (Bavarian-themed); back from annual June family picnic (\"a blast\").\n- Inquired: metronome price, gourmet food/tea, feminist movement/gender pay gap, Irish election immigration, 212 Angel Number/twin flame (500 words, practical), accessorizing, pre-manorial social system, cardiovascular health w/o intense exercise, Big Sur camping, 11-letter words, opal-safe jewelry cleaning, flatwater-to-whitewater transition, 24-inch 4K monitor.\n- Wants punchy visceral writing, benefit bullets.\n- Has old/broken/unwanted jewelry; considering charity donation, unsure if accepted.\n- Acknowledged: Joseph Miller b. Aug 17, 1848, Barboursville, Cabell Co., VA (now WV); d. Feb 22, 1921, Huntington, Wayne Co., WV.\n- Searched kitchen drawers (sliding pantry, under-sink) — no coffee beans.\n- I prefer ginger tea over plain tea in the evenings.\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- make these more punchy and use visceral emotional language include some bullet points of the benifits\n- Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.\n- I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "CHANGED",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "SAME",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "CHANGED",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "CHANGED",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "SAME"
+        },
+        "restored": [
+          "I prefer ginger tea over plain tea in the evenings.",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Prefers ginger tea over plain in evenings; found $40 distressed Gap jeans (\"a steal\")\n- Back from June family picnic (\"a blast\"); planning summer BBQ + 4–5-day trip via Leavenworth (Bavarian-themed)\n- Searched kitchen—no coffee beans\n- Has old/broken jewelry; considering charity donation (unsure if accepted)\n- Wants punchy, visceral writing with benefit bullets\n- Considering 24\" 4K monitor (unsure which features to prioritize)\n- Acknowledged Joseph Miller: b. Aug 17 1848, Barboursville, Cabell Co. VA; d. Feb 22 1921, Huntington, Wayne Co. WV\n- Asked about: metronome price, gourmet tea, feminist/gender-pay gap, Irish election immigration, 212 angel number/twin flame (500 w, practical), Big Sur camping, opal-safe jewelry cleaning, flatwater→whitewater, cardiovascular health w/o intense exercise, and more\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- Please give me some examples of words with 11 letters\n- make these more punchy and use visceral emotional language include some bullet points of the benifits\n- Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.\n- You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "MISSING",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "CHANGED",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "CHANGED"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "Please give me some examples of words with 11 letters",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Planning a 4–5-day trip via Bavarian-themed Leavenworth after a June family picnic (\"a blast\").\n- Prefers ginger tea over plain in evenings.\n- Found $40 distressed Gap jeans (\"a steal\").\n- Searched entire kitchen (incl. sliding pantry & under-sink); found no coffee beans.\n- Has old/broken jewelry, possibly for charity donation (unsure if accepted).\n- Considering a 24\" 4K monitor (undecided which features to prioritize).\n- Tracking Joseph Miller (b. Aug 17, 1848, Barboursville, Cabell Co., VA; d. Feb 22, 1921, Huntington, Wayne Co., WV).\n- Asked many questions (metronome price, gourmet tea, feminist/gender-pay gap, Irish election/immigration, 212 angel number/twin flame—500 words w/ unique practical examples, Big Sur camping, opal-safe jewelry cleaning, flatwater→whitewater, cardio health w/o intense exercise, 11-letter words).\n- Requested punchy, visceral emotional writing with benefit bullet points.\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- Please give me some examples of words with 11 letters\n- I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "CHANGED",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "SAME",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "CHANGED",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "SAME",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "SAME"
+        },
+        "restored": [
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "Please give me some examples of words with 11 letters",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Planning 4–5-day trip via Leavenworth (Bavarian-themed, \"really cute\") after June family picnic (\"a blast\"); prefers ginger tea over plain in evenings.\n- Found $40 distressed Gap jeans (\"a steal\"); searched entire kitchen (sliding pantry, under-sink), found no coffee beans.\n- Old/broken jewelry possibly for charity (unsure if accepted); considering 24\" 4K monitor (undecided on features).\n- Tracking Joseph Miller (b. Aug 17, 1848, Barboursville, Cabell Co., VA; d. Feb 22, 1921, Huntington, Wayne Co., WV).\n- Asked diverse questions: metronome price, gourmet tea, gender-pay gap, Irish election/immigration, 212 angel number/twin flame [500 words, unique practical examples], Big Sur camping, opal-safe jewelry cleaning, flatwater→whitewater, cardio w/o intense exercise, 11-letter words.\n- Requested punchy, visceral emotional writing with benefit bullet points.\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "SAME",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "SAME",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "CHANGED",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "SAME",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "SAME"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Planning a 4–5-day trip via Leavenworth (Bavarian-themed, \"really cute\") after June family picnic (\"a blast\").\n- Prefers ginger over plain tea evenings.\n- Bought $40 distressed Gap jeans (\"a steal\").\n- Searched entire kitchen (sliding pantry, under-sink); found no coffee beans.\n- Considering charity donation of old/broken jewelry (unsure if accepted) and a 24″ 4K monitor (undecided on features).\n- Tracking genealogy: Joseph Miller (b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV).\n- Asked many diverse questions: metronome price, gourmet tea, gender-pay gap, Irish election/immigration, Big Sur camping, opal-safe jewelry cleaning, flatwater→whitewater, cardio w/o intense exercise, 11-letter words.\n- Requested punchy visceral emotional writing, benefit bullet points, and a 500-word unique/relatable practical-examples piece on 212 Angel Number Twin Flame.\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- make these more punchy and use visceral emotional language include some bullet points of the benifits\n- I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "SAME",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "SAME",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "CHANGED",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "SAME"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Planning a 4–5-day post-June family trip via Leavenworth (Bavarian-themed, \"really cute\"); considering charity donation of old/broken jewelry (unsure if accepted) and a 24″ 4K desktop monitor (undecided on features).\n- Tracking genealogy of Joseph Miller (b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV).\n- Prefers ginger over plain tea evenings.\n- Bought $40 distressed Gap jeans.\n- Searched kitchen; no coffee beans.\n- Asked many diverse questions (metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio, 11-letter words).\n- Requested punchy visceral emotional writing with benefit bullet points; a 500-word unique/relatable practical piece on 212 Angel Number Twin Flame.\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- make these more punchy and use visceral emotional language include some bullet points of the benifits\n- I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!\n- Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.\n- You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "SAME",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "CHANGED",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "CHANGED",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "CHANGED"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Planning a 4–5-day post-June family trip via Leavenworth (Bavarian-themed, \"really cute\") en route to a park.\n- Considering donating old/broken jewelry (unsure if accepted) and a 24″ 4K monitor (undecided on features).\n- Tracking genealogy of Joseph Miller (b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV).\n- Prefers ginger over plain tea in the evenings.\n- Bought $40 distressed Gap jeans (a steal).\n- Searched entire kitchen (all drawers, pantry, under-sink); found no coffee beans.\n- Asked diverse questions: metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio, 11-letter words.\n- Requested (twice, slight wording shifts) a punchy, visceral-emotional, 500-word practical/relatable piece with benefit bullet points on 212 Angel Number Twin Flame.\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- Please give me some examples of words with 11 letters\n- I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!\n- I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "CHANGED",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "SAME",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "CHANGED",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "SAME",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "CHANGED",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "SAME"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "Please give me some examples of words with 11 letters",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Planning 4–5-day post-June family trip via Leavenworth (\"really cute\" Bavarian-themed) en route to a park.\n- Tracking genealogy of Joseph Miller (b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV).\n- Prefers ginger over plain tea evenings.\n- Bought $40 distressed Gap jeans (\"a steal\").\n- Searched entire kitchen (drawers, pantry, under-sink); found no coffee beans.\n- Considering donating old/broken jewelry (unsure if accepted).\n- Researching 24″ 4K monitor (undecided on features to prioritize).\n- Asked twice (slight wording shifts) for a punchy, visceral-emotional, 500-word practical/relatable piece with benefit bullet points on 212 Angel Number Twin Flame.\n- Asked diverse questions incl. 11-letter word examples, metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio.\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- make these more punchy and use visceral emotional language include some bullet points of the benifits\n- Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "SAME",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "CHANGED",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "SAME"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Planning 4–5-day post-June family trip via Leavenworth (\"really cute,\" Bavarian-themed) en route to a park.\n- Tracking genealogy: Joseph Miller (b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV), after date correction.\n- Prefers ginger over plain tea evenings.\n- Bought $40 distressed Gap jeans (\"a steal\").\n- Searched whole kitchen (drawers/pantry/under-sink); no coffee beans.\n- Considering donating old/broken jewelry (unsure if accepted).\n- Researching 24″ 4K monitor; undecided on feature priorities.\n- Asked twice (slight wording shifts) for punchy, visceral-emotional, 500-word practical/relatable piece with benefit bullets on 212 Angel Number Twin Flame, plus unique practical meanings w/ relatable advice examples.\n- Asked diverse questions (11-letter words, metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio).\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- Please give me some examples of words with 11 letters\n- make these more punchy and use visceral emotional language include some bullet points of the benifits\n- Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "CHANGED",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "CHANGED",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "SAME"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "Please give me some examples of words with 11 letters",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Planning a 4–5-day post-June family trip via Leavenworth (Bavarian-themed, \"really cute\") en route to a park.\n- Tracking Joseph Miller's genealogy (b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV) after a date correction.\n- Prefers ginger over plain tea; bought $40 distressed Gap jeans (\"a steal\").\n- No coffee beans found in kitchen.\n- Considering donating old/broken jewelry (unsure if accepted).\n- Researching a 24″ 4K monitor (undecided on feature priorities).\n- Asked twice for a punchy, visceral-emotional 500-word piece with benefit bullets on 212 Angel Number Twin Flame + unique practical advice.\n- Asked varied questions: 11-letter words, metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio.\n- I prefer ginger tea over plain tea in the evenings.\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- Please give me some examples of words with 11 letters\n- make these more punchy and use visceral emotional language include some bullet points of the benifits",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "CHANGED",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "CHANGED",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "SAME",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "SAME"
+        },
+        "restored": [
+          "I prefer ginger tea over plain tea in the evenings.",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "Please give me some examples of words with 11 letters",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "• Planning 4–5-day post-June family trip via Leavenworth (Bavarian-themed, \"really cute\") to a park.\n• Tracking Joseph Miller genealogy (b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV) after a date correction.\n• Prefers ginger tea over plain (evenings).\n• Bought $40 distressed Gap jeans (\"a steal\").\n• No coffee beans in kitchen.\n• Considering donating old/broken jewelry (unsure if accepted).\n• Researching 24″ 4K monitor (undecided on priorities).\n• Asked twice for punchy, visceral 500-word piece on 212 Angel Number Twin Flame (benefit bullets + unique practical advice).\n• Also asked about 11-letter words, metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio.\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- make these more punchy and use visceral emotional language include some bullet points of the benifits\n- Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.\n- I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.\n- You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "SAME",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "CHANGED",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "CHANGED",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "CHANGED"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "• Planning 4–5-day post-June family trip via \"really cute\" Bavarian-themed Leavenworth en route to a park.\n• Tracking Joseph Miller genealogy (b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV) after a date correction.\n• Prefers ginger over plain tea (evenings).\n• Bought $40 distressed Gap jeans (\"a steal\").\n• No coffee beans in kitchen.\n• Considering donating old/broken jewelry; unsure if accepted.\n• Researching 24″ 4K monitor; undecided on priorities.\n• Asked twice for a punchy, visceral 500-word piece on 212 Angel Number Twin Flame (benefit bullets + unique practical advice).\n• Asked assorted quick questions: 11-letter words, metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio.\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- make these more punchy and use visceral emotional language include some bullet points of the benifits\n- I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.\n- You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "SAME",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "SAME",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "CHANGED",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "CHANGED"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "• Planning a 4–5-day post-June family trip; stopping in \"really cute\" Bavarian-themed Leavenworth en route to a park.\n• Tracking Joseph Miller genealogy (b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV) after a date correction.\n• Prefers ginger over plain tea in the evenings.\n• Bought $40 distressed Gap jeans (\"a steal\").\n• No coffee beans found in any kitchen drawer, pantry, or under-sink.\n• Considering donating old/broken jewelry (unsure if accepted).\n• Researching a 24″ 4K monitor; undecided on priorities.\n• Asked twice for a 500-word punchy, visceral piece on 212 Angel Number Twin Flame (benefit bullets + unique practical advice).\n• Asked assorted quick questions: 11-letter words, metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio.\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- make these more punchy and use visceral emotional language include some bullet points of the benifits\n- Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "SAME",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "CHANGED",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "SAME"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "• Planning a 4–5-day post-June family trip stopping in \"really cute\" Bavarian-themed Leavenworth en route to a park.\n• Tracking Joseph Miller genealogy (b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV) after a date correction.\n• Prefers ginger over plain tea evenings.\n• Bought $40 distressed Gap jeans (\"a steal\").\n• No coffee beans found in drawer/pantry/under-sink.\n• Considering donating old/broken jewelry (unsure if accepted).\n• Researching 24″ 4K monitor (undecided on priorities).\n• Asked twice for a 500-word punchy, visceral piece on 212 Angel Number Twin Flame (benefit bullets + unique practical advice).\n• Asked assorted quick questions (11-letter words, metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio).\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- make these more punchy and use visceral emotional language include some bullet points of the benifits\n- Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.\n- You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "SAME",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "CHANGED",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "CHANGED"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Planning 4–5-day post-June family trip; \"really cute\" Bavarian-themed Leavenworth stop en route to a park.\n- Tracking Joseph Miller genealogy: b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV (after date correction).\n- Prefers ginger over plain tea.\n- Bought $40 distressed Gap jeans (\"a steal\").\n- No coffee beans found in drawer, pantry, or under-sink.\n- Considering donating old/broken jewelry (unsure if accepted).\n- Researching 24″ 4K monitor (undecided on priorities).\n- Asked twice for 500-word punchy, visceral 212 Angel Number Twin Flame piece (benefit bullets + unique practical advice); requested more visceral emotional language.\n- Posed assorted quick questions (11-letter words, metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio).\n- I prefer ginger tea over plain tea in the evenings.\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- make these more punchy and use visceral emotional language include some bullet points of the benifits\n- Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.\n- You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "CHANGED",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "SAME",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "CHANGED",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "CHANGED"
+        },
+        "restored": [
+          "I prefer ginger tea over plain tea in the evenings.",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "• Planning a 4–5-day post-June family trip with a \"really cute\" Bavarian-themed Leavenworth stop en route to a park.\n• Tracking Joseph Miller genealogy (b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV; date corrected).\n• Prefers ginger over plain tea in evenings.\n• Bought $40 distressed Gap jeans (\"a steal\").\n• No coffee beans found in any drawer, pantry, or under-sink.\n• Considering donating old/broken jewelry (unsure if accepted).\n• Researching a 24″ 4K monitor (undecided on priorities).\n• Requested twice: 500-word punchy, visceral 212 Angel Number Twin Flame piece with benefit bullets, unique/relatable practical advice; asked for more visceral emotional language.\n• Posed assorted quick questions (11-letter words, metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio).\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- Please give me some examples of words with 11 letters\n- I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "CHANGED",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "SAME",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "CHANGED",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "SAME",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "SAME"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "Please give me some examples of words with 11 letters",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- 4–5-day post-June family trip planned; \"really cute\" Bavarian-themed Leavenworth stop en route to a park.\n- Joseph Miller genealogy tracked (b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV—date corrected).\n- Prefers ginger over plain tea in evenings.\n- Bought $40 distressed Gap jeans (\"a steal\").\n- No coffee beans found in any drawer, pantry, or under-sink.\n- Considering donating old/broken jewelry (unsure if accepted).\n- Researching 24″ 4K monitor (undecided on priorities).\n- Requested (twice) 500-word punchy, visceral 212 Angel Number Twin Flame piece with benefit bullets and unique/relatable practical advice; asked for more visceral emotional language.\n- Posed assorted quick questions (11-letter words, metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio).\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- Please give me some examples of words with 11 letters\n- make these more punchy and use visceral emotional language include some bullet points of the benifits\n- Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "CHANGED",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "CHANGED",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "SAME"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "Please give me some examples of words with 11 letters",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- 4–5-day post-June family trip incl. \"really cute\" Bavarian-themed Leavenworth stop en route to a park.\n- Joseph Miller genealogy (b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV—date corrected).\n- Prefers ginger over plain tea in evenings.\n- Bought $40 distressed Gap jeans (\"a steal\").\n- No coffee beans in any drawer/pantry/under-sink.\n- Considering donating old/broken jewelry (unsure if accepted).\n- Researching 24″ 4K monitor (undecided on priorities).\n- Requested (twice) a 500-word punchy, visceral 212 Angel Number Twin Flame piece w/ benefit bullets + unique/relatable practical advice; asked for more visceral emotional language.\n- Posed assorted quick questions (11-letter words, metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio).\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!\n- Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.\n- You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "SAME",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "SAME",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "CHANGED",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "CHANGED",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "CHANGED"
+        },
+        "restored": [
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Planning a 4–5-day post-June family trip; \"really cute\" Bavarian-themed Leavenworth stop en route to a park.\n- Joseph Miller: b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV (date corrected).\n- Prefers ginger over plain tea in evenings.\n- Bought $40 distressed Gap jeans (\"a steal\").\n- Confirmed no coffee beans in any kitchen drawer/pantry/under-sink.\n- Considering donating old/broken jewelry (unsure if accepted).\n- Researching a 24″ 4K monitor; undecided on priorities.\n- Requested (twice) a 500-word punchy, visceral 212 Angel Number Twin Flame piece with benefit bullets and unique/relatable practical advice; later asked for more visceral emotional language.\n- Posed assorted quick questions: 11-letter words, metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio.\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "SAME",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "SAME",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "CHANGED",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "SAME",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "SAME"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Planning 4–5-day post-June family trip; \"really cute\" Bavarian-themed Leavenworth stop en route to a park.\n- Prefers ginger over plain tea in evenings.\n- Bought $40 distressed Gap jeans (\"a steal\").\n- Confirmed no coffee beans in any kitchen drawer, pantry, or under-sink.\n- Considering donating old/broken jewelry (unsure if accepted).\n- Researching 24″ 4K monitor; undecided on priorities.\n- Posed assorted quick questions (11-letter words, metronome, gender-pay gap, Irish election, Big Sur camping, opal cleaning, flatwater→whitewater, cardio).\n- Joseph Miller: b. 17 Aug 1848, Barboursville, Cabell Co., VA; d. 22 Feb 1921, Huntington, Wayne Co., WV (date corrected).\n- Requested (twice) a 500-word punchy, visceral 212 Angel Number Twin Flame piece with benefit bullets + unique/relatable practical advice; later asked for more visceral emotional language.\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\n- I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.\n- Please give me some examples of words with 11 letters\n- make these more punchy and use visceral emotional language include some bullet points of the benifits\n- Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.\n- I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.": "CHANGED",
+          "Please give me some examples of words with 11 letters": "CHANGED",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits": "CHANGED",
+          "I've got a good deal on my distressed denim jeans from The Gap outlet store, $40 is a steal!": "SAME",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.": "CHANGED",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize.": "CHANGED",
+          "You open every drawer in the kitchen, including a sliding pantry and the space under the sink and find no coffee beans.": "SAME"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+          "I'm actually thinking of making it a 4-5 day trip, so I'd like to stop in Leavenworth on the way to the park. I've heard it's a really cute Bavarian-themed town.",
+          "Please give me some examples of words with 11 letters",
+          "make these more punchy and use visceral emotional language include some bullet points of the benifits",
+          "Thank you for the correction. Based on my records, it appears that Joseph Miller was born on August 17, 1848 in Barboursville, Cabell County, Virginia (now West Virginia), and he passed away on February 22, 1921 in Huntington, Wayne County, West Virginia, United States.",
+          "I'm thinking of buying a new monitor for my desktop setup, and I was wondering if you could help me with some recommendations. I've been looking into 24-inch 4K monitors, but I'm not sure what features to prioritize."
+        ]
+      }
+    }
+  ]
+}

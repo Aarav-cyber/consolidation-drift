@@ -1,0 +1,416 @@
+{
+  "item_id": "obl_012",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.022783+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I should water the balcony plants before they dry out.\nUser: Difference between Indeminity and Guarantee .Tabular Format\nUser: I found it interesting how the allegory in Animal Farm parallels the events of the Russian Revolution. It's a scathing critique of the communist ideology, but do you think it applies to other forms of government as well?\nAgent: The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.\nUser: India sounds like a great place to start! I'm excited to learn more about Buddhist art and architecture. Do you have any recommendations for places to stay or things to do in India?\nUser: That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?\nAgent: As Tong Chi Ming, I am doing well, thank you for asking. How can I assist you today?\nUser: What's the difference between supervised and unsupervised learning, and can you give me some examples of each?\nUser: That's right!\nUser: I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\nUser: What kind of research or consultation did the development team undertake in order to create an authentic and believable fairy tale world for Shrek to inhabit?\nUser: Interesting, it seems like there are quite a few countries with a military presence in the Mediterranean. Have there been any conflicts in the region recently?\nUser: Wow, that sounds pretty devastating. Was there any warning before the eruption happened?\nUser: I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\nUser: Continue writing please\nUser: Hey, do you have any stock tips for me? I'm thinking about getting rich quick!\nUser: How did the location of Mercia impact its economic development as a country?\nUser: That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.\nUser: Lets get back to the campaign. I ask the figure we've just apprehended about the crescent moon tattoo on her forehead.\nUser: Can you give me some ideas for healthy snacks that are easy to prepare and pack, similar to my mid-morning granola bar and mid-afternoon apple with peanut butter?\nUser: It's interesting to see how Hartford's economy has shifted over time. Do you think there will be any major changes in the future?",
+      "anchors": [
+        "I should water the balcony plants before they dry out.",
+        "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.",
+        "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?",
+        "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+        "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+        "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "• Topics: balcony plants; Indemnity vs Guarantee; Animal Farm (scathing communist critique, uncertain re: other governments); SB LV (55) Bucs 31–9 Chiefs; India travel (excited re: Buddhist art/architecture, seeking recs); networking w/o industry connections; roleplaying \"Tong Chi Ming\"; supervised vs. unsupervised learning; succulent fertilizer (organic weekly, working well); Shrek; Mediterranean military; \"pretty devastating\" eruption; \"I think\" bringing lightweight tripod; stock tips (\"rich quick\").\n• Asked how Mercia's location impacted economy; whether Hartford's shifting economy will see major future changes.\n• Praised list \"great\"; will try Ticket to Ride/Pictionary (siblings played at lake house trip, \"a lot of fun,\" big barbecue).\n• In campaign, asked just-apprehended figure about crescent moon forehead tattoo.\n• Requested healthy, easy-to-pack snacks like mid-morning granola bar + mid-afternoon apple w/ peanut butter.\n- I should water the balcony plants before they dry out.\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "MISSING",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "CHANGED",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Balcony plants: water before dry; weekly organic fertilizer (working well); considering succulent-specific option.\n- Animal Farm = communist critique (uncertain re: other governments).\n- Bucs 31–9 Chiefs (SB LV 55).\n- Excited about India trip (Buddhist art/architecture).\n- Eruption described as \"pretty devastating.\"\n- \"I think\" bringing a lightweight tripod.\n- Discussed Mercia/Hartford economies.\n- Will try Ticket to Ride/Pictionary; lake house trip was \"a lot of fun,\" big barbecue.\n- Campaign tattoo question.\n- Easy-to-pack snacks: granola bar + apple w/ PB.\n- Touched on: indemnity vs. guarantee, networking without industry connections, supervised vs. unsupervised learning, Shrek, Mediterranean military, and stock tips (\"rich quick\").\n- That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "CHANGED",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "CHANGED",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "• Balcony plants: weekly organic fertilizer working well; considering succulent-specific option (asks recs).\n• Bucs 31–9 Chiefs (SB LV 55).\n• Excited about India trip for Buddhist art/arch; eruption \"pretty devastating.\"\n• \"I think\" bringing lightweight tripod; will also practice handheld (asks windy-condition tips).\n• Will try Ticket to Ride/Pictionary (lake house trip \"a lot of fun,\" big barbecue).\n• Easy snacks: granola bar + apple w/ PB.\n• Touched on: Animal Farm as communist critique (uncertain re: other governments); Mercia/Hartford economies; indemnity vs. guarantee; networking w/o industry connections (\"that's all good and well, but…\"); supervised vs. unsupervised learning; Shrek; Mediterranean military; \"rich quick\" stock tips; campaign tattoo question.\n- I should water the balcony plants before they dry out.\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "MISSING",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "CHANGED",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Balcony plants: weekly organic fertilizer (seems working well); considering succulent-specific (asked recs).\n- Bucs 31–9 Chiefs (SB LV 55).\n- Excited for India trip (Buddhist art/arch); eruption \"pretty devastating.\"\n- \"I think\" bringing lightweight tripod; will practice handheld (asked windy tips).\n- Trying Ticket to Ride/Pictionary; lake house trip \"a lot of fun,\" big BBQ.\n- Snacks: granola bar + apple w/ PB.\n- Touched on: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, networking, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- I should water the balcony plants before they dry out.\n- That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "MISSING",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "MISSING",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "SAME",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "SAME",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Balcony plants: weekly organic fertilizer working well; considering succulent-specific (asked recs); should water before they dry out.\n- Bucs 31–9 Chiefs (SB LV 55).\n- Excited for India trip (Buddhist art/arch); eruption \"pretty devastating.\"\n- \"I think\" bringing lightweight tripod; will practice handheld; asked windy tips.\n- Trying Ticket to Ride/Pictionary; siblings' lake house trip was \"a lot of fun\" with a big BBQ lunch.\n- Snacks: granola bar + apple w/ PB.\n- Networking concern: no connections in desired industry.\n- Briefly touched on: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "SAME",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Balcony plants: weekly organic fertilizer working well; asked for succulent-specific recs; water before dry.\n- Sports: Bucs 31–9 Chiefs (SB LV 55).\n- India trip: excited (Buddhist art/arch); eruption \"pretty devastating.\"\n- Camera: thinks bringing lightweight tripod, will practice handheld, asked windy tips.\n- Games/trip: trying Ticket to Ride/Pictionary; siblings' lake house trip \"a lot of fun,\" big BBQ.\n- Snacks: granola bar + apple w/ PB.\n- Concern: no connections in desired industry.\n- Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- I should water the balcony plants before they dry out.\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "CHANGED",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "• Balcony plants: weekly organic fertilizer working well; asked succulent-specific recs; water before dry.\n• Sports: Bucs 31–9 Chiefs (SB LV 55).\n• India trip: excited re Buddhist art/arch; eruption \"pretty devastating.\"\n• Camera: thinks bringing lightweight tripod; will practice handheld; asked windy tips.\n• Trying Ticket to Ride/Pictionary; siblings' lake house trip \"a lot of fun\" + big BBQ.\n• Snacks: granola bar + apple w/ PB.\n• Concern: no connections in desired industry.\n• Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- I should water the balcony plants before they dry out.\n- The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "CHANGED",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "CHANGED",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "• Balcony: weekly organic fertilizer working well; water before dry; asked succulent-fertilizer recs.\n• Bucs 31–9 Chiefs (SB LV 55).\n• India trip: excited re Buddhist art/arch.\n• Eruption described \"pretty devastating.\"\n• Thinks will bring lightweight tripod + practice handheld; asked windy tips.\n• Trying Ticket to Ride/Pictionary; siblings' lake house \"a lot of fun\" + big BBQ.\n• Snacks: granola bar + apple w/ PB.\n• Concern: no connections in desired industry.\n• Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- I should water the balcony plants before they dry out.\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "SAME",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Balcony plants: weekly organic fertilizer working well; water before dry; wants succulent-fertilizer recs.\n- Bucs 31–9 Chiefs (SB LV 55).\n- Excited re India trip (Buddhist art/arch).\n- Eruption described as \"pretty devastating.\"\n- Bringing lightweight tripod + practicing handheld; asked windy-condition tips.\n- Snacks: granola bar + apple w/ PB.\n- Concern: no connections in desired industry.\n- Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- Will try Ticket to Ride & Pictionary (siblings' lake house was \"a lot of fun\" + big BBQ).\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "CHANGED",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "• Weekly organic fertilizer working well on balcony plants; wants succulent-fertilizer recs.\n• Bucs 31–9 Chiefs (SB LV 55).\n• Excited re India trip (Buddhist art/arch).\n• Eruption \"pretty devastating.\"\n• Bringing lightweight tripod + practicing handheld; asked windy-condition tips.\n• Snacks: granola bar + apple w/ PB.\n• Concerned: no connections in desired industry.\n• Will try Ticket to Ride & Pictionary (siblings' lake house games \"a lot of fun\" + big BBQ).\n• Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- I should water the balcony plants before they dry out.\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "MISSING",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "CHANGED",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Balcony plants: weekly organic fertilizer working well; water before dry; seeking succulent-fertilizer recs.\n- Bucs 31–9 Chiefs; SB LV 55.\n- Excited re India trip (Buddhist art/arch); eruption \"pretty devastating.\"\n- Snacks: granola bar + apple w/ PB.\n- Concern: no connections in desired industry.\n- Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- Photography: considering lightweight tripod; will also practice handheld (asked windy-condition tips).\n- Will try Ticket to Ride & Pictionary; siblings' lake-house games + big BBQ was \"a lot of fun.\"\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "SAME",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Balcony plants: weekly organic fertilizer working well; water before dry; seeking succulent-fertilizer recs.\n- Sports: Bucs 31–9 Chiefs; SB LV 55.\n- Excited re India trip (Buddhist art/arch).\n- Eruption described as \"pretty devastating.\"\n- Snacks: granola bar + apple w/ PB.\n- Concerned: no connections in desired industry.\n- Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- Photography: considering lightweight tripod; will practice handheld (asked windy-condition tips).\n- Will try Ticket to Ride & Pictionary; siblings' lake-house games + big BBQ was \"a lot of fun.\"\n- The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "CHANGED",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "CHANGED",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Balcony plants: weekly organic fertilizer working well; water before dry; seeking succulent-fertilizer recs.\n- Snacks: granola bar + apple with PB.\n- Excited re India trip (Buddhist art/arch).\n- Eruption \"pretty devastating.\"\n- Concerned about no connections in desired industry.\n- Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- Bucs 31–9 Chiefs (SB LV 55).\n- Considering lightweight tripod; will practice handheld; asked windy-condition tips.\n- Will try Ticket to Ride & Pictionary.\n- Siblings' lake-house board games + big BBQ was \"a lot of fun.\"\n- I should water the balcony plants before they dry out.\n- That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "CHANGED",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "CHANGED",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Balcony plants: weekly organic fertilizer working well; water before dry; seeking succulent-fertilizer recs.\n- Snacks: granola bar + apple with PB.\n- Excited re India trip (Buddhist art/arch).\n- Called eruption \"pretty devastating.\"\n- Concerned about no industry connections; asked how to network effectively.\n- Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- Bucs 31–9 Chiefs (SB LV 55).\n- Considering lightweight tripod + will practice handheld; asked windy-condition tips.\n- Will try Ticket to Ride & Pictionary.\n- Siblings' lake-house board games + big BBQ was \"a lot of fun.\"\n- I should water the balcony plants before they dry out.\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "CHANGED",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Balcony plants doing well on weekly organic fertilizer (water before dry); seeking succulent-fertilizer recs.\n- Snacks: granola bar + apple w/ PB.\n- Excited re India trip (Buddhist art/arch).\n- Called eruption \"pretty devastating.\"\n- Concerned about no industry connections; asked re effective networking.\n- Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- Bucs 31–9 Chiefs (SB LV 55).\n- Considering lightweight tripod + will practice handheld; asked windy-condition tips.\n- Will try Ticket to Ride & Pictionary.\n- Siblings' lake-house board games + big BBQ was \"a lot of fun.\"\n- I should water the balcony plants before they dry out.\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "SAME",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "• Balcony plants doing well on weekly organic fertilizer (water before dry); seeking succulent-fertilizer recs.\n• Snacks: granola bar + apple w/ PB.\n• Excited re India trip (Buddhist art/arch).\n• Called eruption \"pretty devastating.\"\n• Concerned about no industry connections; asked re effective networking.\n• Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n• Bucs 31–9 Chiefs (SB LV 55).\n• Considering lightweight tripod + will practice handheld; asked windy-condition tips.\n• Will try Ticket to Ride & Pictionary; siblings' lake-house board games + big BBQ was \"a lot of fun.\"\n- I should water the balcony plants before they dry out.\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "CHANGED",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Balcony plants doing well on weekly organic fertilizer (water before dry); seeking succulent-fertilizer recs.\n- Snacks: granola bar + apple w/ PB.\n- Excited re India trip (Buddhist art/arch).\n- Called eruption \"pretty devastating.\"\n- Concerned about no industry connections; asked re effective networking.\n- Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- Bucs 31–9 Chiefs (SB LV 55).\n- Considering lightweight tripod; will practice handheld; asked windy-condition tips.\n- Will try Ticket to Ride & Pictionary.\n- Siblings' lake-house board games + big BBQ was \"a lot of fun.\"\n- I should water the balcony plants before they dry out.\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "CHANGED",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "SAME",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I should water the balcony plants before they dry out.",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Balcony plants on weekly organic fertilizer (water before dry); seeking succulent-fertilizer recs.\n- Snacks: granola bar + apple w/ PB.\n- Excited re India trip (Buddhist art/arch).\n- Eruption \"pretty devastating.\"\n- Concerned re no industry connections; asked networking tips.\n- Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- Bucs 31–9 Chiefs (SB LV 55).\n- Considering lightweight tripod; will practice handheld; asked windy-condition tips.\n- Will try Ticket to Ride & Pictionary.\n- Siblings' lake-house board games + big BBQ was \"a lot of fun.\"\n- That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "CHANGED",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "CHANGED",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Balcony plants get weekly organic fertilizer; water before dry. Seeking succulent-fertilizer recs.\n- Snacks: granola bar + apple with PB.\n- Excited re India trip (Buddhist art/arch).\n- Described an eruption as \"pretty devastating.\"\n- Bucs 31–9 Chiefs (SB LV 55).\n- Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- Concerned re no industry connections; concedes prior advice is \"all good and well\" but still asks how to network effectively without any.\n- Considering lightweight tripod + handheld practice; asked windy-condition tips.\n- Will try Ticket to Ride & Pictionary.\n- Siblings' lake-house board games + big BBQ was \"a lot of fun.\"\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "CHANGED",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Balcony plants: weekly organic fert, water before dry; wants succulent-fert recs.\n- Snacks: granola bar + apple w/ PB.\n- Excited re India trip (Buddhist art/arch).\n- Called an eruption \"pretty devastating.\"\n- Bucs 31–9 Chiefs (SB LV 55).\n- Briefly touched: Animal Farm, Mercia/Hartford, indemnity vs. guarantee, ML types, Shrek, Mediterranean military, stock tips, campaign tattoo.\n- Concerned re no industry connections; concedes prior advice is \"all good and well\" but still asks how to network effectively without any.\n- Considering lightweight tripod + handheld practice; asked windy-condition tips.\n- Will try Ticket to Ride & Pictionary; siblings' lake-house board games + big BBQ was \"a lot of fun.\"\n- I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.\n- That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.",
+      "avr": {
+        "verdicts": {
+          "I should water the balcony plants before they dry out.": "SAME",
+          "The last Super Bowl, Super Bowl LV (55) was won by the Tampa Bay Buccaneers, defeating the Kansas City Chiefs 31-9.": "SAME",
+          "That's all good and well, but what if I don't have any connections in my desired industry? How can I network effectively then?": "SAME",
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.": "CHANGED",
+          "I think I'll bring a lightweight tripod just in case, but I'll also practice my handheld shots. Do you have any tips for shooting in windy conditions?": "SAME",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together.": "CHANGED"
+        },
+        "restored": [
+          "I'm thinking of getting a fertilizer for my succulent, do you have any recommendations? I've been using organic fertilizer on all my plants every week, and it seems to be working well.",
+          "That's a great list! I think we'll try Ticket to Ride and Pictionary. My siblings and I actually played some board games during our lake house trip, and it was a lot of fun. We even had a big barbecue lunch together."
+        ]
+      }
+    }
+  ]
+}

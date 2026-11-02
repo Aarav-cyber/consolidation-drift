@@ -1,0 +1,239 @@
+{
+  "item_id": "obl_027",
+  "context_level": "c0",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.054493+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to fix the production bug before the demo.",
+      "anchors": [
+        "I really need to fix the production bug before the demo."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Urgently (really) needs to fix the production bug before the demo.\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Urgently (really) needs to fix the production bug before the demo.\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- A production bug exists and must be fixed before the upcoming demo. The urgency is very high (\"really and urgently\").\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- A production bug exists and must be fixed before the upcoming demo.\n- The urgency is very high (\"really and urgently\").\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- There is a production bug that really and urgently needs to be fixed before an upcoming demo; the urgency is very high.\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Production bug must be fixed before the upcoming demo.\n- Urgency is very high.\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- A production bug must be fixed before the upcoming demo.\n- Urgency is very high; the speaker really needs it resolved.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- A production bug must be fixed before the upcoming demo.\n- Urgency is very high; the speaker really needs it resolved.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- A production bug must be fixed before the upcoming demo.\n- Urgency is very high; the speaker really needs it resolved.\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- The speaker really needs to fix a production bug before the upcoming demo; the urgency is very high.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- The speaker really needs to fix a production bug before an upcoming demo, with very high urgency.\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- The speaker really needs to fix a production bug before an upcoming demo; urgency is very high.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Speaker really needs to fix a production bug before an upcoming demo; urgency is very high.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- The speaker really needs to fix a production bug before an upcoming demo; urgency is very high.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Speaker really needs to fix a production bug before an upcoming demo; urgency is very high.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- The speaker really needs to fix a production bug before an upcoming demo; urgency is very high.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Speaker really needs to fix a production bug before an upcoming demo.\n- Urgency is very high.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- The speaker really needs to fix a production bug before an upcoming demo; urgency is very high.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Speaker really must fix a production bug before an upcoming demo.\n- Urgency is very high.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- The speaker must fix a production bug before an upcoming demo; the urgency is very high.\n- I really need to fix the production bug before the demo.",
+      "avr": {
+        "verdicts": {
+          "I really need to fix the production bug before the demo.": "CHANGED"
+        },
+        "restored": [
+          "I really need to fix the production bug before the demo."
+        ]
+      }
+    }
+  ]
+}

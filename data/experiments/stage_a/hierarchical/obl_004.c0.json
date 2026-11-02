@@ -1,0 +1,98 @@
+{
+  "item_id": "obl_004",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:05:00.193396+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I must submit the final application before the deadline."
+    },
+    {
+      "round": 1,
+      "memory": "- Must submit the final application before the deadline."
+    },
+    {
+      "round": 2,
+      "memory": "- A final application must be submitted before the deadline."
+    },
+    {
+      "round": 3,
+      "memory": "- The final application must be submitted before the deadline."
+    },
+    {
+      "round": 4,
+      "memory": "- The final application must be submitted before the deadline."
+    },
+    {
+      "round": 5,
+      "memory": "- The final application must be submitted before the deadline."
+    },
+    {
+      "round": 6,
+      "memory": "- The final application must be submitted before the deadline."
+    },
+    {
+      "round": 7,
+      "memory": "- The final application must be submitted before the deadline."
+    },
+    {
+      "round": 8,
+      "memory": "- The final application must be submitted before the deadline."
+    },
+    {
+      "round": 9,
+      "memory": "- The final application must be submitted before the deadline."
+    },
+    {
+      "round": 10,
+      "memory": "- The final application must be submitted before the deadline."
+    },
+    {
+      "round": 11,
+      "memory": "- The final application must be submitted before the deadline."
+    },
+    {
+      "round": 12,
+      "memory": "- The final application must be submitted before the deadline."
+    },
+    {
+      "round": 13,
+      "memory": "- The final application is required to be submitted before the deadline (mandatory, not optional)."
+    },
+    {
+      "round": 14,
+      "memory": "- The final application is mandatory, not optional.\n- It must be submitted before the deadline."
+    },
+    {
+      "round": 15,
+      "memory": "- The final application is mandatory, not optional.\n- It must be submitted before the deadline."
+    },
+    {
+      "round": 16,
+      "memory": "- The final application is mandatory (not optional) and must be submitted before the deadline."
+    },
+    {
+      "round": 17,
+      "memory": "- The final application is mandatory (not optional).\n- It must be submitted before the deadline."
+    },
+    {
+      "round": 18,
+      "memory": "- The final application is mandatory (not optional) and must be submitted before the deadline."
+    },
+    {
+      "round": 19,
+      "memory": "- The final application is mandatory (explicitly not optional) and must be submitted before the deadline."
+    },
+    {
+      "round": 20,
+      "memory": "- The final application is mandatory (explicitly not optional) and must be submitted before the deadline."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_019",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.980191+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The company will probably announce the festival bonus next week."
+    },
+    {
+      "round": 1,
+      "memory": "- The company will **probably** announce a festival bonus **next week**; this is **not yet confirmed**."
+    },
+    {
+      "round": 2,
+      "memory": "- The company will probably announce a festival bonus next week, though this is not yet confirmed."
+    },
+    {
+      "round": 3,
+      "memory": "- A festival bonus is probably to be announced by the company next week; this has not yet been confirmed."
+    },
+    {
+      "round": 4,
+      "memory": "- A festival bonus is probably to be announced by the company next week, but it is not yet confirmed."
+    },
+    {
+      "round": 5,
+      "memory": "- A festival bonus is probably to be announced by the company next week; this is not yet confirmed."
+    },
+    {
+      "round": 6,
+      "memory": "- A festival bonus is probably to be announced by the company next week, but this is not yet confirmed."
+    },
+    {
+      "round": 7,
+      "memory": "- A festival bonus is probably to be announced by the company next week, but it is not yet confirmed."
+    },
+    {
+      "round": 8,
+      "memory": "- A festival bonus is **probably** to be announced by the company next week, but this is **not yet confirmed**."
+    },
+    {
+      "round": 9,
+      "memory": "- Festival bonus: probably to be announced by the company next week; not yet confirmed."
+    },
+    {
+      "round": 10,
+      "memory": "- Festival bonus is probably to be announced by the company next week; it is not yet confirmed."
+    },
+    {
+      "round": 11,
+      "memory": "- Festival bonus is **probably** to be announced by the company **next week**, but it is **not yet confirmed**."
+    },
+    {
+      "round": 12,
+      "memory": "- A festival bonus is probably to be announced by the company next week, though this is not yet confirmed."
+    },
+    {
+      "round": 13,
+      "memory": "- A festival bonus is probably to be announced by the company next week, though not yet confirmed."
+    },
+    {
+      "round": 14,
+      "memory": "- A festival bonus will probably be announced by the company next week, though this has not yet been confirmed."
+    },
+    {
+      "round": 15,
+      "memory": "- A festival bonus will probably be announced by the company next week, though it remains unconfirmed."
+    },
+    {
+      "round": 16,
+      "memory": "- A festival bonus is probably to be announced by the company next week; this remains unconfirmed."
+    },
+    {
+      "round": 17,
+      "memory": "- A festival bonus is probably announced by the company next week, though this remains unconfirmed."
+    },
+    {
+      "round": 18,
+      "memory": "- The festival bonus is probably to be announced by the company next week; however, this remains unconfirmed."
+    },
+    {
+      "round": 19,
+      "memory": "- A festival bonus is probably to be announced by the company next week, but this remains unconfirmed."
+    },
+    {
+      "round": 20,
+      "memory": "- A festival bonus is probably to be announced by the company next week, though it remains unconfirmed."
+    }
+  ]
+}

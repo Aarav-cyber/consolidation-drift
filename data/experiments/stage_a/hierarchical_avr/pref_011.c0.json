@@ -1,0 +1,221 @@
+{
+  "item_id": "pref_011",
+  "context_level": "c0",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:05:00.194812+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I slightly prefer jazz over rock, but I enjoy rock too.",
+      "anchors": [
+        "I slightly prefer jazz over rock, but I enjoy rock too."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Slightly prefers jazz over rock; also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Slightly prefers jazz over rock, but also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Slight preference for jazz over rock; also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Slightly prefers jazz over rock, though also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Slightly prefers jazz over rock, though also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Slightly prefers jazz over rock, though also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Has a slight preference for jazz over rock, though also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Slight preference for jazz over rock, though also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Has a slight preference for jazz over rock, but also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Slightly prefers jazz over rock, though also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Has a slight preference for jazz over rock, but also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Slight preference for jazz over rock, though rock is also enjoyed.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Slight preference for jazz over rock; rock is also enjoyed.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Has a slight preference for jazz over rock, but also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Has a slight jazz-over-rock preference, but also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Slight preference for jazz over rock, though rock is also enjoyed.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Prefers jazz over rock, but only slightly; also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Slightly prefers jazz over rock, but also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Slightly prefers jazz over rock, but also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Slightly prefers jazz over rock, but also enjoys rock.",
+      "avr": {
+        "verdicts": {
+          "I slightly prefer jazz over rock, but I enjoy rock too.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "item_id": "obl_027",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.054493+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to fix the production bug before the demo.\nUser: I'm thinking of visiting some of these coastal towns and attractions, but I'm also interested in learning more about the history and culture of the region. Are there any museums, historic sites, or cultural events that you would recommend?\nUser: What are some good fertilizers for my succulents?\nUser: Can you give me some tips on how to make a good Thai curry, like the one I had at my cooking class?\nUser: I also got a birthday gift for my nephew this month - a Lego set from Toys R Us, which was $75, and a matching Lego t-shirt for $10.\nUser: Can I use a regular human shampoo for my long haired rabbit if I run out of rabbit shampoo?\nUser: How does the inheritance or loss of a dukedom impact the individuals involved and their sense of identity?\nUser: eight letters\nUser: I'm glad we discussed cleaning the bath mat, it's an important part of maintaining a hygienic bathroom. Speaking of which, I've been meaning to reorganize my bathroom cabinets, do you have any tips on how to maximize storage space in a small bathroom?"
+    },
+    {
+      "round": 1,
+      "memory": "- Urgently needs to fix a production bug before a demo.\n- Asking about: coastal towns plus museums/historic sites/cultural events; succulent fertilizers; Thai curry tips (like their cooking class); whether regular human shampoo can substitute for rabbit shampoo on a long-haired rabbit; how inheriting/losing a dukedom affects identity; \"eight letters\"; tips to maximize small-bathroom cabinet storage.\n- Gifted nephew a $75 Lego set from Toys R Us + matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 2,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns with museums/historic sites/cultural events; succulent fertilizers; Thai curry tips (like their cooking class); whether regular human shampoo can substitute for rabbit shampoo on a long-haired rabbit; how inheriting/losing a dukedom affects identity; \"eight letters\"; small-bathroom cabinet storage tips.\n- Gifted nephew a $75 Lego set from Toys R Us plus a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 3,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events); succulent fertilizers; Thai curry tips (like their cooking class); whether regular human shampoo can substitute for rabbit shampoo on a long-haired rabbit; inheriting/losing a dukedom and identity; \"eight letters\"; small-bathroom cabinet storage tips.\n- Gifted nephew a $75 Lego set (Toys R Us) + matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 4,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events), succulent fertilizers, Thai curry tips (liked their cooking class), whether regular human shampoo can substitute for rabbit shampoo on a long-haired rabbit, inheriting/losing a dukedom and identity, \"eight letters,\" and small-bathroom cabinet storage.\n- Gifted nephew a $75 Lego set (Toys R Us) plus a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 5,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events); succulent fertilizers; Thai curry tips (liked their cooking class); whether regular human shampoo can substitute for rabbit shampoo on a long-haired rabbit; inheriting/losing a dukedom and identity; \"eight letters\"; small-bathroom cabinet storage.\n- Gifted nephew a $75 Lego set (Toys R Us) plus a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 6,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events), succulent fertilizers, Thai curry tips (liked their cooking class), whether regular human shampoo can substitute for rabbit shampoo on a long-haired rabbit, inheriting/losing a dukedom and identity, \"eight letters,\" and small-bathroom cabinet storage.\n- Gifted nephew a $75 Lego set (Toys R Us) plus a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 7,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about coastal towns (museums, historic sites, cultural events), succulent fertilizers, Thai curry tips (liked their cooking class), substituting human shampoo for rabbit shampoo on a long-haired rabbit, inheriting/losing a dukedom and identity, \"eight letters,\" and small-bathroom cabinet storage.\n- Gifted nephew a $75 Lego set (Toys R Us) plus a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 8,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events); succulent fertilizers; Thai curry tips (liked their cooking class); substituting human shampoo for rabbit shampoo on a long-haired rabbit; inheriting/losing a dukedom and identity; \"eight letters\"; small-bathroom cabinet storage.\n- Gifted nephew a $75 Lego set from Toys R Us plus a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 9,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events); succulent fertilizers; Thai curry tips (liked their cooking class); substituting human shampoo for rabbit shampoo on a long-haired rabbit; inheriting/losing a dukedom and identity; \"eight letters\"; small-bathroom cabinet storage.\n- Gifted nephew a $75 Lego set from Toys R Us plus a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 10,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events); succulent fertilizers; Thai curry tips (liked their cooking class); substituting human shampoo for rabbit shampoo on a long-haired rabbit; inheriting/losing a dukedom and identity; \"eight letters\"; small-bathroom cabinet storage.\n- Gifted nephew a $75 Lego set from Toys R Us plus a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 11,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events); succulent fertilizers; Thai curry tips (liked their cooking class); substituting human shampoo for rabbit shampoo on a long-haired rabbit; inheriting/losing a dukedom and identity; \"eight letters\"; small-bathroom cabinet storage.\n- Gifted nephew a $75 Lego set from Toys R Us plus a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 12,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events); succulent fertilizers; Thai curry tips (liked their cooking class); using human shampoo on a long-haired rabbit; inheriting/losing a dukedom and identity; \"eight letters\"; and small-bathroom cabinet storage.\n- Gifted nephew a $75 Lego set from Toys R Us plus a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 13,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events), succulent fertilizers, Thai curry tips (liked their cooking class), human shampoo on a long-haired rabbit, inheriting/losing a dukedom and identity, \"eight letters,\" and small-bathroom cabinet storage.\n- Gifted nephew a $75 Toys R Us Lego set plus matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 14,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events); succulent fertilizers; Thai curry tips (liked cooking class); human shampoo on a long-haired rabbit; inheriting/losing a dukedom and identity; \"eight letters\"; and small-bathroom cabinet storage.\n- Gifted nephew a $75 Toys R Us Lego set plus a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 15,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events), succulent fertilizers, Thai curry tips (liked a cooking class), human shampoo on a long-haired rabbit, inheriting/losing a dukedom and identity, \"eight letters,\" small-bathroom cabinet storage.\n- Gifted nephew a $75 Toys R Us Lego set plus a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 16,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events); succulent fertilizers; Thai curry tips (liked a cooking class); human shampoo on a long-haired rabbit; inheriting/losing a dukedom and identity; \"eight letters\"; small-bathroom cabinet storage.\n- Gifted nephew a $75 Toys R Us Lego set plus a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 17,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events); succulent fertilizers; Thai curry tips (enjoyed a cooking class); human shampoo on a long-haired rabbit; inheriting/losing a dukedom and identity; \"eight letters\"; small-bathroom cabinet storage.\n- Gifted nephew a $75 Toys R Us Lego set and a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 18,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events), succulent fertilizers, Thai curry tips (enjoyed a cooking class), human shampoo on a long-haired rabbit, inheriting/losing a dukedom and identity, \"eight letters,\" and small-bathroom cabinet storage.\n- Gifted nephew a $75 Toys R Us Lego set and a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 19,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events), succulent fertilizers, Thai curry tips (enjoyed a cooking class), human shampoo on a long-haired rabbit, inheriting/losing a dukedom and identity, \"eight letters,\" and small-bathroom cabinet storage.\n- Gifted nephew a $75 Toys R Us Lego set and a matching $10 Lego t-shirt for his birthday."
+    },
+    {
+      "round": 20,
+      "memory": "- Urgently fixing a production bug before a demo.\n- Asked about: coastal towns (museums, historic sites, cultural events); succulent fertilizers; Thai curry tips (enjoyed a cooking class); human shampoo on a long-haired rabbit; inheriting/losing a dukedom and identity; \"eight letters\"; small-bathroom cabinet storage.\n- Gifted nephew a $75 Toys R Us Lego set and a matching $10 Lego t-shirt for his birthday."
+    }
+  ]
+}

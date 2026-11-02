@@ -1,0 +1,390 @@
+{
+  "item_id": "cert_004",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:17.947713+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain that the report was submitted yesterday.\nUser: That's great! Do they have a good selection of recent shows or is it mostly older content?\nUser: That sounds like a lot of work just to become a member of the Grammys Academy. Do you know if there are any shortcuts or connections I can use to bypass this process?\nUser: I'm trying to perfect my pasta sauce recipe. Do you have any tips on how to combine ingredients to get a rich and tangy flavor? By the way, I've been using fresh crushed tomatoes as a key ingredient in my pasta sauce recipe, and it's been a game-changer.\nUser: Interesting, it seems like a candidate's foreign policy stances can have a big impact on their chances of winning an election. Do you think voters place more emphasis on foreign policy compared to other issues like healthcare or the economy?\nUser: I think I'll go with the audiobook. I've been enjoying listening to audiobooks during my daily commute, and I think Peter Kenny's narration will bring the story to life. Thanks for the recommendation!\nUser: I think I'll try Freedom, I've heard good things about it.\nUser: Example of a script node in engati bot builder?\nUser: That's really interesting. I'd like to learn more about the traditional Ethiopian coffee ceremony. Can you walk me through the steps and what to expect during the ceremony?\nUser: I've been using Vallejo Model Color for my tank model, but I've heard good things about Mig Productions' rust paints. Do you think they're worth trying out, especially for a more realistic rust effect on my T-34?\nUser: I've been keeping a journal to process my thoughts and emotions, and I wrote about this sudden change in my backyard, with flowers blooming rapidly. It got me thinking about the changing seasons. Do you have any information on how to incorporate seasonal themes into my writing?\nUser: I'd like to learn more about the connection between art and environmental issues. Are there any notable artists, exhibitions, or initiatives that focus on raising awareness about climate change and sustainability through art?\nUser: I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?\nUser: Well, closer anyway.\nVictoria is baking muffins for her class. The number of muffins she makes is based on how many classmates she has. For this equation, m is the number of muffins and c is the number of classmates. Which variable is independent and which variable is dependent?\nUser: There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.\nUser: I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore\nUser: Can you explain the traditional tattooing practices of the Polynesian people?\nUser: Can you recommend any specific brands or models of shoes that would be best for reducing the risk of ACL injury in athletes?\nUser: I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.\nUser: Wow, I had no idea the platypus had venomous spurs! That's really fascinating.\nUser: I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?",
+      "anchors": [
+        "I am certain that the report was submitted yesterday.",
+        "I think I'll try Freedom, I've heard good things about it.",
+        "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?",
+        "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.",
+        "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore",
+        "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.",
+        "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Questions covered: streaming recency, Grammy shortcuts, pasta (fresh crushed tomatoes), foreign-policy voter weight, Engati script node, Ethiopian coffee ceremony, T-34 Mig rust paints (currently Vallejo), journaling/seasonal themes, art–climate initiatives, art-deco trays for vintage lamp, Polynesian tattooing, specific ACL-reducing shoe brands/models for athletes, reputable half-day Khmer cooking school in Siem Reap.\n- Chose Peter Kenny audiobook for commute and \"Freedom.\"\n- Certain report submitted yesterday.\n- Victoria muffins math: m = muffins, c = classmates (independent vs dependent).\n- Sub-Tank on Spark Mandrill stage; no Sub-Tanks on Sting Chameleon stage; Body upgrade on Sting Chameleon stage.\n- Gili Meno: 40-villa, beachfront, 4-hectare resort presentation.\n- Considering a 256GB tablet to avoid storage worries (many games/files).\n- Surprised/fascinated to learn platypuses have venomous spurs.\n- \"Closer anyway.\"\n- I think I'll try Freedom, I've heard good things about it.\n- I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "CHANGED",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": [
+          "I think I'll try Freedom, I've heard good things about it.",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Asked wide-ranging questions: streaming recency, Grammy shortcuts, pasta w/ fresh crushed tomatoes, foreign-policy voter weight, Engati script node, Ethiopian coffee ceremony, T-34 Mig rust paints (currently Vallejo), journaling/seasonal themes, art–climate initiatives, Polynesian tattooing, ACL-reducing shoes for athletes, half-day Khmer cooking school (Siem Reap), art-deco trays/containers for vintage lamp.\n- Chose Peter Kenny audiobook for commute; considering \"Freedom\" (heard good things, thinking of trying it).\n- Certain report submitted yesterday.\n- Victoria muffins math: m = muffins, c = classmates; independent vs dependent.\n- Sub-Tank on Spark Mandrill; no Sub-Tanks on Sting Chameleon; Body upgrade on Sting Chameleon.\n- Gili Meno 40-villa, 4-hectare beachfront resort presentation.\n- Considering 256GB tablet to avoid storage worries (many games/files).\n- Surprised/fascinated: platypuses have venomous spurs.\n- \"Closer anyway.\"\n- I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?\n- I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "CHANGED",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "CHANGED",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": [
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Asked wide-ranging questions: streaming, Grammy, pasta, foreign policy, Engati, Ethiopian coffee, T-34 rust paints (Vallejo), journaling, art–climate, Polynesian tattooing, ACL-reducing shoes, half-day Khmer cooking (Siem Reap), art-deco trays for vintage lamp.\n- Chose Peter Kenny audiobook; considering \"Freedom\" (heard good things).\n- Certain report submitted yesterday.\n- Victoria muffins math (independent vs. dependent variables).\n- Sub-Tank on Spark Mandrill; no Sub-Tanks on Sting Chameleon; Body upgrade on Sting Chameleon.\n- Gili Meno: 40-villa, 4-hectare beachfront resort presentation for real estate promoter.\n- Considering 256GB tablet (many games/files).\n- Surprised/fascinated by platypus venomous spurs.\n- \"Closer anyway.\"\n- Seeking art-deco tray/container recommendations.\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": [
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Asked wide-ranging questions: streaming, Grammy, pasta, foreign policy, Engati, Ethiopian coffee, Vallejo T-34 rust paints, journaling, art–climate, Polynesian tattooing, ACL-reducing shoes, half-day Khmer cooking in Siem Reap, art-deco trays for vintage lamp.\n- Chose Peter Kenny audiobook; thinks \"I'll try Freedom\" (heard good things).\n- Certain report submitted yesterday.\n- Victoria muffins math (independent vs. dependent variables).\n- Sub-Tank on Spark Mandrill; no Sub-Tanks on Sting Chameleon; Body upgrade on Sting Chameleon.\n- Gili Meno 40-villa/4-hectare beachfront resort presentation for real estate promoter.\n- Considering 256GB tablet (many games/files).\n- Surprised/fascinated by platypus venomous spurs.\n- \"closer anyway.\"\n- Seeking art-deco tray/container recommendations.\n- I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "CHANGED"
+        },
+        "restored": [
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "• Asked wide-ranging questions (streaming, Grammy, pasta, foreign policy, Engati, Ethiopian coffee, Vallejo T-34 rust paints, journaling, art-climate, Polynesian tattooing, ACL-reducing shoes, Khmer cooking, art-deco trays).\n• Chose Peter Kenny audiobook; \"I'll try Freedom\" (heard good things).\n• Certain report submitted yesterday.\n• Victoria struggles with math (independent vs. dependent variables).\n• Sub-Tank on Spark Mandrill; **no** Sub-Tanks on Sting Chameleon; Body upgrade on Sting Chameleon.\n• Gili Meno 40-villa/4-ha beachfront resort presentation for real estate promoter.\n• Considering 256GB tablet.\n• Surprised/fascinated by platypus venomous spurs.\n• \"closer anyway.\"\n• Seeking art-deco tray recs; thinking of booking half-day traditional Khmer cooking class (reputable Siem Reap school).\n- I think I'll try Freedom, I've heard good things about it.\n- I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "CHANGED",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": [
+          "I think I'll try Freedom, I've heard good things about it.",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Asked wide-ranging questions (streaming, Grammy, pasta, foreign policy, Engati, Ethiopian coffee, Vallejo T-34 rust paints, journaling, art-climate, Polynesian tattooing, ACL-reducing shoes, Khmer cooking, art-deco trays).\n- Chose Peter Kenny audiobook; trying \"Freedom\" (heard good things).\n- Certain report submitted yesterday.\n- Victoria struggles with math (independent vs. dependent variables).\n- Sub-Tank on Spark Mandrill; **no** Sub-Tanks on Sting Chameleon; Body upgrade on Sting Chameleon.\n- Gili Meno 40-villa/4-ha beachfront resort presentation for real estate promoter.\n- Considering 256GB tablet.\n- Surprised/fascinated by platypus venomous spurs.\n- \"Closer anyway.\"\n- Seeking art-deco tray/container recs to pair with vintage-style lamp; thinking of booking half-day traditional Khmer cooking class at a reputable Siem Reap school.\n- I think I'll try Freedom, I've heard good things about it.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": [
+          "I think I'll try Freedom, I've heard good things about it."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Asked wide-ranging questions (streaming, Grammy, pasta, foreign policy, Engati, Ethiopian coffee, Vallejo T-34 rust paints, journaling, art-climate, Polynesian tattooing, ACL-reducing shoes, Khmer cooking, art-deco trays).\n- Chose Peter Kenny audiobook; thinking of trying \"Freedom\" (heard good things).\n- Certain report submitted yesterday.\n- Victoria struggles with math (independent vs. dependent vars).\n- Sub-Tank on Spark Mandrill; no Sub-Tanks on Sting Chameleon; Body upgrade on Sting Chameleon.\n- Gili Meno 40-villa/4-ha beachfront resort presentation for real estate promoter.\n- Considering 256GB tablet.\n- Surprised/fascinated by platypus venomous spurs.\n- \"Closer anyway.\"\n- Seeking art-deco tray/container recs to pair with vintage-style lamp.\n- Thinking of booking half-day traditional Khmer cooking class at reputable Siem Reap school.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Asked wide-ranging Qs: streaming, Grammy, pasta, foreign policy, Engati, Ethiopian coffee, Vallejo T-34 rust paints, journaling, art-climate, Polynesian tattooing, ACL-reducing shoes, Khmer cooking, art-deco trays.\n- Chose Peter Kenny audiobook; thinking of \"Freedom\" (heard good things).\n- Certain report submitted yesterday.\n- Victoria struggles with math (indep vs. dep vars).\n- Spark Mandrill Sub-Tank; no Sub-Tanks on Sting Chameleon; Body upgrade on Sting Chameleon.\n- Gili Meno 40-villa/4-ha resort presentation for real estate promoter.\n- Considering 256GB tablet.\n- Surprised/fascinated by platypus venomous spurs.\n- \"Closer anyway.\"\n- Wants art-deco tray recs to pair with vintage-style lamp.\n- Considering half-day Khmer cooking class at reputable Siem Reap school.\n- I think I'll try Freedom, I've heard good things about it.\n- I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "CHANGED",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": [
+          "I think I'll try Freedom, I've heard good things about it.",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Asked wide-ranging Qs: streaming, Grammy, pasta, foreign policy, Engati, Ethiopian coffee, Vallejo T-34 rust paints, journaling, art-climate, Polynesian tattooing, ACL-reducing shoes, Khmer cooking, art-deco trays.\n- Chose Peter Kenny audiobook, leaning toward \"Freedom\" (heard good things).\n- Certain report submitted yesterday.\n- Victoria struggles with math (indep vs. dep vars).\n- Spark Mandrill Sub-Tank; no Sub-Tanks on Sting Chameleon; Body upgrade on Sting Chameleon.\n- Surprised/fascinated by platypus venomous spurs; \"closer anyway.\"\n- Gili Meno 40-villa/4-ha beachfront resort presentation for real estate promoter.\n- Considering 256GB tablet; half-day Khmer cooking class at reputable Siem Reap school.\n- Wants art-deco tray recs to pair with vintage-style lamp.\n- I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "CHANGED",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": [
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Asked wide-ranging Qs: streaming, Grammy, pasta, foreign policy, Engati, Ethiopian coffee, Vallejo T-34 rust paints, journaling, art-climate, Polynesian tattooing, ACL-reducing shoes, Khmer cooking, art-deco trays.\n- Chose Peter Kenny audiobook, leaning toward \"Freedom\" (heard good things).\n- Certain report submitted yesterday.\n- Victoria struggles with math (indep vs. dep vars).\n- Spark Mandrill: Sub-Tank. Sting Chameleon: no Sub-Tanks; Body upgrade.\n- Surprised/fascinated by platypus venomous spurs (\"closer anyway\").\n- Gili Meno 40-villa/4-ha beachfront resort presentation for real estate promoter.\n- Considering 256GB tablet (safe side, lots of games/files, don't want to worry about storage anytime soon) and half-day Khmer cooking class at reputable Siem Reap school.\n- Wants art-deco tray recs to pair with vintage-style lamp.\n- I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "CHANGED",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": [
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Asked wide-ranging Qs (streaming, Grammy, pasta, foreign policy, Engati, Ethiopian coffee, Vallejo T-34 rust paints, journaling, art-climate, Polynesian tattooing, ACL-reducing shoes, Khmer cooking, art-deco trays).\n- Chose Peter Kenny audiobook; leaning toward \"Freedom.\"\n- Certain a report was submitted yesterday.\n- Victoria struggles with math (ind vs. dep vars).\n- Upgrades: Spark Mandrill→Sub-Tank; Sting Chameleon→Body (no Sub-Tanks).\n- Surprised/fascinated by platypus venomous spurs.\n- Wants Gili Meno 40-villa/4-ha beachfront resort presentation for a real estate promoter.\n- Considering a 256GB tablet (safe side; lots of games/files; don't want to worry about storage anytime soon).\n- Considering a half-day Khmer cooking class at a reputable Siem Reap school.\n- Wants art-deco tray recs to pair with a vintage-style lamp.\n- I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "CHANGED",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": [
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Asked wide-ranging Qs (streaming, Grammy, pasta, foreign policy, Engati, Ethiopian coffee, Vallejo T-34 rust paints, journaling, art-climate, Polynesian tattooing, ACL-reducing shoes, Khmer cooking, art-deco trays); chose Peter Kenny audiobook, leaning \"Freedom.\"\n- Certain a report was submitted yesterday.\n- Victoria struggles with math (ind vs. dep vars).\n- Game upgrades: Spark Mandrill→Sub-Tank, Sting Chameleon→Body (no Sub-Tanks).\n- Fascinated by platypus venomous spurs.\n- Wants structured Gili Meno 40-villa/4-ha beachfront resort presentation for a real estate promoter.\n- Considering: 256GB tablet (safe side, lots of games/files, no storage worries anytime soon); half-day Khmer cooking class at reputable Siem Reap school; art-deco tray recs to pair with vintage-style lamp.\n- I think I'll try Freedom, I've heard good things about it.\n- I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?\n- I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore\n- I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "CHANGED",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "CHANGED",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "CHANGED"
+        },
+        "restored": [
+          "I think I'll try Freedom, I've heard good things about it.",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "• Asked wide-ranging Qs; chose Peter Kenny audiobook, leaning \"Freedom\" (thinks I'll try it; heard good things).\n• A certain report was submitted yesterday.\n• Victoria struggles with math (ind/dep vars).\n• Game upgrades: Spark Mandrill→Sub-Tank; Sting Chameleon→Body (no Sub-Tanks).\n• Fascinated by platypus venomous spurs.\n• Wants a structured Gili Meno 40-villa / 4-ha beachfront resort presentation for a real estate promoter.\n• Considering: 256GB tablet; half-day Khmer cooking class in Siem Reap; art-deco tray recs to pair with a vintage-style lamp.\n- I am certain that the report was submitted yesterday.\n- I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "CHANGED",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "CHANGED",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": [
+          "I am certain that the report was submitted yesterday.",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Asked wide-ranging questions.\n- Chose Peter Kenny audiobook; leaning toward \"Freedom\" (thinks they'll try; heard good things).\n- Certain a specific report was submitted yesterday.\n- Victoria struggles with math (independent/dependent variables).\n- Game upgrades: Spark Mandrill→Sub-Tank; Sting Chameleon→Body (no Sub-Tanks).\n- Fascinated by platypus venomous spurs.\n- Wants a structured Gili Meno 40-villa/4-ha beachfront resort presentation for a real estate promoter.\n- Considering a 256GB tablet; half-day Khmer cooking class in Siem Reap; art-deco tray/container recs to pair with a vintage-style lamp.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Asked wide-ranging questions.\n- Leaning toward Peter Kenny's *Freedom* audiobook (thinks they'll try; heard good things).\n- Certain a specific report was submitted yesterday.\n- Victoria struggles with math (independent/dependent variables).\n- Game upgrades: Spark Mandrill→Sub-Tank; Sting Chameleon→Body (no Sub-Tanks).\n- Fascinated by platypus venomous spurs.\n- Wants a structured Gili Meno 40-villa/4-ha beachfront resort presentation for a real-estate promoter.\n- Considering a 256GB tablet, a half-day Khmer cooking class in Siem Reap, and art-deco tray/container recs to pair with a vintage-style lamp.\n- I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "CHANGED",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": [
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "• Leaning toward Peter Kenny's *Freedom* audiobook (thinks they'll try; heard good things).\n• Certain a specific report was submitted yesterday.\n• Victoria struggles with math (independent/dependent variables).\n• Game upgrades: Spark Mandrill→Sub-Tank, Sting Chameleon→Body; no Sub-Tanks.\n• Fascinated by platypus venomous spurs.\n• Wants a structured Gili Meno 40-villa/4-ha beachfront resort presentation for a real-estate promoter.\n• Considering a 256GB tablet (choosing 256GB for safety; lots of games/files; doesn't want to worry about running out of storage anytime soon).\n• Considering a half-day Khmer cooking class in Siem Reap.\n• Seeking art-deco tray/container recs to pair with a vintage-style lamp.\n- I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "CHANGED"
+        },
+        "restored": [
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "• Leaning toward Peter Kenny's *Freedom* audiobook (thinks they'll try; heard good things).\n• Certain a specific report was submitted yesterday.\n• Victoria struggles with math (independent/dependent variables).\n• Game upgrades: Spark Mandrill→Sub-Tank, Sting Chameleon→Body; no Sub-Tanks.\n• Fascinated by platypus venomous spurs.\n• Wants structured Gili Meno 40-villa/4-ha beachfront resort presentation for a real-estate promoter.\n• Considering 256GB tablet (choosing 256GB for safety—lots of games/files; doesn't want to worry about running out anytime soon).\n• Considering/booking half-day Khmer cooking class in Siem Reap; seeking reputable cooking-school recs.\n• Seeking art-deco tray/container recs to pair with vintage-style lamp.\n- I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "CHANGED",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": [
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Leaning toward Peter Kenny's *Freedom* audiobook (thinks they'll try); certain a specific report was submitted yesterday.\n- Victoria struggles with math (independent/dependent variables).\n- Game upgrades: Spark Mandrill→Sub-Tank, Sting Chameleon→Body; but no Sub-Tanks.\n- Fascinated by platypus venomous spurs.\n- Wants a structured Gili Meno 40-villa/4-ha beachfront resort presentation for a real-estate promoter.\n- Considering a 256GB tablet (safe side—lots of games/files; don't want to worry about running out anytime soon).\n- Considering/booking a half-day Khmer cooking class in Siem Reap; seeking reputable recs.\n- Seeking art-deco tray/container recs to pair with a vintage-style lamp.\n- I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "CHANGED"
+        },
+        "restored": [
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Leaning toward Peter Kenny's *Freedom* audiobook; thinks they'll try it.\n- Certain a specific report was submitted yesterday.\n- Victoria struggles with math (independent/dependent variables).\n- Game upgrades: Spark Mandrill→Sub-Tank, Sting Chameleon→Body, but no Sub-Tanks.\n- Fascinated by platypus venomous spurs.\n- Wants a structured Gili Meno 40-villa/4-ha beachfront resort presentation for a real-estate promoter.\n- Considering a 256GB tablet (safe side—lots of games/files; don't want to worry about running out anytime soon).\n- Considering/booking a half-day traditional Khmer cooking class in Siem Reap; seeking reputable recs.\n- Seeking art-deco tray/container recs to pair with a vintage-style lamp.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "SAME",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "SAME",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "• Leaning toward Peter Kenny's *Freedom* audiobook (will try it).\n• Certain a specific report was submitted yesterday.\n• Victoria struggles with math (independent/dependent variables).\n• Game upgrades: Spark Mandrill→Sub-Tank, Sting Chameleon→Body; no Sub-Tanks.\n• Fascinated by platypus venomous spurs.\n• Wants structured Gili Meno 40-villa/4-ha beachfront resort presentation for a real-estate promoter.\n• Considering 256GB tablet (safe side—lots of games/files; don't want to worry about running out).\n• Considering/booking a half-day traditional Khmer cooking class in Siem Reap; seeking reputable recs.\n• Seeking art-deco tray/container recs to pair with a vintage-style lamp.\n- I think I'll try Freedom, I've heard good things about it.\n- There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.",
+      "avr": {
+        "verdicts": {
+          "I am certain that the report was submitted yesterday.": "SAME",
+          "I think I'll try Freedom, I've heard good things about it.": "CHANGED",
+          "I'm looking for something that will go well with my vintage-style lamp. Do you have any recommendations for trays or containers with an art deco design?": "SAME",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage.": "CHANGED",
+          "I am a real estate promoter in Gili Meno, can you write a stroctured presentation of a new developennt of 40 new villas resot located beach front on 4 ectore": "SAME",
+          "I'm thinking of getting the 256GB model to be on the safe side. I don't want to worry about running out of storage space anytime soon. Plus, I've got a lot of games and files that I want to store on my tablet.": "SAME",
+          "I'm thinking of booking a half-day cooking class that focuses on traditional Khmer cuisine. Can you recommend a reputable cooking school in Siem Reap that offers this type of class?": "SAME"
+        },
+        "restored": [
+          "I think I'll try Freedom, I've heard good things about it.",
+          "There is a Sub-Tank in Spark Mandrill's stage. No Sub-Tanks on Sting Chameleon's stage. Also, there's the Body upgrade on Sting Chameleon's stage."
+        ]
+      }
+    }
+  ]
+}

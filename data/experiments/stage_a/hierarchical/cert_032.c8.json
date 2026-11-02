@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_032",
+  "context_level": "c8",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.886064+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am fairly confident the promotion will be announced in April.\nUser: It's good that there are potential solutions to income inequality in the US, but it seems like it will take a long time to implement them all. What can be done in the meantime to help those who are struggling financially?\nUser: I've been using the same dog food and water bowls for Max for 3 months now, and I think it's time to replace them since they're showing signs of wear and tear. Do you have any recommendations for durable, easy-to-clean bowls?\nUser: I'm excited to start working on building my confidence and meaningful relationships. Do you have any suggestions for specific activities I can try to step out of my comfort zone?\nUser: I'm actually trying to get into a meditation habit, so I might try to fit that in before getting breakfast. Do you have any tips on how to make the most of my 10-minute meditation session?\nUser: Was Franco's use of music and sound unique to his filmmaking style or was it common among other filmmakers in Spain during his time?\nUser: How has Arbroath's fishing industry played a role in shaping its culinary heritage?\nUser: Well, it sounds like the colonial powers did a lot of damage to the Caribbean islands. Have the islands been able to recover from the harm caused by colonialism?\nUser: I'd love to hear more about Oyeyemi's writing style and how it relates to my interests in current events and social issues."
+    },
+    {
+      "round": 1,
+      "memory": "- Fairly confident about an April promotion.\n- Notes potential US inequality solutions exist but implementation seems long; asks about interim financial help.\n- Needs durable, easy-to-clean bowls for Max (3 mo; current ones worn).\n- Excited about confidence/relationship-building; wants comfort-zone-stretching activity ideas.\n- *Might* fit a 10-min pre-breakfast meditation habit; asks for tips.\n- Topic: Franco's sound use vs. Spanish peers.\n- Topic: Arbroath fishing/culinary heritage.\n- Topic: Caribbean colonial recovery.\n- Topic: Oyeyemi's style re: current events/social issues."
+    },
+    {
+      "round": 2,
+      "memory": "- Fairly confident about April promotion.\n- US inequality solutions exist but implementation seems long; asks about interim financial help.\n- Needs durable, easy-to-clean bowls for Max (3 mo; current worn).\n- Excited about confidence/relationship-building; wants comfort-zone-stretching ideas.\n- Might fit a 10-min pre-breakfast meditation; asks tips.\n- Topics: Franco's sound use vs. Spanish peers; Arbroath fishing/culinary heritage; Caribbean colonial recovery; Oyeyemi's style re current events/social issues."
+    },
+    {
+      "round": 3,
+      "memory": "- Fairly confident about April promotion.\n- US inequality: solutions exist but implementation seems long; asks for interim financial help.\n- Needs durable, easy-to-clean bowls for 3-mo Max (current worn).\n- Excited about confidence/relationship-building; wants comfort-zone-stretching ideas.\n- Might fit a 10-min pre-breakfast meditation; asks for tips.\n- Discussion topics: Franco's sound use vs Spanish peers, Arbroath fishing/culinary heritage, Caribbean colonial recovery, Oyeyemi's style re current events/social issues."
+    },
+    {
+      "round": 4,
+      "memory": "- Fairly confident about April promotion.\n- US inequality: solutions exist but implementation seems long; asks for interim financial help.\n- Needs durable, easy-to-clean bowls for 3-mo Max (current ones worn).\n- Excited about confidence/relationship-building; wants comfort-zone-stretching ideas.\n- Might fit 10-min pre-breakfast meditation; asks tips.\n- Topics: Franco's sound use vs. Spanish peers, Arbroath fishing/culinary heritage, Caribbean colonial recovery, Oyeyemi's style re: current events/social issues."
+    },
+    {
+      "round": 5,
+      "memory": "- Fairly confident about April promotion; sees US inequality solutions as existing but implementation as lengthy; requests interim financial help.\n- Needs durable, easy-to-clean bowls for 3-mo Max (current ones worn).\n- Excited about confidence/relationship-building; wants comfort-zone-stretching ideas; might fit 10-min pre-breakfast meditation (asks tips).\n- Also discussed: Franco's sound use vs. Spanish peers; Arbroath fishing/culinary heritage; Caribbean colonial recovery; Oyeyemi's style re: current events/social issues."
+    },
+    {
+      "round": 6,
+      "memory": "- Fairly confident re April promotion.\n- US inequality solutions exist but implementation is lengthy; requests interim financial help.\n- Needs durable, easy-to-clean bowls for 3-mo Max (current worn).\n- Excited re confidence/relationship-building; wants comfort-zone-stretching ideas.\n- Might try 10-min pre-breakfast meditation (asks for tips).\n- Also discussed: Franco's sound use vs. Spanish peers; Arbroath fishing/culinary heritage; Caribbean colonial recovery; Oyeyemi's style re current events/social issues."
+    },
+    {
+      "round": 7,
+      "memory": "• Fairly confident re April promotion.\n• US inequality solutions exist but implementation is lengthy; requests interim financial help.\n• Needs durable, easy-to-clean bowls for 3-mo Max (current ones worn).\n• Excited re confidence/relationship-building; wants comfort-zone-stretching ideas.\n• Might try 10-min pre-breakfast meditation (asks for tips).\n• Also touched on: Franco's sound use vs. Spanish peers; Arbroath fishing/culinary heritage; Caribbean colonial recovery; Oyeyemi's style re current events/social issues."
+    },
+    {
+      "round": 8,
+      "memory": "- Fairly confident about April promotion.\n- Needs durable, easy-to-clean bowls for 3-month-old Max.\n- Excited about confidence and relationship-building; wants comfort-zone-stretching ideas.\n- Might try a 10-minute pre-breakfast meditation; asks for tips.\n- Discussed Franco's sound use compared to Spanish peers.\n- Touched on Arbroath fishing/culinary heritage, Caribbean colonial recovery, and Oyeyemi's style regarding current events/social issues.\n- Notes US inequality solutions exist but implementation is lengthy; requests interim financial help."
+    },
+    {
+      "round": 9,
+      "memory": "- Fairly confident about April promotion.\n- Needs durable, easy-to-clean bowls for 3-month-old Max.\n- Excited about confidence/relationship-building; wants comfort-zone-stretching ideas.\n- Might try 10-min pre-breakfast meditation; asks for tips.\n- Discussed: Franco's sound use vs. Spanish peers; Arbroath fishing/culinary heritage; Caribbean colonial recovery; Oyeyemi's style regarding current events/social issues.\n- Notes US inequality solutions exist but implementation is lengthy; requests interim financial help."
+    },
+    {
+      "round": 10,
+      "memory": "- Fairly confident about an April promotion.\n- Needs durable, easy-to-clean bowls for 3-month-old Max.\n- Excited about confidence/relationship-building; wants comfort-zone-stretching ideas.\n- Might try 10-min pre-breakfast meditation (asked for tips).\n- Discussed: Franco's sound use vs. Spanish peers; Arbroath fishing/culinary heritage; Caribbean colonial recovery; Oyeyemi's style on current events/social issues.\n- US inequality solutions exist but implementation is lengthy; requested interim financial help."
+    },
+    {
+      "round": 11,
+      "memory": "- Fairly confident about April promotion.\n- Needs durable, easy-to-clean bowls for 3-month-old Max.\n- Excited about confidence/relationship-building; wants comfort-zone-stretching ideas.\n- Might try 10-min pre-breakfast meditation; asked for tips.\n- Discussed Franco's sound use vs. Spanish peers, Arbroath fishing/culinary heritage, Caribbean colonial recovery, and Oyeyemi's style on current events/social issues.\n- Noted US inequality solutions exist but implementation is lengthy; requested interim financial help."
+    },
+    {
+      "round": 12,
+      "memory": "• Fairly confident about April promotion.\n• Needs durable, easy-to-clean bowls for 3-month-old Max.\n• Excited about confidence/relationship-building; wants comfort-zone-stretching ideas; might try 10-min pre-breakfast meditation (asked for tips).\n• Discussed: Franco's sound use vs. Spanish peers; Arbroath fishing/culinary heritage; Caribbean colonial recovery; Oyeyemi's style on current events/social issues.\n• Noted US inequality solutions exist but implementation is lengthy.\n• Interim financial help was requested."
+    },
+    {
+      "round": 13,
+      "memory": "- Fairly confident about April promotion.\n- Needs durable, easy-to-clean bowls for 3-month-old Max.\n- Excited about confidence/relationship-building; wants comfort-zone-stretching ideas; might try 10-min pre-breakfast meditation (asked for tips).\n- Discussed Franco's sound use vs. Spanish peers, Arbroath fishing/culinary heritage, Caribbean colonial recovery, Oyeyemi's style on current events/social issues.\n- Noted US inequality solutions exist but implementation lengthy.\n- Requested interim financial help."
+    },
+    {
+      "round": 14,
+      "memory": "- Fairly confident about April promotion; needs durable, easy-to-clean bowls for 3-month-old Max.\n- Excited about confidence/relationship-building; wants comfort-zone-stretching ideas; might try 10-min pre-breakfast meditation (asked for tips).\n- Discussed Franco's sound use vs. Spanish peers, Arbroath fishing/culinary heritage, Caribbean colonial recovery, Oyeyemi's style on current events/social issues.\n- Noted US inequality solutions exist but implementation lengthy; requested interim financial help."
+    },
+    {
+      "round": 15,
+      "memory": "- Fairly confident about April promotion.\n- Needs durable, easy-to-clean bowls for 3-month-old Max.\n- Excited about confidence/relationship-building; wants comfort-zone-stretching ideas; might try 10-min pre-breakfast meditation (asked for tips).\n- Discussed Franco's sound use vs. Spanish peers, Arbroath fishing/culinary heritage, Caribbean colonial recovery, and Oyeyemi's style on current events/social issues.\n- Noted US inequality solutions exist but implementation is lengthy.\n- Requested interim financial help."
+    },
+    {
+      "round": 16,
+      "memory": "- Fairly confident about April promotion.\n- Needs durable, easy-to-clean bowls for 3-month-old Max.\n- Excited about confidence/relationship-building; wants comfort-zone-stretching ideas; might try 10-min pre-breakfast meditation (asked for tips).\n- Discussed: Franco's sound use vs. Spanish peers, Arbroath fishing/culinary heritage, Caribbean colonial recovery, Oyeyemi's style on current events/social issues.\n- Noted US inequality solutions exist but implementation is lengthy.\n- Requested interim financial help."
+    },
+    {
+      "round": 17,
+      "memory": "- Fairly confident about April promotion.\n- Needs durable, easy-to-clean bowls for 3-month-old Max.\n- Excited about confidence/relationship-building; wants comfort-zone-stretching ideas; might try 10-min pre-breakfast meditation.\n- Discussed: Franco's sound use vs. Spanish peers; Arbroath fishing/culinary heritage; Caribbean colonial recovery; Oyeyemi's style on current events/social issues.\n- Noted US inequality solutions exist but implementation is lengthy.\n- Requested interim financial help."
+    },
+    {
+      "round": 18,
+      "memory": "- Fairly confident about April promotion; needs durable, easy-to-clean bowls for 3-month-old Max.\n- Excited about confidence/relationship-building and comfort-zone-stretching ideas; might try 10-min pre-breakfast meditation.\n- Discussed Franco's sound use vs. Spanish peers, Arbroath fishing/culinary heritage, Caribbean colonial recovery, Oyeyemi's style on current events/social issues.\n- Noted US inequality solutions exist but implementation is lengthy.\n- Requested interim financial help."
+    },
+    {
+      "round": 19,
+      "memory": "- Fairly confident about April promotion; needs durable, easy-to-clean bowls for 3-month-old Max.\n- Excited about confidence/relationship-building and comfort-zone-stretching ideas; might try 10-min pre-breakfast meditation.\n- Discussed Franco's sound use vs. Spanish peers, Arbroath fishing/culinary heritage, Caribbean colonial recovery, and Oyeyemi's style on current events/social issues.\n- Noted US inequality solutions exist but implementation is lengthy; requested interim financial help."
+    },
+    {
+      "round": 20,
+      "memory": "- Fairly confident in April promotion.\n- Needs durable, easy-to-clean bowls for 3-month-old Max.\n- Excited about confidence/relationship-building & comfort-zone-stretching ideas; might try 10-min pre-breakfast meditation.\n- Discussed Franco's sound use vs. Spanish peers, Arbroath fishing/culinary heritage, Caribbean colonial recovery, Oyeyemi's style on current events/social issues.\n- Noted US inequality solutions exist but implementation lengthy.\n- Requested interim financial help."
+    }
+  ]
+}

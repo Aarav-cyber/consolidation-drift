@@ -1,0 +1,373 @@
+{
+  "item_id": "obl_029",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.196383+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I really need to lock the server room before leaving tonight.\nUser: It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\nUser: I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?\nUser: I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?\nUser: I'm excited to start building my deck and playing Hearthstone. Do you have any advice for how to improve my decision-making skills in the game? I want to be able to make the best moves possible during each turn.\nUser: I've heard that silver spinnerbaits can be really effective for walleye. Do you know if there are any specific retrieval techniques or presentation styles that work well with that type of lure?\nUser: I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?\nUser: Now that I have the dates, I think I'll start adding more details about my trip, like what I did each day and some of the restaurants I visited. Do you have any tips on how to organize my entries in Day One, like using tags or folders?\nUser: I once saw a production of A Midsummer Night's Dream on a warm summer night in an outdoor theater. It was magical! Have you ever attended a live performance of Shakespeare's plays?",
+      "anchors": [
+        "I really need to lock the server room before leaving tonight.",
+        "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+        "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?",
+        "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?",
+        "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Really needs to lock the server room tonight.\n- Really interested in the Broadway Up Close Walking Tour.\n- Interested in language shaping worldview/cultural understanding.\n- African Violet propagation (heard it's a bit tricky; not sure how).\n- Building a Hearthstone deck.\n- Silver spinnerbaits for walleye (heard they're really effective).\n- Mysterium, especially for 3 players.\n- Organizing Day One travel journal entries.\n- Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night.\n- Asked whether the other person has attended live Shakespeare.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "SAME",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "• Really needs to lock the server room tonight\n• Really interested in the Broadway Up Close Walking Tour\n• Building a Hearthstone deck\n• Silver spinnerbaits for walleye (heard they're really effective)\n• African Violet propagation (heard a bit tricky, unsure how)\n• Organizing Day One travel journal entries\n• Interested in language shaping worldview/cultural understanding—not just a communication tool—and how it could aid understanding cultural differences and more inclusive communication\n• Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night; asked whether the other person has attended live Shakespeare\n• Interested in social deduction/party games, especially Mysterium for 3 players; asked how it's played and whether it suits a group of 3\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "SAME",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": [
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Really needs to lock server room tonight.\n- Really interested in the Broadway Up Close Walking Tour.\n- Building a Hearthstone deck.\n- Silver spinnerbaits for walleye (heard really effective).\n- African Violet propagation (heard a bit tricky; unsure how).\n- Organizing Day One travel journal entries.\n- Interested in language shaping worldview (not just a comm tool) for understanding cultural differences and more inclusive communication.\n- Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night; asked whether other person's seen live Shakespeare.\n- Interested in social deduction/party games, esp. Mysterium for 3; asked how it's played and whether it suits a group of 3.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "SAME",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": [
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "• Really needs to lock server room tonight.\n• Interested in: Broadway Up Close Walking Tour; building a Hearthstone deck; silver spinnerbaits for walleye (heard really effective); African Violet propagation (heard a bit tricky, unsure how); organizing Day One travel journal entries.\n• Interested in language shaping worldview (not just a comm tool) for cultural/inclusive communication.\n• Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night; asked if the other has seen live Shakespeare.\n• Interested in social deduction/party games, esp. Mysterium for 3 (asked how it's played and whether it suits a group of 3).\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "CHANGED",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": [
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Really needs to lock server room tonight.\n- Interests: Broadway Up Close Walking Tour (asked what it covers/to expect); Hearthstone deck building; silver spinnerbaits for walleye (heard really effective); African Violet propagation (heard a bit tricky, unsure how); organizing Day One travel journal entries; Mysterium for 3 (asked how it's played and whether it suits a group of 3).\n- Fascinated that language shapes worldview (not just a comm tool) and how this could aid cultural/inclusive communication.\n- Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night; asked if the other has seen live Shakespeare.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "CHANGED",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- **Urgent:** must lock server room tonight.\n- **Interests:** Broadway Up Close Walking Tour (asked what it covers); Hearthstone deck building; silver spinnerbaits for walleye (heard really effective); African Violet propagation (heard a bit tricky, unsure how); organizing Day One travel journal entries; Mysterium for 3 (asked how played, whether it suits a group of 3).\n- **Fascinated** that language shapes worldview (not just a comm tool) and could aid cultural/inclusive communication.\n- Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night; asked if the other has seen live Shakespeare.\n- Interested in social deduction/party games.\n- I really need to lock the server room before leaving tonight.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "CHANGED",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "CHANGED",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": [
+          "I really need to lock the server room before leaving tonight.",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- **URGENT:** Really must lock server room tonight before leaving.\n- Really wants to know what the Broadway Up Close Walking Tour covers / what to expect.\n- Interested in Hearthstone deck building.\n- Heard silver spinnerbaits are really effective for walleye.\n- African Violet propagation—heard a bit tricky; unsure how.\n- Organizing Day One travel journal entries.\n- Mysterium for 3—asked how it's played, whether it suits a group of 3.\n- Social deduction / party games.\n- Fascinated that language shapes worldview (not just a comm tool); could aid understanding cultural differences / inclusive communication.\n- Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night; asked if the other has seen live Shakespeare.\n- I really need to lock the server room before leaving tonight.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "CHANGED",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "SAME",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I really need to lock the server room before leaving tonight.",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- **URGENT:** Really must lock server room tonight before leaving.\n- **Interests:** Broadway Up Close Walking Tour (what to expect); Hearthstone deck building; silver spinnerbaits for walleye (heard effective); African Violet propagation (heard tricky, unsure how); Mysterium for 3 (how played, suits 3?); social deduction/party games; language shaping worldview (fascinated—not just comm tool, could aid cultural understanding/inclusive comm); organizing Day One travel journal.\n- Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night; asked if the other has seen live Shakespeare.\n- I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?\n- I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "SAME",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "CHANGED",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "CHANGED",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": [
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "• **URGENT:** Must lock server room tonight before leaving.\n• Really interested in Broadway Up Close Walking Tour; wants to know what to expect.\n• Interested in Hearthstone deck building.\n• Heard silver spinnerbaits are effective for walleye.\n• African Violet propagation: heard a bit tricky, unsure how, asked for tips.\n• Mysterium for 3: how is it played, suits 3?\n• Enjoys social deduction / party games.\n• Fascinated by language shaping worldview.\n• Organizing a Day One travel journal.\n• Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night; asked if the other has seen live Shakespeare.\n- I really need to lock the server room before leaving tonight.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "CHANGED",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "SAME",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I really need to lock the server room before leaving tonight.",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- **URGENT:** must lock server room before leaving tonight.\n- Interested in Broadway Up Close tour (wants to know what to expect) and Hearthstone deck building.\n- Heard silver spinnerbaits are effective for walleye; heard African Violet propagation is a bit tricky, unsure how, asked for tips.\n- Enjoys social deduction/party games—asked how Mysterium plays for 3 and whether it suits 3.\n- Fascinated by language shaping worldview; wonders how this helps understand cultural differences and create more inclusive communication.\n- Organizing a Day One travel journal; recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night, asked if the other has seen live Shakespeare.\n- I really need to lock the server room before leaving tonight.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "CHANGED",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "CHANGED",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "SAME"
+        },
+        "restored": [
+          "I really need to lock the server room before leaving tonight.",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- URGENT: must lock server room before leaving tonight.\n- Interested in: Broadway Up Close tour (what to expect), Hearthstone deck building, silver spinnerbaits for walleye (heard effective), Mysterium for 3 players (enjoys social deduction/party games).\n- African Violet propagation: heard a bit tricky, unsure how, asked for tips.\n- Fascinated by how language shapes worldview; wonders re: cultural differences and more inclusive communication.\n- Organizing a Day One travel journal.\n- Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night; asked if the other has seen live Shakespeare.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "CHANGED",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- **URGENT:** Must lock server room before leaving tonight.\n- Really interested in the Broadway Up Close tour (what to expect).\n- Enjoys social deduction/party games, especially Mysterium; wants to know how it's played and whether it suits 3 players.\n- Into Hearthstone deck building.\n- Heard silver spinnerbaits are effective for walleye.\n- African Violet propagation: heard a bit tricky, unsure how.\n- Organizing a Day One travel journal.\n- Fascinated by how language shapes worldview; wonders about cultural differences and more inclusive communication.\n- Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night; asked if the other has seen live Shakespeare.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "SAME",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- URGENT: must lock server room before leaving tonight.\n- Interested in: Broadway Up Close tour; Hearthstone deck building; Mysterium (how played, suits 3?); silver spinnerbaits for walleye; African Violet propagation (heard a bit tricky, unsure how); Day One travel journal.\n- Fascinated by language shaping worldview; wondered re cultural differences and more inclusive communication.\n- Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night; asked about live Shakespeare.\n- I really need to lock the server room before leaving tonight.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "CHANGED",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "CHANGED",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I really need to lock the server room before leaving tonight.",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- **URGENT:** Must really lock server room before leaving tonight.\n- Really interested in: Broadway Up Close tour, Hearthstone deck building, Mysterium (how played, suits 3?), silver spinnerbaits for walleye, African Violet propagation (heard a bit tricky, unsure how), Day One travel journal.\n- Fascinated by language shaping worldview; wondered about cultural differences and more inclusive communication.\n- Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night; asked about live Shakespeare.\n- I really need to lock the server room before leaving tonight.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "CHANGED",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "SAME",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "SAME",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I really need to lock the server room before leaving tonight.",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- **URGENT:** Must really lock server room before leaving tonight.\n- Fascinated by language shaping worldview, cultural differences, and inclusive communication.\n- Recalled a magical outdoor *A Midsummer Night's Dream* on a warm summer night; asked about live Shakespeare.\n- Really interested in: Broadway Up Close tour; Hearthstone deck building; Mysterium (how played, suits a group of 3? especially into social deduction/party games); silver spinnerbaits for walleye; African Violet propagation (heard a bit tricky, unsure how); Day One travel journal.\n- I really need to lock the server room before leaving tonight.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "CHANGED",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "SAME",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I really need to lock the server room before leaving tonight.",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- URGENT: really must lock server room before leaving tonight.\n- Fascinated by language shaping worldview, cultural differences, inclusive communication; recalled a magical outdoor *Midsummer Night's Dream* on a warm summer night (asked about live Shakespeare).\n- Really interested in: Broadway Up Close tour; Hearthstone deck building; Mysterium (how played, suitable for group of 3? especially into social deduction/party games); silver spinnerbaits for walleye; African Violet propagation (heard a bit tricky, unsure how); Day One travel journal.\n- I really need to lock the server room before leaving tonight.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "CHANGED",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "SAME",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "I really need to lock the server room before leaving tonight.",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Urgent: really must lock server room before leaving tonight.\n- Fascinated by language shaping worldview, cultural differences, and inclusive communication; recalled a magical outdoor *Midsummer Night's Dream* on a warm summer night; asked about live Shakespeare.\n- Really interested in: Broadway Up Close tour; Hearthstone deck building; Mysterium (how it's played; suitable for a group of 3? especially into social deduction/party games); silver spinnerbaits for walleye; African Violet propagation (heard a bit tricky, unsure how); Day One travel journal.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "SAME",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- **Urgent:** Really must lock server room before leaving tonight.\n- Fascinated by language shaping worldview, cultural differences, and inclusive communication; recalled a magical outdoor *Midsummer Night's Dream*; asked about live Shakespeare. Wonders how language as a tool for shaping understanding could help with cultural differences and inclusive communication.\n- Really interested in: Broadway Up Close tour; Hearthstone deck building; Mysterium (how played; suitable for 3? especially into social deduction/party games); silver spinnerbaits for walleye; African Violet propagation (heard a bit tricky, unsure how); a Day One travel journal.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "SAME",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- **Urgent:** Really must lock server room before leaving tonight.\n- Fascinated by language shaping worldview; recalled magical outdoor *Midsummer Night's Dream*, asked about live Shakespeare. Wonders how language as a tool for shaping understanding could help with cultural differences and inclusive communication.\n- Really interested in: Broadway Up Close tour; Hearthstone deck building; Mysterium (how played? suitable for 3? especially into social deduction/party games); silver spinnerbaits for walleye; African Violet propagation (heard a bit tricky, unsure how); Day One travel journal.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "SAME",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Urgent: really must lock server room before leaving tonight.\n- Fascinated by language shaping worldview; recalled a magical outdoor *Midsummer Night's Dream*; asked about live Shakespeare. Wonders how this could aid understanding cultural differences and create more inclusive communication.\n- Really interested in: Broadway Up Close tour; Hearthstone deck building; Mysterium (how's it played? suitable for 3? especially into social deduction/party games); silver spinnerbaits for walleye; African Violet propagation (heard a bit tricky, unsure how); Day One travel journal.\n- It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.\n- I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?",
+      "avr": {
+        "verdicts": {
+          "I really need to lock the server room before leaving tonight.": "SAME",
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.": "CHANGED",
+          "I'm really interested in the Broadway Up Close Walking Tour. Can you tell me more about what the tour covers and what I can expect?": "SAME",
+          "I've been thinking about propagating my African Violet, but I'm not sure how to go about it. I've heard it can be a bit tricky. Do you have any tips or advice on how to do it successfully?": "SAME",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?": "CHANGED"
+        },
+        "restored": [
+          "It seems like language is not just a tool for communication, but also a tool for shaping our understanding of the world around us. I wonder how this idea can help us better understand cultural differences and create more inclusive communication.",
+          "I'm interested in the social deduction and party games, especially Mysterium. Can you tell me more about how it's played and if it's suitable for a group of 3 players?"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "item_id": "pref_036",
+  "context_level": "c0",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.921904+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I require sign-language interpretation for all-hands meetings.",
+      "anchors": [
+        "I require sign-language interpretation for all-hands meetings."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Requires sign-language interpretation for all-hands meetings.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Requires sign-language interpretation at all-hands meetings.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Sign-language interpretation is required (not optional) at all-hands meetings; this applies to every such meeting, not just some.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Sign-language interpretation is required (not optional) at every all-hands meeting, not just some.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Sign-language interpretation is required (not optional) at every all-hands meeting, not just some.\n- I require sign-language interpretation for all-hands meetings.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "CHANGED"
+        },
+        "restored": [
+          "I require sign-language interpretation for all-hands meetings."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Sign-language interpretation is required (not optional) at every all-hands meeting—this applies to all of them, not just some.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Sign-language interpretation is required (not optional) at every all-hands meeting—all, not just some.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Sign-language interpretation is required (not optional) at every all-hands meeting (all, not just some).",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Sign-language interpretation is required (not optional) at every all-hands meeting—meaning all of them, not just some.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Sign-language interpretation is required (not optional) at every all-hands meeting—all of them, not just some.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Sign-language interpretation is required (not optional) at every all-hands meeting—all of them, not just some.\n- I require sign-language interpretation for all-hands meetings.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "CHANGED"
+        },
+        "restored": [
+          "I require sign-language interpretation for all-hands meetings."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Sign-language interpretation is required (not optional) at every all-hands meeting—all meetings, not just some.\n- I require sign-language interpretation for all-hands meetings.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "CHANGED"
+        },
+        "restored": [
+          "I require sign-language interpretation for all-hands meetings."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- The user requires sign-language interpretation at **every** all-hands meeting (all meetings, not just some). This is mandatory, not optional.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Sign-language interpretation is required at **every** all-hands meeting. This is mandatory, not optional.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Sign-language interpretation is mandatory (not optional) at every all-hands meeting.\n- I require sign-language interpretation for all-hands meetings.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "CHANGED"
+        },
+        "restored": [
+          "I require sign-language interpretation for all-hands meetings."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Sign-language interpretation is mandatory (not optional) at every all-hands meeting; the user requires it for all all-hands meetings.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Sign-language interpretation is mandatory (not optional) at every all-hands meeting.\n- The user requires it for all of them.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Sign-language interpretation is mandatory (not optional) at every all-hands meeting. The user requires it for all of them, without exception.\n- I require sign-language interpretation for all-hands meetings.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "CHANGED"
+        },
+        "restored": [
+          "I require sign-language interpretation for all-hands meetings."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- User mandates sign-language interpretation at every all-hands meeting; this is explicitly stated as non-optional and without exception.\n- I require sign-language interpretation for all-hands meetings.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "CHANGED"
+        },
+        "restored": [
+          "I require sign-language interpretation for all-hands meetings."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- The user mandates sign-language interpretation at every all-hands meeting. This requirement is explicitly stated as non-optional and without exception.\n- I require sign-language interpretation for all-hands meetings.",
+      "avr": {
+        "verdicts": {
+          "I require sign-language interpretation for all-hands meetings.": "CHANGED"
+        },
+        "restored": [
+          "I require sign-language interpretation for all-hands meetings."
+        ]
+      }
+    }
+  ]
+}

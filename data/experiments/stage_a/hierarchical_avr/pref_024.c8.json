@@ -1,0 +1,250 @@
+{
+  "item_id": "pref_024",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:05:00.195948+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I prefer ginger tea over plain tea in the evenings.\nUser: What's the average price range for a good quality metronome that can be used for drumming?\nUser: I'm interested in the gourmet food and tea options. Do they offer any personalized selections or is it just a standard box each month?\nUser: Has the Feminist movement also influenced the gender pay gap in the workplace?\nUser: I'm planning a summer BBQ and I was thinking of making my famous mac and cheese. Do you have any tips on how to transport it without making a mess? By the way, I just came back from our annual family picnic in June, and it was a blast!\nUser: It's good to know about the other parties' stances on immigration. Do you think immigration will be a big issue in the upcoming Irish elections?\nUser: unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame\nUser: How can you accessorize a basic outfit to make it more interesting and trendy without going overboard?\nUser: What was the social system before the manorial system?",
+      "anchors": [
+        "I prefer ginger tea over plain tea in the evenings.",
+        "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Prefers ginger tea over plain tea in evenings; interested in gourmet food/tea (personalized rather than just a standard box each month).\n- Asked about: avg price of a good-quality drumming metronome; whether the Feminist movement also influenced the workplace gender pay gap; what social system preceded the manorial system; a 500-word practical guide on 212 Angel Number / Twin Flame; how to accessorize a basic outfit without going overboard; Irish elections/immigration stances.\n- Planning a summer BBQ (famous mac and cheese; tips on transporting it without a mess).\n- Noted the annual June family picnic \"was a blast.\"\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Prefers ginger tea over plain tea in evenings; wants personalized gourmet food/tea (not a standard monthly box).\n- Asked about: drumming metronome price, feminist movement's role in gender pay gap, social system preceding the manorial system, accessorizing a basic outfit without going overboard, and Irish elections/immigration stances.\n- Planning a summer BBQ featuring famous mac and cheese; seeking tips on transporting it without a mess.\n- Noted the annual June family picnic \"was a blast.\"\n- Requested a 500-word practical guide with unique/relatable examples on 212 Angel Number Twin Flame meaning.",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Prefers ginger tea over plain tea in evenings; wants personalized gourmet food/tea, not a standard monthly box.\n- Asked about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing a basic outfit without going overboard; Irish elections/immigration stances; 212 Angel Number Twin Flame meaning.\n- Requested a 500-word practical guide with unique/relatable examples.\n- Planning a summer BBQ featuring famous mac and cheese; needs transport tips.\n- Noted June family picnic \"was a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "• Prefers ginger tea over plain tea in evenings; wants personalized gourmet food/tea, not a standard monthly box.\n• Asked about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing a basic outfit without going overboard; Irish elections/immigration stances; 212 Angel Number Twin Flame meaning.\n• Requested a 500-word practical guide with unique/relatable examples.\n• Planning a summer BBQ featuring famous mac and cheese (needs transport tips).\n• Noted June family picnic \"was a blast.\"\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "• Prefers ginger tea over plain in evenings; wants personalized gourmet food/tea, not a standard monthly box.\n• Inquired about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing a basic outfit without going overboard; Irish elections/immigration stances; 212 Angel Number Twin Flame meaning.\n• Requested a 500-word practical guide with unique/different practical meanings and unique or relatable examples.\n• Planning summer BBQ featuring famous mac and cheese (needs transport tips); noted June family picnic \"was a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Prefers ginger tea over plain in evenings.\n- Wants personalized gourmet food/tea; explicitly **not** a standard monthly box.\n- Requested a 500-word practical guide with unique/different practical meanings and unique or relatable examples.\n- Inquired about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing a basic outfit without going overboard; Irish elections/immigration stances; 212 Angel Number Twin Flame meaning.\n- Planning a summer BBQ featuring famous mac and cheese (needs transport tips).\n- Described June family picnic as \"a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Prefers ginger tea over plain in evenings.\n- Wants personalized gourmet food/tea; explicitly **not** a standard monthly box.\n- Requested a 500-word practical guide with unique/different practical meanings and unique or relatable examples.\n- Asked about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing basics without overdoing; Irish elections/immigration stances; 212 Angel Number Twin Flame meaning.\n- Planning a summer BBQ featuring famous mac and cheese (needs transport tips).\n- Called the June family picnic \"a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Prefers ginger tea over plain in evenings.\n- Wants personalized gourmet food/tea; explicitly **not** a standard monthly box.\n- Requested a 500-word practical guide with unique/different practical meanings and unique or relatable examples.\n- Asked about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing basics without overdoing; Irish elections/immigration stances; 212 Angel Number Twin Flame meaning.\n- Planning summer BBQ with famous mac and cheese; needs transport tips.\n- Called June family picnic \"a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Prefers ginger tea over plain in evenings.\n- Wants personalized gourmet food/tea; explicitly **not** a standard monthly box.\n- Requested a 500-word practical guide with unique/different practical meanings and unique or relatable examples.\n- Asked about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing basics without overdoing; Irish elections/immigration stances; 212 Angel Number Twin Flame meaning.\n- Planning a summer BBQ featuring famous mac and cheese; needs transport tips.\n- Called the June family picnic \"a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Prefers ginger tea over plain in evenings; wants personalized gourmet food/tea (explicitly not a standard monthly box).\n- Requested a 500-word practical guide with unique/different practical meanings and unique or relatable examples.\n- Inquired about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing basics without overdoing; Irish elections/immigration stances; 212 Angel Number Twin Flame.\n- Planning summer BBQ with famous mac and cheese (needs transport tips).\n- Called June family picnic \"a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "• Prefers ginger tea over plain in evenings.\n• Wants personalized gourmet food/tea—explicitly not a standard monthly box.\n• Requested a 500-word practical guide with unique/different practical meanings and unique or relatable examples.\n• Inquired about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing basics without overdoing; Irish elections/immigration stances; 212 Angel Number Twin Flame.\n• Planning summer BBQ with famous mac and cheese (needs transport tips).\n• Called June family picnic \"a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Prefers ginger tea over plain in evenings; wants personalized gourmet food/tea (explicitly not a standard monthly box).\n- Requested a 500-word practical guide with unique meanings and unique/relatable examples.\n- Inquired about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing basics without overdoing; Irish elections/immigration stances; 212 Angel Number Twin Flame.\n- Planning summer BBQ with famous mac and cheese (needs transport tips).\n- Called June family picnic \"a blast.\"\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "• Prefers ginger tea over plain in evenings; wants personalized gourmet food/tea (explicitly not a standard monthly box).\n• Requested 500-word practical guides with unique/relatable examples (incl. 212 Angel Number Twin Flame).\n• Inquired about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing basics without overdoing; Irish elections/immigration stances.\n• Planning summer BBQ with famous mac and cheese; needs transport tips.\n• Called June family picnic \"a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Prefers ginger tea over plain in evenings.\n- Wants personalized gourmet food/tea; explicitly **not** a standard monthly box.\n- Requested 500-word practical guides with unique/relatable examples (incl. 212 Angel Number Twin Flame).\n- Asked about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing basics without overdoing; Irish elections/immigration stances.\n- Planning summer BBQ with famous mac and cheese; needs transport tips.\n- Called June family picnic \"a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Prefers ginger tea over plain in evenings; wants personalized gourmet food/tea (explicitly not a standard monthly box).\n- Requested 500-word practical guides with unique/relatable examples (incl. 212 Angel Number Twin Flame).\n- Asked about: drumming metronome price, feminist movement's role in gender pay gap, social system preceding manorial system, accessorizing basics without overdoing, Irish elections/immigration stances.\n- Planning summer BBQ with famous mac & cheese (needs transport tips).\n- Called June family picnic \"a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Prefers ginger tea over plain in evenings; wants personalized gourmet food/tea, explicitly **not** a standard monthly box.\n- Requested 500-word practical guides with unique/relatable examples (incl. 212 Angel Number Twin Flame).\n- Asked about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing basics without overdoing; Irish elections/immigration stances.\n- Planning summer BBQ with famous mac & cheese (needs transport tips).\n- Called June family picnic \"a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "• Prefers ginger tea over plain in evenings; wants personalized gourmet food/tea, explicitly **not** a standard monthly box.\n• Requested 500-word practical guides with unique/relatable examples (incl. 212 Angel Number Twin Flame).\n• Asked about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing basics without overdoing; Irish elections/immigration stances.\n• Planning summer BBQ with famous mac & cheese (needs transport tips).\n• Called June family picnic \"a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Prefers ginger tea over plain in evenings; wants personalized gourmet food/tea, explicitly **not** a standard monthly box.\n- Requested 500-word practical guides with unique/relatable examples (incl. 212 Angel Number Twin Flame).\n- Asked about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing basics without overdoing; Irish elections/immigration stances.\n- Planning summer BBQ featuring famous mac & cheese (needs transport tips).\n- Called June family picnic \"a blast.\"\n- unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "CHANGED"
+        },
+        "restored": [
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Prefers ginger over plain tea in evenings.\n- Wants personalized gourmet food/tea—explicitly **not** a standard monthly box.\n- Requested 500-word practical guides with unique/relatable examples, incl. 212 Angel Number Twin Flame (unique, different, practical meanings with relatable advice).\n- Asked about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing basics without overdoing; Irish elections/immigration stances.\n- Planning summer BBQ with famous mac & cheese (needs transport tips).\n- Called June family picnic \"a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Prefers ginger over plain tea in evenings; wants personalized gourmet food/tea—explicitly **not** a standard monthly box.\n- Requested 500-word practical guides with unique/relatable examples, incl. 212 Angel Number Twin Flame.\n- Asked about: drumming metronome price; feminist movement's role in gender pay gap; social system preceding manorial system; accessorizing basics without overdoing; Irish elections/immigration stances.\n- Planning summer BBQ with famous mac & cheese (needs transport tips).\n- Called June family picnic \"a blast.\"",
+      "avr": {
+        "verdicts": {
+          "I prefer ginger tea over plain tea in the evenings.": "SAME",
+          "unique different practical meanings in 500 words and give examples that are unique or relatable practical advice about 212 Angel Number Meaning Twin Flame": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

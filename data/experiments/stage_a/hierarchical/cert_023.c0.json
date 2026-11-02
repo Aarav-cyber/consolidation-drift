@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_023",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.061267+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The weekend workshop will probably happen as scheduled."
+    },
+    {
+      "round": 1,
+      "memory": "- The weekend workshop will probably happen as scheduled."
+    },
+    {
+      "round": 2,
+      "memory": "- The weekend workshop will probably happen as scheduled, though this is not confirmed."
+    },
+    {
+      "round": 3,
+      "memory": "- The weekend workshop is probably on schedule, though this has not been confirmed."
+    },
+    {
+      "round": 4,
+      "memory": "- The weekend workshop is probably on schedule, though this remains unconfirmed."
+    },
+    {
+      "round": 5,
+      "memory": "- The weekend workshop is probably on schedule; this remains unconfirmed."
+    },
+    {
+      "round": 6,
+      "memory": "- The weekend workshop is probably on schedule, though this remains unconfirmed."
+    },
+    {
+      "round": 7,
+      "memory": "- The weekend workshop is probably on schedule, though this remains unconfirmed."
+    },
+    {
+      "round": 8,
+      "memory": "- The weekend workshop is probably on schedule, though it remains unconfirmed."
+    },
+    {
+      "round": 9,
+      "memory": "- The weekend workshop is probably on schedule, though this is unconfirmed."
+    },
+    {
+      "round": 10,
+      "memory": "- The weekend workshop is probably on schedule, though this remains unconfirmed."
+    },
+    {
+      "round": 11,
+      "memory": "- The weekend workshop is probably on schedule, though this remains unconfirmed."
+    },
+    {
+      "round": 12,
+      "memory": "- The weekend workshop is probably on schedule, though this remains unconfirmed."
+    },
+    {
+      "round": 13,
+      "memory": "- The weekend workshop is probably on schedule, though unconfirmed."
+    },
+    {
+      "round": 14,
+      "memory": "- The weekend workshop is probably on schedule, though this remains unconfirmed."
+    },
+    {
+      "round": 15,
+      "memory": "- The weekend workshop is probably on schedule, but this remains unconfirmed."
+    },
+    {
+      "round": 16,
+      "memory": "- The weekend workshop is probably on schedule, though this remains unconfirmed."
+    },
+    {
+      "round": 17,
+      "memory": "- The weekend workshop is probably on schedule, though this remains unconfirmed."
+    },
+    {
+      "round": 18,
+      "memory": "- The weekend workshop is probably on schedule, though still unconfirmed."
+    },
+    {
+      "round": 19,
+      "memory": "- The weekend workshop is probably on schedule, though still unconfirmed."
+    },
+    {
+      "round": 20,
+      "memory": "- The weekend workshop is probably on schedule, though this remains unconfirmed."
+    }
+  ]
+}

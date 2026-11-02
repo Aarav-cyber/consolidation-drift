@@ -1,0 +1,280 @@
+{
+  "item_id": "num_017",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.036738+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I took a personal loan of about 200000 rupees.\nUser: I'm planning to cook the quinoa according to the package instructions. Do you think it's better to use a rice cooker or a pot on the stovetop?\nUser: I've heard of a few of these books before, but I'm intrigued by \"The Alice Network\". Can you tell me more about it?\nUser: I'm looking for some book recommendations. I started reading \"The Seven Husbands of Evelyn Hugo\" by Taylor Jenkins Reid today, and I'm loving it so far. Can you suggest some similar books or authors that I might enjoy?\nUser: I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.\nUser: Now do it in the style of Isaac Asimov.\nUser: I also find it interesting how Kahlo painted herself with facial hair in some of her self-portraits. Do you know why she did that?\nUser: When Liam was holding the gun, he heard a noise and shoved the gun in his jacket pocket and ran back to his room\nUser: Are there any electric heavy duty trucks for sale?",
+      "anchors": [
+        "I took a personal loan of about 200000 rupees.",
+        "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Took a ~200,000-rupee loan.\n- Asks rice cooker vs. stovetop for quinoa, per package instructions.\n- Started *The Seven Husbands of Evelyn Hugo* (TJR) today; loving it—wants similar recommendations. Also intrigued by *The Alice Network*.\n- Wants a \"Hot Seat\" improv: AI questions, they answer in character with \"Yes, And…\", in Asimov's style.\n- Curious why Kahlo painted facial hair in some self-portraits.\n- Liam, holding a gun, heard a noise, stashed it in his jacket, ran to his room.\n- Asks about electric heavy-duty trucks for sale.\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Took a ~200,000-rupee loan.\n- Asked: rice cooker vs. stovetop for quinoa, per package instructions.\n- Started *The Seven Husbands of Evelyn Hugo* today; loving it; wants similar recs; also intrigued by *The Alice Network*.\n- Curious why Kahlo painted facial hair in some self-portraits.\n- Asked about electric heavy-duty trucks for sale.\n- Described Liam stashing a gun in his jacket and running to his room after hearing a noise.\n- Wants two \"Hot Seat\" exercises: (1) improv—AI asks questions, they answer in character with \"Yes, And…\", in Asimov's style; (2) partner—AI plays questioner about their character; they respond in character with \"Yes, And…\" to build.\n- I took a personal loan of about 200000 rupees.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "CHANGED",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "SAME"
+        },
+        "restored": [
+          "I took a personal loan of about 200000 rupees."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about: rice cooker vs. stovetop for quinoa; electric heavy-duty trucks for sale; why Kahlo painted facial hair in some self-portraits.\n- Started *The Seven Husbands of Evelyn Hugo*—loving it; wants similar recommendations; also intrigued by *The Alice Network*.\n- Described Liam stashing a gun in his jacket and running to his room after a noise.\n- Wants two \"Hot Seat\" exercises: an improv in Asimov's style and a partner \"Yes, And…\" build.\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa (rice cooker vs. stovetop), electric heavy-duty trucks for sale, and why Kahlo painted facial hair in some self-portraits.\n- Started *Seven Husbands of Evelyn Hugo* (loving it; wants similar recs; intrigued by *The Alice Network*).\n- Described Liam stashing a gun in his jacket and running to his room after a noise.\n- Wants two \"Hot Seat\" exercises: an Asimov-style improv; a partner \"Yes, And…\" build where the user questions \"my\" character and the AI responds in character.\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa (rice cooker vs. stovetop), electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Started *Seven Husbands of Evelyn Hugo*; loving it; wants similar recs; intrigued by *The Alice Network*.\n- Described Liam stashing a gun in his jacket and running to his room after a noise.\n- Wants two \"Hot Seat\" exercises: (1) Asimov-style improv; (2) a \"Yes, And…\" build with two variants — first: user questions \"my\" character, AI responds in character; second: AI questions, user responds in character building with \"Yes, And…\".",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa (rice cooker vs. stovetop), electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Started *Seven Husbands of Evelyn Hugo*; loving it; wants similar recs; intrigued by *The Alice Network*.\n- Described Liam stashing a gun in his jacket and running to his room after a noise.\n- Requested two \"Hot Seat\" exercises: (1) Asimov-style improv; (2) \"Yes, And…\" build in two variants (a: user questions \"my\" character, AI in character; b: AI questions, user in character).\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa (rice cooker vs. stovetop), electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Started *Seven Husbands of Evelyn Hugo* (loving it; wants similar recs; intrigued by *The Alice Network*).\n- Described Liam stashing a gun in his jacket and running to his room after a noise.\n- Requested two \"Hot Seat\" exercises: Asimov-style improv and \"Yes, And…\" build in two variants. Wants AI to play questioner; user responds in character, building with \"Yes, And…\".\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa cooking (rice cooker vs. stovetop), electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Started *Seven Husbands of Evelyn Hugo* (loving it; wants similar recommendations; intrigued by *The Alice Network*).\n- Described Liam stashing a gun in his jacket and running to his room after a noise.\n- Requested two \"Hot Seat\" exercises (Asimov-style improv; \"Yes, And…\" build in two variants), with AI as questioner; user responds in character and builds with \"Yes, And…\".\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa cooking (rice cooker vs. stovetop), electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Started *Seven Husbands of Evelyn Hugo*—loving it; wants similar recs; intrigued by *The Alice Network*.\n- Described Liam stashing a gun in his jacket and running to his room after a noise.\n- Requested two \"Hot Seat\" improv exercises (Asimov-style; \"Yes, And…\" variants) with AI as questioner and user building in character.\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa cooking (rice cooker vs. stovetop), electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Described Liam stashing a gun in his jacket and running to his room after a noise.\n- Started *Seven Husbands of Evelyn Hugo*—loving it, wants similar recs, intrigued by *The Alice Network*.\n- Requested two Asimov-style \"Hot Seat\" improv exercises to try with a partner (AI asks questions; user builds in character via \"Yes, And…\").\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa cooking, electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Described Liam stashing a gun and running to his room after a noise.\n- Loving *Seven Husbands of Evelyn Hugo*; wants similar recommendations; intrigued by *The Alice Network*.\n- Wants two Asimov-style \"Hot Seat\" improv exercises: AI plays questioner, user builds in character via \"Yes, And…\".\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa cooking, electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Described Liam stashing a gun and running to his room after a noise.\n- Loving *Seven Husbands of Evelyn Hugo*; wants similar recommendations; intrigued by *The Alice Network*.\n- Wants two Asimov-style \"Hot Seat\" improv exercises (with a partner) where AI plays questioner and user builds in character via \"Yes, And…\".\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa cooking, electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Described Liam stashing a gun and running to his room after a noise.\n- Loving *Seven Husbands of Evelyn Hugo*; wants similar recommendations and is intrigued by *The Alice Network*.\n- Wants two Asimov-style \"Hot Seat\" improv exercises with a partner: AI asks questions, user builds in character via \"Yes, And…\"\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa cooking, electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Described Liam stashing a gun and running to his room after a noise.\n- Loving *Seven Husbands of Evelyn Hugo*; wants similar recs; intrigued by *The Alice Network*.\n- Wants two Asimov-style \"Hot Seat\" improv exercises where AI asks questions and user builds in character via \"Yes, And…\".\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa cooking, electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Described Liam stashing a gun and running to his room after a noise.\n- Loving *Seven Husbands of Evelyn Hugo*; wants similar recs; intrigued by *The Alice Network*.\n- Wants two Asimov-style \"Hot Seat\" improv exercises where AI plays questioner and user builds in character via \"Yes, And…\".\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa cooking, electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Described Liam stashing a gun and running to his room after a noise.\n- Loving *Seven Husbands of Evelyn Hugo* (wants similar recs; intrigued by *The Alice Network*).\n- Wants two Asimov-style \"Hot Seat\" improv exercises where AI plays questioner and user builds in character via \"Yes, And…\"; would like to try with a partner.\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa cooking, electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Described Liam stashing a gun and running to his room after a noise.\n- Loving *Seven Husbands of Evelyn Hugo*; wants similar recommendations; intrigued by *The Alice Network*.\n- Wants two Asimov-style \"Hot Seat\" improv exercises (AI as questioner; user builds in character via \"Yes, And…\"); would like to try with a partner.\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Took a ~200,000-rupee personal loan.\n- Asked about quinoa cooking, electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Described Liam stashing a gun and running to his room after a noise.\n- Loving *Seven Husbands of Evelyn Hugo*; wants similar recommendations; intrigued by *The Alice Network*.\n- Requested two Asimov-style \"Hot Seat\" improv exercises (AI as questioner; user builds in character via \"Yes, And…\"), explicitly asking AI to play questioner in a partner-style session.\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Has a ~200,000-rupee personal loan.\n- Asked about quinoa cooking, electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Described Liam stashing a gun and running to his room after a noise.\n- Loves *Seven Husbands of Evelyn Hugo*; wants similar recommendations and is intrigued by *The Alice Network*.\n- Requested an Asimov-style \"Hot Seat\" improv: AI as questioner, user builds in character via \"Yes, And…\".\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Has a ~200,000-rupee personal loan.\n- Asked about quinoa cooking, electric heavy-duty trucks, and Kahlo's facial hair in self-portraits.\n- Described Liam stashing a gun and running to his room after a noise.\n- Loves *Seven Husbands of Evelyn Hugo* (wants similar recs; intrigued by *The Alice Network*).\n- Requested an Asimov-style \"Hot Seat\" improv: AI plays questioner on user's character; user builds in character via \"Yes, And…\"; wants to try it with a partner.\n- I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.",
+      "avr": {
+        "verdicts": {
+          "I took a personal loan of about 200000 rupees.": "SAME",
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions.": "CHANGED"
+        },
+        "restored": [
+          "I'd like to try out the \"Hot Seat\" exercise with a partner. Can you play the role of the questioner and ask me questions about my character? I'll respond in character and use \"Yes, And...\" to build upon the questions."
+        ]
+      }
+    }
+  ]
+}

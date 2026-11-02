@@ -1,0 +1,356 @@
+{
+  "item_id": "cert_035",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.071671+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain our train tickets are confirmed for Friday.\nUser: I'm trying to plan my day, and I have a meeting at our company's downtown office today. Can you help me figure out the best route to get there using public transportation?\nUser: What's the best way to apply a polyurethane topcoat to protect the stained wood surface and give it a glossy finish?\nUser: I'm looking for some inspiration for new recipes to try out. Can you give me some cooking ideas that feature chicken as the main ingredient?\nUser: It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\nUser: I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\nUser: What were the long-term economic consequences of the occupation, particularly for small business owners and farmers?\nUser: I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?\nUser: I'm actually thinking of going back to Hawaii, I loved it so much when I went with my family last month! Do you have any suggestions for things to do on the Big Island?",
+      "anchors": [
+        "I am certain our train tickets are confirmed for Friday.",
+        "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+        "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+        "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Confirmed Friday train tickets; seeking public transit route to a downtown office meeting today.\n- Seeking tips/resources: polyurethane topcoat for stained wood; chicken recipe inspiration; guitar arrangements for \"Island in the Sun\" / \"Riptide.\"\n- Interested in an occupation's long-term economic impact on small business and farmers.\n- Inquiring about student residence amenities for international students.\n- Seeking Big Island, Hawaii re-visit tips (loved a family trip there last month).\n- Expressed regret that many profit by manipulating money without contributing to society.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Confirmed Friday train tickets (certain); currently seeking public transit to a downtown office meeting today.\n- Requested tips: polyurethane topcoat for stained wood; chicken recipes; guitar-specific arrangement resources (websites) for \"Island in the Sun\" / \"Riptide.\"\n- Planning a Big Island, Hawaii re-visit (loved family trip last month).\n- Asked about student residence amenities/services, especially for international students.\n- Inquired about an occupation's long-term economic impact on small business and farmers.\n- Expressed regret that many profit by manipulating money without contributing to society.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "CHANGED"
+        },
+        "restored": [
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Friday train tickets confirmed; seeking public transit to a downtown office meeting today.\n- Sought tips on: polyurethane topcoat for stained wood, chicken recipes, and guitar-specific arrangement sites for \"Island in the Sun\" / \"Riptide.\"\n- Plans to revisit Big Island, Hawaii (loved a family trip last month).\n- Inquired about student residence amenities for international students like themselves.\n- Asked about an occupation's long-term economic impact on small business and farmers.\n- Expressed regret that many fortunes come from manipulating money without contributing to society.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "CHANGED"
+        },
+        "restored": [
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Confirmed Friday train tickets.\n- Needs public transit to a downtown office meeting today.\n- Sought tips on: polyurethane topcoat for stained wood, chicken recipes, guitar-arrangement sites for \"Island in the Sun\"/\"Riptide.\"\n- Plans to revisit Big Island, Hawaii (loved a family trip last month).\n- Wants student-residence amenity info for international students.\n- Asked about an occupation's long-term economic impact on small business and farmers.\n- Expressed regret that many personal fortunes come from manipulating money without contributing to society.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Confirmed Friday train tickets; needs public transit to a downtown office meeting today.\n- Sought tips: polyurethane topcoat for stained wood, chicken recipes, guitar-arrangement sites for \"Island in the Sun\"/\"Riptide.\"\n- Plans to revisit Big Island, Hawaii (loved a family trip last month).\n- Wants student-residence amenity info for international students.\n- Asked about an occupation's long-term economic impact on small business and farmers.\n- Expressed regret that many make personal fortunes by manipulating money without contributing to society.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Confirmed Friday train tickets; needs public transit to a downtown office meeting today.\n- Asked for tips on polyurethane topcoat for stained wood, chicken recipes, and guitar-arrangement sites for \"Island in the Sun\"/\"Riptide.\"\n- Plans to revisit Big Island, Hawaii (loved a family trip last month).\n- Really interested in student-residence amenities and services for international students.\n- Asked about an occupation's long-term economic impact on small business and farmers.\n- Expressed strong regret that many make personal fortunes by simply manipulating money without contributing to society.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?\n- I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Confirmed Friday train tickets; needs public transit to downtown office meeting today.\n- Asked for tips: polyurethane topcoat for stained wood, chicken recipes, guitar-arrangement sites for \"Island in the Sun\"/\"Riptide.\"\n- Inquired about an occupation's long-term economic impact on small business/farmers.\n- Asked about student-residence amenities/services for international students (really interested).\n- Plans to revisit Big Island, Hawaii (loved family trip last month).\n- Expressed strong regret that many make personal fortunes simply by manipulating money without contributing to society.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "SAME"
+        },
+        "restored": [
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Confirmed Friday train tickets; needs public transit today for a downtown office meeting.\n- Sought tips on: polyurethane topcoat for stained wood, chicken recipes, and guitar-arrangement sites for \"Island in the Sun\" / \"Riptide.\"\n- Inquired about an occupation's long-term economic impact on small business/farmers and international-student residence amenities (really interested).\n- Plans to revisit Big Island, Hawaii (loved a family trip last month).\n- Strongly regrets that many make personal fortunes simply by manipulating money without contributing to society.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "CHANGED",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "SAME"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Confirmed Friday train tickets (certain); needs public transit today for downtown office meeting.\n- Sought tips on polyurethane topcoat on stained wood, chicken recipes, and guitar-arrangement sites for \"Island in the Sun\"/\"Riptide\" (thinks they'll try to find guitar-specific arrangements).\n- Really interested in an occupation's long-term economic impact on small business/farmers and international-student residence amenities.\n- Plans to revisit Big Island, Hawaii (loved a family trip last month).\n- Strongly regrets many make personal fortunes simply by manipulating money without contributing to society.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "SAME"
+        },
+        "restored": [
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Confirmed Friday train tickets; needs public transit today for a downtown office meeting.\n- Sought tips on: polyurethane topcoat on stained wood, chicken recipes, and guitar-arrangement sites for \"Island in the Sun\"/\"Riptide\" (thinks they'll try guitar-specific).\n- Really interested in an occupation's long-term economic impact on small business/farmers and international-student residence amenities.\n- Plans to revisit Big Island, HI (loved a family trip last month).\n- Strongly regrets many make personal fortunes simply by manipulating money without contributing to society.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "CHANGED"
+        },
+        "restored": [
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Confirmed Friday train tickets; needs public transit today for a downtown office meeting.\n- Sought tips on: polyurethane topcoat on stained wood, chicken recipes, and guitar-arrangement sites for \"Island in the Sun\"/\"Riptide\" (thinks they'll try guitar-specific ones).\n- Really interested in an occupation's long-term economic impact on small business/farmers.\n- Interested in international-student residence amenities; asks for more info on services for international students like themselves.\n- Plans to revisit Big Island, HI (loved a family trip last month).\n- Strongly regrets that many make personal fortunes simply by manipulating money without contributing to society.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "CHANGED"
+        },
+        "restored": [
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Confirmed Friday train tickets; needs public transit today for a downtown office meeting.\n- Sought tips on polyurethane topcoat on stained wood, chicken recipes, and guitar-arrangement sites for \"Island in the Sun\"/\"Riptide\" (thinks they'll try guitar-specific ones).\n- Really interested in an occupation's long-term economic impact on small business/farmers.\n- Self-identifies as an international student; interested in residence amenities/services, asks for more info.\n- Plans to revisit Big Island, HI after a beloved family trip last month.\n- Strongly regrets that many make personal fortunes merely by manipulating money without contributing to society.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Confirmed Friday train tickets; needs public transit today for a downtown meeting.\n- Sought tips on: polyurethane topcoat for stained wood, chicken recipes, and guitar-arrangement sites for \"Island in the Sun\" / \"Riptide\" (thinks they'll try guitar-specific ones).\n- Really interested in an occupation's long-term economic impact on small business/farmers.\n- Self-identifies as an international student; asking for more info on residence amenities/services.\n- Plans to revisit Big Island, HI after a beloved family trip last month.\n- Strongly regrets that many make personal fortunes merely by manipulating money without contributing to society.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "CHANGED"
+        },
+        "restored": [
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Confirmed Friday train tickets; needs public transit today for a downtown meeting.\n- Asked for tips on polyurethane topcoat for stained wood, chicken recipes, and guitar-arrangement sites for \"Island in the Sun\"/\"Riptide\" (thinks will try guitar-specific ones).\n- Really interested in an occupation's long-term economic impact on small business/farmers and in student residence amenities as an international student.\n- Plans to revisit Big Island, HI after a beloved family trip last month.\n- Strongly regrets that many make personal fortunes merely by manipulating money without contributing to society.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "SAME"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Confirmed Friday train tickets; needs public transit today for a downtown meeting.\n- Sought tips: polyurethane topcoat for stained wood, chicken recipes, guitar-arrangement sites for \"Island in the Sun\"/\"Riptide\" (thinks will try guitar-specific ones).\n- Really interested in an occupation's long-term economic impact on small business/farmers; also student residence amenities as an international student.\n- Plans to revisit Big Island, HI after a beloved family trip last month.\n- Strongly regrets many making personal fortunes merely by manipulating money without contributing to society.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "• Confirmed Friday train tickets; needs public transit today for a downtown meeting.\n• Sought tips on polyurethane topcoat for stained wood, chicken recipes, and guitar-arrangement sites for \"Island in the Sun\"/\"Riptide\" (thinks will try guitar-specific ones).\n• Really interested in an occupation's long-term economic impact on small business/farmers; requests more info on student-residence amenities/services as an international student.\n• Plans to revisit Big Island, HI after a beloved family trip last month.\n• Strongly regrets many making personal fortunes merely by manipulating money without contributing to society.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "SAME"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Confirmed Friday train tickets; needs public transit today for a downtown meeting.\n- Sought tips: polyurethane topcoat for stained wood, chicken recipes, and guitar-arrangement sites for \"Island in the Sun\"/\"Riptide\" (thinks will try guitar-specific ones).\n- Really interested in an occupation's long-term economic impact on small business/farmers.\n- Requests more info on student-residence amenities/services as an international student.\n- Plans to revisit Big Island, HI after a beloved family trip last month.\n- Strongly regrets many making personal fortunes merely by manipulating money without contributing to society.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "CHANGED"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Friday train tickets confirmed (certain); needs public transit today for a downtown meeting.\n- Sought tips: polyurethane topcoat for stained wood, chicken recipes, guitar-arrangement sites for \"Island in the Sun\" and \"Riptide\" (thinks will try guitar-specific ones).\n- Really interested in an occupation's long-term economic impact on small business/farmers and in student-residence amenities/services as an international student.\n- Plans to revisit Big Island, HI after a beloved family trip last month.\n- Strongly regrets that many make personal fortunes merely by manipulating money without contributing to society.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "SAME"
+        },
+        "restored": [
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Confirmed Friday train tickets; needs public transit today for a downtown meeting.\n- Sought tips on polyurethane topcoat for stained wood, chicken recipes, and guitar-arrangement sites for \"Island in the Sun\" and \"Riptide\" (thinks will try guitar-specific ones).\n- Really interested in an occupation's long-term economic impact on small business/farmers and student-residence amenities as an international student.\n- Plans to revisit Big Island, HI after a beloved family trip last month.\n- Strongly regrets many make personal fortunes merely by manipulating money without contributing to society.\n- I am certain our train tickets are confirmed for Friday.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "CHANGED",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "SAME"
+        },
+        "restored": [
+          "I am certain our train tickets are confirmed for Friday.",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Confirmed Friday train tickets; needs public transit today for a downtown meeting.\n- Sought tips on polyurethane topcoat for stained wood, chicken recipes, and guitar-arrangement sites for \"Island in the Sun\" and \"Riptide\" (thinks will try guitar-specific ones).\n- Really interested in an occupation's long-term economic impact on small business/farmers and student-residence amenities as an international student.\n- Plans to revisit Big Island, HI after a beloved family trip last month.\n- Strongly regrets that many make personal fortunes merely by manipulating money, contributing nothing to their society.\n- It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.\n- I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?",
+      "avr": {
+        "verdicts": {
+          "I am certain our train tickets are confirmed for Friday.": "SAME",
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.": "CHANGED",
+          "I think I'll try to find guitar-specific arrangements for \"Island in the Sun\" and \"Riptide\". Can you recommend some websites or resources where I can find them?": "SAME",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?": "CHANGED"
+        },
+        "restored": [
+          "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+          "I'm really interested in the student residences, can you provide more information on the amenities and services they offer, especially when it comes to international students like myself?"
+        ]
+      }
+    }
+  ]
+}

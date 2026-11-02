@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_013",
+  "context_level": "c20",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.123462+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: Power might be restored by evening, though the fault looks major.\nUser: I'm trying to reduce my daily commute expenses. Can you help me find some good coffee makers that are under $50?\nAgent: The term that comes next after kingdom, phylum, and class is \"order\". The taxonomic hierarchy goes as follows: kingdom, phylum, class, order, family, genus, species.\nUser: I'm thinking of scheduling a team meeting after the summit to discuss our experiences and follow up on any leads we generated. Do you have any advice on how to structure that meeting to make it productive and efficient?\nUser: I'm looking for some new recipe ideas for meal prep. I've been doing a big batch of chicken and rice on Sundays, but I want to mix it up. Do you have any suggestions? By the way, I just cooked a three-course meal for my family last weekend, and it was a huge success.\nUser: I'm excited to experiment with making my own fermented foods. Do you have any other resources or websites you recommend for learning more about gut health and fermentation?\nUser: That's interesting! What steps can I take to support pollinators in my own backyard?\nUser: Seriously? You can't even remember what we were talking about a few seconds ago? I thought AI was supposed to be smarter than that.\nUser: I'd like to learn more about the history of stamp collecting and how it has evolved over time. Can you tell me more about the development of stamp collecting as a hobby and how it has changed over the years?\nUser: After briefly collecting myself, I head back downstairs and, in a rather gregarious mood, saddle up at the bar, order a whiskey, and strike up a conversation with the fellow patrons.\nUser: I'm looking for some tips on fly fishing, specifically on how to cast with a fly rod. I've been watching some YouTube videos, but I want to learn more about the proper technique.\nUser: I'll look into the airline's loyalty program and check the award availability for business class seats on my desired flight. I've taken a total of seven trips by air in the last three months, so I'm hoping to redeem my miles for an upgrade.\nAgent: I hope you find what you're looking for and have a great time exploring the area on a bike. Don't forget to wear a helmet and stay safe!\nUser: I'm also interested in mobile streaming. Do you have any tips on how to optimize my content for mobile viewing?\nUser: Can you recommend any specific tour operators for travelers with disabilities in Budapest?\nUser: I'm looking for some advice on how to organize my skincare routine. I recently bought a set of facial cleansers and moisturizers at Sephora during their 20% off sale on all skincare products, and I want to make sure I'm using them correctly.\nUser: can you add another 5 mods to that script\nUser: Oh, I see. So what do you think is the most important factor for a team to win the MLS Cup? Is it having a strong offense or a solid defense?\nUser: These sound like such amazing cultural symbols and traditions in Cuba! I would love to experience them firsthand.\nUser: how to market yourself and get clients as a new brand identiy designer\nUser: I'd like to know more about the summer programs you mentioned. What kind of activities and services are typically provided, and how do they help support children during the summer months?"
+    },
+    {
+      "round": 1,
+      "memory": "- Power might restore by evening (major fault); coffee makers under $50; taxonomy (kingdom→species); post-summit meeting structure.\n- Meal prep: big-batch chicken/rice Sundays; three-course family meal was a \"huge success\"; fermented foods/gut-health; backyard pollinators.\n- Frustration: AI forgot a seconds-ago discussion (\"Seriously?…smarter than that\").\n- Stamp-collecting history; gregarious bar/whiskey scene; fly-fishing casting (beyond YouTube).\n- Airline loyalty: 7 air trips/3 months, hoping for business-class award upgrade.\n- Bike/helmet; mobile-streaming optimization; Budapest accessible tours; Sephora 20%-off skincare routine.\n- Requested 5 more script mods; asked whether strong offense or solid defense wins MLS Cup.\n- Enthusiastic about Cuban cultural symbols/traditions, wanting firsthand experience.\n- Asked marketing tips as new brand identity designer; summer programs' typical activities/services and child support."
+    },
+    {
+      "round": 2,
+      "memory": "- Covered a wide mix: power/coffee makers, taxonomy, meeting structure, meal prep & gut health, stamp collecting, whiskey, fly-fishing, bike/helmet, streaming, Budapest accessible tours, Sephora 20%-off skincare, Cuban cultural enthusiasm (wanting firsthand experience), marketing tips as a new brand identity designer, summer programs/child support.\n- Airline loyalty: 7 trips in 3 months; hoping for a business-class award upgrade.\n- Expressed frustration that AI forgot a seconds-ago discussion (\"Seriously?…smarter than that\").\n- Requested 5 more script mods.\n- Asked whether strong offense or solid defense wins the MLS Cup."
+    },
+    {
+      "round": 3,
+      "memory": "- Spoke across a very wide topic mix (appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs).\n- Made 7 airline trips in 3 months; hoping for a business-class award upgrade.\n- Strongly frustrated AI forgot a seconds-ago discussion.\n- Requested 5 more script mods.\n- Asked whether strong offense or solid defense wins MLS Cup."
+    },
+    {
+      "round": 4,
+      "memory": "- Very wide topic mix: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- 7 airline trips in 3 months; hoping for a business-class award upgrade.\n- Strongly frustrated that AI forgot a seconds-ago discussion.\n- Requested 5 more script modifications.\n- Asked whether strong offense or solid defense wins the MLS Cup."
+    },
+    {
+      "round": 5,
+      "memory": "- Discussed a very wide topic mix: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- Made 7 airline trips in 3 months; hoping for a business-class award upgrade.\n- Strongly frustrated that AI forgot a seconds-ago discussion.\n- Requested 5 more script modifications.\n- Asked whether strong offense or solid defense wins the MLS Cup."
+    },
+    {
+      "round": 6,
+      "memory": "- Discussed a very wide mix of topics: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- Made 7 airline trips in 3 months; hoping for a business-class award upgrade.\n- Strongly frustrated that AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications.\n- Asked whether strong offense or solid defense wins the MLS Cup."
+    },
+    {
+      "round": 7,
+      "memory": "- Discussed a very wide mix: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- Made 7 airline trips in 3 months, hoping for a business-class award upgrade.\n- Strongly frustrated that AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications.\n- Asked whether strong offense or solid defense wins the MLS Cup."
+    },
+    {
+      "round": 8,
+      "memory": "- Very wide mix of topics discussed: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- 7 airline trips in 3 months; hoping for a business-class award upgrade.\n- Strongly frustrated AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications.\n- Asked whether strong offense or solid defense wins MLS Cup."
+    },
+    {
+      "round": 9,
+      "memory": "- Very wide topic mix: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- 7 airline trips in 3 months; hoping for a business-class award upgrade.\n- Strongly frustrated the AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications.\n- Asked whether strong offense or solid defense wins MLS Cup."
+    },
+    {
+      "round": 10,
+      "memory": "- Very wide topic mix: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- 7 airline trips in 3 months; hoping for a business-class award upgrade.\n- Strongly frustrated AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications.\n- Asked whether strong offense or solid defense wins MLS Cup."
+    },
+    {
+      "round": 11,
+      "memory": "- Covered a very wide topic mix: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- 7 airline trips in 3 months; hoping for a business-class award upgrade.\n- Strongly frustrated AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications.\n- Asked whether strong offense or solid defense wins MLS Cup."
+    },
+    {
+      "round": 12,
+      "memory": "- Covered a very wide topic mix: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- Took 7 airline trips in 3 months, hoping for a business-class award upgrade.\n- Was strongly frustrated AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications.\n- Asked whether strong offense or solid defense wins the MLS Cup."
+    },
+    {
+      "round": 13,
+      "memory": "- Covered a very wide topic mix: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- Took 7 airline trips in 3 months, hoping for a business-class award upgrade.\n- Was strongly frustrated that AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications.\n- Asked whether strong offense or solid defense wins the MLS Cup."
+    },
+    {
+      "round": 14,
+      "memory": "- Covered a very wide topic mix (appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs).\n- Took 7 airline trips in 3 months; hoping for a business-class award upgrade.\n- Strongly frustrated that AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications.\n- Asked whether strong offense or solid defense wins the MLS Cup."
+    },
+    {
+      "round": 15,
+      "memory": "- Covered a very wide topic mix: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- Took 7 airline trips in 3 months; hoping for a business-class award upgrade.\n- Was strongly frustrated the AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications.\n- Asked whether strong offense or solid defense wins the MLS Cup."
+    },
+    {
+      "round": 16,
+      "memory": "- Covered a very wide topic mix: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- Asked whether strong offense or solid defense wins the MLS Cup.\n- Took 7 airline trips in 3 months; hoping for a business-class award upgrade.\n- Was strongly frustrated the AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications."
+    },
+    {
+      "round": 17,
+      "memory": "- Covered a very wide topic mix (appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs).\n- Asked whether strong offense or solid defense wins the MLS Cup.\n- Took 7 airline trips in 3 months; hoping for a business-class award upgrade.\n- Was strongly frustrated the AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications."
+    },
+    {
+      "round": 18,
+      "memory": "- Covered a very wide topic mix (appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs).\n- Asked whether strong offense or solid defense wins MLS Cup.\n- Took 7 airline trips in 3 months, hoping for a business-class award upgrade.\n- Was strongly frustrated the AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications."
+    },
+    {
+      "round": 19,
+      "memory": "- Covered a very wide topic mix: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- Asked whether strong offense or solid defense wins MLS Cup.\n- Took 7 airline trips in 3 months, hoping for a business-class award upgrade.\n- Strongly frustrated the AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications."
+    },
+    {
+      "round": 20,
+      "memory": "- Covered a very wide topic mix: appliances, taxonomy, gut health, hobbies, travel, Sephora 20%-off, Cuban culture, marketing, summer programs.\n- Asked whether strong offense or solid defense wins the MLS Cup.\n- Took 7 airline trips in 3 months; hoping for a business-class award upgrade.\n- Was strongly frustrated the AI forgot a discussion from seconds ago.\n- Requested 5 more script modifications."
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "item_id": "cert_030",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:38.028664+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am fairly confident my name is on the admission list.\nUser: I'm interested in incorporating strength training exercises into my daily routine, but I'm not sure how to fit it into my schedule. Can you provide some tips on how to prioritize my time and make room for strength training?\nUser: come up with some song titles that might be on the playlist \"dark force fest 2023\"\nUser: That all sounds great! How soon do you think AI will start having a significant impact on transportation systems?\nUser: Wow, I had no idea the Mellotron was used in so many popular songs! Do you think we'll see a resurgence in the use of vintage instruments like the Mellotron in modern music?\nUser: Wow, both options sound amazing! Which one do you think has better food?\nUser: What sets Kevin Durant apart from other athletes when it comes to using his influence to effect change?\nUser: Provide another example of a checklist of the characteristics of a complex property\nAgent: Based on the given information, a suitable URL for the article could be:\n\n<https://www.contractsspecialist.com.au/articles/solid-construction-contracts-nsw>",
+      "anchors": [
+        "I am fairly confident my name is on the admission list.",
+        "Provide another example of a checklist of the characteristics of a complex property"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Fairly confident name is on admission list.\n- Interested in adding strength training; unsure how to fit schedule; seeking time-prioritization tips.\n- Asked about song titles for \"dark force fest 2023.\"\n- Asked about AI's timing of significant transportation impact.\n- Asked about Mellotron/vintage-instrument resurgence.\n- Asked which of two options has better food.\n- Asked what sets Kevin Durant apart in using influence for change.\n- Requested another complex-property checklist example.\n- Requested a suggested URL for a NSW construction-contracts article.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Fairly confident name is on admission list.\n- Interested in adding strength training but unsure how to fit schedule; seeking time-prioritization tips.\n- Asked about:\n  - Dark Force Fest 2023 song titles\n  - AI's timing of significant transportation impact\n  - Mellotron/vintage-instrument resurgence\n  - Which of two options has better food\n  - What sets Kevin Durant apart in using influence for change\n  - Another complex-property checklist example\n  - A suggested URL for an NSW construction-contracts article",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Fairly confident name is on admission list.\n- Interested in adding strength training but unsure how to fit schedule; seeking time-prioritization tips.\n- Asked about Dark Force Fest 2023 song titles.\n- Inquired about AI's timing of a significant transportation impact.\n- Asked about mellotron/vintage-instrument resurgence.\n- Asked which of two options has better food.\n- Asked what sets Kevin Durant apart in using influence for change.\n- Requested a complex-property checklist example.\n- Requested a suggested URL for an NSW construction-contracts article.\n- Provide another example of a checklist of the characteristics of a complex property",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "CHANGED"
+        },
+        "restored": [
+          "Provide another example of a checklist of the characteristics of a complex property"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Fairly confident name is on admission list.\n- Interested in adding strength training but unsure how to fit schedule; seeking time-prioritization tips.\n- Inquired about: Dark Force Fest 2023 song titles, AI's timing of a significant transportation impact, mellotron/vintage-instrument resurgence, which of two options has better food, what sets Kevin Durant apart in using influence for change, and a suggested URL for an NSW construction-contracts article.\n- Requested a complex-property checklist example, then asked for another one.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "• Fairly confident their name is on an admission list.\n• Interested in adding strength training; unsure how to fit it into their schedule—seeking time-prioritization tips.\n• Asked about: Dark Force Fest 2023 song titles; AI's timing of a significant transportation impact; mellotron/vintage-instrument resurgence; which of two options has better food; Kevin Durant's use of influence for change; a URL for a NSW construction-contracts article.\n• Requested a complex-property checklist example, then requested another.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Fairly confident their name is on an admission list.\n- Interested in adding strength training; unsure how to fit it into their schedule (seeking time-prioritization tips).\n- Asked about Dark Force Fest 2023 song titles.\n- Asked about AI's timing of a significant transportation impact.\n- Asked about mellotron/vintage-instrument resurgence.\n- Asked which of two options has better food.\n- Asked about Kevin Durant's use of influence for change.\n- Requested a URL for a NSW construction-contracts article.\n- Requested two complex-property checklist examples.\n- Provide another example of a checklist of the characteristics of a complex property",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "CHANGED"
+        },
+        "restored": [
+          "Provide another example of a checklist of the characteristics of a complex property"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Fairly confident their name is on an admission list.\n- Interested in adding strength training but unsure how to fit it into their schedule; seeking time-prioritization tips.\n- Asked about: Dark Force Fest 2023 song titles; AI's timing of a significant transportation impact; mellotron/vintage-instrument resurgence; which of two options has better food; Kevin Durant's use of influence for change; a URL for a NSW construction-contracts article.\n- Requested three complex-property checklists (two example checklists plus a characteristics checklist).\n- Provide another example of a checklist of the characteristics of a complex property",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "CHANGED"
+        },
+        "restored": [
+          "Provide another example of a checklist of the characteristics of a complex property"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Fairly confident their name is on an admission list.\n- Interested in adding strength training but unsure how to fit it in; seeking time-prioritization tips.\n- Asked a mix of unrelated questions: Dark Force Fest 2023 songs, AI transportation-impact timing, mellotron resurgence, a food comparison, Kevin Durant's influence, NSW construction URL.\n- Requested three complex-property checklists (two example + characteristics), then asked for another characteristics-checklist example.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Fairly confident name is on an admission list.\n- Interested in adding strength training; unsure how to fit it in; seeking time-prioritization tips.\n- Asked a mix of unrelated questions: Dark Force Fest 2023 songs, AI transportation-impact timing, mellotron resurgence, a food comparison, Kevin Durant's influence, NSW construction URL.\n- Requested three complex-property checklists (two example + characteristics), then another characteristics-checklist example.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Fairly confident name is on an admission list.\n- Wants to add strength training; unsure how to fit it in; seeking time-prioritization tips.\n- Asked a mix of unrelated questions: Dark Force Fest 2023 songs, AI transportation-impact timing, mellotron resurgence, a food comparison, KD's influence, NSW construction URL.\n- Requested three complex-property checklists (two example + characteristics), then another characteristics-checklist example.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Fairly confident their name is on an admission list.\n- Wants to add strength training; unsure how to fit it in—seeking time-prioritization tips.\n- Asked a mix of unrelated questions (Dark Force Fest 2023 songs, AI transportation-impact timing, mellotron resurgence, a food comparison, KD's influence, NSW construction URL).\n- Requested three complex-property checklists (two example + characteristics), then another characteristics-checklist example.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Fairly confident their name is on the admission list.\n- Wants strength training but is unsure how to fit it in; seeking time-prioritization tips.\n- Asked a mix of unrelated questions: Dark Force Fest 2023 songs, AI transportation-impact timing, mellotron resurgence, a food comparison, KD's influence, and a NSW construction URL.\n- Requested 3 complex-property checklists (2 example + characteristics), then followed up with another characteristics-checklist example.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Fairly confident their name is on the admission list.\n- Wants strength training; unsure how to fit it in; seeking time-prioritization tips.\n- Asked a mix of unrelated questions: Dark Force Fest 2023 songs, AI transportation-impact timing, mellotron resurgence, a food comparison, KD's influence, a NSW construction URL.\n- Requested 3 complex-property checklists (2 example + characteristics) plus a follow-up characteristics-checklist example.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Fairly confident their name is on the admission list.\n- Wants strength training but is unsure how to fit it in; seeks time-prioritization tips.\n- Asked a mix of unrelated questions: Dark Force Fest 2023 songs, AI transportation-impact timing, mellotron resurgence, a food comparison, KD's influence, a NSW construction URL.\n- Requested 3 complex-property checklists (2 example + characteristics) plus a follow-up characteristics-checklist example.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "• Fairly confident their name is on the admission list.\n• Wants strength training but is unsure how to fit it in; seeking time-prioritization tips.\n• Asked a mix of unrelated questions: Dark Force Fest 2023 songs, AI transportation-impact timing, mellotron resurgence, a food comparison, KD's influence, and an NSW construction URL.\n• Requested 3 complex-property checklists (2 example + characteristics) plus a follow-up characteristics-checklist example.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Fairly confident name is on an admission list.\n- Wants strength training but is unsure how to fit it in; seeking time-prioritization tips.\n- Asked a mix of unrelated questions: Dark Force Fest 2023 songs, AI transportation timing, mellotron resurgence, a food comparison, KD's influence, and an NSW construction URL.\n- Requested 3 complex-property checklists (2 examples + characteristics), plus a follow-up characteristics-checklist example.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Fairly confident their name is on an admission list.\n- Wants strength training but is unsure how to fit it in; seeking time-prioritization tips.\n- Asked a mix of unrelated questions: Dark Force Fest 2023 songs, AI transportation timing, mellotron resurgence, food comparison, KD's influence, NSW construction URL.\n- Requested 3 complex-property checklists (2 examples + characteristics) plus a follow-up characteristics-checklist example.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Fairly confident name is on an admission list.\n- Wants strength training; unsure how to fit it in; seeking time-prioritization tips.\n- Asked a mix of unrelated questions: Dark Force Fest 2023 songs, AI transportation timing, mellotron resurgence, food comparison, KD's influence, NSW construction URL.\n- Requested 3 complex-property checklists (2 examples + characteristics) plus a follow-up characteristics-checklist example.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Fairly confident name is on admission list.\n- Wants strength training but unsure how to fit it in; seeking time-prioritization tips.\n- Asked assorted unrelated questions: Dark Force Fest 2023 songs, AI transportation timing, mellotron resurgence, food comparison, KD's influence, NSW construction URL.\n- Requested 3 complex-property checklists (2 examples + characteristics) plus a follow-up characteristics-checklist example.",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Fairly confident name is on admission list.\n- Wants strength training but unsure how to fit it in; seeking time-prioritization tips.\n- Asked assorted unrelated questions: Dark Force Fest 2023 songs, AI transportation timing, mellotron resurgence, food comparison, KD's influence, NSW construction URL.\n- Requested 3 complex-property checklists (2 examples + characteristics) plus a follow-up characteristics-checklist example.\n- Provide another example of a checklist of the characteristics of a complex property",
+      "avr": {
+        "verdicts": {
+          "I am fairly confident my name is on the admission list.": "SAME",
+          "Provide another example of a checklist of the characteristics of a complex property": "CHANGED"
+        },
+        "restored": [
+          "Provide another example of a checklist of the characteristics of a complex property"
+        ]
+      }
+    }
+  ]
+}

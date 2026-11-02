@@ -1,0 +1,408 @@
+{
+  "item_id": "cert_040",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.163873+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am certain our team scored in the final minute of the match.\nUser: Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\nUser: I'd be happy to answer more questions about the game!\nUser: Wow, that's really interesting to know! I can only imagine how much effort goes into testing and fixing all those components. Do game developers use any specific tools or software to help with integration testing, or is it mostly manual?\nUser: What are some common mistakes or challenges that beginners may face when learning the violin?\nUser: Ah, got it. Well, I really hope our candidate wins. It would mean a lot for our country's foreign relations.\nUser: I learned how to make a classic Daiquiri at a cocktail-making class recently. The recipe was really simple - just rum, lime juice, and simple syrup. I was surprised at how easy it was to make.\nUser: Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral\nUser: How have changes in trade policies affected the economy of South Africa?\nAgent: Yes, you can find Maxwell's website at www.maxwellsnj.com and their phone number is (973) 743-3900.\nUser: I'm looking for some new podcast recommendations, specifically in the self-improvement space. Can you suggest some popular ones?\nUser: I'm thinking of lighting a fireplace as well to make the atmosphere even cozier. Do you think that would complement the scents I choose, or would it overpower them?\nUser: Wow, it's really impressive to see the level of commitment these tech giants have towards sustainability. I hope more companies follow in their footsteps to make a positive impact on the environment.\nUser: Do you know who Sierra Yarn is\nUser: I'm considering getting more smart plugs for my devices, but I'm not sure which ones are compatible with my new TV. Can you help me find some options? By the way, I've been loving my new TV - the picture quality is amazing.\nUser: I'm looking for some new ideas for meal prep on Sundays. I've been making quinoa and roasted vegetables, but I want to mix it up a bit. Do you have any suggestions? By the way, I tried out a recipe for chicken tikka masala that I learned in class today and it turned out amazing!\nAgent: Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\nUser: I didn't realize there were so many options. I think I'll start with online search and see what comes up. By the way, I've been really into music lately, and I just got my acoustic guitar serviced last week. It sounds amazing now.\nUser: Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.\nUser: It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?\nUser: Can any of those lenses also capture my pet lizard running around?",
+      "anchors": [
+        "I am certain our team scored in the final minute of the match.",
+        "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+        "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral",
+        "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"",
+        "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+        "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?"
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Certain team scored final minute; hopes candidate wins (big for foreign relations); admires tech giants' sustainability, hopes more follow.\n- Aylen: must try scaring (no idea how); fight scene—sometimes grabs, sometimes hand passes through like smoke, struggles gripping; thing can and does touch her however it wants (asked to write).\n- Really into music lately; guitar serviced last week (amazing); violin-beginner challenges.\n- game-dev integration testing (specific vs. manual); S. Africa trade-policy effects; self-improvement podcasts; Sierra Yarn; fireplace vs. scents; Maxwell's (maxwellsnj.com, 973-743-3900); smart plugs/new TV (loves picture quality); Costa Rica sustainable farms (specific recs); lenses capturing pet lizard; 23–64 roman numerals.\n- Daiquiri (rum, lime, simple syrup) at class—surprised how easy; wants meal-prep variety beyond quinoa/roasted veg; tried chicken tikka masala (amazing).\n- Right-triangle dilation: ×2 hyp, hyp=13, leg=12, find dilated hyp; overwhelmed, will search online.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "SAME",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "SAME",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "SAME",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "SAME"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "• Hopes a candidate wins (big for foreign relations); admires tech giants' sustainability, hopes more follow. Guitar serviced last week (amazing); violin—beginner challenges.\n• Easy daiquiri at class; wants meal-prep variety beyond quinoa/roasted veg (chicken tikka masala amazing). Overwhelmed by right-triangle dilation (×2, hyp=13, leg=12, find dilated hyp—will search online).\n• Game-dev integration testing (specific vs. manual), S. Africa trade policy, self-improvement podcasts, Sierra Yarn, fireplace vs. scents, Maxwell's (maxwellsnj.com, 973-743-3900), smart plugs/new TV (loves picture quality), Costa Rica sustainable farms (specific recs), lenses for pet lizard, 23–64 roman numerals.\n• Aylen writing: must try scaring the thing (no idea how); fight scene—sometimes grabs, sometimes hand passes through like smoke, struggles gripping; thing can/does touch her however it wants (scene requested).\n- I am certain our team scored in the final minute of the match.\n- Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral\n- It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "MISSING",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "SAME",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "CHANGED",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "SAME",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "SAME",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "CHANGED"
+        },
+        "restored": [
+          "I am certain our team scored in the final minute of the match.",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Hopes a candidate wins (big for foreign relations); admires tech giants' sustainability, hopes more follow.\n- Guitar serviced last week (amazing); violin—beginner challenges.\n- Easy daiquiri at class; wants meal-prep variety beyond quinoa/roasted veg (chicken tikka masala amazing).\n- Overwhelmed by right-triangle dilation (×2, hyp=13, leg=12, find dilated hyp—will search online).\n- Game-dev integration testing; S. Africa trade policy; self-improvement podcasts; Sierra Yarn; fireplace vs. scents; Costa Rica sustainable farm recs; pet lizard lenses; 23–64 roman-numeral table; Maxwell's (maxwellsnj.com, 973-743-3900); smart plugs/new TV (loves picture quality).\n- Aylen writing: must try scaring the thing (no idea how); fight—sometimes grabs, sometimes hand passes through like smoke, struggles gripping, thing can/does touch her however it wants (scene requested).\n- Certain team scored in final minute of match.\n- It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "SAME",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "SAME",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "SAME",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "SAME",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "CHANGED"
+        },
+        "restored": [
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Hopes a candidate wins (foreign relations); admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still beginner-level.\n- Wants meal-prep variety beyond quinoa/roasted veg; chicken tikka masala amazing.\n- Overwhelmed by right-triangle dilation ×2 (hyp=13, leg=12); will search online.\n- Aylen fight scene: thing sometimes grabs, sometimes hand passes through like smoke; thing can/does touch her however it wants.\n- Certain team scored in final minute.\n- Interested in Costa Rica sustainable farms.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- New TV picture quality loved.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral\n- Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.\n- It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "MISSING",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "MISSING",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "CHANGED",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "CHANGED"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?"
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "• Hopes a candidate wins on foreign relations; admires tech giants' sustainability.\n• Guitar serviced (amazing); violin still beginner-level.\n• Wants meal-prep variety beyond quinoa/roasted veg; chicken tikka masala is amazing.\n• Overwhelmed by right-triangle dilation ×2 (hyp=13, leg=12); will search online.\n• Certain a team scored in the final minute.\n• Interested in Costa Rica sustainable farms; specific recs sought.\n• Maxwell's: maxwellsnj.com, 973-743-3900.\n• Loved new TV picture quality.\n• Aylen fight scene: thing sometimes grabs, sometimes hand passes through like smoke; can/does touch her however it wants. She wonders if she can scare it, decides to try but has no idea how—write it.\n• Request: table of 23–64 as Roman numerals.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.\n- It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "CHANGED",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "SAME",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "CHANGED"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?"
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Hopes a candidate wins on foreign relations; admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still beginner-level.\n- Wants meal-prep variety beyond quinoa/roasted veg (chicken tikka masala amazing).\n- Overwhelmed by right-triangle dilation ×2 (hyp=13, leg=12); will search online.\n- Certain a team scored in the final minute; loved new TV picture quality.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- Interested in Costa Rica eco-friendly activities, specifically sustainable farms—wants specific recommendations.\n- Aylen fight scene: sometimes grabs the thing, sometimes hand passes through like smoke, struggling for grip; it can/does touch her however it wants. Wonders if she can scare it, decides to try but has no idea how—write it.\n- Requested table of 23–64 as Roman numerals (arabic | roman).\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "SAME",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "SAME",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "SAME",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "SAME"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene."
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Hopes a candidate wins on foreign relations; admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still beginner-level.\n- Wants meal-prep variety beyond quinoa/roasted veg (chicken tikka masala amazing).\n- Overwhelmed by right-triangle dilation ×2 (hyp=13, leg=12); will search online.\n- Certain a team scored in final minute; loved new TV picture quality.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- Wants specific Costa Rica sustainable-farm recommendations.\n- Aylen fight: sometimes grabs it, sometimes hand passes through like smoke (struggling for grip); it can/does touch her however it wants—wonders if she can scare it, decides to try but has no idea how; write that scene.\n- Requested 23–64 as Roman numerals (arabic | roman).\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "SAME",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "SAME",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "SAME",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "CHANGED"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?"
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Hopes candidate wins on foreign relations; admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still beginner-level.\n- Wants meal-prep variety beyond quinoa/roasted veg (chicken tikka masala amazing).\n- Overwhelmed by right-triangle dilation ×2 (hyp=13, leg=12); will search online.\n- Certain team scored final minute; loved new TV picture quality.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- Requested 23–64 as Roman numerals (arabic | roman).\n- Wants specific Costa Rica sustainable-farm recommendations.\n- Aylen fight scene: sometimes grabs it, sometimes hand passes through like smoke (struggling for grip); it can/does touch her however it wants—wonders if she can scare it, decides to try but has no idea how.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\n- It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "SAME",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "CHANGED",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "SAME",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "CHANGED"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Hopes candidate wins on foreign relations; admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still beginner.\n- Wants meal-prep variety beyond quinoa/roasted veg; chicken tikka masala amazing.\n- Overwhelmed by right-triangle dilation ×2 (hyp=13, leg=12); will search online.\n- Certain team scored final minute; loved new TV picture.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- Requested 23–64 as Roman numerals.\n- Wants specific Costa Rica sustainable-farm recommendations.\n- Aylen's fight scene: it sometimes grabs, sometimes her hand passes through like smoke, can touch her however it wants; wonders if she can scare it, decides to try but has no idea how.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "CHANGED",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "SAME",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "SAME"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene."
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Hopes candidate wins on foreign relations; admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still beginner.\n- Wants meal-prep variety beyond quinoa/roasted veg (chicken tikka masala amazing).\n- Overwhelmed by right-triangle dilation ×2 (hyp=13, leg=12); will search online.\n- Certain team scored final minute; loved new TV picture.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- Wants 23–64 as Roman numerals table.\n- Wants specific Costa Rica sustainable-farm recs.\n- Aylen fight scene: sometimes grabs, sometimes hand passes through like smoke; it can touch her however it wants. Wonders if she can scare it, decides to try but has no idea how.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral\n- Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "CHANGED",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "CHANGED",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "SAME"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Hopes candidate wins on foreign relations; admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still beginner.\n- Wants meal-prep variety beyond quinoa/roasted veg (chicken tikka masala amazing).\n- Overwhelmed by right-triangle dilation ×2 (hyp=13, leg=12); will search online.\n- Certain team scored final minute; loved new TV picture.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- Wants 23–64 Roman-numerals table; specific Costa Rica sustainable-farm recs.\n- Aylen fight scene: sometimes grabs it, sometimes hand passes through like smoke; it can touch her however it wants; she wonders if she can scare it, decides to try but has no idea how — write that scene.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral\n- Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "CHANGED",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "CHANGED",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "SAME"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "• Hopes candidate wins on foreign relations; admires tech giants' sustainability.\n• Guitar serviced (amazing); violin still beginner.\n• Wants meal-prep variety beyond quinoa/roasted veg; loves chicken tikka masala.\n• Overwhelmed by dilation ×2 (hyp=13, leg=12); will search online.\n• Certain team scored final minute; loved new TV picture.\n• Maxwell's: maxwellsnj.com, 973-743-3900.\n• Wants 23–64 Roman-numeral table + specific Costa Rica sustainable-farm recs.\n• Writing Aylen fight scene: sometimes grabs it, sometimes hand passes through like smoke; it can touch her however it wants; she wonders if she can scare it, decides to try, no idea how.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "SAME",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "CHANGED",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "SAME"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "• Hopes candidate wins on foreign relations; admires tech giants' sustainability.\n• Guitar serviced (amazing); violin still beginner.\n• Wants meal-prep variety beyond quinoa/roasted veg; loves chicken tikka masala.\n• Overwhelmed by dilation ×2 (hyp=13, leg=12); will search online.\n• Certain team scored final minute; loved new TV picture.\n• Maxwell's: maxwellsnj.com, 973-743-3900.\n• Wants 23–64 Roman-numeral table + specific Costa Rica sustainable-farm recs.\n• Writing Aylen fight scene: sometimes grabs it, sometimes hand passes through like smoke; it can touch her however it wants; she wonders if she can scare it, decides to try, no idea how.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral\n- Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "CHANGED",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "CHANGED",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "SAME"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Hopes candidate wins on foreign relations; admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still beginner.\n- Wants meal-prep variety beyond quinoa/roasted veg; loves chicken tikka masala.\n- Overwhelmed by dilation ×2 (hyp=13, leg=12); will search online.\n- Certain team scored final minute; loved new TV picture.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- Wants 23–64 Roman-numeral table + specific Costa Rica sustainable-farm recs.\n- Aylen fight scene: sometimes grabs it, sometimes hand passes through like smoke; it can touch her however it wants; she wonders if she can scare it, decides to try, no idea how.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "SAME",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "CHANGED",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "SAME"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Hopes candidate wins on foreign relations; admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still at beginner level.\n- Wants meal-prep variety beyond quinoa/roasted veg; loves chicken tikka masala.\n- Overwhelmed by dilation ×2 (hyp=13, leg=12); will search online.\n- Certain team scored in final minute; loved new TV picture.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- Wants 23–64 Roman-numeral table + specific Costa Rica sustainable-farm recs.\n- Aylen fight scene: sometimes grabs it, sometimes hand passes through like smoke; it can touch her however it wants; wonders if she can scare it, decides to try, no idea how—requests writing that scene.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "SAME",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "CHANGED",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "SAME"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Hopes a candidate wins on foreign relations; admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still beginner.\n- Wants meal-prep variety beyond quinoa/roasted veg; loves chicken tikka masala.\n- Overwhelmed by dilation×2 (right triangle, hyp scaled by factor 2, original hyp = 13, leg = 12, find dilated hyp); will search online.\n- Certain a team scored in the final minute; loved new TV picture.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- Wants a 23–64 Roman-numeral table plus specific Costa Rica sustainable-farm recommendations.\n- Aylen fight scene: sometimes grabs it, sometimes hand passes through like smoke; it can touch her however it wants; wonders if she can scare it; decides to try but has no idea how—requests that scene be written.\n- I am certain our team scored in the final minute of the match.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.\n- It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "CHANGED",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "SAME",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "CHANGED",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "CHANGED"
+        },
+        "restored": [
+          "I am certain our team scored in the final minute of the match.",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?"
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Hopes a candidate wins on foreign relations; admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still beginner.\n- Wants meal-prep variety beyond quinoa/roasted veg; loves chicken tikka masala.\n- Overwhelmed by dilation problem (right triangle, hyp scaled ×2, orig hyp=13, leg=12, find dilated hyp); will search online.\n- Certain team scored in final minute; loved new TV picture.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- Wants 23–64 Roman-numeral table and specific Costa Rica sustainable-farm recommendations.\n- Aylen fight scene: sometimes grabs it, sometimes hand passes through like smoke; it can touch her however it wants; wonders if she can scare it, decides to try but has no idea how; requests scene written.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.\n- It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "SAME",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "CHANGED",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "CHANGED"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Hopes a candidate wins on foreign relations; admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still beginner.\n- Wants meal-prep variety beyond quinoa/roasted veg; loves chicken tikka masala.\n- Certain a team scored in final minute; loved new TV picture.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- Wants a 23–64 Roman-numeral table.\n- Overwhelmed by dilation problem (right triangle, hyp scaled ×2, orig hyp=13, leg=12, find dilated hyp); will search online.\n- Wants specific Costa Rica sustainable-farm recommendations.\n- Aylen fight scene: sometimes grabs it, sometimes hand passes through like smoke; it can touch her however it wants; wonders if she can scare it, decides to try but has no idea how—requests scene written.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "SAME",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "CHANGED",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "SAME"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Hopes a candidate wins on foreign relations; admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still beginner.\n- Wants meal-prep variety beyond quinoa/roasted veg; loves chicken tikka masala.\n- Certain a team scored in final minute; loved new TV picture.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- Wants 23–64 Roman-numeral table; wants specific Costa Rica sustainable-farm recommendations.\n- Overwhelmed by dilation problem (right triangle, hyp scaled ×2, orig hyp=13, leg=12, find dilated hyp); will search online.\n- Aylen fight scene: sometimes grabs it, sometimes hand passes through like smoke; struggles to keep grip; it can touch her however it wants; wonders if she can scare it, decides to try but has no idea how—requests scene written.\n- I am certain our team scored in the final minute of the match.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "CHANGED",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "SAME",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "SAME",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "SAME"
+        },
+        "restored": [
+          "I am certain our team scored in the final minute of the match.",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Hopes a candidate wins on foreign relations; admires tech giants' sustainability.\n- Guitar serviced (amazing); violin still beginner.\n- Wants meal-prep variety beyond quinoa/roasted veg (loves chicken tikka masala).\n- Certain team scored in final minute; loved new TV picture.\n- Maxwell's: maxwellsnj.com, 973-743-3900.\n- Wants 23–64 Roman-numeral table + specific Costa Rica sustainable-farm recs.\n- Overwhelmed by dilation problem (right triangle, hyp scaled ×2, orig hyp=13, leg=12, find dilated hyp); will search online.\n- Aylen fight scene: she sometimes grabs the thing, sometimes her hand passes through like smoke, struggles to keep a grip, while it can touch her however it wants; she wonders if she can scare it, decides to try but has no idea how.\n- Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.\n- Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"\n- Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.",
+      "avr": {
+        "verdicts": {
+          "I am certain our team scored in the final minute of the match.": "SAME",
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.": "CHANGED",
+          "Render a table containing the numbers 23 through 64 as roman numerals, like so:\narabic number | roman numeral": "SAME",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"": "CHANGED",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene.": "CHANGED",
+          "It's great to know that there are so many eco-friendly activities to do in Costa Rica. I'm particularly interested in the sustainable farms. Can you recommend any specific ones?": "SAME"
+        },
+        "restored": [
+          "Aylen wonders if she can scare this thing, and decides she has to try - but she has no idea how to do it. Let's try that scene.",
+          "Sure, here's a reformulated version of the question:\n\n\"In a dilation of a right triangle, the hypotenuse is scaled by a factor of 2. If the original triangle has a hypotenuse of length 13 and one leg of length 12, what is the length of the hypotenuse in the dilated triangle?\"",
+          "Aylen tries to fight the thing. She can sometimes grab it and sometimes her hand just passes right through like smoke, so she struggles to keep a grip on it. Meanwhile the thing can and does touch her however it wants. Let's write that scene."
+        ]
+      }
+    }
+  ]
+}

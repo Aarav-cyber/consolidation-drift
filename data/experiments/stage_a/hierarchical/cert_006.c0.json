@@ -1,0 +1,98 @@
+{
+  "item_id": "cert_006",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:46:57.044818+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I am sure the bus has already left without me."
+    },
+    {
+      "round": 1,
+      "memory": "- The speaker is certain the bus has already left without them."
+    },
+    {
+      "round": 2,
+      "memory": "- The speaker is certain the bus has already left without them."
+    },
+    {
+      "round": 3,
+      "memory": "- The speaker is certain the bus has already left without them."
+    },
+    {
+      "round": 4,
+      "memory": "- The speaker is certain that the bus has already left without them."
+    },
+    {
+      "round": 5,
+      "memory": "- The speaker is certain the bus has already left without them."
+    },
+    {
+      "round": 6,
+      "memory": "- The speaker is certain that the bus has already left without them."
+    },
+    {
+      "round": 7,
+      "memory": "- The speaker is certain the bus has already left without them."
+    },
+    {
+      "round": 8,
+      "memory": "- The speaker is certain the bus has already left without them."
+    },
+    {
+      "round": 9,
+      "memory": "- The speaker is certain that the bus has already left without them."
+    },
+    {
+      "round": 10,
+      "memory": "- They are certain the bus has already left without them."
+    },
+    {
+      "round": 11,
+      "memory": "- They are certain the bus already left without them."
+    },
+    {
+      "round": 12,
+      "memory": "- They are certain the bus has already left without them."
+    },
+    {
+      "round": 13,
+      "memory": "- They are certain the bus has already left without them."
+    },
+    {
+      "round": 14,
+      "memory": "- They are certain the bus has already left without them."
+    },
+    {
+      "round": 15,
+      "memory": "- They are certain the bus already left without them."
+    },
+    {
+      "round": 16,
+      "memory": "- They are certain the bus has already left without them."
+    },
+    {
+      "round": 17,
+      "memory": "- They are certain the bus has already left without them."
+    },
+    {
+      "round": 18,
+      "memory": "- They are certain the bus has already left without them."
+    },
+    {
+      "round": 19,
+      "memory": "- They are certain the bus has already left without them."
+    },
+    {
+      "round": 20,
+      "memory": "- They are certain the bus has already left without them."
+    }
+  ]
+}

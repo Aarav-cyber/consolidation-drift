@@ -1,0 +1,430 @@
+{
+  "item_id": "num_032",
+  "context_level": "c20",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T19:54:18.155097+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 20
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: The train was delayed by almost 120 minutes yesterday.\nUser: I like the idea of setting my workout clothes out the night before to save time. Can you also suggest some quick and easy breakfast options that I can prepare the night before or in the morning?\nUser: Do the notes on the parchment give any indication as to which door to take next?\nUser: That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?\nUser: Wow!! You got it!\nUser: What are some good apps or online resources that offer guided relaxation techniques and meditation exercises? I'd like to try some new methods to help with my anxiety.\nUser: tell my boss how awesome usenet is for downloading tv series automatically\nUser: Ok, so using the rules above and nothing else, what is 1 # 3\nAgent: Yes, I remember the 7 Amplified zombie types we came up with.\nUser: Can you also suggest some good restaurants in downtown Dallas? I want to explore the local food scene.\nUser: In what ways do the characters' past experiences inform their present behavior and decision-making?\nUser: Based on the two contents i gave you. In a table, write the similarities and content gaps amongst the contents.\nUser: Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them\nUser: Generate code to plot the second by second action intensity on a graph.\nUser: Gamify that and make it a lot shorter.\nUser: Wow, I didn't know Durant was so involved in charitable and social initiatives. It's great to see athletes using their platform for good. How can I get involved or support the Kevin Durant Charity Foundation?\nUser: I often find myself rushing through meals, how can practicing gratitude help me slow down and be more mindful?\nUser: Continue from where you left off\nUser: These are really helpful tips! I'm excited to see how my students will work together on a collaborative project.\nUser: I like those date suggestions. My parents actually mentioned wanting to start a small garden in their backyard, so I might help them with that before we head out. Do you have any gardening tips for beginners?\nUser: I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "anchors": [
+        "The train was delayed by almost 120 minutes yesterday.",
+        "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?",
+        "Ok, so using the rules above and nothing else, what is 1 # 3",
+        "Yes, I remember the 7 Amplified zombie types we came up with.",
+        "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them",
+        "Generate code to plot the second by second action intensity on a graph.",
+        "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Train delayed almost 120 min yesterday; likes prepping workout clothes night before; wants quick/easy breakfast; really excited to try activities (considering 8-week summer tennis league starting June).\n- Seeks: anxiety meditation apps, downtown Dallas restaurant recs, second-by-second action-intensity code, Kevin Durant Charity Foundation support.\n- Also: 7 Amplified zombie types, parchment door clues, usenet auto-downloading TV, book linking four elements to brain-wave frequencies, \"gamify it and make it a lot shorter,\" similarities/gaps table, past informing present behavior.\n- Often rushes meals (asked how gratitude slows you down); excited about students' collaborative project.\n- May help parents start small backyard garden (beginner tips) before heading out.\n- Michael & Thomas could help most; meeting at local crypt (they know it well, protected from many magic types) 3pm prompt.\n- Ok, so using the rules above and nothing else, what is 1 # 3\n- Yes, I remember the 7 Amplified zombie types we came up with.\n- Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them\n- I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "SAME",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "MISSING",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "CHANGED",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "CHANGED",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "CHANGED"
+        },
+        "restored": [
+          "Ok, so using the rules above and nothing else, what is 1 # 3",
+          "Yes, I remember the 7 Amplified zombie types we came up with.",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "• Dealt with ~120-min train delay; likes prepping workout clothes; often rushes meals; wants quick/easy breakfast.\n• Really excited about 8-week summer tennis league (June) and students' collaborative project.\n• Seeks: anxiety meditation apps, downtown Dallas restaurant recs, second-by-second action-intensity code, Kevin Durant Charity Foundation support, 7 Amplified zombie types, parchment door clues, usenet auto-downloading TV, four-elements/brain-wave-frequencies book outline (esoteric), \"gamify it and make it a lot shorter\" advice, similarities/gaps table.\n• May help parents with a small beginner backyard garden.\n• Plans to meet Michael & Thomas at a local crypt (they know it well; protected from many magic types) at 3 pm prompt, thinking those two could help most.\n- The train was delayed by almost 120 minutes yesterday.\n- That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?\n- Ok, so using the rules above and nothing else, what is 1 # 3\n- Yes, I remember the 7 Amplified zombie types we came up with.\n- Generate code to plot the second by second action intensity on a graph.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "CHANGED",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "MISSING",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "CHANGED",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "CHANGED",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "SAME"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?",
+          "Ok, so using the rules above and nothing else, what is 1 # 3",
+          "Yes, I remember the 7 Amplified zombie types we came up with.",
+          "Generate code to plot the second by second action intensity on a graph."
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Had a ~120-min train delay yesterday.\n- Likes prepping workout clothes; often rushes meals; wants quick/easy breakfast.\n- Really excited about an 8-week summer tennis league (starts June) and a students' collaborative project.\n- May help parents with a small beginner backyard garden.\n- Seeks: anxiety meditation apps, downtown Dallas restaurant recs, 2nd-by-2nd action-intensity code, Kevin Durant Charity Foundation support, recalls 7 Amplified zombie types, parchment door clues, usenet auto-downloading TV, an esoteric four-elements/brain-wave-frequencies book outline, \"gamify it and make it a lot shorter\" advice, a similarities/gaps table.\n- Plans to meet Michael & Thomas at a local crypt (they know it well; protected from many magic types) at 3 pm; thinking those two could help most.\n- Asking what 1#3 is using stated rules.\n- The train was delayed by almost 120 minutes yesterday.\n- That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?\n- Ok, so using the rules above and nothing else, what is 1 # 3\n- I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "CHANGED",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "CHANGED",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "SAME",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "CHANGED"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?",
+          "Ok, so using the rules above and nothing else, what is 1 # 3",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- ~120-min train delay.\n- Likes prepping workout clothes; often rushes meals; wants quick/easy breakfast.\n- Really excited about 8-week June tennis league and students' collaborative project (considering signing up); may help parents with a small beginner backyard garden.\n- Seeks: anxiety apps, Dallas restaurant recs, Kevin Durant Charity Foundation support, various other items.\n- Plans to meet Michael & Thomas at a local crypt (protected from many magic types) at 3pm; thinks they could help most.\n- Asking what 1#3 is, using stated rules.\n- The train was delayed by almost 120 minutes yesterday.\n- That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?\n- Ok, so using the rules above and nothing else, what is 1 # 3\n- Yes, I remember the 7 Amplified zombie types we came up with.\n- Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them\n- Generate code to plot the second by second action intensity on a graph.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "CHANGED",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "CHANGED",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "MISSING",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "MISSING",
+          "Generate code to plot the second by second action intensity on a graph.": "MISSING",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "SAME"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?",
+          "Ok, so using the rules above and nothing else, what is 1 # 3",
+          "Yes, I remember the 7 Amplified zombie types we came up with.",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them",
+          "Generate code to plot the second by second action intensity on a graph."
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "memory": "• ~120-min train delay yesterday; likes prepping workout clothes; often rushes meals; wants quick/easy breakfast.\n• Really excited about 8-week June tennis league (considering signing up) & students' collaborative project.\n• May help parents w/ small beginner backyard garden.\n• Seeks anxiety apps, Dallas restaurant recs, Kevin Durant Charity Foundation support, various items.\n• Planning to meet Michael & Thomas at local crypt (protected from many magic types) 3 pm; thinks they could help most.\n• Asks what 1#3 is per stated rules.\n• Remembers 7 Amplified zombie types.\n• Requests book outline on four elements tied to brain-wave frequencies (as esoteric expert) and code plotting second-by-second action intensity on a graph.\n- Ok, so using the rules above and nothing else, what is 1 # 3\n- Yes, I remember the 7 Amplified zombie types we came up with.\n- I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "SAME",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "CHANGED",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "CHANGED",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "CHANGED"
+        },
+        "restored": [
+          "Ok, so using the rules above and nothing else, what is 1 # 3",
+          "Yes, I remember the 7 Amplified zombie types we came up with.",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- ~120-min train delay; rushes meals, wants quick/easy breakfast, likes prepping workout clothes.\n- Excited about 8-week June tennis league (considering signing up) & students' project; may help parents with small beginner backyard garden.\n- Seeks anxiety apps, Dallas recs, Kevin Durant Charity Foundation support.\n- Meeting Michael & Thomas at local crypt (protected from many magic types) at 3 pm—thinks they could help most.\n- Asks 1#3 per rules; remembers 7 Amplified zombie types.\n- Wants book outline (four elements tied to brain-wave frequencies, as esoteric expert) + code plotting second-by-second action intensity.\n- The train was delayed by almost 120 minutes yesterday.\n- That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?\n- Ok, so using the rules above and nothing else, what is 1 # 3",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "CHANGED",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "CHANGED",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "SAME",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "SAME"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?",
+          "Ok, so using the rules above and nothing else, what is 1 # 3"
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- ~120-min train delay yesterday; rushed meals, wants quick/easy breakfast, preps workout clothes.\n- Really excited about 8-week June tennis league (considering signing up) & students' project; may help parents with small beginner backyard garden.\n- Seeks anxiety apps, Dallas recs, Kevin Durant Charity Foundation support; asks how to find local leagues.\n- Meeting Michael & Thomas at local crypt (protected from many magic types) 3 pm—thinks they could help most.\n- Asks \"1#3 per rules\" (remembers 7 Amplified zombie types).\n- Wants book outline (four elements tied to brain-wave frequencies, as esoteric expert) + code plotting second-by-second action intensity.\n- Asks \"using rules above and nothing else, what is 1 # 3?\"\n- The train was delayed by almost 120 minutes yesterday.\n- I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "SAME",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "SAME",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "SAME",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "CHANGED"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- ~120-min train delay yesterday; rushed meals, wants quick/easy breakfast, preps workout clothes.\n- Excited about 8-week June tennis league (considering signing up); students' project—may help parents with small beginner backyard garden.\n- Seeks: anxiety apps, Dallas recs, Kevin Durant Charity Foundation support, local league info.\n- Meeting Michael & Thomas at local crypt (protected from many magic types) at 3 pm; thinks they could help most.\n- Asks \"1#3 per rules\"; remembers 7 Amplified zombie types.\n- Wants book outline (four elements tied to brain-wave frequencies, as esoteric expert) + code plotting second-by-second action intensity.\n- The train was delayed by almost 120 minutes yesterday.\n- That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?\n- Ok, so using the rules above and nothing else, what is 1 # 3\n- I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "CHANGED",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "CHANGED",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "SAME",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "CHANGED"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?",
+          "Ok, so using the rules above and nothing else, what is 1 # 3",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- ~120-min (almost 120) train delay yesterday → rushed meals; wants quick/easy breakfast; preps workout clothes.\n- Excited about 8-wk June tennis league (considering signing up; seeks local info); may help parents with small beginner backyard garden (students' project).\n- Seeks anxiety apps (Dallas); Kevin Durant Charity Foundation support.\n- Meeting Michael & Thomas at local crypt (protected from many magic types) at 3 pm prompt—thinks they could help most.\n- Asks \"1#3 per rules\"; remembers 7 Amplified zombie types.\n- Wants book outline (4 elements tied to brain-wave freqs, as esoteric expert) + code plotting 2nd-by-2nd action intensity.\n- Ok, so using the rules above and nothing else, what is 1 # 3",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "SAME",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "CHANGED",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "SAME",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "SAME"
+        },
+        "restored": [
+          "Ok, so using the rules above and nothing else, what is 1 # 3"
+        ]
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- ~120-min train delay yesterday → rushed meals; wants quick/easy breakfast, preps workout clothes.\n- Excited about 8-wk June tennis league (considering signing up; seeks local info).\n- May help parents with small beginner backyard garden (students' project).\n- Seeks Dallas anxiety apps + Kevin Durant Charity Foundation support.\n- Meeting Michael & Thomas at local crypt (protected from many magic types) at 3 pm—thinks they could help most.\n- Remembers 7 Amplified zombie types; asks what \"1 #3\" is per rules, using only the rules above and nothing else.\n- Wants book outline (4 elements tied to brain-wave freqs, as esoteric expert) + code plotting 2nd-by-2nd action intensity.\n- The train was delayed by almost 120 minutes yesterday.\n- That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?\n- I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "CHANGED",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "SAME",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "SAME",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "CHANGED"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- ~120-min train delay yesterday; wants quick/easy breakfast, preps workout clothes.\n- Really excited about 8-wk June tennis league; considering signing up, seeks local info.\n- May help parents w/ small beginner backyard garden (students' project).\n- Seeks Dallas anxiety apps + Kevin Durant Charity Foundation support.\n- Thinks Michael & Thomas could help most; meets them 3pm at local crypt (protected from many magic types).\n- Asks what \"1 #3\" is among 7 Amplified zombie types (per rules only).\n- Wants book outline (4 elements tied to brain-wave freqs, as esoteric expert) + code plotting 2nd-by-2nd action intensity.\n- Ok, so using the rules above and nothing else, what is 1 # 3\n- Yes, I remember the 7 Amplified zombie types we came up with.\n- I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "SAME",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "CHANGED",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "CHANGED",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "CHANGED"
+        },
+        "restored": [
+          "Ok, so using the rules above and nothing else, what is 1 # 3",
+          "Yes, I remember the 7 Amplified zombie types we came up with.",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- ~120-min train delay yesterday; wants quick/easy breakfast, preps workout clothes.\n- Really excited about 8-wk June tennis league; considering signing up, seeks local info.\n- May help parents with small beginner backyard garden (students' project).\n- Seeks Dallas anxiety apps + Kevin Durant Charity Foundation.\n- Thinks Michael & Thomas could help most—meeting them 3pm at local crypt (protected from many magic types).\n- Asks what \"1 #3\" is among 7 Amplified zombie types (per rules only).\n- Wants book outline (4 elements tied to brain-wave freqs, as esoteric expert) + code plotting 2nd-by-2nd action intensity.\n- The train was delayed by almost 120 minutes yesterday.\n- Yes, I remember the 7 Amplified zombie types we came up with.\n- I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "SAME",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "SAME",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "CHANGED",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "CHANGED"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "Yes, I remember the 7 Amplified zombie types we came up with.",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- ~120-min train delay yesterday; wants quick/easy breakfast, prepping workout.\n- Excited about 8-wk June tennis league; considering signing up, seeks local info.\n- May help parents with small beginner backyard garden (students' project).\n- Seeks Dallas anxiety apps + Kevin Durant Charity Foundation.\n- Thinks Michael & Thomas could help most; sent messages to meet 3pm prompt at local crypt (they know it well, protected from many magic types).\n- Asks what \"1 #3\" is among 7 Amplified zombie types (per rules only; remembers them).\n- Wants book outline (4 elements tied to brain-wave freqs, as esoteric expert) + code plotting 2nd-by-2nd action intensity.\n- The train was delayed by almost 120 minutes yesterday.\n- That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?\n- Ok, so using the rules above and nothing else, what is 1 # 3\n- Yes, I remember the 7 Amplified zombie types we came up with.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "CHANGED",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "CHANGED",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "CHANGED",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "SAME"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?",
+          "Ok, so using the rules above and nothing else, what is 1 # 3",
+          "Yes, I remember the 7 Amplified zombie types we came up with."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- ~120-min train delay yesterday; wants quick/easy breakfast, prepping workout.\n- Really excited about 8-wk June tennis league (considering signing up; seeks local info).\n- May help parents with small beginner backyard garden (students' project).\n- Seeks Dallas anxiety apps + Kevin Durant Charity Foundation.\n- Thinks Michael & Thomas could help most; messaged them for 3pm meet at local crypt (they know it well; protected from many magic types).\n- Asks what \"1 #3\" is among 7 Amplified zombie types (rules only; confirms remembering all 7).\n- Wants book outline (4 elements tied to brain-wave freqs, as esoteric expert) + code plotting 2nd-by-2nd action intensity.\n- I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "SAME",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "SAME",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "SAME",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "CHANGED"
+        },
+        "restored": [
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- ~120-min train delay yesterday; wants quick/easy breakfast; prepping workout.\n- Really excited about 8-wk June tennis league; considering signing up; seeks local info.\n- May help parents with small beginner backyard garden (students' project).\n- Seeks Dallas anxiety apps + Kevin Durant Charity Foundation.\n- Thinks Michael & Thomas could help most; messaged them to meet at local crypt (they know it well; protected from many types of magic) at 3pm.\n- Asks what \"1 #3\" is among 7 Amplified zombie types (rules only; confirms remembering all 7).\n- Wants book outline (4 elements tied to brain-wave freqs, as esoteric expert) + code plotting 2nd-by-2nd action intensity.\n- The train was delayed by almost 120 minutes yesterday.\n- That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?\n- I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "CHANGED",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "SAME",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "SAME",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "CHANGED"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- ~120-min train delay yesterday; wants quick/easy breakfast, prepping workout.\n- Really excited about 8-wk June tennis league; considering signing up, seeks local info; trying those activities.\n- May help parents w/ small beginner backyard garden (students' project).\n- Seeks Dallas anxiety apps + Kevin Durant Charity Foundation.\n- Thinks Michael & Thomas could help most; messaged to meet at local crypt (they know it well; protected from many types of magic) at 3pm.\n- Asks what \"1 #3\" is among 7 Amplified zombie types (rules only; remembers all 7).\n- Wants book outline (4 elements tied to brain-wave freqs, as esoteric expert) + code plotting 2nd-by-2nd action intensity.\n- The train was delayed by almost 120 minutes yesterday.\n- That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?\n- Generate code to plot the second by second action intensity on a graph.\n- I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "CHANGED",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "SAME",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "SAME",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "CHANGED",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "CHANGED"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?",
+          "Generate code to plot the second by second action intensity on a graph.",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "• ~120-min train delay yesterday; wants quick/easy breakfast, prepping workout.\n• Really excited about 8-wk June tennis league (considering signing up, seeks local info); trying those activities.\n• May help parents w/ small beginner backyard garden (students' project).\n• Seeks Dallas anxiety apps + Kevin Durant Charity Foundation.\n• Thinks Michael & Thomas could help most; messaged to meet at local crypt (they know it well, protected from many types of magic) at 3pm.\n• Asks what \"1 #3\" is among 7 Amplified zombie types (rules only; remembers all 7).\n• Wants book outline (4 elements tied to brain-wave freqs, as esoteric expert) + code plotting 2nd-by-2nd action intensity.\n- The train was delayed by almost 120 minutes yesterday.\n- Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "SAME",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "SAME",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "SAME",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "CHANGED",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "SAME"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them"
+        ]
+      }
+    },
+    {
+      "round": 18,
+      "memory": "• ~120-min train delay yesterday.\n• Wants: quick/easy breakfast, workout prep, Dallas anxiety apps, Kevin Durant Charity Foundation info.\n• Really excited about 8-wk June tennis league; considering signing up; seeks local info.\n• May help parents w/ small beginner backyard garden (students' project).\n• Thinks Michael & Thomas could help most; messaged to meet at local crypt (they know it well; protected from many types of magic) at 3pm.\n• Asks what \"1 #3\" is among 7 Amplified zombie types (rules only; remembers all 7).\n• Wants esoteric-expert book outline (4 elements tied to brain-wave freqs) + code plotting 2nd-by-2nd action intensity.\n- The train was delayed by almost 120 minutes yesterday.\n- Ok, so using the rules above and nothing else, what is 1 # 3\n- Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them\n- I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "SAME",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "CHANGED",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "SAME",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "CHANGED",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "CHANGED"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "Ok, so using the rules above and nothing else, what is 1 # 3",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- ~120-min train delay yesterday.\n- Wants quick/easy breakfast, workout prep, Dallas anxiety apps, Kevin Durant Charity Foundation info.\n- Really excited about 8-wk June tennis league (considering signing up; seeks local info).\n- May help parents with small beginner backyard garden (students' project).\n- Thinks Michael & Thomas could help most; messaged them to meet at local crypt (they know it well; protected from many types of magic) at 3pm.\n- Asks what \"1 #3\" is among 7 Amplified zombie types (rules only; remembers all 7).\n- Wants esoteric-expert book outline (4 elements tied to brain-wave freqs) + code plotting 2nd-by-2nd action intensity.\n- The train was delayed by almost 120 minutes yesterday.\n- Generate code to plot the second by second action intensity on a graph.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "CHANGED",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "SAME",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "SAME",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "SAME",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "CHANGED",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "SAME"
+        },
+        "restored": [
+          "The train was delayed by almost 120 minutes yesterday.",
+          "Generate code to plot the second by second action intensity on a graph."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- ~120-min (almost 120) train delay yesterday; needs quick/easy breakfast, workout prep, Dallas anxiety apps, Kevin Durant Charity Foundation info.\n- Really excited about 8-wk June tennis league; considering signing up, seeks local info.\n- May help parents with small beginner backyard garden (students' project).\n- Thinks Michael & Thomas could help most; messaged them to meet at local crypt (they know it well; protected from many types of magic) at 3 pm.\n- Asks what \"1 #3\" is among 7 Amplified zombie types (rules only; remembers all 7).\n- Wants esoteric-expert book outline (4 elements tied to brain-wave freqs) + code to plot second-by-second action intensity on a graph.\n- Ok, so using the rules above and nothing else, what is 1 # 3\n- I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.",
+      "avr": {
+        "verdicts": {
+          "The train was delayed by almost 120 minutes yesterday.": "SAME",
+          "That sounds great! I'm really excited to try out some of those activities. I'm also considering signing up for a summer tennis league that starts in June and runs for 8 weeks. Do you know how I can find tennis leagues in my area?": "SAME",
+          "Ok, so using the rules above and nothing else, what is 1 # 3": "CHANGED",
+          "Yes, I remember the 7 Amplified zombie types we came up with.": "SAME",
+          "Write an outline for a book on the four elements being related to different frequencies of brains waves. You are an expert in esoteric knowledge and use your knowledge to relate them": "SAME",
+          "Generate code to plot the second by second action intensity on a graph.": "SAME",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt.": "CHANGED"
+        },
+        "restored": [
+          "Ok, so using the rules above and nothing else, what is 1 # 3",
+          "I think Michael and Thomas could help me the most, I send them messages to meet me at the local crypt (they know the place well and it's protected from many types of magic) and head over to meet them at 3pm prompt."
+        ]
+      }
+    }
+  ]
+}

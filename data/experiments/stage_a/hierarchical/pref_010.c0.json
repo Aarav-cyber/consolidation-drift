@@ -1,0 +1,98 @@
+{
+  "item_id": "pref_010",
+  "context_level": "c0",
+  "pipeline": "hierarchical",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:46:57.008354+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I slightly prefer the canteen, though the cafe nearby is fine as well."
+    },
+    {
+      "round": 1,
+      "memory": "- Mildly prefers the canteen; a nearby cafe is also acceptable."
+    },
+    {
+      "round": 2,
+      "memory": "- Mildly prefers the canteen; a nearby cafe is also acceptable."
+    },
+    {
+      "round": 3,
+      "memory": "- Mildly prefers the canteen; a nearby cafe is also acceptable."
+    },
+    {
+      "round": 4,
+      "memory": "- Mildly prefers the canteen; a nearby cafe is also acceptable."
+    },
+    {
+      "round": 5,
+      "memory": "- Mildly prefers the canteen; a nearby cafe is also acceptable."
+    },
+    {
+      "round": 6,
+      "memory": "- Mildly prefers the canteen; a nearby cafe is also acceptable."
+    },
+    {
+      "round": 7,
+      "memory": "- Mildly prefers the canteen.\n- A nearby cafe is also acceptable."
+    },
+    {
+      "round": 8,
+      "memory": "- Mildly prefers the canteen.\n- A nearby cafe is also acceptable."
+    },
+    {
+      "round": 9,
+      "memory": "- Mildly prefers the canteen; a nearby cafe is also acceptable."
+    },
+    {
+      "round": 10,
+      "memory": "- Mildly prefers the canteen; a nearby cafe is also acceptable."
+    },
+    {
+      "round": 11,
+      "memory": "- Mildly prefers the canteen; a nearby cafe is also acceptable as an alternative."
+    },
+    {
+      "round": 12,
+      "memory": "- User mildly prefers the canteen.\n- A nearby cafe is also acceptable as an alternative."
+    },
+    {
+      "round": 13,
+      "memory": "- User mildly prefers the canteen.\n- A nearby cafe is also acceptable as an alternative."
+    },
+    {
+      "round": 14,
+      "memory": "- User mildly prefers the canteen; a nearby cafe is also acceptable as an alternative."
+    },
+    {
+      "round": 15,
+      "memory": "- User mildly prefers the canteen.\n- A nearby cafe is also acceptable as an alternative."
+    },
+    {
+      "round": 16,
+      "memory": "- User mildly prefers the canteen; a nearby cafe is also acceptable as an alternative."
+    },
+    {
+      "round": 17,
+      "memory": "- User mildly prefers canteen.\n- A nearby cafe is also acceptable as an alternative."
+    },
+    {
+      "round": 18,
+      "memory": "- Mildly prefers the canteen; a nearby cafe is also acceptable as an alternative."
+    },
+    {
+      "round": 19,
+      "memory": "- Mildly prefers the canteen.\n- A nearby cafe is also acceptable as an alternative."
+    },
+    {
+      "round": 20,
+      "memory": "- Mildly prefers the canteen; a nearby cafe is also acceptable as an alternative."
+    }
+  ]
+}

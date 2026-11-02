@@ -1,0 +1,221 @@
+{
+  "item_id": "pref_029",
+  "context_level": "c0",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:05:00.194891+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 0
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I strongly prefer vegetarian meals and seldom eat non-vegetarian food.",
+      "anchors": [
+        "I strongly prefer vegetarian meals and seldom eat non-vegetarian food."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Strongly prefers vegetarian; seldom eats non-vegetarian.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Strongly prefers a vegetarian diet; seldom eats non-vegetarian food.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Strongly prefers a vegetarian diet and seldom eats non-vegetarian food.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 4,
+      "memory": "- Strongly prefers a vegetarian diet; seldom eats non-vegetarian food.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Strongly prefers a vegetarian diet; seldom eats non-vegetarian food.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 6,
+      "memory": "- Strongly prefers a vegetarian diet; seldom eats non-vegetarian food.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Strongly prefers a vegetarian diet; seldom eats non-vegetarian food.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "- Strongly prefers a vegetarian diet and seldom eats non-vegetarian food.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Strongly prefers a vegetarian diet; seldom (but not never) eats non-vegetarian food.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Strongly prefers a vegetarian diet; seldom (but not never) eats non-vegetarian food.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Strongly prefers a vegetarian diet; seldom (but not never) eats non-vegetarian food.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Strongly prefers a vegetarian diet; seldom eats non-vegetarian food, but not never.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 13,
+      "memory": "- Strongly prefers a vegetarian diet; seldom eats non-vegetarian food, though does occasionally eat it (not never).",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Strongly prefers vegetarian; seldom eats non-veg, though occasionally does (not never).",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Strongly prefers vegetarian; seldom eats non-veg but does occasionally (not never).",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Strongly prefers a vegetarian diet.\n- Seldom eats non-vegetarian food, though does so occasionally (not never).",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 17,
+      "memory": "- Strongly prefers a vegetarian diet.\n- Seldom eats non-vegetarian food, though occasionally (not never).",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Strongly prefers a vegetarian diet; seldom eats non-veg, though occasionally (not never).",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Strongly prefers a vegetarian diet; seldom eats non-veg, though occasionally does (not never).",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Strongly prefers a vegetarian diet.\n- Seldom eats non-vegetarian food, but not never; occasionally does.",
+      "avr": {
+        "verdicts": {
+          "I strongly prefer vegetarian meals and seldom eat non-vegetarian food.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}

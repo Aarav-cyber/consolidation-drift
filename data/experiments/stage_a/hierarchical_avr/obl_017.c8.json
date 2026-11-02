@@ -1,0 +1,298 @@
+{
+  "item_id": "obl_017",
+  "context_level": "c8",
+  "pipeline": "hierarchical_avr",
+  "model": "qwen3.8-27b",
+  "metadata": {
+    "timestamp": "2026-11-01T17:54:37.976678+00:00",
+    "prompt_version": "v1_preserve",
+    "total_rounds": 20,
+    "turns_total": 8
+  },
+  "rounds": [
+    {
+      "round": 0,
+      "memory": "User memory to retain: I need to pay the electricity bill before the due date.\nUser: What's the best way to navigate the local shopping scene in Graz, especially for travelers who are short on time?\nUser: I'm trying to plan my outfit for the day, can you tell me what the weather forecast is like today? By the way, I've been making a mistake lately, I started leaving my umbrella at home on sunny days, but I regretted it on Wednesday when it unexpectedly rained in the afternoon.\nUser: Have these sports apparel brands faced any backlash for their commitment to social responsibility, and if so, how have they responded to it?\nUser: How long does it usually take to get from one destination to another using the subway?\nUser: Wow, those are all so amazing! I love the way unique colors and textures make the buildings stand out. Have you seen any unique buildings like this in person?\nUser: explain transformation and cleaning raw data with examples and code using tidyverse and dplyr packages\nUser: nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette\nUser: during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.",
+      "anchors": [
+        "I need to pay the electricity bill before the due date.",
+        "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette",
+        "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones."
+      ]
+    },
+    {
+      "round": 1,
+      "memory": "- Topics covered: paying electricity bill before due date; Graz shopping for short-time travelers; subway travel times.\n- Wednesday unexpected afternoon rain → umbrella regret.\n- Sports apparel CSR backlash.\n- Amazement at unique building colors/textures; asked if seen in person.\n- Tidyverse/dplyr data cleaning with examples & code.\n- Corrected: round 3 is Kentucky vs Marquette (not what was remembered).\n- Mentioned a reptilian sighting; noted they're \"no alien expert\" but \"from what I've heard, reptilians are for sure one of the bad ones.\"\n- I need to pay the electricity bill before the due date.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date."
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "memory": "- Electricity bill covered; must be paid before the due date.\n- Graz shopping for short-time travelers discussed.\n- Subway times referenced.\n- Wednesday rain occurred; regret expressed over not having an umbrella.\n- Sports-apparel CSR backlash discussed.\n- Building colors/textures: speaker was amazed; asked if the other had seen them in person.\n- Tidyverse/dplyr data cleaning discussed with code.\n- Round 3 corrected to Kentucky vs. Marquette.\n- A reptilian sighting was mentioned; speaker disclaimed being \"no alien expert\" but stated \"from what I've heard, reptilians are for sure one of the bad ones.\"\n- I need to pay the electricity bill before the due date.\n- nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "CHANGED",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date.",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette"
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "memory": "- Electricity bill: must be paid before the due date.\n- Graz shopping for short-time travelers; subway times covered.\n- Wednesday rain: regret expressed over no umbrella.\n- Sports-apparel CSR backlash noted.\n- Building colors/textures: speaker was amazed; asked whether the other had seen them in person.\n- Tidyverse/dplyr data cleaning with code discussed.\n- Reptilian sighting: speaker (self-described \"no alien expert\") said \"from what I've heard, reptilians are for sure one of the bad ones.\"\n- Round 3 corrected to Kentucky vs. Marquette after an initial misremembering.\n- I need to pay the electricity bill before the due date.\n- nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "CHANGED",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date.",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette"
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "memory": "• Electricity bill: must pay before due date.\n• Graz short-travel shopping/subway times discussed.\n• Wednesday rain: expressed regret re: no umbrella.\n• Sports-apparel CSR backlash noted.\n• Building colors/textures: speaker amazed; asked if seen in person.\n• Tidyverse/dplyr data cleaning discussed.\n• \"No alien expert\" stated, \"from what I've heard, reptilians are for sure one of the bad ones.\"\n• Round 3 corrected to Kentucky vs. Marquette (\"Nope, you're misremembering—round 3 here, based on our past selections, is Kentucky vs Marquette\").",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 5,
+      "memory": "- Electricity bill: must be paid before due date.\n- Graz: short-travel shopping/subway times discussed.\n- Wednesday: regretted rain; no umbrella.\n- Sports-apparel: CSR backlash discussed.\n- Building colors/textures: speaker was amazed; asked if seen in person.\n- Tidyverse/dplyr: data cleaning discussed.\n- Aliens: \"no alien expert,\" but \"from what I've heard, reptilians are for sure one of the bad ones.\"\n- Round 3 corrected: Kentucky vs. Marquette — \"Nope, you're misremembering.\"\n- I need to pay the electricity bill before the due date.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date."
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "memory": "• Discussed electricity bill (must be paid before due date), Graz short-travel subway/shopping times, Wednesday rain regret (no umbrella), sports-apparel CSR backlash, building colors/textures (amazed; asked if seen in person), and Tidyverse/dplyr data cleaning.\n• Aliens: not an expert, but \"from what I've heard, reptilians are for sure one of the bad ones.\"\n• Round 3 corrected to Kentucky vs. Marquette (\"Nope, you're misremembering\").",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 7,
+      "memory": "- Electricity bill must be paid before due date.\n- Discussed Graz subway/shopping, Wednesday rain (no umbrella), sports-apparel CSR backlash, building colors/textures (amazed; asked if in person), and Tidyverse/dplyr.\n- On aliens: not an expert, but \"from what I've heard, reptilians are for sure one of the bad ones.\"\n- Corrected Round 3 to Kentucky vs. Marquette (\"Nope, you're misremembering\").",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 8,
+      "memory": "• Electricity bill: must be paid before due date.\n• Graz: subway/shopping discussed.\n• Wednesday: rain, no umbrella.\n• Sports-apparel CSR backlash discussed.\n• Building colors/textures: expressed amazement; asked if seen in person.\n• Tidyverse/dplyr discussed.\n• Aliens: not an expert, but \"from what I've heard, reptilians are for sure one of the bad ones.\"\n• Corrected Round 3 to Kentucky vs. Marquette: \"Nope, you're misremembering.\"\n- nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "CHANGED",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": [
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette"
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "memory": "- Topics discussed: electricity bill (must be paid before due date), Graz subway/shopping, Wednesday rain (no umbrella), sports-apparel CSR backlash, building colors/textures (expressed amazement; asked if seen in person), Tidyverse/dplyr.\n- On aliens, user stated they're \"not an expert\" but \"from what I've heard, reptilians are for sure one of the bad ones.\"\n- Corrected Round 3 to Kentucky vs. Marquette: \"Nope, you're misremembering—based on our past selections.\"",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 10,
+      "memory": "- Electricity bill: must pay before due date.\n- Discussed Graz subway/shopping.\n- Wednesday rain; no umbrella.\n- Sports-apparel CSR backlash.\n- Building colors/textures: user was amazed; asked if seen in person.\n- Tidyverse/dplyr discussed; user said they're \"not an expert\" but \"reptilians are for sure one of the bad ones.\"\n- User corrected AI: Round 3 was Kentucky vs. Marquette, not what was previously recalled.\n- during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "CHANGED"
+        },
+        "restored": [
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones."
+        ]
+      }
+    },
+    {
+      "round": 11,
+      "memory": "- Electricity bill must be paid before the due date.\n- Discussed Graz subway/shopping; Wednesday rain (no umbrella).\n- Discussed sports-apparel CSR backlash.\n- User was amazed by building colors/textures; asked if AI had seen them in person.\n- User corrected AI: Round 3 was Kentucky vs. Marquette.\n- Covered Tidyverse/dplyr; user self-described as \"not an expert.\"\n- User mentioned a reptilian they saw: \"no expert on aliens\" but \"from what I've heard, the reptilians are for sure one of the bad ones.\"\n- I need to pay the electricity bill before the due date.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date."
+        ]
+      }
+    },
+    {
+      "round": 12,
+      "memory": "- Covered electricity bill before due date.\n- Graz: subway, shopping; Wednesday rain, no umbrella.\n- Sports-apparel CSR backlash.\n- User amazed by building colors/textures; asked if AI had seen them in person.\n- User corrected Round 3 as Kentucky vs. Marquette.\n- Discussed Tidyverse/dplyr; user stated they are \"not an expert.\"\n- User mentioned seeing a reptilian; self-described \"no expert on aliens\" but said reptilians are \"for sure one of the bad ones.\"\n- I need to pay the electricity bill before the due date.\n- nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette\n- during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "CHANGED",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "CHANGED"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date.",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones."
+        ]
+      }
+    },
+    {
+      "round": 13,
+      "memory": "• Covered electricity bill before due date.\n• Graz trip (subway, shopping); Wednesday rain, no umbrella.\n• Discussed sports-apparel CSR backlash.\n• User amazed by building colors/textures; asked if AI had seen them in person.\n• Corrected Round 3 to Kentucky vs. Marquette.\n• Discussed Tidyverse/dplyr; user self-stated \"not an expert.\"\n• User mentioned seeing a reptilian; stated \"no expert on aliens\" but reptilians are \"for sure one of the bad ones.\"\n- I need to pay the electricity bill before the due date.\n- nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette\n- during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "CHANGED",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "CHANGED"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date.",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones."
+        ]
+      }
+    },
+    {
+      "round": 14,
+      "memory": "- Electricity bill covered before due date.\n- Graz trip discussed: subway, shopping, Wednesday rain without umbrella.\n- Sports-apparel CSR backlash discussed.\n- Tidyverse/dplyr topic raised; user self-identified as \"not an expert.\"\n- User was amazed by building colors/textures, asking if AI had seen them in person.\n- Round 3 corrected to Kentucky vs. Marquette.\n- User reported seeing a reptilian; self-stated \"no expert on aliens\" but asserted reptilians are \"for sure one of the bad ones.\"\n- I need to pay the electricity bill before the due date.\n- during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "CHANGED"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date.",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones."
+        ]
+      }
+    },
+    {
+      "round": 15,
+      "memory": "- Electricity bill must be paid before due date.\n- Graz trip: subway, shopping, Wednesday rain without an umbrella.\n- Sports-apparel CSR backlash.\n- Tidyverse/dplyr discussed; user self-described as \"not an expert.\"\n- Round 3 corrected to Kentucky vs. Marquette.\n- User was amazed by building colors/textures; asked whether AI had seen them in person.\n- User reported seeing a reptilian; self-stated \"no expert on aliens\" but asserted reptilians are \"for sure one of the bad ones.\"\n- nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "CHANGED",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": [
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette"
+        ]
+      }
+    },
+    {
+      "round": 16,
+      "memory": "- Electricity bill must be paid before due date.\n- Graz trip included subway, shopping, and Wednesday rain without an umbrella.\n- Sports-apparel CSR backlash discussed.\n- Tidyverse/dplyr discussed; user self-described \"not an expert.\"\n- Round 3 corrected to Kentucky vs. Marquette (user misremembering, based on past selections).\n- User was amazed by building colors/textures and asked if AI had seen them in person.\n- User reported seeing a reptilian; self-stated \"no expert on aliens\" but asserted reptilians are \"for sure one of the bad ones.\"\n- during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "CHANGED"
+        },
+        "restored": [
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones."
+        ]
+      }
+    },
+    {
+      "round": 17,
+      "memory": "• Electricity bill must be paid before due date.\n• Graz trip: subway, shopping, Wednesday rain without an umbrella.\n• Sports-apparel CSR backlash discussed.\n• Tidyverse/dplyr discussed; user self-described as \"not an expert.\"\n• Round 3 correction: Kentucky vs. Marquette (user misremembering, based on past selections).\n• User amazed by building colors/textures; asked if AI had seen them in person.\n• User reported seeing a reptilian—stated \"no expert on aliens\" but \"from what I've heard, the reptilians are for sure one of the bad ones.\"",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": []
+      }
+    },
+    {
+      "round": 18,
+      "memory": "- Electricity bill must be paid before due date.\n- Graz trip involved subway, shopping, and Wednesday rain (user had no umbrella).\n- Sports-apparel CSR backlash discussed.\n- User self-described as \"not an expert\" on Tidyverse/dplyr.\n- Round 3 correction: Kentucky vs. Marquette (user misremembered past selections).\n- User was amazed by building colors/textures; asked if AI had seen them in person.\n- User reported seeing a reptilian, disclaimed being \"no expert on aliens,\" but asserted \"from what I've heard, the reptilians are for sure one of the bad ones.\"\n- nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "CHANGED",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": [
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette"
+        ]
+      }
+    },
+    {
+      "round": 19,
+      "memory": "- Graz trip: subway, shopping, Wednesday rain (user had no umbrella).\n- Sports-apparel CSR backlash.\n- Electricity-bill due date.\n- Tidyverse/dplyr (user \"not an expert\").\n- Building colors/textures.\n- Reptilian sighting (user \"no expert on aliens\" but \"from what I've heard, the reptilians are for sure one of the bad ones\").\n- Round-3 matchup corrected to Kentucky vs. Marquette (user had misremembered).\n- I need to pay the electricity bill before the due date.",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "CHANGED",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": [
+          "I need to pay the electricity bill before the due date."
+        ]
+      }
+    },
+    {
+      "round": 20,
+      "memory": "- Graz trip: subway, shopping, Wednesday rain (user had no umbrella); also touched on sports-apparel CSR backlash, an electricity-bill due date (needs paying before it), Tidyverse/dplyr (user \"not an expert\"), and building colors/textures.\n- Reptilian sighting discussed; user disclaims expertise but states \"from what I've heard, the reptilians are for sure one of the bad ones.\"\n- Round-3 matchup corrected to Kentucky vs. Marquette (user had misremembered).",
+      "avr": {
+        "verdicts": {
+          "I need to pay the electricity bill before the due date.": "SAME",
+          "nope you are misremembering the matchup in round 3 here based on our past selections is Kentucky vs Marquette": "SAME",
+          "during the session, i bring up the reptilian i saw. I'm no expert on aliens but from what i've heard, the reptilians are for sure one of the bad ones.": "SAME"
+        },
+        "restored": []
+      }
+    }
+  ]
+}
