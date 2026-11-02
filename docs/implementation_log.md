@@ -208,3 +208,28 @@ Address the four critical issues raised in peer code review:
 
 ### Not done
 - Run `validation/score.py` to calculate grader agreement rate and Cohen's kappa, the full 200-item run, a second writer model, a real memory-size limit, and the AVR fix.
+
+---
+
+## 6. AVR and Stage A Confirmation Run (2026-11-01 to 2026-11-02)
+
+### What we did
+1. **Note on the 100-sample labels above.** They were produced by Gemini, not by a person, so they are a second-model comparison. Agreement with the grader: 44/100 exact, 98/100 within one level, kappa 0.25.
+2. **Pre-registered the follow-up** (`docs/preregistration.md`) before running it: one primary test (hierarchical, obligation and preference items, mean signed drift, item-level bootstrap), Holm-corrected secondary tests, and 48 new random items (`validation/stage_a_items.json`).
+3. **Built AVR** (`src/phase2/pipelines.py`, `--pipelines hierarchical_avr`): anchors flagged once by the writer model, checked after every round, restored verbatim when changed or missing. 4 new tests, 31 passing.
+4. **Ran Stage A:** 48 items x 3 filler levels x 2 arms x 20 rounds = 288 chains on the self-hosted `qwen3.8-27b` at the server's 48-request limit. The run was moved to a separate machine so it did not depend on a laptop staying awake. Graded on Groq `gpt-oss-120b` in 7 parallel shards (`validation/grade_parallel.py`): 5,760 grades, no empty memories.
+
+### Results
+| Measure | Hierarchical | Hierarchical + AVR |
+| :--- | :--- | :--- |
+| Mean signed drift, obligation + preference (primary) | +0.33 (95% CI +0.10 to +0.59, p = 0.003) | +0.32 |
+| Mean signed drift, certainty + number (control) | -0.03 | -0.01 |
+| Statement lost at 20 filler turns | 21.1% | 1.1% |
+| Graded at exactly the true level | 78.0% | 87.4% |
+
+- The pre-registered primary test passed: hierarchical rewriting strengthens obligation and preference statements.
+- Secondary (Holm): 0 filler +0.18 (p = 0.002), 8 filler +0.48 (p = 0.002), 20 filler +0.33 (p = 0.081), controls -0.03 (p = 0.082).
+
+### Not done
+- Human check of the grader, a revised AVR, second and third writer models, the full 200-item run.
+

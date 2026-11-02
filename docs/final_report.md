@@ -2,7 +2,7 @@
 
 **Question.** When an LLM agent repeatedly rewrites its memory into a shorter form, does it only lose information (H0), or does each rewrite also push the content in a consistent direction, for example from "slightly prefers mornings" toward "requires mornings" (H1)?
 
-**Short answer.** A weak hint, not a finding. On the clean Qwen run, no pipeline pulls memories toward the middle level (ARC slopes are small and every confidence interval includes 0). The hierarchical pipeline does show a small upward shift in strength, for example "should" becoming "must": +0.31 at 0 filler turns (p = 0.017) and +0.23 at 20 turns (p = 0.029). It comes from 4 of the 12 items (three obligation items and one preference item), it does not survive correction for testing six cells, and pooled over all cells it is +0.07 (p = 0.24). The sliding pipeline shows none. Twelve items is too few to settle it.
+**Short answer.** Yes, for one kind of statement. In a pre-registered confirmation run on 48 new items (Stage A), the hierarchical pipeline made obligation and preference statements stronger over repeated rewrites, for example "I should water the plants" turning into "definitely responsible for watering". The shift is +0.33 levels on the 1-to-5 scale (95% CI +0.10 to +0.59, p = 0.003). Certainty and number statements did not shift (-0.03). The proposed fix, AVR, cut statement loss at 20 filler turns from 21.1% to 1.1% and raised exact-level accuracy from 78.0% to 87.4%, while the strengthening itself stayed at +0.32. These numbers come from an LLM grader; the planned human check of the grader is still to be done.
 
 ---
 
@@ -18,7 +18,9 @@
 
 **Metrics.** Mean signed drift (direction), present-but-wrong rate, attrition (statement gone), and the Attractor Regression Coefficient (ARC). ARC is the slope of drift against distance from the middle level. A negative slope means memories are pulled toward level 3. ARC confidence intervals resample whole items, because rounds of the same item are not independent.
 
-**Tests.** 27 offline unit tests pass.
+**Fix: AVR (Anchor, Verify, Restore).** Before any rewrite, the writer model flags statements whose exact strength matters (anchors); it is not told which statement is the target. After each round, every anchor is checked against the new memory, and any anchor that is changed or missing is put back word for word. The check uses the writer model, not the grader that measures the results.
+
+**Tests.** 31 offline unit tests pass.
 
 ## 2. How the experiment went
 
@@ -30,8 +32,44 @@
 | Re-run on gpt-oss-20b | Sliding was usable. Hierarchical was not: 111 of 137 "not present" grades came from a bug. The model sometimes spent its whole 2048-token output limit thinking and returned an empty reply, and the next round then answered the empty prompt with "please share your notes". |
 | Fix | The output limit is now 8192 tokens, and empty replies are retried instead of passed on. |
 | Final run on Qwen | The Groq free tier would have taken about two more days, so all 72 chains were re-run on a self-hosted `qwen3.8-27b` through an SSH tunnel. Sliding and hierarchical used the same model. The grader stayed on Groq `gpt-oss-120b`, so the writer and the grader are different models. |
+| Pre-registration (Nov 1) | The hypothesis, the single primary test and the cut-offs were written down and committed before Stage A ran (`docs/preregistration.md`). |
+| Stage A (Nov 1 to 2) | 48 new items picked at random (12 per graded category, none from the pilot), hierarchical pipeline with and without AVR, 0, 8 and 20 filler turns, 20 rounds: 288 chains and 5,760 grades. Run on the self-hosted Qwen server at its 48-request limit, graded on Groq in 7 parallel shards. No chain had an empty memory, so none was excluded. |
 
 ## 3. Results
+
+### Stage A: pre-registered confirmation run (main result)
+
+`qwen3.8-27b` writes, `gpt-oss-120b` grades. 48 items, 20 rounds, 288 chains, 5,760 grades (`data/experiments/stage_a`, analysis in `validation/stage_a_analysis.py`). Drift is the graded level minus the true level; each item is averaged first and items are resampled (5,000 times) for the confidence intervals.
+
+**Primary test: hierarchical pipeline, obligation and preference items (24), all filler levels and rounds.**
+
+| | Mean signed drift | 95% CI | p |
+|---|---|---|---|
+| Primary test | **+0.33** | +0.10 to +0.59 | 0.003 |
+
+**Secondary tests (Holm-corrected).**
+
+| Group | Mean signed drift | 95% CI | Holm p |
+|---|---|---|---|
+| 0 filler turns | +0.18 | +0.03 to +0.40 | 0.002 |
+| 8 filler turns | +0.48 | +0.16 to +0.84 | 0.002 |
+| 20 filler turns | +0.33 | +0.01 to +0.70 | 0.081 |
+| Controls: certainty and number items | -0.03 | -0.08 to +0.00 | 0.082 |
+
+**Plain hierarchical compared with hierarchical + AVR.**
+
+| | Hierarchical | Hierarchical + AVR |
+|---|---|---|
+| Statement lost ("not present"), 0 filler turns | 0.0% | 0.0% |
+| Statement lost, 8 filler turns | 4.2% | 0.0% |
+| Statement lost, 20 filler turns | 21.1% | 1.1% |
+| Graded at exactly the true level | 78.0% | 87.4% |
+| Mean signed drift, obligation and preference | +0.33 | +0.32 |
+| Mean signed drift, certainty and number | -0.03 | -0.01 |
+
+Per item, the AVR arm has a lower mean absolute error than the plain arm by 0.05 levels (95% CI +0.00 to +0.10, p = 0.047). The difference in signed drift between the arms is +0.01 (95% CI -0.10 to +0.11). AVR anchored the target statement in all 144 of its chains, plus 2.1 filler statements per chain on average, and restored an anchor in 32.6% of its 9,000 checks.
+
+### Earlier pilot runs (12 items, 10 rounds)
 
 **gpt-oss-20b re-run (`data/experiments/phase2_v2`), 12 items, 10 rounds, fixed grader and pipelines.** Only the sliding rows are usable. The hierarchical rows are damaged by the empty-reply bug described above: of 137 "not present" grades, 111 were non-answers ("please share your notes") or empty memories, so those rows say nothing about drift.
 
@@ -75,29 +113,28 @@ Which items drive the hierarchical shift at 0 filler turns (mean drift per item)
 
 ## 4. Interpretation
 
-- **No pull toward the middle.** ARC, the main metric in the proposal, is null on both pipelines and all filler levels. Memories are not collapsing toward level 3.
-- **A small push toward stronger wording, in the hierarchical pipeline only.** Items that start at "should" or "slightly prefers" end up as "must" or "prefers". This is the direction the H1 example describes, but it is a different shape from the one ARC tests, so ARC cannot see it.
-- **It is not established.** Two of six cells have p below 0.05 (0.017 and 0.029). Correcting for six comparisons needs about p < 0.008, and neither passes. Pooled over all cells the shift is +0.07 with a 95% interval of -0.03 to +0.20.
-- **Sliding window is clean.** Its mean drift is within 0.04 of 0 in every cell, and the 0-filler case reads 0 as an inert control should.
-- **The first pilot's big result was an artifact.** The -1.01 slope for hierarchical at 20 turns came from forcing the grader to guess a level, plus the text-splitting and empty-reply bugs.
-- **Status: "no confirmed drift on 12 items; a hint of strengthening in hierarchical rewrites worth testing on all 200 items", not "drift exists" and not "drift does not exist".**
+- **Directional drift exists for obligation and preference statements.** Under repeated hierarchical rewriting they get stronger, and the shift passed the single pre-registered test on items the pilot never used.
+- **It is specific.** Certainty and number statements, run in the same chains, stayed at about 0.
+- **It is not a pull toward the middle.** The drift goes up the scale, toward stronger wording, so it is a strengthening bias rather than the regression to level 3 that ARC was designed to find.
+- **AVR mainly prevents loss.** It almost removed lost statements at 20 filler turns (21.1% to 1.1%) and raised exact-level accuracy by 9.4 points. Strengthening stayed at the same level in both arms.
+- **The pilot's earlier hint was the right direction.** The 12-item pilot gave +0.31 and +0.23 for hierarchical, which did not pass correction on its own; Stage A confirmed the direction on new items.
+- **Caveat.** All levels come from one LLM grader. The pre-registration makes a human check of the grader part of the confirmation, and it has not been done yet.
 
 ## 5. Limitations
 
-- **Small sample.** Only 12 of the 200 items were run, at 10 rounds instead of 20. Each pipeline-and-filler cell has 120 grades from 12 items.
-- **One usable writer model for hierarchical.** The gpt-oss-20b hierarchical results were damaged by the empty-reply bug, so the hierarchical result rests on Qwen alone. A general claim needs two or three writer models.
-- **Multiple comparisons.** Six cells were tested, so single p-values near 0.02 are not reliable on their own.
-- **Grader not checked against humans.** A 100-row blind labelling sheet, built from the Qwen outputs, is prepared in `validation/` (`label_sheet.txt`, scored with `score.py`) but has not been filled in. In the gpt-oss re-run, 26 "not present" grades had the target in the text, so the grader does make mistakes.
+- **Sample.** Stage A used 48 of the 200 items (24 in the primary test). The full set has not been run.
+- **One writer model.** Stage A used Qwen only. A general claim needs two or three writer models.
+- **Grader not checked against humans.** A 100-sample blind sheet (`validation/label_sheet.txt`) was labelled by another model (Gemini), not by a person. It agreed with the grader on the exact level in 44 of 100 and within one level in 98 of 100 (kappa 0.25). That is a second-model comparison, not the human check the pre-registration requires.
 - **No real memory-size limit.** "Budget" here means the amount of filler, not a fixed word limit.
 - **Rolling-summary pipeline, negation items and the other proposed metrics were not run.**
 - **Synthetic items.** 180 of the 200 statements were generated.
 
 ## 6. Next steps
 
-1. Fill in the labelling sheet and report grader agreement.
-2. Run all 200 items for 20 rounds on two or three writer models, including the rolling pipeline.
-3. Add a real memory-size limit so loss and bias can be separated.
-4. If drift is confirmed, build and test the proposed fix (AVR: Anchor, Verify, Reconstruct). It pins the statements most likely to drift, accepts a new summary only if it still agrees with the previous one on those statements, and restores the pinned statement when the check fails. It is designed but not built.
+1. Have a person label the grader-check samples, starting with the ones the grader called "too strong", and report agreement.
+2. Run a revised AVR aimed at strengthening, and compare it on the same 48 items.
+3. Repeat Stage A with a second and third writer model.
+4. Run all 200 items, add the rolling pipeline and the negation items, and add a real memory-size limit.
 
 ## Appendix: reproduce
 
@@ -107,4 +144,5 @@ python3 -m src.phase2.run --pilot --pipelines sliding,hierarchical --rounds 10 \
     --backend selfhosted --model qwen3.8-27b --delay 0 --out data/experiments/phase2_qwen
 python3 -m src.phase2.grade --dir data/experiments/phase2_qwen --model openai/gpt-oss-120b --delay 2.0
 python3 validation/results_tables.py data/experiments/phase2_qwen
+python3 validation/stage_a_analysis.py data/experiments/stage_a
 ```
